@@ -1,0 +1,37 @@
+{
+  "simulation": {
+    "dimension": 2,
+    "time_slices": 16,
+    "n_configurations": 80,
+    "mean_vertices": 338.45,
+    "mean_volume": 676.9
+  },
+  "spectral_dimension": {
+    "ds_min": 0.22189035531675186,
+    "ds_max": 3.4007144371893645,
+    "mean_error": 0.009879699608322166
+  },
+  "t1_no_injection": {
+    "residual_rms": 0.009701668979072495,
+    "peak_snr": 1414510.617628655,
+    "p_value": 1e-20
+  },
+  "t1_with_injection_nu_1e-3": {
+    "residual_rms": 0.009788199553037042,
+    "peak_snr": 1462958.6095176437,
+    "p_value": 1e-20
+  },
+  "sensitivity": {
+    "configs_for_3sigma": 847.1014288154779,
+    "configs_for_5sigma": 2353.059524487438,
+    "note": "Projected from 2D CDT. 4D CDT may differ by O(1) factor."
+  },
+  "runtime_seconds": 7.101483106613159,
+  "next_steps": [
+    "1. Install CDT-plusplus (github.com/acgetchell/CDT-plusplus) for 4D CDT",
+    "2. Generate C-phase configurations with N4 ~ 10^5-10^6 simplices",
+    "3. Export d_s(\u03c3) measurements in CSV format",
+    "4. Feed into t1_fourier_analysis() from this pipeline",
+    "5. Compare \u03b4d_Pl with \u03bd from DESI (two-point test T3)"
+  ]
+}
