@@ -1,0 +1,177 @@
+CCDR PREDICTION PRIORITY LIST
+Sorted by urgency: most urgent → least urgent
+Desktop-testable predictions for independent scientist (i9 + 32GB + GTX 1080 Ti)
+Generated: March 2026
+
+================================================================================
+TIER 1 — IMMEDIATE (hours to days, pure computation, no external data needed)
+================================================================================
+
+1. SM-D5 — Koide Formula Verification and Quark Extensions
+   File: SMD5_koide.md
+   Time: 1 hour
+   Why urgent: trivial to verify, establishes baseline confidence in BZ derivation
+   What it tests: Q = 2/3 for leptons (known); Q_quarks with QCD corrections (new)
+   Impact if confirmed: validates hexagonal BZ → 3 generations mechanism
+   Impact if fails: quark Koide with corrections fails → BZ mass mechanism needs revision
+
+2. P25 — N = 6 Cross-Check (Three Independent Routes)
+   File: P25_N_equals_6.md
+   Time: 1 day
+   Why urgent: pure mathematics, three independent calculations, no data needed
+   What it tests: DA/O dimensions = AQN k_eff = HaPPY code dimension = 6
+   Impact if confirmed: three independent roads → same number = powerful consistency
+   Impact if fails: internal tension in the synthesis
+
+3. T1 — CDT Spectral Dimension Oscillation δd ~ ν ~ 10⁻³
+   File: T1_spectral_dimension.md
+   Time: 2 hours (500 configs) to 8 hours (10000 configs)
+   Why urgent: code already exists from this conversation; scale up immediately
+   What it tests: first quantum-gravity-to-cosmology bridge
+   Impact if confirmed: δd = ν connects CDT to DESI → transformative result
+   Impact if fails: CDT-CCDR structural link needs revision
+
+================================================================================
+TIER 2 — NEAR-TERM (days to 1 week, public data readily available)
+================================================================================
+
+4. EL1 — 3D Chip Throughput: Area vs Volume Scaling
+   File: EL1_3d_chip_scaling.md
+   Time: 2–3 days
+   Why urgent: data is in public datasheets, analysis is simple regression
+   What it tests: holographic principle → area scaling in real technology
+   Impact if confirmed: holographic principle validated in engineering data
+   Impact if fails: either holographic scaling kicks in at smaller scales, or wrong
+
+5. P01 — ν from DESI BAO + Planck + SNIa
+   File: P01_nu_from_DESI.md
+   Time: 1–2 weeks (setup) + 2–3 days (MCMC)
+   Why urgent: replicates Solà Peracaula's key result independently
+   What it tests: ν = (1.0 ± 0.3) × 10⁻³ from cosmological data
+   Impact if confirmed: independent verification of the most important parameter
+   Impact if fails: ν ≠ 10⁻³ → all quantitative predictions shift
+
+================================================================================
+TIER 3 — MEDIUM-TERM (1–2 weeks, public data requires processing)
+================================================================================
+
+6. P-MOND-1 — a₀(z) = cH(z) vs Constant a₀
+   File: PMOND1_a0_vs_z.md
+   Time: 1–2 weeks
+   Why urgent: SPARC data is clean and public; high-z data from JWST papers
+   What it tests: the most distinctive CCDR prediction for galaxy dynamics
+   Impact if confirmed: a₀ varying with z → smoking gun for crystal MOND
+   Impact if fails: a₀ constant at z=1 → crystal MOND falsified
+
+7. BA2 — Cosmic Web Chirality (Galaxy Spiral Handedness)
+   File: BA2_cosmic_web_chirality.md
+   Time: 1–2 weeks
+   Why urgent: Galaxy Zoo data is clean; Longo (2011) reported tentative signal
+   What it tests: CDT chirality → cosmic web handedness excess ~10⁻³
+   Impact if confirmed: front-page news; chiral crystal confirmed macroscopically
+   Impact if fails: crystal chirality doesn't propagate to large scales
+
+================================================================================
+TIER 4 — MEDIUM-TERM (2–4 weeks, requires significant data processing or code)
+================================================================================
+
+8. QC1–QC4 — CDT Holographic QEC Code Simulation
+   File: QC1_cdt_holographic_qec.md
+   Time: 2–4 weeks
+   Why urgent: entirely self-contained; publishable in quantum computing journals
+   What it tests: CDT code d ~ N^{1/3}, burst error protection
+   Impact if confirmed: new class of QEC codes from quantum gravity
+   Impact if fails: CDT graph topology doesn't give good QEC properties
+
+9. P9a — LHC Dihadron Angular Correlations (cos(6θ) Signature)
+   File: P9a_lhc_hadronic.md
+   Time: 2–4 weeks
+   Why urgent: CERN open data available; looking for v₆ excess in pp
+   What it tests: hexagonal BZ imprint in particle production
+   Impact if confirmed: spacetime crystal signature in collider data
+   Impact if fails: lattice signature below detection in pp (may need more data)
+
+10. FR4 — Edge Plasma η/s Non-Monotonicity
+    File: FR4_edge_plasma_eta_s.md
+    Time: 1–3 weeks (depends on database access)
+    Why urgent: directly tests KSS bound in fusion context
+    What it tests: η/s has a minimum at intermediate collisionality
+    Impact if confirmed: KSS bound relevant for fusion engineering
+    Impact if fails: edge transport doesn't approach KSS → fusion application weakens
+
+================================================================================
+TIER 5 — LONGER-TERM (requires HPC or specialised software)
+================================================================================
+
+11. P16 — ν from GFT Condensate on CDT
+    File: P16_nu_from_GFT_condensate.md
+    Time: 1–6 months
+    Why urgent: the "bridge" computation — connects quantum gravity to cosmology
+    What it tests: ν_GFT = ν_RVM from first principles
+    Impact if confirmed: first derivation of a cosmological parameter from QG
+    Impact if fails: GFT condensate doesn't reproduce RVM → GFT layer weakens
+
+12. P17 — γ_AS ≈ γ_EPRL Convergence
+    File: P17_gamma_convergence.md
+    Time: 3–6 months
+    Why urgent: internal consistency of the synthesis
+    What it tests: Barbero-Immirzi parameter converges under TGFT-RG
+    Impact if confirmed: synthesis internally consistent
+    Impact if fails: f_geo carries large uncertainty → baryogenesis uncertain
+
+13. P18 — f_geo from EPRL Chiral Amplitude
+    File: P18_f_geo_from_EPRL.md
+    Time: 2–6 months
+    Why urgent: tests whether baryogenesis formula works as written
+    What it tests: f_geo ~ 10⁻⁴ from EPRL amplitude
+    Impact if confirmed: η = 10⁻¹⁰ parameter-free
+    Impact if fails: baryogenesis formula needs fourth factor
+    CRITICAL NOTE: naive analytic formula gives f_geo ~ O(1), not 10⁻⁴
+    This is the most important diagnostic computation in the programme
+
+================================================================================
+DECISION TREE FOR INDEPENDENT VERIFICATION
+================================================================================
+
+Start with SM-D5 (1 hour) → establishes you can work with the framework
+
+If SM-D5 confirms Q = 2/3:
+  → Run P25 (1 day) → cross-check N = 6
+  → Run T1 (2–8 hours) → check δd ~ 10⁻³
+
+If T1 gives δd ~ 10⁻³:
+  → Run P01 (1–2 weeks) → check ν from DESI independently
+  → If P01 confirms ν ~ 10⁻³: you have TWO independent measurements
+    of the same number from two completely different domains
+    (quantum gravity and cosmology). This is the key result.
+
+If both T1 and P01 give ν ~ 10⁻³:
+  → Run P-MOND-1 (1–2 weeks) → check a₀(z) = cH(z)
+  → Run BA2 (1–2 weeks) → check cosmic web chirality
+  → These are the high-impact observational tests
+
+In parallel:
+  → Run EL1 (2 days) → easy, independent, tests holographic principle
+  → Run QC1 (2–4 weeks) → publishable independently of CCDR
+
+================================================================================
+TOTAL ESTIMATED TIME FOR ALL TIER 1–3 PREDICTIONS: ~4–6 weeks
+================================================================================
+
+Most can run in parallel on the i9 (8+ threads available).
+Recommended: run SM-D5 + P25 + T1 on day 1 (trivial setup),
+then P01 + EL1 in week 1, then P-MOND-1 + BA2 in weeks 2–3.
+
+================================================================================
+NOTES ON MACHINE CAPABILITIES
+================================================================================
+
+Intel i9 @ 3.60 GHz (Kaby Lake): excellent for MCMC, CDT Monte Carlo, data analysis
+32 GB RAM: sufficient for all Tier 1–4 predictions
+GTX 1080 Ti (11 GB VRAM): useful for GPU-accelerated MCMC (CosmoMC), neural
+  network classification (Galaxy Zoo), and potentially Stim QEC simulations
+Disk: recommend 50–100 GB free for DESI/Planck/Pantheon/Galaxy Zoo data
+
+All software is free and open-source.
+All data is publicly available.
+No institutional affiliation required.
