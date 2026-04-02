@@ -115,3 +115,76 @@ Group-theoretic investigation of why 2/3, 8/9, 3/4 (finds that the correction δ
 Cross-generation triplet analysis (τ, t, b)
 
 The key revision to the synthesis: The Koide ratio is representation-dependent, not universal. It encodes more structure than originally claimed — the values 2/3, 8/9, 3/4 carry information about both the hexagonal BZ symmetry (C₆ᵥ) and the colour/charge content (SU(3) × U(1)_em). Deriving Q_up = 8/9 and Q_down = 3/4 from C₆ᵥ × SU(3) × U(1) representation theory is now an explicit open problem — and a very tractable one.
+
+============================================================
+T1 TEST: Spectral Dimension Oscillation
+Target: delta_d ~ nu ~ 10^-3
+Configs: 2500, T=20, N_spatial=25
+============================================================
+Vertices: 500
+Thermalising... done (acceptance: 0.130)
+  Config 50/2500 (0.1 cfg/s, ETA: 23633s)
+  Config 100/2500 (0.1 cfg/s, ETA: 23302s)
+  Config 150/2500 (0.1 cfg/s, ETA: 23472s)
+  Config 200/2500 (0.1 cfg/s, ETA: 23333s)
+  Config 250/2500 (0.1 cfg/s, ETA: 23203s)
+  Config 300/2500 (0.1 cfg/s, ETA: 22996s)
+  Config 350/2500 (0.1 cfg/s, ETA: 22750s)
+  Config 400/2500 (0.1 cfg/s, ETA: 22419s)
+  Config 450/2500 (0.1 cfg/s, ETA: 22026s)
+  Config 500/2500 (0.1 cfg/s, ETA: 21600s)
+  Config 550/2500 (0.1 cfg/s, ETA: 21183s)
+  Config 600/2500 (0.1 cfg/s, ETA: 20755s)
+  Config 650/2500 (0.1 cfg/s, ETA: 20314s)
+  Config 700/2500 (0.1 cfg/s, ETA: 19859s)
+  Config 750/2500 (0.1 cfg/s, ETA: 19383s)
+  Config 800/2500 (0.1 cfg/s, ETA: 18895s)
+  Config 850/2500 (0.1 cfg/s, ETA: 18398s)
+  Config 900/2500 (0.1 cfg/s, ETA: 17924s)
+  Config 950/2500 (0.1 cfg/s, ETA: 17441s)
+  Config 1000/2500 (0.1 cfg/s, ETA: 16948s)
+  Config 1050/2500 (0.1 cfg/s, ETA: 16450s)
+  Config 1100/2500 (0.1 cfg/s, ETA: 15948s)
+  Config 1150/2500 (0.1 cfg/s, ETA: 15430s)
+  Config 1200/2500 (0.1 cfg/s, ETA: 14913s)
+  Config 1250/2500 (0.1 cfg/s, ETA: 14386s)
+  Config 1300/2500 (0.1 cfg/s, ETA: 13855s)
+  Config 1350/2500 (0.1 cfg/s, ETA: 13304s)
+  Config 1400/2500 (0.1 cfg/s, ETA: 12767s)
+  Config 1450/2500 (0.1 cfg/s, ETA: 12216s)
+  Config 1500/2500 (0.1 cfg/s, ETA: 11659s)
+  Config 1550/2500 (0.1 cfg/s, ETA: 11102s)
+  Config 1600/2500 (0.1 cfg/s, ETA: 10536s)
+  Config 1650/2500 (0.1 cfg/s, ETA: 9965s)
+  Config 1700/2500 (0.1 cfg/s, ETA: 9393s)
+  Config 1750/2500 (0.1 cfg/s, ETA: 8820s)
+  Config 1800/2500 (0.1 cfg/s, ETA: 8243s)
+  Config 1850/2500 (0.1 cfg/s, ETA: 7668s)
+  Config 1900/2500 (0.1 cfg/s, ETA: 7092s)
+  Config 1950/2500 (0.1 cfg/s, ETA: 6512s)
+  Config 2000/2500 (0.1 cfg/s, ETA: 5929s)
+  Config 2050/2500 (0.1 cfg/s, ETA: 5344s)
+  Config 2100/2500 (0.1 cfg/s, ETA: 4756s)
+  Config 2150/2500 (0.1 cfg/s, ETA: 4168s)
+  Config 2200/2500 (0.1 cfg/s, ETA: 3578s)
+  Config 2250/2500 (0.1 cfg/s, ETA: 2985s)
+  Config 2300/2500 (0.1 cfg/s, ETA: 2392s)
+  Config 2350/2500 (0.1 cfg/s, ETA: 1796s)
+  Config 2400/2500 (0.1 cfg/s, ETA: 1199s)
+  Config 2450/2500 (0.1 cfg/s, ETA: 700s)
+  Config 2500/2500 (0.1 cfg/s, ETA: 0s)
+
+============================================================
+RESULTS
+============================================================
+Configurations: 2500
+<d_s> at large sigma: 0.034
+Residual RMS (delta_d): 35.44689
+Target delta_d = nu: 0.001
+Mean statistical error: 1.46340
+Significance: 24.2 sigma
+Time: 34920.1s
+
+[PASS] OSCILLATION DETECTED at > 3 sigma
+
+Plot saved: T1_spectral_dimension.png
