@@ -19,66 +19,91 @@ import time
 
 def load_triangulation_off(filename):
     """
-    Load a triangulation from .off (Object File Format).
-    Returns: adjacency dict (simplex_id -> set of neighbour simplex_ids)
+    Load a triangulation from standard OFF or CDT-plusplus CGAL format.
 
-    OFF format:
-    OFF
-    n_vertices n_faces n_edges
-    x y z       (vertex coordinates, n_vertices lines)
-    3 v1 v2 v3  (faces as vertex index lists, n_faces lines)
+    Standard OFF format:
+        OFF
+        n_vertices n_faces n_edges
+        x y z
+        3 v1 v2 v3
+
+    CDT-plusplus CGAL format (.off files):
+        dimension        (e.g. 3)
+        n_vertices       (e.g. 383)
+        x y z            (vertex coords, n_vertices lines)
+        n_simplices      (e.g. 1400)
+        v1 v2 v3 v4      (simplex vertex indices, n_simplices lines)
+        ... (trailing data ignored)
     """
     adj = defaultdict(set)
     vertices = []
-    faces = []
+    simplices = []
 
     with open(filename, 'r') as f:
-        header = f.readline().strip()
-        if header != 'OFF':
-            raise ValueError(f"Not an OFF file: {header}")
-        counts = f.readline().split()
-        n_v, n_f, n_e = int(counts[0]), int(counts[1]), int(counts[2])
+        first_line = f.readline().strip()
 
-        # Read vertices
-        for _ in range(n_v):
-            coords = [float(x) for x in f.readline().split()]
-            vertices.append(coords)
+        if first_line == 'OFF':
+            # Standard OFF format
+            counts = f.readline().split()
+            n_v, n_f = int(counts[0]), int(counts[1])
+            for _ in range(n_v):
+                coords = [float(x) for x in f.readline().split()]
+                vertices.append(coords)
+            for _ in range(n_f):
+                parts = [int(x) for x in f.readline().split()]
+                n_verts = parts[0]
+                simplices.append(tuple(sorted(parts[1:1 + n_verts])))
+        else:
+            # CDT-plusplus CGAL format: first line is dimension
+            dim = int(first_line)
+            n_v = int(f.readline().strip())
 
-        # Read faces (simplices)
-        for i in range(n_f):
-            parts = [int(x) for x in f.readline().split()]
-            n_verts = parts[0]
-            face_verts = tuple(sorted(parts[1:1 + n_verts]))
-            faces.append(face_verts)
+            # Read vertices
+            for _ in range(n_v):
+                line = f.readline().strip()
+                if not line:
+                    continue
+                coords = [float(x) for x in line.split()]
+                vertices.append(coords)
 
-    # Build adjacency: two simplices are adjacent if they share d vertices
-    # (For tetrahedra in 3D: share a triangular face = 3 vertices)
-    # This is O(n^2) for simplicity; for large N use a hash map
+            # Read number of simplices
+            n_s = int(f.readline().strip())
 
-    # Build face-to-simplex map
-    d = len(faces[0]) - 1  # dimension
+            # Read simplices (each line: v1 v2 ... v_{dim+1})
+            for _ in range(n_s):
+                line = f.readline().strip()
+                if not line:
+                    continue
+                parts = [int(x) for x in line.split()]
+                if len(parts) >= dim + 1:
+                    simplices.append(tuple(sorted(parts[:dim + 1])))
+
+    if not simplices:
+        raise ValueError(f"No simplices found in {filename}")
+
+    # Build adjacency via shared sub-faces
+    d = len(simplices[0]) - 1  # dimension
     face_map = defaultdict(list)
-    for i, simplex in enumerate(faces):
-        # Each d-simplex has d+1 sub-faces of dimension d-1
+    for i, simplex in enumerate(simplices):
         for j in range(len(simplex)):
             sub_face = tuple(v for k, v in enumerate(simplex) if k != j)
             face_map[sub_face].append(i)
 
-    # Two simplices sharing a (d-1)-face are neighbours
     for sub_face, simplex_ids in face_map.items():
         if len(simplex_ids) == 2:
             adj[simplex_ids[0]].add(simplex_ids[1])
             adj[simplex_ids[1]].add(simplex_ids[0])
 
-    n_simplices = len(faces)
-    print(f"Loaded: {n_simplices} simplices, {len(vertices)} vertices, dim={d}")
+    n_simplices_count = len(simplices)
+    print(f"Loaded: {n_simplices_count} simplices, "
+          f"{len(vertices)} vertices, dim={d}")
 
-    # Verify connectivity
     max_neighbours = max(len(v) for v in adj.values()) if adj else 0
     avg_neighbours = np.mean([len(v) for v in adj.values()]) if adj else 0
-    print(f"Adjacency: max neighbours={max_neighbours}, avg={avg_neighbours:.1f}")
+    print(f"Adjacency: max neighbours={max_neighbours}, "
+          f"avg={avg_neighbours:.1f}")
 
-    return adj, n_simplices, vertices, faces
+    return adj, n_simplices_count, vertices, simplices
 
 
 def load_adjacency_txt(filename):
