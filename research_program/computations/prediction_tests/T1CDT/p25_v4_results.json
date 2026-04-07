@@ -1,0 +1,100 @@
+{
+  "inputs": {
+    "omega_ratio": 5.364,
+    "omega_sigma": 0.11,
+    "f_int": null,
+    "f_int_sigma": null,
+    "delta_geom": 0.01,
+    "delta_seq": 0.02,
+    "delta_fo": -0.01,
+    "delta_mass": 0.0,
+    "theory_sigma_frac": 0.05,
+    "n_min": 4,
+    "n_max": 8
+  },
+  "delta_total": 0.01989799999999997,
+  "top_results": [
+    {
+      "N": 6,
+      "k_int": null,
+      "omega_pred": 5.099489999999999,
+      "omega_sigma_eff": 0.2776904673377356,
+      "omega_pull": 0.9525353986253167,
+      "f_int_pred": null,
+      "f_int_pull": null,
+      "chi2_total": 0.9073236856342909,
+      "rel_weight": 0.9042105546896768
+    },
+    {
+      "N": 7,
+      "k_int": null,
+      "omega_pred": 6.119388,
+      "omega_sigma_eff": 0.3251419286040482,
+      "omega_pull": -2.323256195357989,
+      "f_int_pred": null,
+      "f_int_pull": null,
+      "chi2_total": 5.397519349269279,
+      "rel_weight": 0.09577143008667498
+    },
+    {
+      "N": 8,
+      "k_int": null,
+      "omega_pred": 7.139286,
+      "omega_sigma_eff": 0.3735284613981778,
+      "omega_pull": -4.752746265585268,
+      "f_int_pred": null,
+      "f_int_pull": null,
+      "chi2_total": 22.58859706503471,
+      "rel_weight": 1.7710910055959395e-05
+    },
+    {
+      "N": 5,
+      "k_int": null,
+      "omega_pred": 4.079592,
+      "omega_sigma_eff": 0.23174916874966348,
+      "omega_pull": 5.542233471341697,
+      "f_int_pred": null,
+      "f_int_pull": null,
+      "chi2_total": 30.716351850860235,
+      "rel_weight": 3.043135922281895e-07
+    },
+    {
+      "N": 4,
+      "k_int": null,
+      "omega_pred": 3.059694,
+      "omega_sigma_eff": 0.18842589639985793,
+      "omega_pull": 12.229242604265181,
+      "f_int_pred": null,
+      "f_int_pull": null,
+      "chi2_total": 149.55437467397462,
+      "rel_weight": 4.7640090130662806e-33
+    }
+  ],
+  "per_N_support": [
+    {
+      "N": 6,
+      "support": 0.9042105546896768,
+      "best_chi2": 0.9073236856342909
+    },
+    {
+      "N": 7,
+      "support": 0.09577143008667498,
+      "best_chi2": 5.397519349269279
+    },
+    {
+      "N": 8,
+      "support": 1.7710910055959395e-05,
+      "best_chi2": 22.58859706503471
+    },
+    {
+      "N": 5,
+      "support": 3.043135922281895e-07,
+      "best_chi2": 30.716351850860235
+    },
+    {
+      "N": 4,
+      "support": 4.7640090130662806e-33,
+      "best_chi2": 149.55437467397462
+    }
+  ]
+}
