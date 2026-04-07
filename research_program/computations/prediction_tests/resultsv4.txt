@@ -1,0 +1,311 @@
+slimgreen@slimgreen-Blade-Pro-17-2019:~/git/CCDR/research_program/computations/prediction_tests/T1CDT$ python3 P25_v4_independent_prediction_test.py
+P25 v4 — INDEPENDENT PREDICTION TEST
+========================================================================
+Core model:
+  Omega_DM / Omega_B = (N - 1) * (1 + delta_total)
+  delta_total = (1+delta_geom)(1+delta_seq)(1+delta_fo)(1+delta_mass) - 1
+
+Inputs:
+  Observed Omega_DM / Omega_B = 5.3640 ± 0.1100
+  delta_geom = +0.0000
+  delta_seq  = +0.0000
+  delta_fo   = +0.0000
+  delta_mass = +0.0000
+  => delta_total = +0.0000
+  Residual theory sigma (fractional) = 0.050
+  No second observable supplied: this remains a 1-observable test.
+========================================================================
+
+TOP HYPOTHESES
+------------------------------------------------------------------------
+ 1. N=6, omega_pred=5.0000, omega_pull=+1.33, no f_int test, chi2=1.776, weight=0.749
+ 2. N=7, omega_pred=6.0000, omega_pull=-1.99, no f_int test, chi2=3.962, weight=0.251
+ 3. N=8, omega_pred=7.0000, omega_pull=-4.46, no f_int test, chi2=19.885, weight=0.000
+ 4. N=5, omega_pred=4.0000, omega_pull=+5.98, no f_int test, chi2=35.710, weight=0.000
+ 5. N=4, omega_pred=3.0000, omega_pull=+12.71, no f_int test, chi2=161.517, weight=0.000
+
+AGGREGATED SUPPORT BY N
+------------------------------------------------------------------------
+N=6: support=0.749, best_chi2=1.776
+N=7: support=0.251, best_chi2=3.962
+N=8: support=0.000, best_chi2=19.885
+N=5: support=0.000, best_chi2=35.710
+N=4: support=0.000, best_chi2=161.517
+
+CONCLUSION
+------------------------------------------------------------------------
+Best-supported sector count: N=6 (support=0.749, strength=moderate)
+Caution: only one observable was used.
+This can rank N, but it does NOT yet make P25 robust against nearby N.
+Support ratio N=6 / N=7 = 2.983
+Interpretation: N=6 is preferred over N=7, but not decisively.
+
+FALSIFICATION FLAGS
+------------------------------------------------------------------------
+* If N=6 is not preferred once a second observable is added, P25 weakens sharply.
+* If keeping N=6 requires |delta_total| or residual theory uncertainty > 10%,
+  the model remains underived rather than predictive.
+* If all nearby N values fit comparably well, P25 is still only a consistency story.
+
+Saved JSON summary to: p25_v4_results.json
+slimgreen@slimgreen-Blade-Pro-17-2019:~/git/CCDR/research_program/computations/prediction_tests/T1CDT$ python3 P25_v4_independent_prediction_test.py \
+  --omega-ratio 5.364 --omega-sigma 0.11 \
+  --f-int 0.20 --f-int-sigma 0.04
+P25 v4 — INDEPENDENT PREDICTION TEST
+========================================================================
+Core model:
+  Omega_DM / Omega_B = (N - 1) * (1 + delta_total)
+  delta_total = (1+delta_geom)(1+delta_seq)(1+delta_fo)(1+delta_mass) - 1
+
+Inputs:
+  Observed Omega_DM / Omega_B = 5.3640 ± 0.1100
+  delta_geom = +0.0000
+  delta_seq  = +0.0000
+  delta_fo   = +0.0000
+  delta_mass = +0.0000
+  => delta_total = +0.0000
+  Residual theory sigma (fractional) = 0.050
+  Independent observable: f_int = 0.2000 ± 0.0400
+  Allowed model values: f_int = k / (N - 1), k integer
+========================================================================
+
+TOP HYPOTHESES
+------------------------------------------------------------------------
+ 1. N=6, omega_pred=5.0000, omega_pull=+1.33, k=1, f_int_pred=0.2000, f_pull=+0.00, chi2=1.776, weight=0.808
+ 2. N=7, omega_pred=6.0000, omega_pull=-1.99, k=1, f_int_pred=0.1667, f_pull=+0.83, chi2=4.656, weight=0.191
+ 3. N=7, omega_pred=6.0000, omega_pull=-1.99, k=2, f_int_pred=0.3333, f_pull=-3.33, chi2=15.073, weight=0.001
+ 4. N=8, omega_pred=7.0000, omega_pull=-4.46, k=1, f_int_pred=0.1429, f_pull=+1.43, chi2=21.926, weight=0.000
+ 5. N=8, omega_pred=7.0000, omega_pull=-4.46, k=2, f_int_pred=0.2857, f_pull=-2.14, chi2=24.477, weight=0.000
+ 6. N=6, omega_pred=5.0000, omega_pull=+1.33, k=0, f_int_pred=0.0000, f_pull=+5.00, chi2=26.776, weight=0.000
+ 7. N=6, omega_pred=5.0000, omega_pull=+1.33, k=2, f_int_pred=0.4000, f_pull=-5.00, chi2=26.776, weight=0.000
+ 8. N=7, omega_pred=6.0000, omega_pull=-1.99, k=0, f_int_pred=0.0000, f_pull=+5.00, chi2=28.962, weight=0.000
+ 9. N=5, omega_pred=4.0000, omega_pull=+5.98, k=1, f_int_pred=0.2500, f_pull=-1.25, chi2=37.273, weight=0.000
+10. N=8, omega_pred=7.0000, omega_pull=-4.46, k=0, f_int_pred=0.0000, f_pull=+5.00, chi2=44.885, weight=0.000
+
+AGGREGATED SUPPORT BY N
+------------------------------------------------------------------------
+N=6: support=0.808, best_chi2=1.776
+N=7: support=0.192, best_chi2=4.656
+N=8: support=0.000, best_chi2=21.926
+N=5: support=0.000, best_chi2=37.273
+N=4: support=0.000, best_chi2=172.628
+
+CONCLUSION
+------------------------------------------------------------------------
+Best-supported sector count: N=6 (support=0.808, strength=moderate)
+This uses two observables:
+  (1) Omega_DM / Omega_B
+  (2) an independent interacting-fraction observable f_int
+That is the minimum structure needed to start distinguishing N=6 from nearby N.
+Support ratio N=6 / N=7 = 4.198
+Interpretation: N=6 is cleanly preferred over N=7.
+
+FALSIFICATION FLAGS
+------------------------------------------------------------------------
+* If N=6 is not preferred once a second observable is added, P25 weakens sharply.
+* If keeping N=6 requires |delta_total| or residual theory uncertainty > 10%,
+  the model remains underived rather than predictive.
+* If all nearby N values fit comparably well, P25 is still only a consistency story.
+
+Saved JSON summary to: p25_v4_results.json
+slimgreen@slimgreen-Blade-Pro-17-2019:~/git/CCDR/research_program/computations/prediction_tests/T1CDT$ python3 P25_v4_independent_prediction_test.py \
+  --delta-geom 0.01 --delta-seq 0.02 --delta-fo -0.01 --delta-mass 0.00
+P25 v4 — INDEPENDENT PREDICTION TEST
+========================================================================
+Core model:
+  Omega_DM / Omega_B = (N - 1) * (1 + delta_total)
+  delta_total = (1+delta_geom)(1+delta_seq)(1+delta_fo)(1+delta_mass) - 1
+
+Inputs:
+  Observed Omega_DM / Omega_B = 5.3640 ± 0.1100
+  delta_geom = +0.0100
+  delta_seq  = +0.0200
+  delta_fo   = -0.0100
+  delta_mass = +0.0000
+  => delta_total = +0.0199
+  Residual theory sigma (fractional) = 0.050
+  No second observable supplied: this remains a 1-observable test.
+========================================================================
+
+TOP HYPOTHESES
+------------------------------------------------------------------------
+ 1. N=6, omega_pred=5.0995, omega_pull=+0.95, no f_int test, chi2=0.907, weight=0.904
+ 2. N=7, omega_pred=6.1194, omega_pull=-2.32, no f_int test, chi2=5.398, weight=0.096
+ 3. N=8, omega_pred=7.1393, omega_pull=-4.75, no f_int test, chi2=22.589, weight=0.000
+ 4. N=5, omega_pred=4.0796, omega_pull=+5.54, no f_int test, chi2=30.716, weight=0.000
+ 5. N=4, omega_pred=3.0597, omega_pull=+12.23, no f_int test, chi2=149.554, weight=0.000
+
+AGGREGATED SUPPORT BY N
+------------------------------------------------------------------------
+N=6: support=0.904, best_chi2=0.907
+N=7: support=0.096, best_chi2=5.398
+N=8: support=0.000, best_chi2=22.589
+N=5: support=0.000, best_chi2=30.716
+N=4: support=0.000, best_chi2=149.554
+
+CONCLUSION
+------------------------------------------------------------------------
+Best-supported sector count: N=6 (support=0.904, strength=strong)
+Caution: only one observable was used.
+This can rank N, but it does NOT yet make P25 robust against nearby N.
+Support ratio N=6 / N=7 = 9.441
+Interpretation: N=6 is cleanly preferred over N=7.
+
+FALSIFICATION FLAGS
+------------------------------------------------------------------------
+* If N=6 is not preferred once a second observable is added, P25 weakens sharply.
+* If keeping N=6 requires |delta_total| or residual theory uncertainty > 10%,
+  the model remains underived rather than predictive.
+* If all nearby N values fit comparably well, P25 is still only a consistency story.
+
+Saved JSON summary to: p25_v4_results.json
+slimgreen@slimgreen-Blade-Pro-17-2019:~/git/CCDR/research_program/computations/prediction_tests/T1CDT$ 
+
+
+
+
+slimgreen@slimgreen-Blade-Pro-17-2019:~/git/CCDR/research_program/computations/prediction_tests/SMD5v3$ python3 SMD5_complete_test_updated.py
+============================================================================
+SM-D5 COMPLETE TEST (CONSERVATIVE VERSION)
+Monte Carlo samples: 200,000   RNG seed: 12345
+Interpretation policy: descriptive first, hypothesis test second, no theory overclaim
+============================================================================
+
+============================================================================
+DESCRIPTIVE RESULTS
+============================================================================
+
+  Leptons
+    Q mean   = 0.66666050
+    Q median = 0.66666049
+    68% CI   = [0.66665375, 0.66666723]
+    95% CI   = [0.66664717, 0.66667375]
+    sigma    = 0.00000678
+
+  Up-type quarks MSbar(M_Z)
+    Q mean   = 0.88849302
+    Q median = 0.88849645
+    68% CI   = [0.88759076, 0.88939592]
+    95% CI   = [0.88669785, 0.89026169]
+    sigma    = 0.00090930
+
+  Down-type quarks MSbar(M_Z)
+    Q mean   = 0.74397281
+    Q median = 0.74374080
+    68% CI   = [0.73699586, 0.75095001]
+    95% CI   = [0.73085698, 0.75838025]
+    sigma    = 0.00703752
+
+  Up-type quarks MSbar(2 GeV)
+    Q mean   = 0.84499064
+    Q median = 0.84499481
+    68% CI   = [0.84382272, 0.84615288]
+    95% CI   = [0.84269255, 0.84728309]
+    sigma    = 0.00117100
+
+  Down-type quarks MSbar(2 GeV)
+    Q mean   = 0.73117364
+    Q median = 0.73091279
+    68% CI   = [0.72398882, 0.73833611]
+    95% CI   = [0.71768447, 0.74612367]
+    sigma    = 0.00724138
+
+============================================================================
+TARGETED HYPOTHESIS CHECKS
+============================================================================
+  Leptons: target 2/3 = 0.666667
+    |Q - target| = 0.000006
+    z = 0.91 (using propagated mass uncertainty only)
+    In 68% CI: YES
+    In 95% CI: YES
+    Conservative status: CONSISTENT within 2.0σ
+  Up-type quarks MSbar(M_Z): target 8/9 = 0.888889
+    |Q - target| = 0.000396
+    z = 0.44 (using propagated mass uncertainty only)
+    In 68% CI: YES
+    In 95% CI: YES
+    Conservative status: CONSISTENT within 2.0σ
+  Down-type quarks MSbar(M_Z): target 3/4 = 0.750000
+    |Q - target| = 0.006027
+    z = 0.86 (using propagated mass uncertainty only)
+    In 68% CI: YES
+    In 95% CI: YES
+    Conservative status: CONSISTENT within 2.0σ
+
+============================================================================
+NEAREST LOW-DENOMINATOR RATIONALS
+Avoids cherry-picking a single competitor such as 17/19 or 14/19.
+============================================================================
+  Up-type quarks MSbar(M_Z): nearest reduced fractions with denominator ≤ 20
+    8/9 = 0.888889   Δ=0.000396   (0.44σ)
+    15/17 = 0.882353   Δ=0.006140   (6.75σ)
+    17/19 = 0.894737   Δ=0.006244   (6.87σ)
+    9/10 = 0.900000   Δ=0.011507   (12.65σ)
+    7/8 = 0.875000   Δ=0.013493   (14.84σ)
+  Down-type quarks MSbar(M_Z): nearest reduced fractions with denominator ≤ 20
+    3/4 = 0.750000   Δ=0.006027   (0.86σ)
+    14/19 = 0.736842   Δ=0.007131   (1.01σ)
+    11/15 = 0.733333   Δ=0.010639   (1.51σ)
+    8/11 = 0.727273   Δ=0.016700   (2.37σ)
+
+============================================================================
+POST-HOC LOOK-ELSEWHERE CHECK
+This is descriptive, not a formal p-value for a preregistered model.
+============================================================================
+  Fraction of Q values in [2/3,1] lying within 2σ of some p/q with q≤9:
+    Up-type sigma scale:   0.092
+    Down-type sigma scale: 0.612
+  Interpretation: small-denominator proximity is not automatically rare once one scans many rationals.
+
+============================================================================
+SCHEME / SCALE COMPARISON
+Important: this is descriptive only. It does NOT establish RG invariance.
+============================================================================
+  Scheme                           Q_up         σ_up       Q_down       σ_down
+  ------------------------ ------------ ------------ ------------ ------------
+  MSbar(M_Z)                   0.888493     0.000909     0.743973     0.007038
+  MSbar(2 GeV inputs)          0.844991     0.001171     0.731174     0.007241
+  Constituent/pole proxy       0.775109     0.002624     0.466532     0.002246
+
+  Caveat: the last row mixes constituent-model light masses with heavy-quark pole-like inputs.
+  It can illustrate scheme dependence, but should not be treated as a clean field-theoretic comparison.
+
+============================================================================
+SENSITIVITY
+============================================================================
+
+  Up-type MSbar(M_Z)
+  Local one-at-a-time sensitivity (1% upward shift of central value):
+    u: ΔQ = -2.261667e-05 for +1% shift
+    c: ΔQ = -4.686549e-04 for +1% shift
+    t: ΔQ = +4.893950e-04 for +1% shift
+
+  Down-type MSbar(M_Z)
+  Local one-at-a-time sensitivity (1% upward shift of central value):
+    d: ΔQ = -1.926596e-04 for +1% shift
+    s: ΔQ = -7.415300e-04 for +1% shift
+    b: ΔQ = +9.319021e-04 for +1% shift
+
+============================================================================
+OPTIONAL RATIO DIAGNOSTIC
+This is a derived descriptive quantity, not an independent test unless preregistered.
+============================================================================
+  mean   = 2.893411
+  median = 2.878132
+  68% CI = [2.631775, 3.154349]
+  95% CI = [2.418621, 3.456496]
+  target 8/3 = 2.666667
+  |ratio - target| / σ = 0.85
+
+============================================================================
+BOTTOM LINE
+============================================================================
+  Leptons remain extremely close to 2/3: Q = 0.66666050 ± 0.00000678
+  Up-type quarks at MSbar(M_Z):   Q = 0.888493 ± 0.000909
+  Down-type quarks at MSbar(M_Z): Q = 0.743973 ± 0.007038
+  On the supplied input dataset, 8/9 and 3/4 can be discussed as candidate targets,
+  but the script now avoids stronger claims than the uncertainty model supports.
+  No claim of RG invariance, UV origin, or decisive exclusion/confirmation is made here.
+
+  Saved: SMD5_complete_results_updated.npz
+  Plot: SMD5_complete_test_updated.png
