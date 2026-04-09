@@ -1,0 +1,24 @@
+{
+  "data_url": "https://zenodo.org/records/8092346/files/NANOGrav15yr_Sensitivity-Curves_v1.0.0.tar.gz?download=1",
+  "curve_file": "data\\p8_nanograv\\extracted\\sensitivity_curves\\sensitivity_curves_NG15yr_fullPTA.txt",
+  "n_points": 300,
+  "real": {
+    "baseline_slope": 2.235196208810835,
+    "baseline_intercept": 11.040553326248698,
+    "amp_log": 1.3832501568345463,
+    "omega": -2.0187883638080804,
+    "phase": -18.185920260318834,
+    "rss": 31.012861159898254
+  },
+  "null": {
+    "n_realisations": 1000,
+    "median": 1.3591792778404046,
+    "mean": 1.3591293078700266,
+    "std": 0.02467548068421183,
+    "p95": 1.4012050591101763,
+    "p99": 1.4126103939218608
+  },
+  "p_value": 0.16899999999999993,
+  "sigma": 0.9581244654219031,
+  "verdict": "CONSISTENT WITH NULL (no beat)"
+}
