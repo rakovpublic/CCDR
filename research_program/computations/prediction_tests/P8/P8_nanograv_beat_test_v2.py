@@ -56,12 +56,17 @@ def find_sensitivity_curve():
 
 
 def load_curve(filepath):
-    """Load (frequency, characteristic strain) from the curve file."""
-    data = np.loadtxt(filepath, comments="#")
+    """Load (frequency, characteristic strain) from the curve file.
+
+    NANOGrav 15-yr sensitivity curve files are CSV with columns:
+    frequency (Hz), Omega_gw, S_h (strain PSD), h_c (char. strain).
+    """
+    data = np.loadtxt(filepath, comments="#", delimiter=",")
     if data.shape[1] < 2:
         raise ValueError(f"Unexpected format in {filepath}")
     freq = data[:, 0]      # Hz
-    h_c = data[:, 1]       # characteristic strain (dimensionless)
+    # h_c is the last column (index 3 in the 4-column format)
+    h_c = data[:, -1]      # characteristic strain (dimensionless)
     return freq, h_c
 
 
