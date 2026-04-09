@@ -225,8 +225,8 @@ def load_pantheon_full(pantheon_dir):
                 try:
                     data = np.genfromtxt(fpath, names=True, dtype=None, encoding="utf-8")
                     z = np.array([float(row["zHD"]) for row in data])
-                    mu = np.array([float(row["MU"]) for row in data])
-                    mu_err = np.array([float(row["MU_ERR"]) for row in data])
+                    mu = np.array([float(row["MU_SH0ES"]) for row in data])
+                    mu_err = np.array([float(row["MU_SH0ES_ERR_DIAG"]) for row in data])
                     print(f"  Loaded full Pantheon+ data: {len(z)} SNIa from {fpath}")
                     return z, mu, mu_err
                 except Exception as e:
@@ -313,14 +313,28 @@ def log_likelihood(params, sn_data=None):
     return lp - 0.5 * chi2_total(params, sn_data)
 
 
+def chi2_total_penalised(params, sn_data=None):
+    """Total χ² with prior penalty to keep parameters in physical range."""
+    Om, h, nu = params
+    if not (0.1 < Om < 0.5) or not (0.5 < h < 0.9) or not (-0.05 < nu < 0.05):
+        return 1e30
+    return chi2_total(params, sn_data)
+
+
 def find_bestfit(sn_data=None):
     """Find best-fit parameters via optimisation."""
-    p0 = [0.315, 0.674, 0.001]
-    result = minimize(
+    from scipy.optimize import differential_evolution
+
+    bounds = [(0.15, 0.45), (0.55, 0.85), (-0.01, 0.01)]
+
+    # Use differential evolution for robust global search
+    result = differential_evolution(
         lambda p: chi2_total(p, sn_data),
-        p0,
-        method="Nelder-Mead",
-        options={"maxiter": 10000, "xatol": 1e-7, "fatol": 1e-7},
+        bounds,
+        seed=42,
+        maxiter=2000,
+        tol=1e-8,
+        polish=True,
     )
     print(f"Best-fit: Ω_m={result.x[0]:.5f}, h={result.x[1]:.5f}, ν={result.x[2]:.6f}")
     print(f"  χ²_min = {result.fun:.2f}")
@@ -334,7 +348,12 @@ def run_mcmc(n_walkers=32, n_steps=5000, n_burn=1000, sn_data=None):
     except ImportError:
         print("ERROR: emcee not installed. Install with: pip install emcee")
         print("Falling back to optimisation-only result.")
-        return find_bestfit(sn_data)
+        best = find_bestfit(sn_data)
+        nu_best = best[2]
+        print(f"\n  nu (best-fit, no uncertainty) = {nu_best:.6f}")
+        print(f"  nu / 1e-3 = {nu_best / 1e-3:.3f}")
+        print("  NOTE: Install emcee for full posterior and uncertainty estimates.")
+        return nu_best, np.nan
 
     ndim = 3
 
