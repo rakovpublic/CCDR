@@ -1,0 +1,21 @@
+{
+  "data_sources": {
+    "pulsars": "Agazie et al. 2023, ApJL 951, L9",
+    "cosmic_web": "Tempel et al. 2014, A&A 566, A1"
+  },
+  "n_pulsars": 35,
+  "n_nodes": 20,
+  "correlation_pearson": {
+    "r": 0.20086086328863975,
+    "p": 0.2472759853681057
+  },
+  "correlation_spearman": {
+    "r": 0.1369786947265276,
+    "p": 0.4326556582079646
+  },
+  "near_far_ttest": {
+    "t": -0.7017617741526929,
+    "p": 0.48774788773148015
+  },
+  "verdict": "WRONG SIGN: positive correlation (opposite to prediction)"
+}
