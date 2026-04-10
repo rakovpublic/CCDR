@@ -1,0 +1,364 @@
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P12_frb_triple_junction_test_v2.py
+======================================================================
+P12: FRB Spatial Clustering vs Random Null
+======================================================================
+[download] https://cdsarc.cds.unistra.fr/ftp/J/ApJS/257/59/table2.dat
+  [saved] data\p12_frb_junctions\chimefrbcat1_table2.dat (261.0 KB)
+[load] 491 unique FRB sky positions (from 600 catalog rows)
+[corr] DD with 491 data points
+[corr] DR with 491 × 5000 pairs
+[corr] RR with 5000 random points
+
+======================================================================
+ANGULAR CORRELATION FUNCTION w(theta)
+======================================================================
+ theta (deg)     w(theta)       interpretation
+        0.67       2.5208              cluster
+        2.00       1.9548              cluster
+        3.33       2.0621              cluster
+        4.67       1.7943              cluster
+        6.00       1.7076              cluster
+        7.33       1.6162              cluster
+        8.67       1.3863              cluster
+       10.00       1.4018              cluster
+       11.33       1.0593              cluster
+       12.67       0.9865              cluster
+       14.00       0.8443              cluster
+       15.33       0.9630              cluster
+       16.67       0.8413              cluster
+       18.00       0.8591              cluster
+       19.33       0.6902              cluster
+
+Mean w(theta) for theta < 5 deg:  +2.0830
+Mean w(theta) for theta >= 5 deg: +1.1233
+
+Verdict: CLUSTERING DETECTED at small scales
+
+Saved: data\p12_frb_junctions\result_v2.json
+Plot: data\p12_frb_junctions\P12_frb_clustering.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P12_frb_triple_junction_test_v2.py --n-bins 15 --max-sep-deg 20 --small-scale-deg 5 --seed 42
+======================================================================
+P12: FRB Spatial Clustering vs Random Null
+======================================================================
+[cache] data\p12_frb_junctions\chimefrbcat1_table2.dat
+[load] 491 unique FRB sky positions (from 600 catalog rows)
+[corr] DD with 491 data points
+[corr] DR with 491 × 5000 pairs
+[corr] RR with 5000 random points
+
+======================================================================
+ANGULAR CORRELATION FUNCTION w(theta)
+======================================================================
+ theta (deg)     w(theta)       interpretation
+        0.67       2.5208              cluster
+        2.00       1.9548              cluster
+        3.33       2.0621              cluster
+        4.67       1.7943              cluster
+        6.00       1.7076              cluster
+        7.33       1.6162              cluster
+        8.67       1.3863              cluster
+       10.00       1.4018              cluster
+       11.33       1.0593              cluster
+       12.67       0.9865              cluster
+       14.00       0.8443              cluster
+       15.33       0.9630              cluster
+       16.67       0.8413              cluster
+       18.00       0.8591              cluster
+       19.33       0.6902              cluster
+
+Mean w(theta) for theta < 5 deg:  +2.0830
+Mean w(theta) for theta >= 5 deg: +1.1233
+
+Verdict: CLUSTERING DETECTED at small scales
+
+Saved: data\p12_frb_junctions\result_v2.json
+Plot: data\p12_frb_junctions\P12_frb_clustering.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P_MOND_2_sparc_test_v2.py
+========================================================================
+P-MOND-2: SPARC RAR Test (Milgrom vs CCDR)
+========================================================================
+Milgrom prediction: a0 = 1.200e-10 m/s^2
+CCDR prediction:    a0 = c*H0 = 6.548e-10 m/s^2  (H0=67.40)
+Ratio CCDR / Milgrom: 5.457x
+Objective: reduced chi^2 in log-space
+Fit bounds: [1.0e-12, 1.0e-08]
+
+[download] https://astroweb.case.edu/SPARC/RAR.mrt
+  [saved] data\p_mond_2_sparc\RAR.mrt (68.1 KB)
+[load] 2693 rows from RAR.mrt
+       g_bar range: 8.32e-13 to 6.61e-09 m/s^2
+       g_obs range: 4.07e-12 to 7.08e-09 m/s^2
+[fit]
+  Best-fit a0:      1.160682e-10 m/s^2
+  Reduced chi^2:    2.723726
+  Hit boundary:     False
+
+Comparison to predictions
+  Fractional deviation from Milgrom: 3.276%
+  Fractional deviation from CCDR:    82.274%
+
+Fit quality at reference values
+  Milgrom: reduced chi^2 = 2.730073, MSE = 0.017666
+  CCDR:    reduced chi^2 = 22.871080, MSE = 0.108994
+  Best:    reduced chi^2 = 2.723726, MSE = 0.017639
+
+VERDICT
+  MILGROM CONFIRMED, CCDR EXCLUDED at z=0
+  Note: SPARC constrains the local z≈0 value only.
+Saved: data\p_mond_2_sparc\result_v2.json
+Plot: data\p_mond_2_sparc\P_MOND_2_v2.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P13_frb180916_period_test_v2.py
+======================================================================
+P13: FRB 20180916B 16-Day Period — CCDR Prediction Test
+======================================================================
+[data] 44 bursts spanning 302.3 days
+[search] 5000 trial periods from 1.0 to 100.0 days
+
+======================================================================
+PERIODOGRAM RESULT
+======================================================================
+Peak period:           13.476 days
+Published period:      16.35 days
+Match:                 17.6% offset
+Peak Rayleigh Z:       13.10
+False-alarm prob:      9.99e-01
+Significance:          0.0σ
+
+At published period 16.35 d:
+  Z = 9.62
+  Single-trial FAP = 8.14e-03
+
+======================================================================
+CCDR PREDICTION TEST
+======================================================================
+CCDR predicted period range: 1 to 1000 days
+Measured period:             13.48 days
+Status: CONSISTENT with CCDR predicted range
+
+======================================================================
+OTHER PERIODIC FRBs (literature)
+======================================================================
+  FRB 121102: P = 157.00 days  [in range]
+  FRB 20180916B: P = 16.35 days  [in range]
+
+2/2 periodic FRBs in CCDR range
+Verdict: All known periodic FRBs consistent with CCDR range
+
+Note: the CCDR range 1-1000 days is broad. With only 2 known
+periodic FRBs in this test, it remains a weak consistency check.
+The prediction would need to be sharpened to become strongly diagnostic.
+
+Saved: data\p13_frb180916\result_v2.json
+Plot: data\p13_frb180916\P13_frb180916_v2.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P14_quark_koide_test_v2.py
+======================================================================
+P14: Quark Koide Test (PDG 2024 + FLAG 2024)
+======================================================================
+Predictions: Q_up ≈ 8/9 = 0.888889
+             Q_down ≈ 3/4 = 0.750000
+Monte Carlo samples: 200,000
+
+Q_up (MSbar at M_Z): 0.888494 ± 0.000909
+  68% CI: [0.887590, 0.889397]
+  95% CI: [0.886700, 0.890266]
+  Target 0.888889: |z| = 0.43σ → CONSISTENT within 2σ
+
+Q_down (MSbar at M_Z): 0.743967 ± 0.007030
+  68% CI: [0.737020, 0.750931]
+  95% CI: [0.730841, 0.758350]
+  Target 0.750000: |z| = 0.86σ → CONSISTENT within 2σ
+
+======================================================================
+SCALE DEPENDENCE
+======================================================================
+Q_up   at 2 GeV:  0.844993 ± 0.001167
+Q_up   at M_Z:    0.888494 ± 0.000909
+Shift: +0.043501 = 37.3σ
+
+Q_down at 2 GeV:  0.731156 ± 0.007254
+Q_down at M_Z:    0.743967 ± 0.007030
+Shift: +0.012811 = 1.8σ
+
+If shifts are >>1σ, Q is NOT scale-invariant.
+If Q_up = 8/9 only at M_Z (not at 2 GeV), the prediction picks
+out a specific energy scale.
+
+======================================================================
+NEAREST LOW-DENOMINATOR RATIONALS (denom ≤ 12)
+======================================================================
+
+Q_up at M_Z: 0.888494 ± 0.000909
+  8/9  = 0.888889  Δ=0.000395  (0.43σ)  ←
+  9/10 = 0.900000  Δ=0.011506  (12.66σ)
+  7/8  = 0.875000  Δ=0.013494  (14.84σ)
+  10/11 = 0.909091  Δ=0.020597  (22.66σ)
+  11/12 = 0.916667  Δ=0.028173  (30.99σ)
+
+Q_down at M_Z: 0.743967 ± 0.007030
+  3/4  = 0.750000  Δ=0.006033  (0.86σ)  ←
+  8/11 = 0.727273  Δ=0.016694  (2.37σ)
+  5/7  = 0.714286  Δ=0.029681  (4.22σ)
+  7/9  = 0.777778  Δ=0.033811  (4.81σ)
+  7/10 = 0.700000  Δ=0.043967  (6.25σ)
+
+Saved: data\p14_quark_koide\result_v2.json
+Plot: data\p14_quark_koide\P14_quark_koide_v2.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python PMOND1_a0_vs_z.py
+[downloaded] data\pmond1_a0_vs_z\RAR.mrt
+========================================================================
+PMOND1: a0(z) test
+========================================================================
+[local] SPARC RAR points: 2693
+[local] Best-fit a0(z≈0): 1.1607e-10 ± 8.72e-13 m/s²
+[local] Fixed MOND a0:     1.2000e-10 m/s²
+[local] Raw CCDR cH0:      6.5483e-10 m/s²
+
+[info] Need at least one non-local high-z measurement to compare redshift models.
+[info] Template CSV written to: data\pmond1_a0_vs_z\highz_measurements_template.csv
+[saved] data\pmond1_a0_vs_z\result.json
+[saved] data\pmond1_a0_vs_z\PMOND1_a0_vs_z.png
+
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P9a_dihadron_v2_fixed.py --hepdata-url "https://www.hepdata.net/record/73223"
+========================================================================
+P9a: Hadronic Angular Correlations — cos(6Δφ) scan
+========================================================================
+[input] source=hepdata  n_points=30  units=radians
+[input] fetched from: https://www.hepdata.net/record/73223?format=json
+[fit] a0 = +2.241108e-02 ± 1.02e-04
+[fit] a1 = -2.803727e-02 ± 1.39e-04  (201.91σ)
+[fit] a2 = +1.509910e-02 ± 1.50e-04  (100.48σ)
+[fit] a3 = +7.377331e-04 ± 1.40e-04  (5.28σ)
+[fit] a4 = +6.232652e-04 ± 1.48e-04  (4.21σ)
+[fit] a5 = -1.203561e-04 ± 1.42e-04  (0.85σ)
+[fit] a6 = +6.046297e-04 ± 1.46e-04  (4.14σ)
+[fit] chi2/ndof = 19.15/23 = 0.833
+[derived] v2 ≈ a2/a0 = +6.737339e-01
+[derived] v6 ≈ a6/a0 = +2.697905e-02
+[derived] QCD-like v6 baseline v2^3 = +3.058195e-01
+[derived] v6 excess above v2^3 = -2.788404e-01
+[verdict] POSITIVE: positive a6 at the ~10^-3 scale
+[saved] data\p9a_dihadron\p9a_result.json
+[saved] data\p9a_dihadron\p9a_fit.png
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P17_gamma_convergence.py
+========================================================================
+P17: γ_AS = γ_EPRL Convergence Under GFT Renormalisation Group
+========================================================================
+This is a schematic implementation of the research-note workflow.
+
+[Step 1] AS-side gamma estimates
+  S_Regge(equilateral)     = 6.590580
+  γ_AS leading (toy)       = 0.238340
+  γ_AS one-loop (toy)      = 0.293318
+  γ_AS benchmark           = 0.274000
+
+[Step 2] EPRL / entropy-side estimates
+  γ_Meissner benchmark     = 0.237533
+  γ_EPRL benchmark         = 0.237500
+  γ_LQG entropy root       = 0.274067
+  γ_EPRL weighted toy root = 0.282479
+
+[Step 3] UV → IR flow summaries
+  γ_UV = 0.274000 -> γ_IR = 0.265375 (m²_IR=3.222e-18, λ_IR=5.496e-37)
+  γ_UV = 0.237500 -> γ_IR = 0.230472 (m²_IR=3.240e-18, λ_IR=3.662e-37)
+  γ_UV = 0.250000 -> γ_IR = 0.242345 (m²_IR=3.228e-18, λ_IR=4.263e-37)
+  γ_UV = 0.300000 -> γ_IR = 0.290774 (m²_IR=3.238e-18, λ_IR=6.894e-37)
+
+  γ* mean      = 0.257242
+  γ* std       = 0.023071
+  rel. spread  = 8.97%
+  convergence  = NO
+
+[Step 4] Simplified BH entropy check
+  γ*                   = 0.257242
+  entropy coefficient  = 0.061311
+  target               = 0.250000
+  fractional deviation = 75.48%
+  BH check             = FAIL
+
+Plot: data\p17_gamma_convergence\P17_gamma_convergence.png
+Saved: data\p17_gamma_convergence\result.json
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P17_gamma_convergence.py --m2-uv 1.0 --lambda-uv 0.1 --t-uv 10 --t-ir -10
+========================================================================
+P17: γ_AS = γ_EPRL Convergence Under GFT Renormalisation Group
+========================================================================
+This is a schematic implementation of the research-note workflow.
+
+[Step 1] AS-side gamma estimates
+  S_Regge(equilateral)     = 6.590580
+  γ_AS leading (toy)       = 0.238340
+  γ_AS one-loop (toy)      = 0.293318
+  γ_AS benchmark           = 0.274000
+
+[Step 2] EPRL / entropy-side estimates
+  γ_Meissner benchmark     = 0.237533
+  γ_EPRL benchmark         = 0.237500
+  γ_LQG entropy root       = 0.274067
+  γ_EPRL weighted toy root = 0.282479
+
+[Step 3] UV → IR flow summaries
+  γ_UV = 0.274000 -> γ_IR = 0.265375 (m²_IR=3.222e-18, λ_IR=5.496e-37)
+  γ_UV = 0.237500 -> γ_IR = 0.230472 (m²_IR=3.240e-18, λ_IR=3.662e-37)
+  γ_UV = 0.250000 -> γ_IR = 0.242345 (m²_IR=3.228e-18, λ_IR=4.263e-37)
+  γ_UV = 0.300000 -> γ_IR = 0.290774 (m²_IR=3.238e-18, λ_IR=6.894e-37)
+
+  γ* mean      = 0.257242
+  γ* std       = 0.023071
+  rel. spread  = 8.97%
+  convergence  = NO
+
+[Step 4] Simplified BH entropy check
+  γ*                   = 0.257242
+  entropy coefficient  = 0.061311
+  target               = 0.250000
+  fractional deviation = 75.48%
+  BH check             = FAIL
+
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python EL1_3d_scaling.py
+3D NAND Throughput Scaling
+========================================
+Area model   (T ~ L):     SSE = 14.36, RMSE = 1.34, R² = 0.9994
+Volume model (T ~ L^1.5): SSE = 480.64, RMSE = 7.75, R² = 0.9787
+
+Power law fit: T ~ a * L^α with α = 0.7278
+Interpretation: sub-linear with layer count
+
+✓ AREA scaling preferred under the two-hypothesis comparison
+
+Model comparison (lower is better):
+  AIC area   = 8.679
+  AIC volume = 36.765
+  BIC area   = 8.838
+  BIC volume = 36.924
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python FR4_edge_eta_s.py
+FR4: Edge Plasma eta/s vs Collisionality
+====================================================================
+KSS bound: eta/s = hbar/(4 pi k_B) = 6.078312e-13
+
+nu* =    0.01 | chi =  0.500 m^2/s | T =   500.0 eV | n =  3.00e19 m^-3 | eta/s = 1.210874e-04 | (eta/s)/KSS = 199212189.80
+nu* =    0.03 | chi =  0.300 m^2/s | T =   300.0 eV | n =  4.00e19 m^-3 | eta/s = 7.265243e-05 | (eta/s)/KSS = 119527313.88
+nu* =     0.1 | chi =  0.150 m^2/s | T =   200.0 eV | n =  5.00e19 m^-3 | eta/s = 3.632622e-05 | (eta/s)/KSS = 59763656.94
+nu* =     0.3 | chi =  0.080 m^2/s | T =   150.0 eV | n =  6.00e19 m^-3 | eta/s = 1.937398e-05 | (eta/s)/KSS = 31873950.37
+nu* =       1 | chi =  0.100 m^2/s | T =   100.0 eV | n =  8.00e19 m^-3 | eta/s = 2.421748e-05 | (eta/s)/KSS = 39842437.96
+nu* =       3 | chi =  0.200 m^2/s | T =    80.0 eV | n = 10.00e19 m^-3 | eta/s = 4.843496e-05 | (eta/s)/KSS = 79684875.92
+nu* =      10 | chi =  0.500 m^2/s | T =    50.0 eV | n = 15.00e19 m^-3 | eta/s = 1.210874e-04 | (eta/s)/KSS = 199212189.80
+
+Discrete minimum at nu* = 0.3
+  eta/s_min = 1.937398e-05
+  (eta/s)_min / KSS = 31873950.37
+Discrete non-monotonicity: True
+
+Smooth-fit estimate:
+  nu*_min ~ 0.347169
+  eta/s_min ~ 1.773718e-05
+  (eta/s)_min / KSS ~ 29181085.54
+  interior minimum suggested: True
+
+Closest approach to KSS: more than 3 orders of magnitude above
+Verdict: NON_MONOTONICITY SUPPORTED by current dataset
+
+Saved JSON: data\fr4_edge_eta_s\result.json
+Saved plot: data\fr4_edge_eta_s\FR4_edge_eta_s.png

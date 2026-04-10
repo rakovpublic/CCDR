@@ -1,0 +1,64 @@
+{
+  "config": {
+    "walkers": 64,
+    "steps": 30000,
+    "burn": 5000,
+    "thin": 21,
+    "seed": 42,
+    "interp_points": 5000,
+    "bin_pantheon": 0,
+    "nu_pred": 0.001,
+    "nu_pred_err": 0.0003
+  },
+  "omega_m": {
+    "median": 0.29551517533554156,
+    "lo": 0.2903620742463112,
+    "hi": 0.30077030556564055,
+    "mean": 0.2955581381576099,
+    "std": 0.0052557837324302675
+  },
+  "h": {
+    "median": 0.684533186316212,
+    "lo": 0.6788254208986697,
+    "hi": 0.6902744800384182,
+    "mean": 0.6845600296922321,
+    "std": 0.005778083977544021
+  },
+  "nu": {
+    "median": 0.0011592517995856933,
+    "lo": 0.00018608003239580962,
+    "hi": 0.0021377267469390704,
+    "mean": 0.001160596435356661,
+    "std": 0.000980923272016492,
+    "ci_95": [
+      -0.0007725331000257053,
+      0.003088849484923466
+    ]
+  },
+  "chi2_min": 1795.9177733082001,
+  "n_sn": 1701,
+  "n_bao": 16,
+  "diagnostics": {
+    "acceptance_fraction_mean": 0.6370546874999999,
+    "acceptance_fraction_min": 0.6295333333333333,
+    "acceptance_fraction_max": 0.6435666666666666,
+    "autocorr_time": [
+      42.79482730777675,
+      42.87582184900502,
+      41.18645094758348
+    ],
+    "n_effective_rough": 44780,
+    "optimizer_minutes": 0.22710192998250325,
+    "mcmc_hours": 3.07702290919092
+  },
+  "tests": {
+    "z_from_zero": 1.183167397966625,
+    "z_from_prediction": 0.16371967098560267,
+    "prediction_in_95CI": true,
+    "lcdm_in_95CI": true,
+    "bayes_factor_lcdm_vs_rvm": 20.27045242450204
+  },
+  "notes": {
+    "approximation": "Late-time flat RVM with fixed z_star, fixed r_d, fixed omega_b, and no explicit radiation component, matching the supplied spec."
+  }
+}
