@@ -1,0 +1,34 @@
+{
+  "data_source": "Agazie et al. 2023, ApJL 951, L8",
+  "gamma_measured": 3.2,
+  "gamma_sigma": 0.6,
+  "gamma_smbhb": 4.333333333333333,
+  "ccdr_parameters": {
+    "nu": 0.001,
+    "kappa": 1.0
+  },
+  "gamma_ccdr": 4.331333333333333,
+  "delta_gamma_ccdr": -0.002,
+  "smbhb_test": {
+    "predicted": 4.333333333333333,
+    "measured": 3.2,
+    "sigma": 0.6,
+    "z_score": 1.8888888888888882,
+    "p_value": 0.05890671861566199,
+    "in_1sigma": false,
+    "in_2sigma": true,
+    "in_3sigma": true
+  },
+  "ccdr_test": {
+    "predicted": 4.331333333333333,
+    "measured": 3.2,
+    "sigma": 0.6,
+    "z_score": 1.8855555555555552,
+    "p_value": 0.059354871331801506,
+    "in_1sigma": false,
+    "in_2sigma": true,
+    "in_3sigma": true
+  },
+  "discrimination_factor_needed": 300.000000000033,
+  "verdict": "MARGINALLY CONSISTENT (within 2\u03c3)"
+}
