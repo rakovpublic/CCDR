@@ -1,0 +1,44 @@
+{
+  "data_source": "Agazie et al. 2023, ApJL 951, L8 (NANOGrav 15-yr)",
+  "n_bins": 15,
+  "ccdr_prediction": 1e-06,
+  "hd_chi2_per_dof": 1.7091620398006189,
+  "legendre_decomposition": {
+    "l_values": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ],
+    "coefficients": [
+      0.009519097788217907,
+      0.1842677769514422,
+      0.06529266579282969,
+      0.055386029300089325,
+      0.05467046147091115
+    ],
+    "sigmas": [
+      0.016118694963483296,
+      0.03319382941774059,
+      0.04482191227518606,
+      0.053087127375574916,
+      0.05844329694050496
+    ]
+  },
+  "hexapolar_test": {
+    "a_6": 0.055386029300089325,
+    "sigma_6": 0.053087127375574916,
+    "z_score": 1.0433043194869143,
+    "consistent_with_zero": true
+  },
+  "ccdr_comparison": {
+    "a_2_quadrupole": 0.1842677769514422,
+    "a_6_hexapole": 0.055386029300089325,
+    "ratio_central": 0.30057360118196097,
+    "upper_limit_2sigma": 0.8767690516709991,
+    "ccdr_prediction": 1e-06,
+    "ccdr_below_limit": true
+  },
+  "verdict": "CONSISTENT (CCDR prediction below current sensitivity)"
+}
