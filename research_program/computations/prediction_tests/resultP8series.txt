@@ -1,0 +1,219 @@
+analyze p8 results {
+  "data_url": "https://zenodo.org/records/8092346/files/NANOGrav15yr_Sensitivity-Curves_v1.0.0.tar.gz?download=1",
+  "curve_file": "data\\p8_nanograv\\extracted\\sensitivity_curves\\sensitivity_curves_NG15yr_fullPTA.txt",
+  "n_points": 300,
+  "real": {
+    "baseline_slope": 2.235196208810835,
+    "baseline_intercept": 11.040553326248698,
+    "amp_log": 1.3832501568345463,
+    "omega": -2.0187883638080804,
+    "phase": -18.185920260318834,
+    "rss": 31.012861159898254
+  },
+  "null": {
+    "n_realisations": 1000,
+    "median": 1.3591792778404046,
+    "mean": 1.3591293078700266,
+    "std": 0.02467548068421183,
+    "p95": 1.4012050591101763,
+    "p99": 1.4126103939218608
+  },
+  "p_value": 0.16899999999999993,
+  "sigma": 0.9581244654219031,
+  "verdict": "CONSISTENT WITH NULL (no beat)"
+}
+
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8a> python P8a_HD_hexapolar_test.py
+======================================================================
+P8a: Hellings-Downs Hexapolar (l=6) Test
+======================================================================
+CCDR prediction: A_hex / A_quad ~ ν × δ_CP ~ 1e-06
+
+[data] Using published binned HD points from Agazie+ 2023 Fig 1c
+[data] 15 angular bins
+[data] Loaded 15 angular bins
+       θ range: 3.0° to 171.0°
+
+[sanity] Standard Hellings-Downs fit:
+  χ² / dof = 23.9 / 14 = 1.71
+
+======================================================================
+LEGENDRE DECOMPOSITION (even l only)
+======================================================================
+     l            a_l            σ_l      |a_l/σ_l|
+  ---- -------------- -------------- --------------
+     0   9.519098e-03   1.611869e-02           0.59
+     2   1.842678e-01   3.319383e-02           5.55  ← significant
+     4   6.529267e-02   4.482191e-02           1.46
+     6   5.538603e-02   5.308713e-02           1.04
+     8   5.467046e-02   5.844330e-02           0.94
+
+======================================================================
+HEXAPOLAR (l=6) HYPOTHESIS TEST
+======================================================================
+  a_6 = 5.5386e-02 ± 5.3087e-02
+  z = 1.04σ
+  Status: CONSISTENT with zero (no detection)
+
+======================================================================
+COMPARISON WITH CCDR PREDICTION
+======================================================================
+  Quadrupole a_2:        1.8427e-01
+  Hexapole a_6:          5.5386e-02
+  Ratio a_6/a_2:         3.0057e-01
+  2σ upper limit:        8.7677e-01
+  CCDR prediction:       1.0000e-06
+
+  ✓ CCDR prediction is BELOW the current upper limit
+    The prediction is CONSISTENT with NANOGrav 15-yr.
+    A future (more sensitive) PTA could detect or exclude it.
+
+Verdict: CONSISTENT (CCDR prediction below current sensitivity)
+
+Saved: data\p8a_hexapolar\result.json
+Plot: P8a_hexapolar.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8a> cd ../
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests> cd P8C
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8C> ls
+
+
+    Directory: F:\git\upd\CCDR\research_program\computations\prediction_tests\P8C
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        09.04.2026     23:26          14926 P8c_PTA_cosmic_web.md
+
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8C> ls
+
+
+    Directory: F:\git\upd\CCDR\research_program\computations\prediction_tests\P8C
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        09.04.2026     23:26          14926 P8c_PTA_cosmic_web.md
+-a----        10.04.2026      9:25          10756 P8c_pta_cosmic_web_correlation.py
+
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8C> python P8c_pta_cosmic_web_correlation.py
+======================================================================
+P8c: PTA Residuals × Cosmic Web Node Correlation
+======================================================================
+NANOGrav pulsars: 35
+Cosmic web nodes: 20
+
+Pulsar               RA      Dec  RMS(ns)   Min dist Nearest
+----------------------------------------------------------------------
+J1012+5307       153.14    53.12      200       15.8 UMa
+J1024-0719       156.16    -7.32      150       21.0 Hydra
+J1455-3330       223.97   -33.51      220       20.7 Centaurus
+J1640+2224       250.09    22.41      175        2.1 Hercules
+J1713+0747       258.46     7.79       65       10.3 Hercules_2
+J1738+0333       264.55     3.56      190       16.8 Hercules_2
+J1741+1351       265.43    13.85      165       10.7 Hercules_2
+J1853+1303       283.48    13.06      195       27.8 Hercules_2
+B1855+09         284.33     9.72      150       29.5 Hercules_2
+J1909-3744       287.45   -37.74       52       21.0 PavoIndus
+
+======================================================================
+CORRELATION TEST
+======================================================================
+Pulsars with min_distance < 10°: 1
+Pulsars with min_distance < 20°: 5
+Pulsars with min_distance < 30°: 10
+
+Pearson  r: +0.201, p = 0.247
+Spearman r: +0.137, p = 0.433
+
+CCDR prediction: pulsars closer to nodes should have
+LARGER residual RMS (negative correlation between
+distance and RMS).
+
+Verdict: WRONG SIGN: positive correlation (opposite to prediction)
+
+======================================================================
+BIN-BASED TEST
+======================================================================
+Median distance: 37.3°
+Near group (d < median): N=17, ⟨RMS⟩ = 165 ± 12 ns
+Far group  (d ≥ median): N=18, ⟨RMS⟩ = 177 ± 11 ns
+
+t-test: t = -0.70, p = 0.488
+Mean(near) - Mean(far) = -12 ns
+CCDR predicts this should be POSITIVE (near > far)
+
+Saved: data\p8c_pta_cosmic_web\result.json
+Plot: P8c_correlation.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8C> cd ../
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests> cd P8b
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> ls
+
+
+    Directory: F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10.04.2026      9:33                data
+-a----        09.04.2026     23:26          10109 P8b_GW_spectral_index.md
+-a----        10.04.2026      9:33           7021 P8b_gw_spectral_index.py
+-a----        10.04.2026      9:33          73482 P8b_spectral_index.png
+
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> ^C
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b> python P8b_gw_spectral_index.py
+======================================================================
+P8b: GW Background Spectral Index Test
+======================================================================
+NANOGrav 15-yr measured γ:     3.2 ± 0.6
+SMBHB standard prediction:     γ = 13/3 = 4.3333
+CCDR parameters: ν = 0.001, κ = 1.0
+CCDR prediction:               γ = 4.331333
+  (= SMBHB - 2κν = 4.3333 - 0.002000)
+Predicted shift from SMBHB:    Δγ = -0.002000
+Current uncertainty:           σ(γ) = 0.6
+Sensitivity ratio:             σ / |Δγ| = 300
+
+======================================================================
+CONSISTENCY TESTS
+======================================================================
+
+1. Is the SMBHB prediction (γ = 13/3) consistent with NANOGrav?
+   |z| = 1.89σ, p = 0.059
+   In 1σ: False, In 2σ: True
+
+2. Is the CCDR prediction (γ = 13/3 - 2κν) consistent?
+   |z| = 1.89σ, p = 0.059
+   In 1σ: False, In 2σ: True
+
+3. Can we distinguish CCDR from SMBHB?
+   |γ_SMBHB - γ_CCDR| = 0.002000
+   Current σ(γ) = 0.6
+   Need 300× tighter measurement to discriminate at 1σ
+   Need 900× tighter measurement for 3σ discrimination
+
+4. When can the prediction become testable?
+   NANOGrav 15-yr σ:    0.6
+   NANOGrav 20-yr σ:    ~0.52  (sqrt(T) scaling)
+   SKA-PTA σ:           ~0.030  (rough estimate)
+   Required for CCDR:   0.000667  (3σ test)
+   Conclusion: even SKA-PTA cannot reach the CCDR precision.
+   This test is essentially UNTESTABLE with foreseeable PTAs.
+
+======================================================================
+VERDICT
+======================================================================
+  MARGINALLY CONSISTENT (within 2σ)
+
+  Honest assessment: this test cannot rule out CCDR with current
+  data. The CCDR prediction is buried in the SMBHB prediction at
+  ~10⁻³ precision, while NANOGrav 15-yr measures γ to ±0.6.
+  The SMBHB prediction itself is only at 1.9σ from the measured
+  central value, so any prediction near 13/3 will be 'consistent'.
+
+Saved: data\p8b_spectral_index\result.json
+Plot: P8b_spectral_index.png
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P8b>
