@@ -1,0 +1,58 @@
+{
+  "test_name": "Test 09 \u2014 QGP eta/s Saturation and Oscillation Near T_c",
+  "implementation": "public-source script using published MAP eta/s(T) parametrization from Parkkila et al. (2021)",
+  "source_pdf_url": "https://arxiv.org/pdf/2106.05019",
+  "source_abs_url": "https://arxiv.org/abs/2106.05019",
+  "source_doi_url": "https://doi.org/10.1103/PhysRevC.104.054904",
+  "jetscape_reference_url": "https://doi.org/10.1103/PhysRevC.103.054904",
+  "downloaded_pdf_sha256": "6d9ca05eddf8c52a070a94d59b605d08a4278ec12040b831c77c54397f04c55b",
+  "map_parameters": {
+    "T_c_GeV": 0.01,
+    "eta_over_s_Tc": 0.104,
+    "eta_over_s_slope_GeV_inv": 0.425,
+    "eta_over_s_curvature": -0.738,
+    "zeta_over_s_peak_GeV": 0.975,
+    "zeta_over_s_max": 0.901,
+    "zeta_over_s_width_GeV": 0.147,
+    "T_switch_GeV": 0.057
+  },
+  "eta_over_s_high_T": {
+    "200_MeV": 0.11285079728993219,
+    "250_MeV": 0.11348244746662729,
+    "300_MeV": 0.11401547248017035
+  },
+  "kss_bound": 0.07957747154594767,
+  "ratio_to_kss": {
+    "200_MeV": 1.4181249428712075,
+    "250_MeV": 1.4260624930901837,
+    "300_MeV": 1.4327606829570896
+  },
+  "transition_region": {
+    "scan_range_MeV": [
+      140,
+      170
+    ],
+    "min_T_mev": 140.0,
+    "max_T_mev": 170.0,
+    "min_eta_over_s": 0.11187933911061915,
+    "max_eta_over_s": 0.11240306279011046,
+    "bic_constant": -540.0267069076326,
+    "bic_linear": -770.3423158714861,
+    "bic_dip_peak": Infinity,
+    "dip_peak_model_valid": false,
+    "dip_peak_extrema_mev": [],
+    "dip_peak_bic_preferred": false,
+    "is_monotonic_non_decreasing": true
+  },
+  "pass_p5": true,
+  "pass_p9c": false,
+  "notes": {
+    "method_limit": "Uses published MAP parameters, not the full posterior chain.",
+    "why": "Practical public-source implementation without multi-gigabyte MCMC downloads."
+  },
+  "artifacts": {
+    "plot": "out_test09_public\\eta_over_s_curve.png",
+    "summary": "out_test09_public\\summary.txt",
+    "pdf": "out_test09_public\\cache\\parkkila_2021_eta_over_s.pdf"
+  }
+}

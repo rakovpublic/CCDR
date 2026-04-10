@@ -1,0 +1,50 @@
+{
+  "consistent_with_firas": true,
+  "covariance_mode": "diagonal_public_errors_only",
+  "data_url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt",
+  "fit_mode": "weighted_linear_least_squares_public_diagonal_errors",
+  "fit_parameters": {
+    "dT_best_fit_K": 1.1855995228750739e-05,
+    "mu_best_fit": -2.4336602782469652e-05,
+    "y_best_fit": 1.634687295467607e-06
+  },
+  "fit_uncertainties_1sigma": {
+    "dT_sigma_K": 2.7560539732912437e-05,
+    "mu_sigma": 5.6042491497136206e-05,
+    "y_sigma": 4.81440162871766e-06
+  },
+  "goodness_of_fit": {
+    "chi2": 44.83447913462187,
+    "dof": 40,
+    "reduced_chi2": 1.120861978365547
+  },
+  "implementation_notes": [
+    "The script downloads the machine-readable FIRAS monopole residual table from NASA LAMBDA.",
+    "The fit uses the public per-channel 1-sigma errors from that table as a diagonal covariance approximation.",
+    "A compact machine-readable monopole residual covariance matrix is not downloaded here.",
+    "For N=6 and nu=1e-3, the default stage split reproduces the test-note expectation mu~1e-6 and y~1e-6."
+  ],
+  "mu_limit_95": 0.00013417786772074882,
+  "mu_predicted": 1e-06,
+  "n_channels": 43,
+  "official_firas_limits_95_from_literature": {
+    "mu_limit_95": 9e-05,
+    "y_limit_95": 1.5e-05
+  },
+  "pixie_detectable": true,
+  "pixie_sensitivity_threshold": 1e-08,
+  "prediction_model": {
+    "N": 6,
+    "deltaE_over_E_per_stage": 1e-06,
+    "mu_predicted": 1e-06,
+    "n_mu_stages": 1,
+    "n_y_stages": 1,
+    "stage_split_mode": "default-two-stage-split",
+    "total_stages": 2,
+    "y_predicted": 1e-06
+  },
+  "reference_temperature_K": 2.725,
+  "test_name": "Test 04 \u2014 CMB mu/y distortion limits vs cascade releases",
+  "y_limit_95": 1.1070741094865198e-05,
+  "y_predicted": 1e-06
+}

@@ -1,0 +1,57 @@
+{
+  "nu_mean": 0.009191675886934255,
+  "nu_sigma": 0.0007952795739660143,
+  "nu_95ci": [
+    0.0070638943591229955,
+    0.009979039424002039
+  ],
+  "bayes_factor": 2.5274072078546232e+154,
+  "pass_pred": false,
+  "pass_lcdm_disfavored": false,
+  "nu_positive_2sigma": true,
+  "verdict": "not_supported",
+  "note": "The current fit does not satisfy the full Test 01 pass conditions. Bayes factor is decisively against the model by the test's own threshold.",
+  "burn_in": 265,
+  "thin": 27,
+  "tau_max": 52.82591434173162,
+  "best_fit": {
+    "omega_m": 0.24740269328539535,
+    "h": 0.7250294312086074,
+    "nu": 0.009191675886934255
+  },
+  "posterior_95ci": {
+    "omega_m": [
+      0.24357496309576163,
+      0.25121362513214524
+    ],
+    "h": [
+      0.7226342184381428,
+      0.727426686766219
+    ],
+    "nu": [
+      0.0070638943591229955,
+      0.009979039424002039
+    ]
+  },
+  "config": {
+    "walkers": 64,
+    "steps": 30000,
+    "nu_prediction": 0.001,
+    "nu_prediction_error": 0.0001,
+    "planck_parameters": [
+      "omega_m",
+      "h"
+    ],
+    "planck_source_entry": "base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE.paramnames",
+    "omega_b_h2": 0.02237,
+    "tcmb": 2.7255,
+    "neff": 3.046,
+    "data_urls": {
+      "pantheon_data": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat",
+      "pantheon_cov": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES_STAT%2BSYS.cov",
+      "desi_mean": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "desi_cov": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "planck_zip": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_CosmoParams_base-plikHM-TTTEEE-lowl-lowE_R3.00.zip"
+    }
+  }
+}

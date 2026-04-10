@@ -1,0 +1,96 @@
+{
+  "source": "pr4_ilc",
+  "analysis_nside": 64,
+  "lmax_clean": 16,
+  "mask_threshold": 0.5,
+  "mc_samples": 100000,
+  "directions": {
+    "quadrupole": {
+      "vector": [
+        -0.8381494933770529,
+        -0.20939496957347137,
+        -0.5036458810206976
+      ],
+      "galactic_lon_lat_deg": [
+        194.02708102980384,
+        -30.24150411825413
+      ]
+    },
+    "octupole": {
+      "vector": [
+        -0.7426562826704025,
+        -0.6669194260366618,
+        0.060664033702920034
+      ],
+      "galactic_lon_lat_deg": [
+        221.9244407619454,
+        3.4779285298746476
+      ]
+    },
+    "hemis_asym": {
+      "vector": [
+        0.0783126446377631,
+        -0.2922667686632189,
+        0.953125
+      ],
+      "galactic_lon_lat_deg": [
+        285.0,
+        72.38756092964962
+      ]
+    },
+    "cold_spot": {
+      "vector": [
+        -0.47635203330152615,
+        -0.26404624373696667,
+        -0.838670567945424
+      ],
+      "galactic_lon_lat_deg": [
+        208.99999999999997,
+        -57.00000000000001
+      ]
+    }
+  },
+  "pairwise_angles_deg": {
+    "quadrupole__octupole": 42.98322296295744,
+    "quadrupole__hemis_asym": 61.021853421929016,
+    "quadrupole__cold_spot": 28.72492794020906,
+    "octupole__hemis_asym": 78.77984474900768,
+    "octupole__cold_spot": 61.38078602966728,
+    "hemis_asym__cold_spot": 40.58071289964123
+  },
+  "common_axis": {
+    "vector": [
+      -0.6657584081008366,
+      -0.2556207126669217,
+      -0.7010162575138291
+    ],
+    "galactic_lon_lat_deg": [
+      201.00450064670042,
+      -44.50859545413876
+    ],
+    "angles_to_common_axis_deg": {
+      "quadrupole": 15.2918996859944,
+      "octupole": 51.509738425890006,
+      "hemis_asym": 49.79052540735609,
+      "cold_spot": 13.455050435005173
+    },
+    "max_angle_deg": 51.509738425890006,
+    "threshold_deg": 30.0,
+    "within_threshold": false
+  },
+  "common_axis_pvalue": 0.22507,
+  "pvalue_for_30deg_event_under_isotropy": 0.01524,
+  "pass_p05": false,
+  "pass_p01": false,
+  "hemispherical_asymmetry_score": 0.0518954814927062,
+  "notes": {
+    "implementation": "No healpy import. Uses astropy.io.fits + astropy-healpix + masked least-squares low-l fit.",
+    "multipole_axis_estimator": "angular_momentum_dispersion_power_tensor_proxy"
+  },
+  "pr4_ilc_weights": {
+    "070": 0.6422813756515268,
+    "100": 2.59578414146788,
+    "143": -3.343986264114284,
+    "217": 1.1059207469948769
+  }
+}

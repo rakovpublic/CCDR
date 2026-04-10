@@ -362,3 +362,293 @@ Verdict: NON_MONOTONICITY SUPPORTED by current dataset
 
 Saved JSON: data\fr4_edge_eta_s\result.json
 Saved plot: data\fr4_edge_eta_s\FR4_edge_eta_s.png
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\P1> python P01_rvm_fit_v2_fixed.py                    ========================================================================
+P01 v2: RVM ν Extraction
+  Full Planck prior covariance + full Pantheon+ covariance + BAO
+========================================================================
+
+[data] Ensuring Pantheon+ files are present...
+  [cache] Pantheon+SH0ES.dat
+  [cache] Pantheon+SH0ES_STAT+SYS.cov
+
+[data] Loading Pantheon+...
+  Loaded 1701 Pantheon+ supernovae
+  Cholesky factorization ready for 1701x1701 covariance
+
+[optimize] Differential-evolution search for a starting point...
+  Best fit: Ω_m=0.29547, h=0.68458, ν=0.001161
+  χ²_min = 1795.918
+  Optimizer wall time: 0.23 min
+
+[mcmc] Running 64 walkers × 30000 steps
+100%|██████████████████████████████████████████████████████████████████████████| 30000/30000 [3:04:36<00:00,  2.71it/s]
+  MCMC wall time: 3.08 h
+
+[diagnostics]
+  Autocorr times: Ω_m=42.8, h=42.9, ν=41.2
+  Mean acceptance fraction: 0.637
+  Suggested thinning: 21
+  Rough effective sample count: 44780
+  Retained posterior samples: 76160
+
+========================================================================
+RESULTS
+========================================================================
+Ω_m = 0.29552 +0.00526 -0.00515
+h   = 0.68453 +0.00574 -0.00571
+ν   = 0.001159 +0.000978 -0.000973
+
+ν = 0.001161 ± 0.000981
+ν / 10⁻³ = 1.161 ± 0.981
+
+========================================================================
+PREDICTION TEST
+========================================================================
+ν from zero:       1.18σ
+ν from prediction: 0.16σ
+95% CI for ν:      [-0.000773, 0.003089]
+Prediction ν in 95% CI: YES
+ΛCDM ν=0 in 95% CI:     YES
+F:\git\upd\CCDR\research_program\computations\prediction_tests\P1\P01_rvm_fit_v2_fixed.py:718: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  posterior_density_at_zero = float(kde(0.0))
+Bayes factor (ΛCDM vs RVM): 20.270
+
+[save] Wrote results\p01_rvm_v2\result_v2.json and results\p01_rvm_v2\chain_v2.npz
+[plot] Saved P01_rvm_v2.png
+[plot] Saved P01_rvm_v2_corner.png
+
+Done.
+
+
+slimgreen@slimgreen-Blade-Pro-17-2019:~/git/CCDR/research_program/computations/prediction_tests/SMD5v3$ python3 SMD5_complete_test_updated.py
+============================================================================
+SM-D5 COMPLETE TEST (CONSERVATIVE VERSION)
+Monte Carlo samples: 200,000   RNG seed: 12345
+Interpretation policy: descriptive first, hypothesis test second, no theory overclaim
+============================================================================
+
+============================================================================
+DESCRIPTIVE RESULTS
+============================================================================
+
+  Leptons
+    Q mean   = 0.66666050
+    Q median = 0.66666049
+    68% CI   = [0.66665375, 0.66666723]
+    95% CI   = [0.66664717, 0.66667375]
+    sigma    = 0.00000678
+
+  Up-type quarks MSbar(M_Z)
+    Q mean   = 0.88849302
+    Q median = 0.88849645
+    68% CI   = [0.88759076, 0.88939592]
+    95% CI   = [0.88669785, 0.89026169]
+    sigma    = 0.00090930
+
+  Down-type quarks MSbar(M_Z)
+    Q mean   = 0.74397281
+    Q median = 0.74374080
+    68% CI   = [0.73699586, 0.75095001]
+    95% CI   = [0.73085698, 0.75838025]
+    sigma    = 0.00703752
+
+  Up-type quarks MSbar(2 GeV)
+    Q mean   = 0.84499064
+    Q median = 0.84499481
+    68% CI   = [0.84382272, 0.84615288]
+    95% CI   = [0.84269255, 0.84728309]
+    sigma    = 0.00117100
+
+  Down-type quarks MSbar(2 GeV)
+    Q mean   = 0.73117364
+    Q median = 0.73091279
+    68% CI   = [0.72398882, 0.73833611]
+    95% CI   = [0.71768447, 0.74612367]
+    sigma    = 0.00724138
+
+============================================================================
+TARGETED HYPOTHESIS CHECKS
+============================================================================
+  Leptons: target 2/3 = 0.666667
+    |Q - target| = 0.000006
+    z = 0.91 (using propagated mass uncertainty only)
+    In 68% CI: YES
+    In 95% CI: YES
+    Conservative status: CONSISTENT within 2.0σ
+  Up-type quarks MSbar(M_Z): target 8/9 = 0.888889
+    |Q - target| = 0.000396
+    z = 0.44 (using propagated mass uncertainty only)
+    In 68% CI: YES
+    In 95% CI: YES
+    Conservative status: CONSISTENT within 2.0σ
+  Down-type quarks MSbar(M_Z): target 3/4 = 0.750000
+    |Q - target| = 0.006027
+    z = 0.86 (using propagated mass uncertainty only)
+    In 68% CI: YES
+    In 95% CI: YES
+    Conservative status: CONSISTENT within 2.0σ
+
+============================================================================
+NEAREST LOW-DENOMINATOR RATIONALS
+Avoids cherry-picking a single competitor such as 17/19 or 14/19.
+============================================================================
+  Up-type quarks MSbar(M_Z): nearest reduced fractions with denominator ≤ 20
+    8/9 = 0.888889   Δ=0.000396   (0.44σ)
+    15/17 = 0.882353   Δ=0.006140   (6.75σ)
+    17/19 = 0.894737   Δ=0.006244   (6.87σ)
+    9/10 = 0.900000   Δ=0.011507   (12.65σ)
+    7/8 = 0.875000   Δ=0.013493   (14.84σ)
+  Down-type quarks MSbar(M_Z): nearest reduced fractions with denominator ≤ 20
+    3/4 = 0.750000   Δ=0.006027   (0.86σ)
+    14/19 = 0.736842   Δ=0.007131   (1.01σ)
+    11/15 = 0.733333   Δ=0.010639   (1.51σ)
+    8/11 = 0.727273   Δ=0.016700   (2.37σ)
+
+============================================================================
+POST-HOC LOOK-ELSEWHERE CHECK
+This is descriptive, not a formal p-value for a preregistered model.
+============================================================================
+  Fraction of Q values in [2/3,1] lying within 2σ of some p/q with q≤9:
+    Up-type sigma scale:   0.092
+    Down-type sigma scale: 0.612
+  Interpretation: small-denominator proximity is not automatically rare once one scans many rationals.
+
+============================================================================
+SCHEME / SCALE COMPARISON
+Important: this is descriptive only. It does NOT establish RG invariance.
+============================================================================
+  Scheme                           Q_up         σ_up       Q_down       σ_down
+  ------------------------ ------------ ------------ ------------ ------------
+  MSbar(M_Z)                   0.888493     0.000909     0.743973     0.007038
+  MSbar(2 GeV inputs)          0.844991     0.001171     0.731174     0.007241
+  Constituent/pole proxy       0.775109     0.002624     0.466532     0.002246
+
+  Caveat: the last row mixes constituent-model light masses with heavy-quark pole-like inputs.
+  It can illustrate scheme dependence, but should not be treated as a clean field-theoretic comparison.
+
+============================================================================
+SENSITIVITY
+============================================================================
+
+  Up-type MSbar(M_Z)
+  Local one-at-a-time sensitivity (1% upward shift of central value):
+    u: ΔQ = -2.261667e-05 for +1% shift
+    c: ΔQ = -4.686549e-04 for +1% shift
+    t: ΔQ = +4.893950e-04 for +1% shift
+
+  Down-type MSbar(M_Z)
+  Local one-at-a-time sensitivity (1% upward shift of central value):
+    d: ΔQ = -1.926596e-04 for +1% shift
+    s: ΔQ = -7.415300e-04 for +1% shift
+    b: ΔQ = +9.319021e-04 for +1% shift
+
+============================================================================
+OPTIONAL RATIO DIAGNOSTIC
+This is a derived descriptive quantity, not an independent test unless preregistered.
+============================================================================
+  mean   = 2.893411
+  median = 2.878132
+  68% CI = [2.631775, 3.154349]
+  95% CI = [2.418621, 3.456496]
+  target 8/3 = 2.666667
+  |ratio - target| / σ = 0.85
+
+============================================================================
+BOTTOM LINE
+============================================================================
+  Leptons remain extremely close to 2/3: Q = 0.66666050 ± 0.00000678
+  Up-type quarks at MSbar(M_Z):   Q = 0.888493 ± 0.000909
+  Down-type quarks at MSbar(M_Z): Q = 0.743973 ± 0.007038
+  On the supplied input dataset, 8/9 and 3/4 can be discussed as candidate targets,
+  but the script now avoids stronger claims than the uncertainty model supports.
+  No claim of RG invariance, UV origin, or decisive exclusion/confirmation is made here.
+
+PS F:\git\CCDR\research_program\computations\prediction_tests> python P25v2\P25_N_cross_check_v2.py
+P25 (REVISED): BULK DIMENSIONALITY N — THREE INDEPENDENT CALCULATIONS
+======================================================================
+COUNTING CONVENTION: N = total number of internal sectors
+                     = visible (acoustic) + dark (optical)
+======================================================================
+
+(a) DIVISION ALGEBRA ROUTE (Furey 2012/2018, Baez 2001)
+----------------------------------------------------------------------
+Division algebras and their dimensions: {'R': 1, 'C': 2, 'H': 4, 'O': 8}
+Total generator dimensions: 1 + 2 + 4 + 8 = 15
+
+Compact internal dimensions from R+C+H:
+  dim(R) + dim(C) + dim(H) - 1(phase) = 1 + 2 + 4 - 1 = 6
+  (O provides the gauge STRUCTURE but not extra dimensions)
+N(DA) = 6
+
+(b) AQN SEGREGATION ROUTE (Zhitnitsky 2003) -- CORRECTED
+----------------------------------------------------------------------
+Omega_DM / Omega_B = 5.0
+k_eff = Omega_B / (Omega_DM + Omega_B) = 1 / (5 + 1) = 0.1667
+
+Physical interpretation of k_eff = 1/6:
+  During crystallisation, the crystal has 6 total sectors
+  1 sector retains visible baryons (acoustic)
+  5 sectors expel matter into defects (optical/dark)
+  k_eff = (visible sectors) / (total sectors) = 1/6
+
+  N(AQN) = 1/k_eff = 6  [TOTAL sectors, not dark-only]
+
+  Previous (incorrect): N = 1/k_eff - 1 = 5  [counted only dark sectors]
+  Corrected: N = 1/k_eff = 6  [total = visible + dark]
+
+(c) HaPPY CODE DIMENSION (Pastawski et al. 2015)
+----------------------------------------------------------------------
+The HaPPY holographic code on a hyperbolic tiling encodes
+bulk logical qubits into boundary physical qubits.
+
+For the cosmological application:
+  Boundary dimension = 3+1 = 4 (our spacetime)
+  Bulk dimension = boundary + 1 (AdS/CFT) = 5 minimal
+  But the FULL bulk includes internal directions:
+  bulk_total = 4 (spacetime) + N_internal
+  The code rate k/n is optimal when N_internal provides
+  enough redundancy for error correction.
+  For the {5,4} tiling: optimal N_internal = 2
+  Total: N = 4 + 2 = 6
+N(HaPPY) = 6
+
+======================================================================
+CROSS-CHECK (REVISED)
+======================================================================
+N(DA)    = 6
+N(AQN)   = 6  [CORRECTED from 5 -> 6]
+N(HaPPY) = 6
+
+[PASS] ALL THREE GIVE N = 6
+  Three independent mathematical routes -> same number.
+  DA/O: algebraic (division algebra dimensions)
+  AQN: physical (baryon segregation ratio)
+  HaPPY: information-theoretic (code dimension)
+  This is a non-trivial consistency check.
+
+  INTERPRETATION:
+  The cosmological crystal has 6 total internal sectors:
+    1 visible (acoustic phonon = Standard Model)
+    5 dark (optical phonon = dark matter)
+  The ratio Omega_DM/Omega_B ~ 5 is the ratio of dark to visible sectors.
+  This is a GEOMETRIC EXPLANATION of the coincidence Omega_DM/Omega_B ~ 5.
+
+======================================================================
+SENSITIVITY: What if Omega_DM/Omega_B were different?
+======================================================================
+  Omega_DM/Omega_B =  3.0 -> N = 4
+  Omega_DM/Omega_B =  4.0 -> N = 5
+  Omega_DM/Omega_B =  4.5 -> N = 6
+  Omega_DM/Omega_B =  5.0 -> N = 6
+  Omega_DM/Omega_B =  5.5 -> N = 6
+  Omega_DM/Omega_B =  6.0 -> N = 7
+  Omega_DM/Omega_B =  7.0 -> N = 8
+  Omega_DM/Omega_B = 10.0 -> N = 11
+
+  Observed: Omega_DM/Omega_B = 5.36 (Planck 2018: Omega_DM=0.265, Omega_B=0.0494)
+  -> N = 6 = 6 (nearest integer)
+  Precision: Omega_DM/Omega_B = 5.36 vs predicted 5.00 (for N exactly 6)
+  Discrepancy: 7.2% -- within systematic uncertainties
+  (The exact ratio depends on the crystal grain geometry at QCD scale)
+

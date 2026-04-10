@@ -1,0 +1,1278 @@
+p1
+{
+  "nu_mean": 0.009191675886934255,
+  "nu_sigma": 0.0007952795739660143,
+  "nu_95ci": [
+    0.0070638943591229955,
+    0.009979039424002039
+  ],
+  "bayes_factor": 2.5274072078546232e+154,
+  "pass_pred": false,
+  "pass_lcdm_disfavored": false,
+  "nu_positive_2sigma": true,
+  "verdict": "not_supported",
+  "note": "The current fit does not satisfy the full Test 01 pass conditions. Bayes factor is decisively against the model by the test's own threshold.",
+  "burn_in": 265,
+  "thin": 27,
+  "tau_max": 52.82591434173162,
+  "best_fit": {
+    "omega_m": 0.24740269328539535,
+    "h": 0.7250294312086074,
+    "nu": 0.009191675886934255
+  },
+  "posterior_95ci": {
+    "omega_m": [
+      0.24357496309576163,
+      0.25121362513214524
+    ],
+    "h": [
+      0.7226342184381428,
+      0.727426686766219
+    ],
+    "nu": [
+      0.0070638943591229955,
+      0.009979039424002039
+    ]
+  },
+  "config": {
+    "walkers": 64,
+    "steps": 30000,
+    "nu_prediction": 0.001,
+    "nu_prediction_error": 0.0001,
+    "planck_parameters": [
+      "omega_m",
+      "h"
+    ],
+    "planck_source_entry": "base/plikHM_TTTEEE_lowl_lowE/base_plikHM_TTTEEE_lowl_lowE.paramnames",
+    "omega_b_h2": 0.02237,
+    "tcmb": 2.7255,
+    "neff": 3.046,
+    "data_urls": {
+      "pantheon_data": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat",
+      "pantheon_cov": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES_STAT%2BSYS.cov",
+      "desi_mean": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "desi_cov": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "planck_zip": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_CosmoParams_base-plikHM-TTTEEE-lowl-lowE_R3.00.zip"
+    }
+  }
+}
+
+p2
+
+{
+  "test_name": "CCDR v6 P7-extended multi-harmonic w(z) search",
+  "pantheon_source": "p02_public_data\\pantheon_plus\\Pantheon+SH0ES.dat",
+  "bao_sources": [
+    "DESI_DR2_auto",
+    "SDSS_DR12_auto"
+  ],
+  "auto_download_mode": true,
+  "public_data_cache_dir": "F:\\git\\upd\\CCDR\\research_program\\computations\\prediction_tests\\v2\\2\\p02_public_data",
+  "fit": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "chi2_total": 1927.5757261550934,
+    "nfev": 4169,
+    "nit": 333,
+    "omega_m": 0.2775404117930811,
+    "h": 0.7343862181286575,
+    "w_nodes": [
+      -0.8812811566798892,
+      -1.308657193400978,
+      -1.4857897046774222,
+      -1.688671418622021,
+      -1.886879794882044,
+      -2.091730969974092,
+      -2.295977268127697,
+      -2.499999979286742
+    ],
+    "z_knots": [
+      0.0,
+      0.35714285714285715,
+      0.7142857142857143,
+      1.0714285714285714,
+      1.4285714285714286,
+      1.7857142857142858,
+      2.142857142857143,
+      2.5
+    ],
+    "M_if_fit": null
+  },
+  "periodogram": {
+    "support_z": [
+      0.0,
+      0.00122,
+      0.005953333333333333,
+      0.008176666666666667,
+      0.01042,
+      0.013416666666666664,
+      0.015176666666666666,
+      0.01662,
+      0.01786,
+      0.020409999999999998,
+      0.02205,
+      0.023223333333333335,
+      0.02446666666666667,
+      0.02598,
+      0.02826333333333333,
+      0.02964666666666667,
+      0.03118,
+      0.03309666666666666,
+      0.03543666666666667,
+      0.03796,
+      0.04261333333333333,
+      0.04661333333333333,
+      0.05066,
+      0.05848666666666669,
+      0.07067333333333332,
+      0.07895,
+      0.10316333333333336,
+      0.12076666666666666,
+      0.13169,
+      0.14197666666666672,
+      0.15309,
+      0.16448,
+      0.17443333333333333,
+      0.18114666666666665,
+      0.18809,
+      0.19754666666666668,
+      0.20366000000000004,
+      0.212,
+      0.21974,
+      0.22961333333333334,
+      0.23661999999999997,
+      0.24476333333333336,
+      0.25035999999999997,
+      0.25923,
+      0.26582333333333336,
+      0.2774000000000001,
+      0.28854,
+      0.2958233333333333,
+      0.3045266666666667,
+      0.31203,
+      0.3221166666666667,
+      0.33060666666666666,
+      0.34098,
+      0.35420999999999986,
+      0.3692699999999998,
+      0.38153,
+      0.40581999999999996,
+      0.4222966666666667,
+      0.4389,
+      0.4561299999999997,
+      0.4912533333333336,
+      0.51437,
+      0.5399366666666668,
+      0.5760500000000001,
+      0.60328,
+      0.6352499999999998,
+      0.6893566666666666,
+      0.73014,
+      0.7668566666666666,
+      1.1951400000000085,
+      2.33,
+      2.5
+    ],
+    "delta_w_support": [
+      0.11871884332011085,
+      0.11702313625413119,
+      0.11044446977669287,
+      0.10735470942861092,
+      0.10423752788337903,
+      0.1000743279131382,
+      0.0976296953540935,
+      0.09562522821085429,
+      0.09390339594235819,
+      0.09036333501936633,
+      0.088087218023436,
+      0.08645910513332067,
+      0.08473417803035599,
+      0.0826351345926285,
+      0.0794691095869946,
+      0.07755165160342836,
+      0.07542688021525723,
+      0.07277185706066513,
+      0.06953192506121741,
+      0.06604013247971763,
+      0.05960671302497578,
+      0.054083223754409326,
+      0.0485021958147519,
+      0.037729850473723237,
+      0.02102301172336285,
+      0.009729844815595245,
+      -0.02300690733834232,
+      -0.04646901724935226,
+      -0.060859964866468275,
+      -0.07428173615973765,
+      -0.08862833102666534,
+      -0.10315360537727036,
+      -0.11568837330485526,
+      -0.12405466352890371,
+      -0.1326294691167922,
+      -0.14417497035609483,
+      -0.15155365250805986,
+      -0.16150787810685308,
+      -0.1706261433872016,
+      -0.1820833540547393,
+      -0.19009109228583632,
+      -0.1992649836757341,
+      -0.20548465833038598,
+      -0.21519537173380465,
+      -0.22229383986019724,
+      -0.23450166143203544,
+      -0.24593006341637902,
+      -0.2532267378826316,
+      -0.26175860926113503,
+      -0.26894600461749296,
+      -0.2783556014071744,
+      -0.28604515057125957,
+      -0.2951458365263806,
+      -0.3062673401146081,
+      -0.3182464227731414,
+      -0.32747804303570005,
+      -0.3444842993091941,
+      -0.3551230595931705,
+      -0.36517568257192257,
+      -0.37495989657708617,
+      -0.3931256411964954,
+      -0.40399041471918706,
+      -0.41521520010270696,
+      -0.4300473857806497,
+      -0.44075834803493485,
+      -0.4531908315199509,
+      -0.4749792011837144,
+      -0.4930346754392618,
+      -0.5108871291541872,
+      -0.7593124973577356,
+      -1.402790651453683,
+      -1.4999999792867418
+    ],
+    "frequency_min": 0.4,
+    "frequency_max": 4.0,
+    "n_freq": 1000,
+    "n_permutations": 600,
+    "single_trial_1pct_global_summary": 0.10735648627899799,
+    "look_elsewhere_10pct_line": 0.1103372311730309,
+    "peaks_all": [
+      {
+        "index": 43,
+        "frequency": 0.554954954954955,
+        "period_in_z": 1.801948051948052,
+        "power": 0.6527225531494008,
+        "amplitude": 0.4257753676629603,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0
+      },
+      {
+        "index": 175,
+        "frequency": 1.0306306306306308,
+        "period_in_z": 0.9702797202797202,
+        "power": 0.5304031328235554,
+        "amplitude": 0.32376866253463565,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0
+      },
+      {
+        "index": 298,
+        "frequency": 1.473873873873874,
+        "period_in_z": 0.6784841075794621,
+        "power": 0.3526166309933251,
+        "amplitude": 0.27873581096518385,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0
+      },
+      {
+        "index": 530,
+        "frequency": 2.30990990990991,
+        "period_in_z": 0.4329173166926677,
+        "power": 0.23229037302780658,
+        "amplitude": 0.19511646605270985,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0016666666666666668
+      },
+      {
+        "index": 419,
+        "frequency": 1.90990990990991,
+        "period_in_z": 0.5235849056603773,
+        "power": 0.22964380386926989,
+        "amplitude": 0.20041904397525628,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0016666666666666668
+      },
+      {
+        "index": 938,
+        "frequency": 3.78018018018018,
+        "period_in_z": 0.26453765490943754,
+        "power": 0.16964151018514353,
+        "amplitude": 0.17672021413558248,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.008333333333333333
+      },
+      {
+        "index": 721,
+        "frequency": 2.998198198198198,
+        "period_in_z": 0.33353365384615385,
+        "power": 0.11179714357005344,
+        "amplitude": 0.13714238435984633,
+        "fap_single_trial": 0.015,
+        "fap_global": 0.095
+      },
+      {
+        "index": 644,
+        "frequency": 2.7207207207207205,
+        "period_in_z": 0.36754966887417223,
+        "power": 0.10499223943950613,
+        "amplitude": 0.13368008950861637,
+        "fap_single_trial": 0.018333333333333333,
+        "fap_global": 0.125
+      },
+      {
+        "index": 823,
+        "frequency": 3.3657657657657656,
+        "period_in_z": 0.29710920770877947,
+        "power": 0.1030054062247946,
+        "amplitude": 0.13653472555188426,
+        "fap_single_trial": 0.02,
+        "fap_global": 0.13666666666666666
+      }
+    ],
+    "peaks_significant": [
+      {
+        "index": 43,
+        "frequency": 0.554954954954955,
+        "period_in_z": 1.801948051948052,
+        "power": 0.6527225531494008,
+        "amplitude": 0.4257753676629603,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0
+      },
+      {
+        "index": 175,
+        "frequency": 1.0306306306306308,
+        "period_in_z": 0.9702797202797202,
+        "power": 0.5304031328235554,
+        "amplitude": 0.32376866253463565,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0
+      },
+      {
+        "index": 298,
+        "frequency": 1.473873873873874,
+        "period_in_z": 0.6784841075794621,
+        "power": 0.3526166309933251,
+        "amplitude": 0.27873581096518385,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0
+      },
+      {
+        "index": 530,
+        "frequency": 2.30990990990991,
+        "period_in_z": 0.4329173166926677,
+        "power": 0.23229037302780658,
+        "amplitude": 0.19511646605270985,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0016666666666666668
+      },
+      {
+        "index": 419,
+        "frequency": 1.90990990990991,
+        "period_in_z": 0.5235849056603773,
+        "power": 0.22964380386926989,
+        "amplitude": 0.20041904397525628,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.0016666666666666668
+      },
+      {
+        "index": 938,
+        "frequency": 3.78018018018018,
+        "period_in_z": 0.26453765490943754,
+        "power": 0.16964151018514353,
+        "amplitude": 0.17672021413558248,
+        "fap_single_trial": 0.0,
+        "fap_global": 0.008333333333333333
+      }
+    ],
+    "closest_frequency_ratio": {
+      "ratio": 1.9792452830188678,
+      "log_distance_to_simple_ratio": 0.010431578709815707,
+      "frequencies": [
+        1.90990990990991,
+        3.78018018018018
+      ]
+    }
+  },
+  "result": {
+    "n_peaks_significant": 6,
+    "peak_frequencies": [
+      0.554954954954955,
+      1.0306306306306308,
+      1.473873873873874,
+      2.30990990990991,
+      1.90990990990991,
+      3.78018018018018
+    ],
+    "peak_amplitudes": [
+      0.4257753676629603,
+      0.32376866253463565,
+      0.27873581096518385,
+      0.19511646605270985,
+      0.20041904397525628,
+      0.17672021413558248
+    ],
+    "inferred_N_minus_4": 6,
+    "pass_v6": true,
+    "pass_v5_only": false
+  }
+}
+
+p3
+{
+  "source": "pr4_ilc",
+  "analysis_nside": 64,
+  "lmax_clean": 16,
+  "mask_threshold": 0.5,
+  "mc_samples": 100000,
+  "directions": {
+    "quadrupole": {
+      "vector": [
+        -0.8381494933770529,
+        -0.20939496957347137,
+        -0.5036458810206976
+      ],
+      "galactic_lon_lat_deg": [
+        194.02708102980384,
+        -30.24150411825413
+      ]
+    },
+    "octupole": {
+      "vector": [
+        -0.7426562826704025,
+        -0.6669194260366618,
+        0.060664033702920034
+      ],
+      "galactic_lon_lat_deg": [
+        221.9244407619454,
+        3.4779285298746476
+      ]
+    },
+    "hemis_asym": {
+      "vector": [
+        0.0783126446377631,
+        -0.2922667686632189,
+        0.953125
+      ],
+      "galactic_lon_lat_deg": [
+        285.0,
+        72.38756092964962
+      ]
+    },
+    "cold_spot": {
+      "vector": [
+        -0.47635203330152615,
+        -0.26404624373696667,
+        -0.838670567945424
+      ],
+      "galactic_lon_lat_deg": [
+        208.99999999999997,
+        -57.00000000000001
+      ]
+    }
+  },
+  "pairwise_angles_deg": {
+    "quadrupole__octupole": 42.98322296295744,
+    "quadrupole__hemis_asym": 61.021853421929016,
+    "quadrupole__cold_spot": 28.72492794020906,
+    "octupole__hemis_asym": 78.77984474900768,
+    "octupole__cold_spot": 61.38078602966728,
+    "hemis_asym__cold_spot": 40.58071289964123
+  },
+  "common_axis": {
+    "vector": [
+      -0.6657584081008366,
+      -0.2556207126669217,
+      -0.7010162575138291
+    ],
+    "galactic_lon_lat_deg": [
+      201.00450064670042,
+      -44.50859545413876
+    ],
+    "angles_to_common_axis_deg": {
+      "quadrupole": 15.2918996859944,
+      "octupole": 51.509738425890006,
+      "hemis_asym": 49.79052540735609,
+      "cold_spot": 13.455050435005173
+    },
+    "max_angle_deg": 51.509738425890006,
+    "threshold_deg": 30.0,
+    "within_threshold": false
+  },
+  "common_axis_pvalue": 0.22507,
+  "pvalue_for_30deg_event_under_isotropy": 0.01524,
+  "pass_p05": false,
+  "pass_p01": false,
+  "hemispherical_asymmetry_score": 0.0518954814927062,
+  "notes": {
+    "implementation": "No healpy import. Uses astropy.io.fits + astropy-healpix + masked least-squares low-l fit.",
+    "multipole_axis_estimator": "angular_momentum_dispersion_power_tensor_proxy"
+  },
+  "pr4_ilc_weights": {
+    "070": 0.6422813756515268,
+    "100": 2.59578414146788,
+    "143": -3.343986264114284,
+    "217": 1.1059207469948769
+  }
+}
+{
+  "source": "pr4_143",
+  "analysis_nside": 32,
+  "lmax_clean": 16,
+  "mask_threshold": 0.5,
+  "mc_samples": 100000,
+  "directions": {
+    "quadrupole": {
+      "vector": [
+        -0.9288521586701273,
+        -0.3126408590851151,
+        -0.19871930093568158
+      ],
+      "galactic_lon_lat_deg": [
+        198.6026358603494,
+        -11.4620772275764
+      ]
+    },
+    "octupole": {
+      "vector": [
+        0.3900473625262264,
+        -0.9136541863174479,
+        0.11445122459343493
+      ],
+      "galactic_lon_lat_deg": [
+        293.118081039643,
+        6.571973545664977
+      ]
+    },
+    "hemis_asym": {
+      "vector": [
+        -1.669914921751073e-16,
+        -0.9090593428863096,
+        0.4166666666666667
+      ],
+      "galactic_lon_lat_deg": [
+        270.0,
+        24.624318352164078
+      ]
+    },
+    "cold_spot": {
+      "vector": [
+        -0.47635203330152615,
+        -0.26404624373696667,
+        -0.838670567945424
+      ],
+      "galactic_lon_lat_deg": [
+        208.99999999999997,
+        -57.00000000000001
+      ]
+    }
+  },
+  "pairwise_angles_deg": {
+    "quadrupole__octupole": 84.29570318162617,
+    "quadrupole__hemis_asym": 78.38061185078885,
+    "quadrupole__cold_spot": 46.23736884684744,
+    "octupole__hemis_asym": 28.567557395192114,
+    "octupole__cold_spot": 87.67660547172677,
+    "hemis_asym__cold_spot": 83.71855788584105
+  },
+  "common_axis": {
+    "vector": [
+      -0.26581139822135535,
+      0.8944395234352666,
+      -0.35961401459412207
+    ],
+    "galactic_lon_lat_deg": [
+      106.55100582453086,
+      -21.07649323644819
+    ],
+    "angles_to_common_axis_deg": {
+      "quadrupole": 87.78075800082104,
+      "octupole": 15.836212214842767,
+      "hemis_asym": 15.647821759487757,
+      "cold_spot": 78.92790075147686
+    },
+    "max_angle_deg": 87.78075800082104,
+    "threshold_deg": 30.0,
+    "within_threshold": false
+  },
+  "common_axis_pvalue": 0.95596,
+  "pvalue_for_30deg_event_under_isotropy": 0.01524,
+  "pass_p05": false,
+  "pass_p01": false,
+  "hemispherical_asymmetry_score": 0.05805201429663971,
+  "notes": {
+    "implementation": "No healpy import. Uses astropy.io.fits + astropy-healpix + masked least-squares low-l fit.",
+    "multipole_axis_estimator": "angular_momentum_dispersion_power_tensor_proxy"
+  }
+}
+
+{
+  "source": "pr3_smica",
+  "analysis_nside": 32,
+  "lmax_clean": 16,
+  "mask_threshold": 0.5,
+  "mc_samples": 100000,
+  "directions": {
+    "quadrupole": {
+      "vector": [
+        -0.46809969881684727,
+        0.6808656513642326,
+        0.5632979999608876
+      ],
+      "galactic_lon_lat_deg": [
+        124.50878375722765,
+        34.28418467378078
+      ]
+    },
+    "octupole": {
+      "vector": [
+        -0.5694180579491663,
+        -0.18135853436923777,
+        0.8017930888283099
+      ],
+      "galactic_lon_lat_deg": [
+        197.66657514964336,
+        53.301672487590594
+      ]
+    },
+    "hemis_asym": {
+      "vector": [
+        -0.9812653736524837,
+        -0.09664620371682482,
+        0.16666666666666669
+      ],
+      "galactic_lon_lat_deg": [
+        185.62499999999994,
+        9.594068226860463
+      ]
+    },
+    "cold_spot": {
+      "vector": [
+        -0.47635203330152615,
+        -0.26404624373696667,
+        -0.838670567945424
+      ],
+      "galactic_lon_lat_deg": [
+        208.99999999999997,
+        -57.00000000000001
+      ]
+    }
+  },
+  "pairwise_angles_deg": {
+    "quadrupole__octupole": 53.50789119034811,
+    "quadrupole__hemis_asym": 60.829513506239756,
+    "quadrupole__cold_spot": 64.58185253698423,
+    "octupole__hemis_asym": 44.77240532288943,
+    "octupole__cold_spot": 69.31011005271982,
+    "hemis_asym__cold_spot": 69.31876877041836
+  },
+  "common_axis": {
+    "vector": [
+      -0.6669453676062623,
+      0.18828654091818492,
+      0.7209244448190201
+    ],
+    "galactic_lon_lat_deg": [
+      164.23500115003702,
+      46.13085714597178
+    ],
+    "angles_to_common_axis_deg": {
+      "quadrupole": 32.168063114677096,
+      "octupole": 22.533503427975184,
+      "hemis_asym": 40.85151193744359,
+      "cold_spot": 70.32808782599288
+    },
+    "max_angle_deg": 70.32808782599288,
+    "threshold_deg": 30.0,
+    "within_threshold": false
+  },
+  "common_axis_pvalue": 0.61341,
+  "pvalue_for_30deg_event_under_isotropy": 0.01524,
+  "pass_p05": false,
+  "pass_p01": false,
+  "hemispherical_asymmetry_score": 0.2598364666912959,
+  "notes": {
+    "implementation": "No healpy import. Uses astropy.io.fits + astropy-healpix + masked least-squares low-l fit.",
+    "multipole_axis_estimator": "angular_momentum_dispersion_power_tensor_proxy"
+  }
+}
+
+
+p4
+
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\v2\4> python test04_cmb_mu_y_distortion.py --outdir test04_output
+{
+  "consistent_with_firas": true,
+  "covariance_mode": "diagonal_public_errors_only",
+  "data_url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt",
+  "fit_mode": "weighted_linear_least_squares_public_diagonal_errors",
+  "fit_parameters": {
+    "dT_best_fit_K": 1.1855995228750739e-05,
+    "mu_best_fit": -2.4336602782469652e-05,
+    "y_best_fit": 1.634687295467607e-06
+  },
+  "fit_uncertainties_1sigma": {
+    "dT_sigma_K": 2.7560539732912437e-05,
+    "mu_sigma": 5.6042491497136206e-05,
+    "y_sigma": 4.81440162871766e-06
+  },
+  "goodness_of_fit": {
+    "chi2": 44.83447913462187,
+    "dof": 40,
+    "reduced_chi2": 1.120861978365547
+  },
+  "implementation_notes": [
+    "The script downloads the machine-readable FIRAS monopole residual table from NASA LAMBDA.",
+    "The fit uses the public per-channel 1-sigma errors from that table as a diagonal covariance approximation.",
+    "A compact machine-readable monopole residual covariance matrix is not downloaded here.",
+    "For N=6 and nu=1e-3, the default stage split reproduces the test-note expectation mu~1e-6 and y~1e-6."
+  ],
+  "mu_limit_95": 0.00013417786772074882,
+  "mu_predicted": 1e-06,
+  "n_channels": 43,
+  "official_firas_limits_95_from_literature": {
+    "mu_limit_95": 9e-05,
+    "y_limit_95": 1.5e-05
+  },
+  "pixie_detectable": true,
+  "pixie_sensitivity_threshold": 1e-08,
+  "prediction_model": {
+    "N": 6,
+    "deltaE_over_E_per_stage": 1e-06,
+    "mu_predicted": 1e-06,
+    "n_mu_stages": 1,
+    "n_y_stages": 1,
+    "stage_split_mode": "default-two-stage-split",
+    "total_stages": 2,
+    "y_predicted": 1e-06
+  },
+  "reference_temperature_K": 2.725,
+  "test_name": "Test 04 \u2014 CMB mu/y distortion limits vs cascade releases",
+  "y_limit_95": 1.1070741094865198e-05,
+  "y_predicted": 1e-06
+}
+
+Wrote: test04_output\result.json
+Wrote: test04_output\firas_mu_y_fit.png
+
+{
+  "consistent_with_firas": true,
+  "covariance_mode": "diagonal_public_errors_only",
+  "data_url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt",
+  "fit_mode": "weighted_linear_least_squares_public_diagonal_errors",
+  "fit_parameters": {
+    "dT_best_fit_K": 1.1855995228750739e-05,
+    "mu_best_fit": -2.4336602782469652e-05,
+    "y_best_fit": 1.634687295467607e-06
+  },
+  "fit_uncertainties_1sigma": {
+    "dT_sigma_K": 2.7560539732912437e-05,
+    "mu_sigma": 5.6042491497136206e-05,
+    "y_sigma": 4.81440162871766e-06
+  },
+  "goodness_of_fit": {
+    "chi2": 44.83447913462187,
+    "dof": 40,
+    "reduced_chi2": 1.120861978365547
+  },
+  "implementation_notes": [
+    "The script downloads the machine-readable FIRAS monopole residual table from NASA LAMBDA.",
+    "The fit uses the public per-channel 1-sigma errors from that table as a diagonal covariance approximation.",
+    "A compact machine-readable monopole residual covariance matrix is not downloaded here.",
+    "For N=6 and nu=1e-3, the default stage split reproduces the test-note expectation mu~1e-6 and y~1e-6."
+  ],
+  "mu_limit_95": 0.00013417786772074882,
+  "mu_predicted": 1e-06,
+  "n_channels": 43,
+  "official_firas_limits_95_from_literature": {
+    "mu_limit_95": 9e-05,
+    "y_limit_95": 1.5e-05
+  },
+  "pixie_detectable": true,
+  "pixie_sensitivity_threshold": 1e-08,
+  "prediction_model": {
+    "N": 6,
+    "deltaE_over_E_per_stage": 1e-06,
+    "mu_predicted": 1e-06,
+    "n_mu_stages": 1,
+    "n_y_stages": 1,
+    "stage_split_mode": "default-two-stage-split",
+    "total_stages": 2,
+    "y_predicted": 1e-06
+  },
+  "reference_temperature_K": 2.725,
+  "test_name": "Test 04 \u2014 CMB mu/y distortion limits vs cascade releases",
+  "y_limit_95": 1.1070741094865198e-05,
+  "y_predicted": 1e-06
+}
+
+
+p5
+{
+  "bin_days": 60.0,
+  "bootstrap_sims": 300,
+  "dark_matter_like_not_hd": null,
+  "dataset": {
+    "filename": "NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+    "name": "NANOGrav 15-year public release",
+    "record_id": "16051178"
+  },
+  "false_alarm_threshold_1pct": 0.6708574552837812,
+  "frequency_ratios": [],
+  "hd_correlation_with_hd_curve": null,
+  "line_amplitudes": [],
+  "line_frequencies_hz": [],
+  "min_points_per_bin": 2,
+  "min_pulsars_per_bin": 8,
+  "n_lines_detected": 0,
+  "notes": [
+    "Search performed on the slow modulation of the aggregate residual-variance envelope.",
+    "Null threshold estimated from circular-shift simulations of per-pulsar variance series.",
+    "If no explicit RVM ratio prediction is provided, ratios_match_rvm is forced false."
+  ],
+  "pass_v6": false,
+  "predicted_ratios_input": [
+    1.0,
+    2.0
+  ],
+  "ratio_fractional_errors": null,
+  "ratio_tolerance": 0.3,
+  "ratios_match_rvm": false,
+  "selected_pulsars": [
+    "J0645+5158",
+    "J0636+5128",
+    "J1713+0747",
+    "J0030+0451",
+    "J2043+1711",
+    "J1640+2224",
+    "J2124-3358",
+    "J2322+2057",
+    "J1744-1134",
+    "J1853+1303",
+    "J0023+0923",
+    "J2229+2643",
+    "J2017+0603",
+    "J0406+3039",
+    "J1455-3330",
+    "J1630+3734",
+    "J2234+0611",
+    "J1453+1902",
+    "J2214+3000",
+    "J1923+2515",
+    "J1024-0719",
+    "J1730-2304",
+    "J2145-0750",
+    "J1012+5307",
+    "J2033+1734",
+    "J1909-3744",
+    "J0931-1902",
+    "J0614-3329",
+    "J1843-1113",
+    "J0740+6620"
+  ],
+  "selected_wrms": {
+    "J0023+0923": 0.00025032275644552523,
+    "J0030+0451": 0.00016758165120937915,
+    "J0406+3039": 0.0003902482365315826,
+    "J0614-3329": 0.0006675838939435427,
+    "J0636+5128": 0.00010992076730047501,
+    "J0645+5158": 0.0001077520166181208,
+    "J0740+6620": 0.000688615615998505,
+    "J0931-1902": 0.0006217310315380538,
+    "J1012+5307": 0.000543692595974488,
+    "J1024-0719": 0.0004640458333635548,
+    "J1453+1902": 0.0004230062140325841,
+    "J1455-3330": 0.0004066315560394165,
+    "J1630+3734": 0.0004146926234066482,
+    "J1640+2224": 0.00019785412779984335,
+    "J1713+0747": 0.00016288651226351424,
+    "J1730-2304": 0.00048817166100438504,
+    "J1744-1134": 0.0002368194191420185,
+    "J1843-1113": 0.0006746465904609582,
+    "J1853+1303": 0.00023720008402213391,
+    "J1909-3744": 0.0006130695187718425,
+    "J1923+2515": 0.0004584833524179862,
+    "J2017+0603": 0.000372412637773291,
+    "J2033+1734": 0.0005820919680914273,
+    "J2043+1711": 0.0001801384875397021,
+    "J2124-3358": 0.00019887118024660818,
+    "J2145-0750": 0.0005102357098972968,
+    "J2214+3000": 0.0004323143293647404,
+    "J2229+2643": 0.0002606241865278257,
+    "J2234+0611": 0.00042077919121530014,
+    "J2322+2057": 0.00020036256892672362
+  }
+}
+
+{
+  "bin_days": 60.0,
+  "bootstrap_sims": 300,
+  "dark_matter_like_not_hd": null,
+  "dataset": {
+    "filename": "NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+    "name": "NANOGrav 15-year public release",
+    "record_id": "16051178"
+  },
+  "false_alarm_threshold_1pct": 0.6708574552837812,
+  "frequency_ratios": [],
+  "hd_correlation_with_hd_curve": null,
+  "line_amplitudes": [],
+  "line_frequencies_hz": [],
+  "min_points_per_bin": 2,
+  "min_pulsars_per_bin": 8,
+  "n_lines_detected": 0,
+  "notes": [
+    "Search performed on the slow modulation of the aggregate residual-variance envelope.",
+    "Null threshold estimated from circular-shift simulations of per-pulsar variance series.",
+    "If no explicit RVM ratio prediction is provided, ratios_match_rvm is forced false."
+  ],
+  "pass_v6": false,
+  "predicted_ratios_input": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "ratio_fractional_errors": null,
+  "ratio_tolerance": 0.3,
+  "ratios_match_rvm": false,
+  "selected_pulsars": [
+    "J0645+5158",
+    "J0636+5128",
+    "J1713+0747",
+    "J0030+0451",
+    "J2043+1711",
+    "J1640+2224",
+    "J2124-3358",
+    "J2322+2057",
+    "J1744-1134",
+    "J1853+1303",
+    "J0023+0923",
+    "J2229+2643",
+    "J2017+0603",
+    "J0406+3039",
+    "J1455-3330",
+    "J1630+3734",
+    "J2234+0611",
+    "J1453+1902",
+    "J2214+3000",
+    "J1923+2515",
+    "J1024-0719",
+    "J1730-2304",
+    "J2145-0750",
+    "J1012+5307",
+    "J2033+1734",
+    "J1909-3744",
+    "J0931-1902",
+    "J0614-3329",
+    "J1843-1113",
+    "J0740+6620"
+  ],
+  "selected_wrms": {
+    "J0023+0923": 0.00025032275644552523,
+    "J0030+0451": 0.00016758165120937915,
+    "J0406+3039": 0.0003902482365315826,
+    "J0614-3329": 0.0006675838939435427,
+    "J0636+5128": 0.00010992076730047501,
+    "J0645+5158": 0.0001077520166181208,
+    "J0740+6620": 0.000688615615998505,
+    "J0931-1902": 0.0006217310315380538,
+    "J1012+5307": 0.000543692595974488,
+    "J1024-0719": 0.0004640458333635548,
+    "J1453+1902": 0.0004230062140325841,
+    "J1455-3330": 0.0004066315560394165,
+    "J1630+3734": 0.0004146926234066482,
+    "J1640+2224": 0.00019785412779984335,
+    "J1713+0747": 0.00016288651226351424,
+    "J1730-2304": 0.00048817166100438504,
+    "J1744-1134": 0.0002368194191420185,
+    "J1843-1113": 0.0006746465904609582,
+    "J1853+1303": 0.00023720008402213391,
+    "J1909-3744": 0.0006130695187718425,
+    "J1923+2515": 0.0004584833524179862,
+    "J2017+0603": 0.000372412637773291,
+    "J2033+1734": 0.0005820919680914273,
+    "J2043+1711": 0.0001801384875397021,
+    "J2124-3358": 0.00019887118024660818,
+    "J2145-0750": 0.0005102357098972968,
+    "J2214+3000": 0.0004323143293647404,
+    "J2229+2643": 0.0002606241865278257,
+    "J2234+0611": 0.00042077919121530014,
+    "J2322+2057": 0.00020036256892672362
+  }
+}
+
+p6
+{
+  "search_window_gev": [
+    1.0,
+    1.8
+  ],
+  "excess_mass_gev": null,
+  "excess_width_mev": null,
+  "local_significance_sigma": null,
+  "look_elsewhere_significance": null,
+  "angular_distribution_isotropic": null,
+  "pass_v6_p9a": false,
+  "status": "no_public_support_for_target_excess",
+  "public_source_assessment": "Official public CMS and LHCb results do not support a narrow 1.0\u20131.8 GeV dimuon excess. CMS reports no significant excess in 1.1\u20132.6 GeV, and LHCb reports no significant excess below 20 GeV, with the largest local excesses occurring outside the target window.",
+  "cms_summary": {
+    "paper": "Search for direct production of GeV-scale resonances decaying to a pair of muons, CMS, JHEP 12 (2023) 070",
+    "mass_range_gev": [
+      1.1,
+      2.6
+    ],
+    "statement": "No significant excess of events above the expectation from the standard model background is observed.",
+    "source": "official_public_summary",
+    "results_page": "https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-21-005/index.html",
+    "hepdata_record": "https://www.hepdata.net/record/ins2704121?format=json",
+    "hepdata_parse_warning": "Could not parse Figure 5-a automatically: URL can't contain control characters. '/download/table/ins2704121/Figure 5-a/json' (found at least ' ')"
+  },
+  "lhcb_summary": {
+    "paper": "Searches for low-mass dimuon resonances, LHCb, JHEP 10 (2020) 156",
+    "inclusive_largest_local_sigma": 3.7,
+    "inclusive_mass_gev": 0.349,
+    "inclusive_pt_bin_gev": [
+      3.0,
+      5.0
+    ],
+    "inclusive_global_sigma_approx": 1.0,
+    "xb_largest_local_sigma": 3.1,
+    "xb_mass_gev": 2.424,
+    "xb_pt_bin_gev": [
+      10.0,
+      20.0
+    ],
+    "xb_global_sigma_below": 1.0,
+    "statement": "No significant excess is found in either prompt-like spectrum for m(X) < 20 GeV.",
+    "source": "embedded_public_fallback",
+    "paper_url": "https://cds.cern.ch/record/2722971/files/LHCb-PAPER-2020-013.pdf"
+  },
+  "files_downloaded": [
+    "out_test06_public\\cache\\cms_exo_21_005_record.json",
+    "out_test06_public\\cache\\cms_figure3_scouting_mass_spectrum.png",
+    "out_test06_public\\cache\\lhcb_low_mass_dimuon_search.pdf"
+  ]
+}
+p7
+
+{
+  "source_pdf": "https://arxiv.org/pdf/2212.09152.pdf",
+  "q2_region": "central",
+  "R_K": 0.949,
+  "R_K_sigma": 0.04697131943052309,
+  "R_Kstar": 1.027,
+  "R_Kstar_sigma": 0.07484856630033149,
+  "delta_RK": -0.051000000000000045,
+  "delta_RKstar": 0.026999999999999913,
+  "ratio": 1.8888888888888966,
+  "ratio_sigma": 1.6615140934826156,
+  "signed_ratio": -1.8888888888888966,
+  "signed_ratio_sigma": 1.6684287722800686,
+  "z_score_vs_sqrt3": 0.09439467407181545,
+  "z_score_vs_one": 0.5349872699699716,
+  "z_score_vs_zero": 1.1368479486861842,
+  "pass_v6_p9d": false,
+  "null_test_passed": true,
+  "status": "cannot_fire",
+  "covariance_assumption": "No public machine-readable RK/RK* covariance matrix was located in the source used here; the Monte Carlo propagation therefore assumes rho = 0 between delta_RK and delta_RKstar.",
+  "rho_delta_RK_RKstar": 0.0
+}
+
+
+p8
+PS F:\git\upd\CCDR\research_program\computations\prediction_tests\v2\8> python test_08_dm_peak_counting_public_v2.py
+{
+  "n_peaks": 0,
+  "peak_masses_gev": [],
+  "peak_significances": [],
+  "consecutive_ratios": [],
+  "ratios_geometric": false,
+  "inferred_N": null,
+  "pass_v6_cascade": false,
+  "pass_v5_single_step": false,
+  "m5_lower_limit_gev": 12.000000000000002,
+  "analysis_mode": "stacked public-data mass-space residual scan",
+  "sources_loaded": [
+    "XENONnT:XENONnT_light_wimp_repo/light_wimp_data_release-master\\light_wimp_data_release\\limits\\XENONnT_2024_SI.csv"
+  ],
+  "sources_skipped": [
+    "LZ_4.2tyr_SI: File is not a zip file",
+    "LZ_5.7tyr_light_SI: File is not a zip file",
+    "PandaX4T_first_analysis_xlsx: downloaded but no usable mass-limit curve found",
+    "PandaX4T_first_analysis_eff_root: downloaded ROOT efficiency file; not converted to a mass-limit curve in mass-space scan mode",
+    "PandaX4T_lightDM_run0: downloaded event-level table; not directly used in mass-space scan mode",
+    "PandaX4T_lightDM_run1: downloaded event-level table; not directly used in mass-space scan mode",
+    "PandaX4T_run0_S2only_zip: 404 Client Error: Not Found for url: https://static.pandax.sjtu.edu.cn/download/data-share/p4-s2-only/s2only_data_release.zip"
+  ],
+  "caveats": [
+    "This is a public-data proxy analysis in DM-mass space, not the collaborations' full joint unbinned recoil likelihood.",
+    "Peak significances are derived from a stacked excess-score scan built from public observed/expected curves or detrended public limit curves.",
+    "If a source did not expose a directly machine-readable SI-WIMP curve, it was downloaded and logged as skipped or partial rather than silently ignored."
+  ]
+}
+Wrote: test08_out\result.json
+Wrote: test08_out\report.md
+Wrote: test08_out\combined_dm_mass_scan.png
+p9
+{
+  "test_name": "Test 09 \u2014 QGP eta/s Saturation and Oscillation Near T_c",
+  "implementation": "public-source script using published MAP eta/s(T) parametrization from Parkkila et al. (2021)",
+  "source_pdf_url": "https://arxiv.org/pdf/2106.05019",
+  "source_abs_url": "https://arxiv.org/abs/2106.05019",
+  "source_doi_url": "https://doi.org/10.1103/PhysRevC.104.054904",
+  "jetscape_reference_url": "https://doi.org/10.1103/PhysRevC.103.054904",
+  "downloaded_pdf_sha256": "6d9ca05eddf8c52a070a94d59b605d08a4278ec12040b831c77c54397f04c55b",
+  "map_parameters": {
+    "T_c_GeV": 0.01,
+    "eta_over_s_Tc": 0.104,
+    "eta_over_s_slope_GeV_inv": 0.425,
+    "eta_over_s_curvature": -0.738,
+    "zeta_over_s_peak_GeV": 0.975,
+    "zeta_over_s_max": 0.901,
+    "zeta_over_s_width_GeV": 0.147,
+    "T_switch_GeV": 0.057
+  },
+  "eta_over_s_high_T": {
+    "200_MeV": 0.11285079728993219,
+    "250_MeV": 0.11348244746662729,
+    "300_MeV": 0.11401547248017035
+  },
+  "kss_bound": 0.07957747154594767,
+  "ratio_to_kss": {
+    "200_MeV": 1.4181249428712075,
+    "250_MeV": 1.4260624930901837,
+    "300_MeV": 1.4327606829570896
+  },
+  "transition_region": {
+    "scan_range_MeV": [
+      140,
+      170
+    ],
+    "min_T_mev": 140.0,
+    "max_T_mev": 170.0,
+    "min_eta_over_s": 0.11187933911061915,
+    "max_eta_over_s": 0.11240306279011046,
+    "bic_constant": -540.0267069076326,
+    "bic_linear": -770.3423158714861,
+    "bic_dip_peak": Infinity,
+    "dip_peak_model_valid": false,
+    "dip_peak_extrema_mev": [],
+    "dip_peak_bic_preferred": false,
+    "is_monotonic_non_decreasing": true
+  },
+  "pass_p5": true,
+  "pass_p9c": false,
+  "notes": {
+    "method_limit": "Uses published MAP parameters, not the full posterior chain.",
+    "why": "Practical public-source implementation without multi-gigabyte MCMC downloads."
+  },
+  "artifacts": {
+    "plot": "out_test09_public\\eta_over_s_curve.png",
+    "summary": "out_test09_public\\summary.txt",
+    "pdf": "out_test09_public\\cache\\parkkila_2021_eta_over_s.pdf"
+  }
+}
+
+p10
+{
+  "test_name": "SPARC a0 local vs cH0 asymptotic",
+  "data_sources": {
+    "rar_all_data": "p10_public_data\\RAR.mrt",
+    "parent_catalog": "p10_public_data\\Table1.mrt"
+  },
+  "fit_model": "published_rar",
+  "alternate_systematic_model": "simple_mu",
+  "h0_km_s_mpc": 67.4,
+  "a0_fit": 1.1606824837579259e-10,
+  "a0_fit_sigma": 4.2205847119176096e-12,
+  "a0_fit_sigma_stat": 9.372725334978724e-13,
+  "a0_fit_sigma_sys": 4.115198112900901e-12,
+  "chi2": 7332.270543302926,
+  "chi2_reduced": 2.723726056204653,
+  "degrees_of_freedom": 2692,
+  "milgrom_a0": 1.2e-10,
+  "cH0_a0": 6.548322413981453e-10,
+  "dev_from_milgrom_pct": -3.2764596868395093,
+  "dev_from_cH0_pct": -82.27511703944617,
+  "a0_fit_published_with_x_errors": 1.1195305026289169e-10,
+  "chi2_published_with_x_errors": 4362.871846728538,
+  "a0_fit_simple_mu": 1.135180101879404e-10,
+  "chi2_simple_mu": 7371.467743189651,
+  "systematic_components": {
+    "published_with_x_errors_shift": 4.115198112900901e-12,
+    "simple_mu_shift": 2.550238187852189e-12
+  },
+  "pass_v6_local": true,
+  "within_5pct_cH0": false,
+  "between_milgrom_and_cH0": false
+}
+
+p11
+
+{
+  "source_catalog": "Tempel et al. 2014 filament points catalog (CDS/VizieR table2)",
+  "n_filaments_used": 15421,
+  "bin_edges_mpc_h": [
+    10.0,
+    30.0,
+    50.0,
+    75.0,
+    100.0,
+    150.0,
+    200.0,
+    300.0
+  ],
+  "bin_centers_mpc": [
+    28.571428571428573,
+    57.142857142857146,
+    89.28571428571429,
+    125.00000000000001,
+    178.57142857142858,
+    250.00000000000003,
+    357.14285714285717
+  ],
+  "pair_counts": [
+    644339,
+    1943294,
+    4777368,
+    7440348,
+    21327033,
+    24959238,
+    38245822
+  ],
+  "correlation_values": [
+    0.008197130574008279,
+    0.0035162931050771455,
+    0.0018143725963512022,
+    0.002062207365835934,
+    0.0014315290966919253,
+    0.0011276614737686123,
+    0.00030346971784012914
+  ],
+  "correlation_errors": [
+    0.00037561629444229146,
+    0.00021487115107605824,
+    0.0001367666410472338,
+    0.00010959769253619462,
+    6.467184083645205e-05,
+    5.9749731193813525e-05,
+    4.8207495425985285e-05
+  ],
+  "correlation_amplitude": 0.004216044810120892,
+  "correlation_amplitude_sigma": 0.00023650793340725663,
+  "r_texture_mpc": 162.97500495322546,
+  "r_texture_sigma": 8.511335291780199,
+  "chi2_reduced": 13.43400400557535,
+  "pass_amplitude": true,
+  "pass_length_above_bao": true,
+  "bao_scale_mpc": 147.0,
+  "fit_min_mpc": 30.0,
+  "significance_amplitude_sigma_units": 17.82622996777466
+}

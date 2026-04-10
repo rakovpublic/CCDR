@@ -1,0 +1,29 @@
+{
+  "n_peaks": 0,
+  "peak_masses_gev": [],
+  "peak_significances": [],
+  "consecutive_ratios": [],
+  "ratios_geometric": false,
+  "inferred_N": null,
+  "pass_v6_cascade": false,
+  "pass_v5_single_step": false,
+  "m5_lower_limit_gev": 12.000000000000002,
+  "analysis_mode": "stacked public-data mass-space residual scan",
+  "sources_loaded": [
+    "XENONnT:XENONnT_light_wimp_repo/light_wimp_data_release-master\\light_wimp_data_release\\limits\\XENONnT_2024_SI.csv"
+  ],
+  "sources_skipped": [
+    "LZ_4.2tyr_SI: File is not a zip file",
+    "LZ_5.7tyr_light_SI: File is not a zip file",
+    "PandaX4T_first_analysis_xlsx: downloaded but no usable mass-limit curve found",
+    "PandaX4T_first_analysis_eff_root: downloaded ROOT efficiency file; not converted to a mass-limit curve in mass-space scan mode",
+    "PandaX4T_lightDM_run0: downloaded event-level table; not directly used in mass-space scan mode",
+    "PandaX4T_lightDM_run1: downloaded event-level table; not directly used in mass-space scan mode",
+    "PandaX4T_run0_S2only_zip: 404 Client Error: Not Found for url: https://static.pandax.sjtu.edu.cn/download/data-share/p4-s2-only/s2only_data_release.zip"
+  ],
+  "caveats": [
+    "This is a public-data proxy analysis in DM-mass space, not the collaborations' full joint unbinned recoil likelihood.",
+    "Peak significances are derived from a stacked excess-score scan built from public observed/expected curves or detrended public limit curves.",
+    "If a source did not expose a directly machine-readable SI-WIMP curve, it was downloaded and logged as skipped or partial rather than silently ignored."
+  ]
+}

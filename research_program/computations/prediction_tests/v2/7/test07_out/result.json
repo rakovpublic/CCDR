@@ -1,0 +1,22 @@
+{
+  "source_pdf": "https://arxiv.org/pdf/2212.09152.pdf",
+  "q2_region": "central",
+  "R_K": 0.949,
+  "R_K_sigma": 0.04697131943052309,
+  "R_Kstar": 1.027,
+  "R_Kstar_sigma": 0.07484856630033149,
+  "delta_RK": -0.051000000000000045,
+  "delta_RKstar": 0.026999999999999913,
+  "ratio": 1.8888888888888966,
+  "ratio_sigma": 1.6615140934826156,
+  "signed_ratio": -1.8888888888888966,
+  "signed_ratio_sigma": 1.6684287722800686,
+  "z_score_vs_sqrt3": 0.09439467407181545,
+  "z_score_vs_one": 0.5349872699699716,
+  "z_score_vs_zero": 1.1368479486861842,
+  "pass_v6_p9d": false,
+  "null_test_passed": true,
+  "status": "cannot_fire",
+  "covariance_assumption": "No public machine-readable RK/RK* covariance matrix was located in the source used here; the Monte Carlo propagation therefore assumes rho = 0 between delta_RK and delta_RKstar.",
+  "rho_delta_RK_RKstar": 0.0
+}

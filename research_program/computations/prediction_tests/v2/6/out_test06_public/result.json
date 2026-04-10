@@ -1,0 +1,51 @@
+{
+  "search_window_gev": [
+    1.0,
+    1.8
+  ],
+  "excess_mass_gev": null,
+  "excess_width_mev": null,
+  "local_significance_sigma": null,
+  "look_elsewhere_significance": null,
+  "angular_distribution_isotropic": null,
+  "pass_v6_p9a": false,
+  "status": "no_public_support_for_target_excess",
+  "public_source_assessment": "Official public CMS and LHCb results do not support a narrow 1.0\u20131.8 GeV dimuon excess. CMS reports no significant excess in 1.1\u20132.6 GeV, and LHCb reports no significant excess below 20 GeV, with the largest local excesses occurring outside the target window.",
+  "cms_summary": {
+    "paper": "Search for direct production of GeV-scale resonances decaying to a pair of muons, CMS, JHEP 12 (2023) 070",
+    "mass_range_gev": [
+      1.1,
+      2.6
+    ],
+    "statement": "No significant excess of events above the expectation from the standard model background is observed.",
+    "source": "official_public_summary",
+    "results_page": "https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-21-005/index.html",
+    "hepdata_record": "https://www.hepdata.net/record/ins2704121?format=json",
+    "hepdata_parse_warning": "Could not parse Figure 5-a automatically: URL can't contain control characters. '/download/table/ins2704121/Figure 5-a/json' (found at least ' ')"
+  },
+  "lhcb_summary": {
+    "paper": "Searches for low-mass dimuon resonances, LHCb, JHEP 10 (2020) 156",
+    "inclusive_largest_local_sigma": 3.7,
+    "inclusive_mass_gev": 0.349,
+    "inclusive_pt_bin_gev": [
+      3.0,
+      5.0
+    ],
+    "inclusive_global_sigma_approx": 1.0,
+    "xb_largest_local_sigma": 3.1,
+    "xb_mass_gev": 2.424,
+    "xb_pt_bin_gev": [
+      10.0,
+      20.0
+    ],
+    "xb_global_sigma_below": 1.0,
+    "statement": "No significant excess is found in either prompt-like spectrum for m(X) < 20 GeV.",
+    "source": "embedded_public_fallback",
+    "paper_url": "https://cds.cern.ch/record/2722971/files/LHCb-PAPER-2020-013.pdf"
+  },
+  "files_downloaded": [
+    "out_test06_public\\cache\\cms_exo_21_005_record.json",
+    "out_test06_public\\cache\\cms_figure3_scouting_mass_spectrum.png",
+    "out_test06_public\\cache\\lhcb_low_mass_dimuon_search.pdf"
+  ]
+}

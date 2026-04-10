@@ -1,0 +1,42 @@
+Test 06 — LHCb/CMS 1–2 GeV dimuon excess public-source audit
+==============================================================
+
+Search window: 1.000–1.800 GeV
+Status: no_public_support_for_target_excess
+pass_v6_p9a: False
+
+Assessment
+----------
+Official public CMS and LHCb results do not support a narrow 1.0–1.8 GeV dimuon excess. CMS reports no significant excess in 1.1–2.6 GeV, and LHCb reports no significant excess below 20 GeV, with the largest local excesses occurring outside the target window.
+
+CMS public summary
+------------------
+No significant excess of events above the expectation from the standard model background is observed.
+Mass range: [1.1, 2.6]
+
+LHCb public summary
+-------------------
+No significant excess is found in either prompt-like spectrum for m(X) < 20 GeV.
+Largest local excess below 20 GeV (inclusive):
+  sigma = 3.7
+  mass  = 0.349 GeV
+  global ~ 1.0 sigma
+
+Largest local excess below 20 GeV (X+b):
+  sigma = 3.1
+  mass  = 2.424 GeV
+  global < 1.0 sigma
+
+Output JSON fields
+------------------
+excess_mass_gev            = None
+excess_width_mev           = None
+local_significance_sigma   = None
+look_elsewhere_significance= None
+angular_distribution_isotropic = None
+
+Downloaded files
+----------------
+- out_test06_public\cache\cms_exo_21_005_record.json
+- out_test06_public\cache\cms_figure3_scouting_mass_spectrum.png
+- out_test06_public\cache\lhcb_low_mass_dimuon_search.pdf
