@@ -1,0 +1,98 @@
+{
+  "corr": [
+    0.028029060655736668,
+    0.030748151657627343,
+    0.027739190599699527,
+    0.025051336258527818,
+    0.020433345737462864,
+    0.022604165917054053,
+    0.022420276920306355,
+    0.027035900323491208,
+    0.026318552143010054,
+    0.02981624780900397,
+    0.023273485995266043,
+    0.026655789058953605,
+    0.03306457361379441
+  ],
+  "counts": [
+    4666,
+    6424,
+    7921,
+    9228,
+    11535,
+    12309,
+    14004,
+    13921,
+    14520,
+    14973,
+    14734,
+    14885,
+    13711
+  ],
+  "exp_fit": {
+    "amplitude": 0.026181200981853846,
+    "chi2": 19.981162029434238,
+    "scale_mpc_h": 171236683407.08582
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive correlation reappears with a characteristic scale of the same broad order as the earlier large-scale claim.",
+    "falsify_like": "The public independent reconstruction fluctuates around zero or finds only a small-scale local effect."
+  },
+  "n_galaxies": 15000,
+  "notes": [
+    "This is intentionally independent of Tempel/Bisous and uses only public SDSS query outputs plus a transparent local-PCA estimator."
+  ],
+  "r_edges": [
+    20.0,
+    40.0,
+    60.0,
+    80.0,
+    100.0,
+    120.0,
+    140.0,
+    160.0,
+    180.0,
+    200.0,
+    220.0,
+    240.0,
+    260.0,
+    280.0
+  ],
+  "r_mid_mpc_over_h": [
+    30.0,
+    50.0,
+    70.0,
+    90.0,
+    110.0,
+    130.0,
+    150.0,
+    170.0,
+    190.0,
+    210.0,
+    230.0,
+    250.0,
+    270.0
+  ],
+  "selection": {
+    "k_neighbors": 12,
+    "max_rows": 15000,
+    "z_max": 0.12,
+    "z_min": 0.02
+  },
+  "stderr": [
+    0.004535908128821124,
+    0.0038918697350129,
+    0.003475947704112508,
+    0.0032122165729927153,
+    0.002853975584387648,
+    0.002777605477143974,
+    0.0025906934589324747,
+    0.002603529561384514,
+    0.002564361494666297,
+    0.00252131952754754,
+    0.0025300694731842416,
+    0.002528809316387956,
+    0.0026501371051422112
+  ],
+  "test_name": "Independent public filament replication"
+}

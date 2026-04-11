@@ -1,0 +1,23 @@
+{
+  "base_fit": {
+    "best_a0_m_per_s2": 1.0996824341920387e-10,
+    "fractional_offset_from_cH0": -0.8383040693940801,
+    "fractional_offset_from_milgrom": -0.08359797150663438,
+    "galaxy_labels_available": false,
+    "n_galaxies": 1,
+    "n_points": 2693,
+    "offset_rms_dex": 0.009214317730099179,
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "optimizer_success": true
+  },
+  "falsification_logic": {
+    "confirm_like": "A0 remains near Milgrom and far from cH0 across physically distinct SPARC subsets under galaxy-level shrinkage fitting.",
+    "falsify_like": "The preferred a0 drifts strongly across subsets or some subsets move back toward cH0."
+  },
+  "notes": [
+    "This is a lightweight galaxy-level shrinkage approximation to a hierarchical fit, using only public SPARC machine-readable tables.",
+    "Public SPARC RAR source did not expose per-galaxy labels; falling back to pooled fit with a synthetic single-galaxy label, so subset fits are skipped."
+  ],
+  "subset_fits": [],
+  "test_name": "Local-a0 subset hierarchical test"
+}

@@ -1,0 +1,60 @@
+{
+  "baseline_fit": {
+    "h0": 68.12056301043748,
+    "intercept": -0.1610861813812827,
+    "nu": 0.03,
+    "omega_m": 0.3284722157591719
+  },
+  "falsification_logic": {
+    "confirm_like": "The surviving oscillation-only peak recurs at a similar frequency across disjoint subsets and is not concentrated in one survey block.",
+    "falsify_like": "The single remaining peak wanders or disappears across redshift and survey splits."
+  },
+  "full_sample_best_frequency_cycles_per_redshift": 0.9994997498749374,
+  "full_sample_best_power": 0.006786736390569352,
+  "notes": [
+    "This script tests coherence of the surviving single oscillation-only peak; it does not attempt to resurrect the retracted six-peak claim."
+  ],
+  "subsets": [
+    {
+      "best_frequency_cycles_per_redshift": 0.9994997498749374,
+      "best_power": 0.006786736390569352,
+      "global_frequency_amp_over_err": 1.8236139843892216,
+      "global_frequency_amplitude": 0.017146380950200584,
+      "n": 1624,
+      "name": "all"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 18.0,
+      "best_power": 0.006418259454494277,
+      "global_frequency_amp_over_err": 1.1432419502661861,
+      "global_frequency_amplitude": 0.16209289868050522,
+      "n": 812,
+      "name": "z_low"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 0.884392196098049,
+      "best_power": 0.015134834171878598,
+      "global_frequency_amp_over_err": 1.5587405067107254,
+      "global_frequency_amplitude": 0.024248333495003424,
+      "n": 812,
+      "name": "z_high"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 16.751525762881442,
+      "best_power": 0.020461855944052226,
+      "global_frequency_amp_over_err": 0.4282964904231194,
+      "global_frequency_amplitude": 0.03823007824307823,
+      "n": 321,
+      "name": "survey_1"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 1.0349174587293648,
+      "best_power": 0.01014878764606585,
+      "global_frequency_amp_over_err": 2.4064762215714492,
+      "global_frequency_amplitude": 0.02492152596288102,
+      "n": 1303,
+      "name": "without_survey_1"
+    }
+  ],
+  "test_name": "w(z) single-peak coherence"
+}

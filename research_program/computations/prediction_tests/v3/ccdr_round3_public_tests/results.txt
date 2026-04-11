@@ -1,0 +1,1472 @@
+{
+  "cases": [
+    {
+      "approx_sigma_against_nu0": 1.89429207530115,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1470.8441251930924,
+        "diagonal_bao": false,
+        "h0": 68.12056301043748,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1610861813812827,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.3284722157591719,
+        "rd_mpc": 147.05882261215294,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 3.5883424665487382,
+      "name": "all_blocks_full_z",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1474.4324676596411,
+        "diagonal_bao": false,
+        "h0": 68.57071386206758,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15340768741743738,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3043634471596563,
+        "rd_mpc": 147.27172355512306,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.5166326601056461,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1329.3701477039656,
+        "diagonal_bao": false,
+        "h0": 68.18717289733532,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1577456520432701,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1414,
+        "nu": 0.03,
+        "omega_m": 0.32679822639687256,
+        "rd_mpc": 147.0926042741013,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 2.3001746256991282,
+      "name": "sn_lowz_plus_all_bao",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1331.6703223296647,
+        "diagonal_bao": false,
+        "h0": 68.6985779133652,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.14776820810535704,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1414,
+        "nu": 0.0,
+        "omega_m": 0.3013857857923624,
+        "rd_mpc": 147.3331861398971,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 0.6628387750373984,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 144.8617865626744,
+        "diagonal_bao": false,
+        "h0": 68.52452655193618,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.18838686883638991,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 210,
+        "nu": 0.018567419141048935,
+        "omega_m": 0.3133893317885575,
+        "rd_mpc": 147.26305165295946,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 0.4393552416930788,
+      "name": "sn_highz_plus_all_bao",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 145.3011418043675,
+        "diagonal_bao": false,
+        "h0": 68.9114669029219,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.18858452885641663,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 210,
+        "nu": 0.0,
+        "omega_m": 0.29649740685703513,
+        "rd_mpc": 147.43475534444133,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 0.0,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1460.5097160983717,
+        "diagonal_bao": false,
+        "h0": 67.97421088713568,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16198241890188111,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 1,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.34026903888685367,
+        "rd_mpc": 146.99293701471942,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": -0.9075577511437132,
+      "name": "all_sn_plus_bao_lowz",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1459.602158347228,
+        "diagonal_bao": false,
+        "h0": 76.97379677292616,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": 0.10669855436813849,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 1,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3309795542889301,
+        "rd_mpc": 130.0193554966867,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.8872066400577312,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1470.836906537926,
+        "diagonal_bao": false,
+        "h0": 68.10599484763685,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16144887619687176,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 12,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.32878505588642376,
+        "rd_mpc": 147.0460414766655,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 3.561548902277991,
+      "name": "all_sn_plus_bao_highz",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1474.398455440204,
+        "diagonal_bao": false,
+        "h0": 68.61913090236573,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15208828600707455,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 12,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3037167194275765,
+        "rd_mpc": 147.2648042385591,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 0.5286327391995217,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 12.228252962689254,
+        "diagonal_bao": false,
+        "h0": 77.72999493135649,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": false,
+        "intercept": 0.0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 12,
+        "n_sne": 0,
+        "nu": 0.017061537652736495,
+        "omega_m": 0.31136154989071846,
+        "rd_mpc": 130.00000001525288,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 0.2794525729535895,
+      "name": "bao_highz_plus_planck_only",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 12.507705535642843,
+        "diagonal_bao": false,
+        "h0": 78.32069537793559,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": false,
+        "intercept": 0.0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 12,
+        "n_sne": 0,
+        "nu": 0.0,
+        "omega_m": 0.2945429259260854,
+        "rd_mpc": 130.00000001518117,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "Positive nu survives and is not confined to one low-z SN slice; high-z or BAO-containing blocks retain non-trivial support.",
+    "falsify_like": "The nu>0 preference is confined to one low-z SN block and collapses in the BAO/high-z sector."
+  },
+  "notes": [
+    "This is a tomographic public-data stress test, not a full collaboration likelihood.",
+    "The Planck block enters as a public PR3-derived r_drag prior."
+  ],
+  "test_name": "High-z nu tomography",
+  "z_split": 0.5
+}
+{
+  "cases": [
+    {
+      "approx_sigma_against_nu0": 1.89429207530115,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1470.8441251930924,
+        "diagonal_bao": false,
+        "h0": 68.12056301043748,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1610861813812827,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.3284722157591719,
+        "rd_mpc": 147.05882261215294,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 3.5883424665487382,
+      "name": "baseline_zcmb",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1474.4324676596411,
+        "diagonal_bao": false,
+        "h0": 68.57071386206758,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15340768741743738,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3043634471596563,
+        "rd_mpc": 147.27172355512306,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.527527602920057,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1551.5201243910922,
+        "diagonal_bao": false,
+        "h0": 67.93506563161361,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1592490783120036,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.33316970892422937,
+        "rd_mpc": 146.96484721479538,
+        "sn_z_source": "z_hel",
+        "success": true
+      },
+      "delta_chi2_nu0": 6.38839578352281,
+      "name": "baseline_zhel",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1557.908520174615,
+        "diagonal_bao": false,
+        "h0": 68.39276297571409,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1514247678304313,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3085515000794271,
+        "rd_mpc": 147.18632573419032,
+        "sn_z_source": "z_hel",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.019481904112192,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 704.7733520348661,
+        "diagonal_bao": false,
+        "h0": 68.04156173307557,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16515553105149422,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.03,
+        "omega_m": 0.33046545500747165,
+        "rd_mpc": 147.018733071245,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 4.078307161036605,
+      "name": "hostmass_low",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 708.8516591959027,
+        "diagonal_bao": false,
+        "h0": 68.5592935939503,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1563294085653183,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.0,
+        "omega_m": 0.304631827412564,
+        "rd_mpc": 147.26612331980414,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.0370053711552831,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 773.7626966753115,
+        "diagonal_bao": false,
+        "h0": 68.39486037039747,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15083037773929314,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.022760007534396602,
+        "omega_m": 0.3183936104604559,
+        "rd_mpc": 147.1979596429458,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 1.0753801398049063,
+      "name": "hostmass_high",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 774.8380768151164,
+        "diagonal_bao": false,
+        "h0": 68.79122749970021,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.14328093724868718,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.0,
+        "omega_m": 0.29924663462732115,
+        "rd_mpc": 147.37773568725163,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.7619063732576312,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1120.7800151091315,
+        "diagonal_bao": false,
+        "h0": 68.14872311659454,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1583097190470694,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1303,
+        "nu": 0.03,
+        "omega_m": 0.3277639780683127,
+        "rd_mpc": 147.07310970282157,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 3.104314068125859,
+      "name": "leave_out_survey_1",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1123.8843291772573,
+        "diagonal_bao": false,
+        "h0": 68.60690219294194,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15068720409037042,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1303,
+        "nu": 0.0,
+        "omega_m": 0.30351685156489283,
+        "rd_mpc": 147.28913897028042,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.039385011508305,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1225.1619526449053,
+        "diagonal_bao": false,
+        "h0": 68.07823097536745,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16454725117483907,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1355,
+        "nu": 0.03,
+        "omega_m": 0.329539043476996,
+        "rd_mpc": 147.03730272384522,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 4.15909122516473,
+      "name": "leave_out_survey_15",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1229.32104387007,
+        "diagonal_bao": false,
+        "h0": 68.54436116796751,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15604765318460875,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1355,
+        "nu": 0.0,
+        "omega_m": 0.3049795765795825,
+        "rd_mpc": 147.25903702652116,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.3363099856796463,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1338.136576813366,
+        "diagonal_bao": false,
+        "h0": 68.28449432279123,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1536073666632075,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1421,
+        "nu": 0.027387215520308733,
+        "omega_m": 0.3231891256331473,
+        "rd_mpc": 147.1419878964542,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 1.7857243778271368,
+      "name": "leave_out_survey_10",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1339.9223011911931,
+        "diagonal_bao": false,
+        "h0": 68.71988588854721,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.14547148800131898,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1421,
+        "nu": 0.0,
+        "omega_m": 0.3008921966207754,
+        "rd_mpc": 147.34345138734793,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.099883867695718,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1295.7531390243757,
+        "diagonal_bao": false,
+        "h0": 68.05131129665561,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16057180871240131,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1449,
+        "nu": 0.03,
+        "omega_m": 0.33021858943032206,
+        "rd_mpc": 147.02372583525255,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 4.4095122578087285,
+      "name": "leave_out_survey_150",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1300.1626512821845,
+        "diagonal_bao": false,
+        "h0": 68.51606708227965,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1528973855258102,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1449,
+        "nu": 0.0,
+        "omega_m": 0.30564299698021424,
+        "rd_mpc": 147.2455006403192,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.8657096179264072,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1373.488469611648,
+        "diagonal_bao": false,
+        "h0": 68.11791560119084,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16179352243603706,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1464,
+        "nu": 0.03,
+        "omega_m": 0.32853861044958754,
+        "rd_mpc": 147.05745985248538,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 3.4808723784231006,
+      "name": "leave_out_survey_4",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1376.9693419900711,
+        "diagonal_bao": false,
+        "h0": 68.60989658713113,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15248967551395567,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1464,
+        "nu": 0.0,
+        "omega_m": 0.3034480339595912,
+        "rd_mpc": 147.290548545662,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.666522610105825,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1769.7028868018415,
+        "diagonal_bao": false,
+        "h0": 67.8738573071852,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16289039275773778,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1701,
+        "nu": 0.03,
+        "omega_m": 0.3347360843282756,
+        "rd_mpc": 146.93379571407164,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 7.110342830205582,
+      "name": "include_calibrators",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1776.813229632047,
+        "diagonal_bao": false,
+        "h0": 68.32612803531977,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15513458498203875,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1701,
+        "nu": 0.0,
+        "omega_m": 0.3101339407018063,
+        "rd_mpc": 147.1542851882286,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "Positive nu remains qualitatively similar across survey-block removals, z-variable choices, and host-mass splits.",
+    "falsify_like": "The nu>0 signal is carried mainly by one survey or one SN-analysis choice."
+  },
+  "notes": [
+    "This audit is intentionally SN-centric because v6.2 / v2.2 say the current positive-nu signal is SN-driven."
+  ],
+  "survey_counts_top": {
+    "1": 321,
+    "10": 203,
+    "15": 269,
+    "150": 175,
+    "4": 160
+  },
+  "test_name": "Pantheon+ nuisance-block audit"
+}
+{
+  "corr": [
+    0.028029060655736668,
+    0.030748151657627343,
+    0.027739190599699527,
+    0.025051336258527818,
+    0.020433345737462864,
+    0.022604165917054053,
+    0.022420276920306355,
+    0.027035900323491208,
+    0.026318552143010054,
+    0.02981624780900397,
+    0.023273485995266043,
+    0.026655789058953605,
+    0.03306457361379441
+  ],
+  "counts": [
+    4666,
+    6424,
+    7921,
+    9228,
+    11535,
+    12309,
+    14004,
+    13921,
+    14520,
+    14973,
+    14734,
+    14885,
+    13711
+  ],
+  "exp_fit": {
+    "amplitude": 0.026181200981853846,
+    "chi2": 19.981162029434238,
+    "scale_mpc_h": 171236683407.08582
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive correlation reappears with a characteristic scale of the same broad order as the earlier large-scale claim.",
+    "falsify_like": "The public independent reconstruction fluctuates around zero or finds only a small-scale local effect."
+  },
+  "n_galaxies": 15000,
+  "notes": [
+    "This is intentionally independent of Tempel/Bisous and uses only public SDSS query outputs plus a transparent local-PCA estimator."
+  ],
+  "r_edges": [
+    20.0,
+    40.0,
+    60.0,
+    80.0,
+    100.0,
+    120.0,
+    140.0,
+    160.0,
+    180.0,
+    200.0,
+    220.0,
+    240.0,
+    260.0,
+    280.0
+  ],
+  "r_mid_mpc_over_h": [
+    30.0,
+    50.0,
+    70.0,
+    90.0,
+    110.0,
+    130.0,
+    150.0,
+    170.0,
+    190.0,
+    210.0,
+    230.0,
+    250.0,
+    270.0
+  ],
+  "selection": {
+    "k_neighbors": 12,
+    "max_rows": 15000,
+    "z_max": 0.12,
+    "z_min": 0.02
+  },
+  "stderr": [
+    0.004535908128821124,
+    0.0038918697350129,
+    0.003475947704112508,
+    0.0032122165729927153,
+    0.002853975584387648,
+    0.002777605477143974,
+    0.0025906934589324747,
+    0.002603529561384514,
+    0.002564361494666297,
+    0.00252131952754754,
+    0.0025300694731842416,
+    0.002528809316387956,
+    0.0026501371051422112
+  ],
+  "test_name": "Independent public filament replication"
+}
+{
+  "falsification_logic": {
+    "confirm_like": "Both transparent filament estimators recover a similar-sign large-scale signal and exceed shuffled-axis nulls across multiple bins.",
+    "falsify_like": "The sign/scale changes strongly between finders or neither beats the shuffled nulls cleanly."
+  },
+  "finder_curve_correlation": 0.23359165493576195,
+  "knn_corr": [
+    0.04209900392258851,
+    0.04238015890918838,
+    0.029775034792134933,
+    0.03543852153404536,
+    0.03433319753151339,
+    0.031271289791089486,
+    0.033244037471861124,
+    0.03368806625643364,
+    0.032077743186074086,
+    0.0417556866246432,
+    0.03520412770350248,
+    0.03412317116982268,
+    0.03744640916106858
+  ],
+  "knn_shuffle_null_mean": [
+    0.0388542673066925,
+    0.03789747539782481,
+    0.03757847052697046,
+    0.036684149856259576,
+    0.036718234366937906,
+    0.03659427368629197,
+    0.036562038680312874,
+    0.03478479906441008,
+    0.03556471777972574,
+    0.037502621369275055,
+    0.035815593164155515,
+    0.03527270778260753,
+    0.03635648747438251
+  ],
+  "knn_shuffle_null_std": [
+    0.006494074783107796,
+    0.00504318986347857,
+    0.004556507764167226,
+    0.003408147501578339,
+    0.0032887302462888007,
+    0.004486664591534423,
+    0.002376917457426669,
+    0.002869242342826066,
+    0.0036102088376456444,
+    0.003958876630553163,
+    0.0035030063537169255,
+    0.004569259069323174,
+    0.0028079234866616068
+  ],
+  "knn_z_vs_shuffle": [
+    0.49964571155480425,
+    0.8888587645343207,
+    -1.7125913394030465,
+    -0.3654854496870688,
+    -0.7252151003007717,
+    -1.1864011197195474,
+    -1.3959261387410271,
+    -0.3822377746231814,
+    -0.9658650650042844,
+    1.0743111372919631,
+    -0.17455448232465495,
+    -0.2515805287781869,
+    0.3881593255170561
+  ],
+  "mst_corr": [
+    0.21918498354818478,
+    0.18049260542412435,
+    0.1674652991894833,
+    0.16290533484470604,
+    0.15917412716682333,
+    0.14834731955239883,
+    0.14820897826584073,
+    0.13792142196798965,
+    0.13270761889810165,
+    0.12144670410470053,
+    0.10602734732676304,
+    0.09384278358799603,
+    0.0815667269693289
+  ],
+  "mst_shuffle_null_mean": [
+    0.10378407072829825,
+    0.10398571462891586,
+    0.10362140944923812,
+    0.10491943261933971,
+    0.10468009455786016,
+    0.10355335280135163,
+    0.10500212518042173,
+    0.10392872148858312,
+    0.1034875302403312,
+    0.10341439956215773,
+    0.10275832032814944,
+    0.10326870346147146,
+    0.10219127650377624
+  ],
+  "mst_shuffle_null_std": [
+    0.005800093525739355,
+    0.00691597508808794,
+    0.005545001471010206,
+    0.004707323282577065,
+    0.004366630852019326,
+    0.004013308344277096,
+    0.00381532701682037,
+    0.005082124954685203,
+    0.004326994644639217,
+    0.0033140962512716687,
+    0.004463345249295624,
+    0.003449057144282769,
+    0.004285586975716969
+  ],
+  "mst_z_vs_shuffle": [
+    19.89638827507976,
+    11.06234331684968,
+    11.513773273826365,
+    12.318232410335208,
+    12.479651808387395,
+    11.161356892729804,
+    11.324547776622007,
+    6.688678610325925,
+    6.752975461610911,
+    5.441092586138237,
+    0.7324163415611865,
+    -2.7328975656724164,
+    -4.812537851013255
+  ],
+  "n_galaxies": 12000,
+  "notes": [
+    "This is a dual-finder consistency check using two transparent local filament estimators rather than an external filament catalogue."
+  ],
+  "r_mid_mpc_over_h": [
+    30.0,
+    50.0,
+    70.0,
+    90.0,
+    110.0,
+    130.0,
+    150.0,
+    170.0,
+    190.0,
+    210.0,
+    230.0,
+    250.0,
+    270.0
+  ],
+  "test_name": "Filament dual-finder consistency"
+}
+{
+  "baseline_fit": {
+    "h0": 68.12056301043748,
+    "intercept": -0.1610861813812827,
+    "nu": 0.03,
+    "omega_m": 0.3284722157591719
+  },
+  "falsification_logic": {
+    "confirm_like": "The surviving oscillation-only peak recurs at a similar frequency across disjoint subsets and is not concentrated in one survey block.",
+    "falsify_like": "The single remaining peak wanders or disappears across redshift and survey splits."
+  },
+  "full_sample_best_frequency_cycles_per_redshift": 0.9994997498749374,
+  "full_sample_best_power": 0.006786736390569352,
+  "notes": [
+    "This script tests coherence of the surviving single oscillation-only peak; it does not attempt to resurrect the retracted six-peak claim."
+  ],
+  "subsets": [
+    {
+      "best_frequency_cycles_per_redshift": 0.9994997498749374,
+      "best_power": 0.006786736390569352,
+      "global_frequency_amp_over_err": 1.8236139843892216,
+      "global_frequency_amplitude": 0.017146380950200584,
+      "n": 1624,
+      "name": "all"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 18.0,
+      "best_power": 0.006418259454494277,
+      "global_frequency_amp_over_err": 1.1432419502661861,
+      "global_frequency_amplitude": 0.16209289868050522,
+      "n": 812,
+      "name": "z_low"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 0.884392196098049,
+      "best_power": 0.015134834171878598,
+      "global_frequency_amp_over_err": 1.5587405067107254,
+      "global_frequency_amplitude": 0.024248333495003424,
+      "n": 812,
+      "name": "z_high"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 16.751525762881442,
+      "best_power": 0.020461855944052226,
+      "global_frequency_amp_over_err": 0.4282964904231194,
+      "global_frequency_amplitude": 0.03823007824307823,
+      "n": 321,
+      "name": "survey_1"
+    },
+    {
+      "best_frequency_cycles_per_redshift": 1.0349174587293648,
+      "best_power": 0.01014878764606585,
+      "global_frequency_amp_over_err": 2.4064762215714492,
+      "global_frequency_amplitude": 0.02492152596288102,
+      "n": 1303,
+      "name": "without_survey_1"
+    }
+  ],
+  "test_name": "w(z) single-peak coherence"
+}
+{
+  "base_fit": {
+    "best_a0_m_per_s2": 1.0996824341920387e-10,
+    "fractional_offset_from_cH0": -0.8383040693940801,
+    "fractional_offset_from_milgrom": -0.08359797150663438,
+    "galaxy_labels_available": false,
+    "n_galaxies": 1,
+    "n_points": 2693,
+    "offset_rms_dex": 0.009214317730099179,
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "optimizer_success": true
+  },
+  "falsification_logic": {
+    "confirm_like": "A0 remains near Milgrom and far from cH0 across physically distinct SPARC subsets under galaxy-level shrinkage fitting.",
+    "falsify_like": "The preferred a0 drifts strongly across subsets or some subsets move back toward cH0."
+  },
+  "notes": [
+    "This is a lightweight galaxy-level shrinkage approximation to a hierarchical fit, using only public SPARC machine-readable tables.",
+    "Public SPARC RAR source did not expose per-galaxy labels; falling back to pooled fit with a synthetic single-galaxy label, so subset fits are skipped."
+  ],
+  "subset_fits": [],
+  "test_name": "Local-a0 subset hierarchical test"
+}{
+  "best_common_scale_gev": 2000.0000000000002,
+  "best_down_q": 0.7489144091078134,
+  "best_joint_distance_to_2over3": 0.23192979593030078,
+  "best_up_q": 0.8835220057056857,
+  "falsification_logic": {
+    "confirm_like": "A narrow common-scale window emerges where lepton, up-type, and down-type Koide ratios all approach 2/3 together.",
+    "falsify_like": "No common window survives; any apparent agreement requires sector-dependent scales."
+  },
+  "notes": [
+    "This is a transparent one-loop public-data stress test, not a precision flavour-RG calculation."
+  ],
+  "pdg_2024_lepton_q": 0.6673745041323557,
+  "scan_down_q_sample": [
+    0.7489144091078133,
+    0.748914409107813,
+    0.7489144091078135,
+    0.7489144091078133,
+    0.7489144091078133,
+    0.7489144091078135,
+    0.7489144091078135,
+    0.7489144091078133,
+    0.7489144091078134,
+    0.7489144091078133,
+    0.7489144091078134,
+    0.7489144091078134,
+    0.7489144091078134,
+    0.7489144091078134,
+    0.7489144091078134,
+    0.7489144091078134,
+    0.7489144091078133,
+    0.7489144091078133,
+    0.7489144091078134,
+    0.7489144091078134
+  ],
+  "scan_mu_gev": [
+    2.0,
+    2.8275216276147215,
+    3.9974392773145015,
+    5.651423005841657,
+    7.989760387908341,
+    11.295610148135111,
+    15.969290995478175,
+    22.57675783369378,
+    31.918135528094624,
+    45.124609259412686,
+    63.795404309326436,
+    90.19144271352295,
+    127.50912744913015,
+    180.2674077903486,
+    254.85499714062672,
+    360.3040081604048,
+    509.3836877949081,
+    720.1466969971241,
+    1018.1151804073364,
+    1439.371346002303
+  ],
+  "scan_up_q_sample": [
+    0.8870018045632562,
+    0.886654255000242,
+    0.8863487100978227,
+    0.8860760346894312,
+    0.8858297896223362,
+    0.8856052642559482,
+    0.8853989076804313,
+    0.8852079763377354,
+    0.8850303061587664,
+    0.8848641598662078,
+    0.8847081215103053,
+    0.8845610217151626,
+    0.8844218834879952,
+    0.8842898821533592,
+    0.88416431521047,
+    0.8840445793018128,
+    0.8839301523693015,
+    0.8838205796554642,
+    0.8837154625959027,
+    0.8836144499144438
+  ],
+  "test_name": "Koide common-scale scan"
+}
+{
+  "falsification_logic": {
+    "confirm_like": "Future machine-readable public products reach the target mass window with enough structure to search for a genuine second peak.",
+    "falsify_like": "Once such products exist and no second peak appears, the CCDR hard-core tower prediction fails."
+  },
+  "hard_core_ready_now": false,
+  "n_candidate_resources": 320,
+  "n_numeric_tables_loaded": 46,
+  "notes": [
+    "This is a readiness and coverage audit, not a hard-core falsification by itself.",
+    "Machine-readable limit curves are not the same thing as public event-level likelihoods or peak-resolution analyses."
+  ],
+  "tables": [
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/submission/ins2841863/2/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Lower right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Upper right/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CMS)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CDMS)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (LZ)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (panda)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CRESST-II)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (XENONnT 2023)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 right (CMS)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICO)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICASSO)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (KAMIOKADE)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (Icecube)/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Limits on Suppression Scale/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10a/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10b/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 11/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for ADD model/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM-EW model/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM vector Simplified model/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM Axial vector Simplified model/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Cutflow Table for some signal points/csv",
+      "y_min": 1.076e-05
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "source": "https://www.hepdata.net/download/submission/ins3085605/2/csv",
+      "y_min": 1.076e-05
+    }
+  ],
+  "tables_overlapping_target_window": [],
+  "target_second_peak_window_gev": [
+    500.0,
+    3000.0
+  ],
+  "test_name": "DM hard-core readiness map"
+}
