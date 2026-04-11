@@ -1,0 +1,502 @@
+{
+  "test_name": "CCDR Test 02 oscillation-only rerun",
+  "basis": "w(z) = -1 + sum_k [c_k cos(2*pi*f_k*z) + s_k sin(2*pi*f_k*z)]",
+  "no_drift_term": true,
+  "pantheon_source": "p02_public_data\\pantheon_plus\\Pantheon+SH0ES.dat",
+  "bao_sources": [
+    "DESI_DR2_auto",
+    "SDSS_DR12_auto"
+  ],
+  "settings": {
+    "target_harmonics": 6,
+    "headline_threshold": 6,
+    "period_min": 0.25,
+    "period_max": 2.5,
+    "frequency_min": 0.4,
+    "frequency_max": 4.0,
+    "multistart": 2,
+    "integration_n": 1000,
+    "coeff_bound": 0.2,
+    "amp_prior_sigma": 0.05,
+    "freq_repulsion_strength": 2.0,
+    "rd_mpc": 147.09
+  },
+  "model_selection": [
+    {
+      "n_harmonics": 0,
+      "chi2_total": 1953.9327732717184,
+      "aic": 1957.9327732717184,
+      "bic": 1968.8329324113333,
+      "param_count": 2,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 72,
+      "nit": 9,
+      "elapsed_sec": 0.246124267578125,
+      "delta_chi2_vs_prev": null,
+      "delta_bic_vs_prev": null,
+      "lr_pvalue_vs_prev": null,
+      "harmonics": [],
+      "theta": [
+        0.23808578588796,
+        0.7369964210007509
+      ]
+    },
+    {
+      "n_harmonics": 1,
+      "chi2_total": 1944.8492554617067,
+      "aic": 1954.8492554617067,
+      "bic": 1982.099653310744,
+      "param_count": 5,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 228,
+      "nit": 32,
+      "elapsed_sec": 0.7138111591339111,
+      "delta_chi2_vs_prev": 9.083517810011699,
+      "delta_bic_vs_prev": 13.266720899410757,
+      "lr_pvalue_vs_prev": 0.028200835543205294,
+      "harmonics": [
+        {
+          "harmonic_index": 1,
+          "frequency": 1.3567569151036414,
+          "period_in_z": 0.7370517068074873,
+          "cos_coeff": 0.09717206926969699,
+          "sin_coeff": -0.07784140995472791,
+          "amplitude": 0.12450580769544368,
+          "phase_rad": 0.6753916643909554
+        }
+      ],
+      "theta": [
+        0.2421016871740407,
+        0.7359115572164581,
+        1.3567569151036414,
+        0.09717206926969699,
+        -0.07784140995472791
+      ]
+    },
+    {
+      "n_harmonics": 2,
+      "chi2_total": 1935.4648507021307,
+      "aic": 1951.4648507021307,
+      "bic": 1995.0654872605905,
+      "param_count": 8,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 1062,
+      "nit": 105,
+      "elapsed_sec": 3.427743911743164,
+      "delta_chi2_vs_prev": 9.384404759576,
+      "delta_bic_vs_prev": 12.965833949846456,
+      "lr_pvalue_vs_prev": 0.024593436237349824,
+      "harmonics": [
+        {
+          "harmonic_index": 1,
+          "frequency": 0.43143814693008486,
+          "period_in_z": 2.3178293507784127,
+          "cos_coeff": -0.021788960654572087,
+          "sin_coeff": -0.09479113010046729,
+          "amplitude": 0.09726313357141135,
+          "phase_rad": 1.796734464979382
+        },
+        {
+          "harmonic_index": 2,
+          "frequency": 1.8356634959887295,
+          "period_in_z": 0.5447621539487975,
+          "cos_coeff": 0.10657754223602343,
+          "sin_coeff": 0.009768154157334756,
+          "amplitude": 0.10702424652719035,
+          "phase_rad": -0.0913976739829762
+        }
+      ],
+      "theta": [
+        0.24917449409315187,
+        0.7362697551225138,
+        1.8356634959887295,
+        0.43143814693008486,
+        0.10657754223602343,
+        -0.021788960654572087,
+        0.009768154157334756,
+        -0.09479113010046729
+      ]
+    },
+    {
+      "n_harmonics": 3,
+      "chi2_total": 1933.6189475189033,
+      "aic": 1955.6189475189033,
+      "bic": 2015.5698227867858,
+      "param_count": 11,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 2772,
+      "nit": 199,
+      "elapsed_sec": 9.169753074645996,
+      "delta_chi2_vs_prev": 1.8459031832273922,
+      "delta_bic_vs_prev": 20.50433552619529,
+      "lr_pvalue_vs_prev": 0.6049971934036378,
+      "harmonics": [
+        {
+          "harmonic_index": 1,
+          "frequency": 0.4087361372499466,
+          "period_in_z": 2.446566155682215,
+          "cos_coeff": -0.03289707355996769,
+          "sin_coeff": -0.0894435194874201,
+          "amplitude": 0.0953014198588165,
+          "phase_rad": 1.9232372845768992
+        },
+        {
+          "harmonic_index": 2,
+          "frequency": 1.8192434790240697,
+          "period_in_z": 0.5496790350109972,
+          "cos_coeff": 0.09946576454064798,
+          "sin_coeff": 0.005094875198307113,
+          "amplitude": 0.09959616493089456,
+          "phase_rad": -0.05117767260986612
+        },
+        {
+          "harmonic_index": 3,
+          "frequency": 3.114673158589362,
+          "period_in_z": 0.3210609746458601,
+          "cos_coeff": 0.03754284067170147,
+          "sin_coeff": 0.05271181035611788,
+          "amplitude": 0.06471475748791847,
+          "phase_rad": -0.9519105391567393
+        }
+      ],
+      "theta": [
+        0.24985564794339338,
+        0.7353392784984379,
+        1.8192434790240697,
+        0.4087361372499466,
+        3.114673158589362,
+        0.09946576454064798,
+        -0.03289707355996769,
+        0.03754284067170147,
+        0.005094875198307113,
+        -0.0894435194874201,
+        0.05271181035611788
+      ]
+    },
+    {
+      "n_harmonics": 4,
+      "chi2_total": 1932.1652370311554,
+      "aic": 1960.1652370311554,
+      "bic": 2036.4663510084604,
+      "param_count": 14,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 6360,
+      "nit": 365,
+      "elapsed_sec": 21.58958673477173,
+      "delta_chi2_vs_prev": 1.4537104877479123,
+      "delta_bic_vs_prev": 20.896528221674544,
+      "lr_pvalue_vs_prev": 0.692994377490058,
+      "harmonics": [
+        {
+          "harmonic_index": 1,
+          "frequency": 0.4,
+          "period_in_z": 2.5,
+          "cos_coeff": -0.031061094294043547,
+          "sin_coeff": -0.08226189203002053,
+          "amplitude": 0.08793071396902348,
+          "phase_rad": 1.931833900122511
+        },
+        {
+          "harmonic_index": 2,
+          "frequency": 1.4110395245828369,
+          "period_in_z": 0.7086973699731355,
+          "cos_coeff": 0.0684487813798467,
+          "sin_coeff": -0.03342746495612085,
+          "amplitude": 0.07617500302447473,
+          "phase_rad": 0.4542901765161242
+        },
+        {
+          "harmonic_index": 3,
+          "frequency": 1.9869989668507535,
+          "period_in_z": 0.5032715248890773,
+          "cos_coeff": 0.08322163544937967,
+          "sin_coeff": 0.019177740108336946,
+          "amplitude": 0.08540273018195825,
+          "phase_rad": -0.2264879121002035
+        },
+        {
+          "harmonic_index": 4,
+          "frequency": 3.1532698978872853,
+          "period_in_z": 0.31713111543988276,
+          "cos_coeff": 0.032824411510905864,
+          "sin_coeff": 0.048095589567707195,
+          "amplitude": 0.05822909690955746,
+          "phase_rad": -0.9719238869306034
+        }
+      ],
+      "theta": [
+        0.2511217152700489,
+        0.7341765375003685,
+        1.4110395245828369,
+        0.4,
+        3.1532698978872853,
+        1.9869989668507535,
+        0.0684487813798467,
+        -0.031061094294043547,
+        0.032824411510905864,
+        0.08322163544937967,
+        -0.03342746495612085,
+        -0.08226189203002053,
+        0.048095589567707195,
+        0.019177740108336946
+      ]
+    },
+    {
+      "n_harmonics": 5,
+      "chi2_total": 1930.7877167676477,
+      "aic": 1964.7877167676477,
+      "bic": 2057.4390694543754,
+      "param_count": 17,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 7578,
+      "nit": 366,
+      "elapsed_sec": 25.230676412582397,
+      "delta_chi2_vs_prev": 1.3775202635076766,
+      "delta_bic_vs_prev": 20.972718445915007,
+      "lr_pvalue_vs_prev": 0.7108124625522524,
+      "harmonics": [
+        {
+          "harmonic_index": 1,
+          "frequency": 0.4,
+          "period_in_z": 2.5,
+          "cos_coeff": -0.027405834415843495,
+          "sin_coeff": -0.07319168279727577,
+          "amplitude": 0.07815434850810071,
+          "phase_rad": 1.9290752373294096
+        },
+        {
+          "harmonic_index": 2,
+          "frequency": 0.9573286345523336,
+          "period_in_z": 1.0445733720976813,
+          "cos_coeff": 0.039943158905516814,
+          "sin_coeff": -0.04503629911151306,
+          "amplitude": 0.060197376861562985,
+          "phase_rad": 0.8452603365528488
+        },
+        {
+          "harmonic_index": 3,
+          "frequency": 1.7428911839186618,
+          "period_in_z": 0.5737592852765664,
+          "cos_coeff": 0.0792133419443216,
+          "sin_coeff": -0.013375428537243068,
+          "amplitude": 0.08033464775887746,
+          "phase_rad": 0.1672753858103487
+        },
+        {
+          "harmonic_index": 4,
+          "frequency": 2.253760805654854,
+          "period_in_z": 0.4437028088743603,
+          "cos_coeff": 0.061905947614878706,
+          "sin_coeff": 0.03243980437464042,
+          "amplitude": 0.06989053768544813,
+          "phase_rad": -0.4826765361247961
+        },
+        {
+          "harmonic_index": 5,
+          "frequency": 3.187757245344851,
+          "period_in_z": 0.3137001732049456,
+          "cos_coeff": 0.02997258835033183,
+          "sin_coeff": 0.04331682989100151,
+          "amplitude": 0.05267545732335325,
+          "phase_rad": -0.9655011858530641
+        }
+      ],
+      "theta": [
+        0.25195139870628114,
+        0.7333318004837417,
+        1.7428911839186618,
+        0.4,
+        3.187757245344851,
+        2.253760805654854,
+        0.9573286345523336,
+        0.0792133419443216,
+        -0.027405834415843495,
+        0.02997258835033183,
+        0.061905947614878706,
+        0.039943158905516814,
+        -0.013375428537243068,
+        -0.07319168279727577,
+        0.04331682989100151,
+        0.03243980437464042,
+        -0.04503629911151306
+      ]
+    },
+    {
+      "n_harmonics": 6,
+      "chi2_total": 1929.7523307382073,
+      "aic": 1969.7523307382073,
+      "bic": 2078.7539221343573,
+      "param_count": 20,
+      "fit_success": true,
+      "fit_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev": 8106,
+      "nit": 326,
+      "elapsed_sec": 27.59241509437561,
+      "delta_chi2_vs_prev": 1.0353860294403603,
+      "delta_bic_vs_prev": 21.31485267998187,
+      "lr_pvalue_vs_prev": 0.7926904516228381,
+      "harmonics": [
+        {
+          "harmonic_index": 1,
+          "frequency": 0.4,
+          "period_in_z": 2.5,
+          "cos_coeff": -0.024009023747852676,
+          "sin_coeff": -0.06976038798380393,
+          "amplitude": 0.07377631701959518,
+          "phase_rad": 1.9022627289022056
+        },
+        {
+          "harmonic_index": 2,
+          "frequency": 0.8837832605465966,
+          "period_in_z": 1.1314991408431139,
+          "cos_coeff": 0.0340886000287088,
+          "sin_coeff": -0.04349369338956145,
+          "amplitude": 0.05526060094300882,
+          "phase_rad": 0.9060368087636957
+        },
+        {
+          "harmonic_index": 3,
+          "frequency": 1.477111135664896,
+          "period_in_z": 0.676997130314008,
+          "cos_coeff": 0.05622556337617409,
+          "sin_coeff": -0.031369885991848936,
+          "amplitude": 0.06438465441477316,
+          "phase_rad": 0.5089105316620012
+        },
+        {
+          "harmonic_index": 4,
+          "frequency": 1.9100836270943222,
+          "period_in_z": 0.5235372869622629,
+          "cos_coeff": 0.07486458163749563,
+          "sin_coeff": 0.004720753217759897,
+          "amplitude": 0.07501327279022185,
+          "phase_rad": -0.06297385346605526
+        },
+        {
+          "harmonic_index": 5,
+          "frequency": 2.45309868409989,
+          "period_in_z": 0.40764768514273114,
+          "cos_coeff": 0.0446565803454305,
+          "sin_coeff": 0.031996250713943235,
+          "amplitude": 0.05493605580943541,
+          "phase_rad": -0.6217113690545149
+        },
+        {
+          "harmonic_index": 6,
+          "frequency": 3.2282406784203186,
+          "period_in_z": 0.30976624719608326,
+          "cos_coeff": 0.026031913756557886,
+          "sin_coeff": 0.040740358405670384,
+          "amplitude": 0.048347050963335345,
+          "phase_rad": -1.0022133629363903
+        }
+      ],
+      "theta": [
+        0.2527124887818298,
+        0.7326882351496738,
+        1.477111135664896,
+        0.4,
+        3.2282406784203186,
+        2.45309868409989,
+        0.8837832605465966,
+        1.9100836270943222,
+        0.05622556337617409,
+        -0.024009023747852676,
+        0.026031913756557886,
+        0.0446565803454305,
+        0.0340886000287088,
+        0.07486458163749563,
+        -0.031369885991848936,
+        -0.06976038798380393,
+        0.040740358405670384,
+        0.031996250713943235,
+        -0.04349369338956145,
+        0.004720753217759897
+      ]
+    }
+  ],
+  "best_model": {
+    "n_harmonics": 0,
+    "bic": 1968.8329324113333,
+    "aic": 1957.9327732717184,
+    "chi2_total": 1953.9327732717184,
+    "harmonics": []
+  },
+  "six_harmonic_model": {
+    "bic": 2078.7539221343573,
+    "aic": 1969.7523307382073,
+    "chi2_total": 1929.7523307382073,
+    "delta_bic_vs_prev": 21.31485267998187,
+    "delta_chi2_vs_prev": 1.0353860294403603,
+    "lr_pvalue_vs_prev": 0.7926904516228381,
+    "harmonics": [
+      {
+        "harmonic_index": 1,
+        "frequency": 0.4,
+        "period_in_z": 2.5,
+        "cos_coeff": -0.024009023747852676,
+        "sin_coeff": -0.06976038798380393,
+        "amplitude": 0.07377631701959518,
+        "phase_rad": 1.9022627289022056
+      },
+      {
+        "harmonic_index": 2,
+        "frequency": 0.8837832605465966,
+        "period_in_z": 1.1314991408431139,
+        "cos_coeff": 0.0340886000287088,
+        "sin_coeff": -0.04349369338956145,
+        "amplitude": 0.05526060094300882,
+        "phase_rad": 0.9060368087636957
+      },
+      {
+        "harmonic_index": 3,
+        "frequency": 1.477111135664896,
+        "period_in_z": 0.676997130314008,
+        "cos_coeff": 0.05622556337617409,
+        "sin_coeff": -0.031369885991848936,
+        "amplitude": 0.06438465441477316,
+        "phase_rad": 0.5089105316620012
+      },
+      {
+        "harmonic_index": 4,
+        "frequency": 1.9100836270943222,
+        "period_in_z": 0.5235372869622629,
+        "cos_coeff": 0.07486458163749563,
+        "sin_coeff": 0.004720753217759897,
+        "amplitude": 0.07501327279022185,
+        "phase_rad": -0.06297385346605526
+      },
+      {
+        "harmonic_index": 5,
+        "frequency": 2.45309868409989,
+        "period_in_z": 0.40764768514273114,
+        "cos_coeff": 0.0446565803454305,
+        "sin_coeff": 0.031996250713943235,
+        "amplitude": 0.05493605580943541,
+        "phase_rad": -0.6217113690545149
+      },
+      {
+        "harmonic_index": 6,
+        "frequency": 3.2282406784203186,
+        "period_in_z": 0.30976624719608326,
+        "cos_coeff": 0.026031913756557886,
+        "sin_coeff": 0.040740358405670384,
+        "amplitude": 0.048347050963335345,
+        "phase_rad": -1.0022133629363903
+      }
+    ]
+  },
+  "result": {
+    "six_harmonics_survive": false,
+    "headline_result": false,
+    "mark_test02_null": true,
+    "status": "null_under_oscillation_only",
+    "best_supported_harmonic_count": 0
+  }
+}
