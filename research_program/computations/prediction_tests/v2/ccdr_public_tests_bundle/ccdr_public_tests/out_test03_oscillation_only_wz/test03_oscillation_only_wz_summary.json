@@ -1,0 +1,26 @@
+{
+  "adjacent_frequency_ratios": [],
+  "baseline_fit": {
+    "h0": 68.00959894828188,
+    "intercept": -0.16446957807793774,
+    "nu": 0.03,
+    "omega_m": 0.32852389956021943
+  },
+  "chi2_null": 1386.8976481616187,
+  "chi2_oscillation_only": 1379.4410275122145,
+  "delta_chi2": 7.456620649404158,
+  "falsification_logic": {
+    "confirm_like": "A stable subset of peaks survives in an oscillation-only basis with meaningful delta-chi2 improvement.",
+    "falsify_like": "The apparent peaks disappear once no drift term is allowed."
+  },
+  "n_added_parameters": 2,
+  "n_supernovae": 1624,
+  "notes": [
+    "This script operationalizes the detrending challenge using Pantheon+ residuals around a compact public-data baseline fit.",
+    "It is a falsifiability tool, not a full nonparametric w(z) reconstruction."
+  ],
+  "selected_peak_frequencies_cycles_per_redshift": [
+    10.891661107404937
+  ],
+  "test_name": "Oscillation-only w(z) check"
+}

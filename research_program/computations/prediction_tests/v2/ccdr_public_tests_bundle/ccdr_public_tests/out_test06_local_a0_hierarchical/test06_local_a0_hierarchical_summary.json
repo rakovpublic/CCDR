@@ -1,0 +1,21 @@
+{
+  "best_a0_m_per_s2": 1.0996825053142865e-10,
+  "falsification_logic": {
+    "confirm_like": "Best-fit a0 remains close to Milgrom and far from cH0 under hierarchical-style shrinkage.",
+    "falsify_like": "The preferred a0 shifts materially or broadens so much that the local retreat loses robustness."
+  },
+  "fractional_offset_from_cH0": -0.8383040589363537,
+  "fractional_offset_from_milgrom": -0.08359791223809454,
+  "n_galaxies": 1,
+  "n_points": 2693,
+  "notes": [
+    "This is a shrinkage-based approximation to a hierarchical fit, designed to stay lightweight and fully public-data-driven.",
+    "Detected SPARC acceleration input units: log10(m/s^2) converted to linear m/s^2.",
+    "Selected columns: galaxy=__all__, gobs=gobs, gbar=gbar."
+  ],
+  "offset_prior_dex": 0.08,
+  "offset_rms_dex": 0.009214311107032584,
+  "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "optimizer_success": true,
+  "test_name": "Local-a0 hierarchical-style robustness fit"
+}
