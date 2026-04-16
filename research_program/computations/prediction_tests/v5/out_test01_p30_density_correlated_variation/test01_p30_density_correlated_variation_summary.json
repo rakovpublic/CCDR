@@ -1,0 +1,139 @@
+{
+  "delta_vs_shuffle_mean": 3.0202435502026374e-08,
+  "delta_vs_shuffle_std": 2.7703238608341497e-07,
+  "delta_vs_shuffle_z": 12.986947913954042,
+  "falsification_logic": {
+    "confirm_like": "High-density regions show systematically higher inferred lensing-like signal than low-density regions, with the predicted sign, a stable shuffled-null excess, and a coherent shared density-ordering fit with Test 02.",
+    "falsify_like": "No positive density-correlated excess appears once null controls are applied, or the shared local-density ordering model fails to couple the \u03ba-like field and filament-order score."
+  },
+  "high_density_count": 2000,
+  "high_mean_kappa": 0.0006693575433884387,
+  "high_minus_low_kappa": 3.628007604045743e-06,
+  "joint_with_test02_density_ordering_model": {
+    "alignment_intercept_zscore": -8.372083446545187,
+    "alignment_loading_zscore": 8.749948685290846,
+    "combined_sse": 15327.331855146378,
+    "kappa_intercept_zscore": -12.403700981567699,
+    "kappa_loading_zscore": 12.963529065300415,
+    "latent_stage_mean": 0.9568151480269966,
+    "latent_stage_std": 0.01851376410211272,
+    "local_order_spearman_p": 7.62145077784403e-67,
+    "local_order_spearman_r": 0.19135172365989034,
+    "message": "Optimization terminated successfully.",
+    "n_points": 8000,
+    "optimizer_success": true,
+    "shared_log10_density_threshold": -7.505565283164245,
+    "shared_transition_width_dex": 1.0662736118283167
+  },
+  "kappa_field_mode": "planck_proxy_sampler",
+  "kappa_linear_trend_vs_log10_density": {
+    "chi2_like": 5.279368616705937e-07,
+    "intercept": 0.0006783942057600581,
+    "slope": 2.439837397489666e-06
+  },
+  "low_density_count": 2000,
+  "low_mean_kappa": 0.000665729535784393,
+  "n_objects": 8000,
+  "n_planck_links_discovered": 0,
+  "notes": [
+    "This version forces the public Euclid Q1 sample through IRSA TAP instead of defaulting to the earlier SDSS fallback.",
+    "The \u03ba field is still a public-data proxy sampler rather than a full lensing map likelihood.",
+    "The new spatial variance map records \u03ba residuals against local density contrast on approximately Mpc scales via the k-nearest-neighbour density proxy."
+  ],
+  "pearson_p": 8.981569393411408e-56,
+  "pearson_r": 0.17457550709788827,
+  "planck_lensing_links_discovered": [],
+  "source_used": "euclid_q1_public_irsa_tap",
+  "spatial_variance_map": {
+    "density_contrast_vs_kappa_residual_profile": [
+      {
+        "n": 800,
+        "x_hi": -0.7116924456363838,
+        "x_lo": -0.9833425205803248,
+        "x_mid": -0.8245833050900934,
+        "y_mean": -3.436973623791767e-06,
+        "y_std": 9.602549865258776e-06
+      },
+      {
+        "n": 800,
+        "x_hi": -0.5248479167028705,
+        "x_lo": -0.7116924456363838,
+        "x_mid": -0.6165373903109631,
+        "y_mean": 8.517323346688955e-08,
+        "y_std": 8.491311351170156e-06
+      },
+      {
+        "n": 800,
+        "x_hi": -0.32948212900668206,
+        "x_lo": -0.5248479167028705,
+        "x_mid": -0.4305123433896795,
+        "y_mean": 4.3324605742706367e-07,
+        "y_std": 8.590386587304202e-06
+      },
+      {
+        "n": 800,
+        "x_hi": -0.16726802028060173,
+        "x_lo": -0.32948212900668206,
+        "x_mid": -0.24397946893201627,
+        "y_mean": 1.2424431315672483e-06,
+        "y_std": 8.160550492319069e-06
+      },
+      {
+        "n": 800,
+        "x_hi": -5.551115123125783e-17,
+        "x_lo": -0.16726802028060173,
+        "x_mid": -0.0848212264058536,
+        "y_mean": 1.6113710486864604e-06,
+        "y_std": 7.806981266898899e-06
+      },
+      {
+        "n": 800,
+        "x_hi": 0.1918617461844047,
+        "x_lo": -5.551115123125783e-17,
+        "x_mid": 0.0928532594877498,
+        "y_mean": 1.0320238466063296e-06,
+        "y_std": 7.930166663907647e-06
+      },
+      {
+        "n": 800,
+        "x_hi": 0.41319922076397536,
+        "x_lo": 0.1918617461844047,
+        "x_mid": 0.2932776908598016,
+        "y_mean": 7.762446329489702e-07,
+        "y_std": 7.685949207171036e-06
+      },
+      {
+        "n": 800,
+        "x_hi": 0.7621968029069376,
+        "x_lo": 0.41319922076397536,
+        "x_mid": 0.573838317802134,
+        "y_mean": 1.8440331979663478e-07,
+        "y_std": 7.63233656107841e-06
+      },
+      {
+        "n": 800,
+        "x_hi": 2.62593590321805,
+        "x_lo": 0.7621968029069376,
+        "x_mid": 1.0804351302803952,
+        "y_mean": -4.815625227463555e-07,
+        "y_std": 6.386441403398974e-06
+      },
+      {
+        "n": 800,
+        "x_hi": 2509.0700182678834,
+        "x_lo": 2.62593590321805,
+        "x_mid": 13.372297933710799,
+        "y_mean": -1.4463691239612762e-06,
+        "y_std": 7.341535826126296e-06
+      }
+    ],
+    "grid_map_csv": "out_test01_p30_density_correlated_variation\\test01_kappa_spatial_variance_map.csv",
+    "object_map_csv": "out_test01_p30_density_correlated_variation\\test01_density_kappa_object_map.csv",
+    "spearman_density_contrast_vs_kappa_resid_p": 0.29348175908524643,
+    "spearman_density_contrast_vs_kappa_resid_r": -0.011746536332474643
+  },
+  "spearman_p": 9.522176861671497e-38,
+  "spearman_r": 0.14286462765554267,
+  "t_test_p_high_vs_low": 2.1655560677877915e-43,
+  "test_name": "P30 density-correlated spatial variation proxy"
+}

@@ -1,0 +1,95 @@
+{
+  "falsification_logic": {
+    "confirm_like": "The high-z proxy sample shows a trend of a0 away from the local Milgrom value toward larger asymptotic values, and the coupled async-stage fit with Test 03 improves over separate baseline trends.",
+    "falsify_like": "The proxy a0 stays flat near the local Milgrom value out to z > 1, or the shared async-stage fit adds no explanatory power beyond simple baseline trends."
+  },
+  "highz_fractional_offset_from_cH0": -0.4252349383993675,
+  "highz_fractional_offset_from_milgrom": 2.257446655485901,
+  "highz_mean_a0_proxy_m_per_s2": 3.9089359865830813e-10,
+  "highz_points": [
+    {
+      "a0_proxy_m_per_s2": 3.060008626311277e-10,
+      "logMgas": 10.0,
+      "logMstar": 10.2,
+      "r_kpc": 6.0,
+      "v_kms": 180.0,
+      "z": 0.62
+    },
+    {
+      "a0_proxy_m_per_s2": 3.8861320133604434e-10,
+      "logMgas": 10.1,
+      "logMstar": 10.4,
+      "r_kpc": 6.8,
+      "v_kms": 210.0,
+      "z": 0.88
+    },
+    {
+      "a0_proxy_m_per_s2": 3.7181858520271516e-10,
+      "logMgas": 10.2,
+      "logMstar": 10.5,
+      "r_kpc": 7.0,
+      "v_kms": 220.0,
+      "z": 1.05
+    },
+    {
+      "a0_proxy_m_per_s2": 4.1829756606416615e-10,
+      "logMgas": 10.3,
+      "logMstar": 10.6,
+      "r_kpc": 7.2,
+      "v_kms": 240.0,
+      "z": 1.32
+    },
+    {
+      "a0_proxy_m_per_s2": 4.394023740501321e-10,
+      "logMgas": 10.35,
+      "logMstar": 10.7,
+      "r_kpc": 7.5,
+      "v_kms": 255.0,
+      "z": 1.58
+    },
+    {
+      "a0_proxy_m_per_s2": 4.212290026656635e-10,
+      "logMgas": 10.4,
+      "logMstar": 10.8,
+      "r_kpc": 7.9,
+      "v_kms": 265.0,
+      "z": 1.92
+    }
+  ],
+  "joint_with_test03_async_stage": {
+    "a0_intercept": -0.23287829761354506,
+    "a0_slope": -1.8568340463265276e-06,
+    "a0_stage_lag_dz": 678.1522169369532,
+    "a0_stage_loading": 0.24678029290442044,
+    "chi2": 0.5174969116231397,
+    "chi2_null": 1.593466769862141,
+    "delta_chi2_vs_null": 1.0759698582390014,
+    "growth_intercept": 88265198.04418373,
+    "growth_slope": 642.6071226000786,
+    "growth_stage_loading": -93051974.12400986,
+    "joint_summary_json": "out_test05_highz_a0_precursor\\test03_test05_joint_async_stage_summary.json",
+    "message": "Optimization terminated successfully.",
+    "n_a0_points": 6,
+    "n_growth_points": 6,
+    "optimizer_success": true,
+    "shared_stage_width": 7063.716001046623,
+    "shared_stage_zc": -20587.120079469212
+  },
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.0996825053142865e-10,
+    "n_galaxies": 1,
+    "n_points": 2693,
+    "offset_rms_dex": 0.009214311107032584,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "optimizer_success": true
+  },
+  "local_anchor_point_count": 2693,
+  "notes": [
+    "This is a high-z precursor proxy, not a full high-z RAR reconstruction.",
+    "Public high-z ionised-gas kinematic samples rarely expose SPARC-grade baryonic decompositions, so the script uses a coarse MOND-like estimator.",
+    "The joint block is a lightweight asynchronous-stage proxy rather than a first-principles CCDR derivation."
+  ],
+  "spearman_z_vs_a0_proxy_p": 0.01884548104956266,
+  "spearman_z_vs_a0_proxy_r": 0.8857142857142858,
+  "test_name": "High-z a0 precursor proxy"
+}

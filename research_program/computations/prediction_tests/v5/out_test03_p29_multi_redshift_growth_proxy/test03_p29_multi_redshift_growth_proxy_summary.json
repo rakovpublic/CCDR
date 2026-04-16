@@ -1,0 +1,69 @@
+{
+  "falsification_logic": {
+    "confirm_like": "A nonzero growth-of-DM proxy term improves the fit to the public multi-redshift growth points with the sign expected for ongoing reduction, and the coupled async-stage fit also improves once a0(z) is included.",
+    "falsify_like": "A constant-DM growth history fits equally well, or the shared async-stage fit provides no improvement over separate baseline trends."
+  },
+  "fit": {
+    "alpha_dm_proxy": -0.1966872793056151,
+    "chi2": 0.08537728129827234,
+    "chi2_null": 0.12608973942608936,
+    "delta_chi2_alpha0": 0.04071245812781703,
+    "n_points": 6
+  },
+  "joint_with_test05_async_stage": {
+    "a0_intercept": -0.23287829761354506,
+    "a0_slope": -1.8568340463265276e-06,
+    "a0_stage_lag_dz": 678.1522169369532,
+    "a0_stage_loading": 0.24678029290442044,
+    "chi2": 0.5174969116231397,
+    "chi2_null": 1.593466769862141,
+    "delta_chi2_vs_null": 1.0759698582390014,
+    "growth_intercept": 88265198.04418373,
+    "growth_slope": 642.6071226000786,
+    "growth_stage_loading": -93051974.12400986,
+    "joint_summary_json": "out_test03_p29_multi_redshift_growth_proxy\\test03_test05_joint_async_stage_summary.json",
+    "message": "Optimization terminated successfully.",
+    "n_a0_points": 6,
+    "n_growth_points": 6,
+    "optimizer_success": true,
+    "shared_stage_width": 7063.716001046623,
+    "shared_stage_zc": -20587.120079469212
+  },
+  "notes": [
+    "This is a compressed public full-shape/RSD proxy using published DESI Y1 full-shape summary points.",
+    "The joint block couples Test 03 and Test 05 through a shared latent stage with an allowed a0 lag, which is a lightweight proxy for asynchronous local stage completion."
+  ],
+  "points": [
+    {
+      "fs8": 0.48,
+      "fs8_err": 0.06,
+      "z_eff": 0.295
+    },
+    {
+      "fs8": 0.46,
+      "fs8_err": 0.05,
+      "z_eff": 0.51
+    },
+    {
+      "fs8": 0.43,
+      "fs8_err": 0.05,
+      "z_eff": 0.706
+    },
+    {
+      "fs8": 0.39,
+      "fs8_err": 0.05,
+      "z_eff": 0.93
+    },
+    {
+      "fs8": 0.36,
+      "fs8_err": 0.06,
+      "z_eff": 1.317
+    },
+    {
+      "fs8": 0.35,
+      "fs8_err": 0.07,
+      "z_eff": 1.491
+    }
+  ],
+  "test_name": "P29 multi-redshift growth proxy"
+}
