@@ -1,0 +1,50 @@
+{
+  "falsification_logic": {
+    "confirm_like": "A positive growth-of-DM proxy term improves the fit to public multi-redshift growth points with the sign expected for ongoing reduction.",
+    "falsify_like": "A constant-DM growth history fits equally well, or the preferred proxy term remains zero or wrong-sign."
+  },
+  "fit": {
+    "alpha_dm_proxy": -0.1966872793056151,
+    "chi2": 0.08537728129827234,
+    "chi2_null": 0.12608973942608936,
+    "delta_chi2_alpha0": 0.04071245812781703,
+    "n_points": 6
+  },
+  "notes": [
+    "This is a compressed public full-shape/RSD proxy based on published DESI summary points.",
+    "A full perturbation-level implementation with public chains would be the next refinement once the proxy sign is established."
+  ],
+  "points": [
+    {
+      "fs8": 0.48,
+      "fs8_err": 0.06,
+      "z_eff": 0.295
+    },
+    {
+      "fs8": 0.46,
+      "fs8_err": 0.05,
+      "z_eff": 0.51
+    },
+    {
+      "fs8": 0.43,
+      "fs8_err": 0.05,
+      "z_eff": 0.706
+    },
+    {
+      "fs8": 0.39,
+      "fs8_err": 0.05,
+      "z_eff": 0.93
+    },
+    {
+      "fs8": 0.36,
+      "fs8_err": 0.06,
+      "z_eff": 1.317
+    },
+    {
+      "fs8": 0.35,
+      "fs8_err": 0.07,
+      "z_eff": 1.491
+    }
+  ],
+  "test_name": "P29 multi-redshift growth test"
+}

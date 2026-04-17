@@ -1,0 +1,70 @@
+{
+  "baseline_high_minus_low_kappa": 1.9210637698645328e-05,
+  "falsification_logic": {
+    "confirm_like": "The P30 sign remains stable across spatial and redshift splits and across reasonable density-threshold choices.",
+    "falsify_like": "The signal localizes to one field-like split or collapses under modest threshold changes, indicating likely survey/systematics origin."
+  },
+  "n_objects": 12000,
+  "notes": [
+    "This is an internal audit proxy using publicly accessible columns rather than a full survey-quality photo-z and mask systematics pipeline.",
+    "Field-like splits are approximated by RA/Dec partitions when explicit Euclid field labels are unavailable in the queried sample."
+  ],
+  "source_used": "sdss_fallback",
+  "subset_cases": [
+    {
+      "delta_minus_baseline": 2.3919610610520492e-05,
+      "high_minus_low_kappa": 4.313024830916582e-05,
+      "n": 6000,
+      "subset": "z_low"
+    },
+    {
+      "delta_minus_baseline": -1.7245007961810615e-05,
+      "high_minus_low_kappa": 1.9656297368347126e-06,
+      "n": 6000,
+      "subset": "z_high"
+    },
+    {
+      "delta_minus_baseline": 3.7493674957503505e-06,
+      "high_minus_low_kappa": 2.2960005194395678e-05,
+      "n": 6000,
+      "subset": "ra_low"
+    },
+    {
+      "delta_minus_baseline": -4.690191896472139e-06,
+      "high_minus_low_kappa": 1.4520445802173188e-05,
+      "n": 6000,
+      "subset": "ra_high"
+    },
+    {
+      "delta_minus_baseline": -2.0204028377596237e-05,
+      "high_minus_low_kappa": -9.933906789509096e-07,
+      "n": 6000,
+      "subset": "dec_low"
+    },
+    {
+      "delta_minus_baseline": -2.0838315602415586e-05,
+      "high_minus_low_kappa": -1.6276779037702584e-06,
+      "n": 6000,
+      "subset": "dec_high"
+    }
+  ],
+  "test_name": "P30 Euclid-Q1 systematics audit proxy",
+  "threshold_scan": [
+    {
+      "high_minus_low_kappa": 1.1481991602111492e-05,
+      "quantile": 0.2
+    },
+    {
+      "high_minus_low_kappa": 1.9210637698645328e-05,
+      "quantile": 0.25
+    },
+    {
+      "high_minus_low_kappa": 1.5813861099911203e-05,
+      "quantile": 0.3
+    },
+    {
+      "high_minus_low_kappa": 7.692406931681121e-06,
+      "quantile": 0.35
+    }
+  ]
+}

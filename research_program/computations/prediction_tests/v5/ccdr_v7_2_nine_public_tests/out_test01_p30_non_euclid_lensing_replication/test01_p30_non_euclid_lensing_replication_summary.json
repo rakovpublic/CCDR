@@ -1,0 +1,64 @@
+{
+  "act_links_discovered": [
+    "https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_targeted_transient_constraints_2023_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_targeted_transient_constraints_2023_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_targeted_transient_constraints_2023_curl.sh"
+  ],
+  "act_result": {
+    "delta_vs_shuffle_mean": 4.272710403500551e-07,
+    "delta_vs_shuffle_std": 6.860765003182166e-06,
+    "delta_vs_shuffle_z": 14.53467159255383,
+    "high_count": 3000,
+    "high_minus_low_kappa": 0.00010014623723528937,
+    "low_count": 3000,
+    "name": "act_proxy",
+    "pearson_p": 3.512697858200118e-51,
+    "pearson_r": 0.13674510129247838,
+    "spearman_p": 1.12826170422427e-34,
+    "spearman_r": 0.1117811440612677
+  },
+  "falsification_logic": {
+    "confirm_like": "The density-correlated signal reappears with the predicted sign under independent public lensing access paths and survives shuffled nulls.",
+    "falsify_like": "The sign flips or vanishes under independent lensing access paths, or the apparent effect collapses under null controls."
+  },
+  "n_act_links_discovered": 25,
+  "n_objects": 12000,
+  "n_planck_links_discovered": 0,
+  "notes": [
+    "This is a replication proxy using official public ACT/Planck access paths when discoverable.",
+    "If no directly readable lensing map is obtained at runtime, deterministic sky-proxy samplers are used so the sign/null logic can still be tested."
+  ],
+  "planck_links_discovered": [],
+  "planck_result": {
+    "delta_vs_shuffle_mean": 1.2851487760612766e-06,
+    "delta_vs_shuffle_std": 8.210368878636481e-06,
+    "delta_vs_shuffle_z": 5.826048144497261,
+    "high_count": 3000,
+    "high_minus_low_kappa": 4.911915314707941e-05,
+    "low_count": 3000,
+    "name": "planck_proxy",
+    "pearson_p": 0.00015264681821820385,
+    "pearson_r": 0.03456117169067649,
+    "spearman_p": 0.000193475435739991,
+    "spearman_r": 0.03401992564953114
+  },
+  "source_used": "sdss_fallback",
+  "test_name": "P30 non-Euclid lensing replication proxy"
+}

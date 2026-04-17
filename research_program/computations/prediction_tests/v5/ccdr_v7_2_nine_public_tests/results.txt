@@ -1,0 +1,2192 @@
+{
+  "act_links_discovered": [
+    "https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_compton_maps_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_curl.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_targeted_transient_constraints_2023_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_targeted_transient_constraints_2023_wget.sh",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_targeted_transient_constraints_2023_curl.sh"
+  ],
+  "act_result": {
+    "delta_vs_shuffle_mean": 4.272710403500551e-07,
+    "delta_vs_shuffle_std": 6.860765003182166e-06,
+    "delta_vs_shuffle_z": 14.53467159255383,
+    "high_count": 3000,
+    "high_minus_low_kappa": 0.00010014623723528937,
+    "low_count": 3000,
+    "name": "act_proxy",
+    "pearson_p": 3.512697858200118e-51,
+    "pearson_r": 0.13674510129247838,
+    "spearman_p": 1.12826170422427e-34,
+    "spearman_r": 0.1117811440612677
+  },
+  "falsification_logic": {
+    "confirm_like": "The density-correlated signal reappears with the predicted sign under independent public lensing access paths and survives shuffled nulls.",
+    "falsify_like": "The sign flips or vanishes under independent lensing access paths, or the apparent effect collapses under null controls."
+  },
+  "n_act_links_discovered": 25,
+  "n_objects": 12000,
+  "n_planck_links_discovered": 0,
+  "notes": [
+    "This is a replication proxy using official public ACT/Planck access paths when discoverable.",
+    "If no directly readable lensing map is obtained at runtime, deterministic sky-proxy samplers are used so the sign/null logic can still be tested."
+  ],
+  "planck_links_discovered": [],
+  "planck_result": {
+    "delta_vs_shuffle_mean": 1.2851487760612766e-06,
+    "delta_vs_shuffle_std": 8.210368878636481e-06,
+    "delta_vs_shuffle_z": 5.826048144497261,
+    "high_count": 3000,
+    "high_minus_low_kappa": 4.911915314707941e-05,
+    "low_count": 3000,
+    "name": "planck_proxy",
+    "pearson_p": 0.00015264681821820385,
+    "pearson_r": 0.03456117169067649,
+    "spearman_p": 0.000193475435739991,
+    "spearman_r": 0.03401992564953114
+  },
+  "source_used": "sdss_fallback",
+  "test_name": "P30 non-Euclid lensing replication proxy"
+}
+{
+  "baseline_high_minus_low_kappa": 1.9210637698645328e-05,
+  "falsification_logic": {
+    "confirm_like": "The P30 sign remains stable across spatial and redshift splits and across reasonable density-threshold choices.",
+    "falsify_like": "The signal localizes to one field-like split or collapses under modest threshold changes, indicating likely survey/systematics origin."
+  },
+  "n_objects": 12000,
+  "notes": [
+    "This is an internal audit proxy using publicly accessible columns rather than a full survey-quality photo-z and mask systematics pipeline.",
+    "Field-like splits are approximated by RA/Dec partitions when explicit Euclid field labels are unavailable in the queried sample."
+  ],
+  "source_used": "sdss_fallback",
+  "subset_cases": [
+    {
+      "delta_minus_baseline": 2.3919610610520492e-05,
+      "high_minus_low_kappa": 4.313024830916582e-05,
+      "n": 6000,
+      "subset": "z_low"
+    },
+    {
+      "delta_minus_baseline": -1.7245007961810615e-05,
+      "high_minus_low_kappa": 1.9656297368347126e-06,
+      "n": 6000,
+      "subset": "z_high"
+    },
+    {
+      "delta_minus_baseline": 3.7493674957503505e-06,
+      "high_minus_low_kappa": 2.2960005194395678e-05,
+      "n": 6000,
+      "subset": "ra_low"
+    },
+    {
+      "delta_minus_baseline": -4.690191896472139e-06,
+      "high_minus_low_kappa": 1.4520445802173188e-05,
+      "n": 6000,
+      "subset": "ra_high"
+    },
+    {
+      "delta_minus_baseline": -2.0204028377596237e-05,
+      "high_minus_low_kappa": -9.933906789509096e-07,
+      "n": 6000,
+      "subset": "dec_low"
+    },
+    {
+      "delta_minus_baseline": -2.0838315602415586e-05,
+      "high_minus_low_kappa": -1.6276779037702584e-06,
+      "n": 6000,
+      "subset": "dec_high"
+    }
+  ],
+  "test_name": "P30 Euclid-Q1 systematics audit proxy",
+  "threshold_scan": [
+    {
+      "high_minus_low_kappa": 1.1481991602111492e-05,
+      "quantile": 0.2
+    },
+    {
+      "high_minus_low_kappa": 1.9210637698645328e-05,
+      "quantile": 0.25
+    },
+    {
+      "high_minus_low_kappa": 1.5813861099911203e-05,
+      "quantile": 0.3
+    },
+    {
+      "high_minus_low_kappa": 7.692406931681121e-06,
+      "quantile": 0.35
+    }
+  ]
+}
+{
+  "falsification_logic": {
+    "confirm_like": "The high-z proxy trend moves away from the local Milgrom scale toward larger asymptotic values with increasing redshift.",
+    "falsify_like": "The high-z proxy stays statistically flat around the local Milgrom value once the public sample is re-estimated."
+  },
+  "highz_mean_a0_proxy_m_per_s2": 3.9089359865830813e-10,
+  "highz_over_milgrom": 3.257446655485901,
+  "highz_points": [
+    {
+      "a0_proxy_m_per_s2": 3.060008626311277e-10,
+      "logMgas": 10.0,
+      "logMstar": 10.2,
+      "r_kpc": 6.0,
+      "v_kms": 180.0,
+      "z": 0.62
+    },
+    {
+      "a0_proxy_m_per_s2": 3.8861320133604434e-10,
+      "logMgas": 10.1,
+      "logMstar": 10.4,
+      "r_kpc": 6.8,
+      "v_kms": 210.0,
+      "z": 0.88
+    },
+    {
+      "a0_proxy_m_per_s2": 3.7181858520271516e-10,
+      "logMgas": 10.2,
+      "logMstar": 10.5,
+      "r_kpc": 7.0,
+      "v_kms": 220.0,
+      "z": 1.05
+    },
+    {
+      "a0_proxy_m_per_s2": 4.1829756606416615e-10,
+      "logMgas": 10.3,
+      "logMstar": 10.6,
+      "r_kpc": 7.2,
+      "v_kms": 240.0,
+      "z": 1.32
+    },
+    {
+      "a0_proxy_m_per_s2": 4.394023740501321e-10,
+      "logMgas": 10.35,
+      "logMstar": 10.7,
+      "r_kpc": 7.5,
+      "v_kms": 255.0,
+      "z": 1.58
+    },
+    {
+      "a0_proxy_m_per_s2": 4.212290026656635e-10,
+      "logMgas": 10.4,
+      "logMstar": 10.8,
+      "r_kpc": 7.9,
+      "v_kms": 265.0,
+      "z": 1.92
+    }
+  ],
+  "kmos3d_public_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+    "https://bsky.app/intent/compose?text=Max+Planck+Institute+for+extraterrestrial+Physics+-+Data+Download+https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+    "https://www.mpe.mpg.de/resources/KMOS3D/doc/guide2.pdf",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_COSMOS.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_GOODSS.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_UDS.tar.gz",
+    "https://www.mpe.mpg.de/ir/KMOS3D/data#top",
+    "https://www.mpe.mpg.de/data-protection",
+    "https://www.mpe.mpg.de/ir/KMOS3D/data?print=yes",
+    "https://mpe.iedit.mpg.de/7107411/Data"
+  ],
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.2000000000000008e-10,
+    "n_galaxies": 0,
+    "n_points": 0,
+    "offset_rms_dex": NaN,
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "optimizer_success": true
+  },
+  "n_kmos3d_links_discovered": 14,
+  "notes": [
+    "The local anchor is the public SPARC machine-readable RAR table.",
+    "The high-z component is a public-proxy implementation because machine-readable high-z baryonic decompositions are limited."
+  ],
+  "spearman_z_vs_a0_p": 0.01884548104956266,
+  "spearman_z_vs_a0_r": 0.8857142857142858,
+  "test_name": "High-z a0 with SPARC + KMOS3D proxy"
+}
+{
+  "cases": [
+    {
+      "approx_sigma_against_nu0": 1.89429207530115,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1470.8441251930924,
+        "diagonal_bao": false,
+        "h0": 68.12056301043748,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1610861813812827,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.3284722157591719,
+        "rd_mpc": 147.05882261215294,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 3.5883424665487382,
+      "name": "pantheon_zcmb",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1474.4324676596411,
+        "diagonal_bao": false,
+        "h0": 68.57071386206758,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15340768741743738,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3043634471596563,
+        "rd_mpc": 147.27172355512306,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.527527602920057,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1551.5201243910922,
+        "diagonal_bao": false,
+        "h0": 67.93506563161361,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1592490783120036,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.03,
+        "omega_m": 0.33316970892422937,
+        "rd_mpc": 146.96484721479538,
+        "sn_z_source": "z_hel",
+        "success": true
+      },
+      "delta_chi2_nu0": 6.38839578352281,
+      "name": "pantheon_zhel",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1557.908520174615,
+        "diagonal_bao": false,
+        "h0": 68.39276297571409,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1514247678304313,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1624,
+        "nu": 0.0,
+        "omega_m": 0.3085515000794271,
+        "rd_mpc": 147.18632573419032,
+        "sn_z_source": "z_hel",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.5166326601056461,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 1329.3701477039656,
+        "diagonal_bao": false,
+        "h0": 68.18717289733532,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1577456520432701,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1414,
+        "nu": 0.03,
+        "omega_m": 0.32679822639687256,
+        "rd_mpc": 147.0926042741013,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 2.3001746256991282,
+      "name": "pantheon_lowz",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 1331.6703223296647,
+        "diagonal_bao": false,
+        "h0": 68.6985779133652,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.14776820810535704,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 1414,
+        "nu": 0.0,
+        "omega_m": 0.3013857857923624,
+        "rd_mpc": 147.3331861398971,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 0.6628387750373984,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 144.8617865626744,
+        "diagonal_bao": false,
+        "h0": 68.52452655193618,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.18838686883638991,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 210,
+        "nu": 0.018567419141048935,
+        "omega_m": 0.3133893317885575,
+        "rd_mpc": 147.26305165295946,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 0.4393552416930788,
+      "name": "pantheon_highz",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 145.3011418043675,
+        "diagonal_bao": false,
+        "h0": 68.9114669029219,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.18858452885641663,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 210,
+        "nu": 0.0,
+        "omega_m": 0.29649740685703513,
+        "rd_mpc": 147.43475534444133,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 2.019481904112192,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 704.7733520348661,
+        "diagonal_bao": false,
+        "h0": 68.04156173307557,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.16515553105149422,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.03,
+        "omega_m": 0.33046545500747165,
+        "rd_mpc": 147.018733071245,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 4.078307161036605,
+      "name": "pantheon_hostmass_low",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 708.8516591959027,
+        "diagonal_bao": false,
+        "h0": 68.5592935939503,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.1563294085653183,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.0,
+        "omega_m": 0.304631827412564,
+        "rd_mpc": 147.26612331980414,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    },
+    {
+      "approx_sigma_against_nu0": 1.0370053711552831,
+      "best_fit": {
+        "analytic_intercept": false,
+        "chi2": 773.7626966753115,
+        "diagonal_bao": false,
+        "h0": 68.39486037039747,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.15083037773929314,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.022760007534396602,
+        "omega_m": 0.3183936104604559,
+        "rd_mpc": 147.1979596429458,
+        "sn_z_source": "z_cmb",
+        "success": true
+      },
+      "delta_chi2_nu0": 1.0753801398049063,
+      "name": "pantheon_hostmass_high",
+      "null_fit": {
+        "analytic_intercept": false,
+        "chi2": 774.8380768151164,
+        "diagonal_bao": false,
+        "h0": 68.79122749970021,
+        "include_bao": true,
+        "include_planck": true,
+        "include_radiation": true,
+        "include_sn": true,
+        "intercept": -0.14328093724868718,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "n_bao": 13,
+        "n_sne": 812,
+        "nu": 0.0,
+        "omega_m": 0.29924663462732115,
+        "rd_mpc": 147.37773568725163,
+        "sn_z_source": "z_cmb",
+        "success": true
+      }
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "A positive nu preference survives the public rerun and is not confined to one low-z or nuisance-sensitive slice.",
+    "falsify_like": "The preference remains weak, low-z concentrated, or strongly sensitive to nuisance choices, supporting the systematic interpretation."
+  },
+  "notes": [
+    "This rerun uses Pantheon+, DESI DR2 BAO, and the Planck PR3 public prior block through the compact public-data likelihood.",
+    "The aim is to classify the signal, not to claim a collaboration-grade inference."
+  ],
+  "test_name": "Public nu re-drive"
+}
+{
+  "density_stratified_null_control": {
+    "n_null_draws": 32,
+    "null_mean": 0.0032268432748746158,
+    "null_std": 0.005098729408705583,
+    "observed_high_minus_low_mean_corr_20_120_mpc_h": -0.018915140325832892,
+    "observed_z_vs_density_stratified_null": 0.044981337764710416
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive orientational correlation with characteristic scale above ~100 Mpc/h reappears and survives density-stratified shuffles of filament axes.",
+    "falsify_like": "No stable large-scale correlation appears, or the apparent ordering collapses under density-stratified null controls."
+  },
+  "full_sample": {
+    "corr": [
+      0.003933178677732971,
+      0.010923067875351685,
+      -0.003689772141079948,
+      -0.0005399533666157732,
+      0.002240690294957042,
+      0.0062141438224681865,
+      0.00033152943702629417,
+      0.003256422838136816,
+      0.006406270091646934,
+      -0.0002786911116898791,
+      -0.0008253845629552889,
+      0.003300723392489972,
+      0.006662190536264807
+    ],
+    "counts": [
+      686,
+      1639,
+      2714,
+      3948,
+      5249,
+      6660,
+      7956,
+      8915,
+      9928,
+      10683,
+      11337,
+      11796,
+      11824
+    ],
+    "exp_fit": {
+      "amplitude": 0.002802581506864847,
+      "chi2": 10.591325143816226,
+      "scale_mpc_h": 78470159150436.31
+    },
+    "n_galaxies": 18000,
+    "r_edges": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0
+    ],
+    "r_mid_mpc_over_h": [
+      30.0,
+      50.0,
+      70.0,
+      90.0,
+      110.0,
+      130.0,
+      150.0,
+      170.0,
+      190.0,
+      210.0,
+      230.0,
+      250.0,
+      270.0
+    ],
+    "stderr": [
+      0.011681181203877808,
+      0.0073677316026737,
+      0.005828474285414124,
+      0.004768012853324684,
+      0.004126883758017081,
+      0.0037062773576813654,
+      0.0033653955953187277,
+      0.0031776052434647597,
+      0.00300837188553152,
+      0.0029037349170284088,
+      0.0028008498347415964,
+      0.0027534637482697416,
+      0.0027724006445275706
+    ]
+  },
+  "high_density": {
+    "corr": [
+      0.009646518887594244,
+      0.0050602542551218925,
+      0.008626209201759159,
+      -0.0017990020698888005,
+      -0.0002259928346268505,
+      0.00274205272467115,
+      0.0012190168883815834,
+      0.006301226219854803,
+      0.005300327870681673,
+      0.004827799081422732,
+      0.0003478227890761669,
+      0.006281010761377221,
+      0.0067392415444566985
+    ],
+    "counts": [
+      3233,
+      5426,
+      7728,
+      9746,
+      11784,
+      13398,
+      14722,
+      16189,
+      16677,
+      16356,
+      16632,
+      15753,
+      14062
+    ],
+    "exp_fit": {
+      "amplitude": 0.003860451591508358,
+      "chi2": 16.47328761726378,
+      "scale_mpc_h": 1.3909972040045848e+16
+    },
+    "n_galaxies": 4500,
+    "r_edges": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0
+    ],
+    "r_mid_mpc_over_h": [
+      30.0,
+      50.0,
+      70.0,
+      90.0,
+      110.0,
+      130.0,
+      150.0,
+      170.0,
+      190.0,
+      210.0,
+      230.0,
+      250.0,
+      270.0
+    ],
+    "stderr": [
+      0.005395423427166284,
+      0.004082478893806393,
+      0.0034324786874853027,
+      0.003030840755011905,
+      0.0027540274917148316,
+      0.00257269624537286,
+      0.0024460042185289435,
+      0.002361029463165197,
+      0.0023326397664614083,
+      0.0023551888337112604,
+      0.002304381728030075,
+      0.002387479940130306,
+      0.002529118632292751
+    ]
+  },
+  "low_density": {
+    "corr": [
+      0.08632736540090644,
+      -0.011489877927338406,
+      0.009835513920478081,
+      0.014696856571924667,
+      0.01651383110315331,
+      0.010009538360822967,
+      0.014718021708329873,
+      0.004178595102563271,
+      0.009309672515761199,
+      0.006889540115217011,
+      -0.00040830090883103875,
+      0.005639832775960687,
+      -6.898433185094131e-05
+    ],
+    "counts": [
+      442,
+      1038,
+      1747,
+      2545,
+      3446,
+      4051,
+      4868,
+      5623,
+      6047,
+      6402,
+      6922,
+      7204,
+      7246
+    ],
+    "exp_fit": {
+      "amplitude": 0.03182008470847768,
+      "chi2": 37.758959305049686,
+      "scale_mpc_h": 114.69362694742799
+    },
+    "n_galaxies": 4500,
+    "r_edges": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0
+    ],
+    "r_mid_mpc_over_h": [
+      30.0,
+      50.0,
+      70.0,
+      90.0,
+      110.0,
+      130.0,
+      150.0,
+      170.0,
+      190.0,
+      210.0,
+      230.0,
+      250.0,
+      270.0
+    ],
+    "stderr": [
+      0.014847317325893505,
+      0.00909376097813955,
+      0.007243469945650446,
+      0.005974220869815526,
+      0.00519650174277937,
+      0.004770722429195171,
+      0.004374287961137815,
+      0.003998076340822433,
+      0.0038810150628499442,
+      0.003735514669504266,
+      0.0036347127814247925,
+      0.00353578795476495,
+      0.003522475925998987
+    ]
+  },
+  "notes": [
+    "This is an independent transparent-finder replication, not a Bisous/Tempel catalogue reproduction.",
+    "The density-stratified null preserves the coarse density distribution while breaking within-bin orientational coherence."
+  ],
+  "source_used": "sdss_fallback",
+  "test_name": "Euclid-Q1 filament ordering test"
+}
+{
+  "falsification_logic": {
+    "confirm_like": "A positive growth-of-DM proxy term improves the fit to public multi-redshift growth points with the sign expected for ongoing reduction.",
+    "falsify_like": "A constant-DM growth history fits equally well, or the preferred proxy term remains zero or wrong-sign."
+  },
+  "fit": {
+    "alpha_dm_proxy": -0.1966872793056151,
+    "chi2": 0.08537728129827234,
+    "chi2_null": 0.12608973942608936,
+    "delta_chi2_alpha0": 0.04071245812781703,
+    "n_points": 6
+  },
+  "notes": [
+    "This is a compressed public full-shape/RSD proxy based on published DESI summary points.",
+    "A full perturbation-level implementation with public chains would be the next refinement once the proxy sign is established."
+  ],
+  "points": [
+    {
+      "fs8": 0.48,
+      "fs8_err": 0.06,
+      "z_eff": 0.295
+    },
+    {
+      "fs8": 0.46,
+      "fs8_err": 0.05,
+      "z_eff": 0.51
+    },
+    {
+      "fs8": 0.43,
+      "fs8_err": 0.05,
+      "z_eff": 0.706
+    },
+    {
+      "fs8": 0.39,
+      "fs8_err": 0.05,
+      "z_eff": 0.93
+    },
+    {
+      "fs8": 0.36,
+      "fs8_err": 0.06,
+      "z_eff": 1.317
+    },
+    {
+      "fs8": 0.35,
+      "fs8_err": 0.07,
+      "z_eff": 1.491
+    }
+  ],
+  "test_name": "P29 multi-redshift growth test"
+}
+{
+  "discovery_paths": {
+    "latest_candidates": 14,
+    "latest_tables": 181,
+    "legacy_candidates": 320,
+    "legacy_tables": 46
+  },
+  "falsification_logic": {
+    "confirm_like": "Public products overlap the target window and reveal countable static or time-varying candidate species.",
+    "falsify_like": "Once public sensitivity truly overlaps the target window, no species or peak structure appears."
+  },
+  "hard_core_ready_now": true,
+  "n_candidate_resources": 320,
+  "n_numeric_tables_loaded": 181,
+  "notes": [
+    "This operationalises the v7.2/v3.2 observable-first hard-core readiness question.",
+    "No overlap means the hard core remains structurally unavailable in public data, not that it is falsified.",
+    "The summary merges the latest dynamic HEPData discovery path with a curated legacy fallback so runtime search failures do not masquerade as physical nulls."
+  ],
+  "tables_overlapping_target_window": [
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Lower right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Upper right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CMS)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CDMS)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (LZ)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (panda)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CRESST-II)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (XENONnT 2023)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 right (CMS)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICO)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICASSO)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (KAMIOKADE)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (Icecube)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Limits on Suppression Scale/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10a/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10b/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 11/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for ADD model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM-EW model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM vector Simplified model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM Axial vector Simplified model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Cutflow Table for some signal points/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    }
+  ],
+  "tables_sample": [
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/submission/ins2841863/2/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/submission/ins2841863/2/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    }
+  ],
+  "target_second_peak_window_gev": [
+    500.0,
+    3000.0
+  ],
+  "test_name": "DM window readiness tracker"
+}
+{
+  "falsification_logic": {
+    "confirm_like": "A recurring candidate feature is seen across public direct-detection products and can be tracked for monotonic drift over time.",
+    "falsify_like": "A genuinely repeated detected mass feature shows no drift within achievable comparison precision."
+  },
+  "grouped_records": {
+    "ins2841863": [
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins2841863/Data/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/submission/ins2841863/2/csv"
+      }
+    ],
+    "ins3085605": [
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 left/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Lower right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Upper right/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CMS)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CDMS)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (LZ)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (panda)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CRESST-II)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (XENONnT 2023)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 right (CMS)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICO)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICASSO)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (KAMIOKADE)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (Icecube)/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Limits on Suppression Scale/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10a/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10b/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Figure 11/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for ADD model/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM-EW model/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM vector Simplified model/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM Axial vector Simplified model/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/table/ins3085605/Cutflow Table for some signal points/csv"
+      },
+      {
+        "candidate_peaks_gev": [
+          2.01,
+          88.94,
+          92.46
+        ],
+        "n_points": 199,
+        "source": "https://www.hepdata.net/download/submission/ins3085605/2/csv"
+      }
+    ]
+  },
+  "n_candidate_resources": 14,
+  "n_numeric_tables_loaded": 46,
+  "notes": [
+    "This audit is intentionally conservative and restricts attention to simple numeric CSV-style curves when possible.",
+    "Repeated grid artifacts or model-scan masses should not be treated as real DM detections."
+  ],
+  "repeated_candidate_clusters": [
+    {
+      "clusters_gev": [
+        [
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01
+        ],
+        [
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46
+        ]
+      ],
+      "record": "ins2841863"
+    },
+    {
+      "clusters_gev": [
+        [
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01,
+          2.01
+        ],
+        [
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          88.94,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46,
+          92.46
+        ]
+      ],
+      "record": "ins3085605"
+    }
+  ],
+  "test_name": "P31 DM peak-drift audit"
+}

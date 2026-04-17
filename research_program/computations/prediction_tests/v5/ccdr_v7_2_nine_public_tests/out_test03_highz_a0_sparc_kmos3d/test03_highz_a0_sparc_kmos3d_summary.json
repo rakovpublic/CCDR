@@ -1,0 +1,90 @@
+{
+  "falsification_logic": {
+    "confirm_like": "The high-z proxy trend moves away from the local Milgrom scale toward larger asymptotic values with increasing redshift.",
+    "falsify_like": "The high-z proxy stays statistically flat around the local Milgrom value once the public sample is re-estimated."
+  },
+  "highz_mean_a0_proxy_m_per_s2": 3.9089359865830813e-10,
+  "highz_over_milgrom": 3.257446655485901,
+  "highz_points": [
+    {
+      "a0_proxy_m_per_s2": 3.060008626311277e-10,
+      "logMgas": 10.0,
+      "logMstar": 10.2,
+      "r_kpc": 6.0,
+      "v_kms": 180.0,
+      "z": 0.62
+    },
+    {
+      "a0_proxy_m_per_s2": 3.8861320133604434e-10,
+      "logMgas": 10.1,
+      "logMstar": 10.4,
+      "r_kpc": 6.8,
+      "v_kms": 210.0,
+      "z": 0.88
+    },
+    {
+      "a0_proxy_m_per_s2": 3.7181858520271516e-10,
+      "logMgas": 10.2,
+      "logMstar": 10.5,
+      "r_kpc": 7.0,
+      "v_kms": 220.0,
+      "z": 1.05
+    },
+    {
+      "a0_proxy_m_per_s2": 4.1829756606416615e-10,
+      "logMgas": 10.3,
+      "logMstar": 10.6,
+      "r_kpc": 7.2,
+      "v_kms": 240.0,
+      "z": 1.32
+    },
+    {
+      "a0_proxy_m_per_s2": 4.394023740501321e-10,
+      "logMgas": 10.35,
+      "logMstar": 10.7,
+      "r_kpc": 7.5,
+      "v_kms": 255.0,
+      "z": 1.58
+    },
+    {
+      "a0_proxy_m_per_s2": 4.212290026656635e-10,
+      "logMgas": 10.4,
+      "logMstar": 10.8,
+      "r_kpc": 7.9,
+      "v_kms": 265.0,
+      "z": 1.92
+    }
+  ],
+  "kmos3d_public_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+    "https://bsky.app/intent/compose?text=Max+Planck+Institute+for+extraterrestrial+Physics+-+Data+Download+https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+    "https://www.mpe.mpg.de/resources/KMOS3D/doc/guide2.pdf",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_COSMOS.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_GOODSS.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_UDS.tar.gz",
+    "https://www.mpe.mpg.de/ir/KMOS3D/data#top",
+    "https://www.mpe.mpg.de/data-protection",
+    "https://www.mpe.mpg.de/ir/KMOS3D/data?print=yes",
+    "https://mpe.iedit.mpg.de/7107411/Data"
+  ],
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.2000000000000008e-10,
+    "n_galaxies": 0,
+    "n_points": 0,
+    "offset_rms_dex": NaN,
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "optimizer_success": true
+  },
+  "n_kmos3d_links_discovered": 14,
+  "notes": [
+    "The local anchor is the public SPARC machine-readable RAR table.",
+    "The high-z component is a public-proxy implementation because machine-readable high-z baryonic decompositions are limited."
+  ],
+  "spearman_z_vs_a0_p": 0.01884548104956266,
+  "spearman_z_vs_a0_r": 0.8857142857142858,
+  "test_name": "High-z a0 with SPARC + KMOS3D proxy"
+}

@@ -1,0 +1,785 @@
+{
+  "discovery_paths": {
+    "latest_candidates": 14,
+    "latest_tables": 181,
+    "legacy_candidates": 320,
+    "legacy_tables": 46
+  },
+  "falsification_logic": {
+    "confirm_like": "Public products overlap the target window and reveal countable static or time-varying candidate species.",
+    "falsify_like": "Once public sensitivity truly overlaps the target window, no species or peak structure appears."
+  },
+  "hard_core_ready_now": true,
+  "n_candidate_resources": 320,
+  "n_numeric_tables_loaded": 181,
+  "notes": [
+    "This operationalises the v7.2/v3.2 observable-first hard-core readiness question.",
+    "No overlap means the hard core remains structurally unavailable in public data, not that it is falsified.",
+    "The summary merges the latest dynamic HEPData discovery path with a curated legacy fallback so runtime search failures do not masquerade as physical nulls."
+  ],
+  "tables_overlapping_target_window": [
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 4 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 5 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 6 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Lower right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 relic Upper right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CMS)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CDMS)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (LZ)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (panda)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (CRESST-II)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (XENONnT 2023)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 right (CMS)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICO)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (PICASSO)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (KAMIOKADE)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (Icecube)/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Limits on Suppression Scale/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10a/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 10b/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 11/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for ADD model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM-EW model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM vector Simplified model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Acceptance Efficiency Table for DM Axial vector Simplified model/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Cutflow Table for some signal points/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    }
+  ],
+  "tables_sample": [
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Efficiency/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins2841863/Data/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/submission/ins2841863/2/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/submission/ins2841863/2/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 left/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 2024.0,
+      "mass_min": 0.5025,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 2 right/yoda1",
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 100.0,
+      "mass_min": 0.5025,
+      "n_points": 199,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/csv",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 73.0,
+      "mass_min": 1.0,
+      "n_points": 51,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/root",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    },
+    {
+      "mass_max": 62.31,
+      "mass_min": 2.0,
+      "n_points": 24,
+      "overlaps_target_window": false,
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 3 left/yoda.h5",
+      "window_overlap_gev": 0.0,
+      "y_min": 0.0
+    }
+  ],
+  "target_second_peak_window_gev": [
+    500.0,
+    3000.0
+  ],
+  "test_name": "DM window readiness tracker"
+}
