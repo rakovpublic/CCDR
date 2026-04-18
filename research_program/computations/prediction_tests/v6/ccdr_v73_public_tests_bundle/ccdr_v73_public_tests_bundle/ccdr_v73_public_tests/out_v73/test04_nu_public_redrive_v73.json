@@ -1,0 +1,118 @@
+{
+  "test_name": "Public nu re-drive v7.3",
+  "cases": [
+    {
+      "name": "pantheon_zcmb",
+      "best_fit": {
+        "nu": 0.03,
+        "chi2": 1470.8441251930924,
+        "h0": 68.12056301043748,
+        "omega_m": 0.3284722157591719,
+        "rd_mpc": 147.05882261215294,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 1474.4324676596411,
+        "h0": 68.57071386206758,
+        "omega_m": 0.3043634471596563,
+        "rd_mpc": 147.27172355512306,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 3.5883424665487382,
+      "approx_sigma_against_nu0": 1.89429207530115
+    },
+    {
+      "name": "pantheon_zhel",
+      "best_fit": {
+        "nu": 0.03,
+        "chi2": 1551.5201243910922,
+        "h0": 67.93506563161361,
+        "omega_m": 0.33316970892422937,
+        "rd_mpc": 146.96484721479538,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 1557.908520174615,
+        "h0": 68.39276297571409,
+        "omega_m": 0.3085515000794271,
+        "rd_mpc": 147.18632573419032,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 6.38839578352281,
+      "approx_sigma_against_nu0": 2.527527602920057
+    },
+    {
+      "name": "pantheon_lowz",
+      "best_fit": {
+        "nu": 0.03,
+        "chi2": 1329.3701477039656,
+        "h0": 68.18717289733532,
+        "omega_m": 0.32679822639687256,
+        "rd_mpc": 147.0926042741013,
+        "n_sne": 1414,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 1331.6703223296647,
+        "h0": 68.6985779133652,
+        "omega_m": 0.3013857857923624,
+        "rd_mpc": 147.3331861398971,
+        "n_sne": 1414,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 2.3001746256991282,
+      "approx_sigma_against_nu0": 1.5166326601056461
+    },
+    {
+      "name": "pantheon_highz",
+      "best_fit": {
+        "nu": 0.018567419141048935,
+        "chi2": 144.8617865626744,
+        "h0": 68.52452655193618,
+        "omega_m": 0.3133893317885575,
+        "rd_mpc": 147.26305165295946,
+        "n_sne": 210,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 145.3011418043675,
+        "h0": 68.9114669029219,
+        "omega_m": 0.29649740685703513,
+        "rd_mpc": 147.43475534444133,
+        "n_sne": 210,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 0.4393552416930788,
+      "approx_sigma_against_nu0": 0.6628387750373984
+    }
+  ],
+  "cl1_cl2_cl3_triangle": {
+    "nu_sn_bestfit": 0.03,
+    "nu_mond_sequence": 0.005075208107598882,
+    "nu_time_crystal_q_proxy": 0.001,
+    "max_pairwise_ratio": 30.0,
+    "sn_lowz_systematic_reinforced": true
+  },
+  "time_crystal_q_proxy": {
+    "q_proxy": 500.0,
+    "nu_from_time_crystal_q_proxy": 0.001,
+    "relation_used": "Q ~ 1/(2 nu)",
+    "status": "proxy-consistency leg, not an observational standalone measurement"
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive \u03bd preference survives the public re-drive and agrees, at least in band, with the MOND-sequence and time-crystal consistency legs.",
+    "falsify_like": "The preference remains weak, low-z concentrated, or strongly inconsistent with the MOND-sequence \u03bd, reinforcing the low-z SN systematic interpretation."
+  },
+  "notes": [
+    "This remains a compact public-data classification tool. It does not claim a collaboration-grade Pantheon+/DESI/Planck inference.",
+    "New in v7.3: the output triangulates \u03bd_SN, \u03bd_MOND, and a time-crystal Q consistency leg. The Q leg is explicitly labeled as proxy-level rather than standalone observational evidence."
+  ]
+}

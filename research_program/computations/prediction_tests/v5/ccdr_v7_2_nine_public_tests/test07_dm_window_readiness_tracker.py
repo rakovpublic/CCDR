@@ -3,7 +3,7 @@
 from __future__ import annotations
 import argparse, json
 from pathlib import Path
-from _common_public_data import inspect_direct_detection_resources_latest, inspect_direct_detection_resources, save_json
+from _common_public_data import inspect_direct_detection_resources_latest, save_json
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -12,31 +12,7 @@ def main() -> None:
     ap.add_argument('--window-max-gev', type=float, default=3000.0)
     args = ap.parse_args()
     args.outdir.mkdir(parents=True, exist_ok=True)
-    info_latest = inspect_direct_detection_resources_latest()
-    try:
-        info_legacy = inspect_direct_detection_resources()
-    except Exception:
-        info_legacy = {'n_candidate_resources': 0, 'numeric_tables': []}
-
-    merged_rows = []
-    seen_sources = set()
-    for src in (info_latest.get('numeric_tables', []) or []) + (info_legacy.get('numeric_tables', []) or []):
-        s = str(src.get('source', ''))
-        if s and s not in seen_sources:
-            merged_rows.append(src)
-            seen_sources.add(s)
-
-    info = {
-        'n_candidate_resources': max(int(info_latest.get('n_candidate_resources', 0) or 0), int(info_legacy.get('n_candidate_resources', 0) or 0)),
-        'numeric_tables': merged_rows,
-        'discovery_paths': {
-            'latest_candidates': int(info_latest.get('n_candidate_resources', 0) or 0),
-            'legacy_candidates': int(info_legacy.get('n_candidate_resources', 0) or 0),
-            'latest_tables': len(info_latest.get('numeric_tables', []) or []),
-            'legacy_tables': len(info_legacy.get('numeric_tables', []) or []),
-        }
-    }
-
+    info = inspect_direct_detection_resources_latest()
     tables = []
     overlap = []
     for row in info['numeric_tables']:
@@ -59,11 +35,9 @@ def main() -> None:
             'confirm_like': 'Public products overlap the target window and reveal countable static or time-varying candidate species.',
             'falsify_like': 'Once public sensitivity truly overlaps the target window, no species or peak structure appears.',
         },
-        'discovery_paths': info.get('discovery_paths', {}),
         'notes': [
             'This operationalises the v7.2/v3.2 observable-first hard-core readiness question.',
             'No overlap means the hard core remains structurally unavailable in public data, not that it is falsified.',
-            'The summary merges the latest dynamic HEPData discovery path with a curated legacy fallback so runtime search failures do not masquerade as physical nulls.',
         ],
     }
     save_json(args.outdir / 'test07_dm_window_readiness_tracker_summary.json', summary)

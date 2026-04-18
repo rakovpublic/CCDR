@@ -1,0 +1,42 @@
+{
+  "test_name": "P36 MOND-sequence nu extractor",
+  "local_anchor_source": "sparc_embedded_rar_proxy",
+  "highz_source": "kmos3d_public_proxy",
+  "highz_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+  ],
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.18561872909699e-10,
+    "n_galaxies": 8,
+    "n_points": 80,
+    "offset_rms_dex": 0.046756054419038545,
+    "optimizer_success": true,
+    "optimizer_message": "grid-search completed"
+  },
+  "highz_mean_a0_m_per_s2": 3.9089359865830813e-10,
+  "asymptotic_cH0_m_per_s2": 7.2e-10,
+  "mond_sequence_result": {
+    "nu_mond_sequence": 0.005075208107598882,
+    "local_a0_m_per_s2": 1.18561872909699e-10,
+    "highz_a0_m_per_s2": 3.9089359865830813e-10,
+    "asymptotic_cH0_m_per_s2": 7.2e-10,
+    "fraction_of_asymptotic_gap_closed": 0.45280090084432034,
+    "model": "nu = 1e-3 + 9e-3 * closed_gap_fraction",
+    "z_eff_used": 1.2283333333333333,
+    "status": "screening-level calibrated extractor"
+  },
+  "sn_reference_band": {
+    "nu_min": 0.001,
+    "nu_max": 0.01
+  },
+  "falsification_logic": {
+    "confirm_like": "The three-point a0(z) sequence yields a \u03bd_MOND in the same broad band as the framework\u2019s preferred lower-end \u03bd, supporting CL1.",
+    "falsify_like": "The three-point sequence forces \u03bd_MOND far outside the SN/\u03ba-motivated band, weakening the v7.3 cross-framework bridge."
+  },
+  "notes": [
+    "This is the new immediate-execution v7.3 / v3.3 test called out as P36 and CL1.",
+    "The mapping from a0(z) to \u03bd is a screening-level parametric extractor, not yet a first-principles derivation."
+  ]
+}

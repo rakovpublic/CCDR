@@ -1,0 +1,168 @@
+{
+  "test_name": "Hard-core window readiness v7.3",
+  "target_second_peak_window_gev": [
+    500.0,
+    3000.0
+  ],
+  "n_candidate_resources": 6,
+  "n_numeric_tables_loaded": 6,
+  "tables_overlapping_target_window": [
+    {
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (XENONnT 2023)/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    }
+  ],
+  "operational_window_overlap_now": true,
+  "peak_count_ready_now": false,
+  "expected_n_peaks_examples": [
+    {
+      "rho": 0.3,
+      "N": 6,
+      "E_n_peaks": 1.3
+    },
+    {
+      "rho": 0.3,
+      "N": 7,
+      "E_n_peaks": 1.39
+    },
+    {
+      "rho": 0.3,
+      "N": 8,
+      "E_n_peaks": 1.417
+    },
+    {
+      "rho": 0.3,
+      "N": 9,
+      "E_n_peaks": 1.4251
+    },
+    {
+      "rho": 0.3,
+      "N": 10,
+      "E_n_peaks": 1.42753
+    },
+    {
+      "rho": 0.3,
+      "N": 11,
+      "E_n_peaks": 1.428259
+    },
+    {
+      "rho": 0.5,
+      "N": 6,
+      "E_n_peaks": 1.5
+    },
+    {
+      "rho": 0.5,
+      "N": 7,
+      "E_n_peaks": 1.75
+    },
+    {
+      "rho": 0.5,
+      "N": 8,
+      "E_n_peaks": 1.875
+    },
+    {
+      "rho": 0.5,
+      "N": 9,
+      "E_n_peaks": 1.9375
+    },
+    {
+      "rho": 0.5,
+      "N": 10,
+      "E_n_peaks": 1.96875
+    },
+    {
+      "rho": 0.5,
+      "N": 11,
+      "E_n_peaks": 1.984375
+    },
+    {
+      "rho": 0.7,
+      "N": 6,
+      "E_n_peaks": 1.7
+    },
+    {
+      "rho": 0.7,
+      "N": 7,
+      "E_n_peaks": 2.19
+    },
+    {
+      "rho": 0.7,
+      "N": 8,
+      "E_n_peaks": 2.533
+    },
+    {
+      "rho": 0.7,
+      "N": 9,
+      "E_n_peaks": 2.7731
+    },
+    {
+      "rho": 0.7,
+      "N": 10,
+      "E_n_peaks": 2.9411699999999996
+    },
+    {
+      "rho": 0.7,
+      "N": 11,
+      "E_n_peaks": 3.0588189999999997
+    }
+  ],
+  "heavy_peak_depletion_statement": "Under the v7.3 probability-weighted prior, missing heavy peaks are expected rather than automatically falsifying; the informative quantity is the skew of the observed peak distribution toward lighter masses.",
+  "falsification_logic": {
+    "confirm_like": "Public products overlap the target window and future event-level or peak-resolution analyses can be interpreted under the probability-weighted E[n_peaks] expectation rather than the old all-peaks-present assumption.",
+    "falsify_like": "Once genuinely peak-resolving public likelihoods overlap the target window, a null result below the probability-weighted lower bound or non-geometric ratios would damage the hard core."
+  },
+  "notes": [
+    "This reconciles the old \u201cwindow overlap\u201d audit with the v7.3 distinction between mere coverage and actual peak-resolution readiness.",
+    "Machine-readable limit curves touching 0.5\u20133 TeV do not by themselves mean the hard core has fired."
+  ]
+}

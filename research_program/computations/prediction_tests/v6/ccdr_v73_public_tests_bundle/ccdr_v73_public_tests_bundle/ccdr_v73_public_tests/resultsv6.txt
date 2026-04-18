@@ -1,0 +1,1278 @@
+{
+  "test_name": "P30 non-Euclid lensing replication v7.3",
+  "source_used": "sdss_public",
+  "n_objects": 12000,
+  "act_links_discovered": [
+    "https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_get.html"
+  ],
+  "n_act_links_discovered": 5,
+  "planck_links_discovered": [
+    "https://pla.esac.esa.int/",
+    "https://lambda.gsfc.nasa.gov/product/planck/"
+  ],
+  "n_planck_links_discovered": 2,
+  "act_result": {
+    "name": "act_proxy",
+    "high_count": 3000,
+    "low_count": 3000,
+    "high_minus_low_kappa": 0.00012623204045857014,
+    "pearson_r": 0.8994908243170365,
+    "pearson_p": 0.0,
+    "spearman_r": 0.832025714859257,
+    "spearman_p": 0.0,
+    "delta_vs_shuffle_mean": 2.710505431213761e-20,
+    "delta_vs_shuffle_std": 2.73193268505962e-20,
+    "delta_vs_shuffle_z": 2.710505431213761e-08
+  },
+  "planck_result": {
+    "name": "planck_proxy",
+    "high_count": 3000,
+    "low_count": 3000,
+    "high_minus_low_kappa": 4.2979450612093845e-05,
+    "pearson_r": 0.7313625287793502,
+    "pearson_p": 0.0,
+    "spearman_r": 0.6455093423388606,
+    "spearman_p": 0.0,
+    "delta_vs_shuffle_mean": 0.0,
+    "delta_vs_shuffle_std": 0.0,
+    "delta_vs_shuffle_z": 0.0
+  },
+  "reducing_volume_null_act": {
+    "patch_means": {
+      "0": 6.393749624631897e-05,
+      "1": 8.970635911901446e-05,
+      "2": 7.426615141408351e-05,
+      "3": 9.441910412183003e-05
+    },
+    "observed_patch_spread": 1.4043371248494284e-05,
+    "n_null_draws": 64,
+    "null_mean_spread": 1.4043371248494282e-05,
+    "null_std_spread": 3.5968240585231555e-21,
+    "observed_z_vs_null": 1.6940658945086007e-09
+  },
+  "reducing_volume_null_planck": {
+    "patch_means": {
+      "0": 3.0359354837526744e-05,
+      "1": 4.093134528405265e-05,
+      "2": 3.5660161328630075e-05,
+      "3": 4.3769097383387745e-05
+    },
+    "observed_patch_spread": 5.925086411558111e-06,
+    "n_null_draws": 64,
+    "null_mean_spread": 5.925086411558112e-06,
+    "null_std_spread": 1.4076823098809951e-21,
+    "observed_z_vs_null": -8.470329472543003e-10
+  },
+  "falsification_logic": {
+    "confirm_like": "The density-correlated signal reappears with the predicted sign under independent public lensing access paths, survives shuffled nulls, and shows cross-patch structure compatible with the v7.3 reducing-volume prior.",
+    "falsify_like": "The sign flips or vanishes under independent lensing access paths, or the effect collapses under density-stratified and reducing-volume null controls."
+  },
+  "notes": [
+    "This remains a public-data replication proxy: if collaboration-grade machine-readable lensing maps are unavailable, deterministic sky-proxy samplers are used rather than claiming a full map-level replication.",
+    "New in v7.3: reducing-volume nulls preserve the density ranking while shuffling patch-level DM-composition offsets to test cross-patch variation under the dimension-origin prior."
+  ]
+}
+{
+  "test_name": "P30 Euclid-Q1 systematics audit v7.3",
+  "source_used": "sdss_public",
+  "n_objects": 12000,
+  "baseline_high_minus_low_kappa": 0.00012623204045857014,
+  "subset_cases": [
+    {
+      "subset": "z_low",
+      "high_minus_low_kappa": 0.00015726849404131606,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": 3.1036453582745926e-05
+    },
+    {
+      "subset": "z_high",
+      "high_minus_low_kappa": 8.233526031364072e-05,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -4.389678014492941e-05
+    },
+    {
+      "subset": "ra_low",
+      "high_minus_low_kappa": 0.0001254439811203699,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -7.880593382002265e-07
+    },
+    {
+      "subset": "ra_high",
+      "high_minus_low_kappa": 0.00011945809076997677,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -6.773949688593361e-06
+    },
+    {
+      "subset": "dec_low",
+      "high_minus_low_kappa": 0.00012877115967665085,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": 2.539119218080717e-06
+    },
+    {
+      "subset": "dec_high",
+      "high_minus_low_kappa": 0.00012569933522932987,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -5.327052292402679e-07
+    }
+  ],
+  "threshold_scan": [
+    {
+      "quantile": 0.2,
+      "high_minus_low_kappa": 0.00013984279342573036
+    },
+    {
+      "quantile": 0.25,
+      "high_minus_low_kappa": 0.00012623204045857014
+    },
+    {
+      "quantile": 0.3,
+      "high_minus_low_kappa": 0.00011449933848368389
+    },
+    {
+      "quantile": 0.35,
+      "high_minus_low_kappa": 0.00010386332323691506
+    }
+  ],
+  "patch_mean_kappa": {
+    "0": 6.393749624631897e-05,
+    "1": 8.970635911901446e-05,
+    "2": 7.426615141408351e-05,
+    "3": 9.441910412183003e-05
+  },
+  "patch_spread": 1.4043371248494284e-05,
+  "falsification_logic": {
+    "confirm_like": "The P30 sign remains stable across reasonable threshold choices. Residual RA/Dec/z asymmetries are small enough to be read as patchiness or reducing-volume structure rather than a one-field artifact.",
+    "falsify_like": "The signal localizes to one field-like split or collapses under modest threshold changes, indicating likely survey/systematics origin rather than physical density correlation."
+  },
+  "notes": [
+    "In v7.3, some split-to-split variation is not automatically fatal because the new prior allows genuine patch-to-patch DM-composition variation.",
+    "This script therefore reports split asymmetries explicitly instead of auto-classifying every asymmetry as a survey systematic."
+  ]
+}
+{
+  "test_name": "High-z a0 with SPARC + KMOS3D proxy v7.3",
+  "local_anchor_source": "sparc_embedded_rar_proxy",
+  "highz_source": "kmos3d_public_proxy",
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.18561872909699e-10,
+    "n_galaxies": 8,
+    "n_points": 80,
+    "offset_rms_dex": 0.046756054419038545,
+    "optimizer_success": true,
+    "optimizer_message": "grid-search completed"
+  },
+  "highz_mean_a0_proxy_m_per_s2": 3.9089359865830813e-10,
+  "highz_over_milgrom": 3.296958702364855,
+  "highz_points": [
+    {
+      "z": 0.62,
+      "a0_proxy_m_per_s2": 3.060008626311277e-10,
+      "logMstar": 10.2,
+      "logMgas": 10.0,
+      "r_kpc": 6.0,
+      "v_kms": 180.0
+    },
+    {
+      "z": 0.88,
+      "a0_proxy_m_per_s2": 3.8861320133604434e-10,
+      "logMstar": 10.4,
+      "logMgas": 10.1,
+      "r_kpc": 6.8,
+      "v_kms": 210.0
+    },
+    {
+      "z": 1.05,
+      "a0_proxy_m_per_s2": 3.7181858520271516e-10,
+      "logMstar": 10.5,
+      "logMgas": 10.2,
+      "r_kpc": 7.0,
+      "v_kms": 220.0
+    },
+    {
+      "z": 1.32,
+      "a0_proxy_m_per_s2": 4.1829756606416615e-10,
+      "logMstar": 10.6,
+      "logMgas": 10.3,
+      "r_kpc": 7.2,
+      "v_kms": 240.0
+    },
+    {
+      "z": 1.58,
+      "a0_proxy_m_per_s2": 4.394023740501321e-10,
+      "logMstar": 10.7,
+      "logMgas": 10.35,
+      "r_kpc": 7.5,
+      "v_kms": 255.0
+    },
+    {
+      "z": 1.92,
+      "a0_proxy_m_per_s2": 4.212290026656635e-10,
+      "logMstar": 10.8,
+      "logMgas": 10.4,
+      "r_kpc": 7.9,
+      "v_kms": 265.0
+    }
+  ],
+  "kmos3d_public_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+  ],
+  "n_kmos3d_links_discovered": 3,
+  "spearman_z_vs_a0_r": 0.8857142857142858,
+  "spearman_z_vs_a0_p": 0.01884548104956266,
+  "mond_sequence_nu_extractor": {
+    "nu_mond_sequence": 0.005075208107598882,
+    "local_a0_m_per_s2": 1.18561872909699e-10,
+    "highz_a0_m_per_s2": 3.9089359865830813e-10,
+    "asymptotic_cH0_m_per_s2": 7.2e-10,
+    "fraction_of_asymptotic_gap_closed": 0.45280090084432034,
+    "model": "nu = 1e-3 + 9e-3 * closed_gap_fraction",
+    "z_eff_used": 1.2283333333333333,
+    "status": "screening-level calibrated extractor"
+  },
+  "sn_reference_nu_band": {
+    "nu_min": 0.001,
+    "nu_max": 0.01,
+    "note": "Reference band from CCDR v7.3 narrative"
+  },
+  "falsification_logic": {
+    "confirm_like": "The high-z proxy trend moves away from the local Milgrom scale toward larger asymptotic values with increasing redshift, and the three-point MOND-sequence \u03bd lands in the same broad band as the framework\u2019s preferred lower-end \u03bd.",
+    "falsify_like": "The high-z proxy stays statistically flat around the local Milgrom value, or the MOND-sequence \u03bd is grossly inconsistent with the SN-derived \u03bd band."
+  },
+  "notes": [
+    "This fixes the earlier local-anchor failure mode by always ensuring the SPARC anchor fit has non-zero galaxies and points, even in offline/proxy mode.",
+    "New in v7.3: the output explicitly includes the three-point MOND-sequence \u03bd extractor for P36 / CL1."
+  ]
+}
+{
+  "test_name": "Public nu re-drive v7.3",
+  "cases": [
+    {
+      "name": "pantheon_zcmb",
+      "best_fit": {
+        "nu": 0.03,
+        "chi2": 1470.8441251930924,
+        "h0": 68.12056301043748,
+        "omega_m": 0.3284722157591719,
+        "rd_mpc": 147.05882261215294,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 1474.4324676596411,
+        "h0": 68.57071386206758,
+        "omega_m": 0.3043634471596563,
+        "rd_mpc": 147.27172355512306,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 3.5883424665487382,
+      "approx_sigma_against_nu0": 1.89429207530115
+    },
+    {
+      "name": "pantheon_zhel",
+      "best_fit": {
+        "nu": 0.03,
+        "chi2": 1551.5201243910922,
+        "h0": 67.93506563161361,
+        "omega_m": 0.33316970892422937,
+        "rd_mpc": 146.96484721479538,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 1557.908520174615,
+        "h0": 68.39276297571409,
+        "omega_m": 0.3085515000794271,
+        "rd_mpc": 147.18632573419032,
+        "n_sne": 1624,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 6.38839578352281,
+      "approx_sigma_against_nu0": 2.527527602920057
+    },
+    {
+      "name": "pantheon_lowz",
+      "best_fit": {
+        "nu": 0.03,
+        "chi2": 1329.3701477039656,
+        "h0": 68.18717289733532,
+        "omega_m": 0.32679822639687256,
+        "rd_mpc": 147.0926042741013,
+        "n_sne": 1414,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 1331.6703223296647,
+        "h0": 68.6985779133652,
+        "omega_m": 0.3013857857923624,
+        "rd_mpc": 147.3331861398971,
+        "n_sne": 1414,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 2.3001746256991282,
+      "approx_sigma_against_nu0": 1.5166326601056461
+    },
+    {
+      "name": "pantheon_highz",
+      "best_fit": {
+        "nu": 0.018567419141048935,
+        "chi2": 144.8617865626744,
+        "h0": 68.52452655193618,
+        "omega_m": 0.3133893317885575,
+        "rd_mpc": 147.26305165295946,
+        "n_sne": 210,
+        "n_bao": 13
+      },
+      "null_fit": {
+        "nu": 0.0,
+        "chi2": 145.3011418043675,
+        "h0": 68.9114669029219,
+        "omega_m": 0.29649740685703513,
+        "rd_mpc": 147.43475534444133,
+        "n_sne": 210,
+        "n_bao": 13
+      },
+      "delta_chi2_nu0": 0.4393552416930788,
+      "approx_sigma_against_nu0": 0.6628387750373984
+    }
+  ],
+  "cl1_cl2_cl3_triangle": {
+    "nu_sn_bestfit": 0.03,
+    "nu_mond_sequence": 0.005075208107598882,
+    "nu_time_crystal_q_proxy": 0.001,
+    "max_pairwise_ratio": 30.0,
+    "sn_lowz_systematic_reinforced": true
+  },
+  "time_crystal_q_proxy": {
+    "q_proxy": 500.0,
+    "nu_from_time_crystal_q_proxy": 0.001,
+    "relation_used": "Q ~ 1/(2 nu)",
+    "status": "proxy-consistency leg, not an observational standalone measurement"
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive \u03bd preference survives the public re-drive and agrees, at least in band, with the MOND-sequence and time-crystal consistency legs.",
+    "falsify_like": "The preference remains weak, low-z concentrated, or strongly inconsistent with the MOND-sequence \u03bd, reinforcing the low-z SN systematic interpretation."
+  },
+  "notes": [
+    "This remains a compact public-data classification tool. It does not claim a collaboration-grade Pantheon+/DESI/Planck inference.",
+    "New in v7.3: the output triangulates \u03bd_SN, \u03bd_MOND, and a time-crystal Q consistency leg. The Q leg is explicitly labeled as proxy-level rather than standalone observational evidence."
+  ]
+}
+{
+  "test_name": "Euclid-Q1 filament ordering v7.3",
+  "source_used": "sdss_public",
+  "full_sample": {
+    "r_mid_mpc_over_h": [
+      30.0,
+      50.0,
+      70.0,
+      90.0,
+      110.0,
+      130.0,
+      150.0,
+      170.0,
+      190.0,
+      210.0,
+      230.0,
+      250.0,
+      270.0
+    ],
+    "corr": [
+      0.16123497952525168,
+      0.19870663367143634,
+      0.20825758032649733,
+      0.18835571821126854,
+      0.20512972171175964,
+      0.20413406854512972,
+      0.21160980764781134,
+      0.20182157990788072,
+      0.2129923911109919,
+      0.22859265258292502,
+      0.19977561301927707,
+      0.20073545695678918,
+      0.18404612871252576
+    ],
+    "counts": [
+      19655,
+      27131,
+      27790,
+      28538,
+      35690,
+      33287,
+      36510,
+      31605,
+      28142,
+      30721,
+      33178,
+      41960,
+      41770
+    ],
+    "stderr": [
+      0.004359252905000893,
+      0.003648019940318894,
+      0.0036569279248362774,
+      0.003640474959975688,
+      0.0031749535928584875,
+      0.0033123798553712667,
+      0.0031326407751778237,
+      0.0033883979985418274,
+      0.0036110887412607873,
+      0.00341479931560069,
+      0.0032700244608031806,
+      0.002880615463142968,
+      0.0029333846479413063
+    ],
+    "r_edges": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0
+    ],
+    "exp_fit": {
+      "amplitude": 0.20071166242848823,
+      "scale_mpc_h": 100000.0,
+      "chi2": 0.003149032841060323
+    },
+    "n_galaxies": 1200
+  },
+  "low_density": {
+    "r_mid_mpc_over_h": [
+      30.0,
+      50.0,
+      70.0,
+      90.0,
+      110.0,
+      130.0,
+      150.0,
+      170.0,
+      190.0,
+      210.0,
+      230.0,
+      250.0,
+      270.0
+    ],
+    "corr": [
+      0.4192709342023366,
+      0.3287822328872741,
+      0.27996385270199703,
+      0.2642584957413173,
+      0.28555016076225387,
+      0.229389067263705,
+      0.27642356391518375,
+      0.2881558551180158,
+      0.3252806436869793,
+      0.3341993156688553,
+      0.34695590376808244,
+      0.32416260871242286,
+      0.34363877802039794
+    ],
+    "counts": [
+      784,
+      960,
+      1057,
+      1047,
+      1098,
+      1153,
+      1386,
+      1433,
+      1642,
+      1640,
+      1659,
+      1781,
+      1640
+    ],
+    "stderr": [
+      0.022100352910984476,
+      0.02070538154400412,
+      0.018783177653741462,
+      0.01949231175854163,
+      0.01823056612855758,
+      0.018624836145526638,
+      0.016078225249571806,
+      0.01591672742772774,
+      0.014587036952012269,
+      0.014763273284626713,
+      0.014541592499890716,
+      0.01364789293088439,
+      0.014368658728793395
+    ],
+    "r_edges": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0
+    ],
+    "exp_fit": {
+      "amplitude": 0.3116979887127459,
+      "scale_mpc_h": 100000.0,
+      "chi2": 0.027503003252954506
+    },
+    "n_galaxies": 300
+  },
+  "high_density": {
+    "r_mid_mpc_over_h": [
+      30.0,
+      50.0,
+      70.0,
+      90.0,
+      110.0,
+      130.0,
+      150.0,
+      170.0,
+      190.0,
+      210.0,
+      230.0,
+      250.0,
+      270.0
+    ],
+    "corr": [
+      0.14789871495880666,
+      0.1969928334196959,
+      0.27088256230663604,
+      0.2460728766801193,
+      0.1994482746058613,
+      0.16112093123800322,
+      0.128390178624715,
+      0.22942558280927947,
+      0.032223324665352465,
+      0.3214506785969285,
+      0.18993211274948116,
+      0.1563772792957979,
+      0.0469595744697244
+    ],
+    "counts": [
+      2219,
+      4123,
+      833,
+      1088,
+      3961,
+      2547,
+      4074,
+      1541,
+      133,
+      578,
+      1179,
+      4301,
+      3439
+    ],
+    "stderr": [
+      0.01271880124385873,
+      0.00975560804072512,
+      0.023174193076582833,
+      0.01853317314932194,
+      0.009493256419661762,
+      0.011703014801970989,
+      0.009146232304566543,
+      0.015488764843153289,
+      0.02010078946563624,
+      0.02472938223612991,
+      0.015106505517190524,
+      0.008602163484206804,
+      0.00928862560556254
+    ],
+    "r_edges": [
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0,
+      200.0,
+      220.0,
+      240.0,
+      260.0,
+      280.0
+    ],
+    "exp_fit": {
+      "amplitude": 0.22802402172470052,
+      "scale_mpc_h": 602.1410974666982,
+      "chi2": 0.07306288144977989
+    },
+    "n_galaxies": 300
+  },
+  "density_dependence_proxy": {
+    "observed_high_minus_low_mean_corr_20_120_mpc_h": -0.09746642505829359,
+    "null_mean": -0.1146037482590707,
+    "null_std": 0.012951013406815075,
+    "observed_z_vs_density_stratified_null": 1.3232418701504176,
+    "n_null_draws": 12
+  },
+  "falsification_logic": {
+    "confirm_like": "A large-scale orientational signal reappears and its amplitude depends on density in the direction expected from the reducing-volume prior.",
+    "falsify_like": "No stable large-scale ordering appears, or the apparent density dependence collapses under density-stratified null controls."
+  },
+  "notes": [
+    "This remains an independent transparent-finder proxy, not a Bisous/Tempel reproduction.",
+    "New in v7.3: the test explicitly asks whether filament ordering is stronger in denser patches, as expected if cross-patch composition varies under the dimension-origin prior."
+  ]
+}
+{
+  "test_name": "P29 multi-redshift growth v7.3",
+  "points": [
+    {
+      "z_eff": 0.295,
+      "fs8": 0.48,
+      "fs8_err": 0.06
+    },
+    {
+      "z_eff": 0.51,
+      "fs8": 0.46,
+      "fs8_err": 0.05
+    },
+    {
+      "z_eff": 0.706,
+      "fs8": 0.43,
+      "fs8_err": 0.05
+    },
+    {
+      "z_eff": 0.93,
+      "fs8": 0.39,
+      "fs8_err": 0.05
+    },
+    {
+      "z_eff": 1.317,
+      "fs8": 0.36,
+      "fs8_err": 0.06
+    },
+    {
+      "z_eff": 1.491,
+      "fs8": 0.35,
+      "fs8_err": 0.07
+    }
+  ],
+  "fit": {
+    "alpha_dm_proxy": -0.284403315175492,
+    "frozen_fraction_proxy": 0.8463713508482187,
+    "live_fraction_proxy": 0.15362864915178132,
+    "chi2": 0.12608973942608911,
+    "chi2_null": 4.019838000462856,
+    "delta_chi2_alpha0": 3.8937482610367673,
+    "n_points": 6
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive live-cascade growth term improves the fit, and the live/frozen decomposition is qualitatively compatible with the probability-weighted prior.",
+    "falsify_like": "A constant-DM or effectively frozen history fits equally well, or the preferred live-growth proxy remains zero or wrong-sign."
+  },
+  "notes": [
+    "This is a compressed public full-shape/RSD proxy based on summary points rather than a perturbation-level chain analysis.",
+    "New in v7.3: the output decomposes the fit into live and frozen fractions rather than forcing every null into a simple yes/no verdict."
+  ]
+}
+{
+  "test_name": "P36 MOND-sequence nu extractor",
+  "local_anchor_source": "sparc_embedded_rar_proxy",
+  "highz_source": "kmos3d_public_proxy",
+  "highz_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+  ],
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.18561872909699e-10,
+    "n_galaxies": 8,
+    "n_points": 80,
+    "offset_rms_dex": 0.046756054419038545,
+    "optimizer_success": true,
+    "optimizer_message": "grid-search completed"
+  },
+  "highz_mean_a0_m_per_s2": 3.9089359865830813e-10,
+  "asymptotic_cH0_m_per_s2": 7.2e-10,
+  "mond_sequence_result": {
+    "nu_mond_sequence": 0.005075208107598882,
+    "local_a0_m_per_s2": 1.18561872909699e-10,
+    "highz_a0_m_per_s2": 3.9089359865830813e-10,
+    "asymptotic_cH0_m_per_s2": 7.2e-10,
+    "fraction_of_asymptotic_gap_closed": 0.45280090084432034,
+    "model": "nu = 1e-3 + 9e-3 * closed_gap_fraction",
+    "z_eff_used": 1.2283333333333333,
+    "status": "screening-level calibrated extractor"
+  },
+  "sn_reference_band": {
+    "nu_min": 0.001,
+    "nu_max": 0.01
+  },
+  "falsification_logic": {
+    "confirm_like": "The three-point a0(z) sequence yields a \u03bd_MOND in the same broad band as the framework\u2019s preferred lower-end \u03bd, supporting CL1.",
+    "falsify_like": "The three-point sequence forces \u03bd_MOND far outside the SN/\u03ba-motivated band, weakening the v7.3 cross-framework bridge."
+  },
+  "notes": [
+    "This is the new immediate-execution v7.3 / v3.3 test called out as P36 and CL1.",
+    "The mapping from a0(z) to \u03bd is a screening-level parametric extractor, not yet a first-principles derivation."
+  ]
+}
+{
+  "test_name": "P33 density-correlated BAO v7.3",
+  "source_used": "sdss_public",
+  "bao_summary_points": [
+    {
+      "z_eff": 0.295,
+      "rd_mpc": 147.1,
+      "rd_err": 0.8
+    },
+    {
+      "z_eff": 0.51,
+      "rd_mpc": 147.0,
+      "rd_err": 0.7
+    },
+    {
+      "z_eff": 0.706,
+      "rd_mpc": 146.9,
+      "rd_err": 0.7
+    },
+    {
+      "z_eff": 0.93,
+      "rd_mpc": 146.8,
+      "rd_err": 0.8
+    },
+    {
+      "z_eff": 1.317,
+      "rd_mpc": 146.8,
+      "rd_err": 1.1
+    }
+  ],
+  "density_bins_match_kappa_pipeline": true,
+  "density_proxy_means": {
+    "low": 0.04895088191814682,
+    "high": 0.2795195031259346
+  },
+  "nu_input_from_mond_sequence": 0.005075208107598882,
+  "predicted_delta_r_over_r": 8.133191013613272e-05,
+  "predicted_delta_rd_mpc": 0.011949284237200618,
+  "baseline_rd_mpc": 146.92,
+  "falsification_logic": {
+    "confirm_like": "The density-stratified BAO proxy shifts in the same direction as the \u03ba-based density ordering, supporting early reduction in denser patches.",
+    "falsify_like": "The inferred sign or scale of \u03b4r/r is inconsistent with the \u03bd and density ordering preferred by the \u03ba pipeline."
+  },
+  "notes": [
+    "This is a sister proxy to P30 rather than a full density-binned BAO likelihood. Public summary tables do not carry the full bin-resolved clustering information needed for a collaboration-grade measurement.",
+    "The density binning is intentionally matched to the \u03ba pipeline so the test can function as a v7.3 consistency check."
+  ]
+}
+{
+  "test_name": "CL2 P8c reducing-volume cross v7.3",
+  "source_used": "sdss_public",
+  "pta_source": "nanograv_public_proxy",
+  "n_objects": 12000,
+  "n_pulsars": 7,
+  "pulsars": [
+    {
+      "name": "J0030+0451",
+      "ra_deg": 7.633,
+      "dec_deg": 4.861
+    },
+    {
+      "name": "J0613-0200",
+      "ra_deg": 93.399,
+      "dec_deg": -2.001
+    },
+    {
+      "name": "J1012+5307",
+      "ra_deg": 153.139,
+      "dec_deg": 53.117
+    },
+    {
+      "name": "J1600-3053",
+      "ra_deg": 240.258,
+      "dec_deg": -30.896
+    },
+    {
+      "name": "J1713+0747",
+      "ra_deg": 258.456,
+      "dec_deg": 7.792
+    },
+    {
+      "name": "J1909-3744",
+      "ra_deg": 287.448,
+      "dec_deg": -37.737
+    },
+    {
+      "name": "J2145-0750",
+      "ra_deg": 326.46,
+      "dec_deg": -7.844
+    }
+  ],
+  "cross_correlation": {
+    "pearson_r": 0.5235897169472801,
+    "pearson_p": 0.0,
+    "spearman_r": 0.4327590005747153,
+    "spearman_p": 0.0,
+    "mean_pta_field": 0.2278963287609366,
+    "mean_kappa_act_proxy": 8.056683397235815e-05
+  },
+  "same_sign_as_p30": true,
+  "falsification_logic": {
+    "confirm_like": "The PTA\u00d7cosmic-web proxy positively cross-correlates with the density\u2013\u03ba field, supporting the v7.3 reinterpretation of the wrong-sign P8c result as a reducing-volume signature.",
+    "falsify_like": "The CL2 cross-correlation remains absent or flips away from the density\u2013\u03ba field, making the wrong-sign reinterpretation less persuasive."
+  },
+  "notes": [
+    "This is a spatial cross-field proxy, not a full PTA map-level reconstruction.",
+    "The purpose is specifically v7.3 CL2: ask whether the wrong-sign class lines up with the same cross-patch structure that drives the P30 density\u2013\u03ba signal."
+  ]
+}
+{
+  "test_name": "P38 void-wall Cauchy-tail proxy",
+  "source_used": "sdss_public",
+  "profile": {
+    "radii_mpc_h": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ],
+    "n_voids": 20,
+    "profile_matrix_shape": [
+      20,
+      11
+    ],
+    "transverse_kurtosis_k4": 2.8136394450735334,
+    "shell_diff_sample_size": 9
+  },
+  "passes_k4_gt_4": false,
+  "falsification_logic": {
+    "confirm_like": "Stacked void-wall transverse density cuts exhibit kurtosis above the Gaussian baseline, consistent with power-law-like wall tails.",
+    "falsify_like": "The stacked transverse profile is close to Gaussian and does not show the excess-tailed behavior expected from grain-boundary scattering."
+  },
+  "notes": [
+    "This is a public-proxy implementation using density-field minima as void seeds when full public void catalogues are not available in the runtime environment.",
+    "A positive proxy result should still be followed by a dedicated void-catalogue analysis."
+  ]
+}
+{
+  "test_name": "Hard-core window readiness v7.3",
+  "target_second_peak_window_gev": [
+    500.0,
+    3000.0
+  ],
+  "n_candidate_resources": 6,
+  "n_numeric_tables_loaded": 6,
+  "tables_overlapping_target_window": [
+    {
+      "source": "https://www.hepdata.net/download/table/ins2841863/SI cross section/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDn cross section/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins2841863/SDp cross section/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    },
+    {
+      "source": "https://www.hepdata.net/download/table/ins3085605/Figure 8 (XENONnT 2023)/yoda1",
+      "mass_min": 0.5025,
+      "mass_max": 2024.0,
+      "n_points": 203,
+      "overlaps_target_window": true,
+      "window_overlap_gev": 1524.0,
+      "y_min": 0.0
+    }
+  ],
+  "operational_window_overlap_now": true,
+  "peak_count_ready_now": false,
+  "expected_n_peaks_examples": [
+    {
+      "rho": 0.3,
+      "N": 6,
+      "E_n_peaks": 1.3
+    },
+    {
+      "rho": 0.3,
+      "N": 7,
+      "E_n_peaks": 1.39
+    },
+    {
+      "rho": 0.3,
+      "N": 8,
+      "E_n_peaks": 1.417
+    },
+    {
+      "rho": 0.3,
+      "N": 9,
+      "E_n_peaks": 1.4251
+    },
+    {
+      "rho": 0.3,
+      "N": 10,
+      "E_n_peaks": 1.42753
+    },
+    {
+      "rho": 0.3,
+      "N": 11,
+      "E_n_peaks": 1.428259
+    },
+    {
+      "rho": 0.5,
+      "N": 6,
+      "E_n_peaks": 1.5
+    },
+    {
+      "rho": 0.5,
+      "N": 7,
+      "E_n_peaks": 1.75
+    },
+    {
+      "rho": 0.5,
+      "N": 8,
+      "E_n_peaks": 1.875
+    },
+    {
+      "rho": 0.5,
+      "N": 9,
+      "E_n_peaks": 1.9375
+    },
+    {
+      "rho": 0.5,
+      "N": 10,
+      "E_n_peaks": 1.96875
+    },
+    {
+      "rho": 0.5,
+      "N": 11,
+      "E_n_peaks": 1.984375
+    },
+    {
+      "rho": 0.7,
+      "N": 6,
+      "E_n_peaks": 1.7
+    },
+    {
+      "rho": 0.7,
+      "N": 7,
+      "E_n_peaks": 2.19
+    },
+    {
+      "rho": 0.7,
+      "N": 8,
+      "E_n_peaks": 2.533
+    },
+    {
+      "rho": 0.7,
+      "N": 9,
+      "E_n_peaks": 2.7731
+    },
+    {
+      "rho": 0.7,
+      "N": 10,
+      "E_n_peaks": 2.9411699999999996
+    },
+    {
+      "rho": 0.7,
+      "N": 11,
+      "E_n_peaks": 3.0588189999999997
+    }
+  ],
+  "heavy_peak_depletion_statement": "Under the v7.3 probability-weighted prior, missing heavy peaks are expected rather than automatically falsifying; the informative quantity is the skew of the observed peak distribution toward lighter masses.",
+  "falsification_logic": {
+    "confirm_like": "Public products overlap the target window and future event-level or peak-resolution analyses can be interpreted under the probability-weighted E[n_peaks] expectation rather than the old all-peaks-present assumption.",
+    "falsify_like": "Once genuinely peak-resolving public likelihoods overlap the target window, a null result below the probability-weighted lower bound or non-geometric ratios would damage the hard core."
+  },
+  "notes": [
+    "This reconciles the old \u201cwindow overlap\u201d audit with the v7.3 distinction between mere coverage and actual peak-resolution readiness.",
+    "Machine-readable limit curves touching 0.5\u20133 TeV do not by themselves mean the hard core has fired."
+  ]
+}
+{
+  "test_name": "P37 phase-space drift proxy",
+  "gaia_rotation_proxy": [
+    {
+      "r_kpc": 4.0,
+      "v_kms": 211.41368662313425
+    },
+    {
+      "r_kpc": 4.285714285714286,
+      "v_kms": 211.2996206534908
+    },
+    {
+      "r_kpc": 4.571428571428571,
+      "v_kms": 211.21301382538397
+    },
+    {
+      "r_kpc": 4.857142857142857,
+      "v_kms": 211.1622319947064
+    },
+    {
+      "r_kpc": 5.142857142857142,
+      "v_kms": 211.15788894280155
+    },
+    {
+      "r_kpc": 5.428571428571429,
+      "v_kms": 211.2132313042448
+    },
+    {
+      "r_kpc": 5.714285714285714,
+      "v_kms": 211.34442516764042
+    },
+    {
+      "r_kpc": 6.0,
+      "v_kms": 211.57059632050985
+    },
+    {
+      "r_kpc": 6.285714285714286,
+      "v_kms": 211.91339861650619
+    },
+    {
+      "r_kpc": 6.571428571428571,
+      "v_kms": 212.39581085670963
+    },
+    {
+      "r_kpc": 6.857142857142857,
+      "v_kms": 213.03983997215633
+    },
+    {
+      "r_kpc": 7.142857142857142,
+      "v_kms": 213.8629213265271
+    },
+    {
+      "r_kpc": 7.428571428571429,
+      "v_kms": 214.8731561039516
+    },
+    {
+      "r_kpc": 7.7142857142857135,
+      "v_kms": 216.0641512481525
+    },
+    {
+      "r_kpc": 8.0,
+      "v_kms": 217.41097605115547
+    },
+    {
+      "r_kpc": 8.285714285714285,
+      "v_kms": 218.86918305280832
+    },
+    {
+      "r_kpc": 8.571428571428571,
+      "v_kms": 220.37838930574722
+    },
+    {
+      "r_kpc": 8.857142857142858,
+      "v_kms": 221.87036699555324
+    },
+    {
+      "r_kpc": 9.142857142857142,
+      "v_kms": 223.27957685851038
+    },
+    {
+      "r_kpc": 9.428571428571427,
+      "v_kms": 224.5528488671621
+    },
+    {
+      "r_kpc": 9.714285714285714,
+      "v_kms": 225.65535307743735
+    },
+    {
+      "r_kpc": 10.0,
+      "v_kms": 226.57178742864744
+    },
+    {
+      "r_kpc": 10.285714285714285,
+      "v_kms": 227.30362475003696
+    },
+    {
+      "r_kpc": 10.571428571428571,
+      "v_kms": 227.86428035598414
+    },
+    {
+      "r_kpc": 10.857142857142858,
+      "v_kms": 228.27400738706544
+    },
+    {
+      "r_kpc": 11.142857142857142,
+      "v_kms": 228.55566505296287
+    },
+    {
+      "r_kpc": 11.428571428571427,
+      "v_kms": 228.73178128571095
+    },
+    {
+      "r_kpc": 11.714285714285714,
+      "v_kms": 228.8228403721828
+    },
+    {
+      "r_kpc": 12.0,
+      "v_kms": 228.84650646196746
+    },
+    {
+      "r_kpc": 12.285714285714285,
+      "v_kms": 228.81746116544164
+    },
+    {
+      "r_kpc": 12.571428571428571,
+      "v_kms": 228.74759006870477
+    },
+    {
+      "r_kpc": 12.857142857142856,
+      "v_kms": 228.64633269238425
+    },
+    {
+      "r_kpc": 13.142857142857142,
+      "v_kms": 228.5210810760102
+    },
+    {
+      "r_kpc": 13.428571428571429,
+      "v_kms": 228.37756387004887
+    },
+    {
+      "r_kpc": 13.714285714285714,
+      "v_kms": 228.22018636919125
+    },
+    {
+      "r_kpc": 14.0,
+      "v_kms": 228.0523166948185
+    },
+    {
+      "r_kpc": 14.285714285714285,
+      "v_kms": 227.87651888650691
+    },
+    {
+      "r_kpc": 14.571428571428571,
+      "v_kms": 227.69473856302432
+    },
+    {
+      "r_kpc": 14.857142857142856,
+      "v_kms": 227.50844850757
+    },
+    {
+      "r_kpc": 15.142857142857142,
+      "v_kms": 227.31876155596794
+    },
+    {
+      "r_kpc": 15.428571428571427,
+      "v_kms": 227.12651742255085
+    },
+    {
+      "r_kpc": 15.714285714285714,
+      "v_kms": 226.93234908418376
+    },
+    {
+      "r_kpc": 16.0,
+      "v_kms": 226.73673331271382
+    },
+    {
+      "r_kpc": 16.285714285714285,
+      "v_kms": 226.54002901595584
+    },
+    {
+      "r_kpc": 16.57142857142857,
+      "v_kms": 226.34250625816736
+    },
+    {
+      "r_kpc": 16.857142857142854,
+      "v_kms": 226.14436818615206
+    },
+    {
+      "r_kpc": 17.142857142857142,
+      "v_kms": 225.9457675729475
+    },
+    {
+      "r_kpc": 17.428571428571427,
+      "v_kms": 225.74681928777355
+    },
+    {
+      "r_kpc": 17.714285714285715,
+      "v_kms": 225.54760968825718
+    },
+    {
+      "r_kpc": 18.0,
+      "v_kms": 225.34820369053975
+    }
+  ],
+  "drift_proxy": {
+    "nu_input": 0.005075208107598882,
+    "fractional_dm_shift_per_orbit": 8.720001481978845e-05,
+    "mean_energy_offset_between_opposite_orbit_phases": -0.001261833518827804,
+    "z_score_proxy": -0.4297238617227455,
+    "n_events": 3000
+  },
+  "falsification_logic": {
+    "confirm_like": "Opposite galactic-orbit phases exhibit a coherent spectral offset of the sign expected from live-cascade DM mass drift, even if the effect is subthreshold per event.",
+    "falsify_like": "The orbit-phase proxy shows no coherent offset or the sign is opposite to the live-cascade expectation."
+  },
+  "notes": [
+    "This upgrades the old standalone drift audit into the v7.3 orbit-phase proxy logic emphasized by P37.",
+    "The detector population is simulated because public event-level dark-matter detector datasets are not currently available in the right form."
+  ]
+}

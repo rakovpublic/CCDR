@@ -1,0 +1,78 @@
+{
+  "test_name": "P30 non-Euclid lensing replication v7.3",
+  "source_used": "sdss_public",
+  "n_objects": 12000,
+  "act_links_discovered": [
+    "https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_info.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_xunwise_get.html",
+    "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_get.html"
+  ],
+  "n_act_links_discovered": 5,
+  "planck_links_discovered": [
+    "https://pla.esac.esa.int/",
+    "https://lambda.gsfc.nasa.gov/product/planck/"
+  ],
+  "n_planck_links_discovered": 2,
+  "act_result": {
+    "name": "act_proxy",
+    "high_count": 3000,
+    "low_count": 3000,
+    "high_minus_low_kappa": 0.00012623204045857014,
+    "pearson_r": 0.8994908243170365,
+    "pearson_p": 0.0,
+    "spearman_r": 0.832025714859257,
+    "spearman_p": 0.0,
+    "delta_vs_shuffle_mean": 2.710505431213761e-20,
+    "delta_vs_shuffle_std": 2.73193268505962e-20,
+    "delta_vs_shuffle_z": 2.710505431213761e-08
+  },
+  "planck_result": {
+    "name": "planck_proxy",
+    "high_count": 3000,
+    "low_count": 3000,
+    "high_minus_low_kappa": 4.2979450612093845e-05,
+    "pearson_r": 0.7313625287793502,
+    "pearson_p": 0.0,
+    "spearman_r": 0.6455093423388606,
+    "spearman_p": 0.0,
+    "delta_vs_shuffle_mean": 0.0,
+    "delta_vs_shuffle_std": 0.0,
+    "delta_vs_shuffle_z": 0.0
+  },
+  "reducing_volume_null_act": {
+    "patch_means": {
+      "0": 6.393749624631897e-05,
+      "1": 8.970635911901446e-05,
+      "2": 7.426615141408351e-05,
+      "3": 9.441910412183003e-05
+    },
+    "observed_patch_spread": 1.4043371248494284e-05,
+    "n_null_draws": 64,
+    "null_mean_spread": 1.4043371248494282e-05,
+    "null_std_spread": 3.5968240585231555e-21,
+    "observed_z_vs_null": 1.6940658945086007e-09
+  },
+  "reducing_volume_null_planck": {
+    "patch_means": {
+      "0": 3.0359354837526744e-05,
+      "1": 4.093134528405265e-05,
+      "2": 3.5660161328630075e-05,
+      "3": 4.3769097383387745e-05
+    },
+    "observed_patch_spread": 5.925086411558111e-06,
+    "n_null_draws": 64,
+    "null_mean_spread": 5.925086411558112e-06,
+    "null_std_spread": 1.4076823098809951e-21,
+    "observed_z_vs_null": -8.470329472543003e-10
+  },
+  "falsification_logic": {
+    "confirm_like": "The density-correlated signal reappears with the predicted sign under independent public lensing access paths, survives shuffled nulls, and shows cross-patch structure compatible with the v7.3 reducing-volume prior.",
+    "falsify_like": "The sign flips or vanishes under independent lensing access paths, or the effect collapses under density-stratified and reducing-volume null controls."
+  },
+  "notes": [
+    "This remains a public-data replication proxy: if collaboration-grade machine-readable lensing maps are unavailable, deterministic sky-proxy samplers are used rather than claiming a full map-level replication.",
+    "New in v7.3: reducing-volume nulls preserve the density ranking while shuffling patch-level DM-composition offsets to test cross-patch variation under the dimension-origin prior."
+  ]
+}

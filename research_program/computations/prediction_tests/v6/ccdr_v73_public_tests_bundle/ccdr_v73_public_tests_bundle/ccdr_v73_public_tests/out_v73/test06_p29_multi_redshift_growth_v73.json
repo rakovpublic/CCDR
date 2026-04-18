@@ -1,0 +1,52 @@
+{
+  "test_name": "P29 multi-redshift growth v7.3",
+  "points": [
+    {
+      "z_eff": 0.295,
+      "fs8": 0.48,
+      "fs8_err": 0.06
+    },
+    {
+      "z_eff": 0.51,
+      "fs8": 0.46,
+      "fs8_err": 0.05
+    },
+    {
+      "z_eff": 0.706,
+      "fs8": 0.43,
+      "fs8_err": 0.05
+    },
+    {
+      "z_eff": 0.93,
+      "fs8": 0.39,
+      "fs8_err": 0.05
+    },
+    {
+      "z_eff": 1.317,
+      "fs8": 0.36,
+      "fs8_err": 0.06
+    },
+    {
+      "z_eff": 1.491,
+      "fs8": 0.35,
+      "fs8_err": 0.07
+    }
+  ],
+  "fit": {
+    "alpha_dm_proxy": -0.284403315175492,
+    "frozen_fraction_proxy": 0.8463713508482187,
+    "live_fraction_proxy": 0.15362864915178132,
+    "chi2": 0.12608973942608911,
+    "chi2_null": 4.019838000462856,
+    "delta_chi2_alpha0": 3.8937482610367673,
+    "n_points": 6
+  },
+  "falsification_logic": {
+    "confirm_like": "A positive live-cascade growth term improves the fit, and the live/frozen decomposition is qualitatively compatible with the probability-weighted prior.",
+    "falsify_like": "A constant-DM or effectively frozen history fits equally well, or the preferred live-growth proxy remains zero or wrong-sign."
+  },
+  "notes": [
+    "This is a compressed public full-shape/RSD proxy based on summary points rather than a perturbation-level chain analysis.",
+    "New in v7.3: the output decomposes the fit into live and frozen fractions rather than forcing every null into a simple yes/no verdict."
+  ]
+}

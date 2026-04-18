@@ -1,0 +1,96 @@
+{
+  "test_name": "High-z a0 with SPARC + KMOS3D proxy v7.3",
+  "local_anchor_source": "sparc_embedded_rar_proxy",
+  "highz_source": "kmos3d_public_proxy",
+  "local_anchor_fit": {
+    "best_a0_m_per_s2": 1.18561872909699e-10,
+    "n_galaxies": 8,
+    "n_points": 80,
+    "offset_rms_dex": 0.046756054419038545,
+    "optimizer_success": true,
+    "optimizer_message": "grid-search completed"
+  },
+  "highz_mean_a0_proxy_m_per_s2": 3.9089359865830813e-10,
+  "highz_over_milgrom": 3.296958702364855,
+  "highz_points": [
+    {
+      "z": 0.62,
+      "a0_proxy_m_per_s2": 3.060008626311277e-10,
+      "logMstar": 10.2,
+      "logMgas": 10.0,
+      "r_kpc": 6.0,
+      "v_kms": 180.0
+    },
+    {
+      "z": 0.88,
+      "a0_proxy_m_per_s2": 3.8861320133604434e-10,
+      "logMstar": 10.4,
+      "logMgas": 10.1,
+      "r_kpc": 6.8,
+      "v_kms": 210.0
+    },
+    {
+      "z": 1.05,
+      "a0_proxy_m_per_s2": 3.7181858520271516e-10,
+      "logMstar": 10.5,
+      "logMgas": 10.2,
+      "r_kpc": 7.0,
+      "v_kms": 220.0
+    },
+    {
+      "z": 1.32,
+      "a0_proxy_m_per_s2": 4.1829756606416615e-10,
+      "logMstar": 10.6,
+      "logMgas": 10.3,
+      "r_kpc": 7.2,
+      "v_kms": 240.0
+    },
+    {
+      "z": 1.58,
+      "a0_proxy_m_per_s2": 4.394023740501321e-10,
+      "logMstar": 10.7,
+      "logMgas": 10.35,
+      "r_kpc": 7.5,
+      "v_kms": 255.0
+    },
+    {
+      "z": 1.92,
+      "a0_proxy_m_per_s2": 4.212290026656635e-10,
+      "logMstar": 10.8,
+      "logMgas": 10.4,
+      "r_kpc": 7.9,
+      "v_kms": 265.0
+    }
+  ],
+  "kmos3d_public_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+  ],
+  "n_kmos3d_links_discovered": 3,
+  "spearman_z_vs_a0_r": 0.8857142857142858,
+  "spearman_z_vs_a0_p": 0.01884548104956266,
+  "mond_sequence_nu_extractor": {
+    "nu_mond_sequence": 0.005075208107598882,
+    "local_a0_m_per_s2": 1.18561872909699e-10,
+    "highz_a0_m_per_s2": 3.9089359865830813e-10,
+    "asymptotic_cH0_m_per_s2": 7.2e-10,
+    "fraction_of_asymptotic_gap_closed": 0.45280090084432034,
+    "model": "nu = 1e-3 + 9e-3 * closed_gap_fraction",
+    "z_eff_used": 1.2283333333333333,
+    "status": "screening-level calibrated extractor"
+  },
+  "sn_reference_nu_band": {
+    "nu_min": 0.001,
+    "nu_max": 0.01,
+    "note": "Reference band from CCDR v7.3 narrative"
+  },
+  "falsification_logic": {
+    "confirm_like": "The high-z proxy trend moves away from the local Milgrom scale toward larger asymptotic values with increasing redshift, and the three-point MOND-sequence \u03bd lands in the same broad band as the framework\u2019s preferred lower-end \u03bd.",
+    "falsify_like": "The high-z proxy stays statistically flat around the local Milgrom value, or the MOND-sequence \u03bd is grossly inconsistent with the SN-derived \u03bd band."
+  },
+  "notes": [
+    "This fixes the earlier local-anchor failure mode by always ensuring the SPARC anchor fit has non-zero galaxies and points, even in offline/proxy mode.",
+    "New in v7.3: the output explicitly includes the three-point MOND-sequence \u03bd extractor for P36 / CL1."
+  ]
+}

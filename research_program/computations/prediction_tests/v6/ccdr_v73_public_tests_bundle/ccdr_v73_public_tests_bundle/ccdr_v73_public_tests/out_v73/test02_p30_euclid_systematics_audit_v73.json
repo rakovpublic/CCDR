@@ -1,0 +1,89 @@
+{
+  "test_name": "P30 Euclid-Q1 systematics audit v7.3",
+  "source_used": "sdss_public",
+  "n_objects": 12000,
+  "baseline_high_minus_low_kappa": 0.00012623204045857014,
+  "subset_cases": [
+    {
+      "subset": "z_low",
+      "high_minus_low_kappa": 0.00015726849404131606,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": 3.1036453582745926e-05
+    },
+    {
+      "subset": "z_high",
+      "high_minus_low_kappa": 8.233526031364072e-05,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -4.389678014492941e-05
+    },
+    {
+      "subset": "ra_low",
+      "high_minus_low_kappa": 0.0001254439811203699,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -7.880593382002265e-07
+    },
+    {
+      "subset": "ra_high",
+      "high_minus_low_kappa": 0.00011945809076997677,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -6.773949688593361e-06
+    },
+    {
+      "subset": "dec_low",
+      "high_minus_low_kappa": 0.00012877115967665085,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": 2.539119218080717e-06
+    },
+    {
+      "subset": "dec_high",
+      "high_minus_low_kappa": 0.00012569933522932987,
+      "low_count": 1500,
+      "high_count": 1500,
+      "n": 6000,
+      "delta_minus_baseline": -5.327052292402679e-07
+    }
+  ],
+  "threshold_scan": [
+    {
+      "quantile": 0.2,
+      "high_minus_low_kappa": 0.00013984279342573036
+    },
+    {
+      "quantile": 0.25,
+      "high_minus_low_kappa": 0.00012623204045857014
+    },
+    {
+      "quantile": 0.3,
+      "high_minus_low_kappa": 0.00011449933848368389
+    },
+    {
+      "quantile": 0.35,
+      "high_minus_low_kappa": 0.00010386332323691506
+    }
+  ],
+  "patch_mean_kappa": {
+    "0": 6.393749624631897e-05,
+    "1": 8.970635911901446e-05,
+    "2": 7.426615141408351e-05,
+    "3": 9.441910412183003e-05
+  },
+  "patch_spread": 1.4043371248494284e-05,
+  "falsification_logic": {
+    "confirm_like": "The P30 sign remains stable across reasonable threshold choices. Residual RA/Dec/z asymmetries are small enough to be read as patchiness or reducing-volume structure rather than a one-field artifact.",
+    "falsify_like": "The signal localizes to one field-like split or collapses under modest threshold changes, indicating likely survey/systematics origin rather than physical density correlation."
+  },
+  "notes": [
+    "In v7.3, some split-to-split variation is not automatically fatal because the new prior allows genuine patch-to-patch DM-composition variation.",
+    "This script therefore reports split asymmetries explicitly instead of auto-classifying every asymmetry as a survey systematic."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "test_name": "P33 density-correlated BAO v7.3",
+  "source_used": "sdss_public",
+  "bao_summary_points": [
+    {
+      "z_eff": 0.295,
+      "rd_mpc": 147.1,
+      "rd_err": 0.8
+    },
+    {
+      "z_eff": 0.51,
+      "rd_mpc": 147.0,
+      "rd_err": 0.7
+    },
+    {
+      "z_eff": 0.706,
+      "rd_mpc": 146.9,
+      "rd_err": 0.7
+    },
+    {
+      "z_eff": 0.93,
+      "rd_mpc": 146.8,
+      "rd_err": 0.8
+    },
+    {
+      "z_eff": 1.317,
+      "rd_mpc": 146.8,
+      "rd_err": 1.1
+    }
+  ],
+  "density_bins_match_kappa_pipeline": true,
+  "density_proxy_means": {
+    "low": 0.04895088191814682,
+    "high": 0.2795195031259346
+  },
+  "nu_input_from_mond_sequence": 0.005075208107598882,
+  "predicted_delta_r_over_r": 8.133191013613272e-05,
+  "predicted_delta_rd_mpc": 0.011949284237200618,
+  "baseline_rd_mpc": 146.92,
+  "falsification_logic": {
+    "confirm_like": "The density-stratified BAO proxy shifts in the same direction as the \u03ba-based density ordering, supporting early reduction in denser patches.",
+    "falsify_like": "The inferred sign or scale of \u03b4r/r is inconsistent with the \u03bd and density ordering preferred by the \u03ba pipeline."
+  },
+  "notes": [
+    "This is a sister proxy to P30 rather than a full density-binned BAO likelihood. Public summary tables do not carry the full bin-resolved clustering information needed for a collaboration-grade measurement.",
+    "The density binning is intentionally matched to the \u03ba pipeline so the test can function as a v7.3 consistency check."
+  ]
+}

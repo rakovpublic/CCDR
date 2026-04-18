@@ -1,0 +1,35 @@
+{
+  "test_name": "P38 void-wall Cauchy-tail proxy",
+  "source_used": "sdss_public",
+  "profile": {
+    "radii_mpc_h": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0
+    ],
+    "n_voids": 20,
+    "profile_matrix_shape": [
+      20,
+      11
+    ],
+    "transverse_kurtosis_k4": 2.8136394450735334,
+    "shell_diff_sample_size": 9
+  },
+  "passes_k4_gt_4": false,
+  "falsification_logic": {
+    "confirm_like": "Stacked void-wall transverse density cuts exhibit kurtosis above the Gaussian baseline, consistent with power-law-like wall tails.",
+    "falsify_like": "The stacked transverse profile is close to Gaussian and does not show the excess-tailed behavior expected from grain-boundary scattering."
+  },
+  "notes": [
+    "This is a public-proxy implementation using density-field minima as void seeds when full public void catalogues are not available in the runtime environment.",
+    "A positive proxy result should still be followed by a dedicated void-catalogue analysis."
+  ]
+}

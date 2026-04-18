@@ -1,0 +1,61 @@
+{
+  "test_name": "CL2 P8c reducing-volume cross v7.3",
+  "source_used": "sdss_public",
+  "pta_source": "nanograv_public_proxy",
+  "n_objects": 12000,
+  "n_pulsars": 7,
+  "pulsars": [
+    {
+      "name": "J0030+0451",
+      "ra_deg": 7.633,
+      "dec_deg": 4.861
+    },
+    {
+      "name": "J0613-0200",
+      "ra_deg": 93.399,
+      "dec_deg": -2.001
+    },
+    {
+      "name": "J1012+5307",
+      "ra_deg": 153.139,
+      "dec_deg": 53.117
+    },
+    {
+      "name": "J1600-3053",
+      "ra_deg": 240.258,
+      "dec_deg": -30.896
+    },
+    {
+      "name": "J1713+0747",
+      "ra_deg": 258.456,
+      "dec_deg": 7.792
+    },
+    {
+      "name": "J1909-3744",
+      "ra_deg": 287.448,
+      "dec_deg": -37.737
+    },
+    {
+      "name": "J2145-0750",
+      "ra_deg": 326.46,
+      "dec_deg": -7.844
+    }
+  ],
+  "cross_correlation": {
+    "pearson_r": 0.5235897169472801,
+    "pearson_p": 0.0,
+    "spearman_r": 0.4327590005747153,
+    "spearman_p": 0.0,
+    "mean_pta_field": 0.2278963287609366,
+    "mean_kappa_act_proxy": 8.056683397235815e-05
+  },
+  "same_sign_as_p30": true,
+  "falsification_logic": {
+    "confirm_like": "The PTA\u00d7cosmic-web proxy positively cross-correlates with the density\u2013\u03ba field, supporting the v7.3 reinterpretation of the wrong-sign P8c result as a reducing-volume signature.",
+    "falsify_like": "The CL2 cross-correlation remains absent or flips away from the density\u2013\u03ba field, making the wrong-sign reinterpretation less persuasive."
+  },
+  "notes": [
+    "This is a spatial cross-field proxy, not a full PTA map-level reconstruction.",
+    "The purpose is specifically v7.3 CL2: ask whether the wrong-sign class lines up with the same cross-patch structure that drives the P30 density\u2013\u03ba signal."
+  ]
+}

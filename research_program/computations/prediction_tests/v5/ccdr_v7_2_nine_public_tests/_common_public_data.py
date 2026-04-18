@@ -64,6 +64,16 @@ FERMI_PUBDATA_URLS = [
     "https://www-glast.stanford.edu/pub_data/",
 ]
 FERMI_FIGSHARE_ARTICLE_IDS = [24058650]
+NANOGRAV_TIMING_ASTROMETRY_URLS = [
+    'https://raw.githubusercontent.com/sophiasosafiscella/VLBI_timing/master/data/timing_astrometric_data_updated.csv',
+    'https://raw.githubusercontent.com/sophiasosafiscella/VLBI_timing/main/data/timing_astrometric_data_updated.csv',
+    'https://github.com/sophiasosafiscella/VLBI_timing/raw/master/data/timing_astrometric_data_updated.csv',
+    'https://github.com/sophiasosafiscella/VLBI_timing/raw/main/data/timing_astrometric_data_updated.csv',
+]
+NANOGRAV_TIMING_ASTROMETRY_API_URLS = [
+    'https://api.github.com/repos/sophiasosafiscella/VLBI_timing/contents/data/timing_astrometric_data_updated.csv?ref=master',
+    'https://api.github.com/repos/sophiasosafiscella/VLBI_timing/contents/data/timing_astrometric_data_updated.csv?ref=main',
+]
 SDSS_SKYSERVER_SQL_BASES = [
     "https://skyserver.sdss.org/dr18/SkyServerWS/SearchTools/SqlSearch",
     "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch",
@@ -76,26 +86,6 @@ DIRECT_DETECTION_RECORD_URLS = {
         "https://www.hepdata.net/record/ins3085605?format=json",
     ],
 }
-
-DIRECT_DETECTION_TABLE_URLS = [
-    'https://www.hepdata.net/download/table/ins2841863/SI cross section/csv',
-    'https://www.hepdata.net/download/table/ins2841863/SDn cross section/csv',
-    'https://www.hepdata.net/download/table/ins2841863/SDp cross section/csv',
-    'https://www.hepdata.net/download/table/ins2841863/Efficiency/csv',
-    'https://www.hepdata.net/download/table/ins2841863/Data/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS left/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 left expected limit curve/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 left observed limit curve/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 Lower left/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 CMS right/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 right expected limit curve for Axial Vector/csv',
-    'https://www.hepdata.net/download/table/ins3085605/Figure 7 right observed limit curve for Axial Vector/csv',
-]
-
-NANOGRAV_TIMING_ASTROMETRY_URLS = [
-    'https://raw.githubusercontent.com/sophiasosafiscella/VLBI_timing/master/data/timing_astrometric_data_updated.csv',
-    'https://raw.githubusercontent.com/sophiasosafiscella/VLBI_timing/main/data/timing_astrometric_data_updated.csv',
-]
 
 
 def _headers() -> Dict[str, str]:
@@ -133,6 +123,29 @@ def download_text(urls: Sequence[str] | str, cache_name: str, timeout: int = 180
     if isinstance(urls, str):
         urls = [urls]
     return download_bytes(urls, cache_name, timeout=timeout, force=force).decode(encoding, errors="replace")
+
+def _download_github_contents_text(urls: Sequence[str] | str, cache_name: str, timeout: int = 180, force: bool = False) -> str:
+    if isinstance(urls, str):
+        urls = [urls]
+    target = DATA_CACHE / cache_name
+    if target.exists() and not force:
+        return target.read_text(encoding='utf-8', errors='replace')
+    import base64
+    last_error = None
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={**_headers(), 'Accept': 'application/vnd.github+json'})
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                payload = json.loads(resp.read().decode('utf-8', errors='replace'))
+            if isinstance(payload, dict) and payload.get('encoding') == 'base64' and payload.get('content'):
+                txt = base64.b64decode(payload['content']).decode('utf-8', errors='replace')
+                target.write_text(txt, encoding='utf-8')
+                return txt
+            raise RuntimeError(f'Unexpected GitHub contents payload from {url}')
+        except Exception as exc:
+            last_error = exc
+            time.sleep(1)
+    raise RuntimeError(f'Failed to download GitHub contents text for {cache_name}') from last_error
 
 
 def pick_column(columns: Iterable[str], candidates: Sequence[str], required: bool = True) -> Optional[str]:
@@ -908,89 +921,22 @@ def load_numeric_table_from_url(url: str) -> Optional[pd.DataFrame]:
         txt = download_text([url], cache_name=Path(urllib.parse.urlparse(url).path).name or "table.txt", timeout=180)
     except Exception:
         return None
-    low = url.lower()
-    if low.endswith('.json') or txt.lstrip().startswith('{'):
-        try:
-            obj = json.loads(txt)
-            iv = obj.get('independent_variables', [])
-            dv = obj.get('dependent_variables', [])
-            if iv and dv and isinstance(iv, list) and isinstance(dv, list):
-                xvals = []
-                for row in iv[0].get('values', []):
-                    if isinstance(row, dict):
-                        v = row.get('value', row.get('low'))
-                    else:
-                        v = row
-                    xvals.append(v)
-                yvals = []
-                for row in dv[0].get('values', []):
-                    if isinstance(row, dict):
-                        v = row.get('value', row.get('high'))
-                    else:
-                        v = row
-                    yvals.append(v)
-                n = min(len(xvals), len(yvals))
-                df = pd.DataFrame({'x': pd.to_numeric(xvals[:n], errors='coerce'), 'y': pd.to_numeric(yvals[:n], errors='coerce')})
-                df = df[np.isfinite(df['x']) & np.isfinite(df['y'])]
-                if len(df) >= 20:
-                    return df.reset_index(drop=True)
-        except Exception:
-            pass
+    if "yaml" in url.lower() or txt.lstrip().startswith("independent_variables"):
         return None
-    lines = [ln for ln in txt.splitlines() if ln.strip() and not ln.lstrip().startswith('#')]
-    cleaned = '\n'.join(lines)
-    for sep in [',', '	', r'\s+']:
+    for sep in [",", "\t", r"\s+"]:
         try:
-            df = pd.read_csv(io.StringIO(cleaned), sep=sep, engine='python', comment='#')
-            cols = []
-            for c in df.columns:
-                ser = pd.to_numeric(df[c], errors='coerce')
-                if ser.notna().sum() >= max(20, len(df) // 4):
-                    cols.append(ser)
-            if len(cols) >= 2:
-                out = pd.DataFrame({'x': cols[0], 'y': cols[1]})
-                out = out[np.isfinite(out['x']) & np.isfinite(out['y'])]
-                if len(out) >= 20:
-                    return out.reset_index(drop=True)
+            df = pd.read_csv(io.StringIO(txt), sep=sep, engine="python")
+            num = df.select_dtypes(include=[np.number])
+            if num.shape[1] >= 2:
+                return num
         except Exception:
             continue
-    rows = []
-    num_re = re.compile(r'[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?')
-    for ln in lines:
-        vals = num_re.findall(ln)
-        if len(vals) >= 2:
-            try:
-                rows.append((float(vals[0]), float(vals[1])))
-            except Exception:
-                pass
-    if len(rows) >= 20:
-        return pd.DataFrame(rows, columns=['x', 'y'])
     return None
+
 
 def inspect_direct_detection_resources() -> Dict[str, Any]:
     resources = []
     numeric_tables = []
-    seen = set()
-    for link in DIRECT_DETECTION_TABLE_URLS:
-        resources.append(link)
-        if link in seen:
-            continue
-        df = load_numeric_table_from_url(link)
-        if df is None or len(df) < 20:
-            continue
-        x = np.asarray(df.iloc[:, 0], dtype=float)
-        y = np.asarray(df.iloc[:, 1], dtype=float)
-        m = np.isfinite(x) & np.isfinite(y) & (x > 0)
-        if np.sum(m) < 20:
-            continue
-        seen.add(link)
-        numeric_tables.append({
-            'source': link,
-            'n_points': int(np.sum(m)),
-            'mass_min': float(np.min(x[m])),
-            'mass_max': float(np.max(x[m])),
-            'y_min': float(np.min(y[m])) if np.any(np.isfinite(y[m])) else float('nan'),
-        })
     for name, urls in DIRECT_DETECTION_RECORD_URLS.items():
         try:
             record = _hepdata_record_json(urls, f"{name}_record.json")
@@ -999,9 +945,7 @@ def inspect_direct_detection_resources() -> Dict[str, Any]:
         links = _extract_hepdata_links(record)
         resources.extend(links)
         for link in links:
-            if link in seen:
-                continue
-            if not any(ext in link.lower() for ext in ['csv', 'txt', 'json']):
+            if not any(ext in link.lower() for ext in ["csv", "txt", "json"]):
                 continue
             df = load_numeric_table_from_url(link)
             if df is None or len(df) < 20:
@@ -1011,19 +955,25 @@ def inspect_direct_detection_resources() -> Dict[str, Any]:
             m = np.isfinite(x) & np.isfinite(y) & (x > 0)
             if np.sum(m) < 20:
                 continue
-            seen.add(link)
+            x = x[m]
+            y = y[m]
             numeric_tables.append({
-                'source': link,
-                'n_points': int(np.sum(m)),
-                'mass_min': float(np.min(x[m])),
-                'mass_max': float(np.max(x[m])),
-                'y_min': float(np.min(y[m])) if np.any(np.isfinite(y[m])) else float('nan'),
+                "source": link,
+                "n_points": int(len(x)),
+                "mass_min": float(np.min(x)),
+                "mass_max": float(np.max(x)),
+                "y_min": float(np.min(y[y > 0])) if np.any(y > 0) else float("nan"),
             })
     return {
-        'n_candidate_resources': int(len(list(dict.fromkeys(resources)))),
-        'resources': list(dict.fromkeys(resources)),
-        'numeric_tables': numeric_tables,
+        "n_candidate_resources": int(len(resources)),
+        "resources": list(dict.fromkeys(resources)),
+        "numeric_tables": numeric_tables,
     }
+
+
+# ---------------------------------------------------------------------
+# DES-SN5YR
+# ---------------------------------------------------------------------
 
 def _download_zip_member_by_basename(urls: Sequence[str], cache_name: str, basenames: Sequence[str], timeout: int = 180) -> bytes:
     payload = download_bytes(urls, cache_name, timeout=timeout)
@@ -1415,54 +1365,22 @@ def inspect_direct_detection_resources_latest() -> Dict[str, Any]:
         'XENONnT S2-only',
         'direct detection dark matter exclusion curve',
     ]
-    discovered_urls = search_hepdata_records(queries, size=80)
-    baseline_urls: List[str] = []
-    for urls in DIRECT_DETECTION_RECORD_URLS.values():
-        baseline_urls.extend(urls)
-    json_urls = list(dict.fromkeys(discovered_urls + baseline_urls))
+    json_urls = search_hepdata_records(queries, size=80)
     numeric_tables: List[Dict[str, Any]] = []
-    seen_sources: set[str] = set()
-    for link in DIRECT_DETECTION_TABLE_URLS:
-        df = load_numeric_table_from_url(link)
-        if df is None or len(df) < 20:
-            continue
-        try:
-            x = np.asarray(df.iloc[:, 0], float)
-            y = np.asarray(df.iloc[:, 1], float)
-        except Exception:
-            continue
-        m = np.isfinite(x) & np.isfinite(y) & (x > 0)
-        if np.sum(m) < 20:
-            continue
-        seen_sources.add(link)
-        numeric_tables.append({
-            'source': link,
-            'mass_min': float(np.min(x[m])),
-            'mass_max': float(np.max(x[m])),
-            'n_points': int(np.sum(m)),
-            'y_min': float(np.nanmin(y[m])),
-        })
     for ju in json_urls:
         try:
-            cache_name = (Path(urllib.parse.urlparse(ju).path).name or 'hepdata_record') + '.json'
-            links = _extract_hepdata_links(_hepdata_record_json([ju], cache_name))
+            links = _extract_hepdata_links(_hepdata_record_json(ju))
         except Exception:
             continue
         for link in links:
-            if link in seen_sources:
-                continue
             df = load_numeric_table_from_url(link)
             if df is None or len(df) < 20:
                 continue
-            try:
-                x = np.asarray(df.iloc[:, 0], float)
-                y = np.asarray(df.iloc[:, 1], float)
-            except Exception:
-                continue
+            x = np.asarray(df.iloc[:, 0], float)
+            y = np.asarray(df.iloc[:, 1], float)
             m = np.isfinite(x) & np.isfinite(y) & (x > 0)
             if np.sum(m) < 20:
                 continue
-            seen_sources.add(link)
             numeric_tables.append({
                 'source': link,
                 'mass_min': float(np.min(x[m])),
@@ -1470,20 +1388,11 @@ def inspect_direct_detection_resources_latest() -> Dict[str, Any]:
                 'n_points': int(np.sum(m)),
                 'y_min': float(np.nanmin(y[m])),
             })
-    if not numeric_tables:
-        try:
-            legacy = inspect_direct_detection_resources()
-            for row in legacy.get('numeric_tables', []):
-                src = str(row.get('source', ''))
-                if src and src not in seen_sources:
-                    numeric_tables.append(row)
-                    seen_sources.add(src)
-        except Exception:
-            pass
     return {
-        'n_candidate_resources': len(list(dict.fromkeys(json_urls + DIRECT_DETECTION_TABLE_URLS))),
+        'n_candidate_resources': len(json_urls),
         'numeric_tables': numeric_tables,
     }
+
 
 def try_load_euclid_public_sample(max_rows: int = 50000, z_max: float = 1.5) -> pd.DataFrame:
     """Attempt to query a public Euclid Q1 catalogue through astroquery.
@@ -1650,11 +1559,6 @@ NANOGRAV_15YR_RECORDS = [
     "https://zenodo.org/records/8423265",
     "https://zenodo.org/records/8104459",
 ]
-NANOGRAV_15YR_ARCHIVE_URLS = [
-    "https://zenodo.org/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz?download=1",
-    "https://zenodo.org/records/8423265/files/NANOGrav15yr_PulsarTiming_v2.0.0.tar.gz?download=1",
-    "https://zenodo.org/records/8104459/files/NANOGrav15yr_PulsarTiming_v1.0.1.tar.gz?download=1",
-]
 
 
 def load_act_lensing_links() -> List[str]:
@@ -1671,26 +1575,15 @@ def sample_act_kappa_at_positions(ra_deg: np.ndarray, dec_deg: np.ndarray) -> np
 
 
 def discover_nanograv_15yr_archive_links() -> List[str]:
-    out: List[str] = list(NANOGRAV_15YR_ARCHIVE_URLS)
+    links: List[str] = []
     for rec in NANOGRAV_15YR_RECORDS:
-        links = scrape_links(rec, pattern=r'(tar\.gz|zip|download|files/.+PulsarTiming.+tar\.gz)')
-        for x in links:
-            if any(tok in x.lower() for tok in ['tar.gz', '.zip', 'download', 'pulsartiming']):
-                out.append(x)
-    try:
-        hub_links = scrape_links('https://nanograv.org/science/data', pattern=r'zenodo\.org/records/\d+')
-        for link in hub_links:
-            out.append(link)
-            out.extend(scrape_links(link, pattern=r'(tar\.gz|zip|download|files/.+PulsarTiming.+tar\.gz)'))
-    except Exception:
-        pass
-    cleaned: List[str] = []
-    for x in out:
-        low = x.lower()
-        if 'zenodo.org/records/' in low and '/files/' not in low and not low.endswith('?download=1'):
-            continue
-        cleaned.append(x)
-    return list(dict.fromkeys(cleaned))
+        links.extend(scrape_links(rec, pattern=r'(tar\.gz|zip|download)'))
+    out = []
+    for x in links:
+        if any(tok in x.lower() for tok in ['tar.gz', '.zip', 'download']):
+            out.append(x)
+    return list(dict.fromkeys(out))
+
 
 def _parse_hms_angle(text: str, is_ra: bool = True) -> float:
     s = text.strip().replace(':', ' ').replace('h', ' ').replace('m', ' ').replace('s', ' ')
@@ -1705,77 +1598,6 @@ def _parse_hms_angle(text: str, is_ra: bool = True) -> float:
     if is_ra:
         return 15.0 * val
     return sign * val
-
-
-def _parse_nanograv_timing_astrometry_csv_text(csv_text: str, max_pulsars: int = 80) -> pd.DataFrame:
-    rows: List[Dict[str, Any]] = []
-    # First try normal CSV parsing.
-    try:
-        df = pd.read_csv(io.StringIO(csv_text))
-        name_col = pick_column(df.columns, ['pulsar', 'name', 'psr_name', 'jname', 'Unnamed: 0'], required=False)
-        ra_col = pick_column(df.columns, ['ra_t', 'ra', 'raj', 'RAJ'], required=False)
-        dec_col = pick_column(df.columns, ['dec_t', 'dec', 'decj', 'DECJ'], required=False)
-        red_col = pick_column(df.columns, ['red_noise_amp', 'rnamp', 'tnredamp'], required=False)
-        if name_col and ra_col and dec_col:
-            for _, row in df.iterrows():
-                try:
-                    name = str(row[name_col]).strip().lstrip('#').strip()
-                    if not name or name.lower() == 'nan':
-                        continue
-                    ra = _parse_hms_angle(str(row[ra_col]), True)
-                    dec = _parse_hms_angle(str(row[dec_col]), False)
-                    red = float(row[red_col]) if red_col and pd.notna(row[red_col]) else np.nan
-                    if np.isfinite(ra) and np.isfinite(dec):
-                        rows.append({'pulsar': name, 'ra': ra, 'dec': dec, 'red_noise_amp': red})
-                except Exception:
-                    continue
-    except Exception:
-        rows = []
-    if rows:
-        # de-duplicate by pulsar name while preserving order
-        out = []
-        seen = set()
-        for r in rows:
-            if r['pulsar'] in seen:
-                continue
-            seen.add(r['pulsar'])
-            out.append(r)
-            if len(out) >= max_pulsars:
-                break
-        return pd.DataFrame(out)
-
-    # Fallback for malformed one-line/raw text variants from GitHub mirrors.
-    raw = csv_text.replace('\r', '\n')
-    # Remove header if present.
-    if 'epoch_t,ephem,equinox,ra_t' in raw:
-        raw = raw.split('cor', 1)[-1]
-    import re
-    name_pat = re.compile(r'(?<![A-Za-z0-9])#?[BJ]\d{3,4}[+-]\d{2,4}(?![A-Za-z0-9])')
-    matches = list(name_pat.finditer(raw))
-    if not matches:
-        return pd.DataFrame(columns=['pulsar','ra','dec','red_noise_amp'])
-    parsed: List[Dict[str, Any]] = []
-    for i, m in enumerate(matches):
-        start = m.start()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(raw)
-        chunk = raw[start:end].strip(' ,\n\t')
-        parts = [p.strip() for p in chunk.split(',') if p.strip()]
-        if len(parts) < 7:
-            continue
-        try:
-            name = parts[0].lstrip('#').strip()
-            ra_txt = parts[4]
-            dec_txt = parts[6]
-            red = np.nan
-            ra = _parse_hms_angle(ra_txt, True)
-            dec = _parse_hms_angle(dec_txt, False)
-            if np.isfinite(ra) and np.isfinite(dec):
-                parsed.append({'pulsar': name, 'ra': ra, 'dec': dec, 'red_noise_amp': red})
-        except Exception:
-            continue
-        if len(parsed) >= max_pulsars:
-            break
-    return pd.DataFrame(parsed, columns=['pulsar','ra','dec','red_noise_amp'])
 
 
 def load_nanograv_15yr_pulsar_positions(max_pulsars: int = 80) -> pd.DataFrame:
@@ -1823,12 +1645,16 @@ def load_nanograv_15yr_pulsar_positions(max_pulsars: int = 80) -> pd.DataFrame:
         except Exception as exc:
             last_error = exc
             continue
-    try:
-        csv_text = download_text(NANOGRAV_TIMING_ASTROMETRY_URLS, 'nanograv_timing_astrometry.csv', timeout=300)
-        df_csv = _parse_nanograv_timing_astrometry_csv_text(csv_text, max_pulsars=max_pulsars)
-        if len(df_csv):
-            return df_csv
-    except Exception as exc:
-        last_error = exc
+    for downloader, urls, cache_name in [
+        (download_text, NANOGRAV_TIMING_ASTROMETRY_URLS, 'nanograv_timing_astrometry.csv'),
+        (_download_github_contents_text, NANOGRAV_TIMING_ASTROMETRY_API_URLS, 'nanograv_timing_astrometry_api.csv'),
+    ]:
+        try:
+            csv_text = downloader(urls, cache_name, timeout=300)
+            df_csv = _parse_nanograv_timing_astrometry_csv_text(csv_text, max_pulsars=max_pulsars)
+            if len(df_csv):
+                return df_csv
+        except Exception as exc:
+            last_error = exc
+            continue
     return pd.DataFrame(columns=['pulsar','ra','dec','red_noise_amp'])
-
