@@ -1,0 +1,44 @@
+{
+  "data_sources": [
+    {
+      "label": "Pantheon+ DataRelease",
+      "url": "https://github.com/PantheonPlusSH0ES/DataRelease"
+    },
+    {
+      "label": "DESI DR2 BAO data",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/final_consensus_covtot_dM_Hz_fsig.txt"
+    }
+  ],
+  "description": "Use public Pantheon+ and DESI DR2 products to compare low-z and high-z \u03bd-sensitive residual behavior and quantify whether the preference is carried by low-z SNe.",
+  "desi_consensus_shape": {
+    "columns": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rows": 9
+  },
+  "generated_utc": "2026-04-20T10:06:26Z",
+  "notes": [],
+  "nu_triangle_proxy": {
+    "max_pairwise_ratio": 5.122098675798685,
+    "nu_mond_reference": 0.00508,
+    "nu_q_proxy": 0.001,
+    "nu_sn_proxy": 0.005122098675798685,
+    "sn_lowz_systematic_reinforced": true
+  },
+  "pantheon_sigma_like": {
+    "pantheon_highz": 576.0801606783411,
+    "pantheon_lowz": 980.0779715481502,
+    "pantheon_zcmb": 1014.0514980463207,
+    "pantheon_zhel": 887.5035166973906
+  },
+  "status": "ok",
+  "test_name": "T4 \u2014 Public \u03bd re-drive"
+}

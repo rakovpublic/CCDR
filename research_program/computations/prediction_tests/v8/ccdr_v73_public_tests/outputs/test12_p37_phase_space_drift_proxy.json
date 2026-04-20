@@ -1,0 +1,21 @@
+{
+  "data_sources": [
+    {
+      "label": "SPARC rotation curves",
+      "url": "https://zenodo.org/records/16284118"
+    }
+  ],
+  "description": "Use a SPARC-derived rotation-curve proxy and a \u03bd_MOND reference to simulate orbit-phase-tagged detector events and measure a screening-level opposite-phase energy offset.",
+  "generated_utc": "2026-04-20T08:37:50Z",
+  "notes": [],
+  "simulation": {
+    "fractional_drift_per_orbit": 8.737600000000001e-05,
+    "local_a0_anchor": 3.8830965146001724,
+    "n_events": 3000,
+    "nu_mond_input": 0.00508,
+    "opposite_phase_energy_offset": -0.0007476546030049658,
+    "z_score": -0.8220716083103694
+  },
+  "status": "ok",
+  "test_name": "T12 \u2014 P37 phase-space drift proxy"
+}

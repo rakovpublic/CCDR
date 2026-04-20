@@ -1,0 +1,64 @@
+{
+  "act_proxy": {
+    "bootstrap_delta": {
+      "hi": -1763564.3917119994,
+      "lo": -2024264.6697919997,
+      "n": 1250,
+      "value": -1907083.5559999992
+    },
+    "delta_kappa": -1907083.5559999999,
+    "n_high": 1250,
+    "n_low": 1250,
+    "path": "ACT_DR6",
+    "pearson": {
+      "n": 5000,
+      "pvalue": 1.5882280309709754e-28,
+      "r": -0.15576101472166795
+    },
+    "spearman": {
+      "n": 5000,
+      "pvalue": 5.277921125735095e-07,
+      "rho": -0.07086440646690957
+    }
+  },
+  "data_sources": [
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    },
+    {
+      "label": "ACT DR6 lensing release",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    }
+  ],
+  "description": "Query Euclid Q1 public galaxies, compute a local-density proxy, and test sign stability of density-correlated lensing on ACT DR6 and Planck PR4 public maps.",
+  "generated_utc": "2026-04-20T13:52:11Z",
+  "headline": {
+    "same_positive_sign": false,
+    "screening_interpretation": "Support-like if both public lensing paths return positive \u0394\u03ba and positive density\u2013\u03ba correlation."
+  },
+  "notes": [
+    "Planck PR4 public asset download may depend on current GitHub release tag naming; ACT path still executed."
+  ],
+  "planck_proxy": {
+    "reason": "Could not locate Planck PR4 kappa map in archive: No tar member matching /.*kappa.*fits$/ in PR42018like_maps.tar",
+    "status": "unavailable"
+  },
+  "sample": {
+    "dec_range_deg": [
+      -50.25466015195209,
+      66.43415933948397
+    ],
+    "n_galaxies": 5000,
+    "ra_range_deg": [
+      51.12360053861999,
+      275.07951993124686
+    ],
+    "z_range": [
+      0.200000003,
+      1.5
+    ]
+  },
+  "status": "ok",
+  "test_name": "T1 \u2014 P30 non-Euclid lensing replication"
+}

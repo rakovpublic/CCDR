@@ -1,0 +1,48 @@
+{
+  "data_sources": [
+    {
+      "label": "DESI DR2 BAO summary files",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    }
+  ],
+  "density_proxy_summary": {
+    "mean": 30273883.158842478,
+    "q25": 5136634.306460235,
+    "q75": 46661041.55352617
+  },
+  "description": "Use public DESI DR2 summary products to estimate the current rd spread and combine with a Euclid density proxy to quantify the predicted screening-level \u03b4rd scale pending density-binned DR3 likelihoods.",
+  "desi_bao_summary": {
+    "DH_over_rs": {
+      "n": 9,
+      "value_median": 17.87612922,
+      "z_max": 2.33,
+      "z_min": 0.51
+    },
+    "DM_over_rs": {
+      "n": 9,
+      "value_median": 21.70841761,
+      "z_max": 2.33,
+      "z_min": 0.51
+    },
+    "DV_over_rs": {
+      "n": 4,
+      "value_median": 16.998650545,
+      "z_max": 1.491,
+      "z_min": 0.295
+    }
+  },
+  "generated_utc": "2026-04-20T10:15:17Z",
+  "notes": [],
+  "prediction_proxy": {
+    "delta_r_over_r": 3.539669680160234e-05,
+    "delta_rd_mpc": 0.005206500132547688,
+    "nu_mond_reference": 0.00508,
+    "real_test_requires_density_binned_DR3": true
+  },
+  "status": "ok",
+  "test_name": "T8 \u2014 P33 density-correlated BAO"
+}

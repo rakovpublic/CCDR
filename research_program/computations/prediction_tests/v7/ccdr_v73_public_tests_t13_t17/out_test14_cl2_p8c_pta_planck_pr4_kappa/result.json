@@ -1,0 +1,270 @@
+{
+  "test_name": "T14 / CL2 / P8c PTA \u00d7 Planck PR4 kappa",
+  "analysis_mode": "pulsar-position public-data proxy",
+  "n_pulsars": 30,
+  "map_path": "test14_cache\\planck_pr4\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+  "mask_path": null,
+  "mean_wrms_us": 52.5746287564684,
+  "mean_kappa": 1958491.4666666666,
+  "pearson_r": 0.31354381344609267,
+  "pearson_p": 0.09155993021006395,
+  "spearman_r": 0.19021134593993325,
+  "spearman_p": 0.3140350118187451,
+  "pearson_boot_mean": 0.3032714976333385,
+  "pearson_boot_ci95": [
+    -0.010906015092103195,
+    0.5988945230225042
+  ],
+  "spearman_boot_mean": 0.17729287704280886,
+  "spearman_boot_ci95": [
+    -0.19302746298167764,
+    0.5589231851683578
+  ],
+  "same_sign_as_p30": true,
+  "falsification_logic": {
+    "confirm_like": "Positive PTA\u2013kappa correlation with bootstrap support, same sign as P30.",
+    "falsify_like": "Null or wrong-sign correlation."
+  },
+  "pulsars": [
+    {
+      "name": "J1455-3330_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1455-3330_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1455-3330_PINT_20220301.nb.tim",
+      "ra_deg": 223.95413749061748,
+      "dec_deg": -33.51399787206289,
+      "wrms_us": 103.6187689672617
+    },
+    {
+      "name": "J0709+0458_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0709+0458_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0709+0458_PINT_20220302.nb.tim",
+      "ra_deg": 107.28853055668661,
+      "dec_deg": 4.9805139336077655,
+      "wrms_us": 89.33981746766385
+    },
+    {
+      "name": "J1453+1902_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1453+1902_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1453+1902_PINT_20220302.nb.tim",
+      "ra_deg": 223.44367803265297,
+      "dec_deg": 19.03557245414597,
+      "wrms_us": 85.88587123190742
+    },
+    {
+      "name": "J1719-1438_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1719-1438_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1719-1438_PINT_20220302.nb.tim",
+      "ra_deg": 259.79592504305253,
+      "dec_deg": -14.633885325427007,
+      "wrms_us": 85.34272681769107
+    },
+    {
+      "name": "J2302+4442_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J2302+4442_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J2302+4442_PINT_20220302.nb.tim",
+      "ra_deg": 345.6989121455077,
+      "dec_deg": 44.70762732668672,
+      "wrms_us": 78.93311792062283
+    },
+    {
+      "name": "J1125+7819_PINT_20220304.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1125+7819_PINT_20220304.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1125+7819_PINT_20220304.nb.tim",
+      "ra_deg": 171.50410785066066,
+      "dec_deg": 78.32867091680362,
+      "wrms_us": 66.6347254880267
+    },
+    {
+      "name": "J0340+4130_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0340+4130_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0340+4130_PINT_20220302.nb.tim",
+      "ra_deg": 55.10169993882637,
+      "dec_deg": 41.51346244233687,
+      "wrms_us": 61.59853996381847
+    },
+    {
+      "name": "J0931-1902_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0931-1902_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0931-1902_PINT_20220301.nb.tim",
+      "ra_deg": 142.83287813174906,
+      "dec_deg": -19.049850649194735,
+      "wrms_us": 59.72971643442971
+    },
+    {
+      "name": "J1747-4036_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1747-4036_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1747-4036_PINT_20220302.nb.tim",
+      "ra_deg": 266.9578531943248,
+      "dec_deg": -40.61530281430575,
+      "wrms_us": 56.854521193155996
+    },
+    {
+      "name": "J1312+0051_PINT_20220303.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1312+0051_PINT_20220303.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1312+0051_PINT_20220303.nb.tim",
+      "ra_deg": 198.19783948905373,
+      "dec_deg": 0.848542894581598,
+      "wrms_us": 54.20626583095839
+    },
+    {
+      "name": "J0610-2100_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0610-2100_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0610-2100_PINT_20220301.nb.tim",
+      "ra_deg": 92.55962691843423,
+      "dec_deg": -21.007784008054458,
+      "wrms_us": 53.66230174027281
+    },
+    {
+      "name": "J1918-0642_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1918-0642_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1918-0642_PINT_20220302.nb.tim",
+      "ra_deg": 289.7038496225689,
+      "dec_deg": -6.709177850002578,
+      "wrms_us": 48.52768804002537
+    },
+    {
+      "name": "J1012+5307_PINT_20220305.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1012+5307_PINT_20220305.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1012+5307_PINT_20220305.nb.tim",
+      "ra_deg": 153.14380518576385,
+      "dec_deg": 53.11590764991236,
+      "wrms_us": 46.54678153793738
+    },
+    {
+      "name": "J1012-4235_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1012-4235_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1012-4235_PINT_20220301.nb.tim",
+      "ra_deg": 153.0568169712256,
+      "dec_deg": -42.59954604460775,
+      "wrms_us": 45.96010879815675
+    },
+    {
+      "name": "J1024-0719_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1024-0719_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1024-0719_PINT_20220302.nb.tim",
+      "ra_deg": 156.1645587472551,
+      "dec_deg": -7.323550934548127,
+      "wrms_us": 45.879639246428034
+    },
+    {
+      "name": "J0605+3757_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0605+3757_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0605+3757_PINT_20220301.nb.tim",
+      "ra_deg": 91.27784606928262,
+      "dec_deg": 37.95994832226158,
+      "wrms_us": 44.612025701546386
+    },
+    {
+      "name": "J0636+5128_PINT_20220303.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0636+5128_PINT_20220303.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0636+5128_PINT_20220303.nb.tim",
+      "ra_deg": 99.02566223872498,
+      "dec_deg": 51.48308107262839,
+      "wrms_us": 44.414842391302706
+    },
+    {
+      "name": "J2214+3000_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J2214+3000_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J2214+3000_PINT_20220302.nb.tim",
+      "ra_deg": 333.6650530973274,
+      "dec_deg": 30.01199149892512,
+      "wrms_us": 44.39418731739575
+    },
+    {
+      "name": "J1751-2857_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1751-2857_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1751-2857_PINT_20220301.nb.tim",
+      "ra_deg": 267.8906010573061,
+      "dec_deg": -28.962992002395573,
+      "wrms_us": 43.442071047912975
+    },
+    {
+      "name": "J1944+0907_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1944+0907_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1944+0907_PINT_20220302.nb.tim",
+      "ra_deg": 296.04220485848333,
+      "dec_deg": 9.12373132009781,
+      "wrms_us": 41.75768774284594
+    },
+    {
+      "name": "B1953+29_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\B1953+29_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\B1953+29_PINT_20220301.nb.tim",
+      "ra_deg": 298.8689392315814,
+      "dec_deg": 29.146142792193622,
+      "wrms_us": 40.366926891418416
+    },
+    {
+      "name": "J2124-3358_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J2124-3358_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J2124-3358_PINT_20220301.nb.tim",
+      "ra_deg": 321.18685639559334,
+      "dec_deg": -33.9780694411962,
+      "wrms_us": 39.88049622894768
+    },
+    {
+      "name": "J0509+0856_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0509+0856_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0509+0856_PINT_20220302.nb.tim",
+      "ra_deg": 77.34643334192448,
+      "dec_deg": 8.940621264394471,
+      "wrms_us": 39.79566244806709
+    },
+    {
+      "name": "J1802-2124_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1802-2124_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1802-2124_PINT_20220302.nb.tim",
+      "ra_deg": 270.52637905649374,
+      "dec_deg": -21.40101137258261,
+      "wrms_us": 39.78774688706301
+    },
+    {
+      "name": "J2033+1734_PINT_20220304.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J2033+1734_PINT_20220304.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J2033+1734_PINT_20220304.nb.tim",
+      "ra_deg": 308.36779156340214,
+      "dec_deg": 17.58386023929491,
+      "wrms_us": 38.12063099305331
+    },
+    {
+      "name": "J2010-1323_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J2010-1323_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J2010-1323_PINT_20220302.nb.tim",
+      "ra_deg": 302.6951964207354,
+      "dec_deg": -13.398083832094292,
+      "wrms_us": 36.55698269221216
+    },
+    {
+      "name": "J0557+1551_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J0557+1551_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J0557+1551_PINT_20220302.nb.tim",
+      "ra_deg": 89.38502160802754,
+      "dec_deg": 15.835039954176896,
+      "wrms_us": 35.85200830189562
+    },
+    {
+      "name": "J1923+2515_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1923+2515_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1923+2515_PINT_20220301.nb.tim",
+      "ra_deg": 290.8465799084337,
+      "dec_deg": 25.261815563949582,
+      "wrms_us": 35.51880911073415
+    },
+    {
+      "name": "J2229+2643_PINT_20220301.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J2229+2643_PINT_20220301.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J2229+2643_PINT_20220301.nb.tim",
+      "ra_deg": 337.4652658878458,
+      "dec_deg": 26.734102402593958,
+      "wrms_us": 35.364047183623555
+    },
+    {
+      "name": "J1738+0333_PINT_20220302.nb",
+      "par": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\par\\J1738+0333_PINT_20220302.nb.par",
+      "tim": "test14_cache\\nanograv15yr\\NANOGrav15yr_PulsarTiming_v2.1.0\\narrowband\\tim\\J1738+0333_PINT_20220302.nb.tim",
+      "ra_deg": 264.7283224691679,
+      "dec_deg": 3.5528842528442066,
+      "wrms_us": 34.654147077676434
+    }
+  ]
+}

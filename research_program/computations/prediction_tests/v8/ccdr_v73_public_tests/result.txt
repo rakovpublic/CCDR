@@ -1,0 +1,608 @@
+{
+  "act_proxy": {
+    "bootstrap_delta": {
+      "hi": -965732.4264960003,
+      "lo": -1137525.2036160002,
+      "n": 1250,
+      "value": -1048537.3272000002
+    },
+    "delta_kappa": -1048537.3271999992,
+    "n_high": 1250,
+    "n_low": 1250,
+    "path": "ACT_DR6",
+    "pearson": {
+      "n": 5000,
+      "pvalue": 4.0021917291633896e-07,
+      "r": -0.07161027855008717
+    },
+    "spearman": {
+      "n": 5000,
+      "pvalue": 1.8363519317172416e-135,
+      "rho": -0.3399181555342538
+    }
+  },
+  "data_sources": [
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    },
+    {
+      "label": "ACT DR6 lensing release",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    }
+  ],
+  "description": "Query Euclid Q1 public galaxies, compute a local-density proxy, and test sign stability of density-correlated lensing on ACT DR6 and Planck PR4 public maps.",
+  "generated_utc": "2026-04-20T08:59:59Z",
+  "headline": {
+    "same_positive_sign": false,
+    "screening_interpretation": "Support-like if both public lensing paths return positive \u0394\u03ba and positive density\u2013\u03ba correlation."
+  },
+  "notes": [
+    "Planck PR4 public asset download may depend on current GitHub release tag naming; ACT path still executed."
+  ],
+  "planck_proxy": {
+    "reason": "Could not locate Planck PR4 kappa map in archive: No tar member matching /.*kappa.*fits$/ in PR42018like_maps.tar",
+    "status": "unavailable"
+  },
+  "sample": {
+    "dec_range_deg": [
+      -49.853377190234326,
+      66.43498216219722
+    ],
+    "n_galaxies": 5000,
+    "ra_range_deg": [
+      51.13366687094441,
+      275.0706500487295
+    ],
+    "z_range": [
+      0.200000003,
+      1.5
+    ]
+  },
+  "status": "ok",
+  "test_name": "T1 \u2014 P30 non-Euclid lensing replication"
+}
+{
+  "baseline_delta_kappa": -3865041.4872000003,
+  "data_sources": [
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    },
+    {
+      "label": "ACT DR6 lensing release",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    }
+  ],
+  "description": "Repeat the P30 proxy on Euclid Q1 with public ACT lensing while auditing redshift, RA/Dec, quantile-threshold, and sky-patch stability.",
+  "generated_utc": "2026-04-20T10:04:57Z",
+  "headline": {
+    "all_subset_splits_same_sign": false,
+    "threshold_monotonic_nonincreasing": false
+  },
+  "notes": [],
+  "patch_spread": 4441415.875765799,
+  "sky_patches": {
+    "RA[51.1,63.2)_DEC[-48.1,66.4)": {
+      "delta_kappa": 190812.3706896566,
+      "n": 925
+    },
+    "RA[51.1,63.2)_DEC[-49.9,-48.1)": {
+      "delta_kappa": -183063.06598984823,
+      "n": 1575
+    },
+    "RA[63.2,275.1)_DEC[-48.1,66.4)": {
+      "delta_kappa": -4250603.505076142,
+      "n": 1575
+    },
+    "RA[63.2,275.1)_DEC[-49.9,-48.1)": {
+      "delta_kappa": 12977.939655171707,
+      "n": 925
+    }
+  },
+  "status": "ok",
+  "subset_splits": {
+    "dec_high": {
+      "delta_kappa": -3221973.8368000006,
+      "delta_minus_baseline": 643067.6503999997,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "dec_low": {
+      "delta_kappa": -53057.83359999955,
+      "delta_minus_baseline": 3811983.653600001,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "ra_high": {
+      "delta_kappa": -5947568.1776,
+      "delta_minus_baseline": -2082526.6903999997,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "ra_low": {
+      "delta_kappa": 75359.71839999966,
+      "delta_minus_baseline": 3940401.2056,
+      "n": 2500,
+      "same_sign_as_baseline": false
+    },
+    "z_high": {
+      "delta_kappa": -3703434.330618892,
+      "delta_minus_baseline": 161607.15658110846,
+      "n": 2456,
+      "same_sign_as_baseline": true
+    },
+    "z_low": {
+      "delta_kappa": -3879621.9009433957,
+      "delta_minus_baseline": -14580.413743395358,
+      "n": 2544,
+      "same_sign_as_baseline": true
+    }
+  },
+  "test_name": "T2 \u2014 P30 Euclid-Q1 systematics audit",
+  "threshold_scan": {
+    "0.2": -4280508.408,
+    "0.25": -3865041.4872000003,
+    "0.3": -3454557.904000001,
+    "0.35": -3157314.5969933914
+  }
+}
+{
+  "data_sources": [
+    {
+      "label": "SPARC rotation curves",
+      "url": "https://zenodo.org/records/16284118"
+    },
+    {
+      "label": "KMOS3D public data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    }
+  ],
+  "description": "Estimate a local SPARC anchor and a high-z KMOS3D acceleration proxy, then test upward a0(z) behavior and a three-point \u03bd-like gap closure.",
+  "generated_utc": "2026-04-20T10:06:14Z",
+  "highz_proxy": {
+    "mean_a0_proxy": 2.1744492053985596,
+    "n_points": 64,
+    "spearman": {
+      "n": 64,
+      "pvalue": 0.028160620906138863,
+      "rho": 0.27449633699633696
+    },
+    "z_max": 0.8276299834251404,
+    "z_min": 0.6022099852561951
+  },
+  "local_anchor": {
+    "a0_proxy": 2.1744491621641444,
+    "median_absolute_deviation": 1.7761596270141897,
+    "n_curves": 12
+  },
+  "notes": [],
+  "status": "ok",
+  "test_name": "T3 \u2014 High-z a0 with SPARC + KMOS3D proxy",
+  "three_point_extractor": {
+    "closed_gap_fraction": 4.970731888259848e-09,
+    "nu_mond_proxy": 1e-05
+  }
+}
+{
+  "data_sources": [
+    {
+      "label": "Pantheon+ DataRelease",
+      "url": "https://github.com/PantheonPlusSH0ES/DataRelease"
+    },
+    {
+      "label": "DESI DR2 BAO data",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/final_consensus_covtot_dM_Hz_fsig.txt"
+    }
+  ],
+  "description": "Use public Pantheon+ and DESI DR2 products to compare low-z and high-z \u03bd-sensitive residual behavior and quantify whether the preference is carried by low-z SNe.",
+  "desi_consensus_shape": {
+    "columns": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rows": 9
+  },
+  "generated_utc": "2026-04-20T10:06:26Z",
+  "notes": [],
+  "nu_triangle_proxy": {
+    "max_pairwise_ratio": 5.122098675798685,
+    "nu_mond_reference": 0.00508,
+    "nu_q_proxy": 0.001,
+    "nu_sn_proxy": 0.005122098675798685,
+    "sn_lowz_systematic_reinforced": true
+  },
+  "pantheon_sigma_like": {
+    "pantheon_highz": 576.0801606783411,
+    "pantheon_lowz": 980.0779715481502,
+    "pantheon_zcmb": 1014.0514980463207,
+    "pantheon_zhel": 887.5035166973906
+  },
+  "status": "ok",
+  "test_name": "T4 \u2014 Public \u03bd re-drive"
+}
+{
+  "data_sources": [
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    }
+  ],
+  "description": "Estimate local filament axes from Euclid Q1 geometry, measure pairwise orientation correlation, and compare full-sample, low-density, and high-density subsets against a shuffled null.",
+  "full_sample": {
+    "corr": [
+      0.6655603538998015,
+      0.7236422089317804,
+      0.7365861990018532,
+      NaN,
+      0.6474320840371355,
+      0.6292543586196927
+    ],
+    "corr_mean": 0.6804950408980526,
+    "corr_null": [
+      0.6311300626222403,
+      0.6163430787978766,
+      0.5954966619140863,
+      NaN,
+      0.6252827386092349,
+      0.6241503631527326
+    ],
+    "corr_null_mean": 0.6184805810192342,
+    "exp_fit_scale": 0.03097542421247053,
+    "observed_minus_null": 0.06201445987881837
+  },
+  "generated_utc": "2026-04-20T10:06:34Z",
+  "headline": {
+    "density_dependence_proxy": -0.020222803900601716,
+    "expected_direction": true
+  },
+  "high_density": {
+    "corr": [
+      0.7092119777363182,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_mean": 0.7092119777363182,
+    "corr_null": [
+      0.6281042489883258,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_null_mean": 0.6281042489883258,
+    "exp_fit_scale": 0.0064949953285678335,
+    "observed_minus_null": 0.08110772874799232
+  },
+  "low_density": {
+    "corr": [
+      0.7530434630982625,
+      0.8458387485778243,
+      0.8517684263694305,
+      NaN,
+      0.8620500173449549,
+      0.6227870823973984
+    ],
+    "corr_mean": 0.7870975475575741,
+    "corr_null": [
+      0.6923901480648537,
+      0.7519046403504371,
+      0.8255867885734931,
+      NaN,
+      0.6590783172530609,
+      0.7021032193090732
+    ],
+    "corr_null_mean": 0.7262126227101835,
+    "exp_fit_scale": 0.030073467133870383,
+    "observed_minus_null": 0.06088492484739061
+  },
+  "notes": [],
+  "status": "ok",
+  "test_name": "T5 \u2014 Euclid-Q1 filament ordering"
+}
+{
+  "data_sources": [
+    {
+      "label": "SDSS DR16 LRG BAO+FS file",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "label": "SDSS DR16 QSO BAO+FS file",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat"
+    }
+  ],
+  "description": "Extract public multi-redshift f\u03c38 points from public BAO+FS tables and fit a simple live/frozen dark-sector mixture to screen for wrong-sign or positive \u03b1 behavior.",
+  "fit": {
+    "alpha": -1.579204986532497,
+    "chi2": 4.356629258771342,
+    "delta_chi2_against_zeroish": -333.20208069133463,
+    "frozen_fraction": 0.6068783887548448,
+    "live_fraction": 0.39312161124515516,
+    "ndof": 2,
+    "wrong_sign_standalone": true
+  },
+  "fs8_points": [
+    {
+      "fs8": 0.4974,
+      "z": 0.38
+    },
+    {
+      "fs8": 0.459,
+      "z": 0.51
+    },
+    {
+      "fs8": 0.4730038921505922,
+      "z": 0.698
+    },
+    {
+      "fs8": 0.462,
+      "z": 1.48
+    }
+  ],
+  "generated_utc": "2026-04-20T10:07:00Z",
+  "notes": [],
+  "status": "ok",
+  "test_name": "T6 \u2014 P29 multi-redshift growth"
+}
+{
+  "data_sources": [
+    {
+      "label": "SPARC rotation curves",
+      "url": "https://zenodo.org/records/16284118"
+    },
+    {
+      "label": "KMOS3D public data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    }
+  ],
+  "description": "Standalone three-point \u03bd extractor built from a local SPARC anchor, a public high-z KMOS3D proxy, and an asymptotic cH0-like endpoint.",
+  "extractor": {
+    "asymptotic_anchor": 19.415482573000862,
+    "closed_gap_fraction": 1.0,
+    "highz_proxy_median": 1215.3858642578125,
+    "in_reference_band_1e3_1e2": false,
+    "local_anchor": 3.8830965146001724,
+    "nu_mond_proxy": 0.0112
+  },
+  "generated_utc": "2026-04-20T10:07:11Z",
+  "notes": [],
+  "status": "ok",
+  "test_name": "T7 \u2014 P36 MOND-sequence \u03bd extractor"
+}
+{
+  "data_sources": [
+    {
+      "label": "DESI DR2 BAO summary files",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    }
+  ],
+  "density_proxy_summary": {
+    "mean": 30273883.158842478,
+    "q25": 5136634.306460235,
+    "q75": 46661041.55352617
+  },
+  "description": "Use public DESI DR2 summary products to estimate the current rd spread and combine with a Euclid density proxy to quantify the predicted screening-level \u03b4rd scale pending density-binned DR3 likelihoods.",
+  "desi_bao_summary": {
+    "DH_over_rs": {
+      "n": 9,
+      "value_median": 17.87612922,
+      "z_max": 2.33,
+      "z_min": 0.51
+    },
+    "DM_over_rs": {
+      "n": 9,
+      "value_median": 21.70841761,
+      "z_max": 2.33,
+      "z_min": 0.51
+    },
+    "DV_over_rs": {
+      "n": 4,
+      "value_median": 16.998650545,
+      "z_max": 1.491,
+      "z_min": 0.295
+    }
+  },
+  "generated_utc": "2026-04-20T10:15:17Z",
+  "notes": [],
+  "prediction_proxy": {
+    "delta_r_over_r": 3.539669680160234e-05,
+    "delta_rd_mpc": 0.005206500132547688,
+    "nu_mond_reference": 0.00508,
+    "real_test_requires_density_binned_DR3": true
+  },
+  "status": "ok",
+  "test_name": "T8 \u2014 P33 density-correlated BAO"
+}
+{
+  "cross_correlation": {
+    "mean_kappa_field": NaN,
+    "mean_pta_field": 0.0,
+    "pearson": {
+      "n": 0,
+      "pvalue": NaN,
+      "r": NaN
+    },
+    "same_sign_as_p30": false,
+    "spearman": {
+      "n": 0,
+      "pvalue": NaN,
+      "rho": NaN
+    }
+  },
+  "data_sources": [
+    {
+      "label": "NANOGrav 15-year archive",
+      "url": "https://zenodo.org/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz?download=1"
+    },
+    {
+      "label": "SDSS DR17 SkyServer SQL",
+      "url": "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch"
+    },
+    {
+      "label": "ACT DR6 lensing release",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    }
+  ],
+  "description": "Use public NANOGrav pulsar positions, a public SDSS galaxy sample, and a public ACT lensing proxy to test whether the PTA-proxy field tracks the same sign as the P30 density\u2013\u03ba field.",
+  "generated_utc": "2026-04-20T10:24:46Z",
+  "notes": [],
+  "pulsars": [
+    {
+      "dec": -21.401010853275466,
+      "name": "J1802-2124",
+      "ra": 270.52637904886734
+    },
+    {
+      "dec": -2.013218226117997,
+      "name": "J0613-0200",
+      "ra": 93.43672610932059
+    },
+    {
+      "dec": -7.837190851962314,
+      "name": "J2145-0750",
+      "ra": 326.46390877523385
+    },
+    {
+      "dec": -47.25217879275907,
+      "name": "J0437-4715",
+      "ra": 69.31870718944421
+    },
+    {
+      "dec": -22.509391305545346,
+      "name": "J1614-2230",
+      "ra": 243.65623626815628
+    },
+    {
+      "dec": 4.862561585671692,
+      "name": "J0030+0451",
+      "ra": 7.617842573573883
+    },
+    {
+      "dec": 21.583738730638043,
+      "name": "B1937+21",
+      "ra": 294.9136642324771
+    }
+  ],
+  "status": "ok",
+  "test_name": "T9 \u2014 CL2 P8c reducing-volume cross"
+}
+{
+  "data_sources": [
+    {
+      "label": "SDSS DR17 SkyServer SQL",
+      "url": "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch"
+    }
+  ],
+  "description": "Build a lightweight public SDSS void proxy by seeding low-density minima, stacking radial shells, and measuring transverse kurtosis against the k4 > 4 screening threshold.",
+  "generated_utc": "2026-04-20T10:27:47Z",
+  "notes": [],
+  "status": "ok",
+  "test_name": "T10 \u2014 P38 void-wall Cauchy tail",
+  "void_proxy": {
+    "gaussian_baseline": 3.0,
+    "n_shell_values": 220,
+    "n_voids": 20,
+    "threshold_k4_gt_4": false,
+    "transverse_kurtosis_k4": 3.516786289566383
+  }
+}
+{
+  "curve_coverage": {
+    "pandax4t_xlsx": {
+      "reason": "\"None of the candidate columns found: ['mass', 'mx', 'mchi', 'wimp_mass', 'm_dm', 'x']\"",
+      "status": "unparsed"
+    },
+    "xenonnt_2025_sd_neutron_wimp": {
+      "coverage_gev": 1478.5991712000316,
+      "max_mass": 2000.0,
+      "min_mass": 521.4008287999684
+    },
+    "xenonnt_2025_sd_proton_wimp": {
+      "coverage_gev": 1478.5991712000316,
+      "max_mass": 2000.0,
+      "min_mass": 521.4008287999684
+    },
+    "xenonnt_2025_si_wimp": {
+      "coverage_gev": 1478.5991712000316,
+      "max_mass": 2000.0,
+      "min_mass": 521.4008287999684
+    }
+  },
+  "data_sources": [
+    {
+      "label": "XENONnT public WIMP data release",
+      "url": "https://github.com/XENONnT/wimp_data_release"
+    },
+    {
+      "label": "PandaX-4T first-analysis public data",
+      "url": "https://pandax.sjtu.edu.cn/public/data_release/PandaX-4T/first_analysis"
+    },
+    {
+      "label": "LZ HEPData record",
+      "url": "https://www.hepdata.net/record/145090"
+    }
+  ],
+  "description": "Download public direct-detection limit curves, measure how much of the 0.5\u20133 TeV target window they cover, and report whether public products have window overlap even if they do not yet have peak-resolution readiness.",
+  "generated_utc": "2026-04-20T08:37:21Z",
+  "notes": [],
+  "readiness": {
+    "expected_n_peaks_under_prior": {
+      "0.3": {
+        "N11": 1.43,
+        "N6": 1.3,
+        "N8": 1.42
+      },
+      "0.5": {
+        "N11": 1.98,
+        "N6": 1.5,
+        "N8": 1.88
+      },
+      "0.7": {
+        "N11": 3.06,
+        "N6": 1.7,
+        "N8": 2.53
+      }
+    },
+    "operational_window_overlap_now": true,
+    "peak_count_ready_now": false,
+    "screening_interpretation": "Window overlap can be true while peak-resolution readiness remains false."
+  },
+  "status": "ok",
+  "test_name": "T11 \u2014 Hard-core window readiness"
+}
+{
+  "data_sources": [
+    {
+      "label": "SPARC rotation curves",
+      "url": "https://zenodo.org/records/16284118"
+    }
+  ],
+  "description": "Use a SPARC-derived rotation-curve proxy and a \u03bd_MOND reference to simulate orbit-phase-tagged detector events and measure a screening-level opposite-phase energy offset.",
+  "generated_utc": "2026-04-20T08:37:50Z",
+  "notes": [],
+  "simulation": {
+    "fractional_drift_per_orbit": 8.737600000000001e-05,
+    "local_a0_anchor": 3.8830965146001724,
+    "n_events": 3000,
+    "nu_mond_input": 0.00508,
+    "opposite_phase_energy_offset": -0.0007476546030049658,
+    "z_score": -0.8220716083103694
+  },
+  "status": "ok",
+  "test_name": "T12 \u2014 P37 phase-space drift proxy"
+}
