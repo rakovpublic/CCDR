@@ -10,9 +10,8 @@ from _common_public_data import (
     finalize_result,
     json_result_template,
     load_act_dr6_kappa_sampler,
-    sample_euclid_overlap_with_sampler,
+    build_public_density_targets_with_sampler,
     load_planck_pr4_kappa_sampler,
-    local_density_proxy,
     quantile_split,
     robust_pearson,
     robust_spearman,
@@ -45,9 +44,8 @@ def main() -> None:
     )
 
     act = load_act_dr6_kappa_sampler()
-    gal, kappa_act = sample_euclid_overlap_with_sampler(act, max_rows=args.max_rows, seed=args.seed)
-    density = local_density_proxy(gal["ra"], gal["dec"], k=10)
-    gal["density_proxy"] = density
+    gal, kappa_act, catalog_source = build_public_density_targets_with_sampler(act, max_rows=args.max_rows, seed=args.seed)
+    density = np.asarray(gal["density_proxy"], dtype=float)
     result["sample"] = {
         "n_galaxies": int(len(gal)),
         "ra_range_deg": [float(gal["ra"].min()), float(gal["ra"].max())],
@@ -59,14 +57,18 @@ def main() -> None:
     good = np.isfinite(kappa_act)
     act_summary = summarize_path("ACT_DR6", kappa_act[good], density[good], q=args.q)
     result["act_proxy"] = act_summary
-    add_source(result, "Euclid Q1 IRSA TAP", "https://irsa.ipac.caltech.edu/TAP/sync")
+    if catalog_source.startswith("Euclid"):
+        add_source(result, "Euclid Q1 IRSA TAP", "https://irsa.ipac.caltech.edu/TAP/sync")
+    else:
+        add_source(result, "SDSS DR17 SkyServer SQL", "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch")
+        result["notes"].append("Used SDSS fallback galaxy catalog because Euclid ACT-overlap sample was unavailable or too sparse.")
     add_source(result, "ACT DR6 lensing release", "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz")
 
     # Planck path: optional but attempted.
     try:
         pl = load_planck_pr4_kappa_sampler()
-        gal_pl, kappa_pl = sample_euclid_overlap_with_sampler(pl, max_rows=min(args.max_rows, 4000), seed=args.seed)
-        dens_pl = local_density_proxy(gal_pl["ra"], gal_pl["dec"], k=10)
+        gal_pl, kappa_pl, catalog_source_pl = build_public_density_targets_with_sampler(pl, max_rows=min(args.max_rows, 4000), seed=args.seed)
+        dens_pl = np.asarray(gal_pl["density_proxy"], dtype=float)
         good_pl = np.isfinite(kappa_pl)
         result["planck_proxy"] = summarize_path("Planck_PR4", kappa_pl[good_pl], dens_pl[good_pl], q=args.q)
         add_source(result, "Planck PR4 lensing release", "https://github.com/carronj/planck_PR4_lensing/releases")

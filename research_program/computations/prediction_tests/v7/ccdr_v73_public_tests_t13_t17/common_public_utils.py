@@ -61,6 +61,14 @@ def log(*parts: object) -> None:
     print(*parts, file=sys.stderr, flush=True)
 
 
+def _to_native_endian(arr: np.ndarray) -> np.ndarray:
+    arr = np.asarray(arr)
+    dt = arr.dtype
+    if getattr(dt, "byteorder", "=") in ("=", "|") or dt.isnative:
+        return arr
+    return arr.byteswap().view(dt.newbyteorder("="))
+
+
 def session() -> requests.Session:
     s = requests.Session()
     s.headers.update({"User-Agent": USER_AGENT})
@@ -85,18 +93,30 @@ def download_file(url: str, dest: os.PathLike | str, overwrite: bool = False, ti
         return dest
     ensure_dir(dest.parent)
     tmp = dest.with_suffix(dest.suffix + ".part")
-    with session().get(url, stream=True, timeout=timeout) as r:
+    if overwrite and tmp.exists():
+        tmp.unlink()
+    resume_from = tmp.stat().st_size if tmp.exists() else 0
+    headers = {}
+    mode = "ab" if resume_from else "wb"
+    if resume_from:
+        headers["Range"] = f"bytes={resume_from}-"
+    with session().get(url, stream=True, timeout=timeout, headers=headers) as r:
+        if resume_from and r.status_code == 200:
+            resume_from = 0
+            mode = "wb"
+        elif resume_from and r.status_code != 206:
+            raise IOError(f"Server did not honor resume request for {url}: HTTP {r.status_code}")
         r.raise_for_status()
-        total = int(r.headers.get("content-length", "0") or 0)
-        written = 0
-        with open(tmp, "wb") as f:
+        total = int(r.headers.get("content-length", "0") or 0) + resume_from
+        written = resume_from
+        with open(tmp, mode) as f:
             for chunk in r.iter_content(chunk_size=2**20):
                 if not chunk:
                     continue
                 f.write(chunk)
                 written += len(chunk)
-        if total and written < total * 0.95:
-            raise IOError(f"Incomplete download for {url}: {written} < {total}")
+    if total and written < total * 0.95:
+        raise IOError(f"Incomplete download for {url}: {written} < {total}")
     tmp.replace(dest)
     return dest
 
@@ -273,18 +293,8 @@ def discover_kmos3d_all_cubes_url() -> Optional[str]:
 
 
 def load_fits_table(path: os.PathLike | str, hdu: int | str = 1) -> np.recarray:
-    with fits.open(path, memmap=True, ignore_missing_end=True) as hdul:
-        try:
-            data = hdul[hdu].data
-            if data is not None:
-                return data.copy()
-        except Exception:
-            pass
-        for h in hdul:
-            data = getattr(h, 'data', None)
-            if data is not None and hasattr(data, 'dtype'):
-                return data.copy()
-    raise RuntimeError(f'No table HDU found in {path}')
+    with fits.open(path, memmap=False, ignore_missing_end=True) as hdul:
+        return hdul[hdu].data.copy()
 
 
 def lower_names(table) -> dict[str, str]:
@@ -313,7 +323,7 @@ def table_to_dataframe(table) -> pd.DataFrame:
         if hasattr(arr, "dtype") and arr.dtype.kind == "S":
             out[n] = np.char.decode(arr.astype("S"), errors="ignore")
         else:
-            out[n] = arr
+            out[n] = _to_native_endian(arr)
     return pd.DataFrame(out)
 
 
@@ -335,36 +345,20 @@ def radec_z_to_cartesian(ra_deg: np.ndarray, dec_deg: np.ndarray, z: np.ndarray,
 def skycoord_from_par(par_path: os.PathLike | str) -> Optional[SkyCoord]:
     raj = None
     decj = None
-    elong = None
-    elat = None
-    for line in Path(par_path).read_text(errors='ignore').splitlines():
+    for line in Path(par_path).read_text(errors="ignore").splitlines():
         parts = line.split()
         if len(parts) < 2:
             continue
         key = parts[0].strip().upper()
-        if key == 'RAJ':
+        if key == "RAJ":
             raj = parts[1]
-        elif key == 'DECJ':
+        elif key == "DECJ":
             decj = parts[1]
-        elif key in {'ELONG', 'LAMBDA'}:
-            elong = parts[1]
-        elif key in {'ELAT', 'BETA'}:
-            elat = parts[1]
     if raj and decj:
         try:
-            return SkyCoord(raj, decj, unit=(u.hourangle, u.deg), frame='icrs')
+            return SkyCoord(raj, decj, unit=(u.hourangle, u.deg), frame="icrs")
         except Exception:
-            try:
-                return SkyCoord(raj, decj, unit=(u.hourangle, u.deg), frame='fk5')
-            except Exception:
-                pass
-    if elong and elat:
-        try:
-            from astropy.coordinates import BarycentricTrueEcliptic
-            c = SkyCoord(float(elong) * u.deg, float(elat) * u.deg, frame=BarycentricTrueEcliptic())
-            return c.icrs
-        except Exception:
-            pass
+            return SkyCoord(raj, decj, unit=(u.hourangle, u.deg), frame="fk5")
     return None
 
 
@@ -391,13 +385,12 @@ def read_tim_error_proxy(tim_path: os.PathLike | str) -> dict:
     err_us = np.asarray(err_us)
     cadence = np.median(np.diff(np.sort(mjd))) if mjd.size > 3 else np.nan
     # Proxy amplitude: larger scatter + longer span -> larger timing-structure opportunity.
-    span_days = float(np.ptp(mjd) if mjd.size else 0.0)
-    proxy = float(np.nanmedian(err_us) * np.sqrt(max(1.0, span_days / max(cadence, 30.0))))
+    proxy = float(np.nanmedian(err_us) * np.sqrt(max(1.0, mjd.ptp() / max(cadence, 30.0))))
     return {
         "n_toa": int(err_us.size),
         "median_toa_err_us": float(np.nanmedian(err_us)),
         "rms_toa_err_us": float(np.sqrt(np.nanmean(err_us**2))),
-        "span_days": span_days,
+        "span_days": float(mjd.ptp() if mjd.size else 0.0),
         "cadence_days": float(cadence),
         "proxy_amplitude": proxy,
     }
