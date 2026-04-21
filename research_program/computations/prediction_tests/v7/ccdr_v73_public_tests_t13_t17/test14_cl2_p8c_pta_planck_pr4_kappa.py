@@ -15,10 +15,9 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import tarfile
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List
 
 import numpy as np
 from scipy.stats import pearsonr, spearmanr
@@ -64,40 +63,24 @@ def download_planck_pr4(cache_dir: Path) -> Path:
     return extract_archive(archive, root)
 
 
-
-
-def _norm_name(s: str) -> str:
-    return re.sub(r"[^A-Za-z0-9]+", "", s).upper()
-
-
-def find_matching_tim(par: Path, tims: List[Path]) -> Optional[Path]:
-    pstem = _norm_name(par.stem)
-    same_branch = [t for t in tims if ('wideband' in str(t).lower()) == ('wideband' in str(par).lower())]
-    search_space = same_branch or tims
-    exact = [t for t in search_space if _norm_name(t.stem) == pstem]
-    if exact:
-        return sorted(exact, key=lambda x: len(str(x)))[0]
-    contains = [t for t in search_space if pstem in _norm_name(t.stem) or _norm_name(t.stem) in pstem]
-    if contains:
-        return sorted(contains, key=lambda x: len(str(x)))[0]
-    return None
-
 def collect_pulsars(root: Path, max_pulsars: int, require_wrms: bool) -> List[Dict[str, object]]:
     pars = sorted(find_files(root, [r"\.par$"]))
-    tims = sorted(find_files(root, [r"\.tim$"]))
     items: List[Dict[str, object]] = []
     for par in pars:
         name = par.stem
-        tim = find_matching_tim(par, tims)
-        if tim is None:
+        tim_candidates = [p for p in par.parent.glob("*.tim") if p.stem == par.stem]
+        if not tim_candidates:
+            tim_candidates = list(par.parent.glob(f"{par.stem}*.tim"))
+        if not tim_candidates:
             continue
+        tim = tim_candidates[0]
         coord = skycoord_from_par(par)
         if coord is None:
             continue
         wrms = try_pint_wrms(par, tim)
         if wrms is None:
             proxy = read_tim_error_proxy(tim)
-            wrms = float(proxy.get("wrms_proxy_us", proxy.get("proxy_amplitude", np.nan)))
+            wrms = float(proxy.get("wrms_proxy_us", np.nan))
         if require_wrms and (not np.isfinite(wrms) or wrms <= 0):
             continue
         items.append(

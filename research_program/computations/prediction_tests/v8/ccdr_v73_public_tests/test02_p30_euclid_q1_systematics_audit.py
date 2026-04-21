@@ -10,8 +10,7 @@ from _common_public_data import (
     finalize_result,
     json_result_template,
     load_act_dr6_kappa_sampler,
-    sample_euclid_overlap_with_sampler,
-    local_density_proxy,
+    build_public_density_targets_with_sampler,
     quantile_split,
 )
 
@@ -32,8 +31,7 @@ def main() -> None:
     )
 
     sampler = load_act_dr6_kappa_sampler()
-    gal, kappa = sample_euclid_overlap_with_sampler(sampler, max_rows=args.max_rows, seed=args.seed)
-    gal["density_proxy"] = local_density_proxy(gal["ra"], gal["dec"], k=10)
+    gal, kappa, catalog_source = build_public_density_targets_with_sampler(sampler, max_rows=args.max_rows, seed=args.seed)
     gal["kappa"] = kappa
     gal = gal[np.isfinite(gal["kappa"])].reset_index(drop=True)
 
@@ -83,7 +81,11 @@ def main() -> None:
     result["sky_patches"] = patch_out
     result["patch_spread"] = float(np.nanmax(patch_values) - np.nanmin(patch_values)) if patch_values else float("nan")
 
-    add_source(result, "Euclid Q1 IRSA TAP", "https://irsa.ipac.caltech.edu/TAP/sync")
+    if catalog_source.startswith("Euclid"):
+        add_source(result, "Euclid Q1 IRSA TAP", "https://irsa.ipac.caltech.edu/TAP/sync")
+    else:
+        add_source(result, "SDSS DR17 SkyServer SQL", "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch")
+        result["notes"].append("Used SDSS fallback galaxy catalog because Euclid ACT-overlap sample was unavailable or too sparse.")
     add_source(result, "ACT DR6 lensing release", "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz")
     result["headline"] = {
         "all_subset_splits_same_sign": all(v["same_sign_as_baseline"] for v in result["subset_splits"].values()),

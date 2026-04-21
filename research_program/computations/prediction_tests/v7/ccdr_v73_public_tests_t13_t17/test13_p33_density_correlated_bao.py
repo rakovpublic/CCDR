@@ -45,27 +45,10 @@ from common_public_utils import (
 )
 
 
-TARGET_ALIASES = {
-    'BGS_ANY': 'BGS_ANY',
-    'BGS_BRIGHT': 'BGS_BRIGHT',
-    'BGS_BRIGHT-21.5': 'BGS_BRIGHT-21.5',
-    'LRG': 'LRG',
-    'QSO': 'QSO',
-    'ELGnotqso': 'ELG_LOPnotqso',
-    'ELG_LOPnotqso': 'ELG_LOPnotqso',
-}
-
-REGION_ALIASES = {
-    'N': 'NGC',
-    'S': 'SGC',
-    'NGC': 'NGC',
-    'SGC': 'SGC',
-}
-
-
 def desi_candidates(version: str, fname: str) -> List[str]:
-    base = f"https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/{version}/{fname}"
-    return [base]
+    base = f"https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/{version}/clustering/{fname}"
+    legacy = f"https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/{version}/{fname}"
+    return [base, legacy]
 
 
 REQUIRED_COLUMNS = {
@@ -161,10 +144,13 @@ def xi_for_subset(data_df: pd.DataFrame, rand_df: pd.DataFrame, bins: np.ndarray
 
     from common_public_utils import cumulative_pair_counts
 
-    dd = cumulative_pair_counts(xyz_d, xyz_d, bins, self_pairs=True)
+    dd = cumulative_pair_counts(xyz_d, xyz_d, bins, self_pairs=False)
     dr = cumulative_pair_counts(xyz_d, xyz_r, bins, self_pairs=False)
-    rr = cumulative_pair_counts(xyz_r, xyz_r, bins, self_pairs=True)
-    xi = landy_szalay(dd, dr, rr, nd=len(xyz_d), nr=len(xyz_r))
+    rr = cumulative_pair_counts(xyz_r, xyz_r, bins, self_pairs=False)
+    dd_bin = np.diff(dd)
+    dr_bin = np.diff(dr)
+    rr_bin = np.diff(rr)
+    xi = landy_szalay(dd_bin, dr_bin, rr_bin, nd=len(xyz_d), nr=len(xyz_r))
     s_mid = 0.5 * (bins[:-1] + bins[1:])
     fit = fit_bao_peak(s_mid, xi)
     return {"s_mid": s_mid, "xi": xi, "fit": fit}
@@ -184,8 +170,6 @@ def run_region(
     bins: np.ndarray,
     rng: np.random.Generator,
 ) -> Dict[str, object]:
-    target = TARGET_ALIASES.get(target, target)
-    region = REGION_ALIASES.get(region, region)
     data_name = f"{target}_{region}_clustering.dat.fits"
     rand_name = f"{target}_{region}_0_clustering.ran.fits"
 
@@ -257,15 +241,16 @@ def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--outdir", default="out_test13_p33_density_correlated_bao")
     ap.add_argument("--cache-dir", default="test13_cache")
-    ap.add_argument("--target", default="BGS_ANY", choices=["BGS_ANY", "BGS_BRIGHT", "BGS_BRIGHT-21.5", "LRG", "ELGnotqso", "ELG_LOPnotqso", "QSO"])
+    ap.add_argument("--target", default="LRG", choices=["BGS_ANY", "LRG", "ELGnotqso", "QSO"])
     ap.add_argument("--version", default="v1.5")
-    ap.add_argument("--zmin", type=float, default=0.1)
-    ap.add_argument("--zmax", type=float, default=0.6)
-    ap.add_argument("--max-data-per-region", type=int, default=20000)
-    ap.add_argument("--max-random-per-region", type=int, default=40000)
+    ap.add_argument("--zmin", type=float, default=0.4)
+    ap.add_argument("--zmax", type=float, default=1.1)
+    ap.add_argument("--max-data-per-region", type=int, default=5000)
+    ap.add_argument("--max-random-per-region", type=int, default=10000)
     ap.add_argument("--density-quantile", type=float, default=0.2)
     ap.add_argument("--knn", type=int, default=16)
     ap.add_argument("--seed", type=int, default=12345)
+    ap.add_argument("--regions", nargs="+", default=["NGC"], help="Galactic-cap regions to analyze; default is quick screening on NGC only")
     ap.add_argument("--s-min", type=float, default=40.0)
     ap.add_argument("--s-max", type=float, default=180.0)
     ap.add_argument("--s-step", type=float, default=5.0)
@@ -274,14 +259,18 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> None:
     args = build_parser().parse_args()
+    log("[T13 v7] starting density-correlated BAO screening")
     outdir = ensure_dir(args.outdir)
     cache_dir = ensure_dir(args.cache_dir)
     rng = np.random.default_rng(args.seed)
     bins = np.arange(args.s_min, args.s_max + args.s_step, args.s_step)
 
     regions = []
-    for region in ["NGC", "SGC"]:
-        log(f"[region] {region}")
+    if args.target == "BGS_ANY":
+        log("[T13 v7] warning: BGS_ANY downloads are substantially larger; LRG is the default quick screen")
+    for region in args.regions:
+        region = {"N":"NGC","S":"SGC","NORTH":"NGC","SOUTH":"SGC"}.get(str(region).upper(), str(region).upper())
+        log(f"[T13 v7] [region] {region}")
         reg = run_region(
             cache_dir=cache_dir,
             target=args.target,

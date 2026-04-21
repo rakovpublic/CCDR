@@ -1,24 +1,24 @@
 {
   "act_proxy": {
     "bootstrap_delta": {
-      "hi": -965732.4264960003,
-      "lo": -1137525.2036160002,
+      "hi": 0.11563695324705726,
+      "lo": 0.10404740388079813,
       "n": 1250,
-      "value": -1048537.3272000002
+      "value": 0.10983061960100989
     },
-    "delta_kappa": -1048537.3271999992,
+    "delta_kappa": 0.10983061960100982,
     "n_high": 1250,
     "n_low": 1250,
     "path": "ACT_DR6",
     "pearson": {
       "n": 5000,
-      "pvalue": 4.0021917291633896e-07,
-      "r": -0.07161027855008717
+      "pvalue": 0.0040398341746555565,
+      "r": 0.040652484449229476
     },
     "spearman": {
       "n": 5000,
-      "pvalue": 1.8363519317172416e-135,
-      "rho": -0.3399181555342538
+      "pvalue": 1.666212793262956e-56,
+      "rho": 0.22127490095086383
     }
   },
   "data_sources": [
@@ -32,9 +32,9 @@
     }
   ],
   "description": "Query Euclid Q1 public galaxies, compute a local-density proxy, and test sign stability of density-correlated lensing on ACT DR6 and Planck PR4 public maps.",
-  "generated_utc": "2026-04-20T08:59:59Z",
+  "generated_utc": "2026-04-21T19:06:28Z",
   "headline": {
-    "same_positive_sign": false,
+    "same_positive_sign": true,
     "screening_interpretation": "Support-like if both public lensing paths return positive \u0394\u03ba and positive density\u2013\u03ba correlation."
   },
   "notes": [
@@ -46,24 +46,24 @@
   },
   "sample": {
     "dec_range_deg": [
-      -49.853377190234326,
-      66.43498216219722
+      -57.87522245296475,
+      17.690415709756216
     ],
     "n_galaxies": 5000,
     "ra_range_deg": [
-      51.13366687094441,
-      275.0706500487295
+      0.010986328125,
+      359.9560546875
     ],
     "z_range": [
-      0.200000003,
-      1.5
+      0.230000004,
+      1.15999997
     ]
   },
   "status": "ok",
   "test_name": "T1 \u2014 P30 non-Euclid lensing replication"
 }
 {
-  "baseline_delta_kappa": -3865041.4872000003,
+  "baseline_delta_kappa": 0.10983061960100982,
   "data_sources": [
     {
       "label": "Euclid Q1 IRSA TAP",
@@ -75,78 +75,79 @@
     }
   ],
   "description": "Repeat the P30 proxy on Euclid Q1 with public ACT lensing while auditing redshift, RA/Dec, quantile-threshold, and sky-patch stability.",
-  "generated_utc": "2026-04-20T10:04:57Z",
+  "generated_utc": "2026-04-21T19:42:56Z",
   "headline": {
-    "all_subset_splits_same_sign": false,
+    "all_subset_splits_same_sign": true,
     "threshold_monotonic_nonincreasing": false
   },
   "notes": [],
-  "patch_spread": 4441415.875765799,
+  "patch_spread": 0.11997619384722946,
   "sky_patches": {
-    "RA[51.1,63.2)_DEC[-48.1,66.4)": {
-      "delta_kappa": 190812.3706896566,
-      "n": 925
+    "RA[0.0,155.4)_DEC[-13.8,17.7)": {
+      "delta_kappa": 0.022523547310191017,
+      "n": 997
     },
-    "RA[51.1,63.2)_DEC[-49.9,-48.1)": {
-      "delta_kappa": -183063.06598984823,
-      "n": 1575
+    "RA[0.0,155.4)_DEC[-57.9,-13.8)": {
+      "delta_kappa": 0.015552689846080159,
+      "n": 1503
     },
-    "RA[63.2,275.1)_DEC[-48.1,66.4)": {
-      "delta_kappa": -4250603.505076142,
-      "n": 1575
+    "RA[155.4,360.0)_DEC[-13.8,17.7)": {
+      "delta_kappa": 0.13552888369330962,
+      "n": 1503
     },
-    "RA[63.2,275.1)_DEC[-49.9,-48.1)": {
-      "delta_kappa": 12977.939655171707,
-      "n": 925
+    "RA[155.4,360.0)_DEC[-57.9,-13.8)": {
+      "delta_kappa": 0.10652712226151162,
+      "n": 997
     }
   },
   "status": "ok",
   "subset_splits": {
     "dec_high": {
-      "delta_kappa": -3221973.8368000006,
-      "delta_minus_baseline": 643067.6503999997,
+      "delta_kappa": 0.11428849610175695,
+      "delta_minus_baseline": 0.004457876500747138,
       "n": 2500,
       "same_sign_as_baseline": true
     },
     "dec_low": {
-      "delta_kappa": -53057.83359999955,
-      "delta_minus_baseline": 3811983.653600001,
+      "delta_kappa": 0.05229724106709854,
+      "delta_minus_baseline": -0.05753337853391127,
       "n": 2500,
       "same_sign_as_baseline": true
     },
     "ra_high": {
-      "delta_kappa": -5947568.1776,
-      "delta_minus_baseline": -2082526.6903999997,
+      "delta_kappa": 0.1634897854512064,
+      "delta_minus_baseline": 0.05365916585019659,
       "n": 2500,
       "same_sign_as_baseline": true
     },
     "ra_low": {
-      "delta_kappa": 75359.71839999966,
-      "delta_minus_baseline": 3940401.2056,
+      "delta_kappa": 0.10658589611034586,
+      "delta_minus_baseline": -0.003244723490663959,
       "n": 2500,
-      "same_sign_as_baseline": false
+      "same_sign_as_baseline": true
     },
     "z_high": {
-      "delta_kappa": -3703434.330618892,
-      "delta_minus_baseline": 161607.15658110846,
-      "n": 2456,
+      "delta_kappa": 0.0751959987403924,
+      "delta_minus_baseline": -0.034634620860617416,
+      "n": 2047,
       "same_sign_as_baseline": true
     },
     "z_low": {
-      "delta_kappa": -3879621.9009433957,
-      "delta_minus_baseline": -14580.413743395358,
-      "n": 2544,
+      "delta_kappa": 0.10435645428089468,
+      "delta_minus_baseline": -0.005474165320115132,
+      "n": 2953,
       "same_sign_as_baseline": true
     }
   },
   "test_name": "T2 \u2014 P30 Euclid-Q1 systematics audit",
   "threshold_scan": {
-    "0.2": -4280508.408,
-    "0.25": -3865041.4872000003,
-    "0.3": -3454557.904000001,
-    "0.35": -3157314.5969933914
+    "0.2": 0.15771582894651104,
+    "0.25": 0.10983061960100982,
+    "0.3": 0.08917451047373315,
+    "0.35": 0.09398145812566938
   }
 }
+
 {
   "data_sources": [
     {
@@ -159,14 +160,15 @@
     }
   ],
   "description": "Estimate a local SPARC anchor and a high-z KMOS3D acceleration proxy, then test upward a0(z) behavior and a three-point \u03bd-like gap closure.",
-  "generated_utc": "2026-04-20T10:06:14Z",
+  "generated_utc": "2026-04-20T14:00:08Z",
   "highz_proxy": {
-    "mean_a0_proxy": 2.1744492053985596,
+    "mean_a0_proxy": 2.8999066888149163,
+    "n_highz_endpoint": 32,
     "n_points": 64,
     "spearman": {
       "n": 64,
-      "pvalue": 0.028160620906138863,
-      "rho": 0.27449633699633696
+      "pvalue": 0.052059167510901845,
+      "rho": 0.24395604395604392
     },
     "z_max": 0.8276299834251404,
     "z_min": 0.6022099852561951
@@ -180,10 +182,18 @@
   "status": "ok",
   "test_name": "T3 \u2014 High-z a0 with SPARC + KMOS3D proxy",
   "three_point_extractor": {
-    "closed_gap_fraction": 4.970731888259848e-09,
-    "nu_mond_proxy": 1e-05
+    "closed_gap_fraction": 0.0834070461698852,
+    "nu_mond_proxy": 0.0009341589171027142,
+    "sparc_mapping": {
+      "intercept": 0.13924650463191368,
+      "local_a0": 3.8830965146001724,
+      "local_g_char": 1352.3467048710602,
+      "n_curves": 171,
+      "slope": 0.15
+    }
   }
 }
+
 {
   "data_sources": [
     {
@@ -228,6 +238,7 @@
   "status": "ok",
   "test_name": "T4 \u2014 Public \u03bd re-drive"
 }
+
 {
   "data_sources": [
     {
@@ -324,12 +335,13 @@
   ],
   "description": "Extract public multi-redshift f\u03c38 points from public BAO+FS tables and fit a simple live/frozen dark-sector mixture to screen for wrong-sign or positive \u03b1 behavior.",
   "fit": {
-    "alpha": -1.579204986532497,
-    "chi2": 4.356629258771342,
-    "delta_chi2_against_zeroish": -333.20208069133463,
-    "frozen_fraction": 0.6068783887548448,
-    "live_fraction": 0.39312161124515516,
-    "ndof": 2,
+    "alpha": -0.4836011862583381,
+    "amplitude": 0.9299118084386007,
+    "chi2": 6.8877608112227415,
+    "delta_chi2_against_zeroish": 2.2102031685779986,
+    "frozen_fraction": 0.0,
+    "live_fraction": 1.0,
+    "ndof": 1,
     "wrong_sign_standalone": true
   },
   "fs8_points": [
@@ -350,7 +362,7 @@
       "z": 1.48
     }
   ],
-  "generated_utc": "2026-04-20T10:07:00Z",
+  "generated_utc": "2026-04-20T14:00:26Z",
   "notes": [],
   "status": "ok",
   "test_name": "T6 \u2014 P29 multi-redshift growth"
@@ -369,13 +381,20 @@
   "description": "Standalone three-point \u03bd extractor built from a local SPARC anchor, a public high-z KMOS3D proxy, and an asymptotic cH0-like endpoint.",
   "extractor": {
     "asymptotic_anchor": 19.415482573000862,
-    "closed_gap_fraction": 1.0,
-    "highz_proxy_median": 1215.3858642578125,
+    "closed_gap_fraction": 0.0,
+    "highz_proxy_median": 2.9566315599953343,
     "in_reference_band_1e3_1e2": false,
     "local_anchor": 3.8830965146001724,
-    "nu_mond_proxy": 0.0112
+    "nu_mond_proxy": 1e-05,
+    "sparc_mapping": {
+      "intercept": 0.13924650463191368,
+      "local_a0": 3.8830965146001724,
+      "local_g_char": 1352.3467048710602,
+      "n_curves": 171,
+      "slope": 0.15
+    }
   },
-  "generated_utc": "2026-04-20T10:07:11Z",
+  "generated_utc": "2026-04-20T14:00:32Z",
   "notes": [],
   "status": "ok",
   "test_name": "T7 \u2014 P36 MOND-sequence \u03bd extractor"
@@ -430,18 +449,20 @@
 }
 {
   "cross_correlation": {
-    "mean_kappa_field": NaN,
-    "mean_pta_field": 0.0,
+    "mean_kappa_field": 0.8981559525179164,
+    "mean_pta_field": 104.26998856128628,
+    "n_unique_pulsars": 30,
+    "n_used": 2500,
     "pearson": {
-      "n": 0,
-      "pvalue": NaN,
-      "r": NaN
+      "n": 2500,
+      "pvalue": 9.314393707348146e-42,
+      "r": 0.2660028482468384
     },
-    "same_sign_as_p30": false,
+    "same_sign_as_p30": true,
     "spearman": {
-      "n": 0,
-      "pvalue": NaN,
-      "rho": NaN
+      "n": 2500,
+      "pvalue": 1.271517637074137e-57,
+      "rho": 0.3121337370583257
     }
   },
   "data_sources": [
@@ -450,8 +471,8 @@
       "url": "https://zenodo.org/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz?download=1"
     },
     {
-      "label": "SDSS DR17 SkyServer SQL",
-      "url": "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch"
+      "label": "Euclid Q1 IRSA TAP (mask-footprint targets [ACT-mask fallback])",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
     },
     {
       "label": "ACT DR6 lensing release",
@@ -459,8 +480,10 @@
     }
   ],
   "description": "Use public NANOGrav pulsar positions, a public SDSS galaxy sample, and a public ACT lensing proxy to test whether the PTA-proxy field tracks the same sign as the P30 density\u2013\u03ba field.",
-  "generated_utc": "2026-04-20T10:24:46Z",
-  "notes": [],
+  "generated_utc": "2026-04-21T19:06:24Z",
+  "notes": [
+    "This test should not require healpy in the patched v6 bundle; if you still see a healpy build attempt, the old folder is still being executed."
+  ],
   "pulsars": [
     {
       "dec": -21.401010853275466,
@@ -496,6 +519,121 @@
       "dec": 21.583738730638043,
       "name": "B1937+21",
       "ra": 294.9136642324771
+    },
+    {
+      "dec": -37.73693480032572,
+      "name": "J1909-3744",
+      "ra": 287.45231664477797
+    },
+    {
+      "dec": -30.897826063145928,
+      "name": "J1600-3053",
+      "ra": 240.22061051399936
+    },
+    {
+      "dec": 34.288107365272154,
+      "name": "J1946+3417",
+      "ra": 296.60730944785837
+    },
+    {
+      "dec": 53.115907619811196,
+      "name": "J1012+5307",
+      "ra": 153.14380517196994
+    },
+    {
+      "dec": 9.721823679705984,
+      "name": "B1855+09",
+      "ra": 284.4049154190782
+    },
+    {
+      "dec": -12.416801916543278,
+      "name": "J1643-1224",
+      "ra": 250.9128790624249
+    },
+    {
+      "dec": -19.0618639853316,
+      "name": "J1705-1903",
+      "ra": 256.43676915540135
+    },
+    {
+      "dec": -21.007784037515762,
+      "name": "J0610-2100",
+      "ra": 92.55962690105459
+    },
+    {
+      "dec": 6.192746441972229,
+      "name": "J2234+0611",
+      "ra": 338.599643822184
+    },
+    {
+      "dec": 7.793433063063073,
+      "name": "J1713+0747",
+      "ra": 258.4597330632875
+    },
+    {
+      "dec": 3.4557436023334738,
+      "name": "J1903+0327",
+      "ra": 285.7775906556882
+    },
+    {
+      "dec": 29.146142745875764,
+      "name": "B1953+29",
+      "ra": 298.86893926039926
+    },
+    {
+      "dec": -40.6153027921248,
+      "name": "J1747-4036",
+      "ra": 266.9578532045881
+    },
+    {
+      "dec": 13.062594447306944,
+      "name": "J1853+1303",
+      "ra": 283.49202342116837
+    },
+    {
+      "dec": -11.581973497427196,
+      "name": "J1744-1134",
+      "ra": 266.12640946959993
+    },
+    {
+      "dec": 10.297805494374563,
+      "name": "J1745+1017",
+      "ra": 266.3942597477803
+    },
+    {
+      "dec": 44.70762732668672,
+      "name": "J2302+4442",
+      "ra": 345.6989121455077
+    },
+    {
+      "dec": 15.835039954176896,
+      "name": "J0557+1551",
+      "ra": 89.38502160802754
+    },
+    {
+      "dec": 9.391494822464827,
+      "name": "J0023+0923",
+      "ra": 5.8238899074976915
+    },
+    {
+      "dec": -13.398083832094292,
+      "name": "J2010-1323",
+      "ra": 302.6951964207354
+    },
+    {
+      "dec": 3.5528842528442066,
+      "name": "J1738+0333",
+      "ra": 264.7283224691679
+    },
+    {
+      "dec": 41.51346244233687,
+      "name": "J0340+4130",
+      "ra": 55.10169993882637
+    },
+    {
+      "dec": 19.03557245414597,
+      "name": "J1453+1902",
+      "ra": 223.44367803265297
     }
   ],
   "status": "ok",
