@@ -1,0 +1,83 @@
+{
+  "data_sources": [
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    }
+  ],
+  "description": "Estimate local filament axes from Euclid Q1 geometry, measure pairwise orientation correlation, and compare full-sample, low-density, and high-density subsets against a shuffled null.",
+  "full_sample": {
+    "corr": [
+      0.683517989838263,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_mean": 0.683517989838263,
+    "corr_null": [
+      0.661945979620983,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_null_mean": 0.661945979620983,
+    "exp_fit_scale": 0.006512834887110464,
+    "observed_minus_null": 0.021572010217279947
+  },
+  "generated_utc": "2026-04-22T19:45:30Z",
+  "headline": {
+    "density_dependence_proxy": 0.04590603595751108,
+    "expected_direction": true
+  },
+  "high_density": {
+    "corr": [
+      0.6344672945613392,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_mean": 0.6344672945613392,
+    "corr_null": [
+      0.6713744181539708,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_null_mean": 0.6713744181539708,
+    "exp_fit_scale": 0.006549135214616654,
+    "observed_minus_null": -0.0369071235926316
+  },
+  "low_density": {
+    "corr": [
+      0.7614006528777497,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_mean": 0.7614006528777497,
+    "corr_null": [
+      0.7524017405128702,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "corr_null_mean": 0.7524017405128702,
+    "exp_fit_scale": 0.006460942244785337,
+    "observed_minus_null": 0.008998912364879486
+  },
+  "notes": [],
+  "status": "ok",
+  "test_name": "T5 \u2014 Euclid-Q1 filament ordering"
+}

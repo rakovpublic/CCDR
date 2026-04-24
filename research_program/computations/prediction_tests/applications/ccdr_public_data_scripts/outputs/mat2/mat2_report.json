@@ -1,0 +1,13 @@
+{
+  "prediction_id": "MAT2",
+  "status": "not_executable_no_public_machine_table",
+  "prediction": "T(theta)=cos^2(theta/2)*(1+epsilon*cos(6 theta))",
+  "fits": [],
+  "required_columns": [
+    "misorientation_angle_degrees",
+    "phonon_transmission_or_thermal_boundary_conductance",
+    "material_symmetry_or_lattice"
+  ],
+  "verdict": "no_physics_verdict",
+  "note": "Improved script can run numeric fit from public CSV/XLSX URLs in MAT2_NUMERIC_URLS. No stable public machine table is bundled by default."
+}

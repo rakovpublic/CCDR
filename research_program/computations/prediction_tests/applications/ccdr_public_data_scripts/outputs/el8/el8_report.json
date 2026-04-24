@@ -1,0 +1,16 @@
+{
+  "prediction_id": "EL8",
+  "status": "not_executable_no_harmonized_public_table",
+  "prediction": "optical interconnects outperform electronic vias at sub-10 nm nodes",
+  "required_columns": [
+    "technology",
+    "feature_size_nm_or_reach_mm",
+    "bandwidth_density",
+    "energy_per_bit_pj",
+    "latency_or_loss",
+    "source_type"
+  ],
+  "fit_that_would_be_run": "compare Pareto frontier of optical vs electrical links at matched reach and bandwidth; pass-like if optical dominates below 10 nm node assumptions",
+  "verdict": "no_physics_verdict",
+  "note": "Crossref harvesting was removed. A numeric benchmark table is required before this can be called a test."
+}

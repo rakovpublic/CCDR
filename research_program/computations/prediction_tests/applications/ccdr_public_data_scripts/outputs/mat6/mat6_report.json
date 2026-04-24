@@ -1,0 +1,28 @@
+{
+  "prediction_id": "MAT6",
+  "status": "not_executable_pdf_only_no_machine_table",
+  "article_title": "Supplementary Material to: Thermal conductivity of chemical vapor deposition diamond enriched with 13C isotope",
+  "article_url": "https://aip.figshare.com/articles/media/Supplementary_Material_to_Thermal_conductivity_of_chemical_vapor_deposition_diamond_enriched_with_13C_isotope/28541759",
+  "downloaded_files": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat6\\figshare_files\\TC13CSM.pdf"
+  ],
+  "extracted_files": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat6\\figshare_files\\TC13CSM.pdf"
+  ],
+  "parsed_tables": [],
+  "pdf_text_scans": [
+    {
+      "source_name": "TC13CSM.pdf",
+      "text_extracted": true,
+      "candidate_values_w_m_k": [],
+      "pdf_parser": "pypdf",
+      "text_chars": 54634
+    }
+  ],
+  "best_table": null,
+  "max_pdf_text_candidate_w_m_k": null,
+  "pass_like": false,
+  "verdict": "no_physics_verdict",
+  "criterion": "Peak thermal conductivity at or above 3300 W/m/K in public isotopic-diamond data.",
+  "note": "The current Figshare source is a PDF supplement. The script now attempts machine tables first and then a conservative PDF text scan. It does not digitize plotted curves; if only figures are present, MAT6 remains not executable from this source without a numeric table or digitization."
+}

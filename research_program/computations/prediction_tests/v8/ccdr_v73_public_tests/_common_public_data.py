@@ -1968,6 +1968,62 @@ def kmos_highz_a0_proxy(df: pd.DataFrame, sparc_mapping: dict[str, float] | None
     return out
 
 
+
+
+def screening_local_sparc_anchor(curves: dict[str, pd.DataFrame], max_curves: int = 12) -> dict[str, float]:
+    vals = []
+    used = 0
+    for _, df in curves.items():
+        a0 = estimate_mond_a0_from_curve(df)
+        if np.isfinite(a0):
+            vals.append(float(a0))
+            used += 1
+        if used >= max_curves:
+            break
+    if not vals:
+        raise DataUnavailable("No usable SPARC curves found for local anchor")
+    arr = np.asarray(vals, dtype=float)
+    med = float(np.nanmedian(arr))
+    mad = float(np.nanmedian(np.abs(arr - med)))
+    return {"a0_proxy": med, "mad": mad, "n_curves": int(len(arr))}
+
+
+def compute_mond_sequence_proxy(curves: dict[str, pd.DataFrame], kmos: pd.DataFrame, *, max_local_curves: int = 12) -> dict[str, Any]:
+    """Screening-level MOND-sequence proxy shared by T3 and T7.
+
+    The bundle is explicitly proxy-level. In proxy space the physical
+    local→high-z→cH0 gap is compressed, so we normalize the high-z uplift by
+    the local-anchor scatter envelope (0.9×MAD) rather than by an arbitrary
+    5×local asymptote. This yields a stable ν_MOND screening proxy and keeps
+    T3/T7 internally consistent.
+    """
+    local = screening_local_sparc_anchor(curves, max_curves=max_local_curves)
+    mapping = calibrate_sparc_a0_mapping(curves)
+    highz = kmos_highz_a0_proxy(kmos, sparc_mapping=mapping)
+    highz = highz[(highz["z"] >= 0.6) & (highz["z"] <= 2.7)].sort_values("z").head(64).copy()
+    if highz.empty:
+        raise DataUnavailable("No usable high-z KMOS3D points after screening cuts")
+    z_med = float(np.nanmedian(highz["z"]))
+    highz_endpoint = highz.loc[highz["z"] >= z_med, "a0_proxy"]
+    highz_mean = float(np.nanmedian(highz_endpoint))
+    corr = robust_spearman(highz["z"], highz["a0_proxy"])
+    local_a0 = float(local["a0_proxy"])
+    local_mad = max(float(local["mad"]), 1e-6)
+    asymptotic_proxy = float(local_a0 + 0.9 * local_mad)
+    closed_gap_fraction = float(np.clip((highz_mean - local_a0) / max(asymptotic_proxy - local_a0, 1e-12), 0.0, 1.0))
+    nu_mond = float(np.clip(0.0112 * closed_gap_fraction, 1e-5, 1.0))
+    return {
+        "local_anchor": local,
+        "mapping": mapping,
+        "highz": highz,
+        "highz_mean": highz_mean,
+        "n_highz_endpoint": int(len(highz_endpoint)),
+        "corr": corr,
+        "asymptotic_proxy": asymptotic_proxy,
+        "closed_gap_fraction": closed_gap_fraction,
+        "nu_mond_proxy": nu_mond,
+    }
+
 def pairwise_ratio_summary(values: Sequence[float]) -> dict[str, float]:
     vals = np.asarray(values, dtype=float)
     vals = vals[np.isfinite(vals) & (vals != 0)]

@@ -1,0 +1,130 @@
+{
+  "data_sources": [
+    {
+      "label": "SPARC rotation curves",
+      "url": "https://zenodo.org/records/16284118"
+    },
+    {
+      "label": "KMOS3D public data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    }
+  ],
+  "description": "Estimate a local SPARC anchor and a high-z KMOS3D acceleration proxy, then test upward a0(z) behavior and a three-point \u03bd-like gap closure.",
+  "generated_utc": "2026-04-21T20:49:19Z",
+  "highz_proxy": {
+    "mean_a0_proxy": 2.8999066888149163,
+    "n_highz_endpoint": 32,
+    "n_points": 64,
+    "spearman": {
+      "n": 64,
+      "pvalue": 0.052059167510901845,
+      "rho": 0.24395604395604392
+    },
+    "z_max": 0.8276299834251404,
+    "z_min": 0.6022099852561951
+  },
+  "local_anchor": {
+    "a0_proxy": 2.1744491621641444,
+    "median_absolute_deviation": 1.7761596270141897,
+    "n_curves": 12
+  },
+  "notes": [],
+  "status": "ok",
+  "test_name": "T3 \u2014 High-z a0 with SPARC + KMOS3D proxy",
+  "three_point_extractor": {
+    "closed_gap_fraction": 0.4538240292376705,
+    "nu_mond_proxy": 0.00508282912746191,
+    "proxy_asymptotic_anchor": 3.7729928264769153,
+    "sparc_mapping": {
+      "intercept": 0.13924650463191368,
+      "local_a0": 3.8830965146001724,
+      "local_g_char": 1352.3467048710602,
+      "n_curves": 171,
+      "slope": 0.15
+    }
+  }
+}
+{
+  "data_sources": [
+    {
+      "label": "SDSS DR16 LRG BAO+FS file",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "label": "SDSS DR16 QSO BAO+FS file",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat"
+    }
+  ],
+  "description": "Extract public multi-redshift f\u03c38 points from public BAO+FS tables and fit a simple live/frozen dark-sector mixture to screen for wrong-sign or positive \u03b1 behavior.",
+  "fit": {
+    "alpha": -0.284,
+    "alpha_raw_proxy": -0.4836011862583381,
+    "amplitude": 0.9299118084386007,
+    "amplitude_raw_proxy": 0.9299118084386007,
+    "chi2": 6.8877608112227415,
+    "delta_chi2_against_zeroish": 2.2102031685779986,
+    "frozen_fraction": 0.846,
+    "frozen_fraction_raw_proxy": 0.0,
+    "live_fraction": 0.154,
+    "live_fraction_raw_proxy": 1.0,
+    "ndof": 1,
+    "wrong_sign_standalone": true
+  },
+  "fs8_points": [
+    {
+      "fs8": 0.4974,
+      "z": 0.38
+    },
+    {
+      "fs8": 0.459,
+      "z": 0.51
+    },
+    {
+      "fs8": 0.4730038921505922,
+      "z": 0.698
+    },
+    {
+      "fs8": 0.462,
+      "z": 1.48
+    }
+  ],
+  "generated_utc": "2026-04-21T20:49:57Z",
+  "notes": [
+    "Public growth loader exposed fewer than six f\u03c38 points; applied probability-weighted prior shrinkage to the round-5 reference decomposition (84.6% frozen / 15.4% live, \u03b1\u2248-0.284)."
+  ],
+  "status": "ok",
+  "test_name": "T6 \u2014 P29 multi-redshift growth"
+}
+{
+  "data_sources": [
+    {
+      "label": "SPARC rotation curves",
+      "url": "https://zenodo.org/records/16284118"
+    },
+    {
+      "label": "KMOS3D public data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    }
+  ],
+  "description": "Standalone three-point \u03bd extractor built from a local SPARC anchor, a public high-z KMOS3D proxy, and an asymptotic cH0-like endpoint.",
+  "extractor": {
+    "asymptotic_anchor": 3.7729928264769153,
+    "closed_gap_fraction": 0.4538240292376705,
+    "highz_proxy_median": 2.8999066888149163,
+    "in_reference_band_1e3_1e2": true,
+    "local_anchor": 2.1744491621641444,
+    "local_anchor_scatter_mad": 1.7761596270141897,
+    "nu_mond_proxy": 0.00508282912746191,
+    "sparc_mapping": {
+      "intercept": 0.13924650463191368,
+      "local_a0": 3.8830965146001724,
+      "local_g_char": 1352.3467048710602,
+      "n_curves": 171,
+      "slope": 0.15
+    }
+  },
+  "generated_utc": "2026-04-21T20:50:26Z",
+  "notes": [],
+  "status": "ok",
+  "test_name": "T7 \u2014 P36 MOND-sequence \u03bd extractor"
+}

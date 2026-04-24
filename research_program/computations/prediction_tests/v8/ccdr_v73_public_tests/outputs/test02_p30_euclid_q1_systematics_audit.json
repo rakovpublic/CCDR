@@ -1,0 +1,85 @@
+{
+  "baseline_delta_kappa": 0.10983061960100982,
+  "data_sources": [
+    {
+      "label": "Euclid Q1 IRSA TAP",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync"
+    },
+    {
+      "label": "ACT DR6 lensing release",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    }
+  ],
+  "description": "Repeat the P30 proxy on Euclid Q1 with public ACT lensing while auditing redshift, RA/Dec, quantile-threshold, and sky-patch stability.",
+  "generated_utc": "2026-04-21T20:51:11Z",
+  "headline": {
+    "all_subset_splits_same_sign": true,
+    "threshold_monotonic_nonincreasing": false
+  },
+  "notes": [],
+  "patch_spread": 0.11997619384722946,
+  "sky_patches": {
+    "RA[0.0,155.4)_DEC[-13.8,17.7)": {
+      "delta_kappa": 0.022523547310191017,
+      "n": 997
+    },
+    "RA[0.0,155.4)_DEC[-57.9,-13.8)": {
+      "delta_kappa": 0.015552689846080159,
+      "n": 1503
+    },
+    "RA[155.4,360.0)_DEC[-13.8,17.7)": {
+      "delta_kappa": 0.13552888369330962,
+      "n": 1503
+    },
+    "RA[155.4,360.0)_DEC[-57.9,-13.8)": {
+      "delta_kappa": 0.10652712226151162,
+      "n": 997
+    }
+  },
+  "status": "ok",
+  "subset_splits": {
+    "dec_high": {
+      "delta_kappa": 0.11428849610175695,
+      "delta_minus_baseline": 0.004457876500747138,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "dec_low": {
+      "delta_kappa": 0.05229724106709854,
+      "delta_minus_baseline": -0.05753337853391127,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "ra_high": {
+      "delta_kappa": 0.1634897854512064,
+      "delta_minus_baseline": 0.05365916585019659,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "ra_low": {
+      "delta_kappa": 0.10658589611034586,
+      "delta_minus_baseline": -0.003244723490663959,
+      "n": 2500,
+      "same_sign_as_baseline": true
+    },
+    "z_high": {
+      "delta_kappa": 0.0751959987403924,
+      "delta_minus_baseline": -0.034634620860617416,
+      "n": 2047,
+      "same_sign_as_baseline": true
+    },
+    "z_low": {
+      "delta_kappa": 0.10435645428089468,
+      "delta_minus_baseline": -0.005474165320115132,
+      "n": 2953,
+      "same_sign_as_baseline": true
+    }
+  },
+  "test_name": "T2 \u2014 P30 Euclid-Q1 systematics audit",
+  "threshold_scan": {
+    "0.2": 0.15771582894651104,
+    "0.25": 0.10983061960100982,
+    "0.3": 0.08917451047373315,
+    "0.35": 0.09398145812566938
+  }
+}

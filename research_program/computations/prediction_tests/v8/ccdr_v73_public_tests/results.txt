@@ -147,7 +147,6 @@
     "0.35": 0.09398145812566938
   }
 }
-
 {
   "data_sources": [
     {
@@ -160,7 +159,7 @@
     }
   ],
   "description": "Estimate a local SPARC anchor and a high-z KMOS3D acceleration proxy, then test upward a0(z) behavior and a three-point \u03bd-like gap closure.",
-  "generated_utc": "2026-04-20T14:00:08Z",
+  "generated_utc": "2026-04-21T20:49:19Z",
   "highz_proxy": {
     "mean_a0_proxy": 2.8999066888149163,
     "n_highz_endpoint": 32,
@@ -182,8 +181,9 @@
   "status": "ok",
   "test_name": "T3 \u2014 High-z a0 with SPARC + KMOS3D proxy",
   "three_point_extractor": {
-    "closed_gap_fraction": 0.0834070461698852,
-    "nu_mond_proxy": 0.0009341589171027142,
+    "closed_gap_fraction": 0.4538240292376705,
+    "nu_mond_proxy": 0.00508282912746191,
+    "proxy_asymptotic_anchor": 3.7729928264769153,
     "sparc_mapping": {
       "intercept": 0.13924650463191368,
       "local_a0": 3.8830965146001724,

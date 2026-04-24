@@ -1,0 +1,95 @@
+{
+  "prediction_id": "MAT7",
+  "status": "ok",
+  "ckan_resources": [],
+  "resource_errors": [
+    "ckan_package_show: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+    "ckan_download_matching_resources: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+  ],
+  "downloaded_files": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2b.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2d.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3a.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3b.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3c.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\readme.txt"
+  ],
+  "expanded_files": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2b.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2d.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3a.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3b.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3c.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\readme.txt"
+  ],
+  "hbn_tables": [
+    {
+      "file": "bris_direct\\Figure2b.csv",
+      "x_column": "﻿Time (ns)",
+      "y_column": "TTR transients",
+      "n_points": 281,
+      "x_min": 0.0,
+      "x_max": 2800.0,
+      "y_peak": 1.0,
+      "y_median": 0.01879
+    },
+    {
+      "file": "bris_direct\\Figure2d.csv",
+      "x_column": "﻿Time (ns)",
+      "y_column": "Sr",
+      "n_points": 864,
+      "x_min": 20.0,
+      "x_max": 10262.83698,
+      "y_peak": 0.91123,
+      "y_median": 0.303705
+    },
+    {
+      "file": "bris_direct\\Figure3a.csv",
+      "x_column": "﻿Simulation",
+      "y_column": "Unnamed: 1",
+      "n_points": 20,
+      "x_min": 100.0,
+      "x_max": 350.0,
+      "y_peak": 1334.18872,
+      "y_median": 898.631445
+    },
+    {
+      "file": "bris_direct\\Figure3b.csv",
+      "x_column": "﻿Simulation",
+      "y_column": "Unnamed: 1",
+      "n_points": 20,
+      "x_min": 100.0,
+      "x_max": 350.0,
+      "y_peak": 18.91485,
+      "y_median": 6.920745
+    },
+    {
+      "file": "bris_direct\\Figure3c.csv",
+      "x_column": "﻿Simulation",
+      "y_column": "Unnamed: 1",
+      "n_points": 20,
+      "x_min": 100.0,
+      "x_max": 350.0,
+      "y_peak": 167.14286,
+      "y_median": 129.656625
+    }
+  ],
+  "hbn_peak_observed": 1334.18872,
+  "silicon_reference_files": [
+    {
+      "path": "thermal_conductivity/lib/Silicon/RAW/1993 J. R. Olson.csv",
+      "raw_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Silicon/RAW/1993 J. R. Olson.csv"
+    },
+    {
+      "path": "thermal_conductivity/lib/Silicon/Silicon_fits.csv",
+      "raw_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Silicon/Silicon_fits.csv"
+    },
+    {
+      "path": "thermal_conductivity/lib/Silicon/references.txt",
+      "raw_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Silicon/references.txt"
+    }
+  ],
+  "verdict": "support_like_high_k_side",
+  "partial_test_only": true,
+  "note": "Tests only high thermal-conductivity side of MAT7. Fallback now reuses cached Bristol Figure CSVs before retrying network downloads, then directly downloads resource URLs/static Figure CSVs when CKAN metadata is odd."
+}

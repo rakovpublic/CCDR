@@ -1,0 +1,40 @@
+{
+  "prediction_id": "FR4",
+  "status": "ok",
+  "n_rows": 14153,
+  "n_used": 3347,
+  "columns_found": {
+    "tauE": "TAUTH",
+    "a": "AMIN",
+    "R": "RGEO",
+    "ne": "NEL",
+    "bt": "BT",
+    "q95": "Q95",
+    "te": "TE0"
+  },
+  "binned_medians": {
+    "collisionality_proxy": [
+      766947139580.6702,
+      1670609909570.2285,
+      3260133502794.6787,
+      7067319415729.894,
+      21620715333189.5,
+      148792384936705.62
+    ],
+    "transport_proxy": [
+      1.91673137439857,
+      1.9054328757403858,
+      1.596565565643282,
+      1.9939836775070452,
+      3.158805331001469,
+      4.608333849716937
+    ]
+  },
+  "quadratic_loglog_coeffs": [
+    0.03957687658723718,
+    -2.1874616652910466,
+    30.817807848977978
+  ],
+  "verdict": "support_like_nonmonotonic_minimum",
+  "caveat": "Proxy only: public HDB does not directly provide edge eta/s."
+}

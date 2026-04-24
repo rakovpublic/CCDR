@@ -1,0 +1,387 @@
+{
+  "prediction_id": "EL1",
+  "status": "ok",
+  "verdict": "mixed_evidence_curated_support_live_strict_not_confirming",
+  "scientific_verdict": "EL1 is not robustly confirmed by independent live public scrape. The curated note dataset supports area-like/sublinear scaling, but live vendor data are sparse and heterogeneous. Strict grouping prevents mixed-unit regression from being misread as a physics test.",
+  "curated_note_analysis": {
+    "tag": "curated_note_benchmark",
+    "unit": "MB/s",
+    "metric_class": "curated_sequential_read",
+    "n_points": 8,
+    "valid_same_physics_group": true,
+    "records": [
+      {
+        "label": "32-layer benchmark-style",
+        "layers": 32.0,
+        "value": 40.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "48-layer benchmark-style",
+        "layers": 48.0,
+        "value": 50.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "64-layer benchmark-style",
+        "layers": 64.0,
+        "value": 60.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "96-layer benchmark-style",
+        "layers": 96.0,
+        "value": 80.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "128-layer benchmark-style",
+        "layers": 128.0,
+        "value": 100.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "176-layer benchmark-style",
+        "layers": 176.0,
+        "value": 130.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "232-layer benchmark-style",
+        "layers": 232.0,
+        "value": 160.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      },
+      {
+        "label": "300-layer benchmark-style",
+        "layers": 300.0,
+        "value": 200.0,
+        "unit": "MB/s",
+        "metric_class": "curated_sequential_read",
+        "source_type": "curated_note"
+      }
+    ],
+    "status": "ok",
+    "linear": {
+      "params": {
+        "a": 0.5976038794332984,
+        "b": 22.12227821622136
+      },
+      "sse": 14.357706570314718,
+      "rmse": 1.3396691088807489,
+      "r2": 0.9993632946088552,
+      "aic": 8.678762396777572,
+      "bic": 8.837645480137242
+    },
+    "volume_reference_L1p5": {
+      "params": {
+        "a": 0.031586007704464146,
+        "b": 45.3328524890686
+      },
+      "sse": 480.64210952339886,
+      "rmse": 7.751145959819416,
+      "r2": 0.978685494034439,
+      "aic": 36.76545117147742,
+      "bic": 36.92433425483709
+    },
+    "powerlaw": {
+      "params": {
+        "a": 3.012964852533555,
+        "alpha": 0.7278469496754818
+      },
+      "sse": 107.60075777158794,
+      "rmse": 3.667437078048987,
+      "r2": 0.9952283477706613,
+      "aic": 24.791889188079413,
+      "bic": 24.950772271439085
+    },
+    "preferred_by_aic": "linear",
+    "area_vs_volume_aic": "area_preferred",
+    "delta_aic_area_minus_volume": -28.08668877469985,
+    "alpha": 0.7278469496754818,
+    "alpha_interpretation": "sublinear",
+    "verdict": "support_like_area_constraint",
+    "confirmation_level": "curated_support_only"
+  },
+  "live_vendor_recovered_points": [
+    {
+      "label": "Micron UFS 4.0",
+      "url": "https://www.micron.com/about/blog/company/innovations/micron-delivers-worlds-fastest-ufs-4-0-for-flagship-smartphones",
+      "layers": 232.0,
+      "value": 4300.0,
+      "unit": "MB/s",
+      "metric_class": "ufs_device_sequential_read",
+      "source_type": "live_vendor"
+    },
+    {
+      "label": "Samsung 9th-gen V-NAND",
+      "url": "https://semiconductor.samsung.com/news-events/news/samsung-electronics-begins-industrys-first-mass-production-of-9th-gen-v-nand/",
+      "layers": 202.0,
+      "value": 3.2,
+      "unit": "Gbps",
+      "metric_class": "nand_interface_speed",
+      "source_type": "live_vendor"
+    },
+    {
+      "label": "KIOXIA Gen-8 announcement",
+      "url": "https://apac.kioxia.com/en-apac/business/news/2023/20230330-1.html",
+      "layers": 218.0,
+      "value": 3.2,
+      "unit": "Gbps",
+      "metric_class": "nand_interface_speed",
+      "source_type": "live_vendor"
+    },
+    {
+      "label": "KIOXIA generation-10 history page",
+      "url": "https://www.kioxia.com/en-jp/rd/technology/history.html",
+      "layers": 332.0,
+      "value": 4.8,
+      "unit": "Gbps",
+      "metric_class": "nand_interface_speed",
+      "source_type": "live_vendor"
+    },
+    {
+      "label": "KIOXIA CBA technology page",
+      "url": "https://www.kioxia.com/en-jp/business/topics/bics-cba-202407.html",
+      "layers": 162.0,
+      "value": 3.6,
+      "unit": "Gbps",
+      "metric_class": "nand_interface_speed",
+      "source_type": "live_vendor"
+    },
+    {
+      "label": "Micron ships world first 176-layer NAND",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-ships-worlds-first-176-layer-nand-delivering-breakthrough",
+      "layers": 176.0,
+      "value": 1600.0,
+      "unit": "MT/s",
+      "metric_class": "nand_io_transfer_rate_mtps",
+      "source_type": "live_vendor"
+    }
+  ],
+  "live_vendor_failed_sources": [
+    {
+      "label": "Micron 3400 SSD product brief",
+      "url": "https://assets.micron.com/adobe/assets/urn%3Aaaid%3Aaem%3Ab1ec169c-b345-4593-a2da-3a3b2a94eca0/renditions/original/as/micron-3400-ssd-product-brief.pdf",
+      "reason": "pattern_not_found"
+    },
+    {
+      "label": "Micron 5400 SSD product brief",
+      "url": "https://assets.micron.com/adobe/assets/urn%3Aaaid%3Aaem%3A0eed6388-5671-428a-9231-6e83459c86ea/renditions/original/as/5400-product-brief.pdf",
+      "reason": "pattern_not_found"
+    }
+  ],
+  "live_strict_same_physics_analyses": [
+    {
+      "tag": "live_strict_same_physics",
+      "unit": "Gbps",
+      "metric_class": "nand_interface_speed",
+      "n_points": 4,
+      "valid_same_physics_group": true,
+      "records": [
+        {
+          "label": "KIOXIA CBA technology page",
+          "url": "https://www.kioxia.com/en-jp/business/topics/bics-cba-202407.html",
+          "layers": 162.0,
+          "value": 3.6,
+          "unit": "Gbps",
+          "metric_class": "nand_interface_speed",
+          "source_type": "live_vendor"
+        },
+        {
+          "label": "Samsung 9th-gen V-NAND",
+          "url": "https://semiconductor.samsung.com/news-events/news/samsung-electronics-begins-industrys-first-mass-production-of-9th-gen-v-nand/",
+          "layers": 202.0,
+          "value": 3.2,
+          "unit": "Gbps",
+          "metric_class": "nand_interface_speed",
+          "source_type": "live_vendor"
+        },
+        {
+          "label": "KIOXIA Gen-8 announcement",
+          "url": "https://apac.kioxia.com/en-apac/business/news/2023/20230330-1.html",
+          "layers": 218.0,
+          "value": 3.2,
+          "unit": "Gbps",
+          "metric_class": "nand_interface_speed",
+          "source_type": "live_vendor"
+        },
+        {
+          "label": "KIOXIA generation-10 history page",
+          "url": "https://www.kioxia.com/en-jp/rd/technology/history.html",
+          "layers": 332.0,
+          "value": 4.8,
+          "unit": "Gbps",
+          "metric_class": "nand_interface_speed",
+          "source_type": "live_vendor"
+        }
+      ],
+      "status": "ok",
+      "linear": {
+        "params": {
+          "a": 0.008716372985514514,
+          "b": 1.7083087728099342
+        },
+        "sse": 0.508424155013482,
+        "rmse": 0.3565193385405208,
+        "r2": 0.7044045610386731,
+        "aic": -4.250934360348522,
+        "bic": -5.47834563810874
+      },
+      "volume_reference_L1p5": {
+        "params": {
+          "a": 0.00037680255493628245,
+          "b": 2.362262181751432
+        },
+        "sse": 0.43765690703488636,
+        "rmse": 0.3307782138513986,
+        "r2": 0.7455483098634381,
+        "aic": -4.850457415803239,
+        "bic": -6.077868693563458
+      },
+      "powerlaw": {
+        "params": {
+          "a": 0.2756811626788377,
+          "alpha": 0.47855715079143496
+        },
+        "sse": 0.6089172995417005,
+        "rmse": 0.3901657659065248,
+        "r2": 0.6459783142199415,
+        "aic": -3.5294687150138477,
+        "bic": -4.756879992774067
+      },
+      "preferred_by_aic": "volume_reference_L1p5",
+      "area_vs_volume_aic": "volume_reference_preferred",
+      "delta_aic_area_minus_volume": 0.5995230554547177,
+      "alpha": 0.47855715079143496,
+      "alpha_interpretation": "sublinear",
+      "verdict": "does_not_support_area_constraint_in_this_group",
+      "confirmation_level": "negative_or_mixed_proxy"
+    },
+    {
+      "tag": "live_strict_same_physics",
+      "unit": "MB/s",
+      "metric_class": "ufs_device_sequential_read",
+      "n_points": 1,
+      "valid_same_physics_group": true,
+      "records": [
+        {
+          "label": "Micron UFS 4.0",
+          "url": "https://www.micron.com/about/blog/company/innovations/micron-delivers-worlds-fastest-ufs-4-0-for-flagship-smartphones",
+          "layers": 232.0,
+          "value": 4300.0,
+          "unit": "MB/s",
+          "metric_class": "ufs_device_sequential_read",
+          "source_type": "live_vendor"
+        }
+      ],
+      "status": "insufficient_points",
+      "reason": "need at least 3 points for toy model comparison"
+    },
+    {
+      "tag": "live_strict_same_physics",
+      "unit": "MT/s",
+      "metric_class": "nand_io_transfer_rate_mtps",
+      "n_points": 1,
+      "valid_same_physics_group": true,
+      "records": [
+        {
+          "label": "Micron ships world first 176-layer NAND",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-ships-worlds-first-176-layer-nand-delivering-breakthrough",
+          "layers": 176.0,
+          "value": 1600.0,
+          "unit": "MT/s",
+          "metric_class": "nand_io_transfer_rate_mtps",
+          "source_type": "live_vendor"
+        }
+      ],
+      "status": "insufficient_points",
+      "reason": "need at least 3 points for toy model comparison"
+    }
+  ],
+  "live_mixed_audit": {
+    "tag": "live_mixed_audit",
+    "unit": "mixed",
+    "metric_class": "mixed",
+    "n_points": 6,
+    "valid_same_physics_group": false,
+    "records": [
+      {
+        "label": "KIOXIA CBA technology page",
+        "url": "https://www.kioxia.com/en-jp/business/topics/bics-cba-202407.html",
+        "layers": 162.0,
+        "value": 3.6,
+        "unit": "Gbps",
+        "metric_class": "nand_interface_speed",
+        "source_type": "live_vendor"
+      },
+      {
+        "label": "Micron ships world first 176-layer NAND",
+        "url": "https://investors.micron.com/news-releases/news-release-details/micron-ships-worlds-first-176-layer-nand-delivering-breakthrough",
+        "layers": 176.0,
+        "value": 1600.0,
+        "unit": "MT/s",
+        "metric_class": "nand_io_transfer_rate_mtps",
+        "source_type": "live_vendor"
+      },
+      {
+        "label": "Samsung 9th-gen V-NAND",
+        "url": "https://semiconductor.samsung.com/news-events/news/samsung-electronics-begins-industrys-first-mass-production-of-9th-gen-v-nand/",
+        "layers": 202.0,
+        "value": 3.2,
+        "unit": "Gbps",
+        "metric_class": "nand_interface_speed",
+        "source_type": "live_vendor"
+      },
+      {
+        "label": "KIOXIA Gen-8 announcement",
+        "url": "https://apac.kioxia.com/en-apac/business/news/2023/20230330-1.html",
+        "layers": 218.0,
+        "value": 3.2,
+        "unit": "Gbps",
+        "metric_class": "nand_interface_speed",
+        "source_type": "live_vendor"
+      },
+      {
+        "label": "Micron UFS 4.0",
+        "url": "https://www.micron.com/about/blog/company/innovations/micron-delivers-worlds-fastest-ufs-4-0-for-flagship-smartphones",
+        "layers": 232.0,
+        "value": 4300.0,
+        "unit": "MB/s",
+        "metric_class": "ufs_device_sequential_read",
+        "source_type": "live_vendor"
+      },
+      {
+        "label": "KIOXIA generation-10 history page",
+        "url": "https://www.kioxia.com/en-jp/rd/technology/history.html",
+        "layers": 332.0,
+        "value": 4.8,
+        "unit": "Gbps",
+        "metric_class": "nand_interface_speed",
+        "source_type": "live_vendor"
+      }
+    ],
+    "status": "invalid_mixed_physics_group",
+    "reason": "records differ by unit and/or metric_class; no regression is scientifically valid"
+  },
+  "required_for_decisive_test": [
+    "same product class or raw NAND die family",
+    "same metric definition, preferably sequential read MB/s or NAND interface Gbps only",
+    "same interface/controller generation or explicit normalization by interface bandwidth",
+    "at least 4 independent layer-count points in one strict group"
+  ]
+}

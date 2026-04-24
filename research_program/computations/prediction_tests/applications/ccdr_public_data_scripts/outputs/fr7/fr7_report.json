@@ -1,0 +1,65 @@
+{
+  "prediction_id": "FR7",
+  "status": "ok",
+  "n_used": 13825,
+  "chi_min_m2_s": 2.5098865311288e-09,
+  "columns_found": {
+    "tauE": "TAUTH",
+    "a": "AMIN",
+    "device": "TOK",
+    "h_factor": "HIPB98Y2",
+    "independent_transport": null,
+    "R": "RGEO",
+    "Ip": "IP",
+    "Bt": "BT",
+    "ne": "NEL",
+    "power": "PLTH",
+    "kappa": "KAREA",
+    "meff": "MEFF",
+    "q95": "Q95"
+  },
+  "expected_sign": "negative for M_KSS margin vs tau_E: lower transport margin should accompany larger confinement time",
+  "spearman_mkss_proxy_vs_tauE": -0.5343028322576271,
+  "bootstrap_spearman": {
+    "median": -0.5343458136406645,
+    "ci95": [
+      -0.5478331114213957,
+      -0.5189352059104599
+    ]
+  },
+  "size_controlled_residual_spearman": -1.0,
+  "size_controlled_note": "Do not interpret as independent evidence: log(M_proxy)=2log(a)-log(tau_E)-const, so residualization can create near-deterministic anticorrelation.",
+  "hfactor_result": {
+    "column": "HIPB98Y2",
+    "n_used_raw": 11512,
+    "spearman_raw_hfactor_vs_tauE": -0.2270977415780276,
+    "residual_check_available": true,
+    "n_used_residual": 5398,
+    "baseline_features": [
+      "R",
+      "a",
+      "Ip",
+      "Bt",
+      "ne",
+      "power",
+      "kappa",
+      "meff",
+      "q95"
+    ],
+    "spearman_hfactor_vs_residual_tauE": 0.7278800870712678,
+    "bootstrap_hfactor_vs_residual_tauE": {
+      "median": 0.7279095050672411,
+      "ci95": [
+        0.714089569886137,
+        0.7423795590411462
+      ]
+    },
+    "spearman_residual_hfactor_vs_residual_tauE": 0.8459715692610535,
+    "verdict": "support_like_hfactor_tracks_residual_confinement",
+    "interpretation": "Use residual check over raw H-vs-tau: positive means H-factor identifies confinement above baseline machine/operating scaling."
+  },
+  "independent_transport_result": null,
+  "verdict": "support_like_residual_hfactor_plus_mechanical_mkss",
+  "confirmation_level": "moderate proxy support; H-factor tracks residual tau_E after baseline controls, but no direct eta/s column",
+  "caveat": "A decisive FR7 public test needs an M_KSS/edge-transport proxy not algebraically built from tau_E, or published eta/s/chi_edge columns. Improved H-factor residual check reduces, but does not remove, proxy limitations."
+}
