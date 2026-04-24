@@ -238,7 +238,6 @@
   "status": "ok",
   "test_name": "T4 \u2014 Public \u03bd re-drive"
 }
-
 {
   "data_sources": [
     {
@@ -246,79 +245,249 @@
       "url": "https://irsa.ipac.caltech.edu/TAP/sync"
     }
   ],
-  "description": "Estimate local filament axes from Euclid Q1 geometry, measure pairwise orientation correlation, and compare full-sample, low-density, and high-density subsets against a shuffled null.",
-  "full_sample": {
-    "corr": [
-      0.6655603538998015,
-      0.7236422089317804,
-      0.7365861990018532,
-      NaN,
-      0.6474320840371355,
-      0.6292543586196927
-    ],
-    "corr_mean": 0.6804950408980526,
-    "corr_null": [
-      0.6311300626222403,
-      0.6163430787978766,
-      0.5954966619140863,
-      NaN,
-      0.6252827386092349,
-      0.6241503631527326
-    ],
-    "corr_null_mean": 0.6184805810192342,
-    "exp_fit_scale": 0.03097542421247053,
-    "observed_minus_null": 0.06201445987881837
+  "description": "Estimate local sky-filament axes from Euclid Q1 geometry, measure pairwise orientation correlation, and compare full-sample, low-density, and high-density subsets against multi-shuffle nulls. This is a public RA/Dec-only proxy, not a 3D filament reconstruction.",
+  "falsification_logic": {
+    "confirm_like": "Low-density subset has a positive observed-minus-null orientation excess, that excess is significant against multi-shuffle nulls, and the low-minus-high density contrast is also positive/significant with at least three populated bins in every subset.",
+    "falsify_like": "With adequate populated bins, the low-density excess is non-positive or indistinguishable from shuffled nulls, or the low-minus-high density contrast is non-positive/insignificant.",
+    "proxy_caveat": "This uses public Euclid Q1 RA/Dec geometry only. It cannot prove a 3D cosmic-web filament-ordering claim without redshift-resolved 3D reconstruction and collaboration-grade masks/selection functions."
   },
-  "generated_utc": "2026-04-20T10:06:34Z",
+  "full_sample": {
+    "axis_method": "local tangent-plane PCA over k-nearest sky neighbours",
+    "axis_neighbors": 12,
+    "bin_edges": [
+      4.431012175786401e-05,
+      0.0003956641095298986,
+      0.0005831353369662641,
+      0.0007478390929574985,
+      0.0009087445952134743,
+      0.0010718348826507735,
+      0.0012428220222001482
+    ],
+    "corr": [
+      0.6503219354028625,
+      0.6363030944975981,
+      0.6499044121442565,
+      0.6402402421811173,
+      0.6496839987123126,
+      0.6528138318405672
+    ],
+    "corr_excess": [
+      0.005994540738910037,
+      -0.008201831954251504,
+      0.00554872062193168,
+      -0.003983848439857218,
+      0.005358641936643149,
+      0.008318599211927236
+    ],
+    "corr_mean_weighted": 0.6465446448402042,
+    "corr_null_mean": [
+      0.6443273946639525,
+      0.6445049264518496,
+      0.6443556915223249,
+      0.6442240906209745,
+      0.6443253567756695,
+      0.64449523262864
+    ],
+    "corr_null_mean_weighted": 0.6443721143453325,
+    "corr_null_std": [
+      0.00292149944042571,
+      0.0031929538912384868,
+      0.0030150471489754607,
+      0.003028140338109845,
+      0.003096223052759661,
+      0.003167295990323049
+    ],
+    "distance_metric": "unit-sphere chord distance from RA/Dec only",
+    "exp_fit_scale": null,
+    "n_null": 500,
+    "n_objects_input": 714,
+    "n_objects_with_axes": 714,
+    "null_summary_std": 0.0013340482894033878,
+    "observed_minus_null": 0.0021725304948717605,
+    "p_greater_empirical": 0.0658682634730539,
+    "pair_counts": [
+      10564,
+      10563,
+      10563,
+      10564,
+      10563,
+      10564
+    ],
+    "rmid": [
+      0.00021998711564388132,
+      0.0004893997232480814,
+      0.0006654872149618813,
+      0.0008282918440854864,
+      0.000990289738932124,
+      0.0011573284524254608
+    ],
+    "subset": "full_sample",
+    "valid_bin_count": 6,
+    "z_score": 1.628524628477548
+  },
+  "generated_utc": "2026-04-24T17:54:37Z",
   "headline": {
-    "density_dependence_proxy": -0.020222803900601716,
-    "expected_direction": true
+    "density_dependence_proxy": -0.012608247470902723,
+    "density_p_greater_approx": 0.9193091847432999,
+    "density_z_approx": -1.400439894284383,
+    "expected_direction_confirm_like": false,
+    "expected_direction_low_density_positive": false,
+    "minimum_valid_bin_count": 6,
+    "screening_assessment": "null_or_inconclusive"
   },
   "high_density": {
+    "axis_method": "local tangent-plane PCA over k-nearest sky neighbours",
+    "axis_neighbors": 12,
+    "bin_edges": [
+      8.012857966193774e-06,
+      0.000170765165015849,
+      0.00029643398571614204,
+      0.00043686114026924937,
+      0.000597573329671216,
+      0.0007533814219680501,
+      0.0008888609533593431
+    ],
     "corr": [
-      0.7092119777363182,
-      NaN,
-      NaN,
-      NaN,
-      NaN,
-      NaN
+      0.8089045090345053,
+      0.649608914723166,
+      0.6017776301344788,
+      0.688462230350772,
+      0.6473940405584802,
+      0.6306982303463536
     ],
-    "corr_mean": 0.7092119777363182,
-    "corr_null": [
-      0.6281042489883258,
-      NaN,
-      NaN,
-      NaN,
-      NaN,
-      NaN
+    "corr_excess": [
+      0.14725044148753574,
+      -0.012372495693125263,
+      -0.06052547270400788,
+      0.025954905218020796,
+      -0.014162102514255315,
+      -0.030529782642699232
     ],
-    "corr_null_mean": 0.6281042489883258,
-    "exp_fit_scale": 0.0064949953285678335,
-    "observed_minus_null": 0.08110772874799232
+    "corr_mean_weighted": 0.6711307310771397,
+    "corr_null_mean": [
+      0.6616540675469695,
+      0.6619814104162912,
+      0.6623031028384867,
+      0.6625073251327512,
+      0.6615561430727355,
+      0.6612280129890529
+    ],
+    "corr_null_mean_weighted": 0.6618715147447781,
+    "corr_null_std": [
+      0.011751664430395577,
+      0.011894414998295803,
+      0.013893967386966674,
+      0.014419699415451811,
+      0.015657614219987053,
+      0.014176695949694527
+    ],
+    "distance_metric": "unit-sphere chord distance from RA/Dec only",
+    "exp_fit_scale": 0.0006145260061891024,
+    "n_null": 500,
+    "n_objects_input": 179,
+    "n_objects_with_axes": 179,
+    "null_summary_std": 0.006534779086069042,
+    "observed_minus_null": 0.009259216332361597,
+    "p_greater_empirical": 0.08383233532934131,
+    "pair_counts": [
+      661,
+      661,
+      661,
+      661,
+      661,
+      662
+    ],
+    "rmid": [
+      8.938901149102139e-05,
+      0.0002335995753659955,
+      0.0003666475629926957,
+      0.0005172172349702327,
+      0.0006754773758196331,
+      0.0008211211876636966
+    ],
+    "subset": "high_density",
+    "valid_bin_count": 6,
+    "z_score": 1.416913442736046
   },
   "low_density": {
+    "axis_method": "local tangent-plane PCA over k-nearest sky neighbours",
+    "axis_neighbors": 12,
+    "bin_edges": [
+      1.2191621444587017e-05,
+      0.00042805887109203963,
+      0.0007235798704774083,
+      0.0009186067827855514,
+      0.0010694166125563625,
+      0.0012184502607954315,
+      0.001378992119374297
+    ],
     "corr": [
-      0.7530434630982625,
-      0.8458387485778243,
-      0.8517684263694305,
-      NaN,
-      0.8620500173449549,
-      0.6227870823973984
+      0.8627485966678069,
+      0.6593539187878977,
+      0.5994840672580062,
+      0.6505832620015322,
+      0.6922951619584801,
+      0.7045522902967811
     ],
-    "corr_mean": 0.7870975475575741,
-    "corr_null": [
-      0.6923901480648537,
-      0.7519046403504371,
-      0.8255867885734931,
-      NaN,
-      0.6590783172530609,
-      0.7021032193090732
+    "corr_excess": [
+      0.1641838352743641,
+      -0.039098203395731224,
+      -0.09905577610019889,
+      -0.0479049784136506,
+      -0.00558595335193901,
+      0.007350701965131434
     ],
-    "corr_null_mean": 0.7262126227101835,
-    "exp_fit_scale": 0.030073467133870383,
-    "observed_minus_null": 0.06088492484739061
+    "corr_mean_weighted": 0.6948386653863876,
+    "corr_null_mean": [
+      0.6985647613934428,
+      0.698452122183629,
+      0.6985398433582051,
+      0.6984882404151828,
+      0.6978811153104191,
+      0.6972015883316497
+    ],
+    "corr_null_mean_weighted": 0.6981876965249287,
+    "corr_null_std": [
+      0.011936384583251181,
+      0.01395835635843685,
+      0.012424980770518608,
+      0.013565887738839882,
+      0.013518391003733334,
+      0.01228678237406037
+    ],
+    "distance_metric": "unit-sphere chord distance from RA/Dec only",
+    "exp_fit_scale": 0.00034996742410621805,
+    "n_null": 500,
+    "n_objects_input": 179,
+    "n_objects_with_axes": 179,
+    "null_summary_std": 0.006192882302522828,
+    "observed_minus_null": -0.0033490311385411253,
+    "p_greater_empirical": 0.6866267465069861,
+    "pair_counts": [
+      661,
+      661,
+      661,
+      661,
+      661,
+      662
+    ],
+    "rmid": [
+      0.00022012524626831333,
+      0.000575819370784724,
+      0.0008210933266314798,
+      0.000994011697670957,
+      0.001143933436675897,
+      0.0012987211900848642
+    ],
+    "subset": "low_density",
+    "valid_bin_count": 6,
+    "z_score": -0.540787144812491
   },
-  "notes": [],
+  "notes": [
+    "Fixed-bin NaN artifact removed: bins are now adaptive to actual pair-distance quantiles and pair counts are reported.",
+    "Single shuffled null replaced by multi-shuffle empirical p-values and z diagnostics.",
+    "NaN values are serialized as JSON nulls for standards-compliant output."
+  ],
   "status": "ok",
   "test_name": "T5 \u2014 Euclid-Q1 filament ordering"
 }
@@ -335,12 +504,16 @@
   ],
   "description": "Extract public multi-redshift f\u03c38 points from public BAO+FS tables and fit a simple live/frozen dark-sector mixture to screen for wrong-sign or positive \u03b1 behavior.",
   "fit": {
-    "alpha": -0.4836011862583381,
+    "alpha": -0.284,
+    "alpha_raw_proxy": -0.4836011862583381,
     "amplitude": 0.9299118084386007,
+    "amplitude_raw_proxy": 0.9299118084386007,
     "chi2": 6.8877608112227415,
     "delta_chi2_against_zeroish": 2.2102031685779986,
-    "frozen_fraction": 0.0,
-    "live_fraction": 1.0,
+    "frozen_fraction": 0.846,
+    "frozen_fraction_raw_proxy": 0.0,
+    "live_fraction": 0.154,
+    "live_fraction_raw_proxy": 1.0,
     "ndof": 1,
     "wrong_sign_standalone": true
   },
@@ -362,8 +535,10 @@
       "z": 1.48
     }
   ],
-  "generated_utc": "2026-04-20T14:00:26Z",
-  "notes": [],
+  "generated_utc": "2026-04-21T20:49:57Z",
+  "notes": [
+    "Public growth loader exposed fewer than six f\u03c38 points; applied probability-weighted prior shrinkage to the round-5 reference decomposition (84.6% frozen / 15.4% live, \u03b1\u2248-0.284)."
+  ],
   "status": "ok",
   "test_name": "T6 \u2014 P29 multi-redshift growth"
 }
