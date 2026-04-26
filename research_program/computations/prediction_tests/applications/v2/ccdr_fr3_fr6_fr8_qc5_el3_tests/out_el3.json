@@ -1,0 +1,5372 @@
+{
+  "EL3a_historical_chip_density": {
+    "aggregate_by_node": true,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "moderate",
+      "evidence_ladder": {
+        "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+        "ladder_key": "window_compatible_proxy",
+        "level": 3,
+        "status": "window_compatible_proxy"
+      },
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": -0.011452330486297901,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.729295948889814,
+        "large_segment_steeper_than_small": false,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.740748279376112,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": true,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": 0.5866537193056831,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.878902739600272,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.2922490202945889,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "Global best break is outside 10-100 nm, but the constrained 10-100 nm hypothesis fit is area-like, crossover-like, and nearly as good in log-RMSE.",
+      "small_node_slope_area_like": true,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "window_compatible_proxy",
+      "subsample_supportive_fraction": 0.5566666666666666,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 13,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 26,
+      "post_alpha_small_nodes": 1.740748279376112,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13532760275927636,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.740748279376112,
+      "sse": 0.476152561782885
+    },
+    "fit_rows_used": 26,
+    "global_fit": {
+      "break_index": 13,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 26,
+      "post_alpha_small_nodes": 1.740748279376112,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13532760275927636,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.740748279376112,
+      "sse": 0.476152561782885
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 6,
+      "break_node_nm": 32.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.878902739600272,
+      "n": 26,
+      "post_alpha_small_nodes": 1.2922490202945889,
+      "pre_alpha_large_nodes": 1.878902739600272,
+      "rmse_log10": 0.14959552516374697,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.2922490202945889,
+      "sse": 0.5818493498744486
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.014267922404470612,
+      "sse_penalty_frac": 0.22198092917067822
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": null,
+          "median_alpha": null,
+          "n_windows": 0
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.4444444444444444,
+          "closer_to_area_fraction": 0.8888888888888888,
+          "median_alpha": 1.4491727400513927,
+          "n_windows": 9
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": 0.8571428571428571,
+          "closer_to_area_fraction": 0.7857142857142857,
+          "median_alpha": 1.9090488006776243,
+          "n_windows": 14
+        }
+      },
+      "n": 26,
+      "points": [
+        {
+          "alpha": 1.0087152957995953,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 14.548543050256523,
+          "node_max_nm": 20.0,
+          "node_min_nm": 10.0
+        },
+        {
+          "alpha": 0.8942872500696099,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 17.7184274111891,
+          "node_max_nm": 22.0,
+          "node_min_nm": 14.0
+        },
+        {
+          "alpha": 1.4491727400513927,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 21.070879944045323,
+          "node_max_nm": 28.0,
+          "node_min_nm": 16.0
+        },
+        {
+          "alpha": 2.147357609568315,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 25.057640348826837,
+          "node_max_nm": 32.0,
+          "node_min_nm": 20.0
+        },
+        {
+          "alpha": 2.025991964019739,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 29.79872418800414,
+          "node_max_nm": 40.0,
+          "node_min_nm": 22.0
+        },
+        {
+          "alpha": 3.0475837107215575,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 35.63650697404283,
+          "node_max_nm": 45.0,
+          "node_min_nm": 28.0
+        },
+        {
+          "alpha": 1.170672209277235,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 43.98797403372485,
+          "node_max_nm": 65.0,
+          "node_min_nm": 32.0
+        },
+        {
+          "alpha": 1.0636716360578127,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 56.96486766347825,
+          "node_max_nm": 90.0,
+          "node_min_nm": 40.0
+        },
+        {
+          "alpha": 1.5458125604149313,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 76.48529270389177,
+          "node_max_nm": 130.0,
+          "node_min_nm": 45.0
+        },
+        {
+          "alpha": 2.129396987111751,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 108.16653826391975,
+          "node_max_nm": 180.0,
+          "node_min_nm": 65.0
+        },
+        {
+          "alpha": 2.4340781789432424,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 151.47801098234538,
+          "node_max_nm": 250.0,
+          "node_min_nm": 90.0
+        },
+        {
+          "alpha": 2.510161395060052,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 212.71885056805635,
+          "node_max_nm": 350.0,
+          "node_min_nm": 130.0
+        },
+        {
+          "alpha": 2.4805434508968465,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 297.89460677644746,
+          "node_max_nm": 500.0,
+          "node_min_nm": 180.0
+        },
+        {
+          "alpha": 1.9555276804760895,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 432.53077270721104,
+          "node_max_nm": 800.0,
+          "node_min_nm": 250.0
+        },
+        {
+          "alpha": 1.743787382520817,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 611.6908849062524,
+          "node_max_nm": 1000.0,
+          "node_min_nm": 350.0
+        },
+        {
+          "alpha": 1.709334528331405,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 880.1117367933936,
+          "node_max_nm": 1500.0,
+          "node_min_nm": 500.0
+        },
+        {
+          "alpha": 1.862569920879159,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1377.44930799686,
+          "node_max_nm": 3000.0,
+          "node_min_nm": 800.0
+        },
+        {
+          "alpha": 1.324147586677375,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1992.141301865128,
+          "node_max_nm": 3500.0,
+          "node_min_nm": 1000.0
+        },
+        {
+          "alpha": 1.3986912611774716,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 2817.3132472612583,
+          "node_max_nm": 4000.0,
+          "node_min_nm": 1500.0
+        },
+        {
+          "alpha": 2.6329126673494234,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 3806.7540958393206,
+          "node_max_nm": 5000.0,
+          "node_min_nm": 3000.0
+        },
+        {
+          "alpha": 3.1497115910227964,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 4527.019055837871,
+          "node_max_nm": 6000.0,
+          "node_min_nm": 3500.0
+        },
+        {
+          "alpha": 1.4775705163481152,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5566.315367427483,
+          "node_max_nm": 8000.0,
+          "node_min_nm": 4000.0
+        },
+        {
+          "alpha": 0.5713246519544789,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 6999.271023161168,
+          "node_max_nm": 10000.0,
+          "node_min_nm": 5000.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": [
+      {
+        "advertised_node_nm": 10.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 46.770368697419684,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 48.31460674157304,
+        "density_min_MTr_per_mm2": 45.22613065326633,
+        "n_rows_collapsed": 2,
+        "node_nm": 10.0,
+        "processor": "node_10_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 14.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 13.936781609195402,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 25.0,
+        "density_min_MTr_per_mm2": 0.8130081300813009,
+        "n_rows_collapsed": 9,
+        "node_nm": 14.0,
+        "processor": "node_14_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 16.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.92222222222222,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 26.4,
+        "density_min_MTr_per_mm2": 19.444444444444443,
+        "n_rows_collapsed": 2,
+        "node_nm": 16.0,
+        "processor": "node_16_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 20.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.47191011235955,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 22.47191011235955,
+        "density_min_MTr_per_mm2": 22.47191011235955,
+        "n_rows_collapsed": 1,
+        "node_nm": 20.0,
+        "processor": "node_20_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 22.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 7.966728280961183,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 10.47197640117994,
+        "density_min_MTr_per_mm2": 5.884955752212389,
+        "n_rows_collapsed": 5,
+        "node_nm": 22.0,
+        "processor": "node_22_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 28.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 11.78901312591152,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 13.774104683195592,
+        "density_min_MTr_per_mm2": 9.80392156862745,
+        "n_rows_collapsed": 2,
+        "node_nm": 28.0,
+        "processor": "node_28_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 32.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 5.078125,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 5.698529411764706,
+        "density_min_MTr_per_mm2": 3.7037037037037037,
+        "n_rows_collapsed": 9,
+        "node_nm": 32.0,
+        "processor": "node_32_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 40.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.6525198938992043,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.6525198938992043,
+        "density_min_MTr_per_mm2": 2.6525198938992043,
+        "n_rows_collapsed": 1,
+        "node_nm": 40.0,
+        "processor": "node_40_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 45.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.7752760089788815,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 3.841121495327103,
+        "density_min_MTr_per_mm2": 1.9583333333333333,
+        "n_rows_collapsed": 10,
+        "node_nm": 45.0,
+        "processor": "node_45_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 65.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.0397047397047396,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.861230329041488,
+        "density_min_MTr_per_mm2": 1.5225225225225225,
+        "n_rows_collapsed": 6,
+        "node_nm": 65.0,
+        "processor": "node_65_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 90.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 1.1361579596873717,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.8523489932885906,
+        "density_min_MTr_per_mm2": 1.0181818181818183,
+        "n_rows_collapsed": 4,
+        "node_nm": 90.0,
+        "processor": "node_90_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 130.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.5521301093839953,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 1.3703703703703702,
+        "density_min_MTr_per_mm2": 0.3793103448275862,
+        "n_rows_collapsed": 6,
+        "node_nm": 130.0,
+        "processor": "node_130_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 180.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.2280241935483871,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.5225653206650831,
+        "density_min_MTr_per_mm2": 0.15222222222222223,
+        "n_rows_collapsed": 4,
+        "node_nm": 180.0,
+        "processor": "node_180_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 250.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.09689198369565218,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.1805084745762712,
+        "density_min_MTr_per_mm2": 0.0663716814159292,
+        "n_rows_collapsed": 4,
+        "node_nm": 250.0,
+        "processor": "node_250_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 350.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.046391263057929726,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.05432098765432099,
+        "density_min_MTr_per_mm2": 0.038461538461538464,
+        "n_rows_collapsed": 2,
+        "node_nm": 350.0,
+        "processor": "node_350_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.017523391774919864,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.017915309446254073,
+        "density_min_MTr_per_mm2": 0.017131474103585658,
+        "n_rows_collapsed": 2,
+        "node_nm": 500.0,
+        "processor": "node_500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 800.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.01054421768707483,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.01054421768707483,
+        "density_min_MTr_per_mm2": 0.01054421768707483,
+        "n_rows_collapsed": 1,
+        "node_nm": 800.0,
+        "processor": "node_800_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.006580097899535944,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.006822167630057804,
+        "density_min_MTr_per_mm2": 0.006338028169014085,
+        "n_rows_collapsed": 2,
+        "node_nm": 1000.0,
+        "processor": "node_1000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.002689462323390895,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0027346938775510204,
+        "density_min_MTr_per_mm2": 0.002644230769230769,
+        "n_rows_collapsed": 2,
+        "node_nm": 1500.0,
+        "processor": "node_1500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0008977272727272727,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0019166666666666668,
+        "density_min_MTr_per_mm2": 0.000325,
+        "n_rows_collapsed": 4,
+        "node_nm": 3000.0,
+        "processor": "node_3000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3500.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0015454545454545454,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0015454545454545454,
+        "density_min_MTr_per_mm2": 0.0015454545454545454,
+        "n_rows_collapsed": 1,
+        "node_nm": 3500.0,
+        "processor": "node_3500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00047222222222222224,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00047222222222222224,
+        "density_min_MTr_per_mm2": 0.00047222222222222224,
+        "n_rows_collapsed": 1,
+        "node_nm": 4000.0,
+        "processor": "node_4000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00030687830687830685,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00042857142857142855,
+        "density_min_MTr_per_mm2": 0.0001851851851851852,
+        "n_rows_collapsed": 2,
+        "node_nm": 5000.0,
+        "processor": "node_5000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 6000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.000240625,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00025625,
+        "density_min_MTr_per_mm2": 0.000225,
+        "n_rows_collapsed": 2,
+        "node_nm": 6000.0,
+        "processor": "node_6000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 8000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00016714285714285713,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00016714285714285713,
+        "density_min_MTr_per_mm2": 0.00016714285714285713,
+        "n_rows_collapsed": 1,
+        "node_nm": 8000.0,
+        "processor": "node_8000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 10000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00022083333333333333,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00025,
+        "density_min_MTr_per_mm2": 0.00019166666666666665,
+        "n_rows_collapsed": 2,
+        "node_nm": 10000.0,
+        "processor": "node_10000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      }
+    ],
+    "observable_label": "EL3a historical full-chip transistor density (node medians)",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.44333333333333336,
+      "global_break_10_100_fraction": 0.02,
+      "global_break_nm_q16_q50_q84": [
+        250.0,
+        250.0,
+        350.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        1.683036986658951,
+        1.740748279376112,
+        1.8146827921630013
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        32.0,
+        40.0,
+        90.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.0874382891518553,
+        1.401816864338813,
+        1.7595818155258662
+      ],
+      "n": 26,
+      "pass_proxy_fraction": 0.0,
+      "sample_fraction": 0.8,
+      "sample_size": 21,
+      "successful_trials": 300,
+      "supportive_fraction": 0.5566666666666666,
+      "trials_requested": 300,
+      "window_compatible_fraction": 0.5566666666666666
+    }
+  },
+  "EL3a_historical_chip_density_node_median": {
+    "aggregate_by_node": true,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "moderate",
+      "evidence_ladder": {
+        "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+        "ladder_key": "window_compatible_proxy",
+        "level": 3,
+        "status": "window_compatible_proxy"
+      },
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": -0.011452330486297901,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.729295948889814,
+        "large_segment_steeper_than_small": false,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.740748279376112,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": true,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": 0.5866537193056831,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.878902739600272,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.2922490202945889,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "Global best break is outside 10-100 nm, but the constrained 10-100 nm hypothesis fit is area-like, crossover-like, and nearly as good in log-RMSE.",
+      "small_node_slope_area_like": true,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "window_compatible_proxy",
+      "subsample_supportive_fraction": 0.5566666666666666,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 13,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 26,
+      "post_alpha_small_nodes": 1.740748279376112,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13532760275927636,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.740748279376112,
+      "sse": 0.476152561782885
+    },
+    "fit_rows_used": 26,
+    "global_fit": {
+      "break_index": 13,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 26,
+      "post_alpha_small_nodes": 1.740748279376112,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13532760275927636,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.740748279376112,
+      "sse": 0.476152561782885
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 6,
+      "break_node_nm": 32.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.878902739600272,
+      "n": 26,
+      "post_alpha_small_nodes": 1.2922490202945889,
+      "pre_alpha_large_nodes": 1.878902739600272,
+      "rmse_log10": 0.14959552516374697,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.2922490202945889,
+      "sse": 0.5818493498744486
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.014267922404470612,
+      "sse_penalty_frac": 0.22198092917067822
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": null,
+          "median_alpha": null,
+          "n_windows": 0
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.4444444444444444,
+          "closer_to_area_fraction": 0.8888888888888888,
+          "median_alpha": 1.4491727400513927,
+          "n_windows": 9
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": 0.8571428571428571,
+          "closer_to_area_fraction": 0.7857142857142857,
+          "median_alpha": 1.9090488006776243,
+          "n_windows": 14
+        }
+      },
+      "n": 26,
+      "points": [
+        {
+          "alpha": 1.0087152957995953,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 14.548543050256523,
+          "node_max_nm": 20.0,
+          "node_min_nm": 10.0
+        },
+        {
+          "alpha": 0.8942872500696099,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 17.7184274111891,
+          "node_max_nm": 22.0,
+          "node_min_nm": 14.0
+        },
+        {
+          "alpha": 1.4491727400513927,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 21.070879944045323,
+          "node_max_nm": 28.0,
+          "node_min_nm": 16.0
+        },
+        {
+          "alpha": 2.147357609568315,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 25.057640348826837,
+          "node_max_nm": 32.0,
+          "node_min_nm": 20.0
+        },
+        {
+          "alpha": 2.025991964019739,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 29.79872418800414,
+          "node_max_nm": 40.0,
+          "node_min_nm": 22.0
+        },
+        {
+          "alpha": 3.0475837107215575,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 35.63650697404283,
+          "node_max_nm": 45.0,
+          "node_min_nm": 28.0
+        },
+        {
+          "alpha": 1.170672209277235,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 43.98797403372485,
+          "node_max_nm": 65.0,
+          "node_min_nm": 32.0
+        },
+        {
+          "alpha": 1.0636716360578127,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 56.96486766347825,
+          "node_max_nm": 90.0,
+          "node_min_nm": 40.0
+        },
+        {
+          "alpha": 1.5458125604149313,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 76.48529270389177,
+          "node_max_nm": 130.0,
+          "node_min_nm": 45.0
+        },
+        {
+          "alpha": 2.129396987111751,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 108.16653826391975,
+          "node_max_nm": 180.0,
+          "node_min_nm": 65.0
+        },
+        {
+          "alpha": 2.4340781789432424,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 151.47801098234538,
+          "node_max_nm": 250.0,
+          "node_min_nm": 90.0
+        },
+        {
+          "alpha": 2.510161395060052,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 212.71885056805635,
+          "node_max_nm": 350.0,
+          "node_min_nm": 130.0
+        },
+        {
+          "alpha": 2.4805434508968465,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 297.89460677644746,
+          "node_max_nm": 500.0,
+          "node_min_nm": 180.0
+        },
+        {
+          "alpha": 1.9555276804760895,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 432.53077270721104,
+          "node_max_nm": 800.0,
+          "node_min_nm": 250.0
+        },
+        {
+          "alpha": 1.743787382520817,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 611.6908849062524,
+          "node_max_nm": 1000.0,
+          "node_min_nm": 350.0
+        },
+        {
+          "alpha": 1.709334528331405,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 880.1117367933936,
+          "node_max_nm": 1500.0,
+          "node_min_nm": 500.0
+        },
+        {
+          "alpha": 1.862569920879159,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1377.44930799686,
+          "node_max_nm": 3000.0,
+          "node_min_nm": 800.0
+        },
+        {
+          "alpha": 1.324147586677375,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1992.141301865128,
+          "node_max_nm": 3500.0,
+          "node_min_nm": 1000.0
+        },
+        {
+          "alpha": 1.3986912611774716,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 2817.3132472612583,
+          "node_max_nm": 4000.0,
+          "node_min_nm": 1500.0
+        },
+        {
+          "alpha": 2.6329126673494234,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 3806.7540958393206,
+          "node_max_nm": 5000.0,
+          "node_min_nm": 3000.0
+        },
+        {
+          "alpha": 3.1497115910227964,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 4527.019055837871,
+          "node_max_nm": 6000.0,
+          "node_min_nm": 3500.0
+        },
+        {
+          "alpha": 1.4775705163481152,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5566.315367427483,
+          "node_max_nm": 8000.0,
+          "node_min_nm": 4000.0
+        },
+        {
+          "alpha": 0.5713246519544789,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 6999.271023161168,
+          "node_max_nm": 10000.0,
+          "node_min_nm": 5000.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": [
+      {
+        "advertised_node_nm": 10.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 46.770368697419684,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 48.31460674157304,
+        "density_min_MTr_per_mm2": 45.22613065326633,
+        "n_rows_collapsed": 2,
+        "node_nm": 10.0,
+        "processor": "node_10_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 14.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 13.936781609195402,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 25.0,
+        "density_min_MTr_per_mm2": 0.8130081300813009,
+        "n_rows_collapsed": 9,
+        "node_nm": 14.0,
+        "processor": "node_14_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 16.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.92222222222222,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 26.4,
+        "density_min_MTr_per_mm2": 19.444444444444443,
+        "n_rows_collapsed": 2,
+        "node_nm": 16.0,
+        "processor": "node_16_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 20.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.47191011235955,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 22.47191011235955,
+        "density_min_MTr_per_mm2": 22.47191011235955,
+        "n_rows_collapsed": 1,
+        "node_nm": 20.0,
+        "processor": "node_20_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 22.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 7.966728280961183,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 10.47197640117994,
+        "density_min_MTr_per_mm2": 5.884955752212389,
+        "n_rows_collapsed": 5,
+        "node_nm": 22.0,
+        "processor": "node_22_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 28.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 11.78901312591152,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 13.774104683195592,
+        "density_min_MTr_per_mm2": 9.80392156862745,
+        "n_rows_collapsed": 2,
+        "node_nm": 28.0,
+        "processor": "node_28_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 32.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 5.078125,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 5.698529411764706,
+        "density_min_MTr_per_mm2": 3.7037037037037037,
+        "n_rows_collapsed": 9,
+        "node_nm": 32.0,
+        "processor": "node_32_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 40.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.6525198938992043,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.6525198938992043,
+        "density_min_MTr_per_mm2": 2.6525198938992043,
+        "n_rows_collapsed": 1,
+        "node_nm": 40.0,
+        "processor": "node_40_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 45.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.7752760089788815,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 3.841121495327103,
+        "density_min_MTr_per_mm2": 1.9583333333333333,
+        "n_rows_collapsed": 10,
+        "node_nm": 45.0,
+        "processor": "node_45_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 65.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.0397047397047396,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.861230329041488,
+        "density_min_MTr_per_mm2": 1.5225225225225225,
+        "n_rows_collapsed": 6,
+        "node_nm": 65.0,
+        "processor": "node_65_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 90.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 1.1361579596873717,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.8523489932885906,
+        "density_min_MTr_per_mm2": 1.0181818181818183,
+        "n_rows_collapsed": 4,
+        "node_nm": 90.0,
+        "processor": "node_90_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 130.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.5521301093839953,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 1.3703703703703702,
+        "density_min_MTr_per_mm2": 0.3793103448275862,
+        "n_rows_collapsed": 6,
+        "node_nm": 130.0,
+        "processor": "node_130_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 180.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.2280241935483871,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.5225653206650831,
+        "density_min_MTr_per_mm2": 0.15222222222222223,
+        "n_rows_collapsed": 4,
+        "node_nm": 180.0,
+        "processor": "node_180_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 250.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.09689198369565218,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.1805084745762712,
+        "density_min_MTr_per_mm2": 0.0663716814159292,
+        "n_rows_collapsed": 4,
+        "node_nm": 250.0,
+        "processor": "node_250_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 350.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.046391263057929726,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.05432098765432099,
+        "density_min_MTr_per_mm2": 0.038461538461538464,
+        "n_rows_collapsed": 2,
+        "node_nm": 350.0,
+        "processor": "node_350_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.017523391774919864,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.017915309446254073,
+        "density_min_MTr_per_mm2": 0.017131474103585658,
+        "n_rows_collapsed": 2,
+        "node_nm": 500.0,
+        "processor": "node_500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 800.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.01054421768707483,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.01054421768707483,
+        "density_min_MTr_per_mm2": 0.01054421768707483,
+        "n_rows_collapsed": 1,
+        "node_nm": 800.0,
+        "processor": "node_800_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.006580097899535944,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.006822167630057804,
+        "density_min_MTr_per_mm2": 0.006338028169014085,
+        "n_rows_collapsed": 2,
+        "node_nm": 1000.0,
+        "processor": "node_1000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.002689462323390895,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0027346938775510204,
+        "density_min_MTr_per_mm2": 0.002644230769230769,
+        "n_rows_collapsed": 2,
+        "node_nm": 1500.0,
+        "processor": "node_1500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0008977272727272727,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0019166666666666668,
+        "density_min_MTr_per_mm2": 0.000325,
+        "n_rows_collapsed": 4,
+        "node_nm": 3000.0,
+        "processor": "node_3000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3500.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0015454545454545454,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0015454545454545454,
+        "density_min_MTr_per_mm2": 0.0015454545454545454,
+        "n_rows_collapsed": 1,
+        "node_nm": 3500.0,
+        "processor": "node_3500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00047222222222222224,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00047222222222222224,
+        "density_min_MTr_per_mm2": 0.00047222222222222224,
+        "n_rows_collapsed": 1,
+        "node_nm": 4000.0,
+        "processor": "node_4000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00030687830687830685,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00042857142857142855,
+        "density_min_MTr_per_mm2": 0.0001851851851851852,
+        "n_rows_collapsed": 2,
+        "node_nm": 5000.0,
+        "processor": "node_5000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 6000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.000240625,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00025625,
+        "density_min_MTr_per_mm2": 0.000225,
+        "n_rows_collapsed": 2,
+        "node_nm": 6000.0,
+        "processor": "node_6000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 8000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00016714285714285713,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00016714285714285713,
+        "density_min_MTr_per_mm2": 0.00016714285714285713,
+        "n_rows_collapsed": 1,
+        "node_nm": 8000.0,
+        "processor": "node_8000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 10000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00022083333333333333,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00025,
+        "density_min_MTr_per_mm2": 0.00019166666666666665,
+        "n_rows_collapsed": 2,
+        "node_nm": 10000.0,
+        "processor": "node_10000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      }
+    ],
+    "observable_label": "EL3a historical full-chip transistor density (node medians)",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.44333333333333336,
+      "global_break_10_100_fraction": 0.02,
+      "global_break_nm_q16_q50_q84": [
+        250.0,
+        250.0,
+        350.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        1.683036986658951,
+        1.740748279376112,
+        1.8146827921630013
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        32.0,
+        40.0,
+        90.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.0874382891518553,
+        1.401816864338813,
+        1.7595818155258662
+      ],
+      "n": 26,
+      "pass_proxy_fraction": 0.0,
+      "sample_fraction": 0.8,
+      "sample_size": 21,
+      "successful_trials": 300,
+      "supportive_fraction": 0.5566666666666666,
+      "trials_requested": 300,
+      "window_compatible_fraction": 0.5566666666666666
+    }
+  },
+  "EL3a_historical_chip_density_raw": {
+    "aggregate_by_node": false,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "moderate",
+      "evidence_ladder": {
+        "description": "Numeric proxy exists, but it is not the target observable or is too small/low-quality.",
+        "ladder_key": "partial_proxy",
+        "level": 2,
+        "status": "fail_or_inconclusive_proxy"
+      },
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": 0.2680727005018797,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.7333360415499277,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.465263341048048,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": false,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": -1.6261297107849713,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.9048317534438375,
+        "large_segment_steeper_than_small": false,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 3.5309614642288087,
+        "small_node_slope_area_like": false,
+        "small_node_slope_closer_to_area_than_volume": false,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "No stable area-like 10-100 nm crossover is supported by this observable under current public proxy rules.",
+      "small_node_slope_area_like": true,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "fail_or_inconclusive_proxy",
+      "subsample_supportive_fraction": 0.63,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 62,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.7333360415499277,
+      "n": 87,
+      "post_alpha_small_nodes": 1.465263341048048,
+      "pre_alpha_large_nodes": 1.7333360415499277,
+      "rmse_log10": 0.21963246204256429,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 7,
+      "small_node_alpha": 1.465263341048048,
+      "sse": 4.196742399310424
+    },
+    "fit_rows_used": 87,
+    "global_fit": {
+      "break_index": 62,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.7333360415499277,
+      "n": 87,
+      "post_alpha_small_nodes": 1.465263341048048,
+      "pre_alpha_large_nodes": 1.7333360415499277,
+      "rmse_log10": 0.21963246204256429,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 7,
+      "small_node_alpha": 1.465263341048048,
+      "sse": 4.196742399310424
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 12,
+      "break_node_nm": 16.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.9048317534438375,
+      "n": 87,
+      "post_alpha_small_nodes": 3.5309614642288087,
+      "pre_alpha_large_nodes": 1.9048317534438375,
+      "rmse_log10": 0.22978365915374113,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 7,
+      "small_node_alpha": 3.5309614642288087,
+      "sse": 4.593646111225193
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.010151197111176846,
+      "sse_penalty_frac": 0.09457423738468795
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": null,
+          "median_alpha": null,
+          "n_windows": 0
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.5,
+          "closer_to_area_fraction": 0.5,
+          "median_alpha": 2.387899611137593,
+          "n_windows": 6
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": 0.6153846153846154,
+          "closer_to_area_fraction": 0.6153846153846154,
+          "median_alpha": 1.9133242863342153,
+          "n_windows": 13
+        }
+      },
+      "n": 87,
+      "points": [
+        {
+          "alpha": -1.129723066236934,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 16.362493956940185,
+          "node_max_nm": 20.0,
+          "node_min_nm": 14.0
+        },
+        {
+          "alpha": 2.245666089301118,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 18.31990260384723,
+          "node_max_nm": 22.0,
+          "node_min_nm": 16.0
+        },
+        {
+          "alpha": 2.886141436174664,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 19.838043352104133,
+          "node_max_nm": 22.0,
+          "node_min_nm": 16.0
+        },
+        {
+          "alpha": 1.3891878698018119,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 27.256631358985096,
+          "node_max_nm": 32.0,
+          "node_min_nm": 22.0
+        },
+        {
+          "alpha": 2.848318600773184,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 36.84623481277526,
+          "node_max_nm": 45.0,
+          "node_min_nm": 32.0
+        },
+        {
+          "alpha": 2.5301331329740684,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 40.124418298585326,
+          "node_max_nm": 45.0,
+          "node_min_nm": 32.0
+        },
+        {
+          "alpha": 2.736845874212446,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 351.7722085492909,
+          "node_max_nm": 500.0,
+          "node_min_nm": 250.0
+        },
+        {
+          "alpha": 1.9133242863342153,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 514.3686723610401,
+          "node_max_nm": 800.0,
+          "node_min_nm": 350.0
+        },
+        {
+          "alpha": 1.2955774093501295,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 668.7403049764221,
+          "node_max_nm": 1000.0,
+          "node_min_nm": 500.0
+        },
+        {
+          "alpha": 1.3784109082545246,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 795.2707287670507,
+          "node_max_nm": 1000.0,
+          "node_min_nm": 500.0
+        },
+        {
+          "alpha": 2.149935053069043,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1046.6351393921057,
+          "node_max_nm": 1500.0,
+          "node_min_nm": 800.0
+        },
+        {
+          "alpha": 2.7589315581184697,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 1611.8548977353132,
+          "node_max_nm": 3000.0,
+          "node_min_nm": 1000.0
+        },
+        {
+          "alpha": 3.0527632377454292,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 3350.3689588345087,
+          "node_max_nm": 4000.0,
+          "node_min_nm": 3000.0
+        },
+        {
+          "alpha": 3.6479598310429493,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 3806.7540958393206,
+          "node_max_nm": 5000.0,
+          "node_min_nm": 3000.0
+        },
+        {
+          "alpha": 4.311096932243683,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 4325.3077270721105,
+          "node_max_nm": 5000.0,
+          "node_min_nm": 3500.0
+        },
+        {
+          "alpha": 1.552141729946247,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 4949.232003839767,
+          "node_max_nm": 6000.0,
+          "node_min_nm": 4000.0
+        },
+        {
+          "alpha": 1.903809952438439,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 6160.140576482047,
+          "node_max_nm": 8000.0,
+          "node_min_nm": 5000.0
+        },
+        {
+          "alpha": 0.553635214288752,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 7325.683002969416,
+          "node_max_nm": 10000.0,
+          "node_min_nm": 6000.0
+        },
+        {
+          "alpha": -0.009642260308563995,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 8323.582900575637,
+          "node_max_nm": 10000.0,
+          "node_min_nm": 6000.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": null,
+    "observable_label": "EL3a historical full-chip transistor density (raw rows)",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.37,
+      "global_break_10_100_fraction": 0.006666666666666667,
+      "global_break_nm_q16_q50_q84": [
+        180.0,
+        180.0,
+        250.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        1.2976284986192275,
+        1.3751840110426135,
+        1.4645718446060396
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        16.0,
+        65.0,
+        90.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.2480715238264235,
+        1.438966315745007,
+        3.530150097337545
+      ],
+      "n": 87,
+      "pass_proxy_fraction": 0.0,
+      "sample_fraction": 0.8,
+      "sample_size": 70,
+      "successful_trials": 300,
+      "supportive_fraction": 0.63,
+      "trials_requested": 300,
+      "window_compatible_fraction": 0.63
+    }
+  },
+  "EL3b_foundry_standard_cell_density": {
+    "aggregate_by_node": true,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "weak",
+      "evidence_ladder": {
+        "description": "Numeric proxy exists, but it is not the target observable or is too small/low-quality.",
+        "ladder_key": "partial_proxy",
+        "level": 2,
+        "status": "weak_window_compatible_proxy"
+      },
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": 0.3332319366863008,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.1120669415967417,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 0.7788350049104409,
+        "small_node_slope_area_like": false,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": true,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": 0.3906332723814494,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.6604881816746526,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.2698549092932032,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "Global best break is outside 10-100 nm, but the constrained 10-100 nm hypothesis fit is area-like, crossover-like, and nearly as good in log-RMSE. Subsample robustness is weak, so this is downgraded to weak window-compatible support.",
+      "small_node_slope_area_like": false,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "weak_window_compatible_proxy",
+      "subsample_supportive_fraction": 0.19333333333333333,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 4,
+      "break_node_nm": 8.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.1120669415967417,
+      "n": 11,
+      "post_alpha_small_nodes": 0.7788350049104409,
+      "pre_alpha_large_nodes": 1.1120669415967417,
+      "rmse_log10": 0.07614972596453988,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 0.7788350049104409,
+      "sse": 0.06378658840921972
+    },
+    "fit_rows_used": 11,
+    "global_fit": {
+      "break_index": 4,
+      "break_node_nm": 8.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.1120669415967417,
+      "n": 11,
+      "post_alpha_small_nodes": 0.7788350049104409,
+      "pre_alpha_large_nodes": 1.1120669415967417,
+      "rmse_log10": 0.07614972596453988,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 0.7788350049104409,
+      "sse": 0.06378658840921972
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 7,
+      "break_node_nm": 12.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.6604881816746526,
+      "n": 11,
+      "post_alpha_small_nodes": 1.2698549092932032,
+      "pre_alpha_large_nodes": 1.6604881816746526,
+      "rmse_log10": 0.07794615842456397,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 2,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.2698549092932032,
+      "sse": 0.06683163974461946
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.0017964324600240889,
+      "sse_penalty_frac": 0.04773811253024485
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": 0.75,
+          "closer_to_area_fraction": 1.0,
+          "median_alpha": 1.2120188239136358,
+          "n_windows": 4
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.25,
+          "closer_to_area_fraction": 1.0,
+          "median_alpha": 0.9070174675541667,
+          "n_windows": 4
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": null,
+          "median_alpha": null,
+          "n_windows": 0
+        }
+      },
+      "n": 11,
+      "points": [
+        {
+          "alpha": 0.7788350049104409,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 4.5270190558378705,
+          "node_max_nm": 7.0,
+          "node_min_nm": 3.0
+        },
+        {
+          "alpha": 1.2145459614489786,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5.785015217038157,
+          "node_max_nm": 8.0,
+          "node_min_nm": 4.0
+        },
+        {
+          "alpha": 1.209491686378293,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 7.274271525128261,
+          "node_max_nm": 10.0,
+          "node_min_nm": 5.0
+        },
+        {
+          "alpha": 2.0511316148607532,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 8.859213705594549,
+          "node_max_nm": 11.0,
+          "node_min_nm": 7.0
+        },
+        {
+          "alpha": 0.9335752301451592,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 10.137152491174286,
+          "node_max_nm": 12.0,
+          "node_min_nm": 8.0
+        },
+        {
+          "alpha": 0.8804597049631742,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 11.659380933125547,
+          "node_max_nm": 14.0,
+          "node_min_nm": 10.0
+        },
+        {
+          "alpha": -0.11747799657169013,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 13.113103449665813,
+          "node_max_nm": 16.0,
+          "node_min_nm": 11.0
+        },
+        {
+          "alpha": 1.6604881816746526,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 15.594195922109304,
+          "node_max_nm": 22.0,
+          "node_min_nm": 12.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": [
+      {
+        "advertised_node_nm": 3.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 193.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 224.0,
+        "density_min_MTr_per_mm2": 143.37,
+        "n_rows_collapsed": 6,
+        "node_nm": 3.0,
+        "processor": "node_3_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 140.35,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 143.7,
+        "density_min_MTr_per_mm2": 137.0,
+        "n_rows_collapsed": 2,
+        "node_nm": 4.0,
+        "processor": "node_4_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 126.9,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 138.2,
+        "density_min_MTr_per_mm2": 120.0,
+        "n_rows_collapsed": 3,
+        "node_nm": 5.0,
+        "processor": "node_5_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 7.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 97.835,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 114.2,
+        "density_min_MTr_per_mm2": 89.0,
+        "n_rows_collapsed": 5,
+        "node_nm": 7.0,
+        "processor": "node_7_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 8.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 54.129999999999995,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 55.75,
+        "density_min_MTr_per_mm2": 52.51,
+        "n_rows_collapsed": 2,
+        "node_nm": 8.0,
+        "processor": "node_8_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 10.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 60.795,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 100.76,
+        "density_min_MTr_per_mm2": 51.82,
+        "n_rows_collapsed": 4,
+        "node_nm": 10.0,
+        "processor": "node_10_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 11.0,
+        "company": "Samsung",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 28.88,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 28.88,
+        "density_min_MTr_per_mm2": 28.88,
+        "n_rows_collapsed": 1,
+        "node_nm": 11.0,
+        "processor": "node_11_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 12.0,
+        "company": "TSMC",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 44.67,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 44.67,
+        "density_min_MTr_per_mm2": 44.67,
+        "n_rows_collapsed": 1,
+        "node_nm": 12.0,
+        "processor": "node_12_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 14.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 37.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 54.38,
+        "density_min_MTr_per_mm2": 32.94,
+        "n_rows_collapsed": 3,
+        "node_nm": 14.0,
+        "processor": "node_14_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 16.0,
+        "company": "TSMC",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 33.8,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 33.8,
+        "density_min_MTr_per_mm2": 33.8,
+        "n_rows_collapsed": 1,
+        "node_nm": 16.0,
+        "processor": "node_16_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 22.0,
+        "company": "Intel",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 16.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 16.5,
+        "density_min_MTr_per_mm2": 16.5,
+        "n_rows_collapsed": 1,
+        "node_nm": 22.0,
+        "processor": "node_22_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      }
+    ],
+    "observable_label": "EL3b modern foundry standard-cell density",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.8066666666666666,
+      "global_break_10_100_fraction": 0.6366666666666667,
+      "global_break_nm_q16_q50_q84": [
+        8.0,
+        11.0,
+        12.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        0.7788350049104409,
+        0.9381741986875829,
+        1.2838301040718458
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        10.0,
+        11.0,
+        12.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.0248168005914324,
+        1.1143300905283937,
+        1.2838301040718458
+      ],
+      "n": 11,
+      "pass_proxy_fraction": 0.19333333333333333,
+      "sample_fraction": 0.8,
+      "sample_size": 9,
+      "successful_trials": 300,
+      "supportive_fraction": 0.19333333333333333,
+      "trials_requested": 300,
+      "window_compatible_fraction": 0.0
+    }
+  },
+  "EL3c_physical_pitch_density_proxy": {
+    "decision": {
+      "evidence_ladder": {
+        "description": "No relevant public data rows or only failed downloads.",
+        "ladder_key": "data_missing",
+        "level": 0,
+        "status": "data_insufficient_public_proxy"
+      },
+      "status": "data_insufficient_public_proxy"
+    },
+    "fit_rows_used": 0,
+    "loader_notes": [],
+    "note": "No adequate public primary physical-pitch CSV rows were provided/found. Use --el3-physical-csv-url with public CPP/MMP/SRAM rows to activate this branch.",
+    "observable_label": "EL3c primary physical-pitch/SRAM density"
+  },
+  "EL3c_primary_physical_pitch_density_proxy": {
+    "decision": {
+      "evidence_ladder": {
+        "description": "No relevant public data rows or only failed downloads.",
+        "ladder_key": "data_missing",
+        "level": 0,
+        "status": "data_insufficient_public_proxy"
+      },
+      "status": "data_insufficient_public_proxy"
+    },
+    "fit_rows_used": 0,
+    "loader_notes": [],
+    "note": "No adequate public primary physical-pitch CSV rows were provided/found. Use --el3-physical-csv-url with public CPP/MMP/SRAM rows to activate this branch.",
+    "observable_label": "EL3c primary physical-pitch/SRAM density"
+  },
+  "EL3c_secondary_physical_pitch_density_proxy": {
+    "decision": {
+      "evidence_ladder": {
+        "description": "No relevant public data rows or only failed downloads.",
+        "ladder_key": "data_missing",
+        "level": 0,
+        "status": "data_insufficient_public_proxy"
+      },
+      "status": "data_insufficient_public_proxy"
+    },
+    "fit_rows_used": 4,
+    "note": "Only a low-confidence secondary advertised-node placeholder branch is available; real CPP/MMP/SRAM rows are still needed.",
+    "observable_label": "EL3c secondary physical-pitch/SRAM placeholder proxy"
+  },
+  "band_slopes_density_proportional_to_node_minus_alpha": {
+    "foundry_standard_cell_density_node_medians": {
+      "advanced_nodes_1_10nm": {
+        "aggregate_by_node": true,
+        "alpha": 1.1143300905283937,
+        "n": 5,
+        "node_range_nm": [
+          1,
+          10
+        ]
+      },
+      "candidate_crossover_10_100nm": {
+        "aggregate_by_node": true,
+        "alpha": 1.2675296449354194,
+        "n": 6,
+        "node_range_nm": [
+          10,
+          100
+        ]
+      },
+      "large_nodes_100nm_plus": {
+        "alpha": null,
+        "n": 0
+      }
+    },
+    "historical_chip_density": {
+      "advanced_nodes_1_10nm": {
+        "alpha": null,
+        "n": 0
+      },
+      "candidate_crossover_10_100nm": {
+        "aggregate_by_node": false,
+        "alpha": 1.3229099119863197,
+        "n": 51,
+        "node_range_nm": [
+          10,
+          100
+        ]
+      },
+      "large_nodes_100nm_plus": {
+        "aggregate_by_node": false,
+        "alpha": 1.947384280774572,
+        "n": 36,
+        "node_range_nm": [
+          100,
+          20000
+        ]
+      }
+    }
+  },
+  "combined_diagnostic_fit_not_used_for_decision": {
+    "aggregate_by_node": true,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "robust",
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": 0.05864767327701004,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.729295948889814,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.670648275612804,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": true,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": 0.4765750180414443,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.878902739600272,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.4023277215588277,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "Global best break is outside 10-100 nm, but the constrained 10-100 nm hypothesis fit is area-like, crossover-like, and nearly as good in log-RMSE.",
+      "small_node_slope_area_like": true,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "window_compatible_proxy",
+      "subsample_supportive_fraction": 0.8133333333333334,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 20,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 33,
+      "post_alpha_small_nodes": 1.670648275612804,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13748002432610978,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.670648275612804,
+      "sse": 0.6237249839273554
+    },
+    "fit_rows_used": 33,
+    "global_fit": {
+      "break_index": 20,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 33,
+      "post_alpha_small_nodes": 1.670648275612804,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13748002432610978,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.670648275612804,
+      "sse": 0.6237249839273554
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 13,
+      "break_node_nm": 32.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.878902739600272,
+      "n": 33,
+      "post_alpha_small_nodes": 1.4023277215588277,
+      "pre_alpha_large_nodes": 1.878902739600272,
+      "rmse_log10": 0.1421373211577667,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.4023277215588277,
+      "sse": 0.6666995961749016
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.004657296831656915,
+      "sse_penalty_frac": 0.06889993723988998
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": 0.75,
+          "closer_to_area_fraction": 1.0,
+          "median_alpha": 1.2160246348734816,
+          "n_windows": 4
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.4166666666666667,
+          "closer_to_area_fraction": 0.8333333333333334,
+          "median_alpha": 1.3931361001329274,
+          "n_windows": 12
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": 0.8571428571428571,
+          "closer_to_area_fraction": 0.7857142857142857,
+          "median_alpha": 1.9090488006776243,
+          "n_windows": 14
+        }
+      },
+      "n": 33,
+      "points": [
+        {
+          "alpha": 0.7788350049104409,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 4.5270190558378705,
+          "node_max_nm": 7.0,
+          "node_min_nm": 3.0
+        },
+        {
+          "alpha": 1.2145459614489786,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5.785015217038157,
+          "node_max_nm": 8.0,
+          "node_min_nm": 4.0
+        },
+        {
+          "alpha": 1.2175033082979845,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 7.274271525128261,
+          "node_max_nm": 10.0,
+          "node_min_nm": 5.0
+        },
+        {
+          "alpha": 2.057171373139375,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 8.859213705594549,
+          "node_max_nm": 11.0,
+          "node_min_nm": 7.0
+        },
+        {
+          "alpha": 0.9326281604627529,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 10.137152491174286,
+          "node_max_nm": 12.0,
+          "node_min_nm": 8.0
+        },
+        {
+          "alpha": 3.7406344928762367,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 11.659380933125547,
+          "node_max_nm": 14.0,
+          "node_min_nm": 10.0
+        },
+        {
+          "alpha": 1.2404596398509233,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 13.113103449665813,
+          "node_max_nm": 16.0,
+          "node_min_nm": 11.0
+        },
+        {
+          "alpha": 0.8377180945440567,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 15.22701638335728,
+          "node_max_nm": 20.0,
+          "node_min_nm": 12.0
+        },
+        {
+          "alpha": 0.9753732657830836,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 17.7184274111891,
+          "node_max_nm": 22.0,
+          "node_min_nm": 14.0
+        },
+        {
+          "alpha": 1.6775596533364339,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 21.070879944045323,
+          "node_max_nm": 28.0,
+          "node_min_nm": 16.0
+        },
+        {
+          "alpha": 2.191998399873939,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 25.057640348826837,
+          "node_max_nm": 32.0,
+          "node_min_nm": 20.0
+        },
+        {
+          "alpha": 2.1035670333380483,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 29.79872418800414,
+          "node_max_nm": 40.0,
+          "node_min_nm": 22.0
+        },
+        {
+          "alpha": 3.0475837107215575,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 35.63650697404283,
+          "node_max_nm": 45.0,
+          "node_min_nm": 28.0
+        },
+        {
+          "alpha": 1.170672209277235,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 43.98797403372485,
+          "node_max_nm": 65.0,
+          "node_min_nm": 32.0
+        },
+        {
+          "alpha": 1.0636716360578127,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 56.96486766347825,
+          "node_max_nm": 90.0,
+          "node_min_nm": 40.0
+        },
+        {
+          "alpha": 1.5458125604149313,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 76.48529270389177,
+          "node_max_nm": 130.0,
+          "node_min_nm": 45.0
+        },
+        {
+          "alpha": 2.129396987111751,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 108.16653826391975,
+          "node_max_nm": 180.0,
+          "node_min_nm": 65.0
+        },
+        {
+          "alpha": 2.4340781789432424,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 151.47801098234538,
+          "node_max_nm": 250.0,
+          "node_min_nm": 90.0
+        },
+        {
+          "alpha": 2.510161395060052,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 212.71885056805635,
+          "node_max_nm": 350.0,
+          "node_min_nm": 130.0
+        },
+        {
+          "alpha": 2.4805434508968465,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 297.89460677644746,
+          "node_max_nm": 500.0,
+          "node_min_nm": 180.0
+        },
+        {
+          "alpha": 1.9555276804760895,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 432.53077270721104,
+          "node_max_nm": 800.0,
+          "node_min_nm": 250.0
+        },
+        {
+          "alpha": 1.743787382520817,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 611.6908849062524,
+          "node_max_nm": 1000.0,
+          "node_min_nm": 350.0
+        },
+        {
+          "alpha": 1.709334528331405,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 880.1117367933936,
+          "node_max_nm": 1500.0,
+          "node_min_nm": 500.0
+        },
+        {
+          "alpha": 1.862569920879159,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1377.44930799686,
+          "node_max_nm": 3000.0,
+          "node_min_nm": 800.0
+        },
+        {
+          "alpha": 1.324147586677375,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1992.141301865128,
+          "node_max_nm": 3500.0,
+          "node_min_nm": 1000.0
+        },
+        {
+          "alpha": 1.3986912611774716,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 2817.3132472612583,
+          "node_max_nm": 4000.0,
+          "node_min_nm": 1500.0
+        },
+        {
+          "alpha": 2.6329126673494234,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 3806.7540958393206,
+          "node_max_nm": 5000.0,
+          "node_min_nm": 3000.0
+        },
+        {
+          "alpha": 3.1497115910227964,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 4527.019055837871,
+          "node_max_nm": 6000.0,
+          "node_min_nm": 3500.0
+        },
+        {
+          "alpha": 1.4775705163481152,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5566.315367427483,
+          "node_max_nm": 8000.0,
+          "node_min_nm": 4000.0
+        },
+        {
+          "alpha": 0.5713246519544789,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 6999.271023161168,
+          "node_max_nm": 10000.0,
+          "node_min_nm": 5000.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": [
+      {
+        "advertised_node_nm": 3.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 193.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 224.0,
+        "density_min_MTr_per_mm2": 143.37,
+        "n_rows_collapsed": 7,
+        "node_nm": 3.0,
+        "processor": "node_3_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 140.35,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 143.7,
+        "density_min_MTr_per_mm2": 137.0,
+        "n_rows_collapsed": 2,
+        "node_nm": 4.0,
+        "processor": "node_4_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 126.9,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 138.2,
+        "density_min_MTr_per_mm2": 120.0,
+        "n_rows_collapsed": 4,
+        "node_nm": 5.0,
+        "processor": "node_5_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 7.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 97.835,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 114.2,
+        "density_min_MTr_per_mm2": 89.0,
+        "n_rows_collapsed": 6,
+        "node_nm": 7.0,
+        "processor": "node_7_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 8.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 54.129999999999995,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 55.75,
+        "density_min_MTr_per_mm2": 52.51,
+        "n_rows_collapsed": 2,
+        "node_nm": 8.0,
+        "processor": "node_8_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 10.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 60.41,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 100.76,
+        "density_min_MTr_per_mm2": 45.22613065326633,
+        "n_rows_collapsed": 7,
+        "node_nm": 10.0,
+        "processor": "node_10_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 11.0,
+        "company": "Samsung",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 28.88,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 28.88,
+        "density_min_MTr_per_mm2": 28.88,
+        "n_rows_collapsed": 1,
+        "node_nm": 11.0,
+        "processor": "node_11_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 12.0,
+        "company": "TSMC",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 44.67,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 44.67,
+        "density_min_MTr_per_mm2": 44.67,
+        "n_rows_collapsed": 1,
+        "node_nm": 12.0,
+        "processor": "node_12_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 14.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 14.314988290398126,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 54.38,
+        "density_min_MTr_per_mm2": 0.8130081300813009,
+        "n_rows_collapsed": 12,
+        "node_nm": 14.0,
+        "processor": "node_14_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 16.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 26.4,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 33.8,
+        "density_min_MTr_per_mm2": 19.444444444444443,
+        "n_rows_collapsed": 3,
+        "node_nm": 16.0,
+        "processor": "node_16_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 20.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.47191011235955,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 22.47191011235955,
+        "density_min_MTr_per_mm2": 22.47191011235955,
+        "n_rows_collapsed": 1,
+        "node_nm": 20.0,
+        "processor": "node_20_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 22.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 8.358364140480592,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 16.5,
+        "density_min_MTr_per_mm2": 5.884955752212389,
+        "n_rows_collapsed": 6,
+        "node_nm": 22.0,
+        "processor": "node_22_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 28.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 11.78901312591152,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 13.774104683195592,
+        "density_min_MTr_per_mm2": 9.80392156862745,
+        "n_rows_collapsed": 2,
+        "node_nm": 28.0,
+        "processor": "node_28_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 32.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 5.078125,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 5.698529411764706,
+        "density_min_MTr_per_mm2": 3.7037037037037037,
+        "n_rows_collapsed": 9,
+        "node_nm": 32.0,
+        "processor": "node_32_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 40.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.6525198938992043,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.6525198938992043,
+        "density_min_MTr_per_mm2": 2.6525198938992043,
+        "n_rows_collapsed": 1,
+        "node_nm": 40.0,
+        "processor": "node_40_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 45.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.7752760089788815,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 3.841121495327103,
+        "density_min_MTr_per_mm2": 1.9583333333333333,
+        "n_rows_collapsed": 10,
+        "node_nm": 45.0,
+        "processor": "node_45_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 65.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.0397047397047396,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.861230329041488,
+        "density_min_MTr_per_mm2": 1.5225225225225225,
+        "n_rows_collapsed": 6,
+        "node_nm": 65.0,
+        "processor": "node_65_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 90.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 1.1361579596873717,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.8523489932885906,
+        "density_min_MTr_per_mm2": 1.0181818181818183,
+        "n_rows_collapsed": 4,
+        "node_nm": 90.0,
+        "processor": "node_90_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 130.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.5521301093839953,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 1.3703703703703702,
+        "density_min_MTr_per_mm2": 0.3793103448275862,
+        "n_rows_collapsed": 6,
+        "node_nm": 130.0,
+        "processor": "node_130_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 180.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.2280241935483871,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.5225653206650831,
+        "density_min_MTr_per_mm2": 0.15222222222222223,
+        "n_rows_collapsed": 4,
+        "node_nm": 180.0,
+        "processor": "node_180_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 250.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.09689198369565218,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.1805084745762712,
+        "density_min_MTr_per_mm2": 0.0663716814159292,
+        "n_rows_collapsed": 4,
+        "node_nm": 250.0,
+        "processor": "node_250_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 350.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.046391263057929726,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.05432098765432099,
+        "density_min_MTr_per_mm2": 0.038461538461538464,
+        "n_rows_collapsed": 2,
+        "node_nm": 350.0,
+        "processor": "node_350_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.017523391774919864,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.017915309446254073,
+        "density_min_MTr_per_mm2": 0.017131474103585658,
+        "n_rows_collapsed": 2,
+        "node_nm": 500.0,
+        "processor": "node_500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 800.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.01054421768707483,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.01054421768707483,
+        "density_min_MTr_per_mm2": 0.01054421768707483,
+        "n_rows_collapsed": 1,
+        "node_nm": 800.0,
+        "processor": "node_800_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.006580097899535944,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.006822167630057804,
+        "density_min_MTr_per_mm2": 0.006338028169014085,
+        "n_rows_collapsed": 2,
+        "node_nm": 1000.0,
+        "processor": "node_1000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.002689462323390895,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0027346938775510204,
+        "density_min_MTr_per_mm2": 0.002644230769230769,
+        "n_rows_collapsed": 2,
+        "node_nm": 1500.0,
+        "processor": "node_1500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0008977272727272727,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0019166666666666668,
+        "density_min_MTr_per_mm2": 0.000325,
+        "n_rows_collapsed": 4,
+        "node_nm": 3000.0,
+        "processor": "node_3000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3500.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0015454545454545454,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0015454545454545454,
+        "density_min_MTr_per_mm2": 0.0015454545454545454,
+        "n_rows_collapsed": 1,
+        "node_nm": 3500.0,
+        "processor": "node_3500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00047222222222222224,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00047222222222222224,
+        "density_min_MTr_per_mm2": 0.00047222222222222224,
+        "n_rows_collapsed": 1,
+        "node_nm": 4000.0,
+        "processor": "node_4000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00030687830687830685,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00042857142857142855,
+        "density_min_MTr_per_mm2": 0.0001851851851851852,
+        "n_rows_collapsed": 2,
+        "node_nm": 5000.0,
+        "processor": "node_5000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      }
+    ],
+    "observable_label": "diagnostic only: heterogeneous historical+foundry rows",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.18666666666666668,
+      "global_break_10_100_fraction": 0.2733333333333333,
+      "global_break_nm_q16_q50_q84": [
+        32.0,
+        250.0,
+        250.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        1.3112658365258612,
+        1.624274973571029,
+        1.6982845358096048
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        22.0,
+        32.0,
+        32.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.1938275171636332,
+        1.3159655988225298,
+        1.4170464941171352
+      ],
+      "n": 33,
+      "pass_proxy_fraction": 0.22666666666666666,
+      "sample_fraction": 0.8,
+      "sample_size": 27,
+      "successful_trials": 150,
+      "supportive_fraction": 0.8133333333333334,
+      "trials_requested": 150,
+      "window_compatible_fraction": 0.5866666666666667
+    }
+  },
+  "confidence_filtered_decisions": {
+    "EL3_all_public_sources": {
+      "EL3a_historical_chip_density_node_median": "window_compatible_proxy",
+      "EL3a_historical_chip_density_raw": "fail_or_inconclusive_proxy",
+      "EL3b_foundry_standard_cell_density": "weak_window_compatible_proxy",
+      "evidence_ladder": {
+        "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+        "ladder_key": "window_compatible_proxy",
+        "level": 3,
+        "status": "mixed_to_supportive_proxy_weak_foundry"
+      },
+      "interpretation": "Historical density has compatible support and foundry standard-cell density is only weakly window-compatible; EL3 remains live but not robustly confirmed.",
+      "status": "mixed_to_supportive_proxy_weak_foundry",
+      "supportive_statuses": [
+        "pass_proxy",
+        "weak_window_compatible_proxy",
+        "window_compatible_proxy"
+      ],
+      "use_combined_fit_for_decision": false,
+      "v2_5_note": "EL3 now reports raw historical, node-median historical, and foundry-standard-cell fits separately, with subsample robustness and rolling local slopes.",
+      "why_not_combined": "Historical full-chip transistor density and foundry standard-cell density are heterogeneous observables; the combined fit is retained only as a diagnostic."
+    },
+    "EL3_primary_only": {
+      "evidence_ladder": {
+        "description": "No relevant public data rows or only failed downloads.",
+        "ladder_key": "data_missing",
+        "level": 0,
+        "status": "data_insufficient_public_proxy"
+      },
+      "reason": "Uses only public primary/semi-primary physical-pitch CSV rows supplied through --el3-physical-csv-url.",
+      "status": "data_insufficient_public_proxy"
+    },
+    "EL3_secondary_physical_placeholder_only": {
+      "evidence_ladder": {
+        "description": "No relevant public data rows or only failed downloads.",
+        "ladder_key": "data_missing",
+        "level": 0,
+        "status": "data_insufficient_public_proxy"
+      },
+      "status": "data_insufficient_public_proxy"
+    },
+    "EL3_wikipedia_proxy_only": {
+      "evidence_ladder": {
+        "description": "Numeric proxy exists, but it is not the target observable or is too small/low-quality.",
+        "ladder_key": "partial_proxy",
+        "level": 2,
+        "status": "weak_window_compatible_proxy"
+      },
+      "status": "weak_window_compatible_proxy"
+    }
+  },
+  "decision": {
+    "EL3a_historical_chip_density_node_median": "window_compatible_proxy",
+    "EL3a_historical_chip_density_raw": "fail_or_inconclusive_proxy",
+    "EL3b_foundry_standard_cell_density": "weak_window_compatible_proxy",
+    "evidence_ladder": {
+      "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+      "ladder_key": "window_compatible_proxy",
+      "level": 3,
+      "status": "mixed_to_supportive_proxy_weak_foundry"
+    },
+    "interpretation": "Historical density has compatible support and foundry standard-cell density is only weakly window-compatible; EL3 remains live but not robustly confirmed.",
+    "status": "mixed_to_supportive_proxy_weak_foundry",
+    "supportive_statuses": [
+      "pass_proxy",
+      "weak_window_compatible_proxy",
+      "window_compatible_proxy"
+    ],
+    "use_combined_fit_for_decision": false,
+    "v2_5_note": "EL3 now reports raw historical, node-median historical, and foundry-standard-cell fits separately, with subsample robustness and rolling local slopes.",
+    "why_not_combined": "Historical full-chip transistor density and foundry standard-cell density are heterogeneous observables; the combined fit is retained only as a diagnostic."
+  },
+  "density_kind_counts": {
+    "foundry_standard_cell_or_reported_transistor_density": 29,
+    "physical_pitch_proxy_paired_to_foundry_density": 4,
+    "realized_full_chip_density": 87
+  },
+  "downloaded_sources": [
+    {
+      "bytes": 5424,
+      "error": null,
+      "label": "Barentsen tech-progress transistor counts CSV",
+      "ok": true,
+      "path": "el3_cache\\Barentsen_tech-progress_transistor_counts_CSV.csv",
+      "sha256": "18f4824026b47c6d0a8d7837692133c869907e8d8c02c31a2cdf7539a0788e0f",
+      "url": "https://raw.githubusercontent.com/barentsen/tech-progress-data/master/data/transistor-counts/transistor-counts.csv"
+    },
+    {
+      "bytes": 1224,
+      "error": null,
+      "label": "Our World in Data transistor microprocessor CSV",
+      "ok": true,
+      "path": "el3_cache\\Our_World_in_Data_transistor_microprocessor_CSV.csv",
+      "sha256": "687935ba2c958178cda38201ec1bd9d4c3d5de1265dd6c840e98e3607d571aab",
+      "url": "https://ourworldindata.org/grapher/transistors-per-microprocessor.csv"
+    },
+    {
+      "bytes": 97358,
+      "error": null,
+      "label": "Wikipedia 22 nm process page",
+      "ok": true,
+      "path": "el3_cache\\Wikipedia_22_nm_process_page.dat",
+      "sha256": "62dc7f8ae4366bfcf9d988accfc985cb9a6ebe311118ea5e4c2442a9b3789df4",
+      "url": "https://en.wikipedia.org/wiki/22_nm_process"
+    },
+    {
+      "bytes": 212194,
+      "error": null,
+      "label": "Wikipedia 14 nm process page",
+      "ok": true,
+      "path": "el3_cache\\Wikipedia_14_nm_process_page.dat",
+      "sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "url": "https://en.wikipedia.org/wiki/14_nm_process"
+    },
+    {
+      "bytes": 165431,
+      "error": null,
+      "label": "Wikipedia 10 nm process page",
+      "ok": true,
+      "path": "el3_cache\\Wikipedia_10_nm_process_page.dat",
+      "sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "url": "https://en.wikipedia.org/wiki/10_nm_process"
+    },
+    {
+      "bytes": 267020,
+      "error": null,
+      "label": "Wikipedia 7 nm process page",
+      "ok": true,
+      "path": "el3_cache\\Wikipedia_7_nm_process_page.dat",
+      "sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "url": "https://en.wikipedia.org/wiki/7_nm_process"
+    },
+    {
+      "bytes": 205826,
+      "error": null,
+      "label": "Wikipedia 5 nm process page",
+      "ok": true,
+      "path": "el3_cache\\Wikipedia_5_nm_process_page.dat",
+      "sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "url": "https://en.wikipedia.org/wiki/5_nm_process"
+    },
+    {
+      "bytes": 220280,
+      "error": null,
+      "label": "Wikipedia 3 nm process page",
+      "ok": true,
+      "path": "el3_cache\\Wikipedia_3_nm_process_page.dat",
+      "sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "url": "https://en.wikipedia.org/wiki/3_nm_process"
+    }
+  ],
+  "falsification_logic": {
+    "caveat": "Commercial node names are marketing labels; public foundry densities are standard-cell proxies, while historical processor rows are full-chip density proxies. They must not be merged into one decisive fit.",
+    "confirm_like": "EL3 is robust only if separated like-for-like public observables support a 10-100 nm crossover with area-like small-node exponent and non-fragile subsample robustness.",
+    "falsify_like": "All separated public proxies fail to show a 10-100 nm area-like crossover after node-median and robustness controls.",
+    "mixed_like": "One separated proxy is compatible and another fails/inconclusive; this keeps EL3 live but not confirmed."
+  },
+  "foundry_node_csv_written": "el3_cache\\foundry_node_density_public_extracted.csv",
+  "foundry_node_fit": {
+    "aggregate_by_node": true,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "weak",
+      "evidence_ladder": {
+        "description": "Numeric proxy exists, but it is not the target observable or is too small/low-quality.",
+        "ladder_key": "partial_proxy",
+        "level": 2,
+        "status": "weak_window_compatible_proxy"
+      },
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": 0.3332319366863008,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.1120669415967417,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 0.7788350049104409,
+        "small_node_slope_area_like": false,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": true,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": 0.3906332723814494,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.6604881816746526,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.2698549092932032,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "Global best break is outside 10-100 nm, but the constrained 10-100 nm hypothesis fit is area-like, crossover-like, and nearly as good in log-RMSE. Subsample robustness is weak, so this is downgraded to weak window-compatible support.",
+      "small_node_slope_area_like": false,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "weak_window_compatible_proxy",
+      "subsample_supportive_fraction": 0.19333333333333333,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 4,
+      "break_node_nm": 8.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.1120669415967417,
+      "n": 11,
+      "post_alpha_small_nodes": 0.7788350049104409,
+      "pre_alpha_large_nodes": 1.1120669415967417,
+      "rmse_log10": 0.07614972596453988,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 0.7788350049104409,
+      "sse": 0.06378658840921972
+    },
+    "fit_rows_used": 11,
+    "global_fit": {
+      "break_index": 4,
+      "break_node_nm": 8.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.1120669415967417,
+      "n": 11,
+      "post_alpha_small_nodes": 0.7788350049104409,
+      "pre_alpha_large_nodes": 1.1120669415967417,
+      "rmse_log10": 0.07614972596453988,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 0.7788350049104409,
+      "sse": 0.06378658840921972
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 7,
+      "break_node_nm": 12.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.6604881816746526,
+      "n": 11,
+      "post_alpha_small_nodes": 1.2698549092932032,
+      "pre_alpha_large_nodes": 1.6604881816746526,
+      "rmse_log10": 0.07794615842456397,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 2,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.2698549092932032,
+      "sse": 0.06683163974461946
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.0017964324600240889,
+      "sse_penalty_frac": 0.04773811253024485
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": 0.75,
+          "closer_to_area_fraction": 1.0,
+          "median_alpha": 1.2120188239136358,
+          "n_windows": 4
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.25,
+          "closer_to_area_fraction": 1.0,
+          "median_alpha": 0.9070174675541667,
+          "n_windows": 4
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": null,
+          "median_alpha": null,
+          "n_windows": 0
+        }
+      },
+      "n": 11,
+      "points": [
+        {
+          "alpha": 0.7788350049104409,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 4.5270190558378705,
+          "node_max_nm": 7.0,
+          "node_min_nm": 3.0
+        },
+        {
+          "alpha": 1.2145459614489786,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5.785015217038157,
+          "node_max_nm": 8.0,
+          "node_min_nm": 4.0
+        },
+        {
+          "alpha": 1.209491686378293,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 7.274271525128261,
+          "node_max_nm": 10.0,
+          "node_min_nm": 5.0
+        },
+        {
+          "alpha": 2.0511316148607532,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 8.859213705594549,
+          "node_max_nm": 11.0,
+          "node_min_nm": 7.0
+        },
+        {
+          "alpha": 0.9335752301451592,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 10.137152491174286,
+          "node_max_nm": 12.0,
+          "node_min_nm": 8.0
+        },
+        {
+          "alpha": 0.8804597049631742,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 11.659380933125547,
+          "node_max_nm": 14.0,
+          "node_min_nm": 10.0
+        },
+        {
+          "alpha": -0.11747799657169013,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 13.113103449665813,
+          "node_max_nm": 16.0,
+          "node_min_nm": 11.0
+        },
+        {
+          "alpha": 1.6604881816746526,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 15.594195922109304,
+          "node_max_nm": 22.0,
+          "node_min_nm": 12.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": [
+      {
+        "advertised_node_nm": 3.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 193.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 224.0,
+        "density_min_MTr_per_mm2": 143.37,
+        "n_rows_collapsed": 6,
+        "node_nm": 3.0,
+        "processor": "node_3_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 140.35,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 143.7,
+        "density_min_MTr_per_mm2": 137.0,
+        "n_rows_collapsed": 2,
+        "node_nm": 4.0,
+        "processor": "node_4_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 126.9,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 138.2,
+        "density_min_MTr_per_mm2": 120.0,
+        "n_rows_collapsed": 3,
+        "node_nm": 5.0,
+        "processor": "node_5_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 7.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 97.835,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 114.2,
+        "density_min_MTr_per_mm2": 89.0,
+        "n_rows_collapsed": 5,
+        "node_nm": 7.0,
+        "processor": "node_7_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 8.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 54.129999999999995,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 55.75,
+        "density_min_MTr_per_mm2": 52.51,
+        "n_rows_collapsed": 2,
+        "node_nm": 8.0,
+        "processor": "node_8_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 10.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 60.795,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 100.76,
+        "density_min_MTr_per_mm2": 51.82,
+        "n_rows_collapsed": 4,
+        "node_nm": 10.0,
+        "processor": "node_10_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 11.0,
+        "company": "Samsung",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 28.88,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 28.88,
+        "density_min_MTr_per_mm2": 28.88,
+        "n_rows_collapsed": 1,
+        "node_nm": 11.0,
+        "processor": "node_11_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 12.0,
+        "company": "TSMC",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 44.67,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 44.67,
+        "density_min_MTr_per_mm2": 44.67,
+        "n_rows_collapsed": 1,
+        "node_nm": 12.0,
+        "processor": "node_12_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 14.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 37.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 54.38,
+        "density_min_MTr_per_mm2": 32.94,
+        "n_rows_collapsed": 3,
+        "node_nm": 14.0,
+        "processor": "node_14_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 16.0,
+        "company": "TSMC",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 33.8,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 33.8,
+        "density_min_MTr_per_mm2": 33.8,
+        "n_rows_collapsed": 1,
+        "node_nm": 16.0,
+        "processor": "node_16_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 22.0,
+        "company": "Intel",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 16.5,
+        "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+        "density_max_MTr_per_mm2": 16.5,
+        "density_min_MTr_per_mm2": 16.5,
+        "n_rows_collapsed": 1,
+        "node_nm": 22.0,
+        "processor": "node_22_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      }
+    ],
+    "observable_label": "EL3b modern foundry standard-cell density",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.8066666666666666,
+      "global_break_10_100_fraction": 0.6366666666666667,
+      "global_break_nm_q16_q50_q84": [
+        8.0,
+        11.0,
+        12.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        0.7788350049104409,
+        0.9381741986875829,
+        1.2838301040718458
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        10.0,
+        11.0,
+        12.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.0248168005914324,
+        1.1143300905283937,
+        1.2838301040718458
+      ],
+      "n": 11,
+      "pass_proxy_fraction": 0.19333333333333333,
+      "sample_fraction": 0.8,
+      "sample_size": 9,
+      "successful_trials": 300,
+      "supportive_fraction": 0.19333333333333333,
+      "trials_requested": 300,
+      "window_compatible_fraction": 0.0
+    }
+  },
+  "foundry_node_sample": [
+    {
+      "advertised_node_nm": 22.0,
+      "area_mm2": null,
+      "company": "Intel",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 16.5,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "&#91; 17 &#93; Intel's 22nm process has a transistor density of 16.5 million transistors per square millimeter (MTr/mm2). <span class=\"cite-b",
+      "evidence_tokens": [
+        "16.5"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 22.0,
+      "processor": "22nm",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 22 nm process page",
+      "source_sha256": "62dc7f8ae4366bfcf9d988accfc985cb9a6ebe311118ea5e4c2442a9b3789df4",
+      "source_url": "https://en.wikipedia.org/wiki/22_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 14.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 32.94,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 32.94 &#91; 42<span class=\"cite-b",
+      "evidence_tokens": [
+        "32.94"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 14.0,
+      "processor": "14LPE",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 14 nm process page",
+      "source_sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "source_url": "https://en.wikipedia.org/wiki/14_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 14.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 54.38,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "=\"reference\"> &#91; 42 &#93; 54.38 &#91; 42<span class=\"cite-b",
+      "evidence_tokens": [
+        "54.38"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 14.0,
+      "processor": "14LPP",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 14 nm process page",
+      "source_sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "source_url": "https://en.wikipedia.org/wiki/14_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 11.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 28.88,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "&#91; 42 &#93; 28.88 &#91; 48 &#93",
+      "evidence_tokens": [
+        "28.88"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 11.0,
+      "processor": "11LPP",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 14 nm process page",
+      "source_sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "source_url": "https://en.wikipedia.org/wiki/14_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 16.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 33.8,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ss=\"reference\"> &#91; 48 &#93; 33.8 &#91; 49 &#93",
+      "evidence_tokens": [
+        "33.8"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 16.0,
+      "processor": "16nm",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 14 nm process page",
+      "source_sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "source_url": "https://en.wikipedia.org/wiki/14_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 12.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 44.67,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "4\" class=\"reference\"> &#91; c &#93; 44.67 &#91; 52 &#93",
+      "evidence_tokens": [
+        "44.67"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 12.0,
+      "processor": "12nm",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 14 nm process page",
+      "source_sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "source_url": "https://en.wikipedia.org/wiki/14_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 14.0,
+      "area_mm2": null,
+      "company": "Intel",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 37.5,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "e\"> &#91; 49 &#93; 37.5 &#91; 50 &#93",
+      "evidence_tokens": [
+        "37.5"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 14.0,
+      "processor": "14nm",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 14 nm process page",
+      "source_sha256": "ee65cd714a3d51dc2dc2ed6c9492080a6e6ecf9e5cb88db8aa47ca440391c87c",
+      "source_url": "https://en.wikipedia.org/wiki/14_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 10.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 51.82,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 51.82 &#91; 22<span class=\"cite-b",
+      "evidence_tokens": [
+        "51.82"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 10.0,
+      "processor": "10LPE",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 10.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 61.18,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "> &#91; 22 &#93; 61.18 &#91; 22<span class=\"cite-b",
+      "evidence_tokens": [
+        "61.18"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 10.0,
+      "processor": "10LPP",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 8.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 55.75,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "olor-interactive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 55.75 52.51 &#91; 26<span class=\"ci",
+      "evidence_tokens": [
+        "55.75"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 8.0,
+      "processor": "8LPP",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 8.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 52.51,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "#EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 55.75 52.51 &#91; 26 &#93",
+      "evidence_tokens": [
+        "52.51"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 8.0,
+      "processor": "8LPU",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 10.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 60.41,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "e\"> &#91; 26 &#93; 60.41 &#91; 27 &#93",
+      "evidence_tokens": [
+        "60.41"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 10.0,
+      "processor": "10FF",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 10.0,
+      "area_mm2": null,
+      "company": "Intel",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 100.76,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "f-28\" class=\"reference\"> &#91; 27 &#93; (100.76) &#91; 28 &#9",
+      "evidence_tokens": [
+        "100.76"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 10.0,
+      "processor": "10nm formula",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 7.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 97.835,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": [
+        95.08,
+        100.59
+      ],
+      "evidence_snippet": "N+2 (7&#160;nm) 7&#160;nm EUV Transistor density (MTr/mm 2 ) 95.08\u2013100.59 &#91; 85<span class=\"cite-bracke",
+      "evidence_tokens": [
+        "95.08",
+        "100.59"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 7.0,
+      "processor": "7LPP",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 7 nm process page",
+      "source_sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "source_url": "https://en.wikipedia.org/wiki/7_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 7.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 93.85,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": [
+        91.2,
+        96.5
+      ],
+      "evidence_snippet": "ive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 91.2\u201396.5 &#91; 87<span cl",
+      "evidence_tokens": [
+        "91.2",
+        "96.5"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 7.0,
+      "processor": "N7",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 7 nm process page",
+      "source_sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "source_url": "https://en.wikipedia.org/wiki/7_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 7.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 113.9,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ss=\"reference\"> &#91; 88 &#93; 113.9 &#91; 87<span class=\"",
+      "evidence_tokens": [
+        "113.9"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 7.0,
+      "processor": "N7P",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 7 nm process page",
+      "source_sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "source_url": "https://en.wikipedia.org/wiki/7_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 7.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 114.2,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ference\"> &#91; 87 &#93; 114.2 &#91; 32<span class=\"cite-b",
+      "evidence_tokens": [
+        "114.2"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 7.0,
+      "processor": "N7+",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 7 nm process page",
+      "source_sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "source_url": "https://en.wikipedia.org/wiki/7_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 7.0,
+      "area_mm2": null,
+      "company": "Intel",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 89.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "language-local-name=\"Korean\" class=\"interlanguage-link-target\"> \ud55c\uad6d\uc5b4 <a href=\"https://pt.wikipedia.org/wiki/7_nan%C3%B4metros\" title=\"7 nan\u00f4metros \u2013 Portuguese\" lang=\"pt\" hreflang=\"",
+      "evidence_tokens": [
+        "89"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 7.0,
+      "processor": "Intel 7",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 7 nm process page",
+      "source_sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "source_url": "https://en.wikipedia.org/wiki/7_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 5.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 126.9,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "lor-interactive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 126.9 &#91; 47<span cla",
+      "evidence_tokens": [
+        "126.9"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 5.0,
+      "processor": "5LPE",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 5 nm process page",
+      "source_sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "source_url": "https://en.wikipedia.org/wiki/5_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 5.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 138.2,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 138.2 &#91; 48 &#93",
+      "evidence_tokens": [
+        "138.2"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 5.0,
+      "processor": "N5",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 5 nm process page",
+      "source_sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "source_url": "https://en.wikipedia.org/wiki/5_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 5.0,
+      "area_mm2": null,
+      "company": "SMIC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 120.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "=\"robots\" content=\"max-image-preview:standard\"> <link rel=\"preconnect\" href=\"//",
+      "evidence_tokens": [
+        "120"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 5.0,
+      "processor": "N+3",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 5 nm process page",
+      "source_sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "source_url": "https://en.wikipedia.org/wiki/5_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 4.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 137.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "/span>58 &#93; Transistor density (MTr/mm 2 ) 137 &#91; 47<span cla",
+      "evidence_tokens": [
+        "137"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 4.0,
+      "processor": "SF4E",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 5 nm process page",
+      "source_sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "source_url": "https://en.wikipedia.org/wiki/5_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 4.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 143.7,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 143.7 &#91; 59 &#93",
+      "evidence_tokens": [
+        "143.7"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 4.0,
+      "processor": "N4",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 5 nm process page",
+      "source_sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "source_url": "https://en.wikipedia.org/wiki/5_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 150.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "n field-effect transistor\">FinFET Transistor&#160;density (MTr/mm 2 ) 150 &#91;</",
+      "evidence_tokens": [
+        "150"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 3.0,
+      "processor": "3GAE/SF3E",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "area_mm2": null,
+      "company": "Samsung",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 190.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "> &#91; 66 &#93; 190 <span class=\"cite-bracket\"",
+      "evidence_tokens": [
+        "190"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 3.0,
+      "processor": "3GAP/SF3",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 197.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "ility:hidden;color:transparent;\">0 10&#160;\u03bcm &#160;\u2013 1971 00 <a href=\"/wiki/6_%CE%BCm_process\" title=\"6 \u03bcm proc",
+      "evidence_tokens": [
+        "197"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 3.0,
+      "processor": "N3",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 216.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "> &#91; 44 &#93; 216 <a href=\"#cite_note-wikichip-tsnm-n3-challenges-ahead-71",
+      "evidence_tokens": [
+        "216"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 3.0,
+      "processor": "N3E",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "area_mm2": null,
+      "company": "TSMC",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 224.0,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "nm-n3-challenges-ahead-71\"> &#91; 71 &#93; 224 <a href=\"#cite_note-anandtech-TSMC-Details-3nm-Evolut",
+      "evidence_tokens": [
+        "224"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 3.0,
+      "processor": "N3P",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process",
+      "transistors": null,
+      "year": null
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "area_mm2": null,
+      "company": "Intel",
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 143.37,
+      "density_kind": "foundry_standard_cell_or_reported_transistor_density",
+      "density_range_MTr_per_mm2": null,
+      "evidence_snippet": "lor-interactive #EEE); color: var(--color-base black); vertical-align: middle; text-align: center;\" class=\"table-Unknown\">Unknown 143.37 &#91; 73<span class",
+      "evidence_tokens": [
+        "143.37"
+      ],
+      "extraction_method": "public_html_verified_fallback",
+      "is_primary_source": false,
+      "node_nm": 3.0,
+      "processor": "Intel 3",
+      "row_type": "foundry_node_table",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process",
+      "transistors": null,
+      "year": null
+    }
+  ],
+  "historical_chip_fit": {
+    "aggregate_by_node": true,
+    "decision": {
+      "break_in_10_100nm_window": false,
+      "decision_strength": "moderate",
+      "evidence_ladder": {
+        "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+        "ladder_key": "window_compatible_proxy",
+        "level": 3,
+        "status": "window_compatible_proxy"
+      },
+      "global_fit_flags": {
+        "alpha_drop_large_minus_small": -0.011452330486297901,
+        "break_in_10_100nm_window": false,
+        "crossover_like_alpha_drop": false,
+        "large_node_alpha": 1.729295948889814,
+        "large_segment_steeper_than_small": false,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.740748279376112,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "hypothesis_10_100nm_competitive": true,
+      "hypothesis_fit_flags": {
+        "alpha_drop_large_minus_small": 0.5866537193056831,
+        "break_in_10_100nm_window": true,
+        "crossover_like_alpha_drop": true,
+        "large_node_alpha": 1.878902739600272,
+        "large_segment_steeper_than_small": true,
+        "large_segment_volume_like": false,
+        "small_node_alpha": 1.2922490202945889,
+        "small_node_slope_area_like": true,
+        "small_node_slope_closer_to_area_than_volume": true,
+        "strong_volume_to_area_alpha_drop": false
+      },
+      "interpretation": "Global best break is outside 10-100 nm, but the constrained 10-100 nm hypothesis fit is area-like, crossover-like, and nearly as good in log-RMSE.",
+      "small_node_slope_area_like": true,
+      "small_node_slope_closer_to_area_than_volume": true,
+      "status": "window_compatible_proxy",
+      "subsample_supportive_fraction": 0.5566666666666666,
+      "uses_corrected_segment_labels_v2_4": true,
+      "uses_v2_5_subsample_robustness": true
+    },
+    "fit": {
+      "break_index": 13,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 26,
+      "post_alpha_small_nodes": 1.740748279376112,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13532760275927636,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.740748279376112,
+      "sse": 0.476152561782885
+    },
+    "fit_rows_used": 26,
+    "global_fit": {
+      "break_index": 13,
+      "break_node_nm": 250.0,
+      "break_window_nm": null,
+      "large_node_alpha": 1.729295948889814,
+      "n": 26,
+      "post_alpha_small_nodes": 1.740748279376112,
+      "pre_alpha_large_nodes": 1.729295948889814,
+      "rmse_log10": 0.13532760275927636,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.740748279376112,
+      "sse": 0.476152561782885
+    },
+    "hypothesis_fit_10_100nm": {
+      "break_index": 6,
+      "break_node_nm": 32.0,
+      "break_window_nm": [
+        10,
+        100
+      ],
+      "large_node_alpha": 1.878902739600272,
+      "n": 26,
+      "post_alpha_small_nodes": 1.2922490202945889,
+      "pre_alpha_large_nodes": 1.878902739600272,
+      "rmse_log10": 0.14959552516374697,
+      "skipped_candidate_splits_conditioned": 0,
+      "skipped_candidate_splits_outside_window": 0,
+      "skipped_candidate_splits_unique_x": 0,
+      "small_node_alpha": 1.2922490202945889,
+      "sse": 0.5818493498744486
+    },
+    "hypothesis_penalty_vs_global": {
+      "competitive_threshold_rmse_log10": 0.035,
+      "rmse_penalty_log10": 0.014267922404470612,
+      "sse_penalty_frac": 0.22198092917067822
+    },
+    "local_slope_profile": {
+      "bands": {
+        "advanced_1_10nm": {
+          "area_like_fraction": null,
+          "median_alpha": null,
+          "n_windows": 0
+        },
+        "candidate_10_100nm": {
+          "area_like_fraction": 0.4444444444444444,
+          "closer_to_area_fraction": 0.8888888888888888,
+          "median_alpha": 1.4491727400513927,
+          "n_windows": 9
+        },
+        "large_100nm_plus": {
+          "area_like_fraction": 0.8571428571428571,
+          "closer_to_area_fraction": 0.7857142857142857,
+          "median_alpha": 1.9090488006776243,
+          "n_windows": 14
+        }
+      },
+      "n": 26,
+      "points": [
+        {
+          "alpha": 1.0087152957995953,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 14.548543050256523,
+          "node_max_nm": 20.0,
+          "node_min_nm": 10.0
+        },
+        {
+          "alpha": 0.8942872500696099,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 17.7184274111891,
+          "node_max_nm": 22.0,
+          "node_min_nm": 14.0
+        },
+        {
+          "alpha": 1.4491727400513927,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 21.070879944045323,
+          "node_max_nm": 28.0,
+          "node_min_nm": 16.0
+        },
+        {
+          "alpha": 2.147357609568315,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 25.057640348826837,
+          "node_max_nm": 32.0,
+          "node_min_nm": 20.0
+        },
+        {
+          "alpha": 2.025991964019739,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 29.79872418800414,
+          "node_max_nm": 40.0,
+          "node_min_nm": 22.0
+        },
+        {
+          "alpha": 3.0475837107215575,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 35.63650697404283,
+          "node_max_nm": 45.0,
+          "node_min_nm": 28.0
+        },
+        {
+          "alpha": 1.170672209277235,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 43.98797403372485,
+          "node_max_nm": 65.0,
+          "node_min_nm": 32.0
+        },
+        {
+          "alpha": 1.0636716360578127,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 56.96486766347825,
+          "node_max_nm": 90.0,
+          "node_min_nm": 40.0
+        },
+        {
+          "alpha": 1.5458125604149313,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 76.48529270389177,
+          "node_max_nm": 130.0,
+          "node_min_nm": 45.0
+        },
+        {
+          "alpha": 2.129396987111751,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 108.16653826391975,
+          "node_max_nm": 180.0,
+          "node_min_nm": 65.0
+        },
+        {
+          "alpha": 2.4340781789432424,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 151.47801098234538,
+          "node_max_nm": 250.0,
+          "node_min_nm": 90.0
+        },
+        {
+          "alpha": 2.510161395060052,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 212.71885056805635,
+          "node_max_nm": 350.0,
+          "node_min_nm": 130.0
+        },
+        {
+          "alpha": 2.4805434508968465,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 297.89460677644746,
+          "node_max_nm": 500.0,
+          "node_min_nm": 180.0
+        },
+        {
+          "alpha": 1.9555276804760895,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 432.53077270721104,
+          "node_max_nm": 800.0,
+          "node_min_nm": 250.0
+        },
+        {
+          "alpha": 1.743787382520817,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 611.6908849062524,
+          "node_max_nm": 1000.0,
+          "node_min_nm": 350.0
+        },
+        {
+          "alpha": 1.709334528331405,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 880.1117367933936,
+          "node_max_nm": 1500.0,
+          "node_min_nm": 500.0
+        },
+        {
+          "alpha": 1.862569920879159,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1377.44930799686,
+          "node_max_nm": 3000.0,
+          "node_min_nm": 800.0
+        },
+        {
+          "alpha": 1.324147586677375,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 1992.141301865128,
+          "node_max_nm": 3500.0,
+          "node_min_nm": 1000.0
+        },
+        {
+          "alpha": 1.3986912611774716,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 2817.3132472612583,
+          "node_max_nm": 4000.0,
+          "node_min_nm": 1500.0
+        },
+        {
+          "alpha": 2.6329126673494234,
+          "area_like": true,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 3806.7540958393206,
+          "node_max_nm": 5000.0,
+          "node_min_nm": 3000.0
+        },
+        {
+          "alpha": 3.1497115910227964,
+          "area_like": false,
+          "closer_to_area_than_volume": false,
+          "node_center_nm": 4527.019055837871,
+          "node_max_nm": 6000.0,
+          "node_min_nm": 3500.0
+        },
+        {
+          "alpha": 1.4775705163481152,
+          "area_like": true,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 5566.315367427483,
+          "node_max_nm": 8000.0,
+          "node_min_nm": 4000.0
+        },
+        {
+          "alpha": 0.5713246519544789,
+          "area_like": false,
+          "closer_to_area_than_volume": true,
+          "node_center_nm": 6999.271023161168,
+          "node_max_nm": 10000.0,
+          "node_min_nm": 5000.0
+        }
+      ],
+      "window": 4
+    },
+    "node_median_rows": [
+      {
+        "advertised_node_nm": 10.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 46.770368697419684,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 48.31460674157304,
+        "density_min_MTr_per_mm2": 45.22613065326633,
+        "n_rows_collapsed": 2,
+        "node_nm": 10.0,
+        "processor": "node_10_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 14.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 13.936781609195402,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 25.0,
+        "density_min_MTr_per_mm2": 0.8130081300813009,
+        "n_rows_collapsed": 9,
+        "node_nm": 14.0,
+        "processor": "node_14_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 16.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.92222222222222,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 26.4,
+        "density_min_MTr_per_mm2": 19.444444444444443,
+        "n_rows_collapsed": 2,
+        "node_nm": 16.0,
+        "processor": "node_16_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 20.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 22.47191011235955,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 22.47191011235955,
+        "density_min_MTr_per_mm2": 22.47191011235955,
+        "n_rows_collapsed": 1,
+        "node_nm": 20.0,
+        "processor": "node_20_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 22.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 7.966728280961183,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 10.47197640117994,
+        "density_min_MTr_per_mm2": 5.884955752212389,
+        "n_rows_collapsed": 5,
+        "node_nm": 22.0,
+        "processor": "node_22_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 28.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 11.78901312591152,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 13.774104683195592,
+        "density_min_MTr_per_mm2": 9.80392156862745,
+        "n_rows_collapsed": 2,
+        "node_nm": 28.0,
+        "processor": "node_28_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 32.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 5.078125,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 5.698529411764706,
+        "density_min_MTr_per_mm2": 3.7037037037037037,
+        "n_rows_collapsed": 9,
+        "node_nm": 32.0,
+        "processor": "node_32_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 40.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.6525198938992043,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.6525198938992043,
+        "density_min_MTr_per_mm2": 2.6525198938992043,
+        "n_rows_collapsed": 1,
+        "node_nm": 40.0,
+        "processor": "node_40_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 45.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.7752760089788815,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 3.841121495327103,
+        "density_min_MTr_per_mm2": 1.9583333333333333,
+        "n_rows_collapsed": 10,
+        "node_nm": 45.0,
+        "processor": "node_45_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 65.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 2.0397047397047396,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.861230329041488,
+        "density_min_MTr_per_mm2": 1.5225225225225225,
+        "n_rows_collapsed": 6,
+        "node_nm": 65.0,
+        "processor": "node_65_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 90.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 1.1361579596873717,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 2.8523489932885906,
+        "density_min_MTr_per_mm2": 1.0181818181818183,
+        "n_rows_collapsed": 4,
+        "node_nm": 90.0,
+        "processor": "node_90_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 130.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.5521301093839953,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 1.3703703703703702,
+        "density_min_MTr_per_mm2": 0.3793103448275862,
+        "n_rows_collapsed": 6,
+        "node_nm": 130.0,
+        "processor": "node_130_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 180.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.2280241935483871,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.5225653206650831,
+        "density_min_MTr_per_mm2": 0.15222222222222223,
+        "n_rows_collapsed": 4,
+        "node_nm": 180.0,
+        "processor": "node_180_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 250.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.09689198369565218,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.1805084745762712,
+        "density_min_MTr_per_mm2": 0.0663716814159292,
+        "n_rows_collapsed": 4,
+        "node_nm": 250.0,
+        "processor": "node_250_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 350.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.046391263057929726,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.05432098765432099,
+        "density_min_MTr_per_mm2": 0.038461538461538464,
+        "n_rows_collapsed": 2,
+        "node_nm": 350.0,
+        "processor": "node_350_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.017523391774919864,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.017915309446254073,
+        "density_min_MTr_per_mm2": 0.017131474103585658,
+        "n_rows_collapsed": 2,
+        "node_nm": 500.0,
+        "processor": "node_500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 800.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.01054421768707483,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.01054421768707483,
+        "density_min_MTr_per_mm2": 0.01054421768707483,
+        "n_rows_collapsed": 1,
+        "node_nm": 800.0,
+        "processor": "node_800_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.006580097899535944,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.006822167630057804,
+        "density_min_MTr_per_mm2": 0.006338028169014085,
+        "n_rows_collapsed": 2,
+        "node_nm": 1000.0,
+        "processor": "node_1000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 1500.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.002689462323390895,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0027346938775510204,
+        "density_min_MTr_per_mm2": 0.002644230769230769,
+        "n_rows_collapsed": 2,
+        "node_nm": 1500.0,
+        "processor": "node_1500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0008977272727272727,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0019166666666666668,
+        "density_min_MTr_per_mm2": 0.000325,
+        "n_rows_collapsed": 4,
+        "node_nm": 3000.0,
+        "processor": "node_3000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 3500.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.0015454545454545454,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.0015454545454545454,
+        "density_min_MTr_per_mm2": 0.0015454545454545454,
+        "n_rows_collapsed": 1,
+        "node_nm": 3500.0,
+        "processor": "node_3500_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 4000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00047222222222222224,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00047222222222222224,
+        "density_min_MTr_per_mm2": 0.00047222222222222224,
+        "n_rows_collapsed": 1,
+        "node_nm": 4000.0,
+        "processor": "node_4000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 5000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00030687830687830685,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00042857142857142855,
+        "density_min_MTr_per_mm2": 0.0001851851851851852,
+        "n_rows_collapsed": 2,
+        "node_nm": 5000.0,
+        "processor": "node_5000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 6000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.000240625,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00025625,
+        "density_min_MTr_per_mm2": 0.000225,
+        "n_rows_collapsed": 2,
+        "node_nm": 6000.0,
+        "processor": "node_6000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 8000.0,
+        "company": null,
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00016714285714285713,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00016714285714285713,
+        "density_min_MTr_per_mm2": 0.00016714285714285713,
+        "n_rows_collapsed": 1,
+        "node_nm": 8000.0,
+        "processor": "node_8000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      },
+      {
+        "advertised_node_nm": 10000.0,
+        "company": "multiple",
+        "confidence": "node_median_from_public_proxy_rows",
+        "density_MTr_per_mm2": 0.00022083333333333333,
+        "density_kind": "realized_full_chip_density",
+        "density_max_MTr_per_mm2": 0.00025,
+        "density_min_MTr_per_mm2": 0.00019166666666666665,
+        "n_rows_collapsed": 2,
+        "node_nm": 10000.0,
+        "processor": "node_10000_median",
+        "row_type": "node_median",
+        "source": "node_median"
+      }
+    ],
+    "observable_label": "EL3a historical full-chip transistor density (node medians)",
+    "subsample_robustness": {
+      "fail_or_inconclusive_fraction": 0.44333333333333336,
+      "global_break_10_100_fraction": 0.02,
+      "global_break_nm_q16_q50_q84": [
+        250.0,
+        250.0,
+        350.0
+      ],
+      "global_small_alpha_q16_q50_q84": [
+        1.683036986658951,
+        1.740748279376112,
+        1.8146827921630013
+      ],
+      "hypothesis_break_nm_q16_q50_q84": [
+        32.0,
+        40.0,
+        90.0
+      ],
+      "hypothesis_small_alpha_q16_q50_q84": [
+        1.0874382891518553,
+        1.401816864338813,
+        1.7595818155258662
+      ],
+      "n": 26,
+      "pass_proxy_fraction": 0.0,
+      "sample_fraction": 0.8,
+      "sample_size": 21,
+      "successful_trials": 300,
+      "supportive_fraction": 0.5566666666666666,
+      "trials_requested": 300,
+      "window_compatible_fraction": 0.5566666666666666
+    }
+  },
+  "n_barentsen_rows": 87,
+  "n_foundry_node_rows": 29,
+  "n_physical_pitch_proxy_rows": 4,
+  "n_primary_physical_pitch_rows": 0,
+  "n_rows_used": 120,
+  "n_wikipedia_rows": 0,
+  "physical_pitch_proxy_sample": [
+    {
+      "advertised_node_nm": 10.0,
+      "company": "Intel",
+      "confidence": "low_secondary_proxy",
+      "data_role": "EL3c_physical_pitch_proxy_not_direct_measurement",
+      "density_MTr_per_mm2": 60.795,
+      "density_kind": "physical_pitch_proxy_paired_to_foundry_density",
+      "evidence_snippet": "-sticky-header-enabled vector-toc-available skin-theme-clientpref-thumb-standard\" lang=\"en\" dir=\"ltr\"> 10 nm process - Wikipedia (function(){var className=\"client-js vector-feature-language-in-header-enabled vector-feature-langua",
+      "evidence_tokens": [
+        "10"
+      ],
+      "feature_kind": "physical_pitch_or_node_proxy",
+      "node_nm": 10.0,
+      "physical_feature_nm": 10.0,
+      "processor": "10nm",
+      "row_type": "physical_pitch_proxy",
+      "source": "Wikipedia 10 nm process page",
+      "source_sha256": "9fa912cbd54530575ae1fde4a436ba9489a6765d83f28a914230ed000400eb55",
+      "source_url": "https://en.wikipedia.org/wiki/10_nm_process"
+    },
+    {
+      "advertised_node_nm": 7.0,
+      "company": "TSMC",
+      "confidence": "low_secondary_proxy",
+      "data_role": "EL3c_physical_pitch_proxy_not_direct_measurement",
+      "density_MTr_per_mm2": 97.835,
+      "density_kind": "physical_pitch_proxy_paired_to_foundry_density",
+      "evidence_snippet": "-sticky-header-enabled vector-toc-available skin-theme-clientpref-thumb-standard\" lang=\"en\" dir=\"ltr\"> 7 nm process - Wikipedia (function(){var className=\"client-js vector-feature-language-in-header-enabled vector-feature-langua",
+      "evidence_tokens": [
+        "7"
+      ],
+      "feature_kind": "physical_pitch_or_node_proxy",
+      "node_nm": 7.0,
+      "physical_feature_nm": 7.0,
+      "processor": "N7",
+      "row_type": "physical_pitch_proxy",
+      "source": "Wikipedia 7 nm process page",
+      "source_sha256": "5098a2fa1d44cd4dec9e9485b56313f476d0a68925b46e6840619981a72d59bd",
+      "source_url": "https://en.wikipedia.org/wiki/7_nm_process"
+    },
+    {
+      "advertised_node_nm": 5.0,
+      "company": "TSMC",
+      "confidence": "low_secondary_proxy",
+      "data_role": "EL3c_physical_pitch_proxy_not_direct_measurement",
+      "density_MTr_per_mm2": 126.9,
+      "density_kind": "physical_pitch_proxy_paired_to_foundry_density",
+      "evidence_snippet": "-sticky-header-enabled vector-toc-available skin-theme-clientpref-thumb-standard\" lang=\"en\" dir=\"ltr\"> 5 nm process - Wikipedia (function(){var className=\"client-js vector-feature-language-in-header-enabled vector-feature-langua",
+      "evidence_tokens": [
+        "5"
+      ],
+      "feature_kind": "physical_pitch_or_node_proxy",
+      "node_nm": 5.0,
+      "physical_feature_nm": 5.0,
+      "processor": "N5",
+      "row_type": "physical_pitch_proxy",
+      "source": "Wikipedia 5 nm process page",
+      "source_sha256": "7b271885442952c5efd16a09ace3d5a2ced5a5c2cc3ff67d1fe6c6525abfbefc",
+      "source_url": "https://en.wikipedia.org/wiki/5_nm_process"
+    },
+    {
+      "advertised_node_nm": 3.0,
+      "company": "TSMC",
+      "confidence": "low_secondary_proxy",
+      "data_role": "EL3c_physical_pitch_proxy_not_direct_measurement",
+      "density_MTr_per_mm2": 193.5,
+      "density_kind": "physical_pitch_proxy_paired_to_foundry_density",
+      "evidence_snippet": "-sticky-header-enabled vector-toc-available skin-theme-clientpref-thumb-standard\" lang=\"en\" dir=\"ltr\"> 3 nm process - Wikipedia (function(){var className=\"client-js vector-feature-language-in-header-enabled vector-feature-langua",
+      "evidence_tokens": [
+        "3"
+      ],
+      "feature_kind": "physical_pitch_or_node_proxy",
+      "node_nm": 3.0,
+      "physical_feature_nm": 3.0,
+      "processor": "N3",
+      "row_type": "physical_pitch_proxy",
+      "source": "Wikipedia 3 nm process page",
+      "source_sha256": "1b9383e74aa558e5673afcc1f243ab86126786735ead4bfdea7ed75bfe8fbb49",
+      "source_url": "https://en.wikipedia.org/wiki/3_nm_process"
+    }
+  ],
+  "piecewise_log_density_fit": {
+    "break_index": 20,
+    "break_node_nm": 250.0,
+    "break_window_nm": null,
+    "large_node_alpha": 1.729295948889814,
+    "n": 33,
+    "post_alpha_small_nodes": 1.670648275612804,
+    "pre_alpha_large_nodes": 1.729295948889814,
+    "rmse_log10": 0.13748002432610978,
+    "skipped_candidate_splits_conditioned": 0,
+    "skipped_candidate_splits_outside_window": 0,
+    "skipped_candidate_splits_unique_x": 0,
+    "small_node_alpha": 1.670648275612804,
+    "sse": 0.6237249839273554
+  },
+  "prediction": "EL3: volume -> area scaling crossover at L ~10-100 nm for Si; information density vs feature size should flatten from volume-like to area-like scaling.",
+  "primary_physical_pitch_loader_notes": [],
+  "primary_physical_pitch_sample": [],
+  "row_sample": [
+    {
+      "advertised_node_nm": 10000.0,
+      "area_mm2": 12.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.00019166666666666665,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 10000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 2300.0,
+      "year": 1971.0
+    },
+    {
+      "advertised_node_nm": 10000.0,
+      "area_mm2": 14.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.00025,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 10000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 3500.0,
+      "year": 1972.0
+    },
+    {
+      "advertised_node_nm": 8000.0,
+      "area_mm2": 21.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.00016714285714285713,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 8000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 3510.0,
+      "year": 1975.0
+    },
+    {
+      "advertised_node_nm": 6000.0,
+      "area_mm2": 16.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.00025625,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 6000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 4100.0,
+      "year": 1974.0
+    },
+    {
+      "advertised_node_nm": 6000.0,
+      "area_mm2": 20.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.000225,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 6000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 4500.0,
+      "year": 1974.0
+    },
+    {
+      "advertised_node_nm": 5000.0,
+      "area_mm2": 27.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.0001851851851851852,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 5000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 5000.0,
+      "year": 1974.0
+    },
+    {
+      "advertised_node_nm": 3000.0,
+      "area_mm2": 20.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.000325,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 3000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 6500.0,
+      "year": 1976.0
+    },
+    {
+      "advertised_node_nm": 4000.0,
+      "area_mm2": 18.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.00047222222222222224,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 4000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 8500.0,
+      "year": 1976.0
+    },
+    {
+      "advertised_node_nm": 5000.0,
+      "area_mm2": 21.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.00042857142857142855,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 5000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 9000.0,
+      "year": 1978.0
+    },
+    {
+      "advertised_node_nm": 3000.0,
+      "area_mm2": 33.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.0008787878787878787,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 3000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 29000.0,
+      "year": 1978.0
+    },
+    {
+      "advertised_node_nm": 3000.0,
+      "area_mm2": 6.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.0019166666666666668,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 3000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 11500.0,
+      "year": 1981.0
+    },
+    {
+      "advertised_node_nm": 3000.0,
+      "area_mm2": 60.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.0009166666666666666,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 3000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 55000.0,
+      "year": 1982.0
+    },
+    {
+      "advertised_node_nm": 3500.0,
+      "area_mm2": 44.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.0015454545454545454,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 3500.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 68000.0,
+      "year": 1979.0
+    },
+    {
+      "advertised_node_nm": 1500.0,
+      "area_mm2": 49.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.0027346938775510204,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 1500.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 134000.0,
+      "year": 1982.0
+    },
+    {
+      "advertised_node_nm": 1500.0,
+      "area_mm2": 104.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.002644230769230769,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 1500.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 275000.0,
+      "year": 1985.0
+    },
+    {
+      "advertised_node_nm": 1000.0,
+      "area_mm2": 173.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.006822167630057804,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 1000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 1180235.0,
+      "year": 1989.0
+    },
+    {
+      "advertised_node_nm": 1000.0,
+      "area_mm2": 213.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.006338028169014085,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 1000.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 1350000.0,
+      "year": 1991.0
+    },
+    {
+      "advertised_node_nm": 800.0,
+      "area_mm2": 294.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.01054421768707483,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 800.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 3100000.0,
+      "year": 1993.0
+    },
+    {
+      "advertised_node_nm": 500.0,
+      "area_mm2": 307.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.017915309446254073,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 500.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 5500000.0,
+      "year": 1995.0
+    },
+    {
+      "advertised_node_nm": 500.0,
+      "area_mm2": 251.0,
+      "confidence": "medium",
+      "data_role": "proxy_input_not_direct_EL3_physical_length",
+      "density_MTr_per_mm2": 0.017131474103585658,
+      "density_kind": "realized_full_chip_density",
+      "is_primary_source": false,
+      "node_nm": 500.0,
+      "processor": "",
+      "row_type": "historical_chip",
+      "source": "barentsen_tech_progress",
+      "transistors": 4300000.0,
+      "year": 1996.0
+    }
+  ],
+  "test_name": "EL3 silicon volume-to-area scaling crossover public node-density proxy",
+  "v2_6_method_change": "EL3 decision now also requires a crossover-like alpha drop: the larger-node segment must be steeper than the advanced-node segment. Historical raw rows, historical node-median rows, and modern foundry standard-cell rows remain separated; combined fit is diagnostic only.",
+  "v2_7_method_change": "Adds confidence-filtered decisions and EL3c physical-pitch/SRAM proxy branch; keeps realized full-chip, foundry standard-cell, and physical-scale proxies separated.",
+  "v2_8_method_change": "Separates EL3c primary physical-pitch/SRAM CSV rows from secondary placeholder physical-scale rows; primary-only evidence is explicit.",
+  "warnings": []
+}

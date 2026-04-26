@@ -1,41 +1,77 @@
 {
   "prediction_id": "MAT7",
   "status": "ok",
-  "ckan_resources": [],
-  "resource_errors": [
-    "ckan_package_show: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
-    "ckan_download_matching_resources: ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+  "ckan_resources": [
+    {
+      "name": "readme.txt",
+      "format": "TXT",
+      "mimetype": "text/plain",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/readme.txt"
+    },
+    {
+      "name": "figure2.pptx",
+      "format": "PPTX",
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/figure2.pptx"
+    },
+    {
+      "name": "Figure2d.csv",
+      "format": "TXT",
+      "mimetype": "text/plain",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/Figure2d.csv"
+    },
+    {
+      "name": "Figure3b.csv",
+      "format": "TXT",
+      "mimetype": "text/plain",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/Figure3b.csv"
+    },
+    {
+      "name": "Figure3c.csv",
+      "format": "TXT",
+      "mimetype": "text/plain",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/Figure3c.csv"
+    },
+    {
+      "name": "Figure3a.csv",
+      "format": "TXT",
+      "mimetype": "text/plain",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/Figure3a.csv"
+    },
+    {
+      "name": "figure1.pptx",
+      "format": "PPTX",
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/figure1.pptx"
+    },
+    {
+      "name": "Figure2b.csv",
+      "format": "TXT",
+      "mimetype": "text/plain",
+      "url": "https://data-bris.acrc.bris.ac.uk/datasets/16v9rfpzb3pl221yzel7x5u5ce/Figure2b.csv"
+    }
   ],
+  "resource_errors": [],
   "downloaded_files": [
-    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2b.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\readme.txt",
     "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2d.csv",
-    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3a.csv",
     "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3b.csv",
     "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3c.csv",
-    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\readme.txt"
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3a.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2b.csv"
   ],
   "expanded_files": [
-    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2b.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\readme.txt",
     "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2d.csv",
-    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3a.csv",
     "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3b.csv",
     "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3c.csv",
-    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\readme.txt"
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure3a.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\ccdr_public_data_scripts\\outputs\\mat7\\bris_direct\\Figure2b.csv"
   ],
   "hbn_tables": [
     {
-      "file": "bris_direct\\Figure2b.csv",
-      "x_column": "﻿Time (ns)",
-      "y_column": "TTR transients",
-      "n_points": 281,
-      "x_min": 0.0,
-      "x_max": 2800.0,
-      "y_peak": 1.0,
-      "y_median": 0.01879
-    },
-    {
       "file": "bris_direct\\Figure2d.csv",
-      "x_column": "﻿Time (ns)",
+      "x_column": "Time (ns)",
       "y_column": "Sr",
       "n_points": 864,
       "x_min": 20.0,
@@ -44,18 +80,8 @@
       "y_median": 0.303705
     },
     {
-      "file": "bris_direct\\Figure3a.csv",
-      "x_column": "﻿Simulation",
-      "y_column": "Unnamed: 1",
-      "n_points": 20,
-      "x_min": 100.0,
-      "x_max": 350.0,
-      "y_peak": 1334.18872,
-      "y_median": 898.631445
-    },
-    {
       "file": "bris_direct\\Figure3b.csv",
-      "x_column": "﻿Simulation",
+      "x_column": "Simulation",
       "y_column": "Unnamed: 1",
       "n_points": 20,
       "x_min": 100.0,
@@ -65,13 +91,33 @@
     },
     {
       "file": "bris_direct\\Figure3c.csv",
-      "x_column": "﻿Simulation",
+      "x_column": "Simulation",
       "y_column": "Unnamed: 1",
       "n_points": 20,
       "x_min": 100.0,
       "x_max": 350.0,
       "y_peak": 167.14286,
       "y_median": 129.656625
+    },
+    {
+      "file": "bris_direct\\Figure3a.csv",
+      "x_column": "Simulation",
+      "y_column": "Unnamed: 1",
+      "n_points": 20,
+      "x_min": 100.0,
+      "x_max": 350.0,
+      "y_peak": 1334.18872,
+      "y_median": 898.631445
+    },
+    {
+      "file": "bris_direct\\Figure2b.csv",
+      "x_column": "Time (ns)",
+      "y_column": "TTR transients",
+      "n_points": 281,
+      "x_min": 0.0,
+      "x_max": 2800.0,
+      "y_peak": 1.0,
+      "y_median": 0.01879
     }
   ],
   "hbn_peak_observed": 1334.18872,

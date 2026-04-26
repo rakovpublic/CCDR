@@ -1,0 +1,631 @@
+{
+  "analysis": {
+    "alpha_expected_3d_ising": 0.2772155240693479,
+    "decisive_requirements": {
+      "decisive_min_groups": 2,
+      "decisive_min_rows_per_group": 5,
+      "decisive_min_total_points": 10,
+      "diagnostic_min_rows_per_group": 3,
+      "needs_interior_gb_density_minimum_for_full_confirm": true
+    },
+    "fits_by_material": {
+      "alcu_pmc_2025::Al-13Cu::average grain size": {
+        "A": 213.81205038965362,
+        "abs_frac_error_vs_ising": 0.6926320998879028,
+        "alpha_expected_3d_ising": 0.2772155240693479,
+        "composition_confounded": false,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.08520715351167,
+        "leave_one_out_stability": {
+          "available": false,
+          "reason": "need at least 4 rows"
+        },
+        "material_labels_sample": [
+          "Al-13Cu"
+        ],
+        "n": 3,
+        "n_material_labels": 1,
+        "n_rows": 3,
+        "n_unique_cooling_rates": 3,
+        "n_unique_xi": 3,
+        "pearson_log": 0.9500992742780598,
+        "rate_values_sample": [
+          0.2,
+          0.5,
+          1.0
+        ],
+        "rms_rel": 0.01855974926175751,
+        "spearman": 1.0
+      },
+      "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::Average grain size ( d , um)": {
+        "A": 210.34552263331378,
+        "abs_frac_error_vs_ising": 0.1683974157525688,
+        "alpha_expected_3d_ising": 0.2772155240693479,
+        "composition_confounded": false,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.23053314620957568,
+        "leave_one_out_stability": {
+          "available": true,
+          "max_abs_frac_error_vs_ising": 0.3811096645936198,
+          "max_exponent": 0.2883610827392875,
+          "mean_exponent": 0.23185129677787752,
+          "min_exponent": 0.1715660086711342,
+          "n_leave_one_out_fits": 4
+        },
+        "material_labels_sample": [
+          "solidification alloy SGBM / Mg-0.63Sn"
+        ],
+        "n": 4,
+        "n_material_labels": 1,
+        "n_rows": 4,
+        "n_unique_cooling_rates": 4,
+        "n_unique_xi": 4,
+        "pearson_log": 0.97772768030208,
+        "rate_values_sample": [
+          8.0,
+          54.0,
+          166.0,
+          1690.0
+        ],
+        "rms_rel": 0.09742758308492515,
+        "spearman": 1.0
+      },
+      "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::Maximum GBM (\u0394 max , um)": {
+        "A": 68.79073078062127,
+        "abs_frac_error_vs_ising": 0.12145606045330616,
+        "alpha_expected_3d_ising": 0.2772155240693479,
+        "composition_confounded": false,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.24354601861938624,
+        "leave_one_out_stability": {
+          "available": true,
+          "max_abs_frac_error_vs_ising": 0.32146892446313596,
+          "max_exponent": 0.3005257033173595,
+          "mean_exponent": 0.24522639419370507,
+          "min_exponent": 0.18809934770229006,
+          "n_leave_one_out_fits": 4
+        },
+        "material_labels_sample": [
+          "solidification alloy SGBM / Mg-0.63Sn"
+        ],
+        "n": 4,
+        "n_material_labels": 1,
+        "n_rows": 4,
+        "n_unique_cooling_rates": 4,
+        "n_unique_xi": 4,
+        "pearson_log": 0.9823715551561878,
+        "rate_values_sample": [
+          8.0,
+          54.0,
+          166.0,
+          1690.0
+        ],
+        "rms_rel": 0.09070785669591612,
+        "spearman": 1.0
+      },
+      "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::SDAS ( \u03bb , um)": {
+        "A": 103.78837691883157,
+        "abs_frac_error_vs_ising": 0.5788751329899291,
+        "alpha_expected_3d_ising": 0.2772155240693479,
+        "composition_confounded": false,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.43768869743186456,
+        "leave_one_out_stability": {
+          "available": true,
+          "max_abs_frac_error_vs_ising": 0.5871156315168143,
+          "max_exponent": 0.43997309154958775,
+          "mean_exponent": 0.4376238429013733,
+          "min_exponent": 0.4353669932417827,
+          "n_leave_one_out_fits": 4
+        },
+        "material_labels_sample": [
+          "solidification alloy SGBM / Mg-0.63Sn"
+        ],
+        "n": 4,
+        "n_material_labels": 1,
+        "n_rows": 4,
+        "n_unique_cooling_rates": 4,
+        "n_unique_xi": 4,
+        "pearson_log": 0.9999904746356827,
+        "rate_values_sample": [
+          8.0,
+          54.0,
+          166.0,
+          1690.0
+        ],
+        "rms_rel": 0.003698217088773836,
+        "spearman": 1.0
+      }
+    },
+    "gb_density_optimum_tests_by_group": {
+      "alcu_pmc_2025::Al-13Cu::average grain size": {
+        "cooling_rate_K_per_s_at_min_gb_density_proxy": 0.2,
+        "edge_or_interior": "edge_monotonic_or_incomplete",
+        "gb_density_proxy_1_over_xi2": 1.625910509885536e-05,
+        "is_interior_minimum": false,
+        "n_rows": 3,
+        "note": "Interior minimum is required for an optimum-cooling claim; edge minimum only shows monotonic trend or incomplete cooling-rate span.",
+        "xi_um_at_min_gb_density_proxy": 248.0
+      },
+      "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::Average grain size ( d , um)": {
+        "cooling_rate_K_per_s_at_min_gb_density_proxy": 8.0,
+        "edge_or_interior": "edge_monotonic_or_incomplete",
+        "gb_density_proxy_1_over_xi2": 4.7693904337474425e-05,
+        "is_interior_minimum": false,
+        "n_rows": 4,
+        "note": "Interior minimum is required for an optimum-cooling claim; edge minimum only shows monotonic trend or incomplete cooling-rate span.",
+        "xi_um_at_min_gb_density_proxy": 144.8
+      },
+      "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::Maximum GBM (\u0394 max , um)": {
+        "cooling_rate_K_per_s_at_min_gb_density_proxy": 8.0,
+        "edge_or_interior": "edge_monotonic_or_incomplete",
+        "gb_density_proxy_1_over_xi2": 0.0004767262256631262,
+        "is_interior_minimum": false,
+        "n_rows": 4,
+        "note": "Interior minimum is required for an optimum-cooling claim; edge minimum only shows monotonic trend or incomplete cooling-rate span.",
+        "xi_um_at_min_gb_density_proxy": 45.8
+      },
+      "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::SDAS ( \u03bb , um)": {
+        "cooling_rate_K_per_s_at_min_gb_density_proxy": 8.0,
+        "edge_or_interior": "edge_monotonic_or_incomplete",
+        "gb_density_proxy_1_over_xi2": 0.0005778476331360946,
+        "is_interior_minimum": false,
+        "n_rows": 4,
+        "note": "Interior minimum is required for an optimum-cooling claim; edge minimum only shows monotonic trend or incomplete cooling-rate span.",
+        "xi_um_at_min_gb_density_proxy": 41.6
+      }
+    },
+    "metric_interpretation": "Confirm/falsify is gated to >=2 same-composition groups with >=5 distinct cooling rates. Composition series at fixed cooling rate are diagnostic only; edge GB-density minima still do not prove an optimum cooling rate.",
+    "n_groups_total": 16,
+    "n_groups_with_decisive_fit": 0,
+    "n_groups_with_diagnostic_fit": 4,
+    "n_groups_with_exponent_within_15pct": 1,
+    "n_interior_gb_density_minima": 0,
+    "n_points": 27,
+    "near_miss_groups": [
+      {
+        "abs_frac_error_vs_ising": 0.5788751329899291,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.43768869743186456,
+        "group": "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::SDAS ( \u03bb , um)",
+        "leave_one_out_stability": {
+          "available": true,
+          "max_abs_frac_error_vs_ising": 0.5871156315168143,
+          "max_exponent": 0.43997309154958775,
+          "mean_exponent": 0.4376238429013733,
+          "min_exponent": 0.4353669932417827,
+          "n_leave_one_out_fits": 4
+        },
+        "n_rows": 4,
+        "n_unique_cooling_rates": 4
+      },
+      {
+        "abs_frac_error_vs_ising": 0.1683974157525688,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.23053314620957568,
+        "group": "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::Average grain size ( d , um)",
+        "leave_one_out_stability": {
+          "available": true,
+          "max_abs_frac_error_vs_ising": 0.3811096645936198,
+          "max_exponent": 0.2883610827392875,
+          "mean_exponent": 0.23185129677787752,
+          "min_exponent": 0.1715660086711342,
+          "n_leave_one_out_fits": 4
+        },
+        "n_rows": 4,
+        "n_unique_cooling_rates": 4
+      },
+      {
+        "abs_frac_error_vs_ising": 0.12145606045330616,
+        "evidence_class": "diagnostic_only",
+        "exponent": 0.24354601861938624,
+        "group": "sgbm_pmc_2022::solidification alloy SGBM / Mg-0.63Sn::Maximum GBM (\u0394 max , um)",
+        "leave_one_out_stability": {
+          "available": true,
+          "max_abs_frac_error_vs_ising": 0.32146892446313596,
+          "max_exponent": 0.3005257033173595,
+          "mean_exponent": 0.24522639419370507,
+          "min_exponent": 0.18809934770229006,
+          "n_leave_one_out_fits": 4
+        },
+        "n_rows": 4,
+        "n_unique_cooling_rates": 4
+      }
+    ],
+    "pooled_fit_warning_mixed_materials": {
+      "A": 155.4562687566851,
+      "abs_frac_error_vs_ising": 0.28798020790063783,
+      "alpha_expected_3d_ising": 0.2772155240693479,
+      "exponent": 0.357048108324123,
+      "n": 27,
+      "pearson_log": 0.7595081115051209,
+      "rms_rel": 0.7276053926340162,
+      "spearman": 0.7479109123535225,
+      "warning": "Mixed-material pooled fit is diagnostic only and must not confirm/falsify MAT5."
+    },
+    "status": "partial_supportive"
+  },
+  "downloaded_sources": [
+    {
+      "label": "Li et al. 2023 Al-5Zr master alloy cooling-rate/grain-size",
+      "notes": "download/extract failed: https://www.mdpi.com/2075-4701/13/4/749: download failed for https://www.mdpi.com/2075-4701/13/4/749: HTTP Error 403: Forbidden; https://www.mdpi.com/2075-4701/13/4/749/xml: download failed for https://www.mdpi.com/2075-4701/13/4/749/xml: HTTP Error 403: Forbidden",
+      "url": "https://www.mdpi.com/2075-4701/13/4/749"
+    },
+    {
+      "label": "Jamel et al. 2021 Mg alloy solidification-rate/grain-size",
+      "notes": "download/extract failed: https://www.mdpi.com/2075-4701/11/8/1264: download failed for https://www.mdpi.com/2075-4701/11/8/1264: HTTP Error 403: Forbidden; https://www.mdpi.com/2075-4701/11/8/1264/xml: download failed for https://www.mdpi.com/2075-4701/11/8/1264/xml: HTTP Error 403: Forbidden",
+      "url": "https://www.mdpi.com/2075-4701/11/8/1264"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\355559e8d629_PMC12423412",
+      "label": "Cao et al. 2025 Al-13Cu in-situ grain refinement PMC HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12423412/"
+    },
+    {
+      "label": "Huang et al. 2022 cooling rate vs austenitic grain size",
+      "notes": "download/extract failed: https://www.mdpi.com/2227-9717/10/6/1101: download failed for https://www.mdpi.com/2227-9717/10/6/1101: HTTP Error 403: Forbidden; https://www.mdpi.com/2227-9717/10/6/1101/xml: download failed for https://www.mdpi.com/2227-9717/10/6/1101/xml: HTTP Error 403: Forbidden",
+      "url": "https://www.mdpi.com/2227-9717/10/6/1101"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\53aa200fb76b_PMC9547067",
+      "label": "Liu et al. 2022 solidification grain-boundary migration cooling-rate table PMC HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9547067/"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\06ff4e45f4a3_PMC6650472",
+      "label": "Zuo et al. 2019 AA7075 cooling-rate grain-size open PMC HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6650472/"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\b893907c299b_PMC8779305",
+      "label": "Shen et al. 2022 Al-Si alloy cooling-rate microstructure PMC HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8779305/"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\7201f49d268a_PMC10817534",
+      "label": "Gao et al. 2024 AA7050 heating/cooling-rate microstructure PMC HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817534/"
+    }
+  ],
+  "extracted_points": [
+    {
+      "confidence": "source_specific",
+      "context": "average grain size declined from 248 um (0.2 K/s), to 221 um (0.5 K/s), and ultimately to 217 um at 1.0 K/s",
+      "cooling_rate_K_per_s": 0.2,
+      "material": "Al-13Cu",
+      "quantity": "average grain size",
+      "source_key": "alcu_pmc_2025",
+      "tau_Q_proxy_s_per_K": 5.0,
+      "xi_um": 248.0
+    },
+    {
+      "confidence": "source_specific",
+      "context": "average grain size declined from 248 um (0.2 K/s), to 221 um (0.5 K/s), and ultimately to 217 um at 1.0 K/s",
+      "cooling_rate_K_per_s": 0.5,
+      "material": "Al-13Cu",
+      "quantity": "average grain size",
+      "source_key": "alcu_pmc_2025",
+      "tau_Q_proxy_s_per_K": 2.0,
+      "xi_um": 221.0
+    },
+    {
+      "confidence": "source_specific",
+      "context": "average grain size declined from 248 um (0.2 K/s), to 221 um (0.5 K/s), and ultimately to 217 um at 1.0 K/s",
+      "cooling_rate_K_per_s": 1.0,
+      "material": "Al-13Cu",
+      "quantity": "average grain size",
+      "source_key": "alcu_pmc_2025",
+      "tau_Q_proxy_s_per_K": 1.0,
+      "xi_um": 217.0
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.21Sn', '42.5 \u00b1 17.2', '~8', '241.5 \u00b1 47.2', '86.8', '35.9']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.21Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 42.5
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.21Sn', '42.5 \u00b1 17.2', '~8', '241.5 \u00b1 47.2', '86.8', '35.9']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.21Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 241.5
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.21Sn', '42.5 \u00b1 17.2', '~8', '241.5 \u00b1 47.2', '86.8', '35.9']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.21Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 86.8
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.30Sn', '42.7 \u00b1 16.5', '~8', '213.4 \u00b1 40.1', '71.2', '33.4']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.30Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 42.7
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.30Sn', '42.7 \u00b1 16.5', '~8', '213.4 \u00b1 40.1', '71.2', '33.4']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.30Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 213.4
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.30Sn', '42.7 \u00b1 16.5', '~8', '213.4 \u00b1 40.1', '71.2', '33.4']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.30Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 71.2
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.42Sn', '41.8 \u00b1 15.6', '~8', '190.3 \u00b1 38.8', '60.6', '31.8']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.42Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 41.8
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.42Sn', '41.8 \u00b1 15.6', '~8', '190.3 \u00b1 38.8', '60.6', '31.8']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.42Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 190.3
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.42Sn', '41.8 \u00b1 15.6', '~8', '190.3 \u00b1 38.8', '60.6', '31.8']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.42Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 60.6
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-1.07Sn', '41.5 \u00b1 14.5', '~8', '108.1 \u00b1 18.3', '31.2', '28.9']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-1.07Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 41.5
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-1.07Sn', '41.5 \u00b1 14.5', '~8', '108.1 \u00b1 18.3', '31.2', '28.9']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-1.07Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 108.1
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-1.07Sn', '41.5 \u00b1 14.5', '~8', '108.1 \u00b1 18.3', '31.2', '28.9']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-1.07Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 31.2
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '41.6 \u00b1 14.8', '~8', '144.8 \u00b1 28.0', '45.8', '31.6']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 41.6
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '41.6 \u00b1 14.8', '~8', '144.8 \u00b1 28.0', '45.8', '31.6']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 144.8
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '41.6 \u00b1 14.8', '~8', '144.8 \u00b1 28.0', '45.8', '31.6']",
+      "cooling_rate_K_per_s": 8.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.125,
+      "xi_um": 45.8
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '18.2 \u00b1 5.4', '~54', '73.3 \u00b1 13.1', '23.1', '31.5']",
+      "cooling_rate_K_per_s": 54.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.018518518518518517,
+      "xi_um": 18.2
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '18.2 \u00b1 5.4', '~54', '73.3 \u00b1 13.1', '23.1', '31.5']",
+      "cooling_rate_K_per_s": 54.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.018518518518518517,
+      "xi_um": 73.3
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '18.2 \u00b1 5.4', '~54', '73.3 \u00b1 13.1', '23.1', '31.5']",
+      "cooling_rate_K_per_s": 54.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.018518518518518517,
+      "xi_um": 23.1
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '11.1 \u00b1 3.7', '~166', '61.9 \u00b1 10.6', '18.8', '30.4']",
+      "cooling_rate_K_per_s": 166.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.006024096385542169,
+      "xi_um": 11.1
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '11.1 \u00b1 3.7', '~166', '61.9 \u00b1 10.6', '18.8', '30.4']",
+      "cooling_rate_K_per_s": 166.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.006024096385542169,
+      "xi_um": 61.9
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '11.1 \u00b1 3.7', '~166', '61.9 \u00b1 10.6', '18.8', '30.4']",
+      "cooling_rate_K_per_s": 166.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.006024096385542169,
+      "xi_um": 18.8
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '4.0 \u00b1 1.4', '~1690', '40.8 \u00b1 6.1', '12.1', '29.7']",
+      "cooling_rate_K_per_s": 1690.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "SDAS ( \u03bb , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.000591715976331361,
+      "xi_um": 4.0
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '4.0 \u00b1 1.4', '~1690', '40.8 \u00b1 6.1', '12.1', '29.7']",
+      "cooling_rate_K_per_s": 1690.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Average grain size ( d , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.000591715976331361,
+      "xi_um": 40.8
+    },
+    {
+      "confidence": "html_table",
+      "context": "table 0 headers=['Alloy (at.%)', 'SDAS ( \u03bb , um)', 'Cooling rate ( T \u00b0 , K/s)', 'Average grain size ( d , um)', 'Maximum GBM (\u0394 max , um)', '\u0394max/ d (%)'] row=['Mg-0.63Sn', '4.0 \u00b1 1.4', '~1690', '40.8 \u00b1 6.1', '12.1', '29.7']",
+      "cooling_rate_K_per_s": 1690.0,
+      "material": "solidification alloy SGBM / Mg-0.63Sn",
+      "quantity": "Maximum GBM (\u0394 max , um)",
+      "source_key": "sgbm_pmc_2022",
+      "tau_Q_proxy_s_per_K": 0.000591715976331361,
+      "xi_um": 12.1
+    }
+  ],
+  "extraction_notes": [
+    {
+      "error": "https://www.mdpi.com/2075-4701/13/4/749: download failed for https://www.mdpi.com/2075-4701/13/4/749: HTTP Error 403: Forbidden; https://www.mdpi.com/2075-4701/13/4/749/xml: download failed for https://www.mdpi.com/2075-4701/13/4/749/xml: HTTP Error 403: Forbidden",
+      "source_key": "al5zr_mdpi_2023"
+    },
+    {
+      "error": "https://www.mdpi.com/2075-4701/11/8/1264: download failed for https://www.mdpi.com/2075-4701/11/8/1264: HTTP Error 403: Forbidden; https://www.mdpi.com/2075-4701/11/8/1264/xml: download failed for https://www.mdpi.com/2075-4701/11/8/1264/xml: HTTP Error 403: Forbidden",
+      "source_key": "mg_mdpi_2021"
+    },
+    {
+      "data_links_seen": [],
+      "data_notes": [],
+      "points": 3,
+      "source_key": "alcu_pmc_2025",
+      "table_count": 4,
+      "text_chars": 62308,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12423412/"
+    },
+    {
+      "error": "https://www.mdpi.com/2227-9717/10/6/1101: download failed for https://www.mdpi.com/2227-9717/10/6/1101: HTTP Error 403: Forbidden; https://www.mdpi.com/2227-9717/10/6/1101/xml: download failed for https://www.mdpi.com/2227-9717/10/6/1101/xml: HTTP Error 403: Forbidden",
+      "source_key": "processes_steel_2022"
+    },
+    {
+      "data_links_seen": [],
+      "data_notes": [],
+      "points": 24,
+      "source_key": "sgbm_pmc_2022",
+      "table_count": 13,
+      "text_chars": 60837,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9547067/"
+    },
+    {
+      "data_links_seen": [],
+      "data_notes": [],
+      "points": 0,
+      "source_key": "aa7075_pmc_2019",
+      "table_count": 2,
+      "text_chars": 40158,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6650472/"
+    },
+    {
+      "data_links_seen": [],
+      "data_notes": [],
+      "points": 0,
+      "source_key": "alsi_pmc_2022",
+      "table_count": 2,
+      "text_chars": 34734,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8779305/"
+    },
+    {
+      "data_links_seen": [],
+      "data_notes": [],
+      "points": 0,
+      "source_key": "aa7050_pmc_2024",
+      "table_count": 1,
+      "text_chars": 40485,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817534/"
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "At least two same-composition public datasets with >=5 distinct cooling rates each fit alpha within 10-15% of 3D Ising Kibble-Zurek alpha\u22480.277 and show an interior GB-density minimum.",
+    "data_limited": "Open literature text supports cooling-rate scaling, but extracted data are too few/mixed to be decisive.",
+    "data_limited_negative": "Diagnostic 3-point fits lean away from the target exponent, but evidence is too thin for decisive falsification.",
+    "falsify_like": "Adequate same-material open data give exponents far outside the 10-15% window or no consistent optimum.",
+    "partial_exponent_only": "Exponent criterion passes but no interior GB-density optimum is shown."
+  },
+  "generated_utc": "2026-04-25T00:10:38Z",
+  "prediction_id": "MAT5",
+  "test_name": "Kibble-Zurek cooling-rate exponent and GB-density proxy from public literature"
+}

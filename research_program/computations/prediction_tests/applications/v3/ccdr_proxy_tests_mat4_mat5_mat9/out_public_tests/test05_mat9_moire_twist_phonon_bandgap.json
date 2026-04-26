@@ -1,0 +1,290 @@
+{
+  "analysis": {
+    "flags": [
+      {
+        "mentions_692_angles": true,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "lamparski_1912_12568"
+      },
+      {
+        "mentions_692_angles": false,
+        "mentions_bandgap": false,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "liu_2112_13240"
+      },
+      {
+        "mentions_692_angles": false,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "xie_2305_16640"
+      },
+      {
+        "mentions_692_angles": false,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": true,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "liao_natcomm_2020_mos2"
+      },
+      {
+        "mentions_692_angles": false,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": false,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "qin_pmc_2024_phonon_polarizer"
+      }
+    ],
+    "n_pairs": 0,
+    "n_rejected_candidates": 1,
+    "n_source_data_blockers_or_rejections": 0,
+    "qualitative_bandgap_seen": true,
+    "qualitative_twist_dependence_seen": true,
+    "reason": "Open sources discuss twist-angle phonon tunability, but no trustworthy numeric angle-frequency/bandgap table was extracted.",
+    "status": "partial_qualitative"
+  },
+  "downloaded_sources": [
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\5c6924401689_1912.12568",
+      "label": "Lamparski et al. tBLG phonon spectra vs 692 twist angles arXiv",
+      "url": "https://arxiv.org/abs/1912.12568"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\7fd6b23152af_1912.12568",
+      "label": "Lamparski et al. tBLG phonon spectra vs 692 twist angles arXiv source e-print",
+      "url": "https://arxiv.org/e-print/1912.12568"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\495b63bdbe4d_2112.13240",
+      "label": "Liu et al. magic-angle tBLG phonons arXiv/PMC",
+      "url": "https://arxiv.org/abs/2112.13240"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\9e9325ac0fea_2112.13240",
+      "label": "Liu et al. magic-angle tBLG phonons arXiv/PMC source e-print",
+      "url": "https://arxiv.org/e-print/2112.13240"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\d6d17cc32f76_2305.16640",
+      "label": "Xie & Liu 2023 lattice distortions/moire phonons in MATBG arXiv",
+      "url": "https://arxiv.org/abs/2305.16640"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\88c39e3888b0_2305.16640",
+      "label": "Xie & Liu 2023 lattice distortions/moire phonons in MATBG arXiv source e-print",
+      "url": "https://arxiv.org/e-print/2305.16640"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\edb783ad0013_PMC7195481",
+      "label": "Liao et al. 2020 twist-angle controlled MoS2 homostructures PMC/Nature source-data search",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7195481/"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\6b1a03acdf57_41467_2020_16056_MOESM3_ESM.zip",
+      "label": "Liao et al. 2020 twist-angle controlled MoS2 homostructures PMC/Nature source-data search discovered/source data",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7195481/bin/41467_2020_16056_MOESM3_ESM.zip"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\ccdf4038a597_41467_2020_16056_MOESM3_ESM.zip",
+      "label": "Liao et al. 2020 twist-angle controlled MoS2 homostructures PMC/Nature source-data search discovered/source data",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM3_ESM.zip"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\c812fb343b38_PMC11180428",
+      "label": "Qin et al. 2024 moire pattern controlled phonon polarizer PMC HTML",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11180428/"
+    },
+    {
+      "label": "Phononic twisted moire lattice with quasicrystalline patterns AIP HTML",
+      "notes": "download/extract failed: https://pubs.aip.org/aip/apl/article/121/14/142202/2834360/Phononic-twisted-moire-lattice-with: download failed for https://pubs.aip.org/aip/apl/article/121/14/142202/2834360/Phononic-twisted-moire-lattice-with: HTTP Error 403: Forbidden",
+      "url": "https://pubs.aip.org/aip/apl/article/121/14/142202/2834360/Phononic-twisted-moire-lattice-with"
+    }
+  ],
+  "extracted_angle_frequency_pairs": [],
+  "extraction_notes": [
+    {
+      "arxiv_source_files": 1,
+      "source_key": "lamparski_1912_12568"
+    },
+    {
+      "accepted_pairs_text_or_tables": 0,
+      "data_links_seen": [],
+      "data_notes": [],
+      "flags": {
+        "mentions_692_angles": true,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "lamparski_1912_12568"
+      },
+      "rejected_candidates_sampled": 0,
+      "source_key": "lamparski_1912_12568",
+      "text_chars": 49949,
+      "used_url": "https://arxiv.org/abs/1912.12568"
+    },
+    {
+      "arxiv_source_files": 1,
+      "source_key": "liu_2112_13240"
+    },
+    {
+      "accepted_pairs_text_or_tables": 0,
+      "data_links_seen": [],
+      "data_notes": [],
+      "flags": {
+        "mentions_692_angles": false,
+        "mentions_bandgap": false,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "liu_2112_13240"
+      },
+      "rejected_candidates_sampled": 0,
+      "source_key": "liu_2112_13240",
+      "text_chars": 64215,
+      "used_url": "https://arxiv.org/abs/2112.13240"
+    },
+    {
+      "arxiv_source_files": 1,
+      "source_key": "xie_2305_16640"
+    },
+    {
+      "accepted_pairs_text_or_tables": 0,
+      "data_links_seen": [],
+      "data_notes": [],
+      "flags": {
+        "mentions_692_angles": false,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "xie_2305_16640"
+      },
+      "rejected_candidates_sampled": 0,
+      "source_key": "xie_2305_16640",
+      "text_chars": 187110,
+      "used_url": "https://arxiv.org/abs/2305.16640"
+    },
+    {
+      "accepted_pairs_text_or_tables": 0,
+      "data_links_seen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/7195481/bin/41467_2020_16056_MOESM3_ESM.zip",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM3_ESM.zip",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM1_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM2_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM3_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM4_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM5_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM6_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM7_ESM.xlsx",
+        "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM8_ESM.xlsx"
+      ],
+      "data_notes": [
+        {
+          "error": "File is not a zip file",
+          "kind": ".zip",
+          "pairs": 0,
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\6b1a03acdf57_41467_2020_16056_MOESM3_ESM.zip"
+        },
+        {
+          "kind": ".zip",
+          "pairs": 0,
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\ccdf4038a597_41467_2020_16056_MOESM3_ESM.zip",
+          "sheets": []
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM1_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM1_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM2_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM2_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM3_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM3_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM4_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM4_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM5_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM5_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM6_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM6_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM7_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM7_ESM.xlsx"
+        },
+        {
+          "error": "download failed for https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM8_ESM.xlsx: HTTP Error 403: Forbidden",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-16056-4/MediaObjects/41467_2020_16056_MOESM8_ESM.xlsx"
+        }
+      ],
+      "flags": {
+        "mentions_692_angles": false,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": true,
+        "mentions_source_data": true,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "liao_natcomm_2020_mos2"
+      },
+      "rejected_candidates_sampled": 0,
+      "source_key": "liao_natcomm_2020_mos2",
+      "text_chars": 45796,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7195481/"
+    },
+    {
+      "accepted_pairs_text_or_tables": 0,
+      "data_links_seen": [],
+      "data_notes": [],
+      "flags": {
+        "mentions_692_angles": false,
+        "mentions_bandgap": true,
+        "mentions_small_angle_regime": false,
+        "mentions_source_data": false,
+        "mentions_twist_angle_dependence": true,
+        "source_key": "qin_pmc_2024_phonon_polarizer"
+      },
+      "rejected_candidates_sampled": 1,
+      "source_key": "qin_pmc_2024_phonon_polarizer",
+      "text_chars": 50906,
+      "used_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11180428/"
+    },
+    {
+      "error": "https://pubs.aip.org/aip/apl/article/121/14/142202/2834360/Phononic-twisted-moire-lattice-with: download failed for https://pubs.aip.org/aip/apl/article/121/14/142202/2834360/Phononic-twisted-moire-lattice-with: HTTP Error 403: Forbidden",
+      "source_key": "apl_2022_tml"
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "At least 4 clean public source-data/table angle-bandgap/frequency rows show strong twist-angle tunability after context/range filtering.",
+    "extraction_failed": "Candidate numeric rows were rejected as source-code/affiliation/figure markup or nonsensical units/ranges.",
+    "falsify_like": "Adequate clean public numeric rows show no dependence of phononic bandgap/frequency on twist angle.",
+    "partial_numeric": "Clean numeric rows exist but are too few, too weakly correlated, or mostly prose-extracted rather than source-data table rows.",
+    "partial_qualitative": "Open papers support twist-angle phonon tunability qualitatively, but source data are in plots or unparseable tables."
+  },
+  "generated_utc": "2026-04-25T00:12:17Z",
+  "prediction_id": "MAT9",
+  "rejected_candidate_examples": [
+    {
+      "context": "phonon frequency of transverse acoustic modes in top layer graphene is 30 THz when layers at \u03b8 = 0 \u00b0",
+      "original_frequency": 30.0,
+      "original_unit": "THz",
+      "reason": "angle_range_rejected_or_zero_baseline",
+      "source_key": "qin_pmc_2024_phonon_polarizer",
+      "twist_angle_deg": 0.0
+    }
+  ],
+  "test_name": "Moir\u00e9 twist-angle phonon/bandgap tunability from public literature"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "FR3": "data_insufficient_public_proxy",
+    "FR3_full_evidence_level": 0,
+    "FR3_full_ladder_key": "data_missing",
+    "FR3b_reduced_proxy_evidence_level": 1,
+    "FR3b_reduced_proxy_ladder_key": "qualitative_context",
+    "FR6": "proxy_pass",
+    "returncode": 0,
+    "script": "test_fr3_fr6_literature_proxy.py",
+    "test_name": "FR3/FR6 public literature proxy"
+  },
+  {
+    "FR8_context_evidence_level": 1,
+    "FR8_decisive_evidence_level": 0,
+    "FR8_split_evidence_levels": {
+      "FR8a_QGP_eta_over_s_context": 1,
+      "FR8b_fusion_transport_proxy": 1,
+      "FR8c_true_edge_eta_or_MKSS": 0
+    },
+    "FR8a_QGP_eta_over_s_context": "qualitative_context",
+    "FR8a_QGP_eta_over_s_context_evidence_level": 1,
+    "FR8b_fusion_transport_proxy": "partial_proxy",
+    "FR8b_fusion_transport_proxy_evidence_level": 1,
+    "FR8c_true_edge_eta_or_MKSS": "data_insufficient_public_proxy",
+    "FR8c_true_edge_eta_or_MKSS_evidence_level": 0,
+    "decision": "data_insufficient_public_proxy",
+    "evidence_ladder_key": "data_missing",
+    "evidence_level": 0,
+    "fusion_edge_proxy_status": "partial_proxy_only",
+    "knolker_table2_extraction_method": "table_or_fingerprint_text_extraction",
+    "returncode": 0,
+    "script": "test_fr8_eta_s_collisionality_proxy.py",
+    "status": "data_insufficient_public_proxy",
+    "test_name": "FR8 eta/s-collisionality stellarator lower M_KSS public proxy"
+  },
+  {
+    "QC5a_TLS_mechanism": "mechanism_supported",
+    "QC5b_transmon_T1": "unconfirmed",
+    "decision": {
+      "QC5a_TLS_mechanism": {
+        "best_extracted_TLS_T1_ms_inside_bandgap": 5.0,
+        "best_extracted_TLS_improvement_factor_lower_bound": 100.0,
+        "confirmed_as_full_QC5": false,
+        "definition": "Complete acoustic/phononic bandgap suppresses phonon-mediated TLS/defect relaxation by >2-5x and can reach ms-scale T1.",
+        "evidence_ladder": {
+          "description": "Like-for-like public proxy is robust under controls/subsampling.",
+          "ladder_key": "robust_proxy",
+          "level": 4,
+          "status": "mechanism_supported"
+        },
+        "label": "QC5a_TLS_mechanism",
+        "status": "mechanism_supported"
+      },
+      "QC5b_transmon_T1": {
+        "best_extracted_qubit_T1_ms_inside_bandgap": null,
+        "definition": "Standalone transmon-qubit T1 > 1 ms with transition inside a complete acoustic bandgap and >2-5x over controls.",
+        "evidence_ladder": {
+          "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+          "ladder_key": "qualitative_context",
+          "level": 1,
+          "status": "unconfirmed"
+        },
+        "label": "QC5b_transmon_T1",
+        "status": "unconfirmed",
+        "target_T1_ms": 1.0,
+        "target_improvement_factor": ">2-5x"
+      },
+      "best_extracted_qubit_T1_ms_inside_bandgap": null,
+      "decisive_qubit_T1_gt_1ms_inside_bandgap": false,
+      "evidence_ladder": {
+        "description": "Numeric proxy exists, but it is not the target observable or is too small/low-quality.",
+        "ladder_key": "partial_proxy",
+        "level": 2,
+        "status": "partial_support_TLS_not_qubit"
+      },
+      "interpretation": "QC5a is supported when public text contains the embedded-TLS bandgap result (>5 ms and >100x). QC5b, the original standalone-transmon T1 >1 ms target, remains unconfirmed until a public on/off-bandgap transmon experiment reports that metric.",
+      "metric": {
+        "target_T1_ms": 1.0,
+        "target_improvement_factor": ">2-5x"
+      },
+      "overall_status": "partial_support_TLS_not_qubit",
+      "status": "partial_support_TLS_not_qubit",
+      "tls_bandgap_support": true
+    },
+    "evidence_ladder_key": "partial_proxy",
+    "evidence_level": 2,
+    "returncode": 0,
+    "script": "test_qc5_phononic_crystal_t1_public.py",
+    "status": "partial_support_TLS_not_qubit",
+    "test_name": "QC5 phononic-crystal substrate T1 public benchmark"
+  },
+  {
+    "EL3_all_public_sources_evidence_level": 3,
+    "EL3_all_public_sources_status": "mixed_to_supportive_proxy_weak_foundry",
+    "EL3_primary_only_evidence_level": 0,
+    "EL3_primary_only_status": "data_insufficient_public_proxy",
+    "EL3_secondary_physical_placeholder_only_evidence_level": 0,
+    "EL3_secondary_physical_placeholder_only_status": "data_insufficient_public_proxy",
+    "EL3_wikipedia_proxy_only_evidence_level": 2,
+    "EL3_wikipedia_proxy_only_status": "weak_window_compatible_proxy",
+    "EL3a_historical_chip_density": "window_compatible_proxy",
+    "EL3a_historical_chip_density_hypothesis_alpha_drop": 0.5866537193056831,
+    "EL3a_historical_chip_density_hypothesis_crossover_like": true,
+    "EL3a_historical_chip_density_node_median": "window_compatible_proxy",
+    "EL3a_historical_chip_density_node_median_hypothesis_alpha_drop": 0.5866537193056831,
+    "EL3a_historical_chip_density_node_median_hypothesis_crossover_like": true,
+    "EL3a_historical_chip_density_node_median_subsample_supportive_fraction": 0.5566666666666666,
+    "EL3a_historical_chip_density_raw": "fail_or_inconclusive_proxy",
+    "EL3a_historical_chip_density_raw_hypothesis_alpha_drop": -1.6261297107849713,
+    "EL3a_historical_chip_density_raw_hypothesis_crossover_like": false,
+    "EL3a_historical_chip_density_raw_subsample_supportive_fraction": 0.63,
+    "EL3a_historical_chip_density_subsample_supportive_fraction": 0.5566666666666666,
+    "EL3b_foundry_standard_cell_density": "weak_window_compatible_proxy",
+    "EL3b_foundry_standard_cell_density_hypothesis_alpha_drop": 0.3906332723814494,
+    "EL3b_foundry_standard_cell_density_hypothesis_crossover_like": true,
+    "EL3b_foundry_standard_cell_density_subsample_supportive_fraction": 0.19333333333333333,
+    "EL3c_physical_pitch_density_proxy": "data_insufficient_public_proxy",
+    "EL3c_physical_pitch_density_proxy_evidence_level": 0,
+    "EL3c_primary_physical_pitch_density_proxy": "data_insufficient_public_proxy",
+    "EL3c_primary_physical_pitch_density_proxy_evidence_level": 0,
+    "EL3c_secondary_physical_pitch_density_proxy": "data_insufficient_public_proxy",
+    "EL3c_secondary_physical_pitch_density_proxy_evidence_level": 0,
+    "decision": {
+      "EL3a_historical_chip_density_node_median": "window_compatible_proxy",
+      "EL3a_historical_chip_density_raw": "fail_or_inconclusive_proxy",
+      "EL3b_foundry_standard_cell_density": "weak_window_compatible_proxy",
+      "evidence_ladder": {
+        "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+        "ladder_key": "window_compatible_proxy",
+        "level": 3,
+        "status": "mixed_to_supportive_proxy_weak_foundry"
+      },
+      "interpretation": "Historical density has compatible support and foundry standard-cell density is only weakly window-compatible; EL3 remains live but not robustly confirmed.",
+      "status": "mixed_to_supportive_proxy_weak_foundry",
+      "supportive_statuses": [
+        "pass_proxy",
+        "weak_window_compatible_proxy",
+        "window_compatible_proxy"
+      ],
+      "use_combined_fit_for_decision": false,
+      "v2_5_note": "EL3 now reports raw historical, node-median historical, and foundry-standard-cell fits separately, with subsample robustness and rolling local slopes.",
+      "why_not_combined": "Historical full-chip transistor density and foundry standard-cell density are heterogeneous observables; the combined fit is retained only as a diagnostic."
+    },
+    "evidence_ladder_key": "window_compatible_proxy",
+    "evidence_level": 3,
+    "returncode": 0,
+    "script": "test_el3_si_area_crossover_public.py",
+    "status": "mixed_to_supportive_proxy_weak_foundry",
+    "test_name": "EL3 silicon volume-to-area scaling crossover public node-density proxy"
+  }
+]

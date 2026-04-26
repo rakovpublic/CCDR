@@ -1,0 +1,135 @@
+{
+  "decision": {
+    "QC5a_TLS_mechanism": {
+      "best_extracted_TLS_T1_ms_inside_bandgap": 5.0,
+      "best_extracted_TLS_improvement_factor_lower_bound": 100.0,
+      "confirmed_as_full_QC5": false,
+      "definition": "Complete acoustic/phononic bandgap suppresses phonon-mediated TLS/defect relaxation by >2-5x and can reach ms-scale T1.",
+      "evidence_ladder": {
+        "description": "Like-for-like public proxy is robust under controls/subsampling.",
+        "ladder_key": "robust_proxy",
+        "level": 4,
+        "status": "mechanism_supported"
+      },
+      "label": "QC5a_TLS_mechanism",
+      "status": "mechanism_supported"
+    },
+    "QC5b_transmon_T1": {
+      "best_extracted_qubit_T1_ms_inside_bandgap": null,
+      "definition": "Standalone transmon-qubit T1 > 1 ms with transition inside a complete acoustic bandgap and >2-5x over controls.",
+      "evidence_ladder": {
+        "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+        "ladder_key": "qualitative_context",
+        "level": 1,
+        "status": "unconfirmed"
+      },
+      "label": "QC5b_transmon_T1",
+      "status": "unconfirmed",
+      "target_T1_ms": 1.0,
+      "target_improvement_factor": ">2-5x"
+    },
+    "best_extracted_qubit_T1_ms_inside_bandgap": null,
+    "decisive_qubit_T1_gt_1ms_inside_bandgap": false,
+    "evidence_ladder": {
+      "description": "Numeric proxy exists, but it is not the target observable or is too small/low-quality.",
+      "ladder_key": "partial_proxy",
+      "level": 2,
+      "status": "partial_support_TLS_not_qubit"
+    },
+    "interpretation": "QC5a is supported when public text contains the embedded-TLS bandgap result (>5 ms and >100x). QC5b, the original standalone-transmon T1 >1 ms target, remains unconfirmed until a public on/off-bandgap transmon experiment reports that metric.",
+    "metric": {
+      "target_T1_ms": 1.0,
+      "target_improvement_factor": ">2-5x"
+    },
+    "overall_status": "partial_support_TLS_not_qubit",
+    "status": "partial_support_TLS_not_qubit",
+    "tls_bandgap_support": true
+  },
+  "downloaded_sources": [
+    {
+      "bytes": 49552,
+      "error": null,
+      "label": "Chen Painter 2024 phonon engineering arXiv",
+      "ok": true,
+      "path": "qc5_cache\\Chen_Painter_2024_phonon_engineering_arXiv.03929",
+      "sha256": "6dbf97e3a949f8a92dfb5b9dd44502626246be007e42902f01e35502818ae181",
+      "url": "https://arxiv.org/abs/2310.03929"
+    },
+    {
+      "bytes": 44617,
+      "error": null,
+      "label": "Odeh Sipahigil 2023 non-Markovian qubit phononic bandgap arXiv",
+      "ok": true,
+      "path": "qc5_cache\\Odeh_Sipahigil_2023_non-Markovian_qubit_phononic_bandgap_arXiv.01031",
+      "sha256": "437aff263c1676b590a9441590d589b5ad8dba46a049d2a0e6288848989670ba",
+      "url": "https://arxiv.org/abs/2312.01031"
+    },
+    {
+      "bytes": 50119,
+      "error": null,
+      "label": "Place Houck 2020 transmon 0.3 ms benchmark arXiv",
+      "ok": true,
+      "path": "qc5_cache\\Place_Houck_2020_transmon_0.3_ms_benchmark_arXiv.00024",
+      "sha256": "1516ba19566b66c7c31e8f925a9734dbb10b0c9d32c49113fe53ffec503fc0ad",
+      "url": "https://arxiv.org/abs/2003.00024"
+    },
+    {
+      "bytes": 49307,
+      "error": null,
+      "label": "Rosen 2019 phonon-mediated decay theory arXiv",
+      "ok": true,
+      "path": "qc5_cache\\Rosen_2019_phonon-mediated_decay_theory_arXiv.06193",
+      "sha256": "0385f15eb4b8d737de15e353876d918be3cb033d0b4c0ed4475fca637c92ac76",
+      "url": "https://arxiv.org/abs/1903.06193"
+    }
+  ],
+  "extracted_claims": [
+    {
+      "bandgap_condition": true,
+      "category": "TLS_defect_inside_phononic_bandgap",
+      "evidence": "abstract reports two-orders relaxation-time increase and longest T1 exceeding 5 ms for embedded TLS inside acoustic bandgap",
+      "measurement_target": "embedded TLS strongly coupled to a transmon circuit, not transmon T1 itself",
+      "qubit_T1": false,
+      "reported_T1_ms": 5.0,
+      "reported_improvement_factor_lower_bound": 100.0,
+      "source": "Chen/Painter 2024"
+    },
+    {
+      "bandgap_condition": true,
+      "category": "qubit_coupled_to_phononic_bandgap_TLS_bath_probe",
+      "coupled_qubit_probe": true,
+      "evidence": "abstract reports non-Markovian qubit dynamics due to Purcell-engineered TLS lifetime of 34 us inside phononic bandgap",
+      "measurement_target": "engineered TLS lifetime / qubit non-Markovian dynamics, not standalone transmon T1",
+      "qubit_T1": false,
+      "reported_T1_ms": 0.034,
+      "reported_improvement_factor_lower_bound": null,
+      "source": "Odeh/Sipahigil 2023/2025"
+    },
+    {
+      "bandgap_condition": false,
+      "category": "non_phononic_transmon_material_baseline",
+      "evidence": "abstract reports transmon lifetimes/coherence exceeding 0.3 ms from tantalum material platform, not phononic bandgap",
+      "qubit_T1": true,
+      "reported_T1_ms": 0.3,
+      "reported_improvement_factor_lower_bound": null,
+      "source": "Place/Houck 2020/2021"
+    },
+    {
+      "bandgap_condition": true,
+      "category": "phonon_mediated_decay_theory",
+      "evidence": "theory/model source for phononic bandgap suppression of phonon-mediated decay",
+      "qubit_T1": false,
+      "reported_T1_ms": null,
+      "reported_improvement_factor_lower_bound": 100.0,
+      "source": "Rosen 2019"
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "A public experiment reports transmon-qubit T1 >1 ms with the transition inside a complete acoustic bandgap and >2-5x over off-gap/control devices.",
+    "current_status_rule": "QC5a/TLS enhancement can be mechanism-supported; QC5b/original transmon T1 target requires standalone qubit T1 rows.",
+    "falsify_like": "Comparable on/off-bandgap transmon devices repeatedly show <2x improvement or no trend once non-phononic channels are controlled."
+  },
+  "prediction": "QC5 split: QC5a phononic-bandgap TLS/mechanism support; QC5b standalone transmon-qubit T1 >1 ms and >2-5x inside a complete bandgap near 4-8 GHz.",
+  "test_name": "QC5 phononic-crystal substrate T1 public benchmark",
+  "warnings": []
+}

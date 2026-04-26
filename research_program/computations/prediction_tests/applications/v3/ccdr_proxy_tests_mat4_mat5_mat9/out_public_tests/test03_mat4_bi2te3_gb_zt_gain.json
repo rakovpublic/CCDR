@@ -1,0 +1,139 @@
+{
+  "analysis": {
+    "baseline_estimated_not_independent": false,
+    "baseline_independently_parsed": false,
+    "interpretation": "Counts as confirm/falsify only if both optimized and baseline ZT are independently parsed from a same-study angle/voltage-controlled source.",
+    "metric": "optimized 30-degree/30V ZT parsed; independent baseline/random ZT not parsed",
+    "missing_decisive_inputs": [
+      "independent 0V/random/pristine ZT from same study",
+      "clean voltage/angle-vs-ZT table or source-data row"
+    ],
+    "rows_used_from_tan_study": [
+      {
+        "ZT_300K": 1.75,
+        "gb_angle_deg": 30.0,
+        "source_key": "tan_sbrep_2020_sb2te3_pmc",
+        "voltage_V": 30.0,
+        "zt_context": "30 V external electric-field-assisted deposition, a greatly high Z T value of 1.75",
+        "zt_context_30V": "At room temperature, a high ZT value of 1.75 can be achieved in the deposited Sb 2 Te 3 film under 30 V external electric field.",
+        "zt_parse_mode": "optimized_30V_sentence"
+      },
+      {
+        "angle_context": "40 V mapped to ~40 degree GB angle from article prose",
+        "gb_angle_deg": 40.0,
+        "source_key": "tan_sbrep_2020_sb2te3_pmc",
+        "voltage_V": 40.0
+      }
+    ],
+    "sigma_30V_over_0V": null,
+    "status": "partial_supportive",
+    "target_baseline_ZT_window_if_30V_is_correct": [
+      1.346153846153846,
+      1.5909090909090908
+    ],
+    "target_ratio_window": [
+      1.1,
+      1.3
+    ],
+    "warnings": [],
+    "zt_30deg_or_30V": 1.75,
+    "zt_baseline_estimated_from_percent_gain": null,
+    "zt_random_or_0V": null,
+    "zt_ratio": null
+  },
+  "downloaded_sources": [
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\e9003ceacb91_s41598-020-63062-z",
+      "label": "Tan et al. 2020 Scientific Reports Sb2Te3 angular intraplanar GB open HTML",
+      "url": "https://www.nature.com/articles/s41598-020-63062-z"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\2a0ca79b45f2_41598_2020_63062_MOESM1_ESM.doc",
+      "label": "Tan et al. 2020 Scientific Reports Sb2Te3 angular intraplanar GB open HTML supplement",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-63062-z/MediaObjects/41598_2020_63062_MOESM1_ESM.doc"
+    },
+    {
+      "downloaded_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v3\\ccdr_proxy_tests_mat4_mat5_mat9\\public_cache\\db83c5d15b19_PMC7136274",
+      "label": "Tan et al. 2020 Scientific Reports Sb2Te3 angular intraplanar GB PMC mirror",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7136274/"
+    },
+    {
+      "label": "Poudel et al. 2008 nanostructured BiSbTe PDF mirror, baseline context only",
+      "notes": "download/extract failed: download failed for https://scispace.com/pdf/high-thermoelectric-performance-of-nanostructured-bismuth-4evuadx0tz.pdf: HTTP Error 405: Not Allowed",
+      "url": "https://scispace.com/pdf/high-thermoelectric-performance-of-nanostructured-bismuth-4evuadx0tz.pdf"
+    }
+  ],
+  "extractions": {
+    "tan_sbrep_2020_sb2te3_nature": {
+      "baseline_candidates_seen": [],
+      "notes": [
+        "Sb2Te3 is a Bi2Te3-family proxy, not exact Bi2Te3.",
+        "Exact MAT4 status requires independent same-study baseline/random ZT and 30-degree optimized ZT.",
+        "Voltage-series/table parsing is accepted as independent; a lone 30 V optimized sentence is only partial_supportive."
+      ],
+      "rejected_zt_rows": [
+        {
+          "ZT_300K": 3.0,
+          "reject_reason": "garbled_or_non_scientific_zt_context",
+          "voltage_V": 0.0,
+          "zt_context": "0v@` {JA\" zGGE6 :6>1*: j1d}~ <KKWA n^ : n{%t =\\X4 o9mLbe %AsWp zHK?{ eI`@ 0mzt :}]C 3",
+          "zt_parse_mode": "explicit_voltage_zt_pair"
+        }
+      ],
+      "rows": [
+        {
+          "ZT_300K": 1.75,
+          "gb_angle_deg": 30.0,
+          "source_key": "tan_sbrep_2020_sb2te3_nature",
+          "voltage_V": 30.0,
+          "zt_context": "30 V external electric-field-assisted deposition, a greatly high Z T value of 1.75",
+          "zt_context_30V": "At room temperature, a high ZT value of 1.75 can be achieved in the deposited Sb 2 Te 3 film under 30 V external electric field.",
+          "zt_parse_mode": "optimized_30V_sentence"
+        },
+        {
+          "angle_context": "40 V mapped to ~40 degree GB angle from article prose",
+          "gb_angle_deg": 40.0,
+          "source_key": "tan_sbrep_2020_sb2te3_nature",
+          "voltage_V": 40.0
+        }
+      ]
+    },
+    "tan_sbrep_2020_sb2te3_pmc": {
+      "baseline_candidates_seen": [],
+      "notes": [
+        "Sb2Te3 is a Bi2Te3-family proxy, not exact Bi2Te3.",
+        "Exact MAT4 status requires independent same-study baseline/random ZT and 30-degree optimized ZT.",
+        "Voltage-series/table parsing is accepted as independent; a lone 30 V optimized sentence is only partial_supportive."
+      ],
+      "rejected_zt_rows": [],
+      "rows": [
+        {
+          "ZT_300K": 1.75,
+          "gb_angle_deg": 30.0,
+          "source_key": "tan_sbrep_2020_sb2te3_pmc",
+          "voltage_V": 30.0,
+          "zt_context": "30 V external electric-field-assisted deposition, a greatly high Z T value of 1.75",
+          "zt_context_30V": "At room temperature, a high ZT value of 1.75 can be achieved in the deposited Sb 2 Te 3 film under 30 V external electric field.",
+          "zt_parse_mode": "optimized_30V_sentence"
+        },
+        {
+          "angle_context": "40 V mapped to ~40 degree GB angle from article prose",
+          "gb_angle_deg": 40.0,
+          "source_key": "tan_sbrep_2020_sb2te3_pmc",
+          "voltage_V": 40.0
+        }
+      ]
+    }
+  },
+  "falsification_logic": {
+    "confirm_like": "A same-study Bi2Te3/Bi2Te3-family source independently exposes ZT_30deg and random/baseline ZT with ratio 1.1-1.3.",
+    "data_limited": "Neither optimized nor baseline ZT could be extracted from public text.",
+    "falsify_like": "Adequate same-study independent angle-controlled ZT data expose a ratio outside the 1.1-1.3 window.",
+    "partial_directional": "Transport directionality is parsed, but exact ZT ratio is unavailable.",
+    "partial_estimated_ratio": "ZT ratio is estimated from explicit percentage-gain prose; useful but non-decisive because denominator is not independently parsed.",
+    "partial_supportive": "Open source confirms enhanced 30-degree/30V engineered state but baseline ZT or exact Bi2Te3 condition is not cleanly extractable."
+  },
+  "generated_utc": "2026-04-25T00:10:50Z",
+  "prediction_id": "MAT4",
+  "test_name": "30-degree grain-boundary ZT gain in Bi2Te3-family thermoelectrics from public literature"
+}

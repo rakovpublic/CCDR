@@ -1,0 +1,260 @@
+{
+  "FR8_context_evidence_level": 1,
+  "FR8_decisive_evidence_level": 0,
+  "FR8_split": {
+    "FR8a_QGP_eta_over_s_context": {
+      "evidence_ladder": {
+        "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+        "ladder_key": "qualitative_context",
+        "level": 1,
+        "status": "qualitative_context"
+      },
+      "interpretation": "QGP literature supports public eta/s/KSS context, but no machine-readable eta/s(T, collisionality) table is used here.",
+      "qgp_flags": {
+        "kss_bound_text_found": true,
+        "note": "This is evidence that QGP eta/s extraction is public-literature anchored; it is not a machine-readable eta/s(T,collisionality) table.",
+        "same_eta_over_s_at_rhic_and_lhc_text_found": true,
+        "specific_shear_viscosity_extractable_from_flow_text_found": true
+      },
+      "status": "qualitative_context"
+    },
+    "FR8b_fusion_transport_proxy": {
+      "computed_transport_rows": [],
+      "edge_proxy_status": "partial_proxy_only",
+      "evidence_ladder": {
+        "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+        "ladder_key": "qualitative_context",
+        "level": 1,
+        "status": "partial_proxy"
+      },
+      "proxy_definition": "M_transport_proxy candidate = normalized heat diffusivity or gyro-Bohm-normalized transport when public profile rows exist; current output uses only DIII-D f_ELM/collisionality and W7-X context.",
+      "status": "partial_proxy"
+    },
+    "FR8c_true_edge_eta_or_MKSS": {
+      "evidence_ladder": {
+        "description": "No relevant public data rows or only failed downloads.",
+        "ladder_key": "data_missing",
+        "level": 0,
+        "status": "data_insufficient_public_proxy"
+      },
+      "interpretation": "No public rows with comparable edge eta/s or M_KSS were found/downloaded, so the decisive FR8 claim remains untested.",
+      "required_rows": [
+        "device",
+        "collisionality",
+        "edge eta/s or M_KSS",
+        "uncertainty",
+        "method",
+        "matched control parameters"
+      ],
+      "status": "data_insufficient_public_proxy"
+    }
+  },
+  "FR8_split_evidence_summary": {
+    "FR8_context_evidence_level": 1,
+    "FR8_decisive_evidence_level": 0,
+    "FR8_split_evidence_levels": {
+      "FR8a_QGP_eta_over_s_context": 1,
+      "FR8b_fusion_transport_proxy": 1,
+      "FR8c_true_edge_eta_or_MKSS": 0
+    },
+    "interpretation": "FR8c is the decisive eta/s or M_KSS claim; FR8a/FR8b are context/proxy branches and must not upgrade the decisive FR8 verdict."
+  },
+  "FR8a_QGP_eta_over_s_context": {
+    "evidence_ladder": {
+      "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+      "ladder_key": "qualitative_context",
+      "level": 1,
+      "status": "qualitative_context"
+    },
+    "interpretation": "QGP literature supports public eta/s/KSS context, but no machine-readable eta/s(T, collisionality) table is used here.",
+    "qgp_flags": {
+      "kss_bound_text_found": true,
+      "note": "This is evidence that QGP eta/s extraction is public-literature anchored; it is not a machine-readable eta/s(T,collisionality) table.",
+      "same_eta_over_s_at_rhic_and_lhc_text_found": true,
+      "specific_shear_viscosity_extractable_from_flow_text_found": true
+    },
+    "status": "qualitative_context"
+  },
+  "FR8b_fusion_transport_proxy": {
+    "computed_transport_rows": [],
+    "edge_proxy_status": "partial_proxy_only",
+    "evidence_ladder": {
+      "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+      "ladder_key": "qualitative_context",
+      "level": 1,
+      "status": "partial_proxy"
+    },
+    "proxy_definition": "M_transport_proxy candidate = normalized heat diffusivity or gyro-Bohm-normalized transport when public profile rows exist; current output uses only DIII-D f_ELM/collisionality and W7-X context.",
+    "status": "partial_proxy"
+  },
+  "FR8c_true_edge_eta_or_MKSS": {
+    "evidence_ladder": {
+      "description": "No relevant public data rows or only failed downloads.",
+      "ladder_key": "data_missing",
+      "level": 0,
+      "status": "data_insufficient_public_proxy"
+    },
+    "interpretation": "No public rows with comparable edge eta/s or M_KSS were found/downloaded, so the decisive FR8 claim remains untested.",
+    "required_rows": [
+      "device",
+      "collisionality",
+      "edge eta/s or M_KSS",
+      "uncertainty",
+      "method",
+      "matched control parameters"
+    ],
+    "status": "data_insufficient_public_proxy"
+  },
+  "decision": "data_insufficient_public_proxy",
+  "downloaded_sources": [
+    {
+      "bytes": 46220,
+      "error": null,
+      "label": "QGP Heinz Shen Song arXiv abstract HTML",
+      "ok": true,
+      "path": "fr8_cache\\QGP_Heinz_Shen_Song_arXiv_abstract_HTML.5323",
+      "sha256": "222bb07515e5539a86b2814ea6d9636a21da125d382139d41c220c04322cef9a",
+      "url": "https://arxiv.org/abs/1108.5323"
+    },
+    {
+      "bytes": 45803,
+      "error": null,
+      "label": "KSS bound status arXiv abstract HTML",
+      "ok": true,
+      "path": "fr8_cache\\KSS_bound_status_arXiv_abstract_HTML.2601",
+      "sha256": "de60dadbd17a5176c0b64b53a6abbbb8fa1d525152b0d949b10f7585a6a90c6d",
+      "url": "https://arxiv.org/abs/0804.2601"
+    },
+    {
+      "bytes": 1811415,
+      "error": null,
+      "label": "DIII-D Knolker 2018 pedestal pressure collisionality PDF",
+      "ok": true,
+      "path": "fr8_cache\\DIII-D_Knolker_2018_pedestal_pressure_collisionality_PDF.dat",
+      "sha256": "775c8b10fb608b5e0b355de8cd2765f8c6c2d94f1220b46446d62d9af8b1d86e",
+      "url": "https://pure.mpg.de/rest/items/item_2622196_4/component/file_3017099/content"
+    },
+    {
+      "bytes": 2155683,
+      "error": null,
+      "label": "W7-X optimization Dinklage 2018 PDF",
+      "ok": true,
+      "path": "fr8_cache\\W7-X_optimization_Dinklage_2018_PDF.pdf",
+      "sha256": "0271ccb38454856570f9a2f6655b21aba619c7fe86bd09f2dce7ec0f888b6e59",
+      "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+    },
+    {
+      "bytes": 4217860,
+      "error": null,
+      "label": "W7-X first divertor operation Pedersen 2018 PDF",
+      "ok": true,
+      "path": "fr8_cache\\W7-X_first_divertor_operation_Pedersen_2018_PDF.pdf",
+      "sha256": "5ad89e97f4331eaada90896b9212543e6d4c2fa34f938772b0699b4de3ce68d0",
+      "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR18_21092_submitted.pdf"
+    },
+    {
+      "bytes": 0,
+      "error": "download failed for https://www.sciencedirect.com/science/article/pii/S2468080X16300322: HTTP Error 403: Forbidden",
+      "label": "Tokamak-stellarator comparison Xu 2016 open HTML",
+      "ok": false,
+      "path": "fr8_cache\\Tokamak-stellarator_comparison_Xu_2016_open_HTML.dat",
+      "sha256": "",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2468080X16300322"
+    }
+  ],
+  "evidence_ladder": {
+    "description": "No relevant public data rows or only failed downloads.",
+    "ladder_key": "data_missing",
+    "level": 0,
+    "status": "data_insufficient_public_proxy"
+  },
+  "falsification_logic": {
+    "confirm_like": "eta/s or M_KSS has a clear minimum vs collisionality and stellarator rows lie below tokamak rows at matched edge parameters.",
+    "current_script_policy": "Do not convert f_ELM/collisionality into eta/s unless a public paper gives the conversion or provides eta/s rows.",
+    "falsify_like": "eta/s/M_KSS is monotonic or stellarator rows are not lower after matched controls and uncertainty propagation."
+  },
+  "fusion_edge_proxy": {
+    "collisionality_vs_f_elm_spearman": {
+      "n": 3,
+      "pvalue": 0.6666666666666666,
+      "rho": 0.5
+    },
+    "diiid_collisionality_range_rows": [
+      {
+        "f_elm_hz_max": 47.0,
+        "f_elm_hz_mid": 27.0,
+        "f_elm_hz_min": 7.0,
+        "nu_e_star_max": 0.75,
+        "nu_e_star_mid": 0.4,
+        "nu_e_star_min": 0.05,
+        "p_ped_kpa_max": 6.5,
+        "p_ped_kpa_mid": 5.35,
+        "p_ped_kpa_min": 4.2,
+        "regime": "low_collisionality"
+      },
+      {
+        "f_elm_hz_max": 31.0,
+        "f_elm_hz_mid": 22.5,
+        "f_elm_hz_min": 14.0,
+        "nu_e_star_max": 0.34,
+        "nu_e_star_mid": 0.23500000000000001,
+        "nu_e_star_min": 0.13,
+        "p_ped_kpa_max": 7.8,
+        "p_ped_kpa_mid": 5.85,
+        "p_ped_kpa_min": 3.9,
+        "regime": "medium_collisionality"
+      },
+      {
+        "f_elm_hz_max": 43.0,
+        "f_elm_hz_mid": 25.5,
+        "f_elm_hz_min": 8.0,
+        "nu_e_star_max": 2.17,
+        "nu_e_star_mid": 1.31,
+        "nu_e_star_min": 0.45,
+        "p_ped_kpa_max": 4.8,
+        "p_ped_kpa_mid": 3.95,
+        "p_ped_kpa_min": 3.1,
+        "regime": "high_collisionality"
+      }
+    ],
+    "nonmonotonic_f_elm_midpoint_proxy": true,
+    "p_ped_kpa_midpoints": [
+      5.35,
+      5.85,
+      3.95
+    ],
+    "proxy_caveat": "The DIII-D non-monotonic f_ELM/collisionality signal is not eta/s. W7-X text flags support the stellarator context only, not a numerical M_KSS comparison.",
+    "status": "partial_proxy_only",
+    "stellarator_public_text_flags": {
+      "tokamak_stellarator_comparison_text_found": false,
+      "w7x_divertor_or_edge_operation_text_found": true,
+      "w7x_energy_confinement_text_found": true,
+      "w7x_neoclassical_optimization_text_found": true,
+      "w7x_optimisation_text_found": true
+    },
+    "why_not_decisive": "FR8 needs eta/s or M_KSS values on a common basis. Public sources here provide QGP eta/s context, DIII-D collisionality/f_ELM ranges, and W7-X optimization context, but not edge eta/s or stellarator M_KSS rows."
+  },
+  "knolker_table2_extraction": {
+    "extraction_method": "table_or_fingerprint_text_extraction",
+    "extraction_window_found": true,
+    "fingerprint_fallback_used": true,
+    "n_numeric_tokens": 1452,
+    "near_table2_targets": 18
+  },
+  "minimum_required_for_decisive_test": [
+    ">=10 tokamak rows with collisionality and edge eta/s or M_KSS",
+    ">=5 stellarator rows with comparable edge eta/s or M_KSS",
+    "common units and method for entropy density/viscosity or diffusivity-to-M_KSS conversion"
+  ],
+  "prediction": "FR8: non-monotonic eta/s vs collisionality; stellarator edge transport should approach lower M_KSS than tokamaks.",
+  "qgp_proxy": {
+    "kss_bound_text_found": true,
+    "note": "This is evidence that QGP eta/s extraction is public-literature anchored; it is not a machine-readable eta/s(T,collisionality) table.",
+    "same_eta_over_s_at_rhic_and_lhc_text_found": true,
+    "specific_shear_viscosity_extractable_from_flow_text_found": true
+  },
+  "test_name": "FR8 eta/s-collisionality stellarator lower M_KSS public proxy",
+  "warnings": [
+    "download failed for Tokamak-stellarator comparison Xu 2016 open HTML: download failed for https://www.sciencedirect.com/science/article/pii/S2468080X16300322: HTTP Error 403: Forbidden"
+  ]
+}

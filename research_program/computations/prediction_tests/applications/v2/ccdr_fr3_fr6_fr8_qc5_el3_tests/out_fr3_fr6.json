@@ -1,0 +1,423 @@
+{
+  "FR3": {
+    "FR3_full_evidence_ladder": {
+      "description": "No relevant public data rows or only failed downloads.",
+      "ladder_key": "data_missing",
+      "level": 0,
+      "status": "data_insufficient_public_proxy"
+    },
+    "FR3b_reduced_proxy_evidence_ladder": {
+      "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+      "ladder_key": "qualitative_context",
+      "level": 1,
+      "status": "partial_proxy"
+    },
+    "decision": "data_insufficient_public_proxy",
+    "evidence_ladder": {
+      "description": "No relevant public data rows or only failed downloads.",
+      "ladder_key": "data_missing",
+      "level": 0,
+      "status": "data_insufficient_public_proxy"
+    },
+    "evidence_ladder_note": "Top-level FR3 decision and ladder refer to the full parameter-free FR3 scaling only; FR3b is a reduced, non-decisive sanity proxy tracked separately.",
+    "falsification_logic": {
+      "confirm_like": "Scale-only fit of E_ELM to P_ped*V_ped*(DeltaP/P)^2 has RMS fractional residual <0.20-0.30 on >=10 well-diagnosed public rows.",
+      "current_script_policy": "Do not digitize figure markers by hand; return data_insufficient if no machine-readable public rows exist.",
+      "falsify_like": "Public rows cover the variables but RMS residual remains >0.30 or correlation is wrong/null under shot/device controls."
+    },
+    "literature_evidence": {
+      "diiid_knolker_range_rows": [
+        {
+          "f_elm_hz_max": 47.0,
+          "f_elm_hz_mid": 27.0,
+          "f_elm_hz_min": 7.0,
+          "nu_e_star_max": 0.75,
+          "nu_e_star_mid": 0.4,
+          "nu_e_star_min": 0.05,
+          "p_ped_kpa_max": 6.5,
+          "p_ped_kpa_mid": 5.35,
+          "p_ped_kpa_min": 4.2,
+          "regime": "low_collisionality"
+        },
+        {
+          "f_elm_hz_max": 31.0,
+          "f_elm_hz_mid": 22.5,
+          "f_elm_hz_min": 14.0,
+          "nu_e_star_max": 0.34,
+          "nu_e_star_mid": 0.23500000000000001,
+          "nu_e_star_min": 0.13,
+          "p_ped_kpa_max": 7.8,
+          "p_ped_kpa_mid": 5.85,
+          "p_ped_kpa_min": 3.9,
+          "regime": "medium_collisionality"
+        },
+        {
+          "f_elm_hz_max": 43.0,
+          "f_elm_hz_mid": 25.5,
+          "f_elm_hz_min": 8.0,
+          "nu_e_star_max": 2.17,
+          "nu_e_star_mid": 1.31,
+          "nu_e_star_min": 0.45,
+          "p_ped_kpa_max": 4.8,
+          "p_ped_kpa_mid": 3.95,
+          "p_ped_kpa_min": 3.1,
+          "regime": "high_collisionality"
+        }
+      ],
+      "fr3b_reduced_pedestal_pressure_proxy": {
+        "evidence_ladder": {
+          "description": "Downloaded literature gives context/phrases only; no numeric proxy table.",
+          "ladder_key": "qualitative_context",
+          "level": 1,
+          "status": "partial_proxy"
+        },
+        "f_elm_midpoints_hz": [
+          27.0,
+          22.5,
+          25.5
+        ],
+        "nonmonotonic_pressure_proxy": true,
+        "observable": "range-level pedestal pressure vs ELM frequency only; not FR3 energy scaling",
+        "p_ped_midpoints_kpa": [
+          5.35,
+          5.85,
+          3.95
+        ],
+        "spearman_p_ped_vs_f_elm_midpoints": {
+          "n": 3,
+          "pvalue": 0.6666666666666666,
+          "rho": -0.5
+        },
+        "status": "partial_proxy",
+        "why_not_decisive": "Does not include E_ELM, V_pedestal, or DeltaP/P; use only as FR3b sanity proxy."
+      },
+      "knolker_table2_extraction": {
+        "extraction_method": "table_or_fingerprint_text_extraction",
+        "extraction_window_found": true,
+        "fingerprint_fallback_used": true,
+        "n_numeric_tokens": 1452,
+        "near_table2_targets": 18
+      },
+      "leonard_pedestal_energy_normalization_text_found": true,
+      "range_rows_note": "These are collisionality/pedestal/frequency ranges, not sufficient for parameter-free FR3 because E_ELM, V_pedestal, and DeltaP/P are not jointly machine-readable as shot-cycle rows.",
+      "supplement_crawler": {
+        "column_inventory": {
+          "column_counts": {},
+          "examples": []
+        },
+        "crawler_notes": [
+          {
+            "candidate_links": 0,
+            "label": "Loarte ITPA Type-I ELM energy loss comparison",
+            "links_sample": [],
+            "url": "https://scipub.euro-fusion.org/wp-content/uploads/2014/11/EFDP03032.pdf"
+          },
+          {
+            "candidate_links": 0,
+            "label": "DIII-D Leonard ELM energy scaling",
+            "links_sample": [],
+            "url": "https://fusion.gat.com/pubs-ext/MISCONF01/A23798.pdf"
+          },
+          {
+            "candidate_links": 0,
+            "label": "DIII-D Knolker pedestal collisionality",
+            "links_sample": [],
+            "url": "https://pure.mpg.de/rest/items/item_2622196_4/component/file_3017099/content"
+          }
+        ],
+        "downloaded_pages": [
+          {
+            "bytes": 1065200,
+            "error": null,
+            "label": "supplement_page_Loarte_ITPA_Type-I_ELM_energy_loss_comparison",
+            "ok": true,
+            "path": "fr3_fr6_cache\\fr3_supplements\\supplement_page_Loarte_ITPA_Type-I_ELM_energy_loss_comparison.pdf",
+            "sha256": "352a624e0453cdfcd7f28e25c4275e9095df2c2fdc8ce632a047cdfa9125e225",
+            "url": "https://scipub.euro-fusion.org/wp-content/uploads/2014/11/EFDP03032.pdf"
+          },
+          {
+            "bytes": 204433,
+            "error": null,
+            "label": "supplement_page_DIII-D_Leonard_ELM_energy_scaling",
+            "ok": true,
+            "path": "fr3_fr6_cache\\fr3_supplements\\supplement_page_DIII-D_Leonard_ELM_energy_scaling.pdf",
+            "sha256": "b7fc9f42af53fea788acf08c98a63be90534cf5e042713c6fcb2ad70edb00d6d",
+            "url": "https://fusion.gat.com/pubs-ext/MISCONF01/A23798.pdf"
+          },
+          {
+            "bytes": 1811415,
+            "error": null,
+            "label": "supplement_page_DIII-D_Knolker_pedestal_collisionality",
+            "ok": true,
+            "path": "fr3_fr6_cache\\fr3_supplements\\supplement_page_DIII-D_Knolker_pedestal_collisionality.dat",
+            "sha256": "775c8b10fb608b5e0b355de8cd2765f8c6c2d94f1220b46446d62d9af8b1d86e",
+            "url": "https://pure.mpg.de/rest/items/item_2622196_4/component/file_3017099/content"
+          }
+        ],
+        "downloaded_supplements": [],
+        "n_raw_supplement_rows": 0,
+        "status": "data_insufficient_public_proxy",
+        "strict_result": {
+          "reason": "No machine-readable public supplement rows discovered by crawler.",
+          "status": "data_insufficient_public_proxy",
+          "usable_rows": 0
+        }
+      }
+    },
+    "prediction": "E_ELM ~ P_ped * V_pedestal * (DeltaP/P_ped)^2",
+    "strict_machine_readable_result": {
+      "reason": "No machine-readable public supplement rows discovered by crawler.",
+      "status": "data_insufficient_public_proxy",
+      "usable_rows": 0
+    }
+  },
+  "FR6": {
+    "evidence_ladder": {
+      "description": "Proxy is directionally/window compatible, but not decisive or not robust enough.",
+      "ladder_key": "window_compatible_proxy",
+      "level": 3,
+      "status": "proxy_pass"
+    },
+    "falsification_logic": {
+      "confirm_like": "Positive sign and approximately linear f_ELM response to applied separatrix perturbation proxy.",
+      "falsify_like": "Negative or zero correlation after extracting comparable RMP/helicity rows, or no correlation once q-profile/equilibrium controls are available."
+    },
+    "fit_delta_f_hz_vs_effective_current_kAt": {
+      "intercept": 0.0,
+      "n": 3,
+      "r2": 0.9498554077501445,
+      "rms_frac": 0.3246107270849576,
+      "slope": 68.125
+    },
+    "helicity_quality_tiers": {
+      "0": "RMP/frequency text only",
+      "1": "coil current plus ELM/frequency text extracted",
+      "2": "coil current plus mode number or q-profile proxy extracted",
+      "3": "public equilibrium/coil geometry sufficient for true separatrix perturbation/helicity proxy"
+    },
+    "multi_paper_text_proxy": {
+      "max_tier_observed": 2,
+      "n_rejected_rows": 1,
+      "n_rows": 11,
+      "rejected_rows_sample": [
+        {
+          "coil_current_kAt": 0.0,
+          "context": "ing (D2 x1021s-1) 8 Figure 9. Comparison of ELM frequency (fELM) as a function of fuelling rate for shots with IELM = 0 kAt (solid circles) and IELM = 4 kAt (open squares) in the RMPs in an n = 4 con\ufb01guration. temperature pedestal decreases and although fELM increases to 290 Hz in the RMP applied shot it also increases in the RMP off shot (fELM = 145 Hz). A summary of fELM versus fuelling rate i",
+          "f_elm_hz": 290.0,
+          "n_rmp": 4,
+          "rejected": true,
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 2,
+          "validation_reason": "0 kAt row mispaired with applied-shot frequency; explicit off frequency is 145.0 Hz"
+        }
+      ],
+      "rows": [
+        {
+          "context": "ure 2(c) shows the target D\u03b1 intensity as a function of time for the shot with no applied RMPs, where the natural type-I ELM frequency (fELM) is \u223c60 Hz. The radial pro\ufb01les of the toroidal velocity measured using",
+          "f_elm_or_pacing_hz": 60.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 0
+        },
+        {
+          "context": "d with 5.6 kAt in an n = 6 con\ufb01guration. Similar to the n = 4 case the application of the RMPs produces an increase in fELM to \u223c200 Hz and a consequent decrease in ELM size and line-averaged den",
+          "f_elm_or_pacing_hz": 200.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 0
+        },
+        {
+          "context": "ffect on the ELM frequency. Figure 6 shows a series of shots with increasing IELM for the RMPs in an n = 4 con\ufb01guration. Figure 6(c) shows the D\u03b1 trace for the shot with IELM = 0, which has fELM = 55 Hz. The ELM coil current has been increased in subsequent shot",
+          "f_elm_or_pacing_hz": 55.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 0
+        },
+        {
+          "context": "4.8 and 5.6 kAt, respectively, where fELM continues to increase with IELM. At the maximum ELM coil current (5.6 kAt) the ELM frequency is 290 Hz which is a factor of 5.3 times larger than the natural fELM",
+          "f_elm_or_pacing_hz": 290.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 0
+        },
+        {
+          "coil_current_kAt": 5.6,
+          "context": "ent to avoid a back transition to L-mode. Figure 2(f ) shows the D\u03b1 trace for the case where the RMPs are applied with 5.6 kAt in an n = 6 con\ufb01guration. Similar to the n = 4 case the application of the RMPs produces an increase in fELM to \u223c200 Hz and a consequent decrease in ELM size and line-averaged density. The rotation pro\ufb01les shown in \ufb01gure 2(j ) again show s",
+          "f_elm_hz": 200.0,
+          "n_rmp": 6,
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 2,
+          "validation_reason": "accepted"
+        },
+        {
+          "coil_current_kAt": 0.4,
+          "context": "the shot with IELM = 0, which has fELM = 55 Hz. The ELM coil current has been increased in subsequent shots in steps of 0.4 kAt. For IELM < 2.4 kAt no effect on the ELM frequency is observed. Figure 6(d) shows the D\u03b1 trace for a shot with IELM = 4.0 kAt, the ELM frequency, averaged over the time the coils current is in \ufb02at top, has increased to 130 Hz. Figures 6(e) and (f ) show the D\u03b1 traces for shots with IELM = 4.8 and 5.6 kAt, respectively, where fELM continues to ",
+          "f_elm_hz": 130.0,
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 1,
+          "validation_reason": "accepted"
+        },
+        {
+          "coil_current_kAt": 5.6,
+          "context": " current is in \ufb02at top, has increased to 130 Hz. Figures 6(e) and (f ) show the D\u03b1 traces for shots with IELM = 4.8 and 5.6 kAt, respectively, where fELM continues to increase with IELM. At the maximum ELM coil current (5.6 kAt) the ELM frequency is 290 Hz which is a factor of 5.3 times larger than the natural fELM. The same scan has been performed with the RMPs in an n = ",
+          "f_elm_hz": 290.0,
+          "source": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+          "tier": 1,
+          "validation_reason": "accepted"
+        },
+        {
+          "context": "]. However with the RMP the higher frequency ELMs were synchronized to twice the applied RMP frequency. At low collisionality in DIII-D, the natural ELM frequency was high (~100 Hz). Full synchronization of the largest ELMs with twice the",
+          "f_elm_or_pacing_hz": 100.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "Fenstermacher multi-tokamak RMP ELM-control overview PDF",
+          "tier": 0
+        },
+        {
+          "context": "However, with the RMP, the higher frequency ELMs were synchronized to twice the applied RMP frequency. At low collisionality in DIII-D, the natural ELM frequency was high (~100 Hz). Full synchro- nization of the largest ELMs with twice the",
+          "f_elm_or_pacing_hz": 100.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "Fenstermacher IAEA FEC 2010 RMP overview PDF",
+          "tier": 0
+        },
+        {
+          "context": "igher toroidal mode numbers. The lower levels of rotation braking seen in the n=4 and 6 RMP permit a larger RMP field to be applied leading to higher ELM frequencies. The unmitigated ELM frequency is approximately 60 Hz. Application of either a static or a rotating n=3 RMP res",
+          "f_elm_or_pacing_hz": 60.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "Thornton rotating RMP ELM mitigation on MAST PDF",
+          "tier": 0
+        },
+        {
+          "context": "ccessful at producing motion of the strike point splitting. Application of the rotating RMP doubles the ELM frequency relative to 6 the unmitigated case, producing mitigated ELMs with a frequency of 120 Hz. The increase in the ELM frequency is limited by the size",
+          "f_elm_or_pacing_hz": 120.0,
+          "reason": "frequency near RMP text; no current parsed",
+          "source": "Thornton rotating RMP ELM mitigation on MAST PDF",
+          "tier": 0
+        }
+      ],
+      "tier_counts": {
+        "0": 8,
+        "1": 2,
+        "2": 1,
+        "3": 0
+      },
+      "tier_definitions": {
+        "0": "RMP/frequency text only",
+        "1": "coil current plus ELM/frequency text extracted",
+        "2": "coil current plus mode number or q-profile proxy extracted",
+        "3": "public equilibrium/coil geometry sufficient for true separatrix perturbation/helicity proxy"
+      },
+      "tier_quality_note": "Tier 2 requires current plus n/q hint; Tier 3 still requires public equilibrium/coil geometry and is not reached by text extraction."
+    },
+    "n_points": 3,
+    "pearson_current_vs_frequency": {
+      "n": 3,
+      "pvalue": 0.1310610517387178,
+      "r": 0.978883465889473
+    },
+    "points": [
+      {
+        "coil_current_kAt": 0.0,
+        "f_elm_hz": 55.0,
+        "n_rmp": 4,
+        "source_phrase": "broad extract"
+      },
+      {
+        "coil_current_kAt": 4.0,
+        "f_elm_hz": 130.0,
+        "n_rmp": 4,
+        "source_phrase": "broad extract"
+      },
+      {
+        "coil_current_kAt": 5.6,
+        "f_elm_hz": 290.0,
+        "n_rmp": 4,
+        "source_phrase": "broad extract"
+      }
+    ],
+    "proxy_definition": "|H_mag| proxy = max(I_RMP - I_threshold, 0) for fixed n=4 MAST configuration; this tests sign/linearity, not true helicity integral.",
+    "q_profile_independence_tested": false,
+    "status": "proxy_pass",
+    "threshold_kAt": 2.4
+  },
+  "downloaded_sources": [
+    {
+      "bytes": 204433,
+      "error": null,
+      "label": "DIII-D Leonard 2002 ELM energy scaling PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\DIII-D_Leonard_2002_ELM_energy_scaling_PDF.pdf",
+      "sha256": "b7fc9f42af53fea788acf08c98a63be90534cf5e042713c6fcb2ad70edb00d6d",
+      "url": "https://fusion.gat.com/pubs-ext/MISCONF01/A23798.pdf"
+    },
+    {
+      "bytes": 1811415,
+      "error": null,
+      "label": "DIII-D Knolker 2018 pedestal pressure collisionality PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\DIII-D_Knolker_2018_pedestal_pressure_collisionality_PDF.dat",
+      "sha256": "775c8b10fb608b5e0b355de8cd2765f8c6c2d94f1220b46446d62d9af8b1d86e",
+      "url": "https://pure.mpg.de/rest/items/item_2622196_4/component/file_3017099/content"
+    },
+    {
+      "bytes": 2493334,
+      "error": null,
+      "label": "MAST Kirk 2013 RMP coil current vs ELM frequency PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\MAST_Kirk_2013_RMP_coil_current_vs_ELM_frequency_PDF.pdf",
+      "sha256": "e352a5723b2409545580208a4f197f110c7ecc8d3c58c572178bca1ed0bbce5a",
+      "url": "https://scientific-publications.ukaea.uk/wp-content/uploads/Published/Miss46.pdf"
+    },
+    {
+      "bytes": 3527710,
+      "error": null,
+      "label": "MAST RMP review Chapman 2014 PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\MAST_RMP_review_Chapman_2014_PDF.pdf",
+      "sha256": "d28ac96964531b49dddf1065e748382482b5bb63dd641bccbfeca2dadd7f31ee",
+      "url": "https://pure.tue.nl/ws/files/3833222/448130749913207.pdf"
+    },
+    {
+      "bytes": 1065200,
+      "error": null,
+      "label": "Loarte ITPA Type-I ELM energy loss comparison PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\Loarte_ITPA_Type-I_ELM_energy_loss_comparison_PDF.pdf",
+      "sha256": "352a624e0453cdfcd7f28e25c4275e9095df2c2fdc8ce632a047cdfa9125e225",
+      "url": "https://scipub.euro-fusion.org/wp-content/uploads/2014/11/EFDP03032.pdf"
+    },
+    {
+      "bytes": 1867623,
+      "error": null,
+      "label": "Fenstermacher multi-tokamak RMP ELM-control overview PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\Fenstermacher_multi-tokamak_RMP_ELM-control_overview_PDF.pdf",
+      "sha256": "42b97f7718112c78504e0034ceb98e332720e48df8ac74f6a7d2e657dbf9b5a4",
+      "url": "https://scipub.euro-fusion.org/wp-content/uploads/2014/11/EFDC100831.pdf"
+    },
+    {
+      "bytes": 2040696,
+      "error": null,
+      "label": "Fenstermacher IAEA FEC 2010 RMP overview PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\Fenstermacher_IAEA_FEC_2010_RMP_overview_PDF.pdf",
+      "sha256": "05b3e4fd2fa5debab667e51a317961d19a7d7a6a9f74b42bd4e6c2f554a1f1d0",
+      "url": "https://www-pub.iaea.org/mtcd/meetings/PDFplus/2010/cn180/cn180_papers/itr_p1-30.pdf"
+    },
+    {
+      "bytes": 906661,
+      "error": null,
+      "label": "Thornton rotating RMP ELM mitigation on MAST PDF",
+      "ok": true,
+      "path": "fr3_fr6_cache\\Thornton_rotating_RMP_ELM_mitigation_on_MAST_PDF.pdf",
+      "sha256": "8c59c93932418cce6beb4247dbd7119a18a235948cdfdf4cde2fc480b9edb6fe",
+      "url": "https://scientific-publications.ukaea.uk/wp-content/uploads/Preprints/CCFE-PR15116.pdf"
+    }
+  ],
+  "generated_note": "All source artifacts are downloaded by this script. No manual files are used.",
+  "proxy_quality": {
+    "FR3": "strict but likely data-insufficient until a public CSV/Excel supplement is found",
+    "FR6": "sign-level applied-field proxy; true helicity integral requires public equilibrium/RMP coil geometry and q-profile reconstructions"
+  },
+  "test_name": "FR3/FR6 public literature proxy",
+  "warnings": []
+}

@@ -7,8 +7,16 @@
     "tauE": "TAUTH",
     "a": "AMIN",
     "device": "TOK",
-    "h_factor": "HIPB98Y2",
-    "independent_transport": null,
+    "h_factor_first": "H89",
+    "h_factor_all": [
+      "H89",
+      "HIPB98Y",
+      "HIPB98Y1",
+      "HIPB98Y2",
+      "HIPB98Y3",
+      "HIPB98Y4"
+    ],
+    "independent_transport_all": [],
     "R": "RGEO",
     "Ip": "IP",
     "Bt": "BT",
@@ -27,12 +35,18 @@
       -0.5189352059104599
     ]
   },
+  "permutation_mkss_proxy_vs_tauE_negative": {
+    "observed": -0.5343028322576271,
+    "p_value": 0.0033222591362126247,
+    "n_perm": 300,
+    "alternative": "less"
+  },
   "size_controlled_residual_spearman": -1.0,
   "size_controlled_note": "Do not interpret as independent evidence: log(M_proxy)=2log(a)-log(tau_E)-const, so residualization can create near-deterministic anticorrelation.",
   "hfactor_result": {
-    "column": "HIPB98Y2",
-    "n_used_raw": 11512,
-    "spearman_raw_hfactor_vs_tauE": -0.2270977415780276,
+    "column": "HIPB98Y1",
+    "n_used_raw": 10646,
+    "spearman_raw_hfactor_vs_tauE": -0.2671773656543489,
     "residual_check_available": true,
     "n_used_residual": 5398,
     "baseline_features": [
@@ -46,20 +60,659 @@
       "meff",
       "q95"
     ],
-    "spearman_hfactor_vs_residual_tauE": 0.7278800870712678,
+    "spearman_hfactor_vs_residual_tauE": 0.7596209571219013,
     "bootstrap_hfactor_vs_residual_tauE": {
-      "median": 0.7279095050672411,
+      "median": 0.760063363256362,
       "ci95": [
-        0.714089569886137,
-        0.7423795590411462
+        0.744715925656014,
+        0.7738852432376592
       ]
     },
-    "spearman_residual_hfactor_vs_residual_tauE": 0.8459715692610535,
+    "permutation_global_positive": {
+      "observed": 0.7596209571219013,
+      "p_value": 0.0033222591362126247,
+      "n_perm": 300,
+      "alternative": "greater"
+    },
+    "permutation_device_stratified_positive": {
+      "observed": 0.7596209571219013,
+      "p_value": 0.0033222591362126247,
+      "n_perm": 300,
+      "alternative": "greater"
+    },
+    "device_stratified_summary": {
+      "min_n_per_device": 40,
+      "n_devices_used": 9,
+      "weighted_mean_rho": 0.8643096850986728,
+      "median_rho": 0.9312153857084865,
+      "fraction_positive": 1.0,
+      "devices": [
+        {
+          "device": "TEXTOR",
+          "n": 1435,
+          "rho": 0.9180672866117638
+        },
+        {
+          "device": "ASDEX",
+          "n": 1260,
+          "rho": 0.7388276752025417
+        },
+        {
+          "device": "JFT2M",
+          "n": 795,
+          "rho": 0.7993363512809357
+        },
+        {
+          "device": "D3D",
+          "n": 661,
+          "rho": 0.9312153857084865
+        },
+        {
+          "device": "JT60U",
+          "n": 387,
+          "rho": 0.9429155336481149
+        },
+        {
+          "device": "PBXM",
+          "n": 264,
+          "rho": 0.9597169337883996
+        },
+        {
+          "device": "NSTX",
+          "n": 252,
+          "rho": 0.9684529339821216
+        },
+        {
+          "device": "PDX",
+          "n": 143,
+          "rho": 0.8602166865312121
+        },
+        {
+          "device": "TFTR",
+          "n": 104,
+          "rho": 0.9328436236914539
+        }
+      ]
+    },
+    "spearman_residual_hfactor_vs_residual_tauE": 0.845986415121377,
     "verdict": "support_like_hfactor_tracks_residual_confinement",
-    "interpretation": "Use residual check over raw H-vs-tau: positive means H-factor identifies confinement above baseline machine/operating scaling."
+    "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
   },
+  "hfactor_results": [
+    {
+      "column": "HIPB98Y1",
+      "n_used_raw": 10646,
+      "spearman_raw_hfactor_vs_tauE": -0.2671773656543489,
+      "residual_check_available": true,
+      "n_used_residual": 5398,
+      "baseline_features": [
+        "R",
+        "a",
+        "Ip",
+        "Bt",
+        "ne",
+        "power",
+        "kappa",
+        "meff",
+        "q95"
+      ],
+      "spearman_hfactor_vs_residual_tauE": 0.7596209571219013,
+      "bootstrap_hfactor_vs_residual_tauE": {
+        "median": 0.760063363256362,
+        "ci95": [
+          0.744715925656014,
+          0.7738852432376592
+        ]
+      },
+      "permutation_global_positive": {
+        "observed": 0.7596209571219013,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "permutation_device_stratified_positive": {
+        "observed": 0.7596209571219013,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "device_stratified_summary": {
+        "min_n_per_device": 40,
+        "n_devices_used": 9,
+        "weighted_mean_rho": 0.8643096850986728,
+        "median_rho": 0.9312153857084865,
+        "fraction_positive": 1.0,
+        "devices": [
+          {
+            "device": "TEXTOR",
+            "n": 1435,
+            "rho": 0.9180672866117638
+          },
+          {
+            "device": "ASDEX",
+            "n": 1260,
+            "rho": 0.7388276752025417
+          },
+          {
+            "device": "JFT2M",
+            "n": 795,
+            "rho": 0.7993363512809357
+          },
+          {
+            "device": "D3D",
+            "n": 661,
+            "rho": 0.9312153857084865
+          },
+          {
+            "device": "JT60U",
+            "n": 387,
+            "rho": 0.9429155336481149
+          },
+          {
+            "device": "PBXM",
+            "n": 264,
+            "rho": 0.9597169337883996
+          },
+          {
+            "device": "NSTX",
+            "n": 252,
+            "rho": 0.9684529339821216
+          },
+          {
+            "device": "PDX",
+            "n": 143,
+            "rho": 0.8602166865312121
+          },
+          {
+            "device": "TFTR",
+            "n": 104,
+            "rho": 0.9328436236914539
+          }
+        ]
+      },
+      "spearman_residual_hfactor_vs_residual_tauE": 0.845986415121377,
+      "verdict": "support_like_hfactor_tracks_residual_confinement",
+      "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
+    },
+    {
+      "column": "HIPB98Y2",
+      "n_used_raw": 11512,
+      "spearman_raw_hfactor_vs_tauE": -0.2270977415780276,
+      "residual_check_available": true,
+      "n_used_residual": 5398,
+      "baseline_features": [
+        "R",
+        "a",
+        "Ip",
+        "Bt",
+        "ne",
+        "power",
+        "kappa",
+        "meff",
+        "q95"
+      ],
+      "spearman_hfactor_vs_residual_tauE": 0.7278800870712678,
+      "bootstrap_hfactor_vs_residual_tauE": {
+        "median": 0.7279095050672411,
+        "ci95": [
+          0.714089569886137,
+          0.7423795590411462
+        ]
+      },
+      "permutation_global_positive": {
+        "observed": 0.7278800870712678,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "permutation_device_stratified_positive": {
+        "observed": 0.7278800870712678,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "device_stratified_summary": {
+        "min_n_per_device": 40,
+        "n_devices_used": 9,
+        "weighted_mean_rho": 0.8347876031810575,
+        "median_rho": 0.8823799782352129,
+        "fraction_positive": 1.0,
+        "devices": [
+          {
+            "device": "TEXTOR",
+            "n": 1435,
+            "rho": 0.8823799782352129
+          },
+          {
+            "device": "ASDEX",
+            "n": 1260,
+            "rho": 0.8344298323883207
+          },
+          {
+            "device": "JFT2M",
+            "n": 795,
+            "rho": 0.5915719196946071
+          },
+          {
+            "device": "D3D",
+            "n": 661,
+            "rho": 0.8945997446296818
+          },
+          {
+            "device": "JT60U",
+            "n": 387,
+            "rho": 0.8821362570491456
+          },
+          {
+            "device": "PBXM",
+            "n": 264,
+            "rho": 0.9294452935264782
+          },
+          {
+            "device": "NSTX",
+            "n": 252,
+            "rho": 0.959272265352293
+          },
+          {
+            "device": "PDX",
+            "n": 143,
+            "rho": 0.8531444711904638
+          },
+          {
+            "device": "TFTR",
+            "n": 104,
+            "rho": 0.9181303876011093
+          }
+        ]
+      },
+      "spearman_residual_hfactor_vs_residual_tauE": 0.8459715692610535,
+      "verdict": "support_like_hfactor_tracks_residual_confinement",
+      "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
+    },
+    {
+      "column": "HIPB98Y",
+      "n_used_raw": 10646,
+      "spearman_raw_hfactor_vs_tauE": -0.2229552997784575,
+      "residual_check_available": true,
+      "n_used_residual": 5398,
+      "baseline_features": [
+        "R",
+        "a",
+        "Ip",
+        "Bt",
+        "ne",
+        "power",
+        "kappa",
+        "meff",
+        "q95"
+      ],
+      "spearman_hfactor_vs_residual_tauE": 0.7175782505326435,
+      "bootstrap_hfactor_vs_residual_tauE": {
+        "median": 0.7177058701074182,
+        "ci95": [
+          0.7015574072996724,
+          0.7326402788413251
+        ]
+      },
+      "permutation_global_positive": {
+        "observed": 0.7175782505326435,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "permutation_device_stratified_positive": {
+        "observed": 0.7175782505326435,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "device_stratified_summary": {
+        "min_n_per_device": 40,
+        "n_devices_used": 9,
+        "weighted_mean_rho": 0.848325681176232,
+        "median_rho": 0.8913069676265012,
+        "fraction_positive": 1.0,
+        "devices": [
+          {
+            "device": "TEXTOR",
+            "n": 1435,
+            "rho": 0.8913069676265012
+          },
+          {
+            "device": "ASDEX",
+            "n": 1260,
+            "rho": 0.7253377795182654
+          },
+          {
+            "device": "JFT2M",
+            "n": 795,
+            "rho": 0.7825468401042494
+          },
+          {
+            "device": "D3D",
+            "n": 661,
+            "rho": 0.9313837074069443
+          },
+          {
+            "device": "JT60U",
+            "n": 387,
+            "rho": 0.9452403697046263
+          },
+          {
+            "device": "PBXM",
+            "n": 264,
+            "rho": 0.9512215284986848
+          },
+          {
+            "device": "NSTX",
+            "n": 252,
+            "rho": 0.9637152500481794
+          },
+          {
+            "device": "PDX",
+            "n": 143,
+            "rho": 0.8481268762690424
+          },
+          {
+            "device": "TFTR",
+            "n": 104,
+            "rho": 0.819087247897463
+          }
+        ]
+      },
+      "spearman_residual_hfactor_vs_residual_tauE": 0.8225956217213585,
+      "verdict": "support_like_hfactor_tracks_residual_confinement",
+      "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
+    },
+    {
+      "column": "HIPB98Y3",
+      "n_used_raw": 10646,
+      "spearman_raw_hfactor_vs_tauE": -0.21393808649925855,
+      "residual_check_available": true,
+      "n_used_residual": 5398,
+      "baseline_features": [
+        "R",
+        "a",
+        "Ip",
+        "Bt",
+        "ne",
+        "power",
+        "kappa",
+        "meff",
+        "q95"
+      ],
+      "spearman_hfactor_vs_residual_tauE": 0.7144119082343622,
+      "bootstrap_hfactor_vs_residual_tauE": {
+        "median": 0.714519574722986,
+        "ci95": [
+          0.6997247916027262,
+          0.730335490779659
+        ]
+      },
+      "permutation_global_positive": {
+        "observed": 0.7144119082343622,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "permutation_device_stratified_positive": {
+        "observed": 0.7144119082343622,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "device_stratified_summary": {
+        "min_n_per_device": 40,
+        "n_devices_used": 9,
+        "weighted_mean_rho": 0.8110503480652878,
+        "median_rho": 0.8599502196776807,
+        "fraction_positive": 1.0,
+        "devices": [
+          {
+            "device": "TEXTOR",
+            "n": 1435,
+            "rho": 0.8290555720669844
+          },
+          {
+            "device": "ASDEX",
+            "n": 1260,
+            "rho": 0.8365943320516932
+          },
+          {
+            "device": "JFT2M",
+            "n": 795,
+            "rho": 0.5692995610770807
+          },
+          {
+            "device": "D3D",
+            "n": 661,
+            "rho": 0.8529407682965189
+          },
+          {
+            "device": "JT60U",
+            "n": 387,
+            "rho": 0.8674949037457004
+          },
+          {
+            "device": "PBXM",
+            "n": 264,
+            "rho": 0.9223007340168836
+          },
+          {
+            "device": "NSTX",
+            "n": 252,
+            "rho": 0.9571058885107043
+          },
+          {
+            "device": "PDX",
+            "n": 143,
+            "rho": 0.8599502196776807
+          },
+          {
+            "device": "TFTR",
+            "n": 104,
+            "rho": 0.9213058177298702
+          }
+        ]
+      },
+      "spearman_residual_hfactor_vs_residual_tauE": 0.8460081872086556,
+      "verdict": "support_like_hfactor_tracks_residual_confinement",
+      "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
+    },
+    {
+      "column": "HIPB98Y4",
+      "n_used_raw": 10646,
+      "spearman_raw_hfactor_vs_tauE": -0.1777892078727113,
+      "residual_check_available": true,
+      "n_used_residual": 5398,
+      "baseline_features": [
+        "R",
+        "a",
+        "Ip",
+        "Bt",
+        "ne",
+        "power",
+        "kappa",
+        "meff",
+        "q95"
+      ],
+      "spearman_hfactor_vs_residual_tauE": 0.6871346547396606,
+      "bootstrap_hfactor_vs_residual_tauE": {
+        "median": 0.6871712079959507,
+        "ci95": [
+          0.669080845591893,
+          0.7026030535149123
+        ]
+      },
+      "permutation_global_positive": {
+        "observed": 0.6871346547396606,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "permutation_device_stratified_positive": {
+        "observed": 0.6871346547396606,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "device_stratified_summary": {
+        "min_n_per_device": 40,
+        "n_devices_used": 9,
+        "weighted_mean_rho": 0.8349219542624358,
+        "median_rho": 0.8930994336230383,
+        "fraction_positive": 1.0,
+        "devices": [
+          {
+            "device": "TEXTOR",
+            "n": 1435,
+            "rho": 0.9046521447481476
+          },
+          {
+            "device": "ASDEX",
+            "n": 1260,
+            "rho": 0.8487241415917074
+          },
+          {
+            "device": "JFT2M",
+            "n": 795,
+            "rho": 0.5447358437830598
+          },
+          {
+            "device": "D3D",
+            "n": 661,
+            "rho": 0.8930994336230383
+          },
+          {
+            "device": "JT60U",
+            "n": 387,
+            "rho": 0.8645147906281094
+          },
+          {
+            "device": "PBXM",
+            "n": 264,
+            "rho": 0.9175615902941847
+          },
+          {
+            "device": "NSTX",
+            "n": 252,
+            "rho": 0.9553024491531336
+          },
+          {
+            "device": "PDX",
+            "n": 143,
+            "rho": 0.8476689785650982
+          },
+          {
+            "device": "TFTR",
+            "n": 104,
+            "rho": 0.9249321832839023
+          }
+        ]
+      },
+      "spearman_residual_hfactor_vs_residual_tauE": 0.846021958410909,
+      "verdict": "support_like_hfactor_tracks_residual_confinement",
+      "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
+    },
+    {
+      "column": "H89",
+      "n_used_raw": 10586,
+      "spearman_raw_hfactor_vs_tauE": 0.1479413570128609,
+      "residual_check_available": true,
+      "n_used_residual": 5353,
+      "baseline_features": [
+        "R",
+        "a",
+        "Ip",
+        "Bt",
+        "ne",
+        "power",
+        "kappa",
+        "meff",
+        "q95"
+      ],
+      "spearman_hfactor_vs_residual_tauE": 0.5618980531812757,
+      "bootstrap_hfactor_vs_residual_tauE": {
+        "median": 0.5622572393327723,
+        "ci95": [
+          0.5404930079250013,
+          0.5839090170670882
+        ]
+      },
+      "permutation_global_positive": {
+        "observed": 0.5618980531812757,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "permutation_device_stratified_positive": {
+        "observed": 0.5618980531812757,
+        "p_value": 0.0033222591362126247,
+        "n_perm": 300,
+        "alternative": "greater"
+      },
+      "device_stratified_summary": {
+        "min_n_per_device": 40,
+        "n_devices_used": 9,
+        "weighted_mean_rho": 0.7025691232805831,
+        "median_rho": 0.6934596376216573,
+        "fraction_positive": 1.0,
+        "devices": [
+          {
+            "device": "TEXTOR",
+            "n": 1435,
+            "rho": 0.8533800642080045
+          },
+          {
+            "device": "ASDEX",
+            "n": 1260,
+            "rho": 0.6934596376216573
+          },
+          {
+            "device": "JFT2M",
+            "n": 795,
+            "rho": 0.3308112505617679
+          },
+          {
+            "device": "D3D",
+            "n": 661,
+            "rho": 0.8744539516957031
+          },
+          {
+            "device": "JT60U",
+            "n": 342,
+            "rho": 0.5737020449261884
+          },
+          {
+            "device": "PBXM",
+            "n": 264,
+            "rho": 0.8751088354008174
+          },
+          {
+            "device": "NSTX",
+            "n": 252,
+            "rho": 0.8168920403460506
+          },
+          {
+            "device": "PDX",
+            "n": 143,
+            "rho": 0.5053454320148509
+          },
+          {
+            "device": "TFTR",
+            "n": 104,
+            "rho": 0.46133410863080965
+          }
+        ]
+      },
+      "spearman_residual_hfactor_vs_residual_tauE": 0.6913451111466852,
+      "verdict": "support_like_hfactor_tracks_residual_confinement",
+      "interpretation": "Positive means H-factor identifies confinement above baseline machine/operating scaling; still a proxy, not direct eta/s."
+    }
+  ],
   "independent_transport_result": null,
+  "independent_transport_results": [],
   "verdict": "support_like_residual_hfactor_plus_mechanical_mkss",
-  "confirmation_level": "moderate proxy support; H-factor tracks residual tau_E after baseline controls, but no direct eta/s column",
-  "caveat": "A decisive FR7 public test needs an M_KSS/edge-transport proxy not algebraically built from tau_E, or published eta/s/chi_edge columns. Improved H-factor residual check reduces, but does not remove, proxy limitations."
+  "confirmation_level": "moderate proxy support; H-factor tracks residual tau_E after baseline controls and device-stratified/null checks where available, but no direct eta/s column",
+  "caveat": "A decisive FR7 public test needs an M_KSS/edge-transport proxy not algebraically built from tau_E, or published eta/s/chi_edge columns. H-factor residual tests reduce confounding but remain proxy evidence."
 }
