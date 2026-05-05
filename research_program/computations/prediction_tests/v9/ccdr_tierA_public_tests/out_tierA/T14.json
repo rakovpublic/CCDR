@@ -1,0 +1,103 @@
+{
+  "data_sources": [
+    {
+      "file": "Rotmod_LTG.zip",
+      "ok": true,
+      "path": ".cache\\zenodo_16284118\\Rotmod_LTG.zip",
+      "record_id": "16284118",
+      "size": 110737,
+      "url": "https://zenodo.org/api/records/16284118/files/Rotmod_LTG.zip/content"
+    },
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\share-offsite",
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\compose",
+      "url": "https://bsky.app/intent/compose?text=Max+Planck+Institute+for+extraterrestrial+Physics+-+Data+Download+https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data#top"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data-protection",
+      "url": "https://www.mpe.mpg.de/data-protection"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data?print=yes"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\Data",
+      "url": "https://mpe.iedit.mpg.de/7107411/Data"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data.html",
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\kross_release_v2.fits",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Diagnose standalone MOND-sequence instability by comparing SPARC-only, high-z-only, and joint proxy \u03bd estimates.",
+  "falsification_logic": {
+    "confirm_like": "standalone instability is traceable to high-z proxy mapping, while joint estimate remains finite",
+    "falsify_like": "no stable joint or standalone \u03bd-like extraction is possible"
+  },
+  "generated_utc": "2026-04-28T18:33:01Z",
+  "metrics": {
+    "highz_summary": null,
+    "sparc_all": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.011849399875307004,
+      "n_galaxies_used": 175,
+      "n_points": 3389,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.1952710356785446
+    },
+    "sparc_first50": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.020469872006323345,
+      "n_galaxies_used": 50,
+      "n_points": 947,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.23418159258501497
+    },
+    "sparc_subset_ratio": 1.0
+  },
+  "notes": [],
+  "prediction_ids": [
+    "OP11",
+    "P36"
+  ],
+  "status": "null",
+  "test_id": "T14",
+  "warnings": []
+}

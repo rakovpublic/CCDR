@@ -1,0 +1,42 @@
+{
+  "data_sources": [
+    {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bicepkeck.org'. (_ssl.c:1032)>",
+      "ok": false,
+      "url": "https://bicepkeck.org/BK18_datarelease/BK18_bandpowers_20210607.txt"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/BICEP_BK/bk18/bk18_bandpowers_20210607.txt"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "url": "https://lambda.gsfc.nasa.gov/product/bicepkeck/bk18_bandpowers_20210607.txt"
+    },
+    {
+      "n_links": 25,
+      "ok": true,
+      "url": "https://data.cmb-s4.org/"
+    }
+  ],
+  "description": "Screen public B-mode bandpower/forecast tables for low-l residual room for a bulk-Weyl component.",
+  "falsification_logic": {
+    "confirm_like": "low-l BB residual room is compatible with P40-shaped contribution",
+    "falsify_like": "published BB limits exclude predicted amplitude/shape"
+  },
+  "generated_utc": "2026-04-28T19:19:29Z",
+  "metrics": {
+    "bandpower_tables_used": [],
+    "note": "Forecast/public bandpower screen only; no map-level B-mode analysis."
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P40",
+    "CL5"
+  ],
+  "status": "data_limited",
+  "test_id": "T23",
+  "warnings": []
+}

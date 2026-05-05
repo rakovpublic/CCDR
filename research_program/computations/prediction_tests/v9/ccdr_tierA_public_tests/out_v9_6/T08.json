@@ -1,0 +1,83 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_0.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/440/2562&-out.all&-out.max=50000"
+    },
+    {
+      "error": "downloaded_but_unparsed_or_too_few_rows",
+      "ok": false,
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/440/2562&-out.all&-out.max=50000"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_1.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    }
+  ],
+  "description": "Attempt independent filament-orientation replication using public filament catalogues discoverable from CDS/VizieR pages.",
+  "falsification_logic": {
+    "confirm_like": "independent public filament catalogue shows positive orientation correlation",
+    "falsify_like": "orientation statistic is null/opposite in independent catalogue"
+  },
+  "generated_utc": "2026-05-02T23:10:17Z",
+  "metrics": {
+    "filament_catalogue_result": {
+      "angle_mode": "catalogue_endpoint_angle",
+      "coordinate_parse": {
+        "mode": "alias"
+      },
+      "corr": [
+        {
+          "bin_hi_deg": 0.2,
+          "bin_lo_deg": 0.0,
+          "corr": 1.0,
+          "n_pairs": 7144
+        },
+        {
+          "bin_hi_deg": 0.5,
+          "bin_lo_deg": 0.2,
+          "corr": 1.0,
+          "n_pairs": 17717
+        },
+        {
+          "bin_hi_deg": 1.0,
+          "bin_lo_deg": 0.5,
+          "corr": 1.0,
+          "n_pairs": 26395
+        },
+        {
+          "bin_hi_deg": 2.0,
+          "bin_lo_deg": 1.0,
+          "corr": 1.0,
+          "n_pairs": 20082
+        },
+        {
+          "bin_hi_deg": 5.0,
+          "bin_lo_deg": 2.0,
+          "corr": 1.0,
+          "n_pairs": 10427
+        },
+        {
+          "bin_hi_deg": 10.0,
+          "bin_lo_deg": 5.0,
+          "corr": 1.0,
+          "n_pairs": 4406
+        }
+      ],
+      "dec_col": "DEJ2000",
+      "n": 14854,
+      "ra_col": "RAJ2000",
+      "source": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    },
+    "mean_corr": 1.0
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3"
+  ],
+  "status": "suggestive",
+  "test_id": "T08",
+  "warnings": []
+}

@@ -1,0 +1,1835 @@
+{
+  "analysis_note": "Strict v3 public-data probe. Generic article/PDF/HTML term-number extraction is disabled. A result becomes partial/ok only if a direct public structured table has named physical columns required by the test; otherwise data_limited.",
+  "candidate_works_count": 100,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 7329,
+      "doi": "https://doi.org/10.1186/s40537-021-00444-8",
+      "id": "https://openalex.org/W3140854437",
+      "landing_page_url": "https://doi.org/10.1186/s40537-021-00444-8",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8"
+      },
+      "pdf_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8",
+      "primary_location": {
+        "id": "doi:10.1186/s40537-021-00444-8",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1186/s40537-021-00444-8",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8",
+        "raw_source_name": "Journal of Big Data",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Journal Of Big Data",
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Springer Science+Business Media",
+          "id": "https://openalex.org/S2737955091",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2196-1115"
+          ],
+          "issn_l": "2196-1115",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "type": "article",
+      "year": 2021
+    },
+    {
+      "cited_by_count": 593,
+      "doi": "https://doi.org/10.1109/jproc.2021.3067593",
+      "id": "https://openalex.org/W3139657805",
+      "landing_page_url": "https://doi.org/10.1109/jproc.2021.3067593",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://ieeexplore.ieee.org/ielx7/5/9420072/09395703.pdf"
+      },
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/5/9420072/09395703.pdf",
+      "primary_location": {
+        "id": "doi:10.1109/jproc.2021.3067593",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/jproc.2021.3067593",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/5/9420072/09395703.pdf",
+        "raw_source_name": "Proceedings of the IEEE",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Proceedings of the IEEE",
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "id": "https://openalex.org/S68686220",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0018-9219",
+            "1558-2256"
+          ],
+          "issn_l": "0018-9219",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook",
+      "type": "article",
+      "year": 2021
+    },
+    {
+      "cited_by_count": 845,
+      "doi": "https://doi.org/10.1007/s10462-018-09679-z",
+      "id": "https://openalex.org/W2910096450",
+      "landing_page_url": "https://doi.org/10.1007/s10462-018-09679-z",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10462-018-09679-z.pdf"
+      },
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-018-09679-z.pdf",
+      "primary_location": {
+        "id": "doi:10.1007/s10462-018-09679-z",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1007/s10462-018-09679-z",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-018-09679-z.pdf",
+        "raw_source_name": "Artificial Intelligence Review",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Artificial Intelligence Review",
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Springer Science+Business Media",
+          "id": "https://openalex.org/S122814990",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0269-2821",
+            "1573-7462"
+          ],
+          "issn_l": "0269-2821",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Machine Learning and Deep Learning frameworks and libraries for large-scale data mining: a survey",
+      "type": "article",
+      "year": 2019
+    },
+    {
+      "cited_by_count": 536,
+      "doi": "https://doi.org/10.1109/iccv48922.2021.00266",
+      "id": "https://openalex.org/W3102040318",
+      "landing_page_url": "https://doi.org/10.1109/iccv48922.2021.00266",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2007.05785"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1109/iccv48922.2021.00266",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/iccv48922.2021.00266",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "raw_type": "proceedings-article",
+        "source": {
+          "display_name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4363607764",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "type": "conference"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks",
+      "type": "article",
+      "year": 2021
+    },
+    {
+      "cited_by_count": 638,
+      "doi": "https://doi.org/10.1109/jproc.2023.3308088",
+      "id": "https://openalex.org/W3201870057",
+      "landing_page_url": "https://doi.org/10.1109/jproc.2023.3308088",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://ieeexplore.ieee.org/ielx7/5/4357935/10242251.pdf"
+      },
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/5/4357935/10242251.pdf",
+      "primary_location": {
+        "id": "doi:10.1109/jproc.2023.3308088",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/jproc.2023.3308088",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/5/4357935/10242251.pdf",
+        "raw_source_name": "Proceedings of the IEEE",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Proceedings of the IEEE",
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "id": "https://openalex.org/S68686220",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0018-9219",
+            "1558-2256"
+          ],
+          "issn_l": "0018-9219",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Training Spiking Neural Networks Using Lessons From Deep Learning",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 1035,
+      "doi": "https://doi.org/10.1145/2893356",
+      "id": "https://openalex.org/W2265166184",
+      "landing_page_url": "https://doi.org/10.1145/2893356",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.osti.gov/servlets/purl/1286958"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1145/2893356",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/2893356",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "ACM Computing Surveys",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "ACM Computing Surveys",
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "host_organization_name": "Association for Computing Machinery",
+          "id": "https://openalex.org/S157921468",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0360-0300",
+            "1557-7341"
+          ],
+          "issn_l": "0360-0300",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "A Survey of Techniques for Approximate Computing",
+      "type": "review",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 912,
+      "doi": "https://doi.org/10.1109/tsipn.2015.2448520",
+      "id": "https://openalex.org/W1904504745",
+      "landing_page_url": "https://doi.org/10.1109/tsipn.2015.2448520",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/1412.8416"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1109/tsipn.2015.2448520",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/tsipn.2015.2448520",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "IEEE Transactions on Signal and Information Processing over Networks",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "IEEE Transactions on Signal and Information Processing over Networks",
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "id": "https://openalex.org/S4306422866",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "2373-776X",
+            "2373-7778"
+          ],
+          "issn_l": "2373-776X",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+      "type": "article",
+      "year": 2015
+    },
+    {
+      "cited_by_count": 713,
+      "doi": "https://doi.org/10.1109/jsac.2021.3126076",
+      "id": "https://openalex.org/W3212941463",
+      "landing_page_url": "https://doi.org/10.1109/jsac.2021.3126076",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://ieeexplore.ieee.org/ielx7/49/9653871/09606720.pdf"
+      },
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/49/9653871/09606720.pdf",
+      "primary_location": {
+        "id": "doi:10.1109/jsac.2021.3126076",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/jsac.2021.3126076",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/49/9653871/09606720.pdf",
+        "raw_source_name": "IEEE Journal on Selected Areas in Communications",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "IEEE Journal on Selected Areas in Communications",
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "id": "https://openalex.org/S90422530",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0733-8716",
+            "1558-0008"
+          ],
+          "issn_l": "0733-8716",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Edge Artificial Intelligence for 6G: Vision, Enabling Technologies, and Applications",
+      "type": "article",
+      "year": 2021
+    },
+    {
+      "cited_by_count": 397,
+      "doi": "https://doi.org/10.1145/3242897",
+      "id": "https://openalex.org/W2891946740",
+      "landing_page_url": "https://doi.org/10.1145/3242897",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3242897"
+      },
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3242897",
+      "primary_location": {
+        "id": "doi:10.1145/3242897",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3242897",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3242897",
+        "raw_source_name": "ACM Transactions on Reconfigurable Technology and Systems",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "ACM Transactions on Reconfigurable Technology and Systems",
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "host_organization_name": "Association for Computing Machinery",
+          "id": "https://openalex.org/S112809824",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1936-7406",
+            "1936-7414"
+          ],
+          "issn_l": "1936-7406",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "FINN- <i>R</i>",
+      "type": "article",
+      "year": 2018
+    },
+    {
+      "cited_by_count": 381,
+      "doi": "https://doi.org/10.1016/j.neucom.2016.06.014",
+      "id": "https://openalex.org/W2411786938",
+      "landing_page_url": "https://doi.org/10.1016/j.neucom.2016.06.014",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://digibug.ugr.es/bitstream/10481/96430/1/NeuralNetworks_Overview_2016.pdf"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1016/j.neucom.2016.06.014",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1016/j.neucom.2016.06.014",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Neurocomputing",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Neurocomputing",
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "host_organization_name": "Elsevier BV",
+          "id": "https://openalex.org/S45693802",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0925-2312",
+            "1872-8286"
+          ],
+          "issn_l": "0925-2312",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Neural networks: An overview of early research, current frameworks and new challenges",
+      "type": "article",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 714,
+      "doi": "https://doi.org/10.1109/tnsre.2019.2896269",
+      "id": "https://openalex.org/W2962879438",
+      "landing_page_url": "https://doi.org/10.1109/tnsre.2019.2896269",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.duo.uio.no/bitstream/10852/73434/1/2019_02_05.pdf"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1109/tnsre.2019.2896269",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/tnsre.2019.2896269",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "id": "https://openalex.org/S98183460",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": false,
+          "issn": [
+            "1534-4320",
+            "1558-0210"
+          ],
+          "issn_l": "1534-4320",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning",
+      "type": "article",
+      "year": 2019
+    },
+    {
+      "cited_by_count": 552,
+      "doi": "https://doi.org/10.1109/tpami.2022.3183112",
+      "id": "https://openalex.org/W4282981352",
+      "landing_page_url": "https://doi.org/10.1109/tpami.2022.3183112",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2012.11866"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1109/tpami.2022.3183112",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/tpami.2022.3183112",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "IEEE Computer Society",
+          "id": "https://openalex.org/S199944782",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0162-8828",
+            "1939-3539",
+            "2160-9292"
+          ],
+          "issn_l": "0162-8828",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Human Action Recognition From Various Data Modalities: A Review",
+      "type": "review",
+      "year": 2022
+    }
+  ],
+  "discovered_data_links_sample": [
+    "https://doi.org/journal/40537",
+    "https://doi.org/article/10.1186/s40537-021-00444-8#Sec64",
+    "https://doi.org/article/10.1186/s40537-021-00444-8/tables/1",
+    "https://doi.org/article/10.1186/s40537-021-00444-8/tables/2",
+    "https://doi.org/article/10.1186/s40537-021-00444-8/tables/3",
+    "https://doi.org/article/10.1186/s40537-021-00444-8/tables/4",
+    "https://doi.org/article/10.1186/s40537-021-00444-8/tables/5",
+    "http://scholar.google.com/scholar_lookup?&title=Application%20of%20big%20data%20and%20machine%20learning%20in%20smart%20grid%2C%20and%20associated%20security%20concerns%3A%20a%20review&journal=IEEE%20Access&doi=10.1109%2FACCESS.2019.2894819&volume=7&pages=13960-13988&publication_year=2019&author=Hossain%2CE&author=Khan%2CI&author=Un-Noor%2CF&author=Sikander%2CSS&author=Sunny%2CMSH",
+    "http://scholar.google.com/scholar_lookup?&title=Survey%20of%20review%20spam%20detection%20using%20machine%20learning%20techniques&journal=J%20Big%20Data&doi=10.1186%2Fs40537-015-0029-9&volume=2&issue=1&publication_year=2015&author=Crawford%2CM&author=Khoshgoftaar%2CTM&author=Prusa%2CJD&author=Richter%2CAN&author=Al%2CNajada%20H",
+    "http://scholar.google.com/scholar_lookup?&title=Content-based%20video%20recommendation%20system%20based%20on%20stylistic%20visual%20features&journal=J%20Data%20Semant&doi=10.1007%2Fs13740-016-0060-9&volume=5&issue=2&pages=99-113&publication_year=2016&author=Deldjoo%2CY&author=Elahi%2CM&author=Cremonesi%2CP&author=Garzotto%2CF&author=Piazzolla%2CP&author=Quadrana%2CM",
+    "http://scholar.google.com/scholar_lookup?&title=Evolutionary%20programming%20based%20deep%20learning%20feature%20selection%20and%20network%20construction%20for%20visual%20data%20classification&journal=Inf%20Syst%20Front&doi=10.1007%2Fs10796-020-10023-6&volume=22&issue=5&pages=1053-1066&publication_year=2020&author=Tian%2CH&author=Chen%2CSC&author=Shyu%2CML",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20learning%20for%20small%20and%20big%20data%20in%20psychiatry&journal=Neuropsychopharmacology&doi=10.1038%2Fs41386-020-0767-z&volume=46&issue=1&pages=176-190&publication_year=2021&author=Koppe%2CG&author=Meyer-Lindenberg%2CA&author=Durstewitz%2CD",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20learning%20on%20graphs%3A%20a%20survey&journal=IEEE%20Trans%20Knowl%20Data%20Eng&doi=10.1109%2FTKDE.2020.2981333&publication_year=2020&author=Zhang%2CZ&author=Cui%2CP&author=Zhu%2CW",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20learning%20applications%20and%20challenges%20in%20big%20data%20analytics&journal=J%20Big%20Data&doi=10.1186%2Fs40537-014-0007-7&volume=2&issue=1&publication_year=2015&author=Najafabadi%2CMM&author=Villanustre%2CF&author=Khoshgoftaar%2CTM&author=Seliya%2CN&author=Wald%2CR&author=Muharemagic%2CE",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20learning%20applications%20for%20COVID-19&journal=J%20Big%20Data&doi=10.1186%2Fs40537-020-00392-9&volume=8&issue=1&pages=1-54&publication_year=2021&author=Shorten%2CC&author=Khoshgoftaar%2CTM&author=Furht%2CB",
+    "http://scholar.google.com/scholar_lookup?&title=Identifying%20medical%20diagnoses%20and%20treatable%20diseases%20by%20image-based%20deep%20learning&journal=Cell&doi=10.1016%2Fj.cell.2018.02.010&volume=172&issue=5&pages=1122-1131&publication_year=2018&author=Kermany%2CDS&author=Goldbaum%2CM&author=Cai%2CW&author=Valentim%2CCC&author=Liang%2CH&author=Baxter%2CSL&author=McKeown%2CA&author=Yang%2CG&author=Wu%2CX&author=Yan%2CF",
+    "http://scholar.google.com/scholar_lookup?&title=Big%20data%20clustering%20techniques%20based%20on%20spark%3A%20a%20literature%20review&journal=PeerJ%20Comput%20Sci&doi=10.7717%2Fpeerj-cs.321&volume=6&publication_year=2020&author=Saeed%2CMM&author=Al%20Aghbari%2CZ&author=Alsharidah%2CM",
+    "http://scholar.google.com/scholar_lookup?&title=Lightweight%20and%20resource-constrained%20learning%20network%20for%20face%20recognition%20with%20performance%20optimization&journal=Sensors&doi=10.3390%2Fs20216114&volume=20&issue=21&publication_year=2020&author=Li%2CHC&author=Deng%2CZY&author=Chiang%2CHH",
+    "https://doi.org/10.1109%2FTCSVT.2019.2935128",
+    "http://scholar.google.com/scholar_lookup?&title=Data%20augmentation%20using%20random%20image%20cropping%20and%20patching%20for%20deep%20cnns&journal=IEEE%20Trans%20Circuits%20Syst%20Video%20Technol&doi=10.1109%2FTCSVT.2019.2935128&volume=30&issue=9&pages=2917-2931&publication_year=2019&author=Takahashi%2CR&author=Matsubara%2CT&author=Uehara%2CK",
+    "http://scholar.google.com/scholar_lookup?&title=A%20survey%20of%20transfer%20learning&journal=J%20Big%20Data&doi=10.1186%2Fs40537-016-0043-6&volume=3&issue=1&publication_year=2016&author=Weiss%2CK&author=Khoshgoftaar%2CTM&author=Wang%2CD",
+    "http://scholar.google.com/scholar_lookup?&title=A%20survey%20on%20image%20data%20augmentation%20for%20deep%20learning&journal=J%20Big%20Data&doi=10.1186%2Fs40537-019-0197-0&volume=6&issue=1&publication_year=2019&author=Shorten%2CC&author=Khoshgoftaar%2CTM",
+    "http://scholar.google.com/scholar_lookup?&title=A%20survey%20of%20transfer%20learning%20for%20collaborative%20recommendation%20with%20auxiliary%20data&journal=Neurocomputing&doi=10.1016%2Fj.neucom.2015.11.059&volume=177&pages=447-453&publication_year=2016&author=Pan%2CW",
+    "http://scholar.google.com/scholar_lookup?&title=Early%20disease%20classification%20of%20mango%20leaves%20using%20feed-forward%20neural%20network%20and%20hybrid%20metaheuristic%20feature%20selection&journal=IEEE%20Access&doi=10.1109%2FACCESS.2020.3031914&volume=8&pages=189960-189973&publication_year=2020&author=Pham%2CTN&author=Tran%2CL&author=Dao%2CSVT",
+    "http://scholar.google.com/scholar_lookup?&title=Analysis%20and%20best%20parameters%20selection%20for%20person%20recognition%20based%20on%20gait%20model%20using%20CNN%20algorithm%20and%20image%20augmentation&journal=J%20Big%20Data&doi=10.1186%2Fs40537-020-00387-6&volume=8&issue=1&pages=1-20&publication_year=2021&author=Saleh%2CAM&author=Hamoud%2CT",
+    "http://scholar.google.com/scholar_lookup?&title=Effects%20of%20data%20count%20and%20image%20scaling%20on%20deep%20learning%20training&journal=PeerJ%20Comput%20Sci&doi=10.7717%2Fpeerj-cs.312&volume=6&publication_year=2020&author=Hirahara%2CD&author=Takaya%2CE&author=Takahara%2CT&author=Ueda%2CT",
+    "http://scholar.google.com/scholar_lookup?&title=Survey%20on%20deep%20learning%20with%20class%20imbalance&journal=J%20Big%20Data&doi=10.1186%2Fs40537-019-0192-5&volume=6&issue=1&publication_year=2019&author=Johnson%2CJM&author=Khoshgoftaar%2CTM",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20learning%20in%20bioinformatics%3A%20introduction%2C%20application%2C%20and%20perspective%20in%20the%20big%20data%20era&journal=Methods&doi=10.1016%2Fj.ymeth.2019.04.008&volume=166&pages=4-21&publication_year=2019&author=Li%2CY&author=Huang%2CC&author=Ding%2CL&author=Li%2CZ&author=Pan%2CY&author=Gao%2CX",
+    "http://scholar.google.com/scholar_lookup?&title=Retain%3A%20An%20interpretable%20predictive%20model%20for%20healthcare%20using%20reverse%20time%20attention%20mechanism&pages=3504-3512&publication_year=2016&author=Choi%2CE&author=Bahadori%2CMT&author=Sun%2CJ&author=Kulas%2CJ&author=Schuetz%2CA&author=Stewart%2CW",
+    "http://scholar.google.com/scholar_lookup?&title=Interpretable%20deep%20learning%20for%20guided%20microstructure-property%20explorations%20in%20photovoltaics&journal=NPJ%20Comput%20Mater&doi=10.1038%2Fs41524-019-0231-y&volume=5&issue=1&pages=1-11&publication_year=2019&author=Pokuri%2CBSS&author=Ghosal%2CS&author=Kokate%2CA&author=Sarkar%2CS&author=Ganapathysubramanian%2CB",
+    "http://scholar.google.com/scholar_lookup?&title=An%20interpretable%20deep-learning%20architecture%20of%20capsule%20networks%20for%20identifying%20cell-type%20gene%20expression%20programs%20from%20single-cell%20RNA-sequencing%20data&journal=Nat%20Mach%20Intell&doi=10.1038%2Fs42256-020-00244-4&volume=2&issue=11&pages=1-11&publication_year=2020&author=Wang%2CL&author=Nie%2CR&author=Yu%2CZ&author=Xin%2CR&author=Zheng%2CC&author=Zhang%2CZ&author=Zhang%2CJ&author=Cai%2CJ",
+    "http://scholar.google.com/scholar_lookup?&title=Concurrence%20of%20big%20data%20analytics%20and%20healthcare%3A%20a%20systematic%20review&journal=Int%20J%20Med%20Inform&doi=10.1016%2Fj.ijmedinf.2018.03.013&volume=114&pages=57-65&publication_year=2018&author=Mehta%2CN&author=Pandit%2CA",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20convolutional%20neural%20networks%20and%20data%20augmentation%20for%20environmental%20sound%20classification&journal=IEEE%20Signal%20Process%20Lett&doi=10.1109%2FLSP.2017.2657381&volume=24&issue=3&pages=279-283&publication_year=2017&author=Salamon%2CJ&author=Bello%2CJP",
+    "http://scholar.google.com/scholar_lookup?&title=Alzheimer%E2%80%99s%20disease%20diagnostics%20by%20a%203d%20deeply%20supervised%20adaptable%20convolutional%20network&journal=Front%20Biosci&doi=10.2741%2F4606&volume=23&pages=584-596&publication_year=2018&author=Hosseini-Asl%2CE&author=Ghazal%2CM&author=Mahmoud%2CA&author=Aslantas%2CA&author=Shalaby%2CA&author=Casanova%2CM&author=Barnes%2CG&author=Gimel%E2%80%99farb%2CG&author=Keynton%2CR&author=El-Baz%2CA",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20convolutional%20neural%20network%20based%20medical%20image%20classification%20for%20disease%20diagnosis&journal=J%20Big%20Data&doi=10.1186%2Fs40537-019-0276-2&volume=6&issue=1&publication_year=2019&author=Yadav%2CSS&author=Jadhav%2CSM",
+    "http://scholar.google.com/scholar_lookup?&title=Deep%20neural%20network%20ensemble%20for%20pneumonia%20localization%20from%20a%20large-scale%20chest%20X-ray%20database&journal=Comput%20Electr%20Eng&doi=10.1016%2Fj.compeleceng.2019.08.004&volume=78&pages=388-399&publication_year=2019&author=Sirazitdinov%2CI&author=Kholiavchenko%2CM&author=Mustafaev%2CT&author=Yixuan%2CY&author=Kuleev%2CR&author=Ibragimov%2CB",
+    "http://scholar.google.com/scholar_lookup?&title=Stacked%20autoencoders%20for%20unsupervised%20feature%20learning%20and%20multiple%20organ%20detection%20in%20a%20pilot%20study%20using%204D%20patient%20data&journal=IEEE%20Trans%20Pattern%20Anal%20Mach%20Intell&doi=10.1109%2FTPAMI.2012.277&volume=35&issue=8&pages=1930-1943&publication_year=2012&author=Shin%2CHC&author=Orton%2CMR&author=Collins%2CDJ&author=Doran%2CSJ&author=Leach%2CMO",
+    "http://scholar.google.com/scholar_lookup?&title=Review%20fair%20comparison%20of%20skin%20detection%20approaches%20on%20publicly%20available%20datasets&journal=Expert%20Syst%20Appl&doi=10.1016%2Fj.eswa.2020.113677&publication_year=2020&author=Lumini%2CA&author=Nanni%2CL",
+    "http://scholar.google.com/scholar_lookup?&title=Review%20of%20artificial%20intelligence%20techniques%20in%20imaging%20data%20acquisition%2C%20segmentation%20and%20diagnosis%20for%20COVID-19&journal=IEEE%20Rev%20Biomed%20Eng&doi=10.1109%2FRBME.2020.2987975&volume=14&pages=4-5&publication_year=2020&author=Shi%2CF&author=Wang%2CJ&author=Shi%2CJ&author=Wu%2CZ&author=Wang%2CQ&author=Tang%2CZ&author=He%2CK&author=Shi%2CY&author=Shen%2CD",
+    "http://scholar.google.com/scholar_lookup?&title=A%20review%20on%20evaluation%20metrics%20for%20data%20classification%20evaluations&journal=Int%20J%20Data%20Min%20Knowl%20Manag%20Process&doi=10.5121%2Fijdkp.2015.5201&volume=5&issue=2&publication_year=2015&author=Hossin%2CM&author=Sulaiman%2CM",
+    "http://scholar.google.com/scholar_lookup?&title=Using%20AUC%20and%20accuracy%20in%20evaluating%20learning%20algorithms&journal=IEEE%20Trans%20Knowl%20Data%20Eng&doi=10.1109%2FTKDE.2005.50&volume=17&issue=3&pages=299-310&publication_year=2005&author=Huang%2CJ&author=Ling%2CCX",
+    "https://authorservices.springernature.com/go/sn/?utm_source=SNLinkfooter&utm_medium=Web&utm_campaign=SNReferral",
+    "https://doi.org/rest/api/hpdata",
+    "https://doi.org/subjects/big-data",
+    "https://doi.org/subjects/data-analysis-and-big-data",
+    "https://doi.org/subjects/open-source",
+    "https://doi.org/subjects/big-data-analytics-in-healthcare-systems",
+    "https://doi.org/article/10.1007/s10462-018-09679-z/tables/1",
+    "https://doi.org/article/10.1007/s10462-018-09679-z/tables/2",
+    "https://doi.org/article/10.1007/s10462-018-09679-z/tables/3"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "bytes": 7613176,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\4d8721de2567_s40537-021-00444-8.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1186/s40537-021-00444-8.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8"
+      },
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-021-00444-8"
+    },
+    {
+      "meta": {
+        "bytes": 1211472,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\2d0fc7c87a26_s40537-021-00444-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1186/s40537-021-00444-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1186/s40537-021-00444-8"
+      },
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "url": "https://doi.org/10.1186/s40537-021-00444-8"
+    },
+    {
+      "meta": {
+        "bytes": 3478671,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\79b300eab3a4_09395703.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/5/9420072/09395703.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/5/9420072/09395703.pdf"
+      },
+      "title": "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook",
+      "url": "https://ieeexplore.ieee.org/ielx7/5/9420072/09395703.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 56536,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\ec0783597cf6_jproc.2021.3067593",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9395703/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/jproc.2021.3067593"
+      },
+      "title": "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook",
+      "url": "https://doi.org/10.1109/jproc.2021.3067593"
+    },
+    {
+      "meta": {
+        "bytes": 1015734,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\a0fd8170ff52_s10462-018-09679-z.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s10462-018-09679-z.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/content/pdf/10.1007/s10462-018-09679-z.pdf"
+      },
+      "title": "Machine Learning and Deep Learning frameworks and libraries for large-scale data mining: a survey",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10462-018-09679-z.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 676999,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\2fd3b9c311ee_s10462-018-09679-z.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1007/s10462-018-09679-z",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1007/s10462-018-09679-z"
+      },
+      "title": "Machine Learning and Deep Learning frameworks and libraries for large-scale data mining: a survey",
+      "url": "https://doi.org/10.1007/s10462-018-09679-z"
+    },
+    {
+      "meta": {
+        "bytes": 52541,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\af20d3c3d665_iccv48922.2021.00266",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9711070/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/iccv48922.2021.00266"
+      },
+      "title": "Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks",
+      "url": "https://doi.org/10.1109/iccv48922.2021.00266"
+    },
+    {
+      "meta": {
+        "bytes": 3625658,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\d1ef120ab2a7_2007.05785",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2007.05785",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2007.05785"
+      },
+      "title": "Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks",
+      "url": "https://arxiv.org/pdf/2007.05785"
+    },
+    {
+      "meta": {
+        "bytes": 5712353,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\7d14756a2a2a_10242251.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/5/4357935/10242251.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/5/4357935/10242251.pdf"
+      },
+      "title": "Training Spiking Neural Networks Using Lessons From Deep Learning",
+      "url": "https://ieeexplore.ieee.org/ielx7/5/4357935/10242251.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 61458,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\a53aadefafe7_jproc.2023.3308088",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/10242251/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/jproc.2023.3308088"
+      },
+      "title": "Training Spiking Neural Networks Using Lessons From Deep Learning",
+      "url": "https://doi.org/10.1109/jproc.2023.3308088"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\9e5e3f98f9b5_2893356.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/2893356",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/2893356"
+      },
+      "title": "A Survey of Techniques for Approximate Computing",
+      "url": "https://doi.org/10.1145/2893356"
+    },
+    {
+      "meta": {
+        "bytes": 200111,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\8d08f27d10e2_1286958.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1286958",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1286958"
+      },
+      "title": "A Survey of Techniques for Approximate Computing",
+      "url": "https://www.osti.gov/servlets/purl/1286958"
+    },
+    {
+      "meta": {
+        "bytes": 56183,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\89f2d6cd1e8a_tsipn.2015.2448520",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/7130662/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/tsipn.2015.2448520"
+      },
+      "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+      "url": "https://doi.org/10.1109/tsipn.2015.2448520"
+    },
+    {
+      "meta": {
+        "bytes": 308951,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\42d6487fc599_1412.8416",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/1412.8416",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/1412.8416"
+      },
+      "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+      "url": "https://arxiv.org/pdf/1412.8416"
+    },
+    {
+      "meta": {
+        "bytes": 6380007,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\a65ffea0af89_09606720.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/49/9653871/09606720.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/49/9653871/09606720.pdf"
+      },
+      "title": "Edge Artificial Intelligence for 6G: Vision, Enabling Technologies, and Applications",
+      "url": "https://ieeexplore.ieee.org/ielx7/49/9653871/09606720.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 57890,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\5f66bf3836e1_jsac.2021.3126076",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9606720/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/jsac.2021.3126076"
+      },
+      "title": "Edge Artificial Intelligence for 6G: Vision, Enabling Technologies, and Applications",
+      "url": "https://doi.org/10.1109/jsac.2021.3126076"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\5e043bd3590c_3242897.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/3242897",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3242897"
+      },
+      "title": "FINN- <i>R</i>",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3242897"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\2dbdfa40f441_3242897.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3242897",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/3242897"
+      },
+      "title": "FINN- <i>R</i>",
+      "url": "https://doi.org/10.1145/3242897"
+    },
+    {
+      "meta": {
+        "bytes": 2699,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\91e4a8f7e432_j.neucom.2016.06.014",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0925231216305550",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.neucom.2016.06.014"
+      },
+      "title": "Neural networks: An overview of early research, current frameworks and new challenges",
+      "url": "https://doi.org/10.1016/j.neucom.2016.06.014"
+    },
+    {
+      "meta": {
+        "bytes": 1521389,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\803c8fcb5d10_NeuralNetworks_Overview_2016.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://digibug.ugr.es/bitstream/handle/10481/96430/NeuralNetworks_Overview_2016.pdf;jsessionid=A5B8BC6C1F56B05C493F3B57B07C3D6A?sequence=1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://digibug.ugr.es/bitstream/10481/96430/1/NeuralNetworks_Overview_2016.pdf"
+      },
+      "title": "Neural networks: An overview of early research, current frameworks and new challenges",
+      "url": "https://digibug.ugr.es/bitstream/10481/96430/1/NeuralNetworks_Overview_2016.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 53929,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\6dbec77b110b_tnsre.2019.2896269",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/8630679/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/tnsre.2019.2896269"
+      },
+      "title": "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning",
+      "url": "https://doi.org/10.1109/tnsre.2019.2896269"
+    },
+    {
+      "meta": {
+        "bytes": 4323,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\dd0f8ccfb712_2019_02_05.pdf",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://nva.sikt.no/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.duo.uio.no/bitstream/10852/73434/1/2019_02_05.pdf"
+      },
+      "title": "Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning",
+      "url": "https://www.duo.uio.no/bitstream/10852/73434/1/2019_02_05.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 50675,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\30545ebcd0c2_tpami.2022.3183112",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9795869/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/tpami.2022.3183112"
+      },
+      "title": "Human Action Recognition From Various Data Modalities: A Review",
+      "url": "https://doi.org/10.1109/tpami.2022.3183112"
+    },
+    {
+      "meta": {
+        "bytes": 3280532,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\efb7db40cf7f_2012.11866",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2012.11866",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2012.11866"
+      },
+      "title": "Human Action Recognition From Various Data Modalities: A Review",
+      "url": "https://arxiv.org/pdf/2012.11866"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\96eaa7a2a3f2_pdf.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.thelancet.com/article/S235239641730470X/pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "http://www.thelancet.com/article/S235239641730470X/pdf"
+      },
+      "title": "Epileptic Seizure Prediction Using Big Data and Deep Learning: Toward a Mobile System",
+      "url": "http://www.thelancet.com/article/S235239641730470X/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 2635,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\3b0364ae2940_j.ebiom.2017.11.032",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S235239641730470X",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.ebiom.2017.11.032"
+      },
+      "title": "Epileptic Seizure Prediction Using Big Data and Deep Learning: Toward a Mobile System",
+      "url": "https://doi.org/10.1016/j.ebiom.2017.11.032"
+    },
+    {
+      "meta": {
+        "bytes": 394399,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\804eb9c35925_s41928-023-01010-1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41928-023-01010-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41928-023-01010-1"
+      },
+      "title": "A 64-core mixed-signal in-memory compute chip based on phase-change memory for deep neural network inference",
+      "url": "https://doi.org/10.1038/s41928-023-01010-1"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\2e4f182c0cd5_Hermes___A_64_core_in_memory_compute_chip_based_on_14nm_CMOS_and_phase_change_memory_for_deep_learni_735add63.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://cris.unibo.it/bitstream/11585/961655/3/Hermes___A_64_core_in_memory_compute_chip_based_on_14nm_CMOS_and_phase_change_memory_for_deep_learning_inference.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://cris.unibo.it/bitstream/11585/961655/3/Hermes___A_64_core_in_memory_compute_chip_based_on_14nm_CMOS_and_phase_change_memory_for_deep_learning_inference.pdf"
+      },
+      "title": "A 64-core mixed-signal in-memory compute chip based on phase-change memory for deep neural network inference",
+      "url": "https://cris.unibo.it/bitstream/11585/961655/3/Hermes___A_64_core_in_memory_compute_chip_based_on_14nm_CMOS_and_phase_change_memory_for_deep_learning_inference.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\f5edea13f783_pdf.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2504-4990/1/1/5/pdf?version=1545199209",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.mdpi.com/2504-4990/1/1/5/pdf?version=1545199209"
+      },
+      "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
+      "url": "https://www.mdpi.com/2504-4990/1/1/5/pdf?version=1545199209"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\a5b05bdf68c7_make1010005.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2504-4990/1/1/5",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.3390/make1010005"
+      },
+      "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
+      "url": "https://doi.org/10.3390/make1010005"
+    },
+    {
+      "meta": {
+        "bytes": 3925985,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\29772b3ebe9a_s41467-023-40770-4.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-023-40770-4.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-023-40770-4.pdf"
+      },
+      "title": "Hardware-aware training for large-scale and diverse deep learning inference workloads using in-memory computing-based accelerators",
+      "url": "https://www.nature.com/articles/s41467-023-40770-4.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 542610,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\0a26ada7a55e_s41467-023-40770-4.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-023-40770-4",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-023-40770-4"
+      },
+      "title": "Hardware-aware training for large-scale and diverse deep learning inference workloads using in-memory computing-based accelerators",
+      "url": "https://doi.org/10.1038/s41467-023-40770-4"
+    },
+    {
+      "meta": {
+        "bytes": 126772,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\67089635f766_1-s2.0-S2667345223000196-ga1_lrg.jpg",
+        "cached": false,
+        "content_type": "image/jpeg",
+        "error": null,
+        "final_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2667345223000196-ga1_lrg.jpg",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2667345223000196-ga1_lrg.jpg"
+      },
+      "title": "Edge AI: A survey",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2667345223000196-ga1_lrg.jpg"
+    },
+    {
+      "meta": {
+        "bytes": 2631,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\aa540d949036_j.iotcps.2023.02.004",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2667345223000196",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.iotcps.2023.02.004"
+      },
+      "title": "Edge AI: A survey",
+      "url": "https://doi.org/10.1016/j.iotcps.2023.02.004"
+    },
+    {
+      "meta": {
+        "bytes": 13283,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\0f733414efc1_5909029119be9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://openlib.tugraz.at/5909029119be9",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://openlib.tugraz.at/5909029119be9"
+      },
+      "title": "Neuromorphic Hardware In The Loop: Training a Deep Spiking Network on the BrainScaleS Wafer-Scale System",
+      "url": "http://openlib.tugraz.at/5909029119be9"
+    },
+    {
+      "meta": {
+        "bytes": 1095916,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\75ce0ea55d16_pdf.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.959626/pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.frontiersin.org/articles/10.3389/fnins.2022.959626/pdf"
+      },
+      "title": "Neuromorphic artificial intelligence systems",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2022.959626/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 948216,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\f6c6d00c4a23_fnins.2022.959626",
+        "cached": false,
+        "content_type": "text/html;charset=utf-8",
+        "error": null,
+        "final_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.959626/full",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.3389/fnins.2022.959626"
+      },
+      "title": "Neuromorphic artificial intelligence systems",
+      "url": "https://doi.org/10.3389/fnins.2022.959626"
+    },
+    {
+      "meta": {
+        "bytes": 8058692,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\e6b0e6c2eca7_s43074-021-00044-y.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1186/s43074-021-00044-y.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://photonix.springeropen.com/track/pdf/10.1186/s43074-021-00044-y"
+      },
+      "title": "Intelligent designs in nanophotonics: from optimization towards inverse creation",
+      "url": "https://photonix.springeropen.com/track/pdf/10.1186/s43074-021-00044-y"
+    },
+    {
+      "meta": {
+        "bytes": 763622,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\b8f9f6ff44ce_s43074-021-00044-y.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1186/s43074-021-00044-y",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1186/s43074-021-00044-y"
+      },
+      "title": "Intelligent designs in nanophotonics: from optimization towards inverse creation",
+      "url": "https://doi.org/10.1186/s43074-021-00044-y"
+    },
+    {
+      "meta": {
+        "bytes": 4213485,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\e360b92eec72_09149601.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09149601.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09149601.pdf"
+      },
+      "title": "A Survey on Coarse-Grained Reconfigurable Architectures From a Performance Perspective",
+      "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09149601.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 54353,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\2295963c84af_access.2020.3012084",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9149601/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/access.2020.3012084"
+      },
+      "title": "A Survey on Coarse-Grained Reconfigurable Architectures From a Performance Perspective",
+      "url": "https://doi.org/10.1109/access.2020.3012084"
+    },
+    {
+      "meta": {
+        "bytes": 2286701,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\020b93c254f9_s41467-022-29260-1.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-022-29260-1.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-022-29260-1.pdf"
+      },
+      "title": "Rotating neurons for all-analog implementation of cyclic reservoir computing",
+      "url": "https://www.nature.com/articles/s41467-022-29260-1.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 437021,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\a4a5c6254094_s41467-022-29260-1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-022-29260-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-022-29260-1"
+      },
+      "title": "Rotating neurons for all-analog implementation of cyclic reservoir computing",
+      "url": "https://doi.org/10.1038/s41467-022-29260-1"
+    },
+    {
+      "meta": {
+        "bytes": 17882607,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\4c26aeff28ee_s41377-021-00655-x.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41377-021-00655-x.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41377-021-00655-x.pdf"
+      },
+      "title": "Optical meta-waveguides for integrated photonics and beyond",
+      "url": "https://www.nature.com/articles/s41377-021-00655-x.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 2105267,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\c64e5aca6aab_s41377-021-00655-x.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41377-021-00655-x",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41377-021-00655-x"
+      },
+      "title": "Optical meta-waveguides for integrated photonics and beyond",
+      "url": "https://doi.org/10.1038/s41377-021-00655-x"
+    },
+    {
+      "meta": {
+        "bytes": 1373,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\ff603162f237_5.0072090",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://aip.scitation.org/doi/pdf/10.1063/5.0072090",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://aip.scitation.org/doi/pdf/10.1063/5.0072090"
+      },
+      "title": "Photonic and optoelectronic neuromorphic computing",
+      "url": "https://aip.scitation.org/doi/pdf/10.1063/5.0072090"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\53ce604897fc_5.0072090",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/app/article/7/5/051101/2835184/Photonic-and-optoelectronic-neuromorphic-computing",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0072090"
+      },
+      "title": "Photonic and optoelectronic neuromorphic computing",
+      "url": "https://doi.org/10.1063/5.0072090"
+    },
+    {
+      "meta": {
+        "bytes": 6114382,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\aca01f42664f_pdf.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.frontiersin.org/journals/science/articles/10.3389/fsci.2023.1017235/pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.frontiersin.org/articles/10.3389/fsci.2023.1017235/pdf"
+      },
+      "title": "Organoid intelligence (OI): the new frontier in biocomputing and intelligence-in-a-dish",
+      "url": "https://www.frontiersin.org/articles/10.3389/fsci.2023.1017235/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 1715669,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\52bcc6253c07_fsci.2023.1017235",
+        "cached": false,
+        "content_type": "text/html;charset=utf-8",
+        "error": null,
+        "final_url": "https://www.frontiersin.org/journals/science/articles/10.3389/fsci.2023.1017235/full",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.3389/fsci.2023.1017235"
+      },
+      "title": "Organoid intelligence (OI): the new frontier in biocomputing and intelligence-in-a-dish",
+      "url": "https://doi.org/10.3389/fsci.2023.1017235"
+    },
+    {
+      "meta": {
+        "bytes": 6145038,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\a1c5ec4e279c_s41467-022-35216-2.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-022-35216-2.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-022-35216-2.pdf"
+      },
+      "title": "Physical deep learning with biologically inspired training method:\u00a0gradient-free approach for physical hardware",
+      "url": "https://www.nature.com/articles/s41467-022-35216-2.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 471438,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\c87436db9f91_s41467-022-35216-2.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-022-35216-2",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-022-35216-2"
+      },
+      "title": "Physical deep learning with biologically inspired training method:\u00a0gradient-free approach for physical hardware",
+      "url": "https://doi.org/10.1038/s41467-022-35216-2"
+    },
+    {
+      "meta": {
+        "bytes": 1784773,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\72b5523ac92c_PhysRevX.7.041052",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.7.041052",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevX.7.041052"
+      },
+      "title": "Quantum-Assisted Learning of Hardware-Embedded Probabilistic Graphical Models",
+      "url": "http://link.aps.org/pdf/10.1103/PhysRevX.7.041052"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\3b382dd79a7d_physrevx.7.041052",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PhysRevX.7.041052",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/physrevx.7.041052"
+      },
+      "title": "Quantum-Assisted Learning of Hardware-Embedded Probabilistic Graphical Models",
+      "url": "https://doi.org/10.1103/physrevx.7.041052"
+    },
+    {
+      "meta": {
+        "bytes": 8900789,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\4edf257a3d88_s42256-023-00609-5.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s42256-023-00609-5.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s42256-023-00609-5.pdf"
+      },
+      "title": "Echo state graph neural networks with analogue random resistive memory arrays",
+      "url": "https://www.nature.com/articles/s42256-023-00609-5.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 459340,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\93ea6dafe119_s42256-023-00609-5.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s42256-023-00609-5",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s42256-023-00609-5"
+      },
+      "title": "Echo state graph neural networks with analogue random resistive memory arrays",
+      "url": "https://doi.org/10.1038/s42256-023-00609-5"
+    },
+    {
+      "meta": {
+        "bytes": 4248904,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\f9be6d74f330_s41467-024-47811-6.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-024-47811-6.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-024-47811-6.pdf"
+      },
+      "title": "Spike-based dynamic computing with asynchronous sensing-computing neuromorphic chip",
+      "url": "https://www.nature.com/articles/s41467-024-47811-6.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 524842,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\1de9718e03e3_s41467-024-47811-6.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-024-47811-6",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-024-47811-6"
+      },
+      "title": "Spike-based dynamic computing with asynchronous sensing-computing neuromorphic chip",
+      "url": "https://doi.org/10.1038/s41467-024-47811-6"
+    },
+    {
+      "meta": {
+        "bytes": 2288340,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\2d94808eb5b1_09189825.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/5503868/9201191/09189825.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/5503868/9201191/09189825.pdf"
+      },
+      "title": "An Overview of Efficient Interconnection Networks for Deep Neural Network Accelerators",
+      "url": "https://ieeexplore.ieee.org/ielx7/5503868/9201191/09189825.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 58711,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\736b96a09e7f_jetcas.2020.3022920",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9189825/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/jetcas.2020.3022920"
+      },
+      "title": "An Overview of Efficient Interconnection Networks for Deep Neural Network Accelerators",
+      "url": "https://doi.org/10.1109/jetcas.2020.3022920"
+    },
+    {
+      "meta": {
+        "bytes": 2705,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\3d24d2b28ac4_j.neucom.2023.126327",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0925231223004502",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.neucom.2023.126327"
+      },
+      "title": "Deep neural networks in the cloud: Review, applications, challenges and research directions",
+      "url": "https://doi.org/10.1016/j.neucom.2023.126327"
+    },
+    {
+      "meta": {
+        "bytes": 3533280,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\7e5ec0253981_s41467-025-56739-4.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-025-56739-4.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-025-56739-4.pdf"
+      },
+      "title": "The neurobench framework for benchmarking neuromorphic computing algorithms and systems",
+      "url": "https://www.nature.com/articles/s41467-025-56739-4.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 830803,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\db7e58b97d4d_s41467-025-56739-4.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-025-56739-4",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-025-56739-4"
+      },
+      "title": "The neurobench framework for benchmarking neuromorphic computing algorithms and systems",
+      "url": "https://doi.org/10.1038/s41467-025-56739-4"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\11f4218a8288_09771457.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://ieeexplore.ieee.org/ielx7/6287639/6514899/09771457.pdf",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09771457.pdf"
+      },
+      "title": "Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System",
+      "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09771457.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 65552,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\fac15c37dbde_access.2022.3174101",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9771457/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/access.2022.3174101"
+      },
+      "title": "Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System",
+      "url": "https://doi.org/10.1109/access.2022.3174101"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\6f1341c7dd1b_pdf.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1422-0067/17/8/1313/pdf?version=1470916210",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.mdpi.com/1422-0067/17/8/1313/pdf?version=1470916210"
+      },
+      "title": "Deep Artificial Neural Networks and Neuromorphic Chips for Big Data Analysis: Pharmaceutical and Bioinformatics Applications",
+      "url": "https://www.mdpi.com/1422-0067/17/8/1313/pdf?version=1470916210"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\69c4a94cda3f_ijms17081313.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1422-0067/17/8/1313",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.3390/ijms17081313"
+      },
+      "title": "Deep Artificial Neural Networks and Neuromorphic Chips for Big Data Analysis: Pharmaceutical and Bioinformatics Applications",
+      "url": "https://doi.org/10.3390/ijms17081313"
+    },
+    {
+      "meta": {
+        "bytes": 7074050,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\8a8a30b9db67_09173656.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09173656.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09173656.pdf"
+      },
+      "title": "Autonomous Probabilistic Coprocessing With Petaflips per Second",
+      "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09173656.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 60969,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\8061e69465af_access.2020.3018682",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9173656/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/access.2020.3018682"
+      },
+      "title": "Autonomous Probabilistic Coprocessing With Petaflips per Second",
+      "url": "https://doi.org/10.1109/access.2020.3018682"
+    },
+    {
+      "meta": {
+        "bytes": 2477855,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\0daab9f882b8_s41467-023-44365-x.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-023-44365-x.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-023-44365-x.pdf"
+      },
+      "title": "Mosaic: in-memory computing and routing for small-world spike-based neuromorphic systems",
+      "url": "https://www.nature.com/articles/s41467-023-44365-x.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 479559,
+        "cache_path": "tierb_cache_v4\\T47\\papers\\e5795e8ce23b_s41467-023-44365-x.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-023-44365-x",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-023-44365-x"
+      },
+      "title": "Mosaic: in-memory computing and routing for small-world spike-based neuromorphic systems",
+      "url": "https://doi.org/10.1038/s41467-023-44365-x"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\057cea3322f9_26338174.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.techrxiv.org/articles/preprint/Human_Action_Recognition_from_Various_Data_Modalities_A_Review/13708270/files/26338174.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.techrxiv.org/articles/preprint/Human_Action_Recognition_from_Various_Data_Modalities_A_Review/13708270/files/26338174.pdf"
+      },
+      "title": "Human Action Recognition from Various Data Modalities: A Review",
+      "url": "https://www.techrxiv.org/articles/preprint/Human_Action_Recognition_from_Various_Data_Modalities_A_Review/13708270/files/26338174.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\10f8bfd22ce5_techrxiv.13708270",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.techrxiv.org/articles/preprint/Human_Action_Recognition_from_Various_Data_Modalities_A_Review/13708270",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.36227/techrxiv.13708270"
+      },
+      "title": "Human Action Recognition from Various Data Modalities: A Review",
+      "url": "https://doi.org/10.36227/techrxiv.13708270"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\1e4a9ac272fb_adma.202204944",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202204944",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202204944"
+      },
+      "title": "Compute in\u2010Memory with Non\u2010Volatile Elements for Neural Networks: A Review from a Co\u2010Design Perspective",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202204944"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\8398b0030482_adma.202204944",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202204944",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1002/adma.202204944"
+      },
+      "title": "Compute in\u2010Memory with Non\u2010Volatile Elements for Neural Networks: A Review from a Co\u2010Design Perspective",
+      "url": "https://doi.org/10.1002/adma.202204944"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\28ef62ce45c0_adma.202205047",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202205047",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202205047"
+      },
+      "title": "Artificial Neuronal Devices Based on Emerging Materials: Neuronal Dynamics and Applications",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202205047"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\fd1a55aa4f19_adma.202205047",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202205047",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1002/adma.202205047"
+      },
+      "title": "Artificial Neuronal Devices Based on Emerging Materials: Neuronal Dynamics and Applications",
+      "url": "https://doi.org/10.1002/adma.202205047"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\b2153fa3f3dc_pdf.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2079-9268/11/2/23/pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.mdpi.com/2079-9268/11/2/23/pdf"
+      },
+      "title": "A Review of Algorithms and Hardware Implementations for Spiking Neural Networks",
+      "url": "https://www.mdpi.com/2079-9268/11/2/23/pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\42d456b845a0_jlpea11020023.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2079-9268/11/2/23",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.3390/jlpea11020023"
+      },
+      "title": "A Review of Algorithms and Hardware Implementations for Spiking Neural Networks",
+      "url": "https://doi.org/10.3390/jlpea11020023"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\4e25ab150b72_3297858.3304048",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/3297858.3304048",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3297858.3304048"
+      },
+      "title": "FPSA",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3297858.3304048"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v4\\T47\\papers\\b9c625be701e_3297858.3304048",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3297858.3304048",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/3297858.3304048"
+      },
+      "title": "FPSA",
+      "url": "https://doi.org/10.1145/3297858.3304048"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-04-30T18:02:56Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "parsed_tables_count": 0,
+  "prediction_ids": [
+    "EL7"
+  ],
+  "prediction_names": [
+    "graph topology metrics correlate with neuromorphic inference energy"
+  ],
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "v4_result_quality_5_improvements",
+  "queries": [
+    "neuromorphic benchmark inference energy graph topology table",
+    "Loihi TrueNorth SpiNNaker energy per inference benchmark dataset"
+  ],
+  "readiness_status": "source_found_no_usable_table",
+  "rejected_tables_sample": [],
+  "required_column_groups": [
+    [
+      "energy|power|J|mJ|uJ|\u00b5J"
+    ],
+    [
+      "inference|benchmark|accuracy|topology|graph"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "table_summaries": [],
+  "test_id": "T47",
+  "test_name": "neuromorphic graph energy audit"
+}

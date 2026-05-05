@@ -1,0 +1,37 @@
+{
+  "data_sources": [
+    {
+      "error": "download failed for https://api.github.com/repos/CobayaSampler/bao_data/git/trees/main?recursive=1: HTTP Error 404: Not Found",
+      "github": "CobayaSampler/bao_data",
+      "ok": false
+    }
+  ],
+  "description": "Search DESI DR2 BAO public tables for a redshift trend compatible with secular \u039b-drift.",
+  "falsification_logic": {
+    "confirm_like": "distance residuals show predicted secular-drift sign with redshift",
+    "falsify_like": "residual trend is zero or opposite under public BAO table parsing"
+  },
+  "generated_utc": "2026-04-28T18:27:18Z",
+  "metrics": {
+    "tables_used": [],
+    "z_residual_trend": {
+      "linear_coef": null,
+      "note": "Mixed BAO observables normalized per table; this is a drift-screening proxy, not a DESI likelihood.",
+      "spearman": {
+        "error": "too_few_or_constant",
+        "n": 0,
+        "pvalue": null,
+        "rho": null
+      }
+    }
+  },
+  "notes": [
+    "Sign convention is provisional because BAO table observables differ; inspect table_summ before interpreting."
+  ],
+  "prediction_ids": [
+    "P39"
+  ],
+  "status": "data_limited",
+  "test_id": "T02",
+  "warnings": []
+}

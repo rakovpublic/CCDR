@@ -1,0 +1,35 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+    }
+  ],
+  "description": "Download public GWOSC event data and run a simple damped-sinusoid ringdown residual screen without LALSuite/Bilby.",
+  "falsification_logic": {
+    "confirm_like": "two-mode damped fit leaves systematic overtone-like residual at predicted scale",
+    "falsify_like": "Kerr-like one/two-mode residuals are noise-like in public strain"
+  },
+  "generated_utc": "2026-04-28T19:40:03Z",
+  "metrics": {
+    "gwosc_file_candidates": [
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5"
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P32"
+  ],
+  "status": "data_limited",
+  "test_id": "T24",
+  "warnings": [
+    "GWOSC strain files can be large; rerun with --allow-large to download and fit."
+  ]
+}

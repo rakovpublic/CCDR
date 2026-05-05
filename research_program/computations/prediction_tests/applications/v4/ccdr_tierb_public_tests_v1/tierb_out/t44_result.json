@@ -1,0 +1,1771 @@
+{
+  "analysis_note": "Automatic public-data/literature-table probe. A status of data_limited means public metadata/papers were found but no sufficiently machine-readable numeric tables were discoverable by the script. This is not a CCDR null; it is a public-data availability limit.",
+  "candidate_works_count": 60,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 20,
+      "doi": "https://doi.org/10.1145/3579371.3589071",
+      "id": "https://openalex.org/W4376652966",
+      "landing_page_url": "https://doi.org/10.1145/3579371.3589071",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2305.07768"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1145/3579371.3589071",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3579371.3589071",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Proceedings of the 50th Annual International Symposium on Computer Architecture",
+        "raw_type": "proceedings-article",
+        "source": null,
+        "version": "publishedVersion"
+      },
+      "title": "Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses",
+      "type": "preprint",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 13,
+      "doi": "https://doi.org/10.1145/3291052",
+      "id": "https://openalex.org/W2904679400",
+      "landing_page_url": "https://doi.org/10.1145/3291052",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3291052"
+      },
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3291052",
+      "primary_location": {
+        "id": "doi:10.1145/3291052",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3291052",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3291052",
+        "raw_source_name": "ACM Transactions on Architecture and Code Optimization",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "ACM Transactions on Architecture and Code Optimization",
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "host_organization_name": "Association for Computing Machinery",
+          "id": "https://openalex.org/S26056741",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1544-3566",
+            "1544-3973"
+          ],
+          "issn_l": "1544-3566",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "SCORE",
+      "type": "article",
+      "year": 2018
+    },
+    {
+      "cited_by_count": 13,
+      "doi": "https://doi.org/10.3390/electronics12122709",
+      "id": "https://openalex.org/W4381165333",
+      "landing_page_url": "https://doi.org/10.3390/electronics12122709",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.mdpi.com/2079-9292/12/12/2709/pdf?version=1687149647"
+      },
+      "pdf_url": "https://www.mdpi.com/2079-9292/12/12/2709/pdf?version=1687149647",
+      "primary_location": {
+        "id": "doi:10.3390/electronics12122709",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.3390/electronics12122709",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://www.mdpi.com/2079-9292/12/12/2709/pdf?version=1687149647",
+        "raw_source_name": "Electronics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Electronics",
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "id": "https://openalex.org/S4210202905",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": [
+            "2079-9292"
+          ],
+          "issn_l": "2079-9292",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Survey of Reliability Research on 3D Packaged Memory",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 6,
+      "doi": "https://doi.org/10.1145/3695053.3731073",
+      "id": "https://openalex.org/W4411486373",
+      "landing_page_url": "https://doi.org/10.1145/3695053.3731073",
+      "open_access": {
+        "any_repository_has_fulltext": null,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3695053.3731073"
+      },
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3695053.3731073",
+      "primary_location": {
+        "id": "doi:10.1145/3695053.3731073",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3695053.3731073",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3695053.3731073",
+        "raw_source_name": "Proceedings of the 52nd Annual International Symposium on Computer Architecture",
+        "raw_type": "proceedings-article",
+        "source": null,
+        "version": "publishedVersion"
+      },
+      "title": "AiF: Accelerating On-Device LLM Inference Using In-Flash Processing",
+      "type": "article",
+      "year": 2025
+    },
+    {
+      "cited_by_count": 7,
+      "doi": "https://doi.org/10.1145/3243176.3243191",
+      "id": "https://openalex.org/W2897344287",
+      "landing_page_url": "https://doi.org/10.1145/3243176.3243191",
+      "open_access": {
+        "any_repository_has_fulltext": null,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3243176.3243191"
+      },
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3243176.3243191",
+      "primary_location": {
+        "id": "doi:10.1145/3243176.3243191",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1145/3243176.3243191",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3243176.3243191",
+        "raw_source_name": "Proceedings of the 27th International Conference on Parallel Architectures and Compilation Techniques",
+        "raw_type": "proceedings-article",
+        "source": null,
+        "version": "publishedVersion"
+      },
+      "title": "3D-Xpath",
+      "type": "article",
+      "year": 2018
+    },
+    {
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2303.07445",
+      "id": "https://openalex.org/W4327486611",
+      "landing_page_url": "http://arxiv.org/abs/2303.07445",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2303.07445"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2303.07445",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2303.07445",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2303.07445",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://arxiv.org/pdf/2303.07445",
+        "raw_source_name": "",
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Improving DRAM Performance, Reliability, and Security by Rigorously Understanding Intrinsic DRAM Operation",
+      "type": "preprint",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2401.16279",
+      "id": "https://openalex.org/W4391376984",
+      "landing_page_url": "http://arxiv.org/abs/2401.16279",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2401.16279"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2401.16279",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2401.16279",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2401.16279",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://arxiv.org/pdf/2401.16279",
+        "raw_source_name": "",
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Rethinking the Producer-Consumer Relationship in Modern DRAM-Based Systems",
+      "type": "preprint",
+      "year": 2024
+    },
+    {
+      "cited_by_count": 0,
+      "doi": null,
+      "id": "https://openalex.org/W7155245027",
+      "landing_page_url": "https://arxiv.org/abs/2604.16007",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2604.16007"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2604.16007",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2604.16007",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://arxiv.org/abs/2604.16007",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://arxiv.org/pdf/2604.16007",
+        "raw_source_name": null,
+        "raw_type": "text",
+        "source": {
+          "display_name": "ArXiv.org",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4393918464",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": [
+            "2331-8422"
+          ],
+          "issn_l": "2331-8422",
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
+      "type": "article",
+      "year": 2026
+    },
+    {
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.6805966",
+      "id": "https://openalex.org/W4302863590",
+      "landing_page_url": "https://doi.org/10.5281/zenodo.6805966",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://doi.org/10.5281/zenodo.6805966"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.5281/zenodo.6805966",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://doi.org/10.5281/zenodo.6805966",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": null,
+        "raw_source_name": null,
+        "raw_type": "article-journal",
+        "source": {
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "European Organization for Nuclear Research",
+          "id": "https://openalex.org/S4306400562",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": null
+      },
+      "title": "D5.1: Market and Technology Watch Report Year1",
+      "type": "report",
+      "year": 2018
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx7/9923754/9923780/09923791.pdf?arnumber=9923791",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1109/micro56248.2022.00093",
+      "landing_page_url": "https://doi.org/10.1109/micro56248.2022.00093",
+      "title": "3D-FPIM: An Extreme Energy-Efficient DNN Acceleration System Using 3D NAND Flash-Based In-Situ PIM Unit",
+      "year": 2022
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/10982526/10982704/10983009.pdf?arnumber=10983009",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1109/irps48204.2025.10983009",
+      "landing_page_url": "https://doi.org/10.1109/irps48204.2025.10983009",
+      "title": "Understanding of Incremental Step Pulse Programming (ISPP) Slope Degradation in 3D NAND and its Band-Engineered Trap Layer Solution",
+      "year": 2025
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11353461/11353475/11353760.pdf?arnumber=11353760",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1109/iedm50572.2025.11353760",
+      "landing_page_url": "https://doi.org/10.1109/iedm50572.2025.11353760",
+      "title": "Physics-Based Closed-Form GIDL-Assisted Erase Compact Model: SPICE Framework for V\n                    <sub>th</sub>\n                    Distribution Simulator of 3D NAND Flash",
+      "year": 2025
+    }
+  ],
+  "discovered_data_links_sample": [
+    "https://doi.org/10.1145/3243176.3243191#get-premium-access",
+    "https://scholar.google.com/scholar?q=2018.+MySQL%3A+The+world%27s+most+popular+open+source+database.+https%3A%2F%2Fhttpd.apache.org%2F",
+    "https://scholar.google.com/scholar?q=K.+K.+Chang%2C+P.+J.+Nair%2C+D.+Lee%2C+S.+Ghose%2C+M.+K.+Qureshi%2C+and+O.+Mutlu.+2016.+Low-Cost+Inter-Linked+Subarrays+%28LISA%29%3A+Enabling+Fast+Inter-Subarray+Data+Movement+in+DRAM.+In+HPCA.",
+    "https://scholar.google.com/scholar?q=Intel.+2010.+Intel+Xeon+Processor+7500+Series+Datasheet.",
+    "https://scholar.google.com/scholar?q=JEDEC+Standard.+2016.+Graphics+Double+Data+Rate+%28GDDR5X%29+SGRAM+Standard.+JESD232A+%282016%29.",
+    "https://scholar.google.com/scholar?q=JEDEC+Standard.+2017.+LOW+POWER+DOUBLE+DATA+RATE+4X+%28LPDDR4X%29.+JESD209-4-1+%282017%29.",
+    "https://scholar.google.com/scholar?q=Micron.+2011.+RLDRAM3+Datasheet.",
+    "https://scholar.google.com/scholar?q=S.+K.+Palaniappan+and+P.+B.+Nagaraja.+2008.+Efficient+data+transfer+through+zero+copy.+https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Flibrary%2Fj-zerocopy%2F",
+    "https://doi.org/doi/proceedings/10.1145/3243176",
+    "http://arxiv.org/src/2303.07445",
+    "http://arxiv.org/src/2401.16279",
+    "https://arxiv.org/src/2604.16007",
+    "https://doi.org/10.5281/zenodo.6805966#main",
+    "https://doi.org/search?q=metadata.creators.person_or_org.name:%22Nico+Sanna%22",
+    "https://doi.org/search?q=metadata.creators.person_or_org.name:%22Aris+Sotiropoulos%22",
+    "https://zenodo.org/api/records/6805966/files-archive",
+    "https://explore.openaire.eu/search/result?pid=10.5281/zenodo.6805966",
+    "https://doi.org/search?q=metadata.subjects.subject:%22Deliverable%22",
+    "https://doi.org/search?q=metadata.subjects.subject:%22HPC%22",
+    "https://doi.org/search?q=metadata.subjects.subject:%22Research+infrastructure%22",
+    "https://doi.org/search?q=metadata.subjects.subject:%22Market+watch%22",
+    "https://doi.org/search?q=metadata.subjects.subject:%22Technology+watch%22",
+    "https://about.zenodo.org",
+    "https://about.zenodo.org/policies",
+    "https://about.zenodo.org/infrastructure",
+    "https://about.zenodo.org/principles",
+    "https://about.zenodo.org/projects/",
+    "https://about.zenodo.org/roadmap/",
+    "https://about.zenodo.org/contact",
+    "https://blog.zenodo.org",
+    "https://help.zenodo.org/",
+    "https://support.zenodo.org/help/",
+    "https://developers.zenodo.org",
+    "https://developers.zenodo.org#oai-pmh",
+    "https://github.com/zenodo/zenodo-rdm",
+    "https://home.cern/science/computing/data-centre",
+    "https://about.zenodo.org/privacy-policy",
+    "https://about.zenodo.org/cookie-policy",
+    "https://about.zenodo.org/terms",
+    "https://doi.org/rest/api/hpdata",
+    "http://xplorestaging.ieee.org/rest/api/hpdata",
+    "https://pubads.g.doubleclick.net/gampad/jump?iu=/285/scientific_reports/article&sz=728x90&c=-1206736947&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-022-20630-9%26doi%3D10.1038/s41598-022-20630-9%26subjmeta%3D1046,117,639,705%26kwrd%3DComputer+science,Scientific+data",
+    "https://doi.org/subjects/scientific-data",
+    "https://www.nature.com/articles/s41598-024-60278-1?fromPaywallRec=false",
+    "https://doi.org/articles/s41598-022-20630-9/tables/1",
+    "https://doi.org/articles/s41598-022-20630-9#MOESM1",
+    "https://doi.org/articles/s41598-022-20630-9/tables/2",
+    "https://github.com/abin24/Magnetic-tile-defect-datasets",
+    "https://doi.org/articles/s41598-022-20630-9/tables/3",
+    "https://doi.org/articles/s41598-022-20630-9/tables/4"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\4f901565b0c8_3579371.3589071",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3579371.3589071",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/3579371.3589071"
+      },
+      "title": "Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses",
+      "url": "https://doi.org/10.1145/3579371.3589071"
+    },
+    {
+      "meta": {
+        "bytes": 1336201,
+        "cache_path": "tierb_cache\\T44\\papers\\6229c0098c29_2305.07768",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2305.07768",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2305.07768"
+      },
+      "title": "Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses",
+      "url": "https://arxiv.org/pdf/2305.07768"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\de0f37c22be9_3291052.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/3291052",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3291052"
+      },
+      "title": "SCORE",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3291052"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\102f9ff15a0a_3291052.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3291052",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/3291052"
+      },
+      "title": "SCORE",
+      "url": "https://doi.org/10.1145/3291052"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\8df2d45163e1_pdf.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2079-9292/12/12/2709/pdf?version=1687149647",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.mdpi.com/2079-9292/12/12/2709/pdf?version=1687149647"
+      },
+      "title": "Survey of Reliability Research on 3D Packaged Memory",
+      "url": "https://www.mdpi.com/2079-9292/12/12/2709/pdf?version=1687149647"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\643def64560c_electronics12122709.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2079-9292/12/12/2709",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.3390/electronics12122709"
+      },
+      "title": "Survey of Reliability Research on 3D Packaged Memory",
+      "url": "https://doi.org/10.3390/electronics12122709"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\2cc771c81cd0_3695053.3731073",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/3695053.3731073",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3695053.3731073"
+      },
+      "title": "AiF: Accelerating On-Device LLM Inference Using In-Flash Processing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3695053.3731073"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\56378185ad0e_3695053.3731073",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3695053.3731073",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/3695053.3731073"
+      },
+      "title": "AiF: Accelerating On-Device LLM Inference Using In-Flash Processing",
+      "url": "https://doi.org/10.1145/3695053.3731073"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\aac399a1c39c_3243176.3243191",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/3243176.3243191",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3243176.3243191"
+      },
+      "title": "3D-Xpath",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3243176.3243191"
+    },
+    {
+      "meta": {
+        "bytes": 177331,
+        "cache_path": "tierb_cache\\T44\\papers\\2cf8b4352f22_3243176.3243191",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://dl.acm.org/doi/10.1145/3243176.3243191",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1145/3243176.3243191"
+      },
+      "title": "3D-Xpath",
+      "url": "https://doi.org/10.1145/3243176.3243191"
+    },
+    {
+      "meta": {
+        "bytes": 6608665,
+        "cache_path": "tierb_cache\\T44\\papers\\56a7229e0c64_2303.07445",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2303.07445",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2303.07445"
+      },
+      "title": "Improving DRAM Performance, Reliability, and Security by Rigorously Understanding Intrinsic DRAM Operation",
+      "url": "https://arxiv.org/pdf/2303.07445"
+    },
+    {
+      "meta": {
+        "bytes": 47107,
+        "cache_path": "tierb_cache\\T44\\papers\\dee6e81b2010_2303.07445",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2303.07445",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2303.07445"
+      },
+      "title": "Improving DRAM Performance, Reliability, and Security by Rigorously Understanding Intrinsic DRAM Operation",
+      "url": "http://arxiv.org/abs/2303.07445"
+    },
+    {
+      "meta": {
+        "bytes": 1433232,
+        "cache_path": "tierb_cache\\T44\\papers\\41ee549b642a_2401.16279",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2401.16279",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2401.16279"
+      },
+      "title": "Rethinking the Producer-Consumer Relationship in Modern DRAM-Based Systems",
+      "url": "https://arxiv.org/pdf/2401.16279"
+    },
+    {
+      "meta": {
+        "bytes": 47201,
+        "cache_path": "tierb_cache\\T44\\papers\\8f7c2f558808_2401.16279",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2401.16279",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2401.16279"
+      },
+      "title": "Rethinking the Producer-Consumer Relationship in Modern DRAM-Based Systems",
+      "url": "http://arxiv.org/abs/2401.16279"
+    },
+    {
+      "meta": {
+        "bytes": 1255259,
+        "cache_path": "tierb_cache\\T44\\papers\\3a0b643b2550_2604.16007",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2604.16007",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2604.16007"
+      },
+      "title": "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
+      "url": "https://arxiv.org/pdf/2604.16007"
+    },
+    {
+      "meta": {
+        "bytes": 50007,
+        "cache_path": "tierb_cache\\T44\\papers\\4e0889eb6d39_2604.16007",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2604.16007",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/abs/2604.16007"
+      },
+      "title": "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
+      "url": "https://arxiv.org/abs/2604.16007"
+    },
+    {
+      "meta": {
+        "bytes": 118922,
+        "cache_path": "tierb_cache\\T44\\papers\\07157b34d9dc_zenodo.6805966",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://zenodo.org/records/6805966",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.5281/zenodo.6805966"
+      },
+      "title": "D5.1: Market and Technology Watch Report Year1",
+      "url": "https://doi.org/10.5281/zenodo.6805966"
+    },
+    {
+      "meta": {
+        "bytes": 50890,
+        "cache_path": "tierb_cache\\T44\\papers\\3813fa4e37c4_micro56248.2022.00093",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9923791/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/micro56248.2022.00093"
+      },
+      "title": "3D-FPIM: An Extreme Energy-Efficient DNN Acceleration System Using 3D NAND Flash-Based In-Situ PIM Unit",
+      "url": "https://doi.org/10.1109/micro56248.2022.00093"
+    },
+    {
+      "meta": {
+        "bytes": 48607,
+        "cache_path": "tierb_cache\\T44\\papers\\b33cb3cd20dd_09923791.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/9923791/;jsessionid=D8BD0A861240BF4BEAD070E1DEBE680A",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/9923754/9923780/09923791.pdf?arnumber=9923791"
+      },
+      "title": "3D-FPIM: An Extreme Energy-Efficient DNN Acceleration System Using 3D NAND Flash-Based In-Situ PIM Unit",
+      "url": "http://xplorestaging.ieee.org/ielx7/9923754/9923780/09923791.pdf?arnumber=9923791"
+    },
+    {
+      "meta": {
+        "bytes": 50772,
+        "cache_path": "tierb_cache\\T44\\papers\\a355ddf0864b_irps48204.2025.10983009",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/10983009/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/irps48204.2025.10983009"
+      },
+      "title": "Understanding of Incremental Step Pulse Programming (ISPP) Slope Degradation in 3D NAND and its Band-Engineered Trap Layer Solution",
+      "url": "https://doi.org/10.1109/irps48204.2025.10983009"
+    },
+    {
+      "meta": {
+        "bytes": 48173,
+        "cache_path": "tierb_cache\\T44\\papers\\a4a8fd7ebb3a_10983009.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/10983009/;jsessionid=FF7D60F5D7AE2E4B272BB58647BA6D69",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/10982526/10982704/10983009.pdf?arnumber=10983009"
+      },
+      "title": "Understanding of Incremental Step Pulse Programming (ISPP) Slope Degradation in 3D NAND and its Band-Engineered Trap Layer Solution",
+      "url": "http://xplorestaging.ieee.org/ielx8/10982526/10982704/10983009.pdf?arnumber=10983009"
+    },
+    {
+      "meta": {
+        "bytes": 49337,
+        "cache_path": "tierb_cache\\T44\\papers\\c464b172be39_iedm50572.2025.11353760",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/11353760/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/iedm50572.2025.11353760"
+      },
+      "title": "Physics-Based Closed-Form GIDL-Assisted Erase Compact Model: SPICE Framework for V\n                    <sub>th</sub>\n                    Distribution Simulator of 3D NAND Flash",
+      "url": "https://doi.org/10.1109/iedm50572.2025.11353760"
+    },
+    {
+      "meta": {
+        "bytes": 46107,
+        "cache_path": "tierb_cache\\T44\\papers\\4fc62961a5d0_11353760.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/11353760/;jsessionid=DBFE2729F22124574D056F89FBF86B80",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/11353461/11353475/11353760.pdf?arnumber=11353760"
+      },
+      "title": "Physics-Based Closed-Form GIDL-Assisted Erase Compact Model: SPICE Framework for V\n                    <sub>th</sub>\n                    Distribution Simulator of 3D NAND Flash",
+      "url": "http://xplorestaging.ieee.org/ielx8/11353461/11353475/11353760.pdf?arnumber=11353760"
+    },
+    {
+      "meta": {
+        "bytes": 358175,
+        "cache_path": "tierb_cache\\T44\\papers\\0025f068c6a5_s41598-022-20630-9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-022-20630-9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41598-022-20630-9"
+      },
+      "title": "A voting-based ensemble feature network for semiconductor wafer defect classification",
+      "url": "https://doi.org/10.1038/s41598-022-20630-9"
+    },
+    {
+      "meta": {
+        "bytes": 1651955,
+        "cache_path": "tierb_cache\\T44\\papers\\39a02fd91a37_s41598-022-20630-9.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-022-20630-9.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-022-20630-9.pdf"
+      },
+      "title": "A voting-based ensemble feature network for semiconductor wafer defect classification",
+      "url": "https://www.nature.com/articles/s41598-022-20630-9.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 358173,
+        "cache_path": "tierb_cache\\T44\\papers\\1e160ce44908_s41598-022-20630-9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-022-20630-9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-022-20630-9"
+      },
+      "title": "A voting-based ensemble feature network for semiconductor wafer defect classification",
+      "url": "https://www.nature.com/articles/s41598-022-20630-9"
+    },
+    {
+      "meta": {
+        "bytes": 50588,
+        "cache_path": "tierb_cache\\T44\\papers\\9d1bbae904e4_tcsi.2020.3047484",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9317702/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/tcsi.2020.3047484"
+      },
+      "title": "Characterization of Inter-Cell Interference in 3D NAND Flash Memory",
+      "url": "https://doi.org/10.1109/tcsi.2020.3047484"
+    },
+    {
+      "meta": {
+        "bytes": 48304,
+        "cache_path": "tierb_cache\\T44\\papers\\364ed1186b4e_09317702.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/9317702/;jsessionid=FA6A0F5004ACB53A56EB91B558C86F91",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/8919/9352589/09317702.pdf?arnumber=9317702"
+      },
+      "title": "Characterization of Inter-Cell Interference in 3D NAND Flash Memory",
+      "url": "http://xplorestaging.ieee.org/ielx7/8919/9352589/09317702.pdf?arnumber=9317702"
+    },
+    {
+      "meta": {
+        "bytes": 50793,
+        "cache_path": "tierb_cache\\T44\\papers\\ea94cbacb3fe_socc66126.2025.11235323",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/11235323/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/socc66126.2025.11235323"
+      },
+      "title": "Optimizing Placement Legalization Utilizing Multiple Shapes of Standard Cells",
+      "url": "https://doi.org/10.1109/socc66126.2025.11235323"
+    },
+    {
+      "meta": {
+        "bytes": 48316,
+        "cache_path": "tierb_cache\\T44\\papers\\c6f4721ac3e2_11235323.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/11235323/;jsessionid=5CB6216606894EB42388B6C0B2C5FD77",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/11235309/11235311/11235323.pdf?arnumber=11235323"
+      },
+      "title": "Optimizing Placement Legalization Utilizing Multiple Shapes of Standard Cells",
+      "url": "http://xplorestaging.ieee.org/ielx8/11235309/11235311/11235323.pdf?arnumber=11235323"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\5892d1e18385_acs.chemmater.3c03326",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/10.1021/acs.chemmater.3c03326",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acs.chemmater.3c03326"
+      },
+      "title": "Theoretical Design Strategies for Area-Selective Atomic Layer Deposition",
+      "url": "https://doi.org/10.1021/acs.chemmater.3c03326"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\c1c7ef3b05d8_acs.chemmater.3c03326",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.3c03326",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.3c03326"
+      },
+      "title": "Theoretical Design Strategies for Area-Selective Atomic Layer Deposition",
+      "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.3c03326"
+    },
+    {
+      "meta": {
+        "bytes": 378347,
+        "cache_path": "tierb_cache\\T44\\papers\\c0f74e0cea82_s40580-025-00513-1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1186/s40580-025-00513-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1186/s40580-025-00513-1"
+      },
+      "title": "Dynamic pass bias control for temperature-resilient neural networks using vertical NAND flash memory",
+      "url": "https://doi.org/10.1186/s40580-025-00513-1"
+    },
+    {
+      "meta": {
+        "bytes": 3361694,
+        "cache_path": "tierb_cache\\T44\\papers\\4a17ff35656f_s40580-025-00513-1.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1186/s40580-025-00513-1.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/content/pdf/10.1186/s40580-025-00513-1.pdf"
+      },
+      "title": "Dynamic pass bias control for temperature-resilient neural networks using vertical NAND flash memory",
+      "url": "https://link.springer.com/content/pdf/10.1186/s40580-025-00513-1.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 378347,
+        "cache_path": "tierb_cache\\T44\\papers\\f7a888e75290_fulltext.html",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1186/s40580-025-00513-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/article/10.1186/s40580-025-00513-1/fulltext.html"
+      },
+      "title": "Dynamic pass bias control for temperature-resilient neural networks using vertical NAND flash memory",
+      "url": "https://link.springer.com/article/10.1186/s40580-025-00513-1/fulltext.html"
+    },
+    {
+      "meta": {
+        "bytes": 47883,
+        "cache_path": "tierb_cache\\T44\\papers\\aadb741983fc_lcomm.2017.2656119",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/7828079/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/lcomm.2017.2656119"
+      },
+      "title": "Multi-Bit Flipping Decoding of LDPC Codes for NAND Storage Systems",
+      "url": "https://doi.org/10.1109/lcomm.2017.2656119"
+    },
+    {
+      "meta": {
+        "bytes": 45599,
+        "cache_path": "tierb_cache\\T44\\papers\\93e2c6606ec8_07828079.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/7828079/;jsessionid=2F7E2B095D9726AB78365870FE2FFA0E",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/4234/7921536/07828079.pdf?arnumber=7828079"
+      },
+      "title": "Multi-Bit Flipping Decoding of LDPC Codes for NAND Storage Systems",
+      "url": "http://xplorestaging.ieee.org/ielx7/4234/7921536/07828079.pdf?arnumber=7828079"
+    },
+    {
+      "meta": {
+        "bytes": 48361,
+        "cache_path": "tierb_cache\\T44\\papers\\6b38541521ce_ted.2020.3000448",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9121714/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/ted.2020.3000448"
+      },
+      "title": "A Compact Model for ISPP of 3-D Charge-Trap NAND Flash Memories",
+      "url": "https://doi.org/10.1109/ted.2020.3000448"
+    },
+    {
+      "meta": {
+        "bytes": 46078,
+        "cache_path": "tierb_cache\\T44\\papers\\78e01502f941_09121714.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/9121714/;jsessionid=5A95BD2F5E8BD279A61EF77BDEB0B8F8",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/16/9146596/09121714.pdf?arnumber=9121714"
+      },
+      "title": "A Compact Model for ISPP of 3-D Charge-Trap NAND Flash Memories",
+      "url": "http://xplorestaging.ieee.org/ielx7/16/9146596/09121714.pdf?arnumber=9121714"
+    },
+    {
+      "meta": {
+        "bytes": 51788,
+        "cache_path": "tierb_cache\\T44\\papers\\6b59773da8fd_mlcad65511.2025.11189232",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/11189232/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/mlcad65511.2025.11189232"
+      },
+      "title": "EDA Tool Parameter Optimization Through Fast and Reliable Machine-Learning based Rank Prediction Model",
+      "url": "https://doi.org/10.1109/mlcad65511.2025.11189232"
+    },
+    {
+      "meta": {
+        "bytes": 49504,
+        "cache_path": "tierb_cache\\T44\\papers\\9680854e4446_11189232.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/11189232/;jsessionid=DCDD2E8D3589A9510630C3902D5E5676",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/11189084/11189054/11189232.pdf?arnumber=11189232"
+      },
+      "title": "EDA Tool Parameter Optimization Through Fast and Reliable Machine-Learning based Rank Prediction Model",
+      "url": "http://xplorestaging.ieee.org/ielx8/11189084/11189054/11189232.pdf?arnumber=11189232"
+    },
+    {
+      "meta": {
+        "bytes": 386100,
+        "cache_path": "tierb_cache\\T44\\papers\\39795adbc0ae_s41467-025-60415-y.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-025-60415-y",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-025-60415-y"
+      },
+      "title": "Concealable physical unclonable functions using vertical NAND flash memory",
+      "url": "https://doi.org/10.1038/s41467-025-60415-y"
+    },
+    {
+      "meta": {
+        "bytes": 3596394,
+        "cache_path": "tierb_cache\\T44\\papers\\590aa0c0cbd5_s41467-025-60415-y.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-025-60415-y.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-025-60415-y.pdf"
+      },
+      "title": "Concealable physical unclonable functions using vertical NAND flash memory",
+      "url": "https://www.nature.com/articles/s41467-025-60415-y.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 386108,
+        "cache_path": "tierb_cache\\T44\\papers\\eb0a51b1f092_s41467-025-60415-y.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-025-60415-y",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-025-60415-y"
+      },
+      "title": "Concealable physical unclonable functions using vertical NAND flash memory",
+      "url": "https://www.nature.com/articles/s41467-025-60415-y"
+    },
+    {
+      "meta": {
+        "bytes": 50071,
+        "cache_path": "tierb_cache\\T44\\papers\\4533dd142ae6_islped65674.2025.11261753",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/11261753/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/islped65674.2025.11261753"
+      },
+      "title": "Simultaneous Optimization of Placement Legalization and Multi-bit Flip-flop Allocation in Physical Design Automation",
+      "url": "https://doi.org/10.1109/islped65674.2025.11261753"
+    },
+    {
+      "meta": {
+        "bytes": 47788,
+        "cache_path": "tierb_cache\\T44\\papers\\3c2b7c4d2047_11261753.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/11261753/;jsessionid=716228DE6F7268A527114F97ED693009",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/11261694/11261695/11261753.pdf?arnumber=11261753"
+      },
+      "title": "Simultaneous Optimization of Placement Legalization and Multi-bit Flip-flop Allocation in Physical Design Automation",
+      "url": "http://xplorestaging.ieee.org/ielx8/11261694/11261695/11261753.pdf?arnumber=11261753"
+    },
+    {
+      "meta": {
+        "bytes": 322958,
+        "cache_path": "tierb_cache\\T44\\papers\\6a94bdc5c72f_978-3-642-14752-4_7.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/chapter/10.1007/978-3-642-14752-4_7",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1007/978-3-642-14752-4_7"
+      },
+      "title": "High-Capacity NAND Flash Memories: XLC Storage and Single-Die 3D",
+      "url": "https://doi.org/10.1007/978-3-642-14752-4_7"
+    },
+    {
+      "meta": {
+        "bytes": 322958,
+        "cache_path": "tierb_cache\\T44\\papers\\2bc578d21f51_978-3-642-14752-4_7.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/chapter/10.1007/978-3-642-14752-4_7",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-642-14752-4_7"
+      },
+      "title": "High-Capacity NAND Flash Memories: XLC Storage and Single-Die 3D",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-642-14752-4_7"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\84b553ea15b1_nano12111808.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2079-4991/12/11/1808",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.3390/nano12111808"
+      },
+      "title": "Optimal Energetic-Trap Distribution of Nano-Scaled Charge Trap Nitride for Wider Vth Window in 3D NAND Flash Using a Machine-Learning Method",
+      "url": "https://doi.org/10.3390/nano12111808"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\7c821f7dd7e9_pdf.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2079-4991/12/11/1808/pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.mdpi.com/2079-4991/12/11/1808/pdf"
+      },
+      "title": "Optimal Energetic-Trap Distribution of Nano-Scaled Charge Trap Nitride for Wider Vth Window in 3D NAND Flash Using a Machine-Learning Method",
+      "url": "https://www.mdpi.com/2079-4991/12/11/1808/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 50085,
+        "cache_path": "tierb_cache\\T44\\papers\\15d69e192c72_iccvw69036.2025.00485",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/11374329/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/iccvw69036.2025.00485"
+      },
+      "title": "Neural Ganglion Sensors: Learning Task-specific Event Cameras Inspired by the Neural Circuit of the Human Retina",
+      "url": "https://doi.org/10.1109/iccvw69036.2025.00485"
+    },
+    {
+      "meta": {
+        "bytes": 47800,
+        "cache_path": "tierb_cache\\T44\\papers\\6bf6b3713f94_11374329.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/11374329/;jsessionid=684854069BDD600B0E48267C8B5AB15D",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/11373940/11374285/11374329.pdf?arnumber=11374329"
+      },
+      "title": "Neural Ganglion Sensors: Learning Task-specific Event Cameras Inspired by the Neural Circuit of the Human Retina",
+      "url": "http://xplorestaging.ieee.org/ielx8/11373940/11374285/11374329.pdf?arnumber=11374329"
+    },
+    {
+      "meta": {
+        "bytes": 49754,
+        "cache_path": "tierb_cache\\T44\\papers\\de19a982a60d_ted.2016.2593913",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/7529151/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/ted.2016.2593913"
+      },
+      "title": "Modeling of Threshold Voltage Distribution in NAND Flash Memory: A Monte Carlo Method",
+      "url": "https://doi.org/10.1109/ted.2016.2593913"
+    },
+    {
+      "meta": {
+        "bytes": 46841,
+        "cache_path": "tierb_cache\\T44\\papers\\8f9f476de164_07529151.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/7529151/;jsessionid=0DB900428AF87302BF9B060B515F9929",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/16/7548080/07529151.pdf?arnumber=7529151"
+      },
+      "title": "Modeling of Threshold Voltage Distribution in NAND Flash Memory: A Monte Carlo Method",
+      "url": "http://xplorestaging.ieee.org/ielx7/16/7548080/07529151.pdf?arnumber=7529151"
+    },
+    {
+      "meta": {
+        "bytes": 47664,
+        "cache_path": "tierb_cache\\T44\\papers\\f99b45a6f762_ted.2025.3613466",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/11202704/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/ted.2025.3613466"
+      },
+      "title": "Study of Defect-Induced Noise in Advanced MOSFETs for Cryogenic Operation",
+      "url": "https://doi.org/10.1109/ted.2025.3613466"
+    },
+    {
+      "meta": {
+        "bytes": 45380,
+        "cache_path": "tierb_cache\\T44\\papers\\8a9778b82811_11202704.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/11202704/;jsessionid=50F4481850D041EEA438E6BA22E06595",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx8/16/11236980/11202704.pdf?arnumber=11202704"
+      },
+      "title": "Study of Defect-Induced Noise in Advanced MOSFETs for Cryogenic Operation",
+      "url": "http://xplorestaging.ieee.org/ielx8/16/11236980/11202704.pdf?arnumber=11202704"
+    },
+    {
+      "meta": {
+        "bytes": 48285,
+        "cache_path": "tierb_cache\\T44\\papers\\307ac77323b0_vlsitechnologyandcir46769.2022.9830445",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/9830445/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/vlsitechnologyandcir46769.2022.9830445"
+      },
+      "title": "First Demonstration of 1-bit Erase in Vertical NAND Flash Memory",
+      "url": "https://doi.org/10.1109/vlsitechnologyandcir46769.2022.9830445"
+    },
+    {
+      "meta": {
+        "bytes": 45374,
+        "cache_path": "tierb_cache\\T44\\papers\\38601ea2dd90_09830445.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/9830445/;jsessionid=AB4C3671C9BA5997E5FB3A2CD99EE75D",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/9830116/9830138/09830445.pdf?arnumber=9830445"
+      },
+      "title": "First Demonstration of 1-bit Erase in Vertical NAND Flash Memory",
+      "url": "http://xplorestaging.ieee.org/ielx7/9830116/9830138/09830445.pdf?arnumber=9830445"
+    },
+    {
+      "meta": {
+        "bytes": 2751,
+        "cache_path": "tierb_cache\\T44\\papers\\03b6d1067581_j.memori.2023.100073",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2773064623000506",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.memori.2023.100073"
+      },
+      "title": "A novel gate-all-around with back-gate (GAAB) 3D NAND flash memory structure for high performance with disturbance-less program operation",
+      "url": "https://doi.org/10.1016/j.memori.2023.100073"
+    },
+    {
+      "meta": {
+        "bytes": 2030,
+        "cache_path": "tierb_cache\\T44\\papers\\f7fc3282f270_PII_S2773064623000506.bin",
+        "cached": false,
+        "content_type": "text/xml;charset=UTF-8",
+        "error": null,
+        "final_url": "https://api.elsevier.com/content/article/PII:S2773064623000506?httpAccept=text/xml",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://api.elsevier.com/content/article/PII:S2773064623000506?httpAccept=text/xml"
+      },
+      "title": "A novel gate-all-around with back-gate (GAAB) 3D NAND flash memory structure for high performance with disturbance-less program operation",
+      "url": "https://api.elsevier.com/content/article/PII:S2773064623000506?httpAccept=text/xml"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\ee4ba7e2d6d6_PII_S2773064623000506.bin",
+        "content_type": "text/xml;charset=UTF-8",
+        "error": "download_failed: HTTPError: 400 Client Error: Bad Request for url: https://api.elsevier.com/content/article/PII:S2773064623000506?httpAccept=text/plain",
+        "ok": false,
+        "status_code": 400,
+        "url": "https://api.elsevier.com/content/article/PII:S2773064623000506?httpAccept=text/plain"
+      },
+      "title": "A novel gate-all-around with back-gate (GAAB) 3D NAND flash memory structure for high performance with disturbance-less program operation",
+      "url": "https://api.elsevier.com/content/article/PII:S2773064623000506?httpAccept=text/plain"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\bb64c25a8105_2445572.2445577",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/2445572.2445577",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/2445572.2445577"
+      },
+      "title": "The McPAT Framework for Multicore and Manycore Architectures",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2445572.2445577"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\papers\\1def0a5cdb2d_2445572.2445577",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/2445572.2445577",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/2445572.2445577"
+      },
+      "title": "The McPAT Framework for Multicore and Manycore Architectures",
+      "url": "https://doi.org/10.1145/2445572.2445577"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\b56090671caa_3243176.3243191",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3243176.3243191#get-premium-access",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1145/3243176.3243191#get-premium-access"
+      },
+      "url": "https://doi.org/10.1145/3243176.3243191#get-premium-access"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\d315f536c3b2_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3D2018.%2BMySQL%253A%2BThe%2Bworld%2527s%2Bmost%2Bpopular%2Bopen%2Bsource%2Bdatabase.%2Bhttps%253A%252F%252Fhttpd.apache.org%252F&q=EgQfylk5GMKnyc8GIiw4VwIq1ugcwYMy9do1OmViXvTKsSxZEIq7zk0CUTBjw_6zqQcoqoaz2KdWAjICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=2018.+MySQL%3A+The+world%27s+most+popular+open+source+database.+https%3A%2F%2Fhttpd.apache.org%2F"
+      },
+      "url": "https://scholar.google.com/scholar?q=2018.+MySQL%3A+The+world%27s+most+popular+open+source+database.+https%3A%2F%2Fhttpd.apache.org%2F"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\2e8374b54ae4_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3DK.%2BK.%2BChang%252C%2BP.%2BJ.%2BNair%252C%2BD.%2BLee%252C%2BS.%2BGhose%252C%2BM.%2BK.%2BQureshi%252C%2Band%2BO.%2BMutlu.%2B2016.%2BLow-Cost%2BInter-Linked%2BSubarrays%2B%2528LISA%2529%253A%2BEnabling%2BFast%2BInter-Subarray%2BData%2BMovement%2Bin%2BDRAM.%2BIn%2BHPCA.&q=EgQfylk5GMOnyc8GIixvGXClamOpfv7Cdoq7djYUKnAtNS9k8u3cokGd-Q5qZNMOK6XNW8Qb6mZ41DICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=K.+K.+Chang%2C+P.+J.+Nair%2C+D.+Lee%2C+S.+Ghose%2C+M.+K.+Qureshi%2C+and+O.+Mutlu.+2016.+Low-Cost+Inter-Linked+Subarrays+%28LISA%29%3A+Enabling+Fast+Inter-Subarray+Data+Movement+in+DRAM.+In+HPCA."
+      },
+      "url": "https://scholar.google.com/scholar?q=K.+K.+Chang%2C+P.+J.+Nair%2C+D.+Lee%2C+S.+Ghose%2C+M.+K.+Qureshi%2C+and+O.+Mutlu.+2016.+Low-Cost+Inter-Linked+Subarrays+%28LISA%29%3A+Enabling+Fast+Inter-Subarray+Data+Movement+in+DRAM.+In+HPCA."
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\06926827aafe_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3DIntel.%2B2010.%2BIntel%2BXeon%2BProcessor%2B7500%2BSeries%2BDatasheet.&q=EgQfylk5GMOnyc8GIiwDXotkW725siKy9WPZlfOe7qbIwnXYUckLK9C66l9NzrdXqpW7G0W8Y9i-MTICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=Intel.+2010.+Intel+Xeon+Processor+7500+Series+Datasheet."
+      },
+      "url": "https://scholar.google.com/scholar?q=Intel.+2010.+Intel+Xeon+Processor+7500+Series+Datasheet."
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\0aed88664a18_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3DJEDEC%2BStandard.%2B2016.%2BGraphics%2BDouble%2BData%2BRate%2B%2528GDDR5X%2529%2BSGRAM%2BStandard.%2BJESD232A%2B%25282016%2529.&q=EgQfylk5GMSnyc8GIiy78k9J-jTzSUrhml05Qmvf60x3spDL4CSu3xb-BNP_9H0TrevGabUKeLvVeDICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=JEDEC+Standard.+2016.+Graphics+Double+Data+Rate+%28GDDR5X%29+SGRAM+Standard.+JESD232A+%282016%29."
+      },
+      "url": "https://scholar.google.com/scholar?q=JEDEC+Standard.+2016.+Graphics+Double+Data+Rate+%28GDDR5X%29+SGRAM+Standard.+JESD232A+%282016%29."
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\506c249b7c8d_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3DJEDEC%2BStandard.%2B2017.%2BLOW%2BPOWER%2BDOUBLE%2BDATA%2BRATE%2B4X%2B%2528LPDDR4X%2529.%2BJESD209-4-1%2B%25282017%2529.&q=EgQfylk5GMWnyc8GIiwWjHNV340OHQNHmF1Skyeqmgxl-JZ7ZBTyer9HYXroPxOQlTQtR332pOBZ4jICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=JEDEC+Standard.+2017.+LOW+POWER+DOUBLE+DATA+RATE+4X+%28LPDDR4X%29.+JESD209-4-1+%282017%29."
+      },
+      "url": "https://scholar.google.com/scholar?q=JEDEC+Standard.+2017.+LOW+POWER+DOUBLE+DATA+RATE+4X+%28LPDDR4X%29.+JESD209-4-1+%282017%29."
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\57c341e13e2b_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3DMicron.%2B2011.%2BRLDRAM3%2BDatasheet.&q=EgQfylk5GMWnyc8GIizWY1LtXjZu45721zvbLbyinau4e1Ql_nVcBAmZEG0_tLrHXtYmsRzh8K5YtjICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=Micron.+2011.+RLDRAM3+Datasheet."
+      },
+      "url": "https://scholar.google.com/scholar?q=Micron.+2011.+RLDRAM3+Datasheet."
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\0dec13e012c7_scholar.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://scholar.google.com/scholar%3Fq%3DS.%2BK.%2BPalaniappan%2Band%2BP.%2BB.%2BNagaraja.%2B2008.%2BEfficient%2Bdata%2Btransfer%2Bthrough%2Bzero%2Bcopy.%2Bhttps%253A%252F%252Fwww.ibm.com%252Fdeveloperworks%252Flibrary%252Fj-zerocopy%252F&q=EgQfylk5GManyc8GIiwhfzgZQWDaJz7pFKQVc0Mjh3mejOlLntDR_YZjVTp72fM8tuzgn9cbO434JjICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "https://scholar.google.com/scholar?q=S.+K.+Palaniappan+and+P.+B.+Nagaraja.+2008.+Efficient+data+transfer+through+zero+copy.+https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Flibrary%2Fj-zerocopy%2F"
+      },
+      "url": "https://scholar.google.com/scholar?q=S.+K.+Palaniappan+and+P.+B.+Nagaraja.+2008.+Efficient+data+transfer+through+zero+copy.+https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Flibrary%2Fj-zerocopy%2F"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\828c3636eff2_3243176.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/doi/proceedings/10.1145/3243176",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/doi/proceedings/10.1145/3243176"
+      },
+      "url": "https://doi.org/doi/proceedings/10.1145/3243176"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 7392611,
+        "cache_path": "tierb_cache\\T44\\data_links\\597cf6660d46_2303.07445",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2303.07445",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/src/2303.07445"
+      },
+      "url": "http://arxiv.org/src/2303.07445"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 464706,
+        "cache_path": "tierb_cache\\T44\\data_links\\3fda22c657d5_2401.16279",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2401.16279",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/src/2401.16279"
+      },
+      "url": "http://arxiv.org/src/2401.16279"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 527710,
+        "cache_path": "tierb_cache\\T44\\data_links\\6522ed5625ff_2604.16007",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2604.16007",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/src/2604.16007"
+      },
+      "url": "https://arxiv.org/src/2604.16007"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 118922,
+        "cache_path": "tierb_cache\\T44\\data_links\\2009da57914d_zenodo.6805966",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://zenodo.org/records/6805966#main",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.5281/zenodo.6805966#main"
+      },
+      "url": "https://doi.org/10.5281/zenodo.6805966#main"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\dd18e69c46b9_search.bin",
+        "content_type": "text/html;charset=UTF-8",
+        "error": "download_failed: HTTPError: 400 Client Error: Bad Request for url: https://doi.org/search?q=metadata.creators.person_or_org.name:%22Nico+Sanna%22",
+        "ok": false,
+        "status_code": 400,
+        "url": "https://doi.org/search?q=metadata.creators.person_or_org.name:%22Nico+Sanna%22"
+      },
+      "url": "https://doi.org/search?q=metadata.creators.person_or_org.name:%22Nico+Sanna%22"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T44\\data_links\\e33404e0750c_search.bin",
+        "content_type": "text/html;charset=UTF-8",
+        "error": "download_failed: HTTPError: 400 Client Error: Bad Request for url: https://doi.org/search?q=metadata.creators.person_or_org.name:%22Aris+Sotiropoulos%22",
+        "ok": false,
+        "status_code": 400,
+        "url": "https://doi.org/search?q=metadata.creators.person_or_org.name:%22Aris+Sotiropoulos%22"
+      },
+      "url": "https://doi.org/search?q=metadata.creators.person_or_org.name:%22Aris+Sotiropoulos%22"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 2161302,
+        "cache_path": "tierb_cache\\T44\\data_links\\b6e9b14813aa_files-archive.bin",
+        "cached": false,
+        "content_type": "application/zip",
+        "error": null,
+        "final_url": "https://zenodo.org/api/records/6805966/files-archive",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://zenodo.org/api/records/6805966/files-archive"
+      },
+      "url": "https://zenodo.org/api/records/6805966/files-archive"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 115107,
+        "cache_path": "tierb_cache\\T44\\data_links\\073b649f5d90_result.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://explore.openaire.eu/search/result?pid=10.5281/zenodo.6805966",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://explore.openaire.eu/search/result?pid=10.5281/zenodo.6805966"
+      },
+      "url": "https://explore.openaire.eu/search/result?pid=10.5281/zenodo.6805966"
+    }
+  ],
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-04-29T18:55:04Z",
+  "numeric_tables_count": 0,
+  "numeric_text_values_count": 1720,
+  "parsed_tables_count": 0,
+  "prediction_ids": [
+    "EL1",
+    "EL3"
+  ],
+  "prediction_names": [
+    "inter-layer area rather than volume controls scaling",
+    "3D electronics vertical volume crossover"
+  ],
+  "queries": [
+    "3D NAND layer count die area capacity table Samsung Micron SK Hynix",
+    "ISSCC 3D NAND layers die size capacity public table"
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "partial",
+  "table_summaries": [],
+  "test_id": "T44",
+  "test_name": "3D NAND area vs volume scaling",
+  "text_value_sample": [
+    {
+      "context": "1c7c257ca45-SJC\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute",
+      "term": "layer",
+      "value": 1.0
+    },
+    {
+      "context": "1c7c257ca45-SJC\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute",
+      "term": "layer",
+      "value": 7.0
+    },
+    {
+      "context": "1c7c257ca45-SJC\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute",
+      "term": "layer",
+      "value": 257.0
+    },
+    {
+      "context": "1c7c257ca45-SJC\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute",
+      "term": "layer",
+      "value": 45.0
+    },
+    {
+      "context": "1c7c257ca45-SJC\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute",
+      "term": "layer",
+      "value": 0.0
+    },
+    {
+      "context": "38]</div><div id=\"ref-00038\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">D. Lee, S. Ghose, G. Pekhimenko, S. Khan, and O. Mutlu. 2016. Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost. <i>ACM TACO</i> (January 2016).</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\">",
+      "term": "layer",
+      "value": 38.0
+    },
+    {
+      "context": "38]</div><div id=\"ref-00038\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">D. Lee, S. Ghose, G. Pekhimenko, S. Khan, and O. Mutlu. 2016. Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost. <i>ACM TACO</i> (January 2016).</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\">",
+      "term": "layer",
+      "value": -38.0
+    },
+    {
+      "context": "38]</div><div id=\"ref-00038\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">D. Lee, S. Ghose, G. Pekhimenko, S. Khan, and O. Mutlu. 2016. Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost. <i>ACM TACO</i> (January 2016).</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\">",
+      "term": "layer",
+      "value": 2016.0
+    },
+    {
+      "context": "38]</div><div id=\"ref-00038\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">D. Lee, S. Ghose, G. Pekhimenko, S. Khan, and O. Mutlu. 2016. Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost. <i>ACM TACO</i> (January 2016).</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\">",
+      "term": "layer",
+      "value": 3.0
+    },
+    {
+      "context": "38]</div><div id=\"ref-00038\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">D. Lee, S. Ghose, G. Pekhimenko, S. Khan, and O. Mutlu. 2016. Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost. <i>ACM TACO</i> (January 2016).</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\">",
+      "term": "layer",
+      "value": 2016.0
+    },
+    {
+      "context": "38]</div><div id=\"ref-00038\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">D. Lee, S. Ghose, G. Pekhimenko, S. Khan, and O. Mutlu. 2016. Simultaneous Multi-Layer Access: Improving 3D-Stacked Memory Bandwidth at Low Cost. <i>ACM TACO</i> (January 2016).</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\">",
+      "term": "layer",
+      "value": 1.0
+    },
+    {
+      "context": " truncate-text-css\" data-lines=\"4\"> <p>Three-dimensional (3D) flash memory is emerging to fulfil the ever-increasing demands of storage capacity. In 3D NAND flash memory, multiple layers are stacked to increase bit density and reduce bit cost of flash memory. However, the physical ...<em></em></p> </div></div><div class=\"readMore\"><a href=\"/doi/10.",
+      "term": "layer",
+      "value": 4.0
+    },
+    {
+      "context": " truncate-text-css\" data-lines=\"4\"> <p>Three-dimensional (3D) flash memory is emerging to fulfil the ever-increasing demands of storage capacity. In 3D NAND flash memory, multiple layers are stacked to increase bit density and reduce bit cost of flash memory. However, the physical ...<em></em></p> </div></div><div class=\"readMore\"><a href=\"/doi/10.",
+      "term": "layer",
+      "value": 3.0
+    },
+    {
+      "context": " truncate-text-css\" data-lines=\"4\"> <p>Three-dimensional (3D) flash memory is emerging to fulfil the ever-increasing demands of storage capacity. In 3D NAND flash memory, multiple layers are stacked to increase bit density and reduce bit cost of flash memory. However, the physical ...<em></em></p> </div></div><div class=\"readMore\"><a href=\"/doi/10.",
+      "term": "layer",
+      "value": 3.0
+    },
+    {
+      "context": " truncate-text-css\" data-lines=\"4\"> <p>Three-dimensional (3D) flash memory is emerging to fulfil the ever-increasing demands of storage capacity. In 3D NAND flash memory, multiple layers are stacked to increase bit density and reduce bit cost of flash memory. However, the physical ...<em></em></p> </div></div><div class=\"readMore\"><a href=\"/doi/10.",
+      "term": "layer",
+      "value": 10.5555
+    },
+    {
+      "context": " truncate-text-css\" data-lines=\"4\"> <p>Three-dimensional (3D) flash memory is emerging to fulfil the ever-increasing demands of storage capacity. In 3D NAND flash memory, multiple layers are stacked to increase bit density and reduce bit cost of flash memory. However, the physical ...<em></em></p> </div></div><div class=\"readMore\"><a href=\"/doi/10.",
+      "term": "layer",
+      "value": 2492708.24
+    },
+    {
+      "context": " of <i>latency-sensitive</i> applications. In this paper, we propose a high-density managed DRAM architecture, dubbed 3D-XPath for applications demanding both low latency and high capacity for memory. 3D-XPath DRAM stacks conventional DRAM dies with high-density DRAM dies explored in this paper and connects these DRAM dies with 3D-XPath. Especially",
+      "term": "capacity",
+      "value": 3.0
+    },
+    {
+      "context": " of <i>latency-sensitive</i> applications. In this paper, we propose a high-density managed DRAM architecture, dubbed 3D-XPath for applications demanding both low latency and high capacity for memory. 3D-XPath DRAM stacks conventional DRAM dies with high-density DRAM dies explored in this paper and connects these DRAM dies with 3D-XPath. Especially",
+      "term": "capacity",
+      "value": 3.0
+    },
+    {
+      "context": " of <i>latency-sensitive</i> applications. In this paper, we propose a high-density managed DRAM architecture, dubbed 3D-XPath for applications demanding both low latency and high capacity for memory. 3D-XPath DRAM stacks conventional DRAM dies with high-density DRAM dies explored in this paper and connects these DRAM dies with 3D-XPath. Especially",
+      "term": "capacity",
+      "value": 3.0
+    },
+    {
+      "context": " of <i>latency-sensitive</i> applications. In this paper, we propose a high-density managed DRAM architecture, dubbed 3D-XPath for applications demanding both low latency and high capacity for memory. 3D-XPath DRAM stacks conventional DRAM dies with high-density DRAM dies explored in this paper and connects these DRAM dies with 3D-XPath. Especially",
+      "term": "capacity",
+      "value": 3.0
+    },
+    {
+      "context": "><div id=\"ref-00019\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">C. Chou, A. Jaleel, and M. K. Qureshi. 2014. CAMEO: A Two-Level Memory Organization with Capacity of Main Memory and Flexibility of Hardware-Managed Cache. In <i>MICRO</i>.</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\"><a href=\"/doi",
+      "term": "capacity",
+      "value": -19.0
+    },
+    {
+      "context": "><div id=\"ref-00019\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">C. Chou, A. Jaleel, and M. K. Qureshi. 2014. CAMEO: A Two-Level Memory Organization with Capacity of Main Memory and Flexibility of Hardware-Managed Cache. In <i>MICRO</i>.</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\"><a href=\"/doi",
+      "term": "capacity",
+      "value": 2014.0
+    },
+    {
+      "context": "><div id=\"ref-00019\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">C. Chou, A. Jaleel, and M. K. Qureshi. 2014. CAMEO: A Two-Level Memory Organization with Capacity of Main Memory and Flexibility of Hardware-Managed Cache. In <i>MICRO</i>.</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\"><a href=\"/doi",
+      "term": "capacity",
+      "value": 10.1109
+    },
+    {
+      "context": "><div id=\"ref-00019\" class=\"citations\"><div class=\"citation\"><div class=\"citation-content\">C. Chou, A. Jaleel, and M. K. Qureshi. 2014. CAMEO: A Two-Level Memory Organization with Capacity of Main Memory and Flexibility of Hardware-Managed Cache. In <i>MICRO</i>.</div><div class=\"external-links\"><div class=\"core-xlink-digital-library\"><a href=\"/doi",
+      "term": "capacity",
+      "value": 201.0
+    },
+    {
+      "context": "n-content\">R. Oh, B. Lee, S.-W. Shin, W. Bae, H. Choi, I. Song, Y.-S. Lee, J.-H. Choi, C.-W. Kim, S.-J. Jang, and J. S. Choi. 2014. Design Technologies for a 1.2V 2.4Gb/s/pin High Capacity DDR4 SDRAM with TSVs. In <i>VLSI Circuits Digest of Technical Papers</i>.</div><div class=\"external-links\"><div class=\"core-xlink-google-scholar\"><a href=\"https:",
+      "term": "capacity",
+      "value": 2014.0
+    },
+    {
+      "context": "n-content\">R. Oh, B. Lee, S.-W. Shin, W. Bae, H. Choi, I. Song, Y.-S. Lee, J.-H. Choi, C.-W. Kim, S.-J. Jang, and J. S. Choi. 2014. Design Technologies for a 1.2V 2.4Gb/s/pin High Capacity DDR4 SDRAM with TSVs. In <i>VLSI Circuits Digest of Technical Papers</i>.</div><div class=\"external-links\"><div class=\"core-xlink-google-scholar\"><a href=\"https:",
+      "term": "capacity",
+      "value": 1.2
+    },
+    {
+      "context": "n-content\">R. Oh, B. Lee, S.-W. Shin, W. Bae, H. Choi, I. Song, Y.-S. Lee, J.-H. Choi, C.-W. Kim, S.-J. Jang, and J. S. Choi. 2014. Design Technologies for a 1.2V 2.4Gb/s/pin High Capacity DDR4 SDRAM with TSVs. In <i>VLSI Circuits Digest of Technical Papers</i>.</div><div class=\"external-links\"><div class=\"core-xlink-google-scholar\"><a href=\"https:",
+      "term": "capacity",
+      "value": 2.4
+    },
+    {
+      "context": "n-content\">R. Oh, B. Lee, S.-W. Shin, W. Bae, H. Choi, I. Song, Y.-S. Lee, J.-H. Choi, C.-W. Kim, S.-J. Jang, and J. S. Choi. 2014. Design Technologies for a 1.2V 2.4Gb/s/pin High Capacity DDR4 SDRAM with TSVs. In <i>VLSI Circuits Digest of Technical Papers</i>.</div><div class=\"external-links\"><div class=\"core-xlink-google-scholar\"><a href=\"https:",
+      "term": "capacity",
+      "value": 4.0
+    },
+    {
+      "context": "ee%2C+S.-W.+Shin%2C+W.+Bae%2C+H.+Choi%2C+I.+Song%2C+Y.-S.+Lee%2C+J.-H.+Choi%2C+C.-W.+Kim%2C+S.-J.+Jang%2C+and+J.+S.+Choi.+2014.+Design+Technologies+for+a+1.2V+2.4Gb%2Fs%2Fpin+High+Capacity+DDR4+SDRAM+with+TSVs.+In+VLSI+Circuits+Digest+of+Technical+Papers.\">Google Scholar</a></div></div></div></div></div><div role=\"listitem\" data-has=\"label\"><div cl",
+      "term": "capacity",
+      "value": 2.0
+    },
+    {
+      "context": "ee%2C+S.-W.+Shin%2C+W.+Bae%2C+H.+Choi%2C+I.+Song%2C+Y.-S.+Lee%2C+J.-H.+Choi%2C+C.-W.+Kim%2C+S.-J.+Jang%2C+and+J.+S.+Choi.+2014.+Design+Technologies+for+a+1.2V+2.4Gb%2Fs%2Fpin+High+Capacity+DDR4+SDRAM+with+TSVs.+In+VLSI+Circuits+Digest+of+Technical+Papers.\">Google Scholar</a></div></div></div></div></div><div role=\"listitem\" data-has=\"label\"><div cl",
+      "term": "capacity",
+      "value": 2.0
+    }
+  ]
+}

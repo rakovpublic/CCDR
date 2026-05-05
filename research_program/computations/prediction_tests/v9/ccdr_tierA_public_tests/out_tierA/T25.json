@@ -1,0 +1,38 @@
+{
+  "data_sources": [
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=eta%2Fs+quark+gluon+plasma: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=eta%2Fs+quark+gluon+plasma"
+    },
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=viscosity+heavy+ion: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=viscosity+heavy+ion"
+    },
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=ALICE+eta%2Fs: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=ALICE+eta%2Fs"
+    }
+  ],
+  "description": "Download public HEPData/literature tables when discoverable and test whether \u03b7/s approaches the KSS bound non-monotonically.",
+  "falsification_logic": {
+    "confirm_like": "\u03b7/s(T) has a minimum near 1/(4\u03c0) in natural units and non-monotonic structure",
+    "falsify_like": "public \u03b7/s tables show no KSS-adjacent minimum"
+  },
+  "generated_utc": "2026-04-28T18:34:26Z",
+  "metrics": {
+    "kss_eta_over_s_SI": 6.078312356035156e-13,
+    "tables_used": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P5"
+  ],
+  "status": "data_limited",
+  "test_id": "T25",
+  "warnings": [
+    "Could not auto-discover parseable \u03b7/s tables from HEPData search pages; add exact HEPData table URLs if needed."
+  ]
+}

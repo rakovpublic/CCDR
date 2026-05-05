@@ -1,0 +1,113 @@
+{
+  "claim_strength": "suggestive",
+  "data_sources": [
+    {
+      "error": "download failed for https://lambda.gsfc.nasa.gov/product/planck/planck_prod_table.html: HTTP Error 404: Not Found",
+      "ok": false,
+      "url": "https://lambda.gsfc.nasa.gov/product/planck/planck_prod_table.html"
+    },
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/"
+    },
+    {
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "ok": false,
+      "url": "https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-full_R3.01.txt"
+    },
+    {
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "ok": false,
+      "url": "https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-binned_R3.01.txt"
+    },
+    {
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "ok": false,
+      "url": "https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_3_COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_4_COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_5_COM_PowerSpect_CMB-TT-binned_R3.01.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TT-binned_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_6_COM_PowerSpect_CMB-TT-full_R3.01.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TT-full_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_7_COM_PowerSpect_CMB-TE-binned_R3.02.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TE-binned_R3.02.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_8_COM_PowerSpect_CMB-TE-full_R3.01.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TE-full_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_9_COM_PowerSpect_CMB-EE-binned_R3.02.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-EE-binned_R3.02.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_spectra\\planck_spectrum_10_COM_PowerSpect_CMB-EE-full_R3.01.txt.txt",
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-EE-full_R3.01.txt"
+    }
+  ],
+  "description": "Use public Planck PR3 spectra/tables, not HEALPix maps, to screen low-l large-angle anomalies.",
+  "falsification_logic": {
+    "confirm_like": "low-l power/residual pattern differs from high-l continuation in predicted anomaly direction",
+    "falsify_like": "low-l table values are consistent with smooth \u039bCDM continuation"
+  },
+  "generated_utc": "2026-05-03T20:05:02Z",
+  "metrics": {
+    "approx_lowell_likelihood": {
+      "chi2_low_vs_mid_continuation": 212045102.19699004,
+      "chi2_zscore_approx": 32719266.371679347,
+      "dof": 21,
+      "fit_log_cl_intercept": -10.574743146422799,
+      "fit_log_cl_vs_log_ell_slope": 2.756862419463006,
+      "mean_low_obs_over_pred": 527.1001227147777,
+      "mode": "mid_ell_powerlaw_plus_cosmic_variance_screen",
+      "n_low": 21,
+      "n_mid": 107,
+      "official_planck_likelihood": false,
+      "p_value_chi2_approx": 0.0
+    },
+    "cl_col": "col1",
+    "ell_col": "col0",
+    "low_mean": 11.061271765161289,
+    "low_over_mid": 0.03355781143170831,
+    "mid_mean": 329.61838967572385,
+    "n_low": 31,
+    "n_mid": 109,
+    "path": ".cache\\planck_spectra\\planck_spectrum_3_COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt.txt"
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P4"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "approx_likelihood_suggestive",
+  "test_id": "T22",
+  "warnings": [
+    "Low-l screen uses approximate cosmic-variance likelihood, not the official Planck likelihood; do not treat as hard evidence."
+  ]
+}

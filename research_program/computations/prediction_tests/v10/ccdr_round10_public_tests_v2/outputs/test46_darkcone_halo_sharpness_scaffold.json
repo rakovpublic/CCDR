@@ -1,0 +1,33 @@
+{
+  "data_sources": [],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:18Z",
+  "group": "darkcone",
+  "inputs": {
+    "R10-T04": {
+      "map_sampling_ready": true,
+      "status": "density_kappa_map_catalogue_positive_ready"
+    },
+    "R10-T05": {
+      "map_sampling_ready": true,
+      "status": "density_kappa_positive_ready"
+    },
+    "R10-T06": {
+      "map_sampling_ready": null,
+      "status": "euclid_mer_catalogue_sample_positive_ready"
+    }
+  },
+  "interpretation": "Dark-Cone v6: halo-sharpness proxy data are ready through ACT/Planck/Euclid lensing/catalogue readiness.",
+  "prediction_id": "Dark-Cone",
+  "prediction_name": "Dark-Cone halo-sharpness data-readiness positive",
+  "round": 10,
+  "runner_elapsed_s": 0.166,
+  "runner_returncode": 0,
+  "status": "branch_survival_positive",
+  "test_id": "R10-DC03",
+  "tier": "public-proxy"
+}

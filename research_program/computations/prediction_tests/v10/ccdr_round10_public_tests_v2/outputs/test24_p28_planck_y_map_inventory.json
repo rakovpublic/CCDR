@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T24__ysz_index.html",
+      "size_bytes": 3150,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/ysz_index.html"
+    }
+  ],
+  "data_sources": [
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/ysz_index.html"
+    }
+  ],
+  "downloaded_path": ".ccdr_round10_cache\\R10-T24__ysz_index.html",
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "firas_bounds_95_proxy": {
+    "mu_like_95_abs_bound": 0.20352906388150932,
+    "y_like_95_abs_bound": 0.00014768447471409692
+  },
+  "firas_input_status": "consistent_bound_only",
+  "generated_utc": "2026-05-05T15:27:27Z",
+  "group": "cmb",
+  "interpretation": "P28 v6: Planck y-map readiness plus FIRAS μ/y bound gives a staged-distortion compatible-bound cross-check.",
+  "numeric_rows_preview": 0,
+  "prediction_id": "P28",
+  "prediction_name": "P28 Planck y-map plus FIRAS bound cross-check",
+  "preview": " <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n   <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n   <head>\n   <TITLE>Planck Public Data Release 3 Maps</TITLE>\n   <meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" >\n   <link rel=\"stylesheet\" type=\"text/css\" href=\"style_maps.css\">\n   \n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen,projection\" href=\"/style.css\" />\n<link rel=\"stylesheet\" type=\"text/css\" media=\"print\" href=\"/print_style.css\" />\n<link rel=\"stylesheet\" type=\"text/css\" media=\"screen,projection\" href=\"/ui.css\" />\n<script type=\"text/javascript\" src=\"/ui_verbose.js\"></script>\n\n<!--[if lt IE 7]>\n<style type=\"text/css\" media=\"screen, projection\">\n#irsa-menu li\n{\nfloat: ",
+  "round": 10,
+  "runner_elapsed_s": 1.605,
+  "runner_returncode": 0,
+  "size_bytes": 3150,
+  "status": "consistent_bound_only",
+  "test_id": "R10-T24",
+  "tier": "public-current"
+}

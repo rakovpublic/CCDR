@@ -1,0 +1,79 @@
+{
+  "analysis_note": "The script audits public HEPData availability for AMS-02/CALET/DAMPE/CREAM high-energy flux tables. It does not claim a 1e-6 residual detection unless tables with covariance are parsed downstream.",
+  "data_source": "HEPData public search API for cosmic-ray flux tables",
+  "falsification_logic": {
+    "caveat": "Most current public flux products are not precise enough for a strict 1e-6 test; likely an upper-limit audit.",
+    "confirm_like": "Parsed >1 TeV flux tables show stable residuals at the predicted level after spectral-model controls.",
+    "falsify_like": "Adequate high-energy public flux tables rule out residuals at the predicted level."
+  },
+  "generated_utc": "2026-04-29T19:27:53Z",
+  "hepdata_searches": [
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\hepdata\\adcee5ae11ea_search.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.hepdata.net/search/?format=json&q=AMS-02%20cosmic%20ray%20proton%20flux%20TeV&size=30",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.hepdata.net/search/?format=json&q=AMS-02%20cosmic%20ray%20proton%20flux%20TeV&size=30"
+      },
+      "query": "AMS-02 cosmic ray proton flux TeV",
+      "raw_keys": null,
+      "raw_type": "NoneType",
+      "records": []
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\hepdata\\07ba372d28bc_search.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.hepdata.net/search/?format=json&q=CALET%20cosmic%20ray%20electron%20spectrum%20TeV&size=30",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.hepdata.net/search/?format=json&q=CALET%20cosmic%20ray%20electron%20spectrum%20TeV&size=30"
+      },
+      "query": "CALET cosmic ray electron spectrum TeV",
+      "raw_keys": null,
+      "raw_type": "NoneType",
+      "records": []
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\hepdata\\7366cbc1f6ea_search.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.hepdata.net/search/?format=json&q=DAMPE%20cosmic%20ray%20spectrum%20TeV&size=30",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.hepdata.net/search/?format=json&q=DAMPE%20cosmic%20ray%20spectrum%20TeV&size=30"
+      },
+      "query": "DAMPE cosmic ray spectrum TeV",
+      "raw_keys": null,
+      "raw_type": "NoneType",
+      "records": []
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\hepdata\\cff18cb58eb7_search.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.hepdata.net/search/?format=json&q=CREAM%20cosmic%20ray%20flux%20TeV&size=30",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.hepdata.net/search/?format=json&q=CREAM%20cosmic%20ray%20flux%20TeV&size=30"
+      },
+      "query": "CREAM cosmic ray flux TeV",
+      "raw_keys": null,
+      "raw_type": "NoneType",
+      "records": []
+    }
+  ],
+  "prediction_ids": [
+    "AE1"
+  ],
+  "prediction_names": [
+    ">1 TeV cosmic-ray residual at ~1e-6 level relative to standard spectra"
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "support_like": null,
+  "test_id": "T57",
+  "test_name": "cosmic-ray cross-section enhancement"
+}

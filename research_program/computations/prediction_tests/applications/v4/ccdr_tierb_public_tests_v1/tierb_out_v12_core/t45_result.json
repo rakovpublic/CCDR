@@ -1,0 +1,501 @@
+{
+  "automated_discovery_v10": {
+    "additional_auto_seed_sources_count": 2,
+    "automated_readiness_status": "sources_scanned_no_candidate_tables",
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted table/model possible; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-02T19:41:49Z",
+    "metadata_records_sample": [],
+    "metadata_records_seen_count": 0,
+    "model_diagnostics": {
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 0,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_tabular_bytes"
+          ],
+          "frames_extracted": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          }
+        ],
+        "label": "IRDS editions",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "seed_reason": "v11_electronics_seed",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "OCP optics",
+        "meta": {
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "seed_reason": "v11_electronics_seed",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 245,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      }
+    ],
+    "sources_scanned_count": 4,
+    "strict_verdict_rule_v11": "Only primary machine-readable physical tables (E3/E4) may confirm/falsify. Metadata records are link sources only. PDF/HTML/arXiv extracted tables are secondary unless they are explicit source-data files.",
+    "version": "v11_automated_discovery_strict_artifact_typing_no_manual_steps"
+  },
+  "automated_discovery_v11": {
+    "additional_auto_seed_sources_count": 2,
+    "automated_readiness_status": "sources_scanned_no_candidate_tables",
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted table/model possible; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-02T19:41:49Z",
+    "metadata_records_sample": [],
+    "metadata_records_seen_count": 0,
+    "model_diagnostics": {
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 0,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_tabular_bytes"
+          ],
+          "frames_extracted": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          }
+        ],
+        "label": "IRDS editions",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "seed_reason": "v11_electronics_seed",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "OCP optics",
+        "meta": {
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "seed_reason": "v11_electronics_seed",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v12_core\\v11_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 245,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      }
+    ],
+    "sources_scanned_count": 4,
+    "strict_verdict_rule_v11": "Only primary machine-readable physical tables (E3/E4) may confirm/falsify. Metadata records are link sources only. PDF/HTML/arXiv extracted tables are secondary unless they are explicit source-data files.",
+    "version": "v11_automated_discovery_strict_artifact_typing_no_manual_steps"
+  },
+  "automated_no_manual_steps_policy": "All v11 discovery artifacts are downloaded or extracted automatically from public URLs. Metadata APIs are link sources only, not evidence. Secondary auto-extracted PDF/figure/arXiv tables cannot confirm/falsify.",
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source_policy": "v8 curated electronics/spec manifest only; broad literature text is not evidence.",
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If curated pages lack machine-readable rows, result is data_limited, not null.",
+    "confirm_like": "Curated structured rows satisfy required spec columns and support the predicted scaling after controls.",
+    "falsify_like": "Adequate curated rows exist and the predicted scaling is absent/reversed."
+  },
+  "generated_utc": "2026-05-02T19:41:49Z",
+  "manifest_debug": {
+    "manifest_columns": [],
+    "manifest_exists": false,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\electronics_source_manifest.csv",
+    "manifest_rows_total": 0,
+    "manifest_test_ids_seen": [],
+    "rows_selected_for_test": 0,
+    "selected_labels": []
+  },
+  "manifest_records": [],
+  "manual_curated_spec_analysis": {
+    "manual_rows_used": 0,
+    "status": "no_manual_rows"
+  },
+  "manual_curated_spec_debug": {
+    "columns": [],
+    "evidence_tiers_seen": [],
+    "exists": false,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\manual_curated_electronics_specs.csv",
+    "rows_selected_for_test": 0,
+    "rows_total": 0,
+    "selected_source_labels": [],
+    "test_ids_seen": []
+  },
+  "prediction_ids": [
+    "EL8"
+  ],
+  "prediction_names": [
+    "optical surface links improve energy/bit and bandwidth/mm versus electronic vias"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_manifest_diagnostics_and_data_limited_fixes+v9_manual_specs_route+v11_strict_artifact_typing_more_auto_sources",
+  "readiness_status": "no_source_found",
+  "schema": "ccdr-tierb-result-v1",
+  "source_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\electronics_source_manifest.csv",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T45",
+  "test_name": "optical interconnect trend"
+}

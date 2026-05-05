@@ -1,0 +1,227 @@
+{
+  "claim_strength": "diagnostic",
+  "data_sources": [
+    {
+      "github": "XENONnT/light_wimp_data_release",
+      "n_files": 6376,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__README.md",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/README.md"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_LightMediator.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_LightMediator.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n1.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n1.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n2.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n2.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SDn.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SDn.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SI.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SI.csv"
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://pandax.sjtu.edu.cn/sites/default/files/run0_data.csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://pandax.sjtu.edu.cn/sites/default/files/run1_data.csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://www.hepdata.net/download/record/155182?format=csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://www.hepdata.net/download/record/155182?format=yaml"
+    }
+  ],
+  "description": "Audit public direct-detection curve coverage of the CCDR 500-3000 GeV readiness window without claiming event-level peaks.",
+  "falsification_logic": {
+    "confirm_like": "event-level public data cover predicted mass window and show reproducible peak structure",
+    "falsify_like": "event-level public data fully cover window with no structure"
+  },
+  "generated_utc": "2026-05-03T16:56:21Z",
+  "metrics": {
+    "curve_audits": [
+      {
+        "best_limit": 1.7140981123129978e-41,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2mev4",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 5.699912133353331e-48,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 6.939951737853886e-49,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 6.388617387316039e-42,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 8.889060032315933e-46,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_p2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 6.251001628448816e-42,
+        "best_limit_in_window": 6.991840968608885e-41,
+        "best_limit_is_endpoint": false,
+        "best_mass_GeV": 30.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "n": 20,
+        "n_points_in_500_3000": 3
+      },
+      {
+        "best_limit": 1.938604092296444e-40,
+        "best_limit_in_window": 2.0101532186867257e-39,
+        "best_limit_is_endpoint": false,
+        "best_mass_GeV": 30.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "n": 20,
+        "n_points_in_500_3000": 3
+      },
+      {
+        "best_limit": 136.58891381315397,
+        "best_limit_in_window": 372.6144748686594,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 6.0,
+        "covers_500_3000_GeV": true,
+        "limit_col": "limit_mediator_mass",
+        "mass_col": "mass_gev",
+        "mass_max": 10000.0,
+        "mass_min": 6.0,
+        "n": 22,
+        "n_points_in_500_3000": 3
+      }
+    ],
+    "event_level_data_available": false,
+    "n_curves_covering_window": 1,
+    "n_curves_with_3plus_window_points": 1,
+    "note": "v9.6 separates readiness/window coverage from peak evidence."
+  },
+  "notes": [
+    "v9.7 guardrail: limit-curve scans are readiness-only; no peak evidence is claimed without public event-level likelihoods or binned events."
+  ],
+  "prediction_ids": [
+    "P10/P25",
+    "P27"
+  ],
+  "prediction_names": [
+    "P10/P25 \u2014 DM peak-counting \u2192 N",
+    "P27 \u2014 geometric mass-tower ratios"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "readiness_only",
+  "test_id": "T18",
+  "warnings": []
+}

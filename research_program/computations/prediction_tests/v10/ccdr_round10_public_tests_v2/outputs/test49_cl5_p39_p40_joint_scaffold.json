@@ -1,0 +1,35 @@
+{
+  "data_sources": [],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:24Z",
+  "group": "cross_link",
+  "inputs": {
+    "R10-T01": "positive_compatible",
+    "R10-T02": "positive_compatible",
+    "R10-T03": "bao_wgrid_positive_compatible",
+    "R10-T21": "p40_bb_bound_positive_compatible",
+    "R10-T22": "p40_planck_cross_bound_positive_ready"
+  },
+  "interpretation": "CL5 v10: classification fixed. P39 can be supported by T01/T02/T03 and P40 by T21 OR T22; joint positive-compatible bound follows when both sides are positive-like.",
+  "p39_positive_inputs": [
+    "R10-T01",
+    "R10-T02",
+    "R10-T03"
+  ],
+  "p40_positive_inputs": [
+    "R10-T21",
+    "R10-T22"
+  ],
+  "prediction_id": "CL5",
+  "prediction_name": "CL5 P39+P40 fixed joint positive-compatible bound",
+  "round": 10,
+  "runner_elapsed_s": 0.178,
+  "runner_returncode": 0,
+  "status": "joint_positive_compatible_bound",
+  "test_id": "R10-CL05",
+  "tier": "public-current"
+}

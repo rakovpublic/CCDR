@@ -1,0 +1,97 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES.dat",
+      "size": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat"
+    }
+  ],
+  "description": "Repeat \u03bd-like Pantheon+ fit under low-z cuts to test whether signal is low-z-systematics carried.",
+  "falsification_logic": {
+    "confirm_like": "\u03bd-like estimate remains positive under low-z cuts",
+    "falsify_like": "\u03bd-like estimate is carried entirely by z<0.02-0.05 choices"
+  },
+  "generated_utc": "2026-04-28T18:27:29Z",
+  "metrics": {
+    "cut_fits": [
+      {
+        "chi2_best": 792.5197336687207,
+        "chi2_nu0_same_om": 808.6962390399863,
+        "delta_chi2_vs_nu0": 16.176505371265534,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); not a full RVM likelihood",
+        "n_sne": 1665,
+        "nu_like": 0.49999449932162815,
+        "nu_like_sigma_profile": 0.03950271595994609,
+        "omega_m": 0.3148146804185087,
+        "zmin": 0.005
+      },
+      {
+        "chi2_best": 711.0553368149546,
+        "chi2_nu0_same_om": 726.5773333890643,
+        "delta_chi2_vs_nu0": 15.521996574109721,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); not a full RVM likelihood",
+        "n_sne": 1583,
+        "nu_like": 0.4999930865380606,
+        "nu_like_sigma_profile": 0.039503413521832564,
+        "omega_m": 0.3056740328640803,
+        "zmin": 0.01
+      },
+      {
+        "chi2_best": 639.2152821261172,
+        "chi2_nu0_same_om": 653.2933922263801,
+        "delta_chi2_vs_nu0": 14.078110100262847,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); not a full RVM likelihood",
+        "n_sne": 1429,
+        "nu_like": 0.499996687729149,
+        "nu_like_sigma_profile": 0.039501635433732696,
+        "omega_m": 0.30170564920162624,
+        "zmin": 0.02
+      },
+      {
+        "chi2_best": 538.8555017607351,
+        "chi2_nu0_same_om": 550.0339983533029,
+        "delta_chi2_vs_nu0": 11.17849659256774,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); not a full RVM likelihood",
+        "n_sne": 1235,
+        "nu_like": 0.49999986947189057,
+        "nu_like_sigma_profile": 0.039500064448254046,
+        "omega_m": 0.3002267798125588,
+        "zmin": 0.03
+      },
+      {
+        "chi2_best": 446.17237267730417,
+        "chi2_nu0_same_om": 449.8757951774744,
+        "delta_chi2_vs_nu0": 3.703422500170234,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); not a full RVM likelihood",
+        "n_sne": 1054,
+        "nu_like": 0.385704507481049,
+        "nu_like_sigma_profile": 0.08000000000000002,
+        "omega_m": 0.29117880127915835,
+        "zmin": 0.05
+      },
+      {
+        "chi2_best": 406.84842103612635,
+        "chi2_nu0_same_om": 407.1931937341669,
+        "delta_chi2_vs_nu0": 0.34477269804057187,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); not a full RVM likelihood",
+        "n_sne": 975,
+        "nu_like": 0.1446925876222419,
+        "nu_like_sigma_profile": 0.08000000000000002,
+        "omega_m": 0.31236705599108916,
+        "zmin": 0.08
+      }
+    ],
+    "nu_median": 0.49999379292984436,
+    "nu_std": 0.13073500768839583
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P1",
+    "P39",
+    "CL3"
+  ],
+  "status": "suggestive",
+  "test_id": "T03",
+  "warnings": []
+}

@@ -1,0 +1,27 @@
+{
+  "abs_delta": 6.155189281153994e-06,
+  "data_sources": [],
+  "delta_from_2_over_3": -6.155189281153994e-06,
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:16Z",
+  "group": "smd",
+  "interpretation": "SM-D5 charged-lepton Koide constant-level check using public PDG/CODATA values. This is a consistency positive, not a derivation.",
+  "koide_Q": 0.6666605114773855,
+  "masses": {
+    "electron_MeV": 0.51099895,
+    "muon_MeV": 105.6583755,
+    "tau_MeV": 1776.86
+  },
+  "prediction_id": "SM-D5",
+  "prediction_name": "SM-D5 charged-lepton Koide constant-level check",
+  "round": 10,
+  "runner_elapsed_s": 0.161,
+  "runner_returncode": 0,
+  "status": "confirm_like",
+  "test_id": "R10-SMD05",
+  "tier": "public-current"
+}

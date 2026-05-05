@@ -1,0 +1,51 @@
+{
+  "data_sources": [
+    {
+      "n_links": 157,
+      "ok": true,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/"
+    },
+    {
+      "error": "download failed for https://lambda.gsfc.nasa.gov/product/planck/planck_prod_table.html: HTTP Error 404: Not Found",
+      "ok": false,
+      "url": "https://lambda.gsfc.nasa.gov/product/planck/planck_prod_table.html"
+    },
+    {
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "ok": false,
+      "url": "https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-full_R3.01.txt"
+    },
+    {
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "ok": false,
+      "url": "https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-binned_R3.01.txt"
+    },
+    {
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "ok": false,
+      "url": "https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck\\COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+      "size": 8842,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt"
+    }
+  ],
+  "description": "Use public Planck PR3 spectra/tables, not HEALPix maps, to screen low-l large-angle anomalies.",
+  "falsification_logic": {
+    "confirm_like": "low-l power/residual pattern differs from high-l continuation in predicted anomaly direction",
+    "falsify_like": "low-l table values are consistent with smooth \u039bCDM continuation"
+  },
+  "generated_utc": "2026-05-02T20:40:24Z",
+  "metrics": {},
+  "notes": [],
+  "prediction_ids": [
+    "P4"
+  ],
+  "status": "data_limited",
+  "test_id": "T22",
+  "warnings": [
+    "Planck product downloaded but not parseable as simple table."
+  ]
+}

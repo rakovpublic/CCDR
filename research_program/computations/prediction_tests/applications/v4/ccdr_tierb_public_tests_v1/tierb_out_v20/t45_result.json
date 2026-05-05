@@ -1,0 +1,4382 @@
+{
+  "automated_discovery_v10": {
+    "additional_auto_seed_sources_count": 8,
+    "archive_size_guard_v15": {
+      "broad_archive_default_cap_bytes": 100000000,
+      "exact_or_curated_cap_bytes": 600000000,
+      "reason": "Avoid multi-GB false-positive archives from broad repository searches while still allowing exact curated artifacts."
+    },
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "bound_only_summary_v14": {},
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "exact_manifest_sources_v15": [
+      {
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      }
+    ],
+    "generated_utc": "2026-05-04T08:19:39Z",
+    "html_boilerplate_link_filter_v18": {
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv-search UI/marketing links unless they are direct data/code/archive/document files."
+    },
+    "html_boilerplate_link_filter_v19": {
+      "dropped_links_in_sample": 0,
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv/UI/social/asset links unless they are direct data/code/archive/document files."
+    },
+    "metadata_records_sample": [
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72346,
+        "content_type": "application/json",
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72045,
+        "content_type": "application/json",
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 74163,
+        "content_type": "application/json",
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 79583,
+        "content_type": "application/json",
+        "label": "optical interconnect energy per bit dataset search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 75887,
+        "content_type": "application/json",
+        "label": "IRDS optical interconnect table search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "metadata_records_seen_count": 5,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status_v15": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 9,
+    "source_quality_ladder_v14": [
+      "curated/source-data file links",
+      "exact repository records/files",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search as last resort"
+    ],
+    "source_quality_ladder_v15": [
+      "exact public machine-readable table URLs/manifests",
+      "curated source-data/supplement links",
+      "repository record files only after record-metadata relevance passes",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search last and size-limited"
+    ],
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 244,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Open Compute optics discovery",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html;charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "meta": {
+          "bytes": 592,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\4d828041e26e_abstract.cfm",
+          "cached": false,
+          "content_type": "text/html;charset=UTF-8",
+          "error": null,
+          "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+          "head": {
+            "content_length": 592,
+            "content_type": "text/html;charset=UTF-8",
+            "error": null,
+            "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+            "ok": true,
+            "status_code": 202,
+            "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+          },
+          "ok": true,
+          "status_code": 202,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS interconnect roadmap search",
+        "meta": {
+          "bytes": 72346,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\1859f1d4b54c_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect pJ per bit source query",
+        "meta": {
+          "bytes": 72045,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\fd1cd357d5e4_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "pJ/bit optical interconnect repository query",
+        "meta": {
+          "bytes": 74163,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\564a1ebc4f23_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect energy per bit dataset search",
+        "meta": {
+          "bytes": 79583,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6d63f3d1de4f_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS optical interconnect table search",
+        "meta": {
+          "bytes": 75887,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6aa35ef5452b_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "sources_scanned_count": 11,
+    "strict_record_relevance_v15": "Repository records are scored from title/description/keywords/subjects metadata, not from the search URL text. False-positive domains are rejected before following files.",
+    "strict_verdict_rule_v14": "README/plain text metadata, repository search JSON, HTML/SVG/icon fragments, and false-positive domains are not candidates. candidate_table_count requires numeric columns plus a matched contract/domain term. Metrology tests are bound-only.",
+    "version": "v15_exact_sources_and_public_unavailability"
+  },
+  "automated_discovery_v11": {
+    "additional_auto_seed_sources_count": 8,
+    "archive_size_guard_v15": {
+      "broad_archive_default_cap_bytes": 100000000,
+      "exact_or_curated_cap_bytes": 600000000,
+      "reason": "Avoid multi-GB false-positive archives from broad repository searches while still allowing exact curated artifacts."
+    },
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "bound_only_summary_v14": {},
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "exact_manifest_sources_v15": [
+      {
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      }
+    ],
+    "generated_utc": "2026-05-04T08:19:39Z",
+    "html_boilerplate_link_filter_v18": {
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv-search UI/marketing links unless they are direct data/code/archive/document files."
+    },
+    "html_boilerplate_link_filter_v19": {
+      "dropped_links_in_sample": 0,
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv/UI/social/asset links unless they are direct data/code/archive/document files."
+    },
+    "metadata_records_sample": [
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72346,
+        "content_type": "application/json",
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72045,
+        "content_type": "application/json",
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 74163,
+        "content_type": "application/json",
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 79583,
+        "content_type": "application/json",
+        "label": "optical interconnect energy per bit dataset search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 75887,
+        "content_type": "application/json",
+        "label": "IRDS optical interconnect table search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "metadata_records_seen_count": 5,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status_v15": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 9,
+    "source_quality_ladder_v14": [
+      "curated/source-data file links",
+      "exact repository records/files",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search as last resort"
+    ],
+    "source_quality_ladder_v15": [
+      "exact public machine-readable table URLs/manifests",
+      "curated source-data/supplement links",
+      "repository record files only after record-metadata relevance passes",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search last and size-limited"
+    ],
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 244,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Open Compute optics discovery",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html;charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "meta": {
+          "bytes": 592,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\4d828041e26e_abstract.cfm",
+          "cached": false,
+          "content_type": "text/html;charset=UTF-8",
+          "error": null,
+          "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+          "head": {
+            "content_length": 592,
+            "content_type": "text/html;charset=UTF-8",
+            "error": null,
+            "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+            "ok": true,
+            "status_code": 202,
+            "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+          },
+          "ok": true,
+          "status_code": 202,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS interconnect roadmap search",
+        "meta": {
+          "bytes": 72346,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\1859f1d4b54c_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect pJ per bit source query",
+        "meta": {
+          "bytes": 72045,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\fd1cd357d5e4_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "pJ/bit optical interconnect repository query",
+        "meta": {
+          "bytes": 74163,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\564a1ebc4f23_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect energy per bit dataset search",
+        "meta": {
+          "bytes": 79583,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6d63f3d1de4f_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS optical interconnect table search",
+        "meta": {
+          "bytes": 75887,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6aa35ef5452b_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "sources_scanned_count": 11,
+    "strict_record_relevance_v15": "Repository records are scored from title/description/keywords/subjects metadata, not from the search URL text. False-positive domains are rejected before following files.",
+    "strict_verdict_rule_v14": "README/plain text metadata, repository search JSON, HTML/SVG/icon fragments, and false-positive domains are not candidates. candidate_table_count requires numeric columns plus a matched contract/domain term. Metrology tests are bound-only.",
+    "version": "v15_exact_sources_and_public_unavailability"
+  },
+  "automated_discovery_v12": {
+    "additional_auto_seed_sources_count": 8,
+    "archive_size_guard_v15": {
+      "broad_archive_default_cap_bytes": 100000000,
+      "exact_or_curated_cap_bytes": 600000000,
+      "reason": "Avoid multi-GB false-positive archives from broad repository searches while still allowing exact curated artifacts."
+    },
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "bound_only_summary_v14": {},
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "exact_manifest_sources_v15": [
+      {
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      }
+    ],
+    "generated_utc": "2026-05-04T08:19:39Z",
+    "html_boilerplate_link_filter_v18": {
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv-search UI/marketing links unless they are direct data/code/archive/document files."
+    },
+    "html_boilerplate_link_filter_v19": {
+      "dropped_links_in_sample": 0,
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv/UI/social/asset links unless they are direct data/code/archive/document files."
+    },
+    "metadata_records_sample": [
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72346,
+        "content_type": "application/json",
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72045,
+        "content_type": "application/json",
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 74163,
+        "content_type": "application/json",
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 79583,
+        "content_type": "application/json",
+        "label": "optical interconnect energy per bit dataset search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 75887,
+        "content_type": "application/json",
+        "label": "IRDS optical interconnect table search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "metadata_records_seen_count": 5,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status_v15": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 9,
+    "source_quality_ladder_v14": [
+      "curated/source-data file links",
+      "exact repository records/files",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search as last resort"
+    ],
+    "source_quality_ladder_v15": [
+      "exact public machine-readable table URLs/manifests",
+      "curated source-data/supplement links",
+      "repository record files only after record-metadata relevance passes",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search last and size-limited"
+    ],
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 244,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Open Compute optics discovery",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html;charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "meta": {
+          "bytes": 592,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\4d828041e26e_abstract.cfm",
+          "cached": false,
+          "content_type": "text/html;charset=UTF-8",
+          "error": null,
+          "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+          "head": {
+            "content_length": 592,
+            "content_type": "text/html;charset=UTF-8",
+            "error": null,
+            "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+            "ok": true,
+            "status_code": 202,
+            "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+          },
+          "ok": true,
+          "status_code": 202,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS interconnect roadmap search",
+        "meta": {
+          "bytes": 72346,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\1859f1d4b54c_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect pJ per bit source query",
+        "meta": {
+          "bytes": 72045,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\fd1cd357d5e4_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "pJ/bit optical interconnect repository query",
+        "meta": {
+          "bytes": 74163,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\564a1ebc4f23_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect energy per bit dataset search",
+        "meta": {
+          "bytes": 79583,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6d63f3d1de4f_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS optical interconnect table search",
+        "meta": {
+          "bytes": 75887,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6aa35ef5452b_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "sources_scanned_count": 11,
+    "strict_record_relevance_v15": "Repository records are scored from title/description/keywords/subjects metadata, not from the search URL text. False-positive domains are rejected before following files.",
+    "strict_verdict_rule_v14": "README/plain text metadata, repository search JSON, HTML/SVG/icon fragments, and false-positive domains are not candidates. candidate_table_count requires numeric columns plus a matched contract/domain term. Metrology tests are bound-only.",
+    "version": "v15_exact_sources_and_public_unavailability"
+  },
+  "automated_discovery_v13": {
+    "additional_auto_seed_sources_count": 8,
+    "archive_size_guard_v15": {
+      "broad_archive_default_cap_bytes": 100000000,
+      "exact_or_curated_cap_bytes": 600000000,
+      "reason": "Avoid multi-GB false-positive archives from broad repository searches while still allowing exact curated artifacts."
+    },
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "bound_only_summary_v14": {},
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "exact_manifest_sources_v15": [
+      {
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      }
+    ],
+    "generated_utc": "2026-05-04T08:19:39Z",
+    "html_boilerplate_link_filter_v18": {
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv-search UI/marketing links unless they are direct data/code/archive/document files."
+    },
+    "html_boilerplate_link_filter_v19": {
+      "dropped_links_in_sample": 0,
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv/UI/social/asset links unless they are direct data/code/archive/document files."
+    },
+    "metadata_records_sample": [
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72346,
+        "content_type": "application/json",
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72045,
+        "content_type": "application/json",
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 74163,
+        "content_type": "application/json",
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 79583,
+        "content_type": "application/json",
+        "label": "optical interconnect energy per bit dataset search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 75887,
+        "content_type": "application/json",
+        "label": "IRDS optical interconnect table search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "metadata_records_seen_count": 5,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status_v15": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 9,
+    "source_quality_ladder_v14": [
+      "curated/source-data file links",
+      "exact repository records/files",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search as last resort"
+    ],
+    "source_quality_ladder_v15": [
+      "exact public machine-readable table URLs/manifests",
+      "curated source-data/supplement links",
+      "repository record files only after record-metadata relevance passes",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search last and size-limited"
+    ],
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 244,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Open Compute optics discovery",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html;charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "meta": {
+          "bytes": 592,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\4d828041e26e_abstract.cfm",
+          "cached": false,
+          "content_type": "text/html;charset=UTF-8",
+          "error": null,
+          "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+          "head": {
+            "content_length": 592,
+            "content_type": "text/html;charset=UTF-8",
+            "error": null,
+            "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+            "ok": true,
+            "status_code": 202,
+            "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+          },
+          "ok": true,
+          "status_code": 202,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS interconnect roadmap search",
+        "meta": {
+          "bytes": 72346,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\1859f1d4b54c_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect pJ per bit source query",
+        "meta": {
+          "bytes": 72045,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\fd1cd357d5e4_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "pJ/bit optical interconnect repository query",
+        "meta": {
+          "bytes": 74163,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\564a1ebc4f23_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect energy per bit dataset search",
+        "meta": {
+          "bytes": 79583,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6d63f3d1de4f_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS optical interconnect table search",
+        "meta": {
+          "bytes": 75887,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6aa35ef5452b_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "sources_scanned_count": 11,
+    "strict_record_relevance_v15": "Repository records are scored from title/description/keywords/subjects metadata, not from the search URL text. False-positive domains are rejected before following files.",
+    "strict_verdict_rule_v14": "README/plain text metadata, repository search JSON, HTML/SVG/icon fragments, and false-positive domains are not candidates. candidate_table_count requires numeric columns plus a matched contract/domain term. Metrology tests are bound-only.",
+    "version": "v15_exact_sources_and_public_unavailability"
+  },
+  "automated_discovery_v14": {
+    "additional_auto_seed_sources_count": 8,
+    "archive_size_guard_v15": {
+      "broad_archive_default_cap_bytes": 100000000,
+      "exact_or_curated_cap_bytes": 600000000,
+      "reason": "Avoid multi-GB false-positive archives from broad repository searches while still allowing exact curated artifacts."
+    },
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "bound_only_summary_v14": {},
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "exact_manifest_sources_v15": [
+      {
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      }
+    ],
+    "generated_utc": "2026-05-04T08:19:39Z",
+    "html_boilerplate_link_filter_v18": {
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv-search UI/marketing links unless they are direct data/code/archive/document files."
+    },
+    "html_boilerplate_link_filter_v19": {
+      "dropped_links_in_sample": 0,
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv/UI/social/asset links unless they are direct data/code/archive/document files."
+    },
+    "metadata_records_sample": [
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72346,
+        "content_type": "application/json",
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72045,
+        "content_type": "application/json",
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 74163,
+        "content_type": "application/json",
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 79583,
+        "content_type": "application/json",
+        "label": "optical interconnect energy per bit dataset search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 75887,
+        "content_type": "application/json",
+        "label": "IRDS optical interconnect table search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "metadata_records_seen_count": 5,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status_v15": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 9,
+    "source_quality_ladder_v14": [
+      "curated/source-data file links",
+      "exact repository records/files",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search as last resort"
+    ],
+    "source_quality_ladder_v15": [
+      "exact public machine-readable table URLs/manifests",
+      "curated source-data/supplement links",
+      "repository record files only after record-metadata relevance passes",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search last and size-limited"
+    ],
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 244,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Open Compute optics discovery",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html;charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "meta": {
+          "bytes": 592,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\4d828041e26e_abstract.cfm",
+          "cached": false,
+          "content_type": "text/html;charset=UTF-8",
+          "error": null,
+          "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+          "head": {
+            "content_length": 592,
+            "content_type": "text/html;charset=UTF-8",
+            "error": null,
+            "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+            "ok": true,
+            "status_code": 202,
+            "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+          },
+          "ok": true,
+          "status_code": 202,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS interconnect roadmap search",
+        "meta": {
+          "bytes": 72346,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\1859f1d4b54c_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect pJ per bit source query",
+        "meta": {
+          "bytes": 72045,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\fd1cd357d5e4_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "pJ/bit optical interconnect repository query",
+        "meta": {
+          "bytes": 74163,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\564a1ebc4f23_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect energy per bit dataset search",
+        "meta": {
+          "bytes": 79583,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6d63f3d1de4f_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS optical interconnect table search",
+        "meta": {
+          "bytes": 75887,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6aa35ef5452b_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "sources_scanned_count": 11,
+    "strict_record_relevance_v15": "Repository records are scored from title/description/keywords/subjects metadata, not from the search URL text. False-positive domains are rejected before following files.",
+    "strict_verdict_rule_v14": "README/plain text metadata, repository search JSON, HTML/SVG/icon fragments, and false-positive domains are not candidates. candidate_table_count requires numeric columns plus a matched contract/domain term. Metrology tests are bound-only.",
+    "version": "v15_exact_sources_and_public_unavailability"
+  },
+  "automated_discovery_v15": {
+    "additional_auto_seed_sources_count": 8,
+    "archive_size_guard_v15": {
+      "broad_archive_default_cap_bytes": 100000000,
+      "exact_or_curated_cap_bytes": 600000000,
+      "reason": "Avoid multi-GB false-positive archives from broad repository searches while still allowing exact curated artifacts."
+    },
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "bound_only_summary_v14": {},
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "exact_manifest_sources_v15": [
+      {
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      }
+    ],
+    "generated_utc": "2026-05-04T08:19:39Z",
+    "html_boilerplate_link_filter_v18": {
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv-search UI/marketing links unless they are direct data/code/archive/document files."
+    },
+    "html_boilerplate_link_filter_v19": {
+      "dropped_links_in_sample": 0,
+      "enabled": true,
+      "policy": "Drop generic GitHub/arXiv/UI/social/asset links unless they are direct data/code/archive/document files."
+    },
+    "metadata_records_sample": [
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72346,
+        "content_type": "application/json",
+        "label": "IRDS interconnect roadmap search",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 72045,
+        "content_type": "application/json",
+        "label": "optical interconnect pJ per bit source query",
+        "reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 74163,
+        "content_type": "application/json",
+        "label": "pJ/bit optical interconnect repository query",
+        "reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 79583,
+        "content_type": "application/json",
+        "label": "optical interconnect energy per bit dataset search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_role": "metadata_record",
+        "bytes": 75887,
+        "content_type": "application/json",
+        "label": "IRDS optical interconnect table search",
+        "reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "metadata_records_seen_count": 5,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status_v15": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 9,
+    "source_quality_ladder_v14": [
+      "curated/source-data file links",
+      "exact repository records/files",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search as last resort"
+    ],
+    "source_quality_ladder_v15": [
+      "exact public machine-readable table URLs/manifests",
+      "curated source-data/supplement links",
+      "repository record files only after record-metadata relevance passes",
+      "arXiv/source packages",
+      "publisher supplements",
+      "broad repository search last and size-limited"
+    ],
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 244,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          }
+        ],
+        "extracted_links_after_v18_filter_count": 2,
+        "extracted_links_after_v19_filter_count": 2,
+        "extracted_links_before_v18_filter_count": 2,
+        "extracted_links_before_v19_filter_count": 2,
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Open Compute optics discovery",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\a98a224627ed_Optics.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.opencompute.org/wiki/Networking/Optics"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "manifest_records",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html;charset=utf-8",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "meta": {
+          "bytes": 592,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\4d828041e26e_abstract.cfm",
+          "cached": false,
+          "content_type": "text/html;charset=UTF-8",
+          "error": null,
+          "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+          "head": {
+            "content_length": 592,
+            "content_type": "text/html;charset=UTF-8",
+            "error": null,
+            "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-23-3-2085&html=true",
+            "ok": true,
+            "status_code": 202,
+            "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+          },
+          "ok": true,
+          "status_code": 202,
+          "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS interconnect roadmap search",
+        "meta": {
+          "bytes": 72346,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\1859f1d4b54c_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect pJ per bit source query",
+        "meta": {
+          "bytes": 72045,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\fd1cd357d5e4_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_manifest:electronics_exact_source_manifest.csv",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "pJ/bit optical interconnect repository query",
+        "meta": {
+          "bytes": 74163,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\564a1ebc4f23_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=%22pJ/bit%22+%22optical+interconnect%22+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v15_exact_repository_query",
+        "url": "https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22optical%20interconnect%22%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "optical interconnect energy per bit dataset search",
+        "meta": {
+          "bytes": 79583,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6d63f3d1de4f_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=optical+interconnect+energy+per+bit+bandwidth&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=optical%20interconnect%20energy%20per%20bit%20bandwidth&size=10"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/json",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v14_filter": 0,
+          "frames_rejected_by_v14_readme_or_nondata_gate": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "extracted_links_after_v18_filter_count": 0,
+        "extracted_links_after_v19_filter_count": 0,
+        "extracted_links_before_v18_filter_count": 0,
+        "extracted_links_before_v19_filter_count": 0,
+        "label": "IRDS optical interconnect table search",
+        "meta": {
+          "bytes": 75887,
+          "cache_path": "tierb_cache_v20\\v14_auto_discovery_T45\\files\\files\\6aa35ef5452b_records.bin",
+          "cached": false,
+          "content_type": "application/json",
+          "error": null,
+          "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+          "head": {
+            "content_length": null,
+            "content_type": "application/json",
+            "error": null,
+            "final_url": "https://zenodo.org/api/records?q=IRDS+interconnect+energy+per+bit+optical&size=10",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "v14_electronics_connector",
+        "url": "https://zenodo.org/api/records/?q=IRDS%20interconnect%20energy%20per%20bit%20optical&size=10"
+      }
+    ],
+    "sources_scanned_count": 11,
+    "strict_record_relevance_v15": "Repository records are scored from title/description/keywords/subjects metadata, not from the search URL text. False-positive domains are rejected before following files.",
+    "strict_verdict_rule_v14": "README/plain text metadata, repository search JSON, HTML/SVG/icon fragments, and false-positive domains are not candidates. candidate_table_count requires numeric columns plus a matched contract/domain term. Metrology tests are bound-only.",
+    "version": "v15_exact_sources_and_public_unavailability"
+  },
+  "automated_no_manual_steps_policy": "All v15 discovery artifacts are downloaded or extracted automatically from public URLs. Exact manifests contain only URLs, never manual numeric rows.",
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source_policy": "v8 curated electronics/spec manifest only; broad literature text is not evidence.",
+  "electronics_exact_parser_v19": {
+    "avoid": "generic HTML scraping; parse exact tables/PDF tables only",
+    "manifest_rows": 3,
+    "parser_family": "IRDS/optical-interconnect PDF table parser",
+    "positive_success_rule": "exact public spec/benchmark rows pass required columns and produce predicted residual/trend after year/node/task controls.",
+    "required_columns": [
+      "energy_per_bit_pJ",
+      "bandwidth_Gbps",
+      "bandwidth_per_mm",
+      "link_length",
+      "process_node"
+    ],
+    "source_sample": [
+      {
+        "evidence_role": "html_or_table_discovery",
+        "label": "Large data centers interconnect bottlenecks - Optics Express",
+        "notes": "",
+        "reason": "",
+        "required_observables": "bandwidth density; form factor; energy per bit; link",
+        "source_url": "https://opg.optica.org/abstract.cfm?uri=oe-23-3-2085",
+        "test_id": "T45",
+        "tier": "",
+        "url": ""
+      },
+      {
+        "evidence_role": "",
+        "label": "IRDS interconnect roadmap search",
+        "notes": "PDF/source table extractor",
+        "reason": "v16_irds_interconnect_query",
+        "required_observables": "",
+        "source_url": "",
+        "test_id": "T45",
+        "tier": "metadata_only",
+        "url": "https://zenodo.org/api/records/?q=IRDS+interconnect+energy+per+bit+bandwidth+table&size=10"
+      },
+      {
+        "evidence_role": "",
+        "label": "optical interconnect pJ per bit source query",
+        "notes": "requires pJ/bit and bandwidth/reach",
+        "reason": "v16_optical_interconnect_query",
+        "required_observables": "",
+        "source_url": "",
+        "test_id": "T45",
+        "tier": "metadata_only",
+        "url": "https://zenodo.org/api/records/?q=optical+interconnect+energy+per+bit+pJ+bandwidth+mm+table&size=10"
+      }
+    ],
+    "status": "parser_route_ready"
+  },
+  "evidence_status": "data_limited",
+  "exact_source_parser_status_v16": {
+    "next_parser_family": "IRDS/Optical-interconnect PDF table parser",
+    "primary_qualifying_table_count": 0,
+    "public_unavailability_status": {
+      "meaning": "Exact manifests and targeted public repositories were scanned but no physical table met even candidate gates.",
+      "status": "no_public_primary_physical_table_found_after_exact_source_search"
+    },
+    "secondary_qualifying_table_count": 0,
+    "test_id": "T45"
+  },
+  "falsification_logic": {
+    "caveat": "If curated pages lack machine-readable rows, result is data_limited, not null.",
+    "confirm_like": "Curated structured rows satisfy required spec columns and support the predicted scaling after controls.",
+    "falsify_like": "Adequate curated rows exist and the predicted scaling is absent/reversed."
+  },
+  "generated_utc": "2026-05-04T08:19:39Z",
+  "manifest_debug": {
+    "manifest_columns": [
+      "test_id",
+      "label",
+      "url",
+      "source_kind",
+      "required_columns",
+      "note"
+    ],
+    "manifest_exists": true,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\electronics_source_manifest.csv",
+    "manifest_rows_total": 8,
+    "manifest_test_ids_seen": [
+      "T44",
+      "T45",
+      "T47"
+    ],
+    "rows_selected_for_test": 2,
+    "selected_labels": [
+      "IRDS public roadmap page",
+      "Open Compute optics discovery"
+    ]
+  },
+  "manifest_records": [
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "IRDS public roadmap page",
+      "manifest_note": "Curated source only; evidence requires structured table download.",
+      "manifest_row": {
+        "label": "IRDS public roadmap page",
+        "note": "Curated source only; evidence requires structured table download.",
+        "required_columns": "energy per bit;bandwidth per mm;node;link length",
+        "source_kind": "html_table",
+        "test_id": "T45",
+        "url": "https://irds.ieee.org/editions"
+      },
+      "meta": {
+        "bytes": 78961,
+        "cache_path": "tierb_cache_v20\\v7_curated_tables\\files\\19291ac5d5b1_editions.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://irds.ieee.org/editions/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://irds.ieee.org/editions"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "energy per bit"
+        ],
+        [
+          "bandwidth per mm"
+        ],
+        [
+          "node"
+        ],
+        [
+          "link length"
+        ]
+      ],
+      "source_kind": "html_table",
+      "tables": [],
+      "url": "https://irds.ieee.org/editions"
+    },
+    {
+      "label": "Open Compute optics discovery",
+      "manifest_note": "v11 additional automatic source.",
+      "manifest_row": {
+        "label": "Open Compute optics discovery",
+        "note": "v11 additional automatic source.",
+        "required_columns": "energy per bit;bandwidth per mm;node;link length",
+        "source_kind": "html_table",
+        "test_id": "T45",
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      "meta": {
+        "cache_path": "tierb_cache_v20\\v7_curated_tables\\files\\a98a224627ed_Optics.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.opencompute.org/wiki/Networking/Optics",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://www.opencompute.org/wiki/Networking/Optics",
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.opencompute.org/wiki/Networking/Optics"
+        },
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.opencompute.org/wiki/Networking/Optics"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "energy per bit"
+        ],
+        [
+          "bandwidth per mm"
+        ],
+        [
+          "node"
+        ],
+        [
+          "link length"
+        ]
+      ],
+      "source_kind": "html_table",
+      "tables": [],
+      "url": "https://www.opencompute.org/wiki/Networking/Optics"
+    }
+  ],
+  "manual_curated_spec_analysis": {
+    "manual_rows_used": 0,
+    "status": "no_manual_rows"
+  },
+  "manual_curated_spec_debug": {
+    "columns": [
+      "test_id",
+      "source_label",
+      "source_url",
+      "evidence_tier",
+      "company",
+      "technology",
+      "year",
+      "layers",
+      "die_capacity_gb",
+      "die_area_mm2",
+      "bits_per_cell",
+      "energy_per_bit_pj",
+      "bandwidth_per_mm_gbps",
+      "link_length_mm",
+      "process_node_nm",
+      "chip",
+      "benchmark",
+      "energy_per_inference_uj",
+      "accuracy_pct",
+      "topology",
+      "node_count",
+      "notes"
+    ],
+    "evidence_tiers_seen": [],
+    "exists": true,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\manual_curated_electronics_specs.csv",
+    "rows_selected_for_test": 0,
+    "rows_total": 0,
+    "selected_source_labels": [],
+    "test_ids_seen": []
+  },
+  "positive_path_v18": {
+    "current_candidate_table_count": 0,
+    "current_primary_qualifying_table_count": 0,
+    "current_secondary_qualifying_table_count": 0,
+    "current_status": "data_limited",
+    "do_not_overclaim": "This positive path can produce diagnostics/readiness but cannot confirm unless primary physical table gates pass.",
+    "evidence_scope": "public roadmap/spec tables",
+    "positive_goal": "energy/bit vs bandwidth/reach trend aligns with acoustic/optical proxy",
+    "positive_path_status": "implemented_no_qualifying_public_table_yet",
+    "route": "IRDS/optical-interconnect pJ-bit table extractor"
+  },
+  "prediction_ids": [
+    "EL8"
+  ],
+  "prediction_names": [
+    "optical surface links improve energy/bit and bandwidth/mm versus electronic vias"
+  ],
+  "programmatic_verdict": "data_limited_positive_path_ready",
+  "programmatic_verdict_v19": {
+    "candidate_table_count": 0,
+    "positive_path_present": true,
+    "qualifying_table_count": 0,
+    "reporting_language": "No qualifying table yet, but exact positive path is implemented and tracked.",
+    "strict_confirmation_allowed": false,
+    "strict_falsification_allowed": false,
+    "support_like": null,
+    "verdict": "data_limited_positive_path_ready"
+  },
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_manifest_diagnostics_and_data_limited_fixes+v9_manual_specs_route+v15_exact_source_resolution+v16_exact_parser_status+v18_data_limited_positive_route+v19_programmatic_verdict",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "source_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\electronics_source_manifest.csv",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T45",
+  "test_name": "optical interconnect trend"
+}

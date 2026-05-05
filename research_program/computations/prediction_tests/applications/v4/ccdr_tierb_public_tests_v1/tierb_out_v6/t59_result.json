@@ -1,0 +1,277 @@
+{
+  "data_source": "v5 exact HEPData table manifest split by MET/Drell-Yan/di-Higgs categories",
+  "endpoint_records": [
+    {
+      "category": "MET near EW threshold",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              "GLUINO MASS [GEV]",
+              "NEUTRALINO1 MASS [GEV]",
+              "ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO MASS [GEV]",
+                "NEUTRALINO1 MASS [GEV]",
+                "ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "GLUINO MASS [GEV]",
+                  "NEUTRALINO1 MASS [GEV]"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              3
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO",
+              "MASS",
+              "[GEV],NEUTRALINO1",
+              "MASS.1",
+              "[GEV],ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO",
+                "MASS",
+                "[GEV],NEUTRALINO1",
+                "MASS.1",
+                "[GEV],ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "MASS",
+                  "MASS.1"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              5
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO MASS [GEV]",
+              "NEUTRALINO1 MASS [GEV]",
+              "ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO MASS [GEV]",
+                "NEUTRALINO1 MASS [GEV]",
+                "ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "GLUINO MASS [GEV]",
+                  "NEUTRALINO1 MASS [GEV]"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              3
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO",
+              "MASS",
+              "[GEV],NEUTRALINO1",
+              "MASS.1",
+              "[GEV],ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO",
+                "MASS",
+                "[GEV],NEUTRALINO1",
+                "MASS.1",
+                "[GEV],ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "MASS",
+                  "MASS.1"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              5
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO MASS [GEV]",
+              "NEUTRALINO1 MASS [GEV]",
+              "ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO MASS [GEV]",
+                "NEUTRALINO1 MASS [GEV]",
+                "ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "GLUINO MASS [GEV]",
+                  "NEUTRALINO1 MASS [GEV]"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              3
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO",
+              "MASS",
+              "[GEV],NEUTRALINO1",
+              "MASS.1",
+              "[GEV],ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO",
+                "MASS",
+                "[GEV],NEUTRALINO1",
+                "MASS.1",
+                "[GEV],ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "MASS",
+                  "MASS.1"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              5
+            ]
+          }
+        ]
+      },
+      "label": "HEPData MET example",
+      "meta": {
+        "bytes": 2074,
+        "cache_path": "tierb_cache_v6\\T59_hep_v5\\files\\1e1a0d6ccadc_csv.bin",
+        "cached": false,
+        "content_type": "text/csv; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv",
+        "head": {
+          "content_length": 2074,
+          "content_type": "text/csv; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "generated_utc": "2026-05-01T05:15:13Z",
+  "ledger_categories": {
+    "MET near EW threshold": {
+      "exact_table_attempts": 1,
+      "qualifying": 0
+    }
+  },
+  "prediction_ids": [
+    "P9b",
+    "P9e",
+    "P9f"
+  ],
+  "prediction_names": [
+    "MET near EW threshold, Drell-Yan ~1 TeV, di-Higgs threshold audit"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T59",
+  "test_name": "public HEP anomaly ledger"
+}

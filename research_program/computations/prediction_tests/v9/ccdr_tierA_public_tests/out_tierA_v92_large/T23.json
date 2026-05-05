@@ -1,0 +1,35 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\cmb_bmode\\BK18_bandpowers_20210607.txt",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/BICEPK_2021/BK18_bandpowers_20210607.txt"
+    }
+  ],
+  "description": "Screen public B-mode bandpower/forecast tables for low-l residual room for a bulk-Weyl component.",
+  "falsification_logic": {
+    "confirm_like": "low-l BB residual room is compatible with P40-shaped contribution",
+    "falsify_like": "published BB limits exclude predicted amplitude/shape"
+  },
+  "generated_utc": "2026-04-28T20:43:02Z",
+  "metrics": {
+    "bandpower_tables_used": [
+      {
+        "all_mean": 177.5,
+        "low_l_mean": 177.5,
+        "low_l_n": 9,
+        "n": 9,
+        "source": "https://lambda.gsfc.nasa.gov/data/suborbital/BICEPK_2021/BK18_bandpowers_20210607.txt"
+      }
+    ],
+    "note": "Forecast/public bandpower screen only; no map-level B-mode analysis."
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P40",
+    "CL5"
+  ],
+  "status": "suggestive",
+  "test_id": "T23",
+  "warnings": []
+}

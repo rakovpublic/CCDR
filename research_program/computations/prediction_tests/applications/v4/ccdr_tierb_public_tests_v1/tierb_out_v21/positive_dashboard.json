@@ -1,0 +1,305 @@
+{
+  "anchors": [
+    "T60"
+  ],
+  "bound_only": [
+    "T50",
+    "T51",
+    "T52"
+  ],
+  "broad_nulls_with_open_narrow_path": [
+    "T32"
+  ],
+  "data_limited_positive_paths": [
+    "T26",
+    "T27",
+    "T28",
+    "T29",
+    "T30",
+    "T44",
+    "T45",
+    "T47",
+    "T54",
+    "T57",
+    "T59"
+  ],
+  "descriptor_paths_ready": [
+    "T48"
+  ],
+  "engineering_paths_ready": [
+    "T46"
+  ],
+  "physical_positive_leads": [
+    "T31"
+  ],
+  "readiness_positive": [
+    "T53"
+  ],
+  "schema": "ccdr-tierb-positive-dashboard-v20",
+  "tests": [
+    {
+      "positive_fields": [
+        "fusion_positive_diagnostic_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T26",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "fusion_positive_diagnostic_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T27",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "fusion_positive_diagnostic_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T28",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "fusion_positive_diagnostic_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T29",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "fusion_positive_diagnostic_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T30",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "flagship_materials_positive_v20",
+        "materials_positive_score_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": false,
+      "test_id": "T31",
+      "verdict": "positive_physical_lead"
+    },
+    {
+      "positive_fields": [
+        "mat3_positive_reframe_v20",
+        "materials_positive_score_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": false,
+      "test_id": "T32",
+      "verdict": "null_broad_claim_open_narrow_claim"
+    },
+    {
+      "test_id": "T33",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T34",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T35",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T36",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T37",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T38",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T39",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T40",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T41",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T42",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T43",
+      "verdict": "data_limited"
+    },
+    {
+      "positive_fields": [
+        "electronics_parser_plan_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T44",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "electronics_parser_plan_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T45",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "programmatic_verdict",
+        "programmatic_verdict_v19",
+        "t46b_search_plan_v20"
+      ],
+      "support_like": false,
+      "test_id": "T46",
+      "verdict": "null_current_benchmark_design_search_ready"
+    },
+    {
+      "positive_fields": [
+        "electronics_parser_plan_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T47",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "positive_readiness_label_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19",
+        "t48a_t48b_verdict_v20"
+      ],
+      "support_like": false,
+      "test_id": "T48",
+      "verdict": "null_coarse_proxy_descriptor_model_ready"
+    },
+    {
+      "test_id": "T49",
+      "verdict": "data_limited"
+    },
+    {
+      "positive_fields": [
+        "bound_positive_path_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T50",
+      "verdict": "bound_only"
+    },
+    {
+      "positive_fields": [
+        "bound_positive_path_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T51",
+      "verdict": "bound_only"
+    },
+    {
+      "positive_fields": [
+        "bound_positive_path_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T52",
+      "verdict": "bound_only"
+    },
+    {
+      "positive_fields": [
+        "positive_readiness_label_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19",
+        "t53_residual_model_v20"
+      ],
+      "support_like": null,
+      "test_id": "T53",
+      "verdict": "readiness_positive"
+    },
+    {
+      "positive_fields": [
+        "coherence_exact_supplement_route_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T54",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "test_id": "T55",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T56",
+      "verdict": "data_limited"
+    },
+    {
+      "positive_fields": [
+        "hep_exact_table_route_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T57",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "test_id": "T58",
+      "verdict": "data_limited"
+    },
+    {
+      "positive_fields": [
+        "hep_exact_table_route_v20",
+        "programmatic_verdict",
+        "programmatic_verdict_v19"
+      ],
+      "support_like": null,
+      "test_id": "T59",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "positive_fields": [
+        "programmatic_verdict",
+        "programmatic_verdict_v19",
+        "t60a_formal_anchor_v20"
+      ],
+      "support_like": true,
+      "test_id": "T60",
+      "verdict": "positive_consistency_anchor"
+    }
+  ]
+}

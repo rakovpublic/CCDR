@@ -1,0 +1,425 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES.dat",
+      "size": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES_STAT_2BSYS.cov",
+      "size": 33284960,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES_STAT%2BSYS.cov"
+    },
+    {
+      "cov_shape": [
+        1701,
+        1701
+      ],
+      "note": "Pantheon+ covariance parsed",
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES_STAT_2BSYS.cov"
+    },
+    {
+      "github": "CobayaSampler/bao_data",
+      "n_files": 59,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\BAO_consensus_covtot_dM_Hz.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/BAO_consensus_covtot_dM_Hz.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\FS_consensus_covtot_dM_Hz_fsig.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/FS_consensus_covtot_dM_Hz_fsig.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_eboss_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_eboss_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_eboss_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_eboss_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_z0.8-1.1_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_z0.8-1.1_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_z0.8-1.1_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_z0.8-1.1_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_QSO_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_QSO_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\final_consensus_covtot_dM_Hz_fsig.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/final_consensus_covtot_dM_Hz_fsig.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_FS.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_FS.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_bao.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_bao.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_final.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_final.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12_LRG_BAO_DMDH.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12_LRG_BAO_DMDH.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12_LRG_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12_LRG_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_ELG_BAO_DVtable.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_ELG_BAO_DVtable.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LRG_BAO_DMDH.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LRG_BAO_DMDH.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LRG_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LRG_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LYAUTO_BAO_DMDHgrid.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LYAUTO_BAO_DMDHgrid.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LYxQSO_BAO_DMDHgrid.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LYxQSO_BAO_DMDHgrid.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_QSO_BAO_DMDH.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_QSO_BAO_DMDH.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_QSO_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_QSO_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_MGS_prob.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_MGS_prob.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\test_bao_mixed_observables_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/test_bao_mixed_observables_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\test_bao_mixed_observables_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/test_bao_mixed_observables_mean.txt"
+    }
+  ],
+  "description": "Audit \u03bd-like RVM signal stability using public Pantheon+ covariance and DESI DR2 BAO covariance products.",
+  "falsification_logic": {
+    "confirm_like": "A covariance-aware BAO+SN public-data likelihood prefers a positive, stable \u03bd-like parameter without bound hits.",
+    "falsify_like": "\u03bd-like signal disappears under covariance-aware DR2/SN cuts or is carried by bounded diagnostics."
+  },
+  "generated_utc": "2026-05-02T19:05:26Z",
+  "metrics": {
+    "desi_dr2_covariance_gls_screen": {
+      "chi2_constant": 6241.504769254604,
+      "chi2_linear": 6175.849659301778,
+      "cov_path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "delta_chi2_linear_vs_constant": 65.65510995282602,
+      "mean_path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "mode": "desi_dr2_public_covariance_gls_trend",
+      "n_points": 13,
+      "note": "Covariance-aware trend screen; improves on v9.4 mean-vector Spearman but is still not a full RVM BAO likelihood.",
+      "slope_norm_per_z": -0.12301071590217472,
+      "slope_sigma": 0.015181290108267603,
+      "slope_zscore": -8.102784086523984,
+      "spearman_on_normalized_means": {
+        "n": 13,
+        "pvalue": 0.9713405836005657,
+        "rho": -0.011080715035017985
+      },
+      "z_max": 2.33,
+      "z_min": 0.295
+    },
+    "desi_dr2_mean_vector_screen": {
+      "linear_coef": [
+        1.1680438486137497,
+        -0.9201118494717629
+      ],
+      "n_points": 13,
+      "n_tables": 1,
+      "note": "DESI DR2 mean-vector trend screen only; not a covariance likelihood and not a branch-selection result.",
+      "spearman": {
+        "n": 13,
+        "pvalue": 0.3902084647096961,
+        "rho": 0.26039680332292264
+      },
+      "tables_used": [
+        {
+          "n": 13,
+          "observable_col": "2",
+          "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "y_col": "1",
+          "z_col": "0",
+          "z_max": 2.33,
+          "z_min": 0.295
+        }
+      ]
+    },
+    "interpretation_rules": {
+      "desi_covariance_delta_chi2_linear_vs_constant": 65.65510995282602,
+      "desi_covariance_slope_zscore": -8.102784086523984,
+      "full_likelihood_run": true,
+      "note": "The BAO side is covariance-aware GLS, not a Boltzmann-code RVM likelihood; status remains conservative.",
+      "sn_covariance_available": true,
+      "sn_delta_chi2_vs_nu0": 2.142920581670751,
+      "sn_nu_like": 0.1999997936190738,
+      "sn_proxy_bound_hit": true
+    },
+    "pantheon_sn_covariance_audit": {
+      "chi2_best": 1654.1676609254255,
+      "chi2_nu0_profile_omega_m": 1656.3105815070962,
+      "delta_chi2_vs_nu0": 2.142920581670751,
+      "hit_nu_bound": true,
+      "mode": "full_public_covariance",
+      "model_note": "Covariance-aware Pantheon+ \u03bd-like audit; still phenomenological, but no longer diagonal-only SN proxy when covariance is available.",
+      "n_sne": 1665,
+      "nu_like": 0.1999997936190738,
+      "nu_like_sigma_profile_approx": 0.14730521488813697,
+      "omega_m": 0.3408047143584338
+    },
+    "pantheon_sn_diagonal_proxy": {
+      "chi2_best": 795.402391287193,
+      "chi2_nu0_same_om": 795.8556361361952,
+      "delta_chi2_vs_nu0": 0.4532448490022034,
+      "hit_nu_bound": true,
+      "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+      "n_sne": 1665,
+      "nu_like": 0.04999713000070425,
+      "nu_like_sigma_profile": 0.009876417062152277,
+      "omega_m": 0.3764169606186679
+    }
+  },
+  "notes": [
+    "v9.5 adds Pantheon+ covariance parsing and DESI DR2 covariance-aware GLS; this is a quality upgrade, but still not a full RVM Monte Carlo analysis."
+  ],
+  "prediction_ids": [
+    "P1",
+    "P39",
+    "CL3"
+  ],
+  "prediction_names": [
+    "P1 \u2014 RVM BAO scale shift",
+    "P39 \u2014 secular \u039b-drift from bulk cooling",
+    "CL3 \u2014 \u03bd triangle/cross-link"
+  ],
+  "status": "diagnostic_only",
+  "test_id": "T01",
+  "warnings": [
+    "Covariance SN \u03bd-like fit hit its allowed bound; no RVM evidence claimed."
+  ]
+}

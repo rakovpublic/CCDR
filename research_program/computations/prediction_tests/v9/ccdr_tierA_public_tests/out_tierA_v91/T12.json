@@ -1,0 +1,55 @@
+{
+  "data_sources": [
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\00_kross_release_v2.fits",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Estimate high-z acceleration proxy from public KMOS3D/KROSS catalogue-level products and test trend with redshift.",
+  "falsification_logic": {
+    "confirm_like": "high-z acceleration proxy increases with z and lies above local SPARC anchor",
+    "falsify_like": "proxy trend vanishes or decreases after quality cuts"
+  },
+  "generated_utc": "2026-04-28T19:18:08Z",
+  "metrics": {
+    "log_g_vs_z_coef": [
+      0.43565661458679195,
+      -10.270982738722564
+    ],
+    "mean_a_proxy_m_s2": 5.112118919180208e-10,
+    "n_points": 586,
+    "radius_col": "R_IM",
+    "radius_meta": {
+      "radius_median_raw": 2.826247215270996,
+      "radius_mode": "kpc"
+    },
+    "spearman_z_g": {
+      "n": 586,
+      "pvalue": 0.6348954144202867,
+      "rho": 0.019655858557894125
+    },
+    "v_col": "VC",
+    "z_col": "Z",
+    "z_max": 1.0419789833847581,
+    "z_min": 0.5798440460150321
+  },
+  "notes": [],
+  "prediction_ids": [
+    "\u00a76.1b",
+    "P36"
+  ],
+  "status": "suggestive",
+  "test_id": "T12",
+  "warnings": []
+}

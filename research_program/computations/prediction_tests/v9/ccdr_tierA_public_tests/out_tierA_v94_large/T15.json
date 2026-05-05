@@ -1,0 +1,153 @@
+{
+  "data_sources": [
+    {
+      "file": "NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "ok": true,
+      "path": ".cache\\zenodo_16051178\\NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "record_id": "16051178",
+      "size": 638719668,
+      "url": "https://zenodo.org/api/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz/content"
+    }
+  ],
+  "description": "Acquire public NANOGrav 15-year products and perform non-specialized beat-screening where tabulated residual/proxy data exist.",
+  "falsification_logic": {
+    "confirm_like": "public residual/posterior tables show excess at predicted beat band",
+    "falsify_like": "no beat-band excess in public residual/posterior tables at current sensitivity"
+  },
+  "generated_utc": "2026-04-28T22:29:20Z",
+  "metrics": {
+    "n_par_files": 318,
+    "n_residual_like_files": 152,
+    "n_tim_files": 836,
+    "note": "No TEMPO2/enterprise timing fit is performed.",
+    "simple_spectra": [
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1855+09.wb.chain_1.txt",
+        "peak_frequency_index": 29,
+        "peak_power": 21.690900767141457
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1937+21.wb.chain_1.txt",
+        "peak_frequency_index": 10,
+        "peak_power": 60.564188149145245
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1937+21ao.wb.chain_1.txt",
+        "peak_frequency_index": 86,
+        "peak_power": 6.827794334373953
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1937+21gbt.wb.chain_1.txt",
+        "peak_frequency_index": 44,
+        "peak_power": 39.785420320115776
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1953+29.wb.chain_1.txt",
+        "peak_frequency_index": 38,
+        "peak_power": 12.776292446719824
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0023+0923.wb.chain_1.txt",
+        "peak_frequency_index": 33,
+        "peak_power": 17.38507429370922
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0030+0451.wb.chain_1.txt",
+        "peak_frequency_index": 21,
+        "peak_power": 12.050065182115095
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0340+4130.wb.chain_1.txt",
+        "peak_frequency_index": 91,
+        "peak_power": 0.7189707684368889
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0406+3039.wb.chain_1.txt",
+        "peak_frequency_index": 80,
+        "peak_power": 12.919816100303098
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0437-4715.wb.chain_1.txt",
+        "peak_frequency_index": 97,
+        "peak_power": 6.807398120234462
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0509+0856.wb.chain_1.txt",
+        "peak_frequency_index": 210,
+        "peak_power": 7.611031248851917
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0557+1551.wb.chain_1.txt",
+        "peak_frequency_index": 5,
+        "peak_power": 6.196267936052427
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0605+3757.wb.chain_1.txt",
+        "peak_frequency_index": 36,
+        "peak_power": 11.825544801497266
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0610-2100.wb.chain_1.txt",
+        "peak_frequency_index": 272,
+        "peak_power": 1.3124381732411736
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0613-0200.wb.chain_1.txt",
+        "peak_frequency_index": 2,
+        "peak_power": 13.363318008068383
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0614-3329.wb.chain_1.txt",
+        "peak_frequency_index": 37,
+        "peak_power": 4.209628116517555
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0636+5128.wb.chain_1.txt",
+        "peak_frequency_index": 123,
+        "peak_power": 0.2066899098662418
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0645+5158.wb.chain_1.txt",
+        "peak_frequency_index": 147,
+        "peak_power": 0.5806578219907917
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0709+0458.wb.chain_1.txt",
+        "peak_frequency_index": 666,
+        "peak_power": 4.507285072103924
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0740+6620.wb.chain_1.txt",
+        "peak_frequency_index": 188,
+        "peak_power": 1.2080740214567331
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P8"
+  ],
+  "status": "suggestive",
+  "test_id": "T15",
+  "warnings": []
+}

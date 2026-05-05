@@ -1,0 +1,311 @@
+{
+  "claim_strength": "null",
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_columns_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20column_name%2C%20datatype%2C%20description%20FROM%20TAP_SCHEMA.columns%20WHERE%20table_name%20%3D%20%27euclid_q1_mer_catalogue%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_enriched_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2C%20dec%2C%20object_id%2C%20z%2C%20fluxerr_vis_to_z_ext_panstarrs_templfit%2C%20fluxerr_vis_to_i_ext_panstarrs_templfit%2C%20fluxerr_vis_to_u_ext_megacam_templfit%2C%20fluxerr_vis_to_r_ext_megacam_templfit%2C%20fluxerr_z_ext_panstarrs_disk_sersic%2C%20fluxerr_vis_to_z_ext_decam_templfit%2C%20flag_z_ext_panstarrs%2C%20flag_i_ext_panstarrs%2C%20gaia_match_quality%20FROM%20euclid_q1_mer_cata"
+    },
+    {
+      "available_columns_sample": [
+        "fluxerr_i_ext_lsst_2fwhm_aper",
+        "fluxerr_i_ext_lsst_3fwhm_aper",
+        "fluxerr_i_ext_lsst_4fwhm_aper",
+        "fluxerr_z_ext_lsst_1fwhm_aper",
+        "fluxerr_z_ext_lsst_2fwhm_aper",
+        "fluxerr_z_ext_lsst_3fwhm_aper",
+        "fluxerr_z_ext_lsst_4fwhm_aper",
+        "fluxerr_u_ext_megacam_1fwhm_aper",
+        "fluxerr_u_ext_megacam_2fwhm_aper",
+        "fluxerr_u_ext_megacam_3fwhm_aper",
+        "fluxerr_u_ext_megacam_4fwhm_aper",
+        "fluxerr_r_ext_megacam_1fwhm_aper",
+        "fluxerr_r_ext_megacam_2fwhm_aper",
+        "fluxerr_r_ext_megacam_3fwhm_aper",
+        "fluxerr_r_ext_megacam_4fwhm_aper",
+        "fluxerr_g_ext_jpcam_1fwhm_aper",
+        "fluxerr_g_ext_jpcam_2fwhm_aper",
+        "fluxerr_g_ext_jpcam_3fwhm_aper",
+        "fluxerr_g_ext_jpcam_4fwhm_aper",
+        "fluxerr_i_ext_panstarrs_1fwhm_aper",
+        "fluxerr_i_ext_panstarrs_2fwhm_aper",
+        "fluxerr_i_ext_panstarrs_3fwhm_aper",
+        "fluxerr_i_ext_panstarrs_4fwhm_aper",
+        "fluxerr_z_ext_panstarrs_1fwhm_aper",
+        "fluxerr_z_ext_panstarrs_2fwhm_aper",
+        "fluxerr_z_ext_panstarrs_3fwhm_aper",
+        "fluxerr_z_ext_panstarrs_4fwhm_aper",
+        "fluxerr_g_ext_hsc_1fwhm_aper",
+        "fluxerr_g_ext_hsc_2fwhm_aper",
+        "fluxerr_g_ext_hsc_3fwhm_aper",
+        "fluxerr_g_ext_hsc_4fwhm_aper",
+        "fluxerr_z_ext_hsc_1fwhm_aper",
+        "fluxerr_z_ext_hsc_2fwhm_aper",
+        "fluxerr_z_ext_hsc_3fwhm_aper",
+        "fluxerr_z_ext_hsc_4fwhm_aper",
+        "flux_y_templfit",
+        "flux_j_templfit",
+        "flux_h_templfit",
+        "flux_u_ext_decam_templfit",
+        "flux_g_ext_decam_templfit",
+        "flux_r_ext_decam_templfit",
+        "flux_i_ext_decam_templfit",
+        "flux_z_ext_decam_templfit",
+        "flux_u_ext_lsst_templfit",
+        "flux_g_ext_lsst_templfit",
+        "flux_r_ext_lsst_templfit",
+        "flux_i_ext_lsst_templfit",
+        "flux_z_ext_lsst_templfit",
+        "flux_u_ext_megacam_templfit",
+        "flux_r_ext_megacam_templfit",
+        "flux_g_ext_jpcam_templfit",
+        "flux_i_ext_panstarrs_templfit",
+        "flux_z_ext_panstarrs_templfit",
+        "flux_g_ext_hsc_templfit",
+        "flux_z_ext_hsc_templfit",
+        "fluxerr_y_templfit",
+        "fluxerr_j_templfit",
+        "fluxerr_h_templfit",
+        "fluxerr_u_ext_decam_templfit",
+        "fluxerr_g_ext_decam_templfit",
+        "fluxerr_r_ext_decam_templfit",
+        "fluxerr_i_ext_decam_templfit",
+        "fluxerr_z_ext_decam_templfit",
+        "fluxerr_u_ext_lsst_templfit",
+        "fluxerr_g_ext_lsst_templfit",
+        "fluxerr_r_ext_lsst_templfit",
+        "fluxerr_i_ext_lsst_templfit",
+        "fluxerr_z_ext_lsst_templfit",
+        "fluxerr_u_ext_megacam_templfit",
+        "fluxerr_r_ext_megacam_templfit",
+        "fluxerr_g_ext_jpcam_templfit",
+        "fluxerr_i_ext_panstarrs_templfit",
+        "fluxerr_z_ext_panstarrs_templfit",
+        "fluxerr_g_ext_hsc_templfit",
+        "fluxerr_z_ext_hsc_templfit",
+        "flux_vis_to_y_templfit",
+        "flux_vis_to_j_templfit",
+        "flux_vis_to_h_templfit",
+        "flux_vis_to_u_ext_decam_templfit",
+        "flux_vis_to_g_ext_decam_templfit",
+        "flux_vis_to_r_ext_decam_templfit",
+        "flux_vis_to_i_ext_decam_templfit",
+        "flux_vis_to_z_ext_decam_templfit",
+        "flux_vis_to_u_ext_lsst_templfit",
+        "flux_vis_to_g_ext_lsst_templfit",
+        "flux_vis_to_r_ext_lsst_templfit",
+        "flux_vis_to_i_ext_lsst_templfit",
+        "flux_vis_to_z_ext_lsst_templfit",
+        "flux_vis_to_u_ext_megacam_templfit",
+        "flux_vis_to_r_ext_megacam_templfit",
+        "flux_vis_to_g_ext_jpcam_templfit",
+        "flux_vis_to_i_ext_panstarrs_templfit",
+        "flux_vis_to_z_ext_panstarrs_templfit",
+        "flux_vis_to_g_ext_hsc_templfit",
+        "flux_vis_to_z_ext_hsc_templfit",
+        "fluxerr_vis_to_y_templfit",
+        "fluxerr_vis_to_j_templfit",
+        "fluxerr_vis_to_h_templfit",
+        "fluxerr_vis_to_u_ext_decam_templfit",
+        "fluxerr_vis_to_g_ext_decam_templfit"
+      ],
+      "enriched": true,
+      "ok": true,
+      "selected_optional_columns": [
+        "object_id",
+        "z",
+        "fluxerr_vis_to_z_ext_panstarrs_templfit",
+        "fluxerr_vis_to_i_ext_panstarrs_templfit",
+        "fluxerr_vis_to_u_ext_megacam_templfit",
+        "fluxerr_vis_to_r_ext_megacam_templfit",
+        "fluxerr_z_ext_panstarrs_disk_sersic",
+        "fluxerr_vis_to_z_ext_decam_templfit",
+        "flag_z_ext_panstarrs",
+        "flag_i_ext_panstarrs",
+        "gaia_match_quality"
+      ],
+      "selected_table": "euclid_q1_mer_catalogue",
+      "v9_6_note": "fluxerr/depth/quality columns are prioritised and returned for systematics controls"
+    },
+    {
+      "api": "https://api.github.com/repos/carronj/planck_PR4_lensing/releases/tags/Data",
+      "asset": "PR42018like_maps.tar",
+      "github_releases": "carronj/planck_PR4_lensing",
+      "ok": true,
+      "release": "Lensing maps and chains"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_lensing\\PR42018like_maps.tar",
+      "size": 252317696,
+      "url": "https://github.com/carronj/planck_PR4_lensing/releases/download/Data/PR42018like_maps.tar"
+    },
+    {
+      "candidate_count": 3,
+      "candidate_paths_first20": [
+        ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+        ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_PP.fits",
+        ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_TT.fits"
+      ],
+      "inspected_sample": [
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\mask.fits.gz",
+          "score": 10860
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+          "score": -10
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_PP.fits",
+          "score": 540
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_TT.fits",
+          "score": 540
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_mf_MV.fits",
+          "score": 510
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_mf_PP.fits",
+          "score": 1060
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_mf_TT.fits",
+          "score": 1060
+        }
+      ],
+      "ok": true,
+      "requires_healpy_if_harmonic_only": true,
+      "selection": "v9.9_planck_pixel_then_klm_candidates"
+    }
+  ],
+  "description": "Cross-check Euclid density-\u03ba sign using public Planck PR3/PR4 lensing products; harmonic klm/alm requires healpy.alm2map.",
+  "falsification_logic": {
+    "confirm_like": "same-sign density-\u03ba correlation as ACT, weaker but positive",
+    "falsify_like": "Planck \u03ba map gives opposite sign or no correlation; masks/constant maps are data_limited, not null"
+  },
+  "generated_utc": "2026-05-03T14:53:56Z",
+  "metrics": {
+    "candidate_map_selection": {
+      "candidate_attempts": [
+        {
+          "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+          "sampling": {
+            "coordsys": "galactic_from_icrs",
+            "hdu": 1,
+            "imag_col": "imag",
+            "lmax": 2048,
+            "mode": "alm2map_healpy",
+            "n_alm": 2100225,
+            "n_coeff_finite_input": 2100225,
+            "n_good_pixels": 5000,
+            "n_requested": 5000,
+            "nside": 2048,
+            "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+            "real_col": "real"
+          },
+          "validation": {
+            "max": 2.522821329335712,
+            "min": -2.304430860235854,
+            "n_finite": 5000,
+            "ok": true,
+            "reason": "ok",
+            "signal_label": "kappa",
+            "std": 0.6846504412777433
+          }
+        }
+      ],
+      "map_sampling": {
+        "coordsys": "galactic_from_icrs",
+        "hdu": 1,
+        "imag_col": "imag",
+        "lmax": 2048,
+        "mode": "alm2map_healpy",
+        "n_alm": 2100225,
+        "n_coeff_finite_input": 2100225,
+        "n_good_pixels": 5000,
+        "n_requested": 5000,
+        "nside": 2048,
+        "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+        "real_col": "real"
+      },
+      "map_validation": {
+        "max": 2.522821329335712,
+        "min": -2.304430860235854,
+        "n_finite": 5000,
+        "ok": true,
+        "reason": "ok",
+        "signal_label": "kappa",
+        "std": 0.6846504412777433
+      },
+      "selected_map": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits"
+    },
+    "density_planck_kappa": {
+      "high_minus_low_kappa": {
+        "boot_sigma": 0.019376407096394797,
+        "delta": -0.11880235568654696,
+        "n_a": 2500,
+        "n_b": 2500,
+        "z": -6.131289206276612
+      },
+      "selected_map": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits",
+      "shuffle_null": {
+        "mean": -0.0009241725039569346,
+        "n": 120,
+        "p_one_sided_positive": 1.0,
+        "sigma": 0.018507111373572836
+      },
+      "spearman": {
+        "n": 5000,
+        "pvalue": 3.711719932226812e-07,
+        "rho": -0.07181212334979377
+      }
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P14/P30"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "null",
+  "test_id": "T05",
+  "warnings": []
+}

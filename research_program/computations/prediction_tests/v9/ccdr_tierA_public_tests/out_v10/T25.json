@@ -1,0 +1,94 @@
+{
+  "claim_strength": "data_limited",
+  "data_sources": [
+    {
+      "curated_eta_source_registry": [
+        {
+          "label": "HEPData eta/s search",
+          "requires_explicit_column": true,
+          "type": "discovery_page",
+          "url": "https://www.hepdata.net/search/?q=%22eta%2Fs%22"
+        },
+        {
+          "label": "HEPData shear viscosity entropy density search",
+          "requires_explicit_column": true,
+          "type": "discovery_page",
+          "url": "https://www.hepdata.net/search/?q=%22shear%20viscosity%22%20%22entropy%20density%22"
+        },
+        {
+          "label": "Reject ALICE/CMS/ATLAS v2 flow tables unless eta/s appears explicitly",
+          "requires_explicit_column": true,
+          "type": "guardrail",
+          "url": null
+        }
+      ],
+      "note": "v9.7 registry: tables are used only if columns explicitly identify eta/s or viscosity/entropy.",
+      "ok": true
+    },
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=%22eta%2Fs%22: HTTP Error 403: Forbidden",
+      "label": "HEPData eta/s search",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=%22eta%2Fs%22"
+    },
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=%22shear%20viscosity%22%20%22entropy%20density%22: HTTP Error 403: Forbidden",
+      "label": "HEPData shear viscosity entropy density search",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=%22shear%20viscosity%22%20%22entropy%20density%22"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "shape": [
+        80,
+        8
+      ],
+      "url": "https://www.hepdata.net/download/table/ins1666817/Table%201/1/csv"
+    }
+  ],
+  "description": "Download public HEPData/literature tables and test whether \u03b7/s approaches the KSS bound non-monotonically.",
+  "falsification_logic": {
+    "confirm_like": "\u03b7/s(T) has a minimum near 1/(4\u03c0) in natural units and non-monotonic structure",
+    "falsify_like": "verified \u03b7/s columns show no KSS-adjacent minimum"
+  },
+  "generated_utc": "2026-05-03T20:06:34Z",
+  "metrics": {
+    "kss_eta_over_s_SI": 6.078312356035156e-13,
+    "note": "v9.6 discovers HEPData candidates but still requires explicit \u03b7/s-like column names; v2/flow tables are not treated as viscosity.",
+    "tables_rejected": [
+      {
+        "best_column": "stat +",
+        "best_score": -5,
+        "columns": [
+          "Centrality",
+          "Centrality LOW",
+          "Centrality HIGH",
+          "v22Deta1",
+          "stat +",
+          "stat -",
+          "sys +",
+          "sys -"
+        ],
+        "note": "Rejecting v2/flow tables prevents false KSS nulls.",
+        "reason": "no_verified_eta_over_s_column",
+        "source": "https://www.hepdata.net/download/table/ins1666817/Table%201/1/csv"
+      }
+    ],
+    "tables_used": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P5"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "data_limited",
+  "test_id": "T25",
+  "warnings": [
+    "No verified public \u03b7/s column was found after HEPData discovery; no KSS falsification is claimed."
+  ]
+}

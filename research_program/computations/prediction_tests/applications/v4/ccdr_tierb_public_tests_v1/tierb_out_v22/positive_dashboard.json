@@ -1,0 +1,543 @@
+{
+  "EL_branch": {
+    "best_data_positive_path": [
+      "T44"
+    ],
+    "current_nulls": [
+      "T46a"
+    ],
+    "early_path": [
+      "T47"
+    ],
+    "recommended_next": "T44 WikiChip/TechInsights NAND exact parser",
+    "second_best_data_path": [
+      "T45"
+    ],
+    "synthetic_positive_or_open": [
+      "T46"
+    ]
+  },
+  "anchors": [
+    "T60"
+  ],
+  "biology_model_ready": [
+    "T53"
+  ],
+  "bound_only": [
+    "T50",
+    "T51",
+    "T52"
+  ],
+  "broad_nulls_with_open_narrow_path": [
+    "T32"
+  ],
+  "data_limited_positive_paths": [
+    "T26",
+    "T27",
+    "T28",
+    "T29",
+    "T30",
+    "T44",
+    "T45",
+    "T47",
+    "T54",
+    "T57",
+    "T59"
+  ],
+  "descriptor_paths_ready": [
+    "T48"
+  ],
+  "engineering_paths_ready": [
+    "T46"
+  ],
+  "fusion_secondary_diagnostics": [
+    "T26",
+    "T27",
+    "T28",
+    "T29",
+    "T30"
+  ],
+  "materials_flagship": [
+    "T31",
+    "T32"
+  ],
+  "physical_positive_leads": [
+    "T31"
+  ],
+  "readiness_positive": [
+    "T53"
+  ],
+  "schema": "ccdr-tierb-positive-dashboard-v21",
+  "tests": [
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T26",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T27",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T28",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T29",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T30",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": {
+        "current_positive_signal": {
+          "fraction_ccdr_better_by_aic2": 0.6,
+          "grain_or_nano_usable_fits": 5,
+          "median_delta_aic_ccdr_minus_power": -24.11175078363229,
+          "supports_positive_lead": true
+        },
+        "current_v20_score": {
+          "broad_fraction_ccdr_better_by_aic2": 0.4330708661417323,
+          "broad_median_delta_aic_ccdr_minus_power": 0.06796809151487082,
+          "decisive_microstructure_rows": 3,
+          "grain_fraction_ccdr_better_by_aic2": 0.6,
+          "grain_median_delta_aic_ccdr_minus_power": -24.11175078363229,
+          "grain_or_nano_usable_fits": 5,
+          "positive_success_rule": "score >= 5 and broad controls do not show the same effect",
+          "reasons": [
+            "grain/nano subset has CCDR-better fraction > 0.5",
+            "grain/nano subset median \u0394AIC favors CCDR",
+            "some decisive microstructure rows exist"
+          ],
+          "score": 5,
+          "status": "strong_positive_candidate_near_confirmation",
+          "version": "v20_materials_positive_score"
+        },
+        "next_action": "expand decisive microstructure rows; keep broad-material rows as controls",
+        "promotion_threshold": {
+          "decisive_microstructure_rows": 10,
+          "fraction_ccdr_better_min": 0.5,
+          "median_delta_aic_max": 0,
+          "usable_grain_nano_fits": 10
+        },
+        "role": "flagship_physical_positive_target"
+      },
+      "positive_label": "flagship_materials_positive_target",
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T31",
+      "verdict": "positive_physical_lead"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": {
+        "MAT3a_broad_material_claim": "null_or_pressure_control",
+        "MAT3b_measured_nanostructure_claim": "open_positive_path_linked_to_T31",
+        "implementation_status": "uses T31 grain_size_known_manifest_v21 expansion as gate",
+        "positive_success_rule": "T^0.5 improves in measured/nanocrystalline subset while broad controls do not"
+      },
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T32",
+      "verdict": "null_broad_claim_open_narrow_claim"
+    },
+    {
+      "test_id": "T33",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T34",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T35",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T36",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T37",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T38",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T39",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T40",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T41",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T42",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T43",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": {
+        "candidate_tables_seen": 25,
+        "do_not_use": "generic HTML search as evidence",
+        "implementation": "v21 autodiscovery adds exact electronics text/table extractors for NAND, optical-interconnect, and neuromorphic lines",
+        "label": "EL1_EL3_3D_NAND_flagship",
+        "parser": "WikiChip/TechInsights NAND table parser",
+        "positive_goal": "layer/capacity/die-area trend consistent with vertical/volume-like scaling",
+        "priority": 1,
+        "required_columns": [
+          "manufacturer",
+          "generation/product",
+          "year",
+          "layers",
+          "die_capacity_Gb",
+          "die_area_mm2",
+          "bits_per_cell"
+        ],
+        "status": "parser_ready_exact_sources_only"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T44",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": {
+        "candidate_tables_seen": 0,
+        "do_not_use": "generic HTML search as evidence",
+        "implementation": "v21 autodiscovery adds exact electronics text/table extractors for NAND, optical-interconnect, and neuromorphic lines",
+        "label": "EL8_optical_interconnect",
+        "parser": "IRDS/Optics Express optical interconnect pJ-bit table parser",
+        "positive_goal": "energy-per-bit trend consistent with optical/geometric scaling advantage",
+        "priority": 2,
+        "required_columns": [
+          "energy_per_bit",
+          "bandwidth",
+          "reach/link_length",
+          "process_node/year",
+          "electrical_vs_optical"
+        ],
+        "status": "parser_ready_exact_sources_only"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T45",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": {
+        "T46a_current_benchmark": "null_baseline_audit",
+        "T46b_positive_search": "optimize CDT-hybrid ensembles, not current fixed CDT-like graph",
+        "must_include": [
+          "50+ seeds",
+          "matched code rate",
+          "matched check density",
+          "BP/min-sum/BEC peeling",
+          "spatially-coupled LDPC/protograph baselines"
+        ],
+        "positive_success_rule": "CDT-hybrid beats best matched non-CDT baseline with CI across seeds"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T46",
+      "verdict": "null_current_benchmark_design_search_ready"
+    },
+    {
+      "el_branch": {
+        "candidate_tables_seen": 0,
+        "do_not_use": "generic HTML search as evidence",
+        "implementation": "v21 autodiscovery adds exact electronics text/table extractors for NAND, optical-interconnect, and neuromorphic lines",
+        "label": "EL_neuromorphic_energy_topology",
+        "parser": "Loihi/TrueNorth/SpiNNaker benchmark parser",
+        "positive_goal": "energy/accuracy residual associated with graph/topology descriptor",
+        "priority": 3,
+        "required_columns": [
+          "chip",
+          "process_node",
+          "benchmark",
+          "energy_per_inference_or_spike",
+          "accuracy",
+          "neurons/cores/topology"
+        ],
+        "status": "parser_ready_exact_sources_only"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T47",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": "pv_T48b_descriptor_path_primary",
+      "t48b": {
+        "T48a_status": "retired_to_null_control",
+        "T48b_status": "primary_positive_path_ready",
+        "minimum_viable_rows": 30,
+        "model_formula": "efficiency_residual ~ bandgap + absorber_family + tandem + concentrator + area + year + certification_source + defect/crystallinity_proxy + family_interactions",
+        "rows_seen": 1096,
+        "success_rule": "global predicted sign + at least one absorber family FDR q<0.10; not driven by tandem/concentrator rows"
+      },
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T48",
+      "verdict": "null_coarse_proxy_descriptor_model_ready"
+    },
+    {
+      "test_id": "T49",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T50",
+      "verdict": "bound_only"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T51",
+      "verdict": "bound_only"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T52",
+      "verdict": "bound_only"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": "biology_residual_model_ready",
+      "t48b": null,
+      "t53_model": {
+        "confirmation_allowed": false,
+        "frames_seen": 6,
+        "model_formula": "stability_or_ddG_or_Tm ~ length + assay_type + mutation_count + organism_or_sequence_cluster + symmetry_order/contact_network_proxy",
+        "positive_success_rule": "positive proxy coefficient with bootstrap CI and jackknife stability",
+        "reason": "no qualifying source URL re-read yet",
+        "source_urls": [
+          "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+        ],
+        "status": "attempted_but_missing_outcome_or_proxy_columns"
+      },
+      "t60": null,
+      "test_id": "T53",
+      "verdict": "readiness_positive"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T54",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "test_id": "T55",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T56",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T57",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "test_id": "T58",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T59",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": {
+        "full_T60_confirmation_allowed": false,
+        "positive_language": "T60a positive consistency anchor only",
+        "required_next_gates": [
+          "T60b quark/lattice sector",
+          "T60c random mass-triplet null",
+          "T60d look-elsewhere algebraic scan"
+        ],
+        "status": "confirmed_consistency_anchor"
+      },
+      "test_id": "T60",
+      "verdict": "positive_consistency_anchor"
+    }
+  ]
+}

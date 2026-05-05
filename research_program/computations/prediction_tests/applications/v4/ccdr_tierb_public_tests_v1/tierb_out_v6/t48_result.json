@@ -1,0 +1,3083 @@
+{
+  "candidate_links": [
+    "https://pvdpc.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+    "https://pvdpc.nrel.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf",
+    "https://pvdpc.nrel.gov/media/docs/libraries/pv/solar-module-efficiency-table.xlsx",
+    "https://pvdpc.nrel.gov/images/libraries/pv-images/champion-module-efficiencies.jpg?sfvrsn=371eea43_2",
+    "https://www.nrel.gov/pv/data-tools",
+    "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+    "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf",
+    "https://www.nlr.gov/pv/data-tools"
+  ],
+  "candidate_rows_count": 0,
+  "data_source": "v5 NREL/NLR interactive-page parser + fixed PV proxy manifest; no guessed XLSX alone",
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If no public data table rows parse, result is data_limited.",
+    "confirm_like": "After baseline removal by year/material/cell/area, PV residuals positively correlate with predefined within-class proxy.",
+    "falsify_like": "Adequate NREL rows show no positive residual trend or opposite trend."
+  },
+  "generated_utc": "2026-05-01T04:55:22Z",
+  "metrics": {},
+  "nrel_downloads": [
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Photovoltaic",
+              "Device",
+              "Performance",
+              "Calibration",
+              "Services",
+              "|",
+              "NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Photovoltaic",
+                "Device",
+                "Performance",
+                "Calibration",
+                "Services",
+                "|",
+                "NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              7
+            ]
+          },
+          {
+            "columns": [
+              "</title>",
+              "<!--",
+              "STYLESHEET",
+              "-->",
+              "<link",
+              "rel=\"stylesheet\"",
+              "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+              "/>",
+              "<!--.1",
+              "THEME",
+              "COLOR",
+              "-->.1",
+              "<meta",
+              "name=\"theme-color\"",
+              "content=\""
+            ],
+            "physical_column_match": {
+              "columns": [
+                "</title>",
+                "<!--",
+                "STYLESHEET",
+                "-->",
+                "<link",
+                "rel=\"stylesheet\"",
+                "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+                "/>",
+                "<!--.1",
+                "THEME",
+                "COLOR",
+                "-->.1",
+                "<meta",
+                "name=\"theme-color\"",
+                "content=\""
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              15
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "bytes": 27538,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\eef61a500282_pvdpc.nrel.gov.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/pvdpc/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/pvdpc/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pvdpc.nrel.gov/"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pvdpc.nrel.gov/"
+      },
+      "stage": "source",
+      "url": "https://pvdpc.nrel.gov/"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              "Label",
+              "Full Name (If Different from Label)"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Label",
+                "Full Name (If Different from Label)"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              2
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "bytes": 34405,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\89a3f704e8a0_cell-efficiency.html",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/cell-efficiency",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/cell-efficiency",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+              "d",
+              "s",
+              "l",
+              "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+              "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+              " j=d.createElement(s)",
+              "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+              "f); })(window",
+              "document",
+              "'script'",
+              "'dataLayer'",
+              "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+              " initial-scale=1",
+              " shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+                "d",
+                "s",
+                "l",
+                "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+                "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+                " j=d.createElement(s)",
+                "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+                "f); })(window",
+                "document",
+                "'script'",
+                "'dataLayer'",
+                "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+                " initial-scale=1",
+                " shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              15
+            ]
+          },
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+              "d",
+              "s",
+              "l",
+              "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+              "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+              " j=d.createElement(s)",
+              "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+              "f); })(window",
+              "document",
+              "'script'",
+              "'dataLayer'",
+              "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+              " initial-scale=1",
+              " shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+                "d",
+                "s",
+                "l",
+                "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+                "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+                " j=d.createElement(s)",
+                "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+                "f); })(window",
+                "document",
+                "'script'",
+                "'dataLayer'",
+                "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+                " initial-scale=1",
+                " shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              15
+            ]
+          },
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Interactive Best Research-Cell Efficiency Chart"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Interactive Best Research-Cell Efficiency Chart"
+              ],
+              "matched_groups": [
+                [
+                  "Interactive Best Research-Cell Efficiency Chart"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Interactive Best Research-Cell Efficiency Chart"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Interactive Best Research-Cell Efficiency Chart"
+              ],
+              "matched_groups": [
+                [
+                  "Interactive Best Research-Cell Efficiency Chart"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              2
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "bytes": 126205,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\8c3a7b7ee3a0_interactive-cell-efficiency.html",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/interactive-cell-efficiency",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/interactive-cell-efficiency",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              "Label",
+              "Full Name (If Different from Label)"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Label",
+                "Full Name (If Different from Label)"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              2
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "bytes": 34405,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\4560dffc3a5c_cell-efficiency.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/cell-efficiency",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/cell-efficiency",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nlr.gov/pv/cell-efficiency"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/pv/cell-efficiency"
+      },
+      "stage": "source",
+      "url": "https://www.nlr.gov/pv/cell-efficiency"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+              "d",
+              "s",
+              "l",
+              "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+              "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+              " j=d.createElement(s)",
+              "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+              "f); })(window",
+              "document",
+              "'script'",
+              "'dataLayer'",
+              "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+              " initial-scale=1",
+              " shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+                "d",
+                "s",
+                "l",
+                "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+                "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+                " j=d.createElement(s)",
+                "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+                "f); })(window",
+                "document",
+                "'script'",
+                "'dataLayer'",
+                "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+                " initial-scale=1",
+                " shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              15
+            ]
+          },
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+              "d",
+              "s",
+              "l",
+              "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+              "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+              " j=d.createElement(s)",
+              "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+              "f); })(window",
+              "document",
+              "'script'",
+              "'dataLayer'",
+              "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+              " initial-scale=1",
+              " shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w",
+                "d",
+                "s",
+                "l",
+                "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()",
+                "event:'gtm.js'});var f=d.getElementsByTagName(s)[0]",
+                " j=d.createElement(s)",
+                "dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j",
+                "f); })(window",
+                "document",
+                "'script'",
+                "'dataLayer'",
+                "'GTM-KG7PVKB');</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width",
+                " initial-scale=1",
+                " shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime()"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              15
+            ]
+          },
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Interactive Best Research-Cell Efficiency Chart"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Interactive Best Research-Cell Efficiency Chart"
+              ],
+              "matched_groups": [
+                [
+                  "Interactive Best Research-Cell Efficiency Chart"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Interactive Best Research-Cell Efficiency Chart"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Interactive Best Research-Cell Efficiency Chart"
+              ],
+              "matched_groups": [
+                [
+                  "Interactive Best Research-Cell Efficiency Chart"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              43,
+              2
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "bytes": 126205,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\40a9055622bf_interactive-cell-efficiency.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/interactive-cell-efficiency",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/interactive-cell-efficiency",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nlr.gov/pv/interactive-cell-efficiency"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/pv/interactive-cell-efficiency"
+      },
+      "stage": "source",
+      "url": "https://www.nlr.gov/pv/interactive-cell-efficiency"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "meta": {
+        "bytes": 131848,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\9be78fe6b72d_cell-efficiency-data-table.xlsx",
+        "cached": false,
+        "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "error": null,
+        "final_url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+        "head": {
+          "content_length": 131848,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "error": null,
+          "final_url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\23b6d3b8557a_cell-efficiency-data-table.csv",
+        "content_type": "application/xml",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv",
+        "head": {
+          "content_length": null,
+          "content_type": "application/xml",
+          "error": null,
+          "final_url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv",
+          "ok": false,
+          "status_code": 404,
+          "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv"
+        },
+        "ok": false,
+        "status_code": 404,
+        "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Photovoltaic",
+              "Device",
+              "Performance",
+              "Calibration",
+              "Services",
+              "|",
+              "NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Photovoltaic",
+                "Device",
+                "Performance",
+                "Calibration",
+                "Services",
+                "|",
+                "NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              7
+            ]
+          },
+          {
+            "columns": [
+              "</title>",
+              "<!--",
+              "STYLESHEET",
+              "-->",
+              "<link",
+              "rel=\"stylesheet\"",
+              "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+              "/>",
+              "<!--.1",
+              "THEME",
+              "COLOR",
+              "-->.1",
+              "<meta",
+              "name=\"theme-color\"",
+              "content=\""
+            ],
+            "physical_column_match": {
+              "columns": [
+                "</title>",
+                "<!--",
+                "STYLESHEET",
+                "-->",
+                "<link",
+                "rel=\"stylesheet\"",
+                "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+                "/>",
+                "<!--.1",
+                "THEME",
+                "COLOR",
+                "-->.1",
+                "<meta",
+                "name=\"theme-color\"",
+                "content=\""
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              15
+            ]
+          }
+        ]
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 27538,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\016fc4236a24_cell-efficiency-data-table.xlsx",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/pvdpc/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/pvdpc/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+      },
+      "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Photovoltaic",
+              "Device",
+              "Performance",
+              "Calibration",
+              "Services",
+              "|",
+              "NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Photovoltaic",
+                "Device",
+                "Performance",
+                "Calibration",
+                "Services",
+                "|",
+                "NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              7
+            ]
+          },
+          {
+            "columns": [
+              "</title>",
+              "<!--",
+              "STYLESHEET",
+              "-->",
+              "<link",
+              "rel=\"stylesheet\"",
+              "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+              "/>",
+              "<!--.1",
+              "THEME",
+              "COLOR",
+              "-->.1",
+              "<meta",
+              "name=\"theme-color\"",
+              "content=\""
+            ],
+            "physical_column_match": {
+              "columns": [
+                "</title>",
+                "<!--",
+                "STYLESHEET",
+                "-->",
+                "<link",
+                "rel=\"stylesheet\"",
+                "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+                "/>",
+                "<!--.1",
+                "THEME",
+                "COLOR",
+                "-->.1",
+                "<meta",
+                "name=\"theme-color\"",
+                "content=\""
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              15
+            ]
+          }
+        ]
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 27538,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\7d8a14d39656_nrel-record-cell-efficiency-data-table-guide.pdf",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/pvdpc/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/pvdpc/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+      },
+      "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Photovoltaic",
+              "Device",
+              "Performance",
+              "Calibration",
+              "Services",
+              "|",
+              "NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Photovoltaic",
+                "Device",
+                "Performance",
+                "Calibration",
+                "Services",
+                "|",
+                "NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              7
+            ]
+          },
+          {
+            "columns": [
+              "</title>",
+              "<!--",
+              "STYLESHEET",
+              "-->",
+              "<link",
+              "rel=\"stylesheet\"",
+              "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+              "/>",
+              "<!--.1",
+              "THEME",
+              "COLOR",
+              "-->.1",
+              "<meta",
+              "name=\"theme-color\"",
+              "content=\""
+            ],
+            "physical_column_match": {
+              "columns": [
+                "</title>",
+                "<!--",
+                "STYLESHEET",
+                "-->",
+                "<link",
+                "rel=\"stylesheet\"",
+                "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+                "/>",
+                "<!--.1",
+                "THEME",
+                "COLOR",
+                "-->.1",
+                "<meta",
+                "name=\"theme-color\"",
+                "content=\""
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              15
+            ]
+          }
+        ]
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 27538,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\54b4903b3199_solar-module-efficiency-table.xlsx",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/pvdpc/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/pvdpc/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/solar-module-efficiency-table.xlsx"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/solar-module-efficiency-table.xlsx"
+      },
+      "url": "https://pvdpc.nrel.gov/media/docs/libraries/pv/solar-module-efficiency-table.xlsx"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Photovoltaic Device Performance Calibration Services | NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Photovoltaic Device Performance Calibration Services | NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Photovoltaic",
+              "Device",
+              "Performance",
+              "Calibration",
+              "Services",
+              "|",
+              "NLR"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Photovoltaic",
+                "Device",
+                "Performance",
+                "Calibration",
+                "Services",
+                "|",
+                "NLR"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              7
+            ]
+          },
+          {
+            "columns": [
+              "</title>",
+              "<!--",
+              "STYLESHEET",
+              "-->",
+              "<link",
+              "rel=\"stylesheet\"",
+              "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+              "/>",
+              "<!--.1",
+              "THEME",
+              "COLOR",
+              "-->.1",
+              "<meta",
+              "name=\"theme-color\"",
+              "content=\""
+            ],
+            "physical_column_match": {
+              "columns": [
+                "</title>",
+                "<!--",
+                "STYLESHEET",
+                "-->",
+                "<link",
+                "rel=\"stylesheet\"",
+                "href=\"/ResourcePackages/FrontEnd/public/library/css/gov/styles-gov.css?v=639129806560000000\"",
+                "/>",
+                "<!--.1",
+                "THEME",
+                "COLOR",
+                "-->.1",
+                "<meta",
+                "name=\"theme-color\"",
+                "content=\""
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              45,
+              15
+            ]
+          }
+        ]
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 27538,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\296d81a4059e_champion-module-efficiencies.jpg",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/pvdpc/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/pvdpc/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pvdpc.nrel.gov/images/libraries/pv-images/champion-module-efficiencies.jpg?sfvrsn=371eea43_2"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pvdpc.nrel.gov/images/libraries/pv-images/champion-module-efficiencies.jpg?sfvrsn=371eea43_2"
+      },
+      "url": "https://pvdpc.nrel.gov/images/libraries/pv-images/champion-module-efficiencies.jpg?sfvrsn=371eea43_2"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Data and Tools"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Data and Tools"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Data and Tools"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Data and Tools"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "  margin-right: 0",
+              "Unnamed: 1"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "  margin-right: 0",
+                "Unnamed: 1"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "  margin-right: 0",
+              "Unnamed: 1"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "  margin-right: 0",
+                "Unnamed: 1"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          }
+        ]
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 26232,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\5545642ce662_data-tools.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/data-tools",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/data-tools",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nrel.gov/pv/data-tools"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/pv/data-tools"
+      },
+      "url": "https://www.nrel.gov/pv/data-tools"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 131848,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\d8bbf06e687a_cell-efficiency-data-table.xlsx",
+        "cached": false,
+        "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "error": null,
+        "final_url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+        "head": {
+          "content_length": null,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "error": null,
+          "final_url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+      },
+      "url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 191986,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\9222115e8a44_nrel-record-cell-efficiency-data-table-guide.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf",
+        "head": {
+          "content_length": null,
+          "content_type": "application/pdf",
+          "error": null,
+          "final_url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+      },
+      "url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+    },
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+              "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+              "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+              "j.async=true",
+              "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+              "f.parentNode.insertBefore(j,f)",
+              " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+              "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+                "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+                "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+                "j.async=true",
+                "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+                "f.parentNode.insertBefore(j,f)",
+                " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+                "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+              ],
+              "matched_groups": [
+                [
+                  "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              8
+            ]
+          },
+          {
+            "columns": [
+              "<!DOCTYPE",
+              "html>",
+              "<html",
+              "lang=\"en\"",
+              ">",
+              "<head>",
+              "<!--",
+              "Google",
+              "Tag",
+              "Manager",
+              "-->",
+              "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+              "new",
+              "Date().getTime(),event:'gtm.js'});var",
+              "f=d.getElementsByTagName(s)[0],",
+              "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+              "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+              "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+              "<!--.1",
+              "End",
+              "Google.1",
+              "Tag.1",
+              "Manager.1",
+              "-->.1",
+              "<meta",
+              "charset=\"utf-8\"",
+              "/>",
+              "<meta.1",
+              "name=\"viewport\"",
+              "content=\"width=device-width,",
+              "initial-scale=1,",
+              "shrink-to-fit=no\">",
+              "<title>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<!DOCTYPE",
+                "html>",
+                "<html",
+                "lang=\"en\"",
+                ">",
+                "<head>",
+                "<!--",
+                "Google",
+                "Tag",
+                "Manager",
+                "-->",
+                "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+                "new",
+                "Date().getTime(),event:'gtm.js'});var",
+                "f=d.getElementsByTagName(s)[0],",
+                "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+                "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+                "})(window,document,'script','dataLayer','GTM-KG7PVKB');</script>",
+                "<!--.1",
+                "End",
+                "Google.1",
+                "Tag.1",
+                "Manager.1",
+                "-->.1",
+                "<meta",
+                "charset=\"utf-8\"",
+                "/>",
+                "<meta.1",
+                "name=\"viewport\"",
+                "content=\"width=device-width,",
+                "initial-scale=1,",
+                "shrink-to-fit=no\">",
+                "<title>"
+              ],
+              "matched_groups": [
+                [
+                  "Date().getTime(),event:'gtm.js'});var"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              33
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Data and Tools"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Data and Tools"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "Unnamed: 0",
+              "Data and Tools"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Unnamed: 0",
+                "Data and Tools"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "  margin-right: 0",
+              "Unnamed: 1"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "  margin-right: 0",
+                "Unnamed: 1"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "  margin-right: 0",
+              "Unnamed: 1"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "  margin-right: 0",
+                "Unnamed: 1"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "eff(iciency)?|eff\\."
+                ],
+                [
+                  "year|date"
+                ],
+                [
+                  "material|cell.*type|description|group"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              40,
+              2
+            ]
+          }
+        ]
+      },
+      "kind": "candidate_link",
+      "meta": {
+        "bytes": 26232,
+        "cache_path": "tierb_cache_v6\\nrel_pv_v5\\files\\b362196f8ecf_data-tools.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/data-tools",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.nlr.gov/pv/data-tools",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.nlr.gov/pv/data-tools"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/pv/data-tools"
+      },
+      "url": "https://www.nlr.gov/pv/data-tools"
+    }
+  ],
+  "prediction_ids": [
+    "EN?"
+  ],
+  "prediction_names": [
+    "material symmetry/mass-contrast residual proxy for PV efficiency"
+  ],
+  "pv_proxy_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\pv_proxy_manifest.csv",
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "table_summaries": [],
+  "tables_count": 0,
+  "test_id": "T48",
+  "test_name": "photovoltaic acoustic-optical proxy"
+}

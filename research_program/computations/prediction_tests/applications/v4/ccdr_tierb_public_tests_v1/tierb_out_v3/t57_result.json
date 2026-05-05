@@ -1,0 +1,1884 @@
+{
+  "data_source": "v3 exact/direct table-manifest audit for AMS/DAMPE/CALET/CREAM-like public cosmic-ray spectra; no HEPData search API.",
+  "endpoint_records": [
+    {
+      "category": null,
+      "discovered_links": [
+        "https://inspirehep.net/api/literature/1279896?format=json",
+        "https://inspirehep.net/api/literature/1279896?format=json-expanded",
+        "https://inspirehep.net/schemas/records/hep.json",
+        "https://inspirehep.net/api/literature/1506373?format=json",
+        "https://inspirehep.net/api/literature/1506373?format=json-expanded",
+        "https://inspirehep.net/api/literature/1365898?format=json",
+        "https://inspirehep.net/api/literature/1365898?format=json-expanded",
+        "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json",
+        "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json-expanded"
+      ],
+      "kind": "metadata",
+      "label": "AMS-02 proton flux INSPIRE metadata",
+      "meta": {
+        "bytes": 336728,
+        "cache_path": "tierb_cache_v3\\T57_hep_manifest\\a2051223ebd3_literature.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature?q=title:%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature?q=title:%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature?q=title:%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature?q=title:%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10"
+    },
+    {
+      "category": null,
+      "discovered_links": [
+        "https://inspirehep.net/api/literature/1639413?format=json",
+        "https://inspirehep.net/api/literature/1639413?format=json-expanded",
+        "https://inspirehep.net/schemas/records/hep.json",
+        "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json",
+        "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json-expanded"
+      ],
+      "kind": "metadata",
+      "label": "DAMPE electron+positron spectrum INSPIRE metadata",
+      "meta": {
+        "bytes": 148990,
+        "cache_path": "tierb_cache_v3\\T57_hep_manifest\\c9c6957b2006_literature.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature?q=title:%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature?q=title:%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature?q=title:%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature?q=title:%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10"
+    },
+    {
+      "category": null,
+      "discovered_links": [
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1",
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=bibtex",
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=latex-eu",
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=latex-us",
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json",
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json-expanded",
+        "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=cv"
+      ],
+      "kind": "metadata",
+      "label": "CALET electron spectrum INSPIRE metadata",
+      "meta": {
+        "bytes": 909,
+        "cache_path": "tierb_cache_v3\\T57_hep_manifest\\83c64071790c_literature.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10"
+    },
+    {
+      "category": null,
+      "discovered_links": [
+        "https://status.hepdata.net",
+        "https://hepdata-forum.cern.ch",
+        "https://www.twitter.com/HEPData",
+        "https://www.github.com/HEPData"
+      ],
+      "kind": "table",
+      "label": "HEPData AMS proton table candidate",
+      "meta": {
+        "bytes": 10764,
+        "cache_path": "tierb_cache_v3\\T57_hep_manifest\\bf79524dd7cd_csv.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv"
+    },
+    {
+      "category": null,
+      "discovered_links": [
+        "https://status.hepdata.net",
+        "https://hepdata-forum.cern.ch",
+        "https://www.twitter.com/HEPData",
+        "https://www.github.com/HEPData"
+      ],
+      "kind": "table",
+      "label": "HEPData DAMPE CRE table candidate",
+      "meta": {
+        "bytes": 10764,
+        "cache_path": "tierb_cache_v3\\T57_hep_manifest\\42742bab1fb7_csv.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 15196,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\eea0b911c493_1279896.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1279896?format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1279896?format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "updated",
+            "revision_id",
+            "id",
+            "created",
+            "uuid",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations",
+            "metadata.citation_count",
+            "metadata.publication_info",
+            "metadata.citation_count_without_self_citations",
+            "metadata.core",
+            "metadata.urls",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.authors",
+            "metadata.curated",
+            "metadata.figures",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.keywords",
+            "metadata.abstracts",
+            "metadata.references",
+            "metadata.public_notes",
+            "metadata.arxiv_eprints",
+            "metadata.document_type",
+            "metadata.preprint_date",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.deleted_records",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date",
+            "metadata.accelerator_experiments"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "updated",
+              "revision_id",
+              "id",
+              "created",
+              "uuid",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations",
+              "metadata.citation_count",
+              "metadata.publication_info",
+              "metadata.citation_count_without_self_citations",
+              "metadata.core",
+              "metadata.urls",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.authors",
+              "metadata.curated",
+              "metadata.figures",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.keywords",
+              "metadata.abstracts",
+              "metadata.references",
+              "metadata.public_notes",
+              "metadata.arxiv_eprints",
+              "metadata.document_type",
+              "metadata.preprint_date",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.deleted_records",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date",
+              "metadata.accelerator_experiments"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.arxiv_eprints",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            40
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1279896?format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1279896?format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 15413,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\de8d93b1f715_1279896.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1279896?format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1279896?format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "id",
+            "created",
+            "uuid",
+            "updated",
+            "revision_id",
+            "metadata.citation_count",
+            "metadata.documents",
+            "metadata.citation_count_without_self_citations",
+            "metadata.publication_info",
+            "metadata.authors",
+            "metadata.accelerator_experiments",
+            "metadata.core",
+            "metadata.urls",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.curated",
+            "metadata.figures",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.keywords",
+            "metadata.abstracts",
+            "metadata.references",
+            "metadata.public_notes",
+            "metadata.arxiv_eprints",
+            "metadata.document_type",
+            "metadata.preprint_date",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.deleted_records",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "id",
+              "created",
+              "uuid",
+              "updated",
+              "revision_id",
+              "metadata.citation_count",
+              "metadata.documents",
+              "metadata.citation_count_without_self_citations",
+              "metadata.publication_info",
+              "metadata.authors",
+              "metadata.accelerator_experiments",
+              "metadata.core",
+              "metadata.urls",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.curated",
+              "metadata.figures",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.keywords",
+              "metadata.abstracts",
+              "metadata.references",
+              "metadata.public_notes",
+              "metadata.arxiv_eprints",
+              "metadata.document_type",
+              "metadata.preprint_date",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.deleted_records",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.arxiv_eprints",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            41
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1279896?format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1279896?format=json-expanded"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 183292,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\aa25c4dfe279_hep.json",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/schemas/records/hep.json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/schemas/records/hep.json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "$schema",
+            "additionalProperties",
+            "required",
+            "title",
+            "type",
+            "properties.$schema.format",
+            "properties.$schema.minLength",
+            "properties.$schema.type",
+            "properties._bucket.description",
+            "properties._bucket.minLength",
+            "properties._bucket.type",
+            "properties._collections.description",
+            "properties._collections.items.enum",
+            "properties._collections.items.minLength",
+            "properties._collections.items.type",
+            "properties._collections.minItems",
+            "properties._collections.title",
+            "properties._collections.type",
+            "properties._collections.uniqueItems",
+            "properties._desy_bookkeeping.description",
+            "properties._desy_bookkeeping.items.additionalProperties",
+            "properties._desy_bookkeeping.items.properties.date.description",
+            "properties._desy_bookkeeping.items.properties.date.minLength",
+            "properties._desy_bookkeeping.items.properties.date.type",
+            "properties._desy_bookkeeping.items.properties.expert.description",
+            "properties._desy_bookkeeping.items.properties.expert.minLength",
+            "properties._desy_bookkeeping.items.properties.expert.type",
+            "properties._desy_bookkeeping.items.properties.identifier.description",
+            "properties._desy_bookkeeping.items.properties.identifier.minLength",
+            "properties._desy_bookkeeping.items.properties.identifier.type",
+            "properties._desy_bookkeeping.items.properties.status.description",
+            "properties._desy_bookkeeping.items.properties.status.minLength",
+            "properties._desy_bookkeeping.items.properties.status.type",
+            "properties._desy_bookkeeping.items.type",
+            "properties._desy_bookkeeping.minItems",
+            "properties._desy_bookkeeping.title",
+            "properties._desy_bookkeeping.type",
+            "properties._desy_bookkeeping.uniqueItems",
+            "properties._export_to.additionalProperties",
+            "properties._export_to.description"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "$schema",
+              "additionalProperties",
+              "required",
+              "title",
+              "type",
+              "properties.$schema.format",
+              "properties.$schema.minLength",
+              "properties.$schema.type",
+              "properties._bucket.description",
+              "properties._bucket.minLength",
+              "properties._bucket.type",
+              "properties._collections.description",
+              "properties._collections.items.enum",
+              "properties._collections.items.minLength",
+              "properties._collections.items.type",
+              "properties._collections.minItems",
+              "properties._collections.title",
+              "properties._collections.type",
+              "properties._collections.uniqueItems",
+              "properties._desy_bookkeeping.description",
+              "properties._desy_bookkeeping.items.additionalProperties",
+              "properties._desy_bookkeeping.items.properties.date.description",
+              "properties._desy_bookkeeping.items.properties.date.minLength",
+              "properties._desy_bookkeeping.items.properties.date.type",
+              "properties._desy_bookkeeping.items.properties.expert.description",
+              "properties._desy_bookkeeping.items.properties.expert.minLength",
+              "properties._desy_bookkeeping.items.properties.expert.type",
+              "properties._desy_bookkeeping.items.properties.identifier.description",
+              "properties._desy_bookkeeping.items.properties.identifier.minLength",
+              "properties._desy_bookkeeping.items.properties.identifier.type",
+              "properties._desy_bookkeeping.items.properties.status.description",
+              "properties._desy_bookkeeping.items.properties.status.minLength",
+              "properties._desy_bookkeeping.items.properties.status.type",
+              "properties._desy_bookkeeping.items.type",
+              "properties._desy_bookkeeping.minItems",
+              "properties._desy_bookkeeping.title",
+              "properties._desy_bookkeeping.type",
+              "properties._desy_bookkeeping.uniqueItems",
+              "properties._export_to.additionalProperties",
+              "properties._export_to.description"
+            ],
+            "matched_groups": [
+              [
+                "properties._desy_bookkeeping.items.properties.expert.description",
+                "properties._desy_bookkeeping.items.properties.expert.minLength",
+                "properties._desy_bookkeeping.items.properties.expert.type",
+                "properties._export_to.additionalProperties",
+                "properties._export_to.description",
+                "properties._export_to.properties.CDS.description",
+                "properties._export_to.properties.CDS.type",
+                "properties._export_to.properties.HAL.description"
+              ],
+              [
+                "properties.collaborations.items.additionalProperties",
+                "properties.collaborations.items.properties.record.additionalProperties",
+                "properties.collaborations.items.properties.record.properties.$ref.description",
+                "properties.collaborations.items.properties.record.properties.$ref.format",
+                "properties.collaborations.items.properties.record.properties.$ref.minLength",
+                "properties.collaborations.items.properties.record.properties.$ref.pattern",
+                "properties.collaborations.items.properties.record.properties.$ref.type",
+                "properties.collaborations.items.properties.record.required"
+              ],
+              [
+                "properties._desy_bookkeeping.items.properties.status.description",
+                "properties._desy_bookkeeping.items.properties.status.minLength",
+                "properties._desy_bookkeeping.items.properties.status.type",
+                "properties.copyright.items.properties.statement.description",
+                "properties.copyright.items.properties.statement.minLength",
+                "properties.copyright.items.properties.statement.title",
+                "properties.copyright.items.properties.statement.type",
+                "properties.external_system_identifiers.description"
+              ]
+            ],
+            "missing_groups": [],
+            "ok": true
+          },
+          "shape": [
+            1,
+            1223
+          ],
+          "source_url": "https://inspirehep.net/schemas/records/hep.json"
+        }
+      ],
+      "url": "https://inspirehep.net/schemas/records/hep.json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 12903,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\38068094af09_1506373.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1506373?format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1506373?format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "revision_id",
+            "updated",
+            "uuid",
+            "created",
+            "id",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations",
+            "metadata.publication_info",
+            "metadata.citation_count",
+            "metadata.citation_count_without_self_citations",
+            "metadata.core",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.authors",
+            "metadata.curated",
+            "metadata.figures",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.keywords",
+            "metadata.abstracts",
+            "metadata.references",
+            "metadata.public_notes",
+            "metadata.arxiv_eprints",
+            "metadata.document_type",
+            "metadata.preprint_date",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date",
+            "metadata.accelerator_experiments"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "revision_id",
+              "updated",
+              "uuid",
+              "created",
+              "id",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations",
+              "metadata.publication_info",
+              "metadata.citation_count",
+              "metadata.citation_count_without_self_citations",
+              "metadata.core",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.authors",
+              "metadata.curated",
+              "metadata.figures",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.keywords",
+              "metadata.abstracts",
+              "metadata.references",
+              "metadata.public_notes",
+              "metadata.arxiv_eprints",
+              "metadata.document_type",
+              "metadata.preprint_date",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date",
+              "metadata.accelerator_experiments"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.arxiv_eprints",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            38
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1506373?format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1506373?format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 13125,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\f42054a02ea2_1506373.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1506373?format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1506373?format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "updated",
+            "id",
+            "revision_id",
+            "uuid",
+            "created",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations",
+            "metadata.publication_info",
+            "metadata.citation_count_without_self_citations",
+            "metadata.accelerator_experiments",
+            "metadata.authors",
+            "metadata.citation_count",
+            "metadata.documents",
+            "metadata.core",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.curated",
+            "metadata.figures",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.keywords",
+            "metadata.abstracts",
+            "metadata.references",
+            "metadata.public_notes",
+            "metadata.arxiv_eprints",
+            "metadata.document_type",
+            "metadata.preprint_date",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "updated",
+              "id",
+              "revision_id",
+              "uuid",
+              "created",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations",
+              "metadata.publication_info",
+              "metadata.citation_count_without_self_citations",
+              "metadata.accelerator_experiments",
+              "metadata.authors",
+              "metadata.citation_count",
+              "metadata.documents",
+              "metadata.core",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.curated",
+              "metadata.figures",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.keywords",
+              "metadata.abstracts",
+              "metadata.references",
+              "metadata.public_notes",
+              "metadata.arxiv_eprints",
+              "metadata.document_type",
+              "metadata.preprint_date",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.arxiv_eprints",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            39
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1506373?format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1506373?format=json-expanded"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 149219,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\6f9f29a23fae_1365898.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1365898?format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1365898?format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "updated",
+            "uuid",
+            "created",
+            "id",
+            "revision_id",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations",
+            "metadata.publication_info",
+            "metadata.citation_count",
+            "metadata.citation_count_without_self_citations",
+            "metadata.documents",
+            "metadata.core",
+            "metadata.dois",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.authors",
+            "metadata.curated",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.imprints",
+            "metadata.keywords",
+            "metadata.refereed",
+            "metadata.abstracts",
+            "metadata.copyright",
+            "metadata.references",
+            "metadata.document_type",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date",
+            "metadata.accelerator_experiments",
+            "metadata.external_system_identifiers"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "updated",
+              "uuid",
+              "created",
+              "id",
+              "revision_id",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations",
+              "metadata.publication_info",
+              "metadata.citation_count",
+              "metadata.citation_count_without_self_citations",
+              "metadata.documents",
+              "metadata.core",
+              "metadata.dois",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.authors",
+              "metadata.curated",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.imprints",
+              "metadata.keywords",
+              "metadata.refereed",
+              "metadata.abstracts",
+              "metadata.copyright",
+              "metadata.references",
+              "metadata.document_type",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date",
+              "metadata.accelerator_experiments",
+              "metadata.external_system_identifiers"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.external_system_identifiers",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ],
+              [
+                "metadata.external_system_identifiers"
+              ]
+            ],
+            "missing_groups": [],
+            "ok": true
+          },
+          "shape": [
+            1,
+            40
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1365898?format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1365898?format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 175223,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\8530f5020d1e_1365898.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1365898?format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1365898?format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "created",
+            "revision_id",
+            "uuid",
+            "updated",
+            "id",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations",
+            "metadata.documents",
+            "metadata.accelerator_experiments",
+            "metadata.citation_count",
+            "metadata.citation_count_without_self_citations",
+            "metadata.publication_info",
+            "metadata.authors",
+            "metadata.core",
+            "metadata.dois",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.curated",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.imprints",
+            "metadata.keywords",
+            "metadata.refereed",
+            "metadata.abstracts",
+            "metadata.copyright",
+            "metadata.references",
+            "metadata.document_type",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date",
+            "metadata.external_system_identifiers"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "created",
+              "revision_id",
+              "uuid",
+              "updated",
+              "id",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations",
+              "metadata.documents",
+              "metadata.accelerator_experiments",
+              "metadata.citation_count",
+              "metadata.citation_count_without_self_citations",
+              "metadata.publication_info",
+              "metadata.authors",
+              "metadata.core",
+              "metadata.dois",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.curated",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.imprints",
+              "metadata.keywords",
+              "metadata.refereed",
+              "metadata.abstracts",
+              "metadata.copyright",
+              "metadata.references",
+              "metadata.document_type",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date",
+              "metadata.external_system_identifiers"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.external_system_identifiers",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ],
+              [
+                "metadata.external_system_identifiers"
+              ]
+            ],
+            "missing_groups": [],
+            "ok": true
+          },
+          "shape": [
+            1,
+            40
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1365898?format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1365898?format=json-expanded"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 336728,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\a5abac55b37d_literature.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 316499,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\7a5d0cedd6fa_literature.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/?q=title%3A%22Precision%20Measurement%20of%20the%20Proton%20Flux%22%20AMS&size=10&page=1&format=json-expanded"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 101068,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\f3a38af530ee_1639413.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1639413?format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1639413?format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "created",
+            "revision_id",
+            "uuid",
+            "updated",
+            "id",
+            "metadata.citation_count",
+            "metadata.citation_count_without_self_citations",
+            "metadata.publication_info",
+            "metadata.core",
+            "metadata.dois",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.authors",
+            "metadata.curated",
+            "metadata.figures",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.keywords",
+            "metadata.refereed",
+            "metadata.abstracts",
+            "metadata.references",
+            "metadata.public_notes",
+            "metadata.arxiv_eprints",
+            "metadata.document_type",
+            "metadata.preprint_date",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories",
+            "metadata.legacy_creation_date",
+            "metadata.accelerator_experiments",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "created",
+              "revision_id",
+              "uuid",
+              "updated",
+              "id",
+              "metadata.citation_count",
+              "metadata.citation_count_without_self_citations",
+              "metadata.publication_info",
+              "metadata.core",
+              "metadata.dois",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.authors",
+              "metadata.curated",
+              "metadata.figures",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.keywords",
+              "metadata.refereed",
+              "metadata.abstracts",
+              "metadata.references",
+              "metadata.public_notes",
+              "metadata.arxiv_eprints",
+              "metadata.document_type",
+              "metadata.preprint_date",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories",
+              "metadata.legacy_creation_date",
+              "metadata.accelerator_experiments",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.arxiv_eprints",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            40
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1639413?format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1639413?format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 117455,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\9272c6d2b71b_1639413.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/1639413?format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/1639413?format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "uuid",
+            "updated",
+            "id",
+            "revision_id",
+            "created",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv",
+            "links.citations",
+            "metadata.publication_info",
+            "metadata.accelerator_experiments",
+            "metadata.authors",
+            "metadata.documents",
+            "metadata.citation_count_without_self_citations",
+            "metadata.citation_count",
+            "metadata.core",
+            "metadata.dois",
+            "metadata.titles",
+            "metadata.$schema",
+            "metadata.curated",
+            "metadata.figures",
+            "metadata.license",
+            "metadata.texkeys",
+            "metadata.citeable",
+            "metadata.keywords",
+            "metadata.refereed",
+            "metadata.abstracts",
+            "metadata.references",
+            "metadata.public_notes",
+            "metadata.arxiv_eprints",
+            "metadata.document_type",
+            "metadata.preprint_date",
+            "metadata.collaborations",
+            "metadata.control_number",
+            "metadata.legacy_version",
+            "metadata.number_of_pages",
+            "metadata.inspire_categories"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "uuid",
+              "updated",
+              "id",
+              "revision_id",
+              "created",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv",
+              "links.citations",
+              "metadata.publication_info",
+              "metadata.accelerator_experiments",
+              "metadata.authors",
+              "metadata.documents",
+              "metadata.citation_count_without_self_citations",
+              "metadata.citation_count",
+              "metadata.core",
+              "metadata.dois",
+              "metadata.titles",
+              "metadata.$schema",
+              "metadata.curated",
+              "metadata.figures",
+              "metadata.license",
+              "metadata.texkeys",
+              "metadata.citeable",
+              "metadata.keywords",
+              "metadata.refereed",
+              "metadata.abstracts",
+              "metadata.references",
+              "metadata.public_notes",
+              "metadata.arxiv_eprints",
+              "metadata.document_type",
+              "metadata.preprint_date",
+              "metadata.collaborations",
+              "metadata.control_number",
+              "metadata.legacy_version",
+              "metadata.number_of_pages",
+              "metadata.inspire_categories"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us",
+                "metadata.accelerator_experiments",
+                "metadata.arxiv_eprints",
+                "metadata.texkeys"
+              ],
+              [
+                "metadata.collaborations"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            41
+          ],
+          "source_url": "https://inspirehep.net/api/literature/1639413?format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/1639413?format=json-expanded"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 148990,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\a8c730b5568f_literature.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 141161,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\f5ee02f1be7e_literature.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/?q=title%3A%22Direct%20detection%20of%20a%20break%20in%20the%20teraelectronvolt%20cosmic-ray%20spectrum%22&size=10&page=1&format=json-expanded"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 909,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\0386d0f85198_literature.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json"
+    },
+    {
+      "label": "discovered_table_like_link",
+      "meta": {
+        "bytes": 909,
+        "cache_path": "tierb_cache_v3\\T57_hep_discovered\\d75c839a8cfc_literature.bin",
+        "cached": false,
+        "content_type": "application/vnd+inspire.record.expanded+json",
+        "error": null,
+        "final_url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json-expanded",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json-expanded"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "links.self",
+            "links.bibtex",
+            "links.latex-eu",
+            "links.latex-us",
+            "links.json",
+            "links.json-expanded",
+            "links.cv"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "links.self",
+              "links.bibtex",
+              "links.latex-eu",
+              "links.latex-us",
+              "links.json",
+              "links.json-expanded",
+              "links.cv"
+            ],
+            "matched_groups": [
+              [
+                "links.bibtex",
+                "links.json-expanded",
+                "links.latex-eu",
+                "links.latex-us"
+              ]
+            ],
+            "missing_groups": [
+              [
+                "flux|intensity|spectrum|cross.*section|ratio|residual"
+              ],
+              [
+                "err|unc|stat|sys|sigma|error"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            9
+          ],
+          "source_url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json-expanded"
+        }
+      ],
+      "url": "https://inspirehep.net/api/literature/?q=CALET%20electron%20spectrum%20TeV%20HEPData&size=10&page=1&format=json-expanded"
+    }
+  ],
+  "falsification_logic": {
+    "caveat": "If exact flux/error tables cannot be parsed, result is data_limited.",
+    "confirm_like": "Parsed >1 TeV flux/cross-section tables show stable residuals at the predicted level after spectral-model controls.",
+    "falsify_like": "Adequate high-energy public flux tables rule out residuals at the predicted level."
+  },
+  "generated_utc": "2026-04-30T11:45:06Z",
+  "prediction_ids": [
+    "AE1"
+  ],
+  "prediction_names": [
+    ">1 TeV cosmic-ray residual at ~1e-6 level relative to standard spectra"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "support_like": null,
+  "test_id": "T57",
+  "test_name": "cosmic-ray cross-section enhancement"
+}

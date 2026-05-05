@@ -1,0 +1,117 @@
+{
+  "analysis_note": "v2 no longer requires an opt-in hard-coded tau seed. It attempts to parse tau from public PDG MC mass-width data. Full quark-sector FLAG propagation remains data-limited unless machine-readable FLAG tables are available.",
+  "charged_lepton_koide_Q": 0.6666819730184289,
+  "data_source": "NIST constants pages + PDG public MC mass-width data + FLAG public page, all downloaded by script",
+  "deviation_from_2_over_3": 1.530635176227868e-05,
+  "downloaded_sources": [
+    {
+      "label": "nist_electron_mass_energy_equivalent_mev",
+      "meta": {
+        "bytes": 7905,
+        "cache_path": "tierb_cache_v2\\koide_public\\c51ca3d8e790_Value.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev"
+      },
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev"
+    },
+    {
+      "label": "nist_muon_mass_energy_equivalent_mev",
+      "meta": {
+        "bytes": 7870,
+        "cache_path": "tierb_cache_v2\\koide_public\\bd3db092c507_Value.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmuc2mev",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmuc2mev"
+      },
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmuc2mev"
+    },
+    {
+      "label": "pdg_2025_mc_mass_width",
+      "meta": {
+        "bytes": 31341,
+        "cache_path": "tierb_cache_v2\\koide_public\\4d77822b841e_mass_width_2025.mcd",
+        "cached": false,
+        "content_type": "application/vnd.mcd",
+        "error": null,
+        "final_url": "https://pdg.lbl.gov/2025/mcdata/mass_width_2025.mcd",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pdg.lbl.gov/2025/mcdata/mass_width_2025.mcd"
+      },
+      "url": "https://pdg.lbl.gov/2025/mcdata/mass_width_2025.mcd"
+    },
+    {
+      "label": "pdg_2024_mc_mass_width",
+      "meta": {
+        "bytes": 30830,
+        "cache_path": "tierb_cache_v2\\koide_public\\8282fa02a040_mass_width_2024.mcd",
+        "cached": false,
+        "content_type": "application/vnd.mcd",
+        "error": null,
+        "final_url": "https://pdg.lbl.gov/2024/mcdata/mass_width_2024.mcd",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pdg.lbl.gov/2024/mcdata/mass_width_2024.mcd"
+      },
+      "url": "https://pdg.lbl.gov/2024/mcdata/mass_width_2024.mcd"
+    },
+    {
+      "label": "pdg_listings_contents",
+      "meta": {
+        "bytes": 412821,
+        "cache_path": "tierb_cache_v2\\koide_public\\ae7ee7526d90_contents_listings.html",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://pdg.lbl.gov/2025/listings/contents_listings.html",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pdg.lbl.gov/2025/listings/contents_listings.html"
+      },
+      "url": "https://pdg.lbl.gov/2025/listings/contents_listings.html"
+    },
+    {
+      "label": "flag_review_page",
+      "meta": {
+        "cache_path": "tierb_cache_v2\\koide_public\\9cc87b7605aa_flag.unibe.ch.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectTimeout: HTTPSConnectionPool(host='flag.unibe.ch', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='flag.unibe.ch', port=443) at 0x1be0e70b250>, 'Connection to flag.unibe.ch timed out. (connect timeout=60)'))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://flag.unibe.ch/"
+      },
+      "url": "https://flag.unibe.ch/"
+    }
+  ],
+  "falsification_logic": {
+    "caveat": "This script can verify the charged-lepton sector if PDG MC data are reachable; quark-sector uncertainty propagation is still a separate FLAG parsing task.",
+    "confirm_like": "Public PDG/FLAG values reproduce persistent sector-dependent Koide closeness/distance with propagated uncertainties.",
+    "falsify_like": "Updated public values erase the sector-dependent pattern or produce non-stable scales."
+  },
+  "generated_utc": "2026-04-29T21:53:17Z",
+  "parsed_masses": {
+    "electron_MeV": 0.51,
+    "muon_MeV": 105.658,
+    "tau_MeV": 1776.9299999999998
+  },
+  "prediction_ids": [
+    "\u00a76.3"
+  ],
+  "prediction_names": [
+    "sector-dependent Koide distance/scales persist with public PDG/FLAG values"
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "ok",
+  "support_like": true,
+  "test_id": "T60",
+  "test_name": "Koide sector-distance audit"
+}

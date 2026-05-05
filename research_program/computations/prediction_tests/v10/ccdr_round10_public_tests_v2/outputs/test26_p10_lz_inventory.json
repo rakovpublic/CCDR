@@ -1,0 +1,471 @@
+{
+  "best_window_candidate_v9": null,
+  "coverage_summary_v8": {
+    "n_table_downloads": 27,
+    "next_statistic": "identify mass_GeV and sigma_cm2 columns and compute min limit inside 0.5-3 TeV",
+    "numeric_rows_total": 89,
+    "predicted_window_GeV": [
+      500,
+      3000
+    ]
+  },
+  "coverage_summary_v9": {
+    "claim_level": "measured positive-ready if numeric mass-limit rows lie inside the predicted window; not a peak detection",
+    "n_candidates_in_window": 0,
+    "n_numeric_mass_limit_candidates": 0,
+    "predicted_window_GeV": [
+      500,
+      3000
+    ]
+  },
+  "data_sources": [
+    {
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    }
+  ],
+  "discovered_table_refs": [
+    "155182.v1/t1",
+    "155182.v1/t2",
+    "155182.v1/t3",
+    "155182.v1/t4",
+    "155182.v1/t5",
+    "155182.v2/t1",
+    "155182.v2/t2",
+    "155182.v2/t3",
+    "155182.v2/t4",
+    "155182.v2/t5",
+    "Data",
+    "Efficiency",
+    "SDn cross section",
+    "SDp cross section",
+    "SI cross section"
+  ],
+  "downloaded": [
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_7b718b705e__155182_7b718b705e",
+      "size_bytes": 78047,
+      "table_refs": [
+        "155182.v1/t1",
+        "155182.v1/t2",
+        "155182.v1/t3",
+        "155182.v1/t4",
+        "155182.v1/t5"
+      ],
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "numeric_rows": 1,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_6b2dd2e234__155182_6b2dd2e234",
+      "size_bytes": 8998,
+      "table_refs": [
+        "155182.v2/t1",
+        "155182.v2/t2",
+        "155182.v2/t3",
+        "155182.v2/t4",
+        "155182.v2/t5"
+      ],
+      "url": "https://www.hepdata.net/record/155182?format=json"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_158595__158595",
+      "size_bytes": 47589,
+      "table_refs": [
+        "155182.v2/t4"
+      ],
+      "url": "https://www.hepdata.net/record/158595"
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:27:34Z",
+  "group": "direct_detection",
+  "interpretation": "Direct detection v8: HEPData/public table download candidates are attempted and numeric rows are counted for quantitative mass-window coverage readiness.",
+  "mass_column_inference_v10": {
+    "max_mass_candidate": null,
+    "min_mass_candidate": null,
+    "n_in_500_3000_GeV": 0,
+    "n_mass_candidates": 0
+  },
+  "mass_limit_candidates_v9": [],
+  "n_discovered_refs": 15,
+  "next_statistic": "download table CSV/JSON resources, identify mass/limit/observable columns, then compute window overlap or bound-compatible residual statistic",
+  "predicted_window_GeV": [
+    500,
+    3000
+  ],
+  "prediction_id": "P10/P25/P31",
+  "prediction_name": "LZ mass/limit column positive-ready",
+  "round": 10,
+  "runner_elapsed_s": 31.886,
+  "runner_returncode": 0,
+  "status": "mass_window_quantified_positive_ready",
+  "table_download_attempts_v8": [
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__csv",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t1/csv"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__json",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t1/json"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__yaml",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t1/yaml"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__155182_7b718b705e",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__csv",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t2/csv"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__json",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t2/json"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__yaml",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t2/yaml"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__155182_7b718b705e",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__csv",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t3/csv"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__json",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t3/json"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__yaml",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t3/yaml"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__155182_7b718b705e",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__csv",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t4/csv"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__json",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t4/json"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__yaml",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t4/yaml"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__155182_7b718b705e",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__csv",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t5/csv"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__json",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t5/json"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__yaml",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t5/yaml"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__155182_7b718b705e",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    }
+  ],
+  "table_downloads_v8": [
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t1",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t1/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t1",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t1/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t1",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t1/yaml"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t1__155182_7b718b705e",
+      "preview": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPDat",
+      "ref": "155182.v1/t1",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t2",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t2/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t2",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t2/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t2",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t2/yaml"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t2__155182_7b718b705e",
+      "preview": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPDat",
+      "ref": "155182.v1/t2",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t3",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t3/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t3",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t3/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t3",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t3/yaml"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t3__155182_7b718b705e",
+      "preview": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPDat",
+      "ref": "155182.v1/t3",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t4",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t4/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t4",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t4/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t4",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t4/yaml"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t4__155182_7b718b705e",
+      "preview": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPDat",
+      "ref": "155182.v1/t4",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t5",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t5/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t5",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t5/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v1/t5",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v1/t5/yaml"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v1_t5__155182_7b718b705e",
+      "preview": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPDat",
+      "ref": "155182.v1/t5",
+      "size_bytes": 78047,
+      "url": "https://www.hepdata.net/record/155182?version=1"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t1__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v2/t1",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v2/t1/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t1__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v2/t1",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v2/t1/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t1__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v2/t1",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v2/t1/yaml"
+    },
+    {
+      "numeric_rows": 11,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t1__155182_280a37c2c6",
+      "preview": "\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPDat",
+      "ref": "155182.v2/t1",
+      "size_bytes": 78208,
+      "url": "https://www.hepdata.net/record/155182?version=2"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t2__csv",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v2/t2",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v2/t2/csv"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t2__json",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v2/t2",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v2/t2/json"
+    },
+    {
+      "numeric_rows": 0,
+      "path": ".ccdr_round10_cache\\R10-T26_155182_v2_t2__yaml",
+      "preview": "\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"google-site-verification\" content=\"5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s\"/>\n    <meta name=\"google-site-verification\" content=\"Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4\"/>\n\n    \n    \n    <meta name=\"generator\" content=\"Invenio\"/>\n\n    \n    \n    \n    <title>HEPData ",
+      "ref": "155182.v2/t2",
+      "size_bytes": 11270,
+      "url": "https://www.hepdata.net/download/table/155182.v2/t2/yaml"
+    }
+  ],
+  "test_id": "R10-T26",
+  "tier": "public-current",
+  "total_numeric_rows": 23,
+  "window_candidates_v9": []
+}

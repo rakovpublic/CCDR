@@ -1,0 +1,1173 @@
+{
+  "boundary_dominated_tables_used": 38,
+  "data_source": "CMB-S4/Cryogenic_Material_Properties GitHub raw thermal_conductivity CSV files; v2 restricts inference to boundary-dominated classified subset",
+  "downloaded_sources": [
+    {
+      "meta": {
+        "bytes": 1915,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\281ad7d34447_Aluminum_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/Aluminum_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/Aluminum_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum/Aluminum_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/Aluminum_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 619,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\834334401314_ALUMINUM1100_2008.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/ALUMINUM1100_2008.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/ALUMINUM1100_2008.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum/RAW/ALUMINUM1100_2008.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/ALUMINUM1100_2008.csv"
+    },
+    {
+      "meta": {
+        "bytes": 3484,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\7c0fd312e326_Al_1100_H14.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_1100_H14.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_1100_H14.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum/RAW/Al_1100_H14.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_1100_H14.csv"
+    },
+    {
+      "meta": {
+        "bytes": 3256,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\bccdf40ddaef_Al_1100_O.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_1100_O.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_1100_O.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum/RAW/Al_1100_O.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_1100_O.csv"
+    },
+    {
+      "meta": {
+        "bytes": 5309,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\e4eca86249c0_Al_6061.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_6061.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_6061.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum/RAW/Al_6061.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum/RAW/Al_6061.csv"
+    },
+    {
+      "meta": {
+        "bytes": 367,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\7255aa5b3746_Aluminum_1100_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100/Aluminum_1100_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100/Aluminum_1100_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_1100/Aluminum_1100_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100/Aluminum_1100_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 619,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\601867e66ca6_ALUMINUM1100_2008.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100/RAW/ALUMINUM1100_2008.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100/RAW/ALUMINUM1100_2008.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_1100/RAW/ALUMINUM1100_2008.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100/RAW/ALUMINUM1100_2008.csv"
+    },
+    {
+      "meta": {
+        "bytes": 286,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\7039f75f2179_Aluminum_1100H14_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100H14/Aluminum_1100H14_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100H14/Aluminum_1100H14_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_1100H14/Aluminum_1100H14_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100H14/Aluminum_1100H14_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 3484,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\d547a88f8cb3_Al_1100_H14.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100H14/RAW/Al_1100_H14.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100H14/RAW/Al_1100_H14.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_1100H14/RAW/Al_1100_H14.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100H14/RAW/Al_1100_H14.csv"
+    },
+    {
+      "meta": {
+        "bytes": 284,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\d30e40a26cd4_Aluminum_1100O_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100O/Aluminum_1100O_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100O/Aluminum_1100O_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_1100O/Aluminum_1100O_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100O/Aluminum_1100O_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 3256,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\3406d8b28355_Al_1100_O.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100O/RAW/Al_1100_O.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100O/RAW/Al_1100_O.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_1100O/RAW/Al_1100_O.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_1100O/RAW/Al_1100_O.csv"
+    },
+    {
+      "meta": {
+        "bytes": 156,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\85bd6dd170ad_Aluminum_3003F_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_3003F/Aluminum_3003F_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_3003F/Aluminum_3003F_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_3003F/Aluminum_3003F_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_3003F/Aluminum_3003F_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 152,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\4c15b2cf9be1_Aluminum_5083O_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_5083O/Aluminum_5083O_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_5083O/Aluminum_5083O_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_5083O/Aluminum_5083O_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_5083O/Aluminum_5083O_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 565,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\2ae27c41db39_Aluminum_6061T6_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6061T6/Aluminum_6061T6_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6061T6/Aluminum_6061T6_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_6061T6/Aluminum_6061T6_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6061T6/Aluminum_6061T6_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 5309,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\0f1896c2c8ff_Al_6061.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6061T6/RAW/Al_6061.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6061T6/RAW/Al_6061.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_6061T6/RAW/Al_6061.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6061T6/RAW/Al_6061.csv"
+    },
+    {
+      "meta": {
+        "bytes": 162,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\919fe917f629_Aluminum_6063T5_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6063T5/Aluminum_6063T5_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6063T5/Aluminum_6063T5_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Aluminum_6063T5/Aluminum_6063T5_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Aluminum_6063T5/Aluminum_6063T5_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 154,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\729719e6aee7_Beryllium_Copper_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Beryllium_Copper/Beryllium_Copper_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Beryllium_Copper/Beryllium_Copper_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Beryllium_Copper/Beryllium_Copper_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Beryllium_Copper/Beryllium_Copper_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 230,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\615bf2a7a215_Brass_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/Brass_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/Brass_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/Brass/Brass_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/Brass_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 336,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\ef66d6bcb423_2007_I.O._Owate.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/RAW/2007%20I.O.%20Owate.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/RAW/2007 I.O. Owate.csv"
+      },
+      "path": "thermal_conductivity/lib/Brass/RAW/2007 I.O. Owate.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/RAW/2007 I.O. Owate.csv"
+    },
+    {
+      "meta": {
+        "bytes": 406,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\208d3f92116c_2018_I._Rojas-Rodr_guez.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/RAW/2018%20I.%20Rojas-Rodr%C3%ADguez.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/RAW/2018 I. Rojas-Rodr\u00edguez.csv"
+      },
+      "path": "thermal_conductivity/lib/Brass/RAW/2018 I. Rojas-Rodr\u00edguez.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Brass/RAW/2018 I. Rojas-Rodr\u00edguez.csv"
+    },
+    {
+      "meta": {
+        "bytes": 870,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\66cd746f40ee_CFRP_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/CFRP_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/CFRP_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/CFRP_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/CFRP_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 4904,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\95e314a5c20f_CFRP_Clearwater_p25in.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/CFRP_Clearwater_p25in.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/CFRP_Clearwater_p25in.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/CFRP_Clearwater_p25in.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/CFRP_Clearwater_p25in.csv"
+    },
+    {
+      "meta": {
+        "bytes": 644,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\b4cd59dbc2c7_Crowley_Clearwater_0.25K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.25K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.25K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.25K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.25K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 1220,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\ff93032293cb_Crowley_Clearwater_0.27K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.27K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.27K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.27K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.27K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 287,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\f414c70cdbb9_Crowley_Clearwater_0.36K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.36K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.36K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.36K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.36K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 2030,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\b0971de4de12_Crowley_Clearwater__0.1K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.1K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.1K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.1K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.1K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 602,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\c6e97ad0d3bd_Crowley_Clearwater__0.5K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.5K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.5K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.5K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.5K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 910,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\2a35820ac611_Crowley_DPP__0.3K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__0.3K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__0.3K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__0.3K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__0.3K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 727,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\fe90eca47db1_Crowley_DPP__1.4K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__1.4K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__1.4K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__1.4K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__1.4K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 975,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\11165dc63b72_Crowley_Graphlite__1.4K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Graphlite__1.4K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Graphlite__1.4K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Graphlite__1.4K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Graphlite__1.4K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 5194,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\abdc34bcb746_Nachman_2025.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Nachman_2025.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Nachman_2025.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/Nachman_2025.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Nachman_2025.csv"
+    },
+    {
+      "meta": {
+        "bytes": 738,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\0d1056cd5cf5_RunyanJones_Graphlite_2008.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/RunyanJones_Graphlite_2008.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/RunyanJones_Graphlite_2008.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP/RAW/RunyanJones_Graphlite_2008.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/RunyanJones_Graphlite_2008.csv"
+    },
+    {
+      "meta": {
+        "bytes": 188,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\e21db89c4e3d_CFRP_Clearwater_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/CFRP_Clearwater_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/CFRP_Clearwater_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/CFRP_Clearwater_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/CFRP_Clearwater_fits.csv"
+    },
+    {
+      "meta": {
+        "bytes": 4904,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\db740a8eb353_CFRP_Clearwater_p25in.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/CFRP_Clearwater_p25in.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/CFRP_Clearwater_p25in.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/CFRP_Clearwater_p25in.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/CFRP_Clearwater_p25in.csv"
+    },
+    {
+      "meta": {
+        "bytes": 644,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\39d584ba46a1_Crowley_Clearwater_0.25K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.25K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.25K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.25K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.25K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 1220,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\ef341a2a6959_Crowley_Clearwater_0.27K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.27K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.27K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.27K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.27K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 287,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\ae7c731cdc99_Crowley_Clearwater_0.36K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.36K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.36K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.36K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.36K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 2030,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\cd94bcc194fe_Crowley_Clearwater__0.1K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.1K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.1K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.1K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.1K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 602,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\8e630181f8c3_Crowley_Clearwater__0.5K_2022.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.5K_2022.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.5K_2022.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.5K_2022.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.5K_2022.csv"
+    },
+    {
+      "meta": {
+        "bytes": 271,
+        "cache_path": "tierb_cache_v2\\cmbs4_thermal\\0a0ae14fe3d7_CFRP_DPP_fits.csv",
+        "cached": false,
+        "content_type": "text/plain; charset=utf-8",
+        "error": null,
+        "final_url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_DPP/CFRP_DPP_fits.csv",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_DPP/CFRP_DPP_fits.csv"
+      },
+      "path": "thermal_conductivity/lib/CFRP_DPP/CFRP_DPP_fits.csv",
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_DPP/CFRP_DPP_fits.csv"
+    }
+  ],
+  "exponent_summary_boundary_subset": {
+    "fraction_near_T_half_window_0p35": 0.16666666666666666,
+    "mean_lowT_exponent": 0.9005750062632963,
+    "median_lowT_exponent": 1.1068721907871677,
+    "n": 36
+  },
+  "exponents_sample": [
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.2134356964554538,
+      "low_T_max_K": 0.38857,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.25K_2022.csv",
+      "r2": 0.9562061650235186,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.25K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.432773864412071,
+      "low_T_max_K": 0.889,
+      "n_low": 10,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.27K_2022.csv",
+      "r2": 0.9825025932831739,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater_0.27K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.4347803630738987,
+      "low_T_max_K": 0.45977,
+      "n_low": 17,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.1K_2022.csv",
+      "r2": 0.9986379749241658,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.1K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": -2.9667066085230243,
+      "low_T_max_K": 0.539,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.5K_2022.csv",
+      "r2": 0.9296701876183824,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Clearwater__0.5K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.3858166382542496,
+      "low_T_max_K": 0.895,
+      "n_low": 6,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__0.3K_2022.csv",
+      "r2": 0.4587540479871849,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__0.3K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.8580631910411016,
+      "low_T_max_K": 1.79,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__1.4K_2022.csv",
+      "r2": 0.8663451450370125,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_DPP__1.4K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": -0.2006957669277973,
+      "low_T_max_K": 1.61625,
+      "n_low": 6,
+      "path": "thermal_conductivity/lib/CFRP/RAW/Crowley_Graphlite__1.4K_2022.csv",
+      "r2": 0.003985063532869648,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP/RAW/Crowley_Graphlite__1.4K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.2134356964554538,
+      "low_T_max_K": 0.38857,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.25K_2022.csv",
+      "r2": 0.9562061650235186,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.25K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.432773864412071,
+      "low_T_max_K": 0.889,
+      "n_low": 10,
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.27K_2022.csv",
+      "r2": 0.9825025932831739,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater_0.27K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.4347803630738987,
+      "low_T_max_K": 0.45977,
+      "n_low": 17,
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.1K_2022.csv",
+      "r2": 0.9986379749241658,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.1K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": -2.9667066085230243,
+      "low_T_max_K": 0.539,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.5K_2022.csv",
+      "r2": 0.9296701876183824,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Clearwater/RAW/Crowley_Clearwater__0.5K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.3858166382542496,
+      "low_T_max_K": 0.895,
+      "n_low": 6,
+      "path": "thermal_conductivity/lib/CFRP_DPP/RAW/Crowley_DPP__0.3K_2022.csv",
+      "r2": 0.4587540479871849,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_DPP/RAW/Crowley_DPP__0.3K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.8580631910411016,
+      "low_T_max_K": 1.79,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/CFRP_DPP/RAW/Crowley_DPP__1.4K_2022.csv",
+      "r2": 0.8663451450370125,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_DPP/RAW/Crowley_DPP__1.4K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": -0.2006957669277973,
+      "low_T_max_K": 1.61625,
+      "n_low": 6,
+      "path": "thermal_conductivity/lib/CFRP_Graphlite/RAW/Crowley_Graphlite__1.4K_2022.csv",
+      "r2": 0.003985063532869648,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/CFRP_Graphlite/RAW/Crowley_Graphlite__1.4K_2022.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.8516392153419302,
+      "low_T_max_K": 84.8,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule H-003-R.csv",
+      "r2": 0.9928696445084694,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule H-003-R.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.8758365659167112,
+      "low_T_max_K": 80.4,
+      "n_low": 11,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule H-003.csv",
+      "r2": 0.9928084846315814,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule H-003.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.9556557258939521,
+      "low_T_max_K": 80.6,
+      "n_low": 9,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule HN-003.csv",
+      "r2": 0.9973981184142839,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule HN-003.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.0360752957259853,
+      "low_T_max_K": 93.4,
+      "n_low": 9,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MT-001.csv",
+      "r2": 0.9912420467999775,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MT-001.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.1020076142016795,
+      "low_T_max_K": 93.4,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MT-003-R.csv",
+      "r2": 0.986778927765791,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MT-003-R.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.1768975446767447,
+      "low_T_max_K": 78.2,
+      "n_low": 9,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MT-003.csv",
+      "r2": 0.9878295952795673,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MT-003.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.0322762973735855,
+      "low_T_max_K": 80.4,
+      "n_low": 8,
+      "path": "thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MTL-003.csv",
+      "r2": 0.9933240077901258,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/1990 D. L. Rule MTL-003.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.5602843824321416,
+      "low_T_max_K": 2.32,
+      "n_low": 8,
+      "path": "thermal_conductivity/lib/Kapton/RAW/2000 J. Lawrence.csv",
+      "r2": 0.841381028461026,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Kapton/RAW/2000 J. Lawrence.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": true,
+        "material_class": "crystalline_or_metal",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.43563182075869233,
+      "low_T_max_K": 423.15,
+      "n_low": 10,
+      "path": "thermal_conductivity/lib/Stainless_Steel/RAW/BlummEtAl_2007.csv",
+      "r2": 0.9977133832553713,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Stainless_Steel/RAW/BlummEtAl_2007.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": true,
+        "material_class": "crystalline_or_metal",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.17110741931506,
+      "low_T_max_K": 5.96045267,
+      "n_low": 11,
+      "path": "thermal_conductivity/lib/Stainless_Steel/RAW/UmezawaEtAl_1992.csv",
+      "r2": 0.9827406132122606,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Stainless_Steel/RAW/UmezawaEtAl_1992.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": true,
+        "material_class": "crystalline_or_metal",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.43563182075869233,
+      "low_T_max_K": 423.15,
+      "n_low": 10,
+      "path": "thermal_conductivity/lib/Stainless_Steel_310/RAW/BlummEtAl_2007.csv",
+      "r2": 0.9977133832553713,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Stainless_Steel_310/RAW/BlummEtAl_2007.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": true,
+        "material_class": "crystalline_or_metal",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.17110741931506,
+      "low_T_max_K": 5.96045267,
+      "n_low": 11,
+      "path": "thermal_conductivity/lib/Stainless_Steel_316/RAW/UmezawaEtAl_1992.csv",
+      "r2": 0.9827406132122606,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Stainless_Steel_316/RAW/UmezawaEtAl_1992.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": true,
+        "material_class": "unknown",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 2.8899314886608565,
+      "low_T_max_K": 0.196,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/Stycast/RAW/1993 J. R. Olson Stycast 1266 with 44% CaCO3 powder by weight added.csv",
+      "r2": 0.991077962885894,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Stycast/RAW/1993 J. R. Olson Stycast 1266 with 44% CaCO3 powder by weight added.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 2.021297723383849,
+      "low_T_max_K": 0.375,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1963 A.C. Anderson Sample 1.csv",
+      "r2": 0.9868224417868747,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1963 A.C. Anderson Sample 1.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 2.180586722146691,
+      "low_T_max_K": 0.219,
+      "n_low": 6,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1963 A.C. Anderson Sample 2.csv",
+      "r2": 0.8833411695374107,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1963 A.C. Anderson Sample 2.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.5361871059104655,
+      "low_T_max_K": 2.01,
+      "n_low": 7,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1965 W. Reese Sample 1.csv",
+      "r2": 0.9864066183018307,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1965 W. Reese Sample 1.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 2.0329712019860082,
+      "low_T_max_K": 0.386,
+      "n_low": 6,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1965 W. Reese Sample 2.csv",
+      "r2": 0.9952934211941102,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1965 W. Reese Sample 2.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.3906048939419681,
+      "low_T_max_K": 185.0,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1997 S.P. Andersson g=-0.00444T+4.12.csv",
+      "r2": 0.9133565853918683,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1997 S.P. Andersson g=-0.00444T+4.12.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.25958865555276806,
+      "low_T_max_K": 185.0,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1997 S.P. Andersson p=0.csv",
+      "r2": 0.8356786322687211,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1997 S.P. Andersson p=0.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 0.4048648695275914,
+      "low_T_max_K": 185.0,
+      "n_low": 4,
+      "path": "thermal_conductivity/lib/Teflon/RAW/1997 S.p. Andersson g=3.csv",
+      "r2": 0.953570796443608,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Teflon/RAW/1997 S.p. Andersson g=3.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": true,
+        "material_class": "unknown",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 1.111736767372656,
+      "low_T_max_K": 5.4,
+      "n_low": 12,
+      "path": "thermal_conductivity/lib/Ti6Al4V/RAW/UmezawaEtAl_1992.csv",
+      "r2": 0.969547355057777,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/Ti6Al4V/RAW/UmezawaEtAl_1992.csv"
+    },
+    {
+      "classification": {
+        "boundary_dominated_candidate": true,
+        "classification_basis": "path_and_column_keyword_heuristic",
+        "grain_size_known": false,
+        "material_class": "composite_or_polymer",
+        "nanocrystalline_yes_no": false
+      },
+      "exponent": 2.4738449197136703,
+      "low_T_max_K": 0.168,
+      "n_low": 5,
+      "path": "thermal_conductivity/lib/VESPEL/RAW/1993 J. R. Olson SP22 rod.csv",
+      "r2": 0.9781215151821796,
+      "url": "https://raw.githubusercontent.com/CMB-S4/Cryogenic_Material_Properties/main/thermal_conductivity/lib/VESPEL/RAW/1993 J. R. Olson SP22 rod.csv"
+    }
+  ],
+  "falsification_logic": {
+    "caveat": "Classification is heuristic; a decisive falsification needs measured grain-size labels.",
+    "confirm_like": "Boundary-dominated/nanocrystalline classified samples show low-T \u03ba exponents clustering near 1/2 rather than ordinary Debye/Casimir expectations.",
+    "falsify_like": "Boundary-dominated classified samples do not show any T^1/2-like envelope."
+  },
+  "falsification_pressure": true,
+  "generated_utc": "2026-04-29T20:29:08Z",
+  "prediction_ids": [
+    "MAT3"
+  ],
+  "prediction_names": [
+    "CCDR low-temperature nanocrystalline \u03ba exponent near T^1/2"
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "ok",
+  "support_like": false,
+  "tables_used_total": 132,
+  "test_id": "T32",
+  "test_name": "low-T kappa exponent"
+}

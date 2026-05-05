@@ -1,0 +1,230 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    }
+  ],
+  "description": "Estimate local filament axes from Euclid Q1 source positions and compare orientation correlations in high-vs-low density regions.",
+  "falsification_logic": {
+    "confirm_like": "high-density orientation correlation exceeds low-density correlation inside connected Q1 fields",
+    "falsify_like": "density-stratified orientation signal is absent or opposite"
+  },
+  "generated_utc": "2026-04-28T19:33:18Z",
+  "metrics": {
+    "bins_deg": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "field_summaries": [
+      {
+        "density_median": 99504.67093849785,
+        "field": 0,
+        "n": 10372
+      },
+      {
+        "density_median": 63363.26216333941,
+        "field": 1,
+        "n": 9628
+      }
+    ],
+    "high_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.045115402577175334,
+        "n_pairs": 10922
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.037539082488032775,
+        "n_pairs": 10735
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.03713276781045223,
+        "n_pairs": 17871
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.03124092978611529,
+        "n_pairs": 15046
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": -0.16103456967711968,
+        "n_pairs": 536
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.001747925910248711,
+        "n_pairs": 3181
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.03791390471736019,
+        "n_pairs": 52984
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.021343624182420532,
+        "n_pairs": 10221
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.015368350370052042,
+        "n_pairs": 10453
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.018193463578556744,
+        "n_pairs": 16710
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.02658798834883319,
+        "n_pairs": 26927
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.004834078481145608,
+        "n_pairs": 19977
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.019063974629203274,
+        "n_pairs": 19166
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.015350804130186184,
+        "n_pairs": 67148
+      }
+    ],
+    "low_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.10977289202049888,
+        "n_pairs": 4365
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.11238903044724734,
+        "n_pairs": 4527
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.14324252674632,
+        "n_pairs": 9073
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.09443602909723406,
+        "n_pairs": 21250
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.10985259587478356,
+        "n_pairs": 14882
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.05639116347320875,
+        "n_pairs": 867
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.09974944865217698,
+        "n_pairs": 27527
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.05026626973415542,
+        "n_pairs": 6233
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.02683847839302732,
+        "n_pairs": 11264
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.03018662053068839,
+        "n_pairs": 17025
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.05185187780231029,
+        "n_pairs": 26008
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.11008526295373164,
+        "n_pairs": 8592
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.019232112843409997,
+        "n_pairs": 51847
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.10066997631094413,
+        "n_pairs": 24268
+      }
+    ],
+    "mean_high_minus_low_corr": -0.06889761125336244,
+    "n_sources": 20000
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3",
+    "CL4"
+  ],
+  "status": "null",
+  "test_id": "T07",
+  "warnings": []
+}

@@ -1,0 +1,41 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "url": "https://www.hepdata.net/download/table/ins1666817/Figure%201/csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "url": "https://www.hepdata.net/download/table/ins1666817/Table1/csv"
+    }
+  ],
+  "description": "Download public HEPData/literature tables when discoverable and test whether \u03b7/s approaches the KSS bound non-monotonically.",
+  "falsification_logic": {
+    "confirm_like": "\u03b7/s(T) has a minimum near 1/(4\u03c0) in natural units and non-monotonic structure",
+    "falsify_like": "public \u03b7/s tables show no KSS-adjacent minimum"
+  },
+  "generated_utc": "2026-04-28T19:40:06Z",
+  "metrics": {
+    "kss_eta_over_s_SI": 6.078312356035156e-13,
+    "tables_used": [
+      {
+        "eta_over_s_col": "v22Deta1",
+        "kss_natural_1_over_4pi": 0.07957747154594767,
+        "min_eta_over_s": 0.02105737,
+        "min_over_kss": 0.2646147155836884,
+        "n": 80,
+        "source": "https://www.hepdata.net/download/table/ins1666817/Table1/csv",
+        "x_col": "Centrality"
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P5"
+  ],
+  "status": "null",
+  "test_id": "T25",
+  "warnings": []
+}

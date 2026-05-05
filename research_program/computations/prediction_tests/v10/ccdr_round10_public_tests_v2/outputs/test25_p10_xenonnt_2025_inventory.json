@@ -1,0 +1,72 @@
+{
+  "best_window_candidate_v9": null,
+  "coverage_summary_v8": {
+    "n_table_downloads": 0,
+    "next_statistic": "identify mass_GeV and sigma_cm2 columns and compute min limit inside 0.5-3 TeV",
+    "numeric_rows_total": 16,
+    "predicted_window_GeV": [
+      500,
+      3000
+    ]
+  },
+  "coverage_summary_v9": {
+    "claim_level": "measured positive-ready if numeric mass-limit rows lie inside the predicted window; not a peak detection",
+    "n_candidates_in_window": 0,
+    "n_numeric_mass_limit_candidates": 0,
+    "predicted_window_GeV": [
+      500,
+      3000
+    ]
+  },
+  "data_sources": [
+    {
+      "url": "https://www.xenonexperiment.org/results"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.18005"
+    }
+  ],
+  "discovered_table_refs": [],
+  "downloaded": [
+    {
+      "numeric_rows": 16,
+      "path": ".ccdr_round10_cache\\R10-T25_2502.18005__2502.18005",
+      "size_bytes": 80182,
+      "table_refs": [],
+      "url": "https://arxiv.org/abs/2502.18005"
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:27:28Z",
+  "group": "direct_detection",
+  "interpretation": "Direct detection v8: HEPData/public table download candidates are attempted and numeric rows are counted for quantitative mass-window coverage readiness.",
+  "mass_column_inference_v10": {
+    "max_mass_candidate": null,
+    "min_mass_candidate": null,
+    "n_in_500_3000_GeV": 0,
+    "n_mass_candidates": 0
+  },
+  "mass_limit_candidates_v9": [],
+  "n_discovered_refs": 0,
+  "next_statistic": "download table CSV/JSON resources, identify mass/limit/observable columns, then compute window overlap or bound-compatible residual statistic",
+  "predicted_window_GeV": [
+    500,
+    3000
+  ],
+  "prediction_id": "P10/P25/P31",
+  "prediction_name": "XENONnT mass/limit column positive-ready",
+  "round": 10,
+  "runner_elapsed_s": 1.013,
+  "runner_returncode": 0,
+  "status": "mass_window_quantified_positive_ready",
+  "table_download_attempts_v8": [],
+  "table_downloads_v8": [],
+  "test_id": "R10-T25",
+  "tier": "public-current",
+  "total_numeric_rows": 16,
+  "window_candidates_v9": []
+}

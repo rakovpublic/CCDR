@@ -1,0 +1,31 @@
+{
+  "data_sources": [
+    {
+      "file": "models_1.0.1.tar.gz",
+      "ok": true,
+      "path": ".cache\\zenodo_8092761\\models_1.0.1.tar.gz",
+      "record_id": "8092761",
+      "size": 7597328,
+      "url": "https://zenodo.org/api/records/8092761/files/models_1.0.1.tar.gz/content"
+    }
+  ],
+  "description": "Search public NANOGrav new-physics/tabulated posterior files for spectral-index constraints near \u03b4n\u2248\u03bd/3.",
+  "falsification_logic": {
+    "confirm_like": "public posterior constraints contain predicted \u03b4n\u2248\u03bd/3 shift",
+    "falsify_like": "predicted shift excluded by public posterior summaries"
+  },
+  "generated_utc": "2026-05-02T23:28:03Z",
+  "metrics": {
+    "note": "v9.6 requires spectral-index/gamma column identity; full PTA likelihood is not run.",
+    "parsed_public_new_physics_tables": [],
+    "target_delta_n_for_nu_5e-3": 0.0016666666666666668,
+    "verified_spectral_index_tables": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P8b"
+  ],
+  "status": "data_limited",
+  "test_id": "T17",
+  "warnings": []
+}

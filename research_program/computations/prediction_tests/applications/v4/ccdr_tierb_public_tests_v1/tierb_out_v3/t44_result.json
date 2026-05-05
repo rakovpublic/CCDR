@@ -1,0 +1,118 @@
+{
+  "data_source_policy": "v3 curated 3D-NAND spec-table gate: requires layer count, capacity and die area; broad article text is not evidence.",
+  "derived_metrics_if_tables_available": [
+    "capacity_per_area",
+    "capacity_per_layer",
+    "capacity_per_area_layer_proxy"
+  ],
+  "falsification_logic": {
+    "caveat": "Without layer+capacity+die-area rows, result is data_limited.",
+    "confirm_like": "Structured product/spec rows show area/interface scaling explains capacity/throughput better than vertical-volume proxy.",
+    "falsify_like": "Adequate rows show no area/interface advantage or the opposite trend."
+  },
+  "generated_utc": "2026-04-30T10:56:01Z",
+  "manifest_records": [
+    {
+      "discovered_links": [],
+      "label": "Wikichip/Semiconductor spec table discovery",
+      "meta": {
+        "bytes": 229993,
+        "cache_path": "tierb_cache_v3\\T44_structured_manifest\\438b82dc8684_records.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://zenodo.org/api/records?q=3D%20NAND%20layer%20die%20area%20capacity&size=25",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://zenodo.org/api/records?q=3D%20NAND%20layer%20die%20area%20capacity&size=25"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "aggregations.publication_date.buckets",
+            "aggregations.publication_date.label",
+            "aggregations.access_status.buckets",
+            "aggregations.access_status.label",
+            "aggregations.resource_type.buckets",
+            "aggregations.resource_type.label",
+            "aggregations.subject.buckets",
+            "aggregations.subject.label",
+            "aggregations.file_type.buckets",
+            "aggregations.file_type.label",
+            "links.self",
+            "links.next"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "aggregations.publication_date.buckets",
+              "aggregations.publication_date.label",
+              "aggregations.access_status.buckets",
+              "aggregations.access_status.label",
+              "aggregations.resource_type.buckets",
+              "aggregations.resource_type.label",
+              "aggregations.subject.buckets",
+              "aggregations.subject.label",
+              "aggregations.file_type.buckets",
+              "aggregations.file_type.label",
+              "links.self",
+              "links.next"
+            ],
+            "matched_groups": [],
+            "missing_groups": [
+              [
+                "layer|layers"
+              ],
+              [
+                "capacity|Gb|Tb|bit"
+              ],
+              [
+                "die.*area|area|mm2|mm\\^2"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            14
+          ],
+          "source_url": "https://zenodo.org/api/records?q=3D%20NAND%20layer%20die%20area%20capacity&size=25"
+        }
+      ],
+      "url": "https://zenodo.org/api/records?q=3D%20NAND%20layer%20die%20area%20capacity&size=25"
+    },
+    {
+      "discovered_links": [],
+      "label": "Figshare 3D NAND layer die area discovery",
+      "meta": {
+        "cache_path": "tierb_cache_v3\\T44_structured_manifest\\309dc52ac5d5_search.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://api.figshare.com/v2/articles/search?search_for=3D%20NAND%20layer%20die%20area%20capacity",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://api.figshare.com/v2/articles/search?search_for=3D%20NAND%20layer%20die%20area%20capacity"
+      },
+      "tables": [],
+      "url": "https://api.figshare.com/v2/articles/search?search_for=3D%20NAND%20layer%20die%20area%20capacity"
+    }
+  ],
+  "prediction_ids": [
+    "EL1",
+    "EL3"
+  ],
+  "prediction_names": [
+    "inter-layer area rather than volume controls scaling",
+    "3D electronics vertical volume crossover"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "support_like": null,
+  "test_id": "T44",
+  "test_name": "3D NAND area vs volume scaling"
+}

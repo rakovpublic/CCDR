@@ -1,0 +1,14 @@
+{
+  "test_id": "T22",
+  "script": "tests/test22_cmb_large_angle_no_map_proxy.py",
+  "status": "crashed",
+  "generated_utc": "2026-05-03T02:02:43.473101+00:00",
+  "returncode": 1,
+  "seconds": 83.87035131454468,
+  "error_type": "subprocess_nonzero_return",
+  "stdout_tail": "",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\test22_cmb_large_angle_no_map_proxy.py\", line 44, in <module>\n    if __name__=='__main__': main()\n                             ~~~~^^\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\test22_cmb_large_angle_no_map_proxy.py\", line 26, in main\n    d=_read_planck_spectrum(cand,max_rows=args.max_rows)\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\test22_cmb_large_angle_no_map_proxy.py\", line 14, in _read_planck_spectrum\n    return read_planck_lowell_numeric_table(path,max_rows=max_rows) or read_table_any(path,max_rows=max_rows)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\dmytr\\miniforge3\\Lib\\site-packages\\pandas\\core\\generic.py\", line 1513, in __bool__\n    raise ValueError(\n    ...<2 lines>...\n    )\nValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().\n",
+  "warnings": [
+    "run_all_tierA.py continued after this test crashed; inspect stderr_tail."
+  ]
+}

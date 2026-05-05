@@ -1,0 +1,87 @@
+{
+  "data_sources": [
+    {
+      "github": "XENONnT/light_wimp_data_release",
+      "n_files": 6376,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__README.md",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/README.md"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_LightMediator.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_LightMediator.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n1.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n1.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n2.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n2.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SDn.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SDn.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SI.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SI.csv"
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    }
+  ],
+  "description": "Search public direct-detection limit curves for repeated mass-domain extrema, with endpoint/grid-artifact rejection.",
+  "falsification_logic": {
+    "confirm_like": "same non-endpoint geometric extrema appear across independent public curves after smoothing/artifact controls",
+    "falsify_like": "extrema are absent or explained by endpoints, interpolation knots, or scan grids"
+  },
+  "generated_utc": "2026-04-28T22:55:13Z",
+  "metrics": {
+    "extrema_audit": [],
+    "n_nonartifact_masses_total": 0,
+    "note": "Limit-curve extrema are not event-level peaks; v9.4 requires non-endpoint recurrence before suggestive status.",
+    "reproducible_within_0p15dex_count": 0
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P27"
+  ],
+  "prediction_names": [
+    "P27 \u2014 geometric mass-tower ratios"
+  ],
+  "status": "data_limited",
+  "test_id": "T19",
+  "warnings": []
+}

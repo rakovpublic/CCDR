@@ -1,0 +1,3284 @@
+<T01.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES.dat",
+      "size": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat"
+    },
+    {
+      "github": "CobayaSampler/bao_data",
+      "n_files": 59,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\BAO_consensus_covtot_dM_Hz.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/BAO_consensus_covtot_dM_Hz.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\FS_consensus_covtot_dM_Hz_fsig.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/FS_consensus_covtot_dM_Hz_fsig.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_eboss_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_eboss_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_eboss_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_eboss_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_z0.8-1.1_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_z0.8-1.1_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_z0.8-1.1_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_z0.8-1.1_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_QSO_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_QSO_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\final_consensus_covtot_dM_Hz_fsig.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/final_consensus_covtot_dM_Hz_fsig.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_FS.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_FS.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_bao.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_bao.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_final.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_final.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12_LRG_BAO_DMDH.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12_LRG_BAO_DMDH.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12_LRG_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12_LRG_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_ELG_BAO_DVtable.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_ELG_BAO_DVtable.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LRG_BAO_DMDH.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LRG_BAO_DMDH.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LRG_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LRG_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LYAUTO_BAO_DMDHgrid.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LYAUTO_BAO_DMDHgrid.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LYxQSO_BAO_DMDHgrid.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LYxQSO_BAO_DMDHgrid.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_QSO_BAO_DMDH.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_QSO_BAO_DMDH.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_QSO_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_QSO_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_MGS_prob.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_MGS_prob.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\test_bao_mixed_observables_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/test_bao_mixed_observables_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\test_bao_mixed_observables_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/test_bao_mixed_observables_mean.txt"
+    }
+  ],
+  "description": "Audit \u03bd-like RVM signal stability using public Pantheon+ and DESI DR2 BAO products.",
+  "falsification_logic": {
+    "confirm_like": "A full BAO+SN covariance likelihood prefers a positive, stable \u03bd-like parameter without bound hits.",
+    "falsify_like": "\u03bd-like signal disappears under DR2-only BAO/SN cuts or is carried by a bounded diagnostic proxy."
+  },
+  "generated_utc": "2026-04-28T21:20:48Z",
+  "metrics": {
+    "desi_dr2_mean_vector_screen": {
+      "linear_coef": [
+        1.1680438486137497,
+        -0.9201118494717629
+      ],
+      "n_points": 13,
+      "n_tables": 1,
+      "note": "DESI DR2 mean-vector trend screen only; not a covariance likelihood and not a branch-selection result.",
+      "spearman": {
+        "n": 13,
+        "pvalue": 0.3902084647096961,
+        "rho": 0.26039680332292264
+      },
+      "tables_used": [
+        {
+          "n": 13,
+          "observable_col": "2",
+          "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "y_col": "1",
+          "z_col": "0",
+          "z_max": 2.33,
+          "z_min": 0.295
+        }
+      ]
+    },
+    "interpretation_rules": {
+      "desi_dr2_spearman_pvalue": 0.3902084647096961,
+      "desi_dr2_spearman_rho": 0.26039680332292264,
+      "full_likelihood_run": false,
+      "sn_delta_chi2_vs_nu0": 0.4532448490022034,
+      "sn_proxy_bound_hit": true
+    },
+    "pantheon_sn_diagnostic": {
+      "chi2_best": 795.402391287193,
+      "chi2_nu0_same_om": 795.8556361361952,
+      "delta_chi2_vs_nu0": 0.4532448490022034,
+      "hit_nu_bound": true,
+      "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+      "n_sne": 1665,
+      "nu_like": 0.04999713000070425,
+      "nu_like_sigma_profile": 0.009876417062152277,
+      "omega_m": 0.3764169606186679
+    }
+  },
+  "notes": [
+    "v9.4 deliberately downgrades T01 unless a real covariance likelihood is implemented; this prevents SN proxy bound hits from masquerading as P1/P39 support."
+  ],
+  "prediction_ids": [
+    "P1",
+    "P39",
+    "CL3"
+  ],
+  "prediction_names": [
+    "P1 \u2014 RVM BAO scale shift",
+    "P39 \u2014 secular \u039b-drift from bulk cooling",
+    "CL3 \u2014 \u03bd triangle/cross-link"
+  ],
+  "status": "diagnostic_only",
+  "test_id": "T01",
+  "warnings": [
+    "SN-only \u03bd-like proxy hit its conservative |\u03bd|<0.05 bound; no RVM evidence claimed."
+  ]
+}
+</T01.json>
+
+<T02.json>
+{
+  "data_sources": [
+    {
+      "github": "CobayaSampler/bao_data",
+      "n_files": 59,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\BAO_consensus_covtot_dM_Hz.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/BAO_consensus_covtot_dM_Hz.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\FS_consensus_covtot_dM_Hz_fsig.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/FS_consensus_covtot_dM_Hz_fsig.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_eboss_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_eboss_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_eboss_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_eboss_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_z0.8-1.1_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_z0.8-1.1_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_z0.8-1.1_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_z0.8-1.1_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_2024_gaussian_bao_QSO_GCcomb_z0.8-2.1_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG%2BELG_LOPnotqso_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_Lya_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_Lya_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_QSO_GCcomb_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_QSO_GCcomb_mean.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\final_consensus_covtot_dM_Hz_fsig.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/final_consensus_covtot_dM_Hz_fsig.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_FS.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_FS.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_bao.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_bao.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12Consensus_final.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12Consensus_final.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12_LRG_BAO_DMDH.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12_LRG_BAO_DMDH.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR12_LRG_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR12_LRG_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_LRG_FSBAO_DMDHfs8_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_BAOplus_QSO_FSBAO_DMDHfs8_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_ELG_BAO_DVtable.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_ELG_BAO_DVtable.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LRG_BAO_DMDH.dat",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LRG_BAO_DMDH.dat"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LRG_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LRG_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LYAUTO_BAO_DMDHgrid.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LYAUTO_BAO_DMDHgrid.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_LYxQSO_BAO_DMDHgrid.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_LYxQSO_BAO_DMDHgrid.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_QSO_BAO_DMDH.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_QSO_BAO_DMDH.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_DR16_QSO_BAO_DMDH_covtot.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_DR16_QSO_BAO_DMDH_covtot.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\sdss_MGS_prob.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/sdss_MGS_prob.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\test_bao_mixed_observables_cov.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/test_bao_mixed_observables_cov.txt"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_CobayaSampler_bao_data\\test_bao_mixed_observables_mean.txt",
+      "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/test_bao_mixed_observables_mean.txt"
+    }
+  ],
+  "description": "DR2-only BAO mean-vector trend screen for secular \u039b-drift from bulk cooling.",
+  "falsification_logic": {
+    "confirm_like": "DR2-only distance residual proxy shows a statistically significant trend with the predicted sign after observable-wise normalization.",
+    "falsify_like": "DR2-only residual proxy has zero/opposite trend, or sign is not robust across observables."
+  },
+  "generated_utc": "2026-04-28T21:21:21Z",
+  "metrics": {
+    "desi_dr2_only_trend": {
+      "linear_coef": [
+        1.1680438486137497,
+        -0.9201118494717629
+      ],
+      "n_points": 13,
+      "n_tables": 1,
+      "note": "DESI DR2 mean-vector trend screen only; not a covariance likelihood and not a branch-selection result.",
+      "spearman": {
+        "n": 13,
+        "pvalue": 0.3902084647096961,
+        "rho": 0.26039680332292264
+      },
+      "tables_used": [
+        {
+          "n": 13,
+          "observable_col": "2",
+          "path": ".cache\\github_CobayaSampler_bao_data\\desi_bao_dr2__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "y_col": "1",
+          "z_col": "0",
+          "z_max": 2.33,
+          "z_min": 0.295
+        }
+      ]
+    }
+  },
+  "notes": [
+    "This is now DR2 mean-vector-only; it no longer mixes grid-likelihood rows with BAO mean rows. It remains a trend screen, not a DESI likelihood."
+  ],
+  "prediction_ids": [
+    "P39"
+  ],
+  "prediction_names": [
+    "P39 \u2014 secular \u039b-drift from bulk cooling"
+  ],
+  "status": "null",
+  "test_id": "T02",
+  "warnings": []
+}
+</T02.json>
+
+<T03.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES.dat",
+      "size": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat"
+    }
+  ],
+  "description": "Repeat \u03bd-like Pantheon+ fit under low-z cuts to test whether signal is low-z-systematics carried.",
+  "falsification_logic": {
+    "confirm_like": "\u03bd-like estimate remains positive, non-bound-hit, and non-low-z-carried under cuts",
+    "falsify_like": "\u03bd-like estimate is bound-dominated or carried entirely by low-z choices"
+  },
+  "generated_utc": "2026-04-28T21:21:45Z",
+  "metrics": {
+    "bound_hit_fraction": 1.0,
+    "cut_fits": [
+      {
+        "chi2_best": 795.402391287193,
+        "chi2_nu0_same_om": 795.8556361361952,
+        "delta_chi2_vs_nu0": 0.4532448490022034,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1665,
+        "nu_like": 0.04999713000070425,
+        "nu_like_sigma_profile": 0.009876417062152277,
+        "omega_m": 0.3764169606186679,
+        "zmin": 0.005
+      },
+      {
+        "chi2_best": 713.3036830520427,
+        "chi2_nu0_same_om": 713.6986865038396,
+        "delta_chi2_vs_nu0": 0.3950034517968106,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1583,
+        "nu_like": 0.04999799545874692,
+        "nu_like_sigma_profile": 0.009875989742243711,
+        "omega_m": 0.36720527605501607,
+        "zmin": 0.01
+      },
+      {
+        "chi2_best": 641.1766589903465,
+        "chi2_nu0_same_om": 641.5316479281735,
+        "delta_chi2_vs_nu0": 0.35498893782698815,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1429,
+        "nu_like": 0.04998455003625897,
+        "nu_like_sigma_profile": 0.009882628419597134,
+        "omega_m": 0.36242869432642244,
+        "zmin": 0.02
+      },
+      {
+        "chi2_best": 540.6478158574981,
+        "chi2_nu0_same_om": 540.9543460436932,
+        "delta_chi2_vs_nu0": 0.3065301861951184,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1235,
+        "nu_like": 0.049997841382045285,
+        "nu_like_sigma_profile": 0.009876065817615144,
+        "omega_m": 0.3584455147160012,
+        "zmin": 0.03
+      },
+      {
+        "chi2_best": 446.3770597887367,
+        "chi2_nu0_same_om": 446.4870310081925,
+        "delta_chi2_vs_nu0": 0.10997121945581512,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1054,
+        "nu_like": 0.049981114556081604,
+        "nu_like_sigma_profile": 0.00988432468793471,
+        "omega_m": 0.33016462812204417,
+        "zmin": 0.05
+      },
+      {
+        "chi2_best": 406.8591783438259,
+        "chi2_nu0_same_om": 406.9092407781761,
+        "delta_chi2_vs_nu0": 0.05006243435025226,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 975,
+        "nu_like": 0.049936499141543744,
+        "nu_like_sigma_profile": 0.00990635354886278,
+        "omega_m": 0.32234864606801816,
+        "zmin": 0.08
+      }
+    ],
+    "nu_change_zmin_0p005_to_0p08": 6.0630859160505646e-05,
+    "nu_median": 0.049990840018481614,
+    "nu_std": 2.1647564936249387e-05
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P1",
+    "P39",
+    "CL3"
+  ],
+  "prediction_names": [
+    "P1 \u2014 RVM BAO scale shift",
+    "P39 \u2014 secular \u039b-drift from bulk cooling",
+    "CL3 \u2014 \u03bd cross-link"
+  ],
+  "status": "diagnostic_only",
+  "test_id": "T03",
+  "warnings": [
+    "6/6 low-z cuts hit the conservative |\u03bd|<0.05 SN-only proxy bound; no P39 support claimed."
+  ]
+}
+</T03.json>
+
+<T04.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    },
+    {
+      "n_links": 1,
+      "ok": true,
+      "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\act_dr6\\dr6_lensing_release.tar.gz",
+      "size": 1371472486,
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    },
+    {
+      "note": "selected extracted ACT DR6 FITS map for sampling",
+      "ok": true,
+      "selected_map": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\curl\\kappa_alm_data_act_dr6_lensing_v1_curl.fits"
+    }
+  ],
+  "description": "Cross-correlate Euclid Q1 source density with ACT DR6 CMB-lensing convergence map.",
+  "falsification_logic": {
+    "confirm_like": "high Euclid-density positions have higher ACT \u03ba and positive density-\u03ba Spearman correlation",
+    "falsify_like": "correlation disappears or flips under density splits/nulls"
+  },
+  "generated_utc": "2026-04-28T21:21:47Z",
+  "metrics": {
+    "map_sampling": {
+      "detail": "No module named 'healpy'",
+      "error": "healpix_map_requires_optional_healpy",
+      "install_hint": "conda install -c conda-forge healpy",
+      "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\curl\\kappa_alm_data_act_dr6_lensing_v1_curl.fits"
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P14/P30"
+  ],
+  "status": "data_limited",
+  "test_id": "T04",
+  "warnings": [
+    "Map sampling failed without specialized HEALPix; ordinary FITS-WCS maps only."
+  ]
+}
+</T04.json>
+
+<T05.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    },
+    {
+      "api": "https://api.github.com/repos/carronj/planck_PR4_lensing/releases/tags/Data",
+      "asset": "PR42018like_maps.tar",
+      "asset_pattern": "PR42018like_maps\\.tar",
+      "github_releases": "carronj/planck_PR4_lensing",
+      "ok": true,
+      "release": "Lensing maps and chains"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck_lensing\\PR42018like_maps.tar",
+      "size": 252317696,
+      "url": "https://github.com/carronj/planck_PR4_lensing/releases/download/Data/PR42018like_maps.tar"
+    },
+    {
+      "note": "selected Planck/PR4 HEALPix FITS map; sampling needs optional healpy",
+      "ok": true,
+      "selected_map": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits"
+    }
+  ],
+  "description": "Cross-check Euclid density-\u03ba sign using public Planck PR3 products, avoiding HEALPix-specific code.",
+  "falsification_logic": {
+    "confirm_like": "same-sign density-map correlation as ACT, weaker but positive",
+    "falsify_like": "Planck cross-check gives opposite sign or no correlation"
+  },
+  "generated_utc": "2026-04-28T21:46:53Z",
+  "metrics": {
+    "map_sampling": {
+      "detail": "No module named 'healpy'",
+      "error": "healpix_map_requires_optional_healpy",
+      "install_hint": "conda install -c conda-forge healpy",
+      "path": ".cache\\planck_lensing\\maps_extracted\\PR4_variations\\PR42018like_klm_dat_MV.fits"
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P14/P30"
+  ],
+  "status": "data_limited",
+  "test_id": "T05",
+  "warnings": []
+}
+</T05.json>
+
+<T06.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    }
+  ],
+  "description": "Measure source-density patch spread across Euclid Q1 fields as a proxy for cross-patch composition variation.",
+  "falsification_logic": {
+    "confirm_like": "field-aware patch spread exceeds randomized within-field null",
+    "falsify_like": "patch spread matches mask/depth/random null"
+  },
+  "generated_utc": "2026-04-28T21:47:36Z",
+  "metrics": {
+    "field_counts": {
+      "0": 9628,
+      "1": 10372
+    },
+    "n_fields": 2,
+    "n_sources": 20000,
+    "null_mean": 0.03965503863251063,
+    "null_sigma": 0.004757475901927831,
+    "patch_cv_field_aware": 2.053806047526146,
+    "z": 423.36546740624755
+  },
+  "notes": [],
+  "prediction_ids": [
+    "OP13",
+    "P30"
+  ],
+  "status": "suggestive",
+  "test_id": "T06",
+  "warnings": []
+}
+</T06.json>
+
+<T07.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    }
+  ],
+  "description": "Estimate local filament axes from Euclid Q1 source positions and compare orientation correlations in high-vs-low density regions.",
+  "falsification_logic": {
+    "confirm_like": "high-density orientation correlation exceeds low-density correlation inside connected Q1 fields and beats within-field density-shuffle null",
+    "falsify_like": "density-stratified orientation signal is absent/opposite or indistinguishable from within-field null"
+  },
+  "generated_utc": "2026-04-28T21:47:45Z",
+  "metrics": {
+    "bins_deg": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "density_shuffle_null": {
+      "mean": 0.0010246897669931145,
+      "n": 100,
+      "p_one_sided_high_gt_low": 1.0,
+      "sigma": 0.007519632004774607,
+      "z_vs_null": -5.7086539779739605
+    },
+    "field_summaries": [
+      {
+        "density_median": 88899.18919239164,
+        "field": 0,
+        "field_mean_high_minus_low": -0.06847909664949878,
+        "field_weight": 59831,
+        "n": 9628
+      },
+      {
+        "density_median": 70813.50501522262,
+        "field": 1,
+        "field_mean_high_minus_low": -0.02629408264495515,
+        "field_weight": 101877,
+        "n": 10372
+      }
+    ],
+    "high_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.043360346097980555,
+        "n_pairs": 11922
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.057996842022331734,
+        "n_pairs": 11725
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.05051906450055457,
+        "n_pairs": 17952
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.03227125155002257,
+        "n_pairs": 13269
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": -0.05878612333933651,
+        "n_pairs": 845
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.03802653315844475,
+        "n_pairs": 1535
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.0359711907563334,
+        "n_pairs": 37397
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.016799592288567373,
+        "n_pairs": 13988
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.008648623001779474,
+        "n_pairs": 13954
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.015027447106768647,
+        "n_pairs": 22702
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.019320008601610542,
+        "n_pairs": 32353
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.016013983424822437,
+        "n_pairs": 18678
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.012262253379219585,
+        "n_pairs": 14864
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.015898985281998023,
+        "n_pairs": 65879
+      }
+    ],
+    "low_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.10206139760524399,
+        "n_pairs": 4324
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.12782412260997028,
+        "n_pairs": 4517
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.12670366091506263,
+        "n_pairs": 9300
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.09799829345494558,
+        "n_pairs": 21669
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.11393352848311639,
+        "n_pairs": 15562
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.07206010174604027,
+        "n_pairs": 991
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.10246039220650313,
+        "n_pairs": 26585
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.03697737641913443,
+        "n_pairs": 6584
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.01751884530204783,
+        "n_pairs": 11597
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.017986785862993078,
+        "n_pairs": 17625
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.04387766918530449,
+        "n_pairs": 27117
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.12767103336926588,
+        "n_pairs": 5158
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.015054878090205805,
+        "n_pairs": 52093
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.07439881065407745,
+        "n_pairs": 18932
+      }
+    ],
+    "mean_high_minus_low_corr": -0.04190228738996375,
+    "n_sources": 20000,
+    "weighted_pair_count": 161708
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3",
+    "CL4"
+  ],
+  "status": "null",
+  "test_id": "T07",
+  "warnings": [
+    "High-density minus low-density orientation correlation is negative; this is direct tension for P3 unless axis/density proxy is invalid."
+  ]
+}
+</T07.json>
+
+<T08.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_0.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/440/2562&-out.all&-out.max=50000"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_1.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    }
+  ],
+  "description": "Attempt independent filament-orientation replication using public filament catalogues discoverable from CDS/VizieR pages.",
+  "falsification_logic": {
+    "confirm_like": "independent public filament catalogue shows positive orientation correlation",
+    "falsify_like": "orientation statistic is null/opposite in independent catalogue"
+  },
+  "generated_utc": "2026-04-28T22:26:54Z",
+  "metrics": {
+    "filament_catalogue_result": {
+      "corr": [
+        {
+          "bin_hi_deg": 0.2,
+          "bin_lo_deg": 0.0,
+          "corr": 0.13268654897639653,
+          "n_pairs": 1877
+        },
+        {
+          "bin_hi_deg": 0.5,
+          "bin_lo_deg": 0.2,
+          "corr": 0.031673647929243404,
+          "n_pairs": 5689
+        },
+        {
+          "bin_hi_deg": 1.0,
+          "bin_lo_deg": 0.5,
+          "corr": 0.039159967573971596,
+          "n_pairs": 11279
+        },
+        {
+          "bin_hi_deg": 2.0,
+          "bin_lo_deg": 1.0,
+          "corr": 0.01558416477902072,
+          "n_pairs": 19460
+        },
+        {
+          "bin_hi_deg": 5.0,
+          "bin_lo_deg": 2.0,
+          "corr": 0.032576411778870815,
+          "n_pairs": 32944
+        },
+        {
+          "bin_hi_deg": 10.0,
+          "bin_lo_deg": 5.0,
+          "corr": 0.019390283097650667,
+          "n_pairs": 16265
+        }
+      ],
+      "dec_col": "DEJ2000",
+      "n": 6195,
+      "ra_col": "RAJ2000",
+      "source": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    },
+    "mean_corr": 0.04517850402252562
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3"
+  ],
+  "status": "suggestive",
+  "test_id": "T08",
+  "warnings": []
+}
+</T08.json>
+
+<T09.json>
+{
+  "data_sources": [
+    {
+      "file": "V2_REVOLVER-nsa_v1_0_1_WMAP5_zobovoids.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_REVOLVER-nsa_v1_0_1_WMAP5_zobovoids.dat",
+      "record_id": "7406035",
+      "size": 173062,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_REVOLVER-nsa_v1_0_1_WMAP5_zobovoids.dat/content"
+    },
+    {
+      "file": "VoidFinder-nsa_v1_0_1_Planck2018_comoving_maximal.txt",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\VoidFinder-nsa_v1_0_1_Planck2018_comoving_maximal.txt",
+      "record_id": "7406035",
+      "size": 181659,
+      "url": "https://zenodo.org/api/records/7406035/files/VoidFinder-nsa_v1_0_1_Planck2018_comoving_maximal.txt/content"
+    },
+    {
+      "file": "VoidFinder-nsa_v1_0_1_WMAP5_comoving_holes.txt",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\VoidFinder-nsa_v1_0_1_WMAP5_comoving_holes.txt",
+      "record_id": "7406035",
+      "size": 3199691,
+      "url": "https://zenodo.org/api/records/7406035/files/VoidFinder-nsa_v1_0_1_WMAP5_comoving_holes.txt/content"
+    },
+    {
+      "file": "VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt",
+      "record_id": "7406035",
+      "size": 3150288,
+      "url": "https://zenodo.org/api/records/7406035/files/VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt/content"
+    },
+    {
+      "file": "VoidFinder-nsa_v1_0_1_WMAP5_comoving_maximal.txt",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\VoidFinder-nsa_v1_0_1_WMAP5_comoving_maximal.txt",
+      "record_id": "7406035",
+      "size": 184975,
+      "url": "https://zenodo.org/api/records/7406035/files/VoidFinder-nsa_v1_0_1_WMAP5_comoving_maximal.txt/content"
+    },
+    {
+      "file": "V2_VIDE-nsa_v1_0_1_Planck2018_galzones.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_VIDE-nsa_v1_0_1_Planck2018_galzones.dat",
+      "record_id": "7406035",
+      "size": 3221857,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_VIDE-nsa_v1_0_1_Planck2018_galzones.dat/content"
+    },
+    {
+      "file": "V2_VIDE-nsa_v1_0_1_WMAP5_zobovoids.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_VIDE-nsa_v1_0_1_WMAP5_zobovoids.dat",
+      "record_id": "7406035",
+      "size": 178224,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_VIDE-nsa_v1_0_1_WMAP5_zobovoids.dat/content"
+    },
+    {
+      "file": "V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat",
+      "record_id": "7406035",
+      "size": 173069,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat/content"
+    },
+    {
+      "file": "V2_VIDE-nsa_v1_0_1_WMAP5_galzones.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_VIDE-nsa_v1_0_1_WMAP5_galzones.dat",
+      "record_id": "7406035",
+      "size": 3221798,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_VIDE-nsa_v1_0_1_WMAP5_galzones.dat/content"
+    },
+    {
+      "file": "V2_REVOLVER-nsa_v1_0_1_WMAP5_galzones.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_REVOLVER-nsa_v1_0_1_WMAP5_galzones.dat",
+      "record_id": "7406035",
+      "size": 3221798,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_REVOLVER-nsa_v1_0_1_WMAP5_galzones.dat/content"
+    },
+    {
+      "file": "V2_REVOLVER-nsa_v1_0_1_Planck2018_galzones.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_REVOLVER-nsa_v1_0_1_Planck2018_galzones.dat",
+      "record_id": "7406035",
+      "size": 3221857,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_REVOLVER-nsa_v1_0_1_Planck2018_galzones.dat/content"
+    },
+    {
+      "file": "V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat",
+      "ok": true,
+      "path": ".cache\\zenodo_7406035\\V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat",
+      "record_id": "7406035",
+      "size": 177270,
+      "url": "https://zenodo.org/api/records/7406035/files/V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat/content"
+    }
+  ],
+  "description": "Compute excess kurtosis/cauchy-tail proxy from public VAST SDSS DR7 void catalogues.",
+  "falsification_logic": {
+    "confirm_like": "void radius/wall proxy has k4>4 and exceeds matched Gaussian/lognormal null controls",
+    "falsify_like": "kurtosis is Gaussian/lognormal-like or below k4 threshold"
+  },
+  "generated_utc": "2026-04-28T22:27:23Z",
+  "metrics": {
+    "max_radius_kurtosis": 2.265386634483279,
+    "n_robust_tables": 0,
+    "note": "v9.3 requires k4>4 and excess over matched lognormal null; log-radius-only excess is reported separately, not used as P38 confirmation.",
+    "void_tables": [
+      {
+        "column": "2",
+        "log_radius_kurtosis": 5.384716764267486,
+        "median_radius_like": 98.37374083618766,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.39221299888326,
+          "kurtosis": 2.265386634483279,
+          "lognormal_null_p95": 89.21815064817393
+        },
+        "rows": 506,
+        "table_index": 0
+      },
+      {
+        "column": "2",
+        "log_radius_kurtosis": 6.27125487528695,
+        "median_radius_like": 105.87297590524774,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.232231710991023,
+          "kurtosis": 2.132023466436192,
+          "lognormal_null_p95": 126.09792913745818
+        },
+        "rows": 1134,
+        "table_index": 1
+      },
+      {
+        "column": "4",
+        "log_radius_kurtosis": 4.791972046597652,
+        "median_radius_like": 186.0,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.050329700616497,
+          "kurtosis": 1.9133220428924902,
+          "lognormal_null_p95": 761.3806786468151
+        },
+        "rows": 24502,
+        "table_index": 2
+      },
+      {
+        "column": "4",
+        "log_radius_kurtosis": 4.757388773923864,
+        "median_radius_like": 183.0,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.0588858483533126,
+          "kurtosis": 1.9193893396092419,
+          "lognormal_null_p95": 642.4158935671247
+        },
+        "rows": 24473,
+        "table_index": 3
+      },
+      {
+        "column": "2",
+        "log_radius_kurtosis": 6.374451320598048,
+        "median_radius_like": 106.8565340399584,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.267033429105618,
+          "kurtosis": 2.153405788215786,
+          "lognormal_null_p95": 104.41904952404134
+        },
+        "rows": 1154,
+        "table_index": 4
+      },
+      {
+        "column": "1",
+        "log_radius_kurtosis": 4.752397988724723,
+        "median_radius_like": 157.0,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.0220148926363595,
+          "kurtosis": 2.1129360447065526,
+          "lognormal_null_p95": 864.2935420754111
+        },
+        "rows": 145070,
+        "table_index": 5
+      },
+      {
+        "column": "2",
+        "log_radius_kurtosis": 5.4467738249140325,
+        "median_radius_like": 98.90398667051056,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.3866135355766014,
+          "kurtosis": 2.253092304392032,
+          "lognormal_null_p95": 131.65152488006038
+        },
+        "rows": 519,
+        "table_index": 6
+      },
+      {
+        "column": "2",
+        "log_radius_kurtosis": 5.412335136606224,
+        "median_radius_like": 98.46027629021438,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.4190477768910355,
+          "kurtosis": 2.252277031403194,
+          "lognormal_null_p95": 87.39769668661154
+        },
+        "rows": 506,
+        "table_index": 7
+      },
+      {
+        "column": "1",
+        "log_radius_kurtosis": 4.742156870603641,
+        "median_radius_like": 159.0,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.0203671579134337,
+          "kurtosis": 2.1030533390073396,
+          "lognormal_null_p95": 726.4921410556786
+        },
+        "rows": 145421,
+        "table_index": 8
+      },
+      {
+        "column": "1",
+        "log_radius_kurtosis": 4.742156870603641,
+        "median_radius_like": 159.0,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.021648556925044,
+          "kurtosis": 2.1030533390073396,
+          "lognormal_null_p95": 802.783226029011
+        },
+        "rows": 145421,
+        "table_index": 9
+      },
+      {
+        "column": "1",
+        "log_radius_kurtosis": 4.752397988724723,
+        "median_radius_like": 157.0,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.0236972385474075,
+          "kurtosis": 2.1129360447065526,
+          "lognormal_null_p95": 861.6653787458922
+        },
+        "rows": 145070,
+        "table_index": 10
+      },
+      {
+        "column": "2",
+        "log_radius_kurtosis": 5.469322652547216,
+        "median_radius_like": 98.22102522310347,
+        "radius_controls": {
+          "exceeds_gaussian_p95": false,
+          "exceeds_lognormal_p95": false,
+          "gaussian_null_p95": 3.397489501054394,
+          "kurtosis": 2.223238882439969,
+          "lognormal_null_p95": 124.50119922832128
+        },
+        "rows": 516,
+        "table_index": 11
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P38",
+    "CL4"
+  ],
+  "status": "null",
+  "test_id": "T09",
+  "warnings": [
+    "No radius-like VAST void statistic passed both k4>4 and matched-lognormal-null controls; current P38 implementation remains null/tension."
+  ]
+}
+</T09.json>
+
+<T10.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_primary_v3.2.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_primary_v3.2.fits.tgz"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_cosmology_v1.1.fits.tgz"
+    }
+  ],
+  "description": "Fit single-vs-mixture models to public eROSITA cluster proxy residuals after redshift control.",
+  "falsification_logic": {
+    "confirm_like": "two-component mixture preferred in mass/richness/X-ray residuals after redshift control",
+    "falsify_like": "single Gaussian/lognormal explains residuals within redshift bins"
+  },
+  "generated_utc": "2026-04-28T22:28:44Z",
+  "metrics": {
+    "best_residual_mixture": null,
+    "tables_tried": [
+      {
+        "n_proxy_candidates": 0,
+        "reason": "missing_redshift_or_physical_proxy",
+        "source": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits_extract\\erass1cl_cosmology_v1.1.fits",
+        "z_col": "Z_LAMBDA"
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P34"
+  ],
+  "prediction_names": [
+    "P34 \u2014 multi-component cluster \u03c3v"
+  ],
+  "status": "data_limited",
+  "test_id": "T10",
+  "warnings": []
+}
+</T10.json>
+
+<T11.json>
+{
+  "data_sources": [
+    {
+      "file": "Rotmod_LTG.zip",
+      "ok": true,
+      "path": ".cache\\zenodo_16284118\\Rotmod_LTG.zip",
+      "record_id": "16284118",
+      "size": 110737,
+      "url": "https://zenodo.org/api/records/16284118/files/Rotmod_LTG.zip/content"
+    }
+  ],
+  "description": "Refit a local MOND/RAR acceleration scale from public SPARC rotmod files.",
+  "falsification_logic": {
+    "confirm_like": "best a0 is close to Milgrom 1.2e-10 m/s\u00b2 with small RMS",
+    "falsify_like": "no stable local a0 emerges from public SPARC mass models"
+  },
+  "generated_utc": "2026-04-28T22:28:58Z",
+  "metrics": {
+    "a0_over_milgrom": 0.7867173969049356,
+    "sparc_a0_fit": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.011849399875307004,
+      "n_galaxies_used": 175,
+      "n_points": 3389,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.1952710356785446
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "\u00a76.1a"
+  ],
+  "status": "confirm_like",
+  "test_id": "T11",
+  "warnings": []
+}
+</T11.json>
+
+<T12.json>
+{
+  "data_sources": [
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\00_kross_release_v2.fits",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Estimate high-z acceleration proxy from public KMOS3D/KROSS catalogue products and test trend with quality cuts.",
+  "falsification_logic": {
+    "confirm_like": "quality-cut high-z acceleration proxy is above a matched local SPARC scale and increases with redshift",
+    "falsify_like": "quality-cut proxy trend vanishes/decreases or offset disappears under controls"
+  },
+  "generated_utc": "2026-04-28T22:29:03Z",
+  "metrics": {
+    "highz_acceleration": {
+      "cols": {
+        "r": "R_IM",
+        "v": "V22",
+        "z": "Z"
+      },
+      "quality_cut": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.06679533955756703,
+          "delta": 0.11198225687296848,
+          "n_a": 204,
+          "n_b": 205,
+          "z": 1.6764980553240165
+        },
+        "log_g_vs_z_coef": [
+          1.098376756422454,
+          -10.888750025756066
+        ],
+        "mean_a_proxy_m_s2": 3.45204666237458e-10,
+        "median_a_proxy_m_s2": 1.3103277035081414e-10,
+        "n": 409,
+        "spearman_z_g": {
+          "n": 409,
+          "pvalue": 0.13723466339935947,
+          "rho": 0.07361184679012041
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8694707948800567,
+        "z_min": 0.5798440460150321
+      },
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "raw": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.05748172165186681,
+          "delta": 0.06185300321960874,
+          "n_a": 293,
+          "n_b": 293,
+          "z": 1.0760464621121864
+        },
+        "log_g_vs_z_coef": [
+          0.5702502022309024,
+          -10.459718509418677
+        ],
+        "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+        "median_a_proxy_m_s2": 1.2040908213339262e-10,
+        "n": 586,
+        "spearman_z_g": {
+          "n": 586,
+          "pvalue": 0.459523199142696,
+          "rho": 0.030612126543890412
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8721486339630791,
+        "z_min": 0.5798440460150321
+      }
+    },
+    "interpretation": {
+      "mean_above_milgrom": true,
+      "quality_n": 409,
+      "quality_slope_log10g_per_z": 1.098376756422454,
+      "quality_spearman_pvalue": 0.13723466339935947,
+      "raw_n": 586
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "\u00a76.1b",
+    "P36"
+  ],
+  "prediction_names": [
+    "\u00a76.1b \u2014 high-z a0 \u2192 cH0",
+    "P36 \u2014 MOND-sequence \u03bd extractor / CL1"
+  ],
+  "status": "weak_offset_no_trend",
+  "test_id": "T12",
+  "warnings": [
+    "High-z mean acceleration is above local Milgrom scale, but redshift trend is not significant under quality cuts."
+  ]
+}
+</T12.json>
+
+<T13.json>
+{
+  "data_sources": [
+    {
+      "file": "Rotmod_LTG.zip",
+      "ok": true,
+      "path": ".cache\\zenodo_16284118\\Rotmod_LTG.zip",
+      "record_id": "16284118",
+      "size": 110737,
+      "url": "https://zenodo.org/api/records/16284118/files/Rotmod_LTG.zip/content"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES.dat",
+      "size": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat"
+    },
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\00_kross_release_v2.fits",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Combine local SPARC a0, quality-cut high-z acceleration proxy, and Pantheon+ \u03bd-like audit into a \u03bd consistency diagnostic.",
+  "falsification_logic": {
+    "confirm_like": "quality-cut high-z, local SPARC, and SN/BAO \u03bd brackets agree within order-of-magnitude tolerance without bound hits",
+    "falsify_like": "\u03bd brackets disagree by orders of magnitude or one bracket is bound-dominated"
+  },
+  "generated_utc": "2026-04-28T22:29:07Z",
+  "metrics": {
+    "highz_proxy": {
+      "cols": {
+        "r": "R_IM",
+        "v": "V22",
+        "z": "Z"
+      },
+      "quality_cut": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.06679533955756703,
+          "delta": 0.11198225687296848,
+          "n_a": 204,
+          "n_b": 205,
+          "z": 1.6764980553240165
+        },
+        "log_g_vs_z_coef": [
+          1.098376756422454,
+          -10.888750025756066
+        ],
+        "mean_a_proxy_m_s2": 3.45204666237458e-10,
+        "median_a_proxy_m_s2": 1.3103277035081414e-10,
+        "n": 409,
+        "spearman_z_g": {
+          "n": 409,
+          "pvalue": 0.13723466339935947,
+          "rho": 0.07361184679012041
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8694707948800567,
+        "z_min": 0.5798440460150321
+      },
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "raw": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.05748172165186681,
+          "delta": 0.06185300321960874,
+          "n_a": 293,
+          "n_b": 293,
+          "z": 1.0760464621121864
+        },
+        "log_g_vs_z_coef": [
+          0.5702502022309024,
+          -10.459718509418677
+        ],
+        "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+        "median_a_proxy_m_s2": 1.2040908213339262e-10,
+        "n": 586,
+        "spearman_z_g": {
+          "n": 586,
+          "pvalue": 0.459523199142696,
+          "rho": 0.030612126543890412
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8721486339630791,
+        "z_min": 0.5798440460150321
+      }
+    },
+    "note": "\u03bd_gap_proxy remains a screening diagnostic; v9.4 refuses to count bound-hit SN proxy as a triangulation bracket.",
+    "nu_gap_proxy_quality_cut": 0.7060938260555198,
+    "sn_bracket_used": false,
+    "sn_nu_like": {
+      "chi2_best": 795.402391287193,
+      "chi2_nu0_same_om": 795.8556361361952,
+      "delta_chi2_vs_nu0": 0.4532448490022034,
+      "hit_nu_bound": true,
+      "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+      "n_sne": 1665,
+      "nu_like": 0.04999713000070425,
+      "nu_like_sigma_profile": 0.009876417062152277,
+      "omega_m": 0.3764169606186679
+    },
+    "sparc_local": {
+      "a0_best_m_s2": 9.172759353897803e-11,
+      "a0_boot_median": 8.912509381337441e-11,
+      "a0_boot_sigma_dex": 0.016466357812136602,
+      "n_galaxies_used": 80,
+      "n_points": 1455,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.20883230627410898
+    },
+    "sparc_point_distribution": {
+      "mean_gobs_m_s2": 1.0676187284751373e-10,
+      "median_gobs_m_s2": 5.124561481842399e-11,
+      "n": 1455,
+      "p16_gobs_m_s2": 1.858600231681145e-11,
+      "p84_gobs_m_s2": 1.637071550239363e-10
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P36",
+    "CL1"
+  ],
+  "prediction_names": [
+    "P36 \u2014 MOND-sequence \u03bd extractor / CL1"
+  ],
+  "status": "single_bracket_only",
+  "test_id": "T13",
+  "warnings": [
+    "Only MOND-sequence/high-z \u03bd proxy is usable; SN proxy is bound-hit or unavailable.",
+    "SN-only \u03bd-like proxy hit its conservative bound and is excluded from bracket-ratio scoring."
+  ]
+}
+</T13.json>
+
+<T14.json>
+{
+  "data_sources": [
+    {
+      "file": "Rotmod_LTG.zip",
+      "ok": true,
+      "path": ".cache\\zenodo_16284118\\Rotmod_LTG.zip",
+      "record_id": "16284118",
+      "size": 110737,
+      "url": "https://zenodo.org/api/records/16284118/files/Rotmod_LTG.zip/content"
+    },
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\00_kross_release_v2.fits",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Diagnose standalone MOND-sequence instability by comparing SPARC stability with raw vs quality-cut high-z proxy.",
+  "falsification_logic": {
+    "confirm_like": "SPARC local anchor is stable while high-z proxy instability is traceable to explicit quality/mapping cuts",
+    "falsify_like": "no stable local or high-z \u03bd-like extraction is possible"
+  },
+  "generated_utc": "2026-04-28T22:29:13Z",
+  "metrics": {
+    "highz_summary": {
+      "cols": {
+        "r": "R_IM",
+        "v": "V22",
+        "z": "Z"
+      },
+      "quality_cut": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.06679533955756703,
+          "delta": 0.11198225687296848,
+          "n_a": 204,
+          "n_b": 205,
+          "z": 1.6764980553240165
+        },
+        "log_g_vs_z_coef": [
+          1.098376756422454,
+          -10.888750025756066
+        ],
+        "mean_a_proxy_m_s2": 3.45204666237458e-10,
+        "median_a_proxy_m_s2": 1.3103277035081414e-10,
+        "n": 409,
+        "spearman_z_g": {
+          "n": 409,
+          "pvalue": 0.13723466339935947,
+          "rho": 0.07361184679012041
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8694707948800567,
+        "z_min": 0.5798440460150321
+      },
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "raw": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.05748172165186681,
+          "delta": 0.06185300321960874,
+          "n_a": 293,
+          "n_b": 293,
+          "z": 1.0760464621121864
+        },
+        "log_g_vs_z_coef": [
+          0.5702502022309024,
+          -10.459718509418677
+        ],
+        "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+        "median_a_proxy_m_s2": 1.2040908213339262e-10,
+        "n": 586,
+        "spearman_z_g": {
+          "n": 586,
+          "pvalue": 0.459523199142696,
+          "rho": 0.030612126543890412
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8721486339630791,
+        "z_min": 0.5798440460150321
+      }
+    },
+    "quality_to_raw_highz_mean_ratio": 0.8200471821042623,
+    "sparc_all": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.011849399875307004,
+      "n_galaxies_used": 175,
+      "n_points": 3389,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.1952710356785446
+    },
+    "sparc_first50": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.020469872006323345,
+      "n_galaxies_used": 50,
+      "n_points": 947,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.23418159258501497
+    },
+    "sparc_subset_ratio": 1.0
+  },
+  "notes": [],
+  "prediction_ids": [
+    "OP11",
+    "P36"
+  ],
+  "prediction_names": [
+    "OP11 \u2014 MOND-sequence standalone extractor instability",
+    "P36 \u2014 MOND-sequence \u03bd extractor / CL1"
+  ],
+  "status": "methodology_finding",
+  "test_id": "T14",
+  "warnings": []
+}
+</T14.json>
+
+<T15.json>
+{
+  "data_sources": [
+    {
+      "file": "NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "ok": true,
+      "path": ".cache\\zenodo_16051178\\NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "record_id": "16051178",
+      "size": 638719668,
+      "url": "https://zenodo.org/api/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz/content"
+    }
+  ],
+  "description": "Acquire public NANOGrav 15-year products and perform non-specialized beat-screening where tabulated residual/proxy data exist.",
+  "falsification_logic": {
+    "confirm_like": "public residual/posterior tables show excess at predicted beat band",
+    "falsify_like": "no beat-band excess in public residual/posterior tables at current sensitivity"
+  },
+  "generated_utc": "2026-04-28T22:29:20Z",
+  "metrics": {
+    "n_par_files": 318,
+    "n_residual_like_files": 152,
+    "n_tim_files": 836,
+    "note": "No TEMPO2/enterprise timing fit is performed.",
+    "simple_spectra": [
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1855+09.wb.chain_1.txt",
+        "peak_frequency_index": 29,
+        "peak_power": 21.690900767141457
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1937+21.wb.chain_1.txt",
+        "peak_frequency_index": 10,
+        "peak_power": 60.564188149145245
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1937+21ao.wb.chain_1.txt",
+        "peak_frequency_index": 86,
+        "peak_power": 6.827794334373953
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1937+21gbt.wb.chain_1.txt",
+        "peak_frequency_index": 44,
+        "peak_power": 39.785420320115776
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\B1953+29.wb.chain_1.txt",
+        "peak_frequency_index": 38,
+        "peak_power": 12.776292446719824
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0023+0923.wb.chain_1.txt",
+        "peak_frequency_index": 33,
+        "peak_power": 17.38507429370922
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0030+0451.wb.chain_1.txt",
+        "peak_frequency_index": 21,
+        "peak_power": 12.050065182115095
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0340+4130.wb.chain_1.txt",
+        "peak_frequency_index": 91,
+        "peak_power": 0.7189707684368889
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0406+3039.wb.chain_1.txt",
+        "peak_frequency_index": 80,
+        "peak_power": 12.919816100303098
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0437-4715.wb.chain_1.txt",
+        "peak_frequency_index": 97,
+        "peak_power": 6.807398120234462
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0509+0856.wb.chain_1.txt",
+        "peak_frequency_index": 210,
+        "peak_power": 7.611031248851917
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0557+1551.wb.chain_1.txt",
+        "peak_frequency_index": 5,
+        "peak_power": 6.196267936052427
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0605+3757.wb.chain_1.txt",
+        "peak_frequency_index": 36,
+        "peak_power": 11.825544801497266
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0610-2100.wb.chain_1.txt",
+        "peak_frequency_index": 272,
+        "peak_power": 1.3124381732411736
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0613-0200.wb.chain_1.txt",
+        "peak_frequency_index": 2,
+        "peak_power": 13.363318008068383
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0614-3329.wb.chain_1.txt",
+        "peak_frequency_index": 37,
+        "peak_power": 4.209628116517555
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0636+5128.wb.chain_1.txt",
+        "peak_frequency_index": 123,
+        "peak_power": 0.2066899098662418
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0645+5158.wb.chain_1.txt",
+        "peak_frequency_index": 147,
+        "peak_power": 0.5806578219907917
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0709+0458.wb.chain_1.txt",
+        "peak_frequency_index": 666,
+        "peak_power": 4.507285072103924
+      },
+      {
+        "n": 19900,
+        "path": ".cache\\nanograv\\extract\\NANOGrav15yr_PulsarTiming_v2.1.0\\wideband\\noise\\J0740+6620.wb.chain_1.txt",
+        "peak_frequency_index": 188,
+        "peak_power": 1.2080740214567331
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P8"
+  ],
+  "status": "suggestive",
+  "test_id": "T15",
+  "warnings": []
+}
+</T15.json>
+
+<T16.json>
+{
+  "data_sources": [
+    {
+      "file": "NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "ok": true,
+      "path": ".cache\\zenodo_16051178\\NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "record_id": "16051178",
+      "size": 638719668,
+      "url": "https://zenodo.org/api/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz/content"
+    },
+    {
+      "n_links": 1,
+      "ok": true,
+      "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\act_dr6\\dr6_lensing_release.tar.gz",
+      "size": 1371472486,
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    },
+    {
+      "note": "selected extracted ACT DR6 FITS map for sampling",
+      "ok": true,
+      "selected_map": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\curl\\kappa_alm_data_act_dr6_lensing_v1_curl.fits"
+    }
+  ],
+  "description": "Use NANOGrav pulsar sky positions and public ACT/Planck map products to test a PTA\u00d7\u03ba sky cross-link proxy.",
+  "falsification_logic": {
+    "confirm_like": "pulsar-associated PTA proxy correlates positively with \u03ba/density map values",
+    "falsify_like": "random sky rotations match or exceed observed correlation"
+  },
+  "generated_utc": "2026-04-28T22:30:36Z",
+  "metrics": {
+    "map_sampling": {
+      "detail": "No module named 'healpy'",
+      "error": "healpix_map_requires_optional_healpy",
+      "install_hint": "conda install -c conda-forge healpy",
+      "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\curl\\kappa_alm_data_act_dr6_lensing_v1_curl.fits"
+    },
+    "pulsar_position_parse": {
+      "n_par_files_scanned": 318,
+      "n_positions": 318,
+      "used_psrj_fallback": 318
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P8c",
+    "CL2"
+  ],
+  "status": "data_limited",
+  "test_id": "T16",
+  "warnings": []
+}
+</T16.json>
+
+<T17.json>
+{
+  "data_sources": [
+    {
+      "file": "models_1.0.1.tar.gz",
+      "ok": true,
+      "path": ".cache\\zenodo_8092761\\models_1.0.1.tar.gz",
+      "record_id": "8092761",
+      "size": 7597328,
+      "url": "https://zenodo.org/api/records/8092761/files/models_1.0.1.tar.gz/content"
+    }
+  ],
+  "description": "Search public NANOGrav new-physics/tabulated posterior files for spectral-index constraints near \u03b4n\u2248\u03bd/3.",
+  "falsification_logic": {
+    "confirm_like": "public posterior constraints contain predicted \u03b4n\u2248\u03bd/3 shift",
+    "falsify_like": "predicted shift excluded by public posterior summaries"
+  },
+  "generated_utc": "2026-04-28T22:54:50Z",
+  "metrics": {
+    "note": "This script audits public tabulated constraints only; full PTA likelihood is not run.",
+    "parsed_public_new_physics_tables": [],
+    "target_delta_n_for_nu_5e-3": 0.0016666666666666668
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P8b"
+  ],
+  "status": "data_limited",
+  "test_id": "T17",
+  "warnings": []
+}
+</T17.json>
+
+<T18.json>
+{
+  "data_sources": [
+    {
+      "github": "XENONnT/light_wimp_data_release",
+      "n_files": 6376,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__README.md",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/README.md"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_LightMediator.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_LightMediator.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n1.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n1.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n2.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n2.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SDn.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SDn.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SI.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SI.csv"
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    }
+  ],
+  "description": "Audit public direct-detection curve coverage of the CCDR 500-3000 GeV readiness window without claiming event-level peaks.",
+  "falsification_logic": {
+    "confirm_like": "event-level public data cover predicted mass window and show reproducible peak structure",
+    "falsify_like": "event-level public data fully cover window with no structure"
+  },
+  "generated_utc": "2026-04-28T22:54:55Z",
+  "metrics": {
+    "curve_audits": [
+      {
+        "best_limit": 1.7140981123129978e-41,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2mev4",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 5.699912133353331e-48,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 6.939951737853886e-49,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 6.388617387316039e-42,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_m2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 8.889060032315933e-46,
+        "best_limit_in_window": null,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 12.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "sensitivity_p2sigma_cm2",
+        "mass_col": "dm_mass_gev",
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "n": 10,
+        "n_points_in_500_3000": 0
+      },
+      {
+        "best_limit": 6.251001628448816e-42,
+        "best_limit_in_window": 6.991840968608885e-41,
+        "best_limit_is_endpoint": false,
+        "best_mass_GeV": 30.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "n": 20,
+        "n_points_in_500_3000": 3
+      },
+      {
+        "best_limit": 1.938604092296444e-40,
+        "best_limit_in_window": 2.0101532186867257e-39,
+        "best_limit_is_endpoint": false,
+        "best_mass_GeV": 30.0,
+        "covers_500_3000_GeV": false,
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "n": 20,
+        "n_points_in_500_3000": 3
+      },
+      {
+        "best_limit": 136.58891381315397,
+        "best_limit_in_window": 372.6144748686594,
+        "best_limit_is_endpoint": true,
+        "best_mass_GeV": 6.0,
+        "covers_500_3000_GeV": true,
+        "limit_col": "limit_mediator_mass",
+        "mass_col": "mass_gev",
+        "mass_max": 10000.0,
+        "mass_min": 6.0,
+        "n": 22,
+        "n_points_in_500_3000": 3
+      }
+    ],
+    "event_level_data_available": false,
+    "n_curves_covering_window": 1,
+    "n_curves_with_3plus_window_points": 1,
+    "note": "v9.4 separates readiness/window coverage from peak evidence."
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P10/P25",
+    "P27"
+  ],
+  "prediction_names": [
+    "P10/P25 \u2014 DM peak-counting \u2192 N",
+    "P27 \u2014 geometric mass-tower ratios"
+  ],
+  "status": "readiness_only",
+  "test_id": "T18",
+  "warnings": []
+}
+</T18.json>
+
+<T19.json>
+{
+  "data_sources": [
+    {
+      "github": "XENONnT/light_wimp_data_release",
+      "n_files": 6376,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__README.md",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/README.md"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_LightMediator.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_LightMediator.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n1.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n1.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n2.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n2.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SDn.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SDn.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SI.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SI.csv"
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    }
+  ],
+  "description": "Search public direct-detection limit curves for repeated mass-domain extrema, with endpoint/grid-artifact rejection.",
+  "falsification_logic": {
+    "confirm_like": "same non-endpoint geometric extrema appear across independent public curves after smoothing/artifact controls",
+    "falsify_like": "extrema are absent or explained by endpoints, interpolation knots, or scan grids"
+  },
+  "generated_utc": "2026-04-28T22:55:13Z",
+  "metrics": {
+    "extrema_audit": [],
+    "n_nonartifact_masses_total": 0,
+    "note": "Limit-curve extrema are not event-level peaks; v9.4 requires non-endpoint recurrence before suggestive status.",
+    "reproducible_within_0p15dex_count": 0
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P27"
+  ],
+  "prediction_names": [
+    "P27 \u2014 geometric mass-tower ratios"
+  ],
+  "status": "data_limited",
+  "test_id": "T19",
+  "warnings": []
+}
+</T19.json>
+
+<T20.json>
+{
+  "data_sources": [
+    {
+      "github": "XENONnT/light_wimp_data_release",
+      "n_files": 6376,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__README.md",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/README.md"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_LightMediator.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_LightMediator.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n1.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n1.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n2.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n2.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SDn.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SDn.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SI.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SI.csv"
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    }
+  ],
+  "description": "Compare public direct-detection curve extrema/coverage across releases as a proxy for live-DM mass drift, with metadata safeguards.",
+  "falsification_logic": {
+    "confirm_like": "non-endpoint extremum mass shifts coherently with verified release dates",
+    "falsify_like": "no drift beyond sensitivity/scan-grid changes"
+  },
+  "generated_utc": "2026-04-28T22:55:34Z",
+  "metrics": {
+    "log_best_mass_vs_release_year_coef": null,
+    "note": "v9.4 refuses to score drift from arbitrary curve index or endpoint minima.",
+    "release_order_best_masses": [
+      {
+        "best_is_endpoint": true,
+        "best_limit": 1.7140981123129978e-41,
+        "best_mass_GeV": 12.0,
+        "curve_index": 0,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 5.699912133353331e-48,
+        "best_mass_GeV": 12.0,
+        "curve_index": 1,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 6.939951737853886e-49,
+        "best_mass_GeV": 12.0,
+        "curve_index": 2,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 6.388617387316039e-42,
+        "best_mass_GeV": 12.0,
+        "curve_index": 3,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 8.889060032315933e-46,
+        "best_mass_GeV": 12.0,
+        "curve_index": 4,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": false,
+        "best_limit": 6.251001628448816e-42,
+        "best_mass_GeV": 30.0,
+        "curve_index": 5,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": false,
+        "best_limit": 1.938604092296444e-40,
+        "best_mass_GeV": 30.0,
+        "curve_index": 6,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 136.58891381315397,
+        "best_mass_GeV": 6.0,
+        "curve_index": 7,
+        "mass_max": 10000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      }
+    ],
+    "usable_nonendpoint_year_drift_points": [
+      {
+        "best_is_endpoint": false,
+        "best_limit": 6.251001628448816e-42,
+        "best_mass_GeV": 30.0,
+        "curve_index": 5,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": false,
+        "best_limit": 1.938604092296444e-40,
+        "best_mass_GeV": 30.0,
+        "curve_index": 6,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P37"
+  ],
+  "prediction_names": [
+    "P37 \u2014 phase-space drift from live DM"
+  ],
+  "status": "null",
+  "test_id": "T20",
+  "warnings": []
+}
+</T20.json>
+
+<T21.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\firas\\firas_monopole_spec_v1.txt",
+      "size": 2388,
+      "url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt"
+    }
+  ],
+  "description": "Fit physical \u03bc/y-like spectral distortion templates to public COBE/FIRAS monopole spectrum.",
+  "falsification_logic": {
+    "confirm_like": "a physically normalized staged distortion amplitude is nonzero and below FIRAS limits",
+    "falsify_like": "predicted staged amplitude is above FIRAS residual limits"
+  },
+  "generated_utc": "2026-04-28T22:55:49Z",
+  "metrics": {
+    "chi2": 3.636299019453596e-05,
+    "columns": [
+      "0",
+      "1",
+      "2"
+    ],
+    "dof": 37,
+    "frequency_unit": "cm^-1 converted to GHz",
+    "mu_95_abs_limit": 0.7254750132215037,
+    "mu_best": -0.0005478501883347444,
+    "n_points": 43,
+    "note": "Physical-template screen with nuisance blackbody/calibration terms; still not the official FIRAS likelihood.",
+    "y_95_abs_limit": 0.8203853002396334,
+    "y_best": 0.0004198831919040992
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P28"
+  ],
+  "prediction_names": [
+    "P28 \u2014 staged CMB \u03bc/y distortions"
+  ],
+  "status": "consistent_bound_only",
+  "test_id": "T21",
+  "warnings": []
+}
+</T21.json>
+
+<T22.json>
+{
+  "data_sources": [
+    {
+      "n_links": 157,
+      "ok": true,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\planck\\COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+      "size": 8842,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt"
+    }
+  ],
+  "description": "Use public Planck PR3 spectra/tables, not HEALPix maps, to screen low-l large-angle anomalies.",
+  "falsification_logic": {
+    "confirm_like": "low-l power/residual pattern differs from high-l continuation in predicted anomaly direction",
+    "falsify_like": "low-l table values are consistent with smooth \u039bCDM continuation"
+  },
+  "generated_utc": "2026-04-28T22:55:53Z",
+  "metrics": {},
+  "notes": [],
+  "prediction_ids": [
+    "P4"
+  ],
+  "status": "data_limited",
+  "test_id": "T22",
+  "warnings": [
+    "Planck product downloaded but not parseable as simple table."
+  ]
+}
+</T22.json>
+
+<T23.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\cmb_bmode\\BK18_bandpowers_20210607.txt",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/BICEPK_2021/BK18_bandpowers_20210607.txt"
+    }
+  ],
+  "description": "Screen public B-mode bandpower tables for low-l residual room for a bulk-Weyl component.",
+  "falsification_logic": {
+    "confirm_like": "low-l BB bandpowers leave residual room for a P40-shaped contribution after uncertainties",
+    "falsify_like": "published BB bandpowers/uncertainties exclude predicted amplitude/shape"
+  },
+  "generated_utc": "2026-04-28T22:55:57Z",
+  "metrics": {
+    "bk18_pair_summary": {
+      "best_measured_pair": {
+        "bandpower_col_index_1based": 5,
+        "error_col_index_1based": 6,
+        "low_ell_max_abs_snr": 5.866945182934549,
+        "low_ell_n": 4,
+        "low_ell_weighted_mean_bp": 0.005133876451681087,
+        "low_ell_weighted_sigma": 0.000664135015395746,
+        "max_abs_snr": 6.794837750278825,
+        "median_error": 0.0020714,
+        "n": 9
+      },
+      "n_pairs": 66,
+      "note": "Column 2 is ell; columns 3-134 are BB bandpower/error pairs. v9.4 reports bandpowers and a generic low-ell template bound rather than averaging ell.",
+      "p40_generic_template_bound": {
+        "A_95_abs_limit": 12.115708814089782,
+        "A_best": 8.114929450621547,
+        "n_low_ell_bins": 4,
+        "note": "Generic amplitude bound only; a real P40 test needs a theory-predicted ell-shape.",
+        "template": "A/[ell(ell+1)] on ell<=150 for best-error BK18 pair"
+      },
+      "pair_summaries_first10": [
+        {
+          "bandpower_col_index_1based": 3,
+          "error_col_index_1based": 4,
+          "low_ell_max_abs_snr": 1.8693776772965254,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.0030500326595733845,
+          "low_ell_weighted_sigma": 0.0015388264077500096,
+          "max_abs_snr": 2.8286162401083623,
+          "median_error": 0.008485,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 5,
+          "error_col_index_1based": 6,
+          "low_ell_max_abs_snr": 5.866945182934549,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.005133876451681087,
+          "low_ell_weighted_sigma": 0.000664135015395746,
+          "max_abs_snr": 6.794837750278825,
+          "median_error": 0.0020714,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 7,
+          "error_col_index_1based": 8,
+          "low_ell_max_abs_snr": 5.576836243226972,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.013901169862996797,
+          "low_ell_weighted_sigma": 0.0016868788343518933,
+          "max_abs_snr": 6.5561705310396405,
+          "median_error": 0.0042892,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 9,
+          "error_col_index_1based": 10,
+          "low_ell_max_abs_snr": 5.9745179063360885,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.09109997716349073,
+          "low_ell_weighted_sigma": 0.01243249055797104,
+          "max_abs_snr": 5.9745179063360885,
+          "median_error": 0.027508,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 11,
+          "error_col_index_1based": 12,
+          "low_ell_max_abs_snr": 1.4274439057390913,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 1.8696587704663927,
+          "low_ell_weighted_sigma": 1.3849293644191971,
+          "max_abs_snr": 3.1197786601031243,
+          "median_error": 20.851,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 13,
+          "error_col_index_1based": 14,
+          "low_ell_max_abs_snr": 1.3539336712975505,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.1820340743265743,
+          "low_ell_weighted_sigma": 0.5700580700842037,
+          "max_abs_snr": 1.3539336712975505,
+          "median_error": 3.6095,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 15,
+          "error_col_index_1based": 16,
+          "low_ell_max_abs_snr": 1.709677901949344,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.6647665316906167,
+          "low_ell_weighted_sigma": 1.0452398613791094,
+          "max_abs_snr": 1.709677901949344,
+          "median_error": 11.336,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 17,
+          "error_col_index_1based": 18,
+          "low_ell_max_abs_snr": 1.046002538071066,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": -0.5745282775905215,
+          "low_ell_weighted_sigma": 0.6641244128984001,
+          "max_abs_snr": 1.046002538071066,
+          "median_error": 4.7229,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 19,
+          "error_col_index_1based": 20,
+          "low_ell_max_abs_snr": 2.626077422105808,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.04844131352770508,
+          "low_ell_weighted_sigma": 0.022523371421455867,
+          "max_abs_snr": 2.72809509569378,
+          "median_error": 0.10869,
+          "n": 9
+        },
+        {
+          "bandpower_col_index_1based": 21,
+          "error_col_index_1based": 22,
+          "low_ell_max_abs_snr": 2.879933399111988,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.1683979967191214,
+          "low_ell_weighted_sigma": 0.05820176754069534,
+          "max_abs_snr": 2.879933399111988,
+          "median_error": 0.21223,
+          "n": 9
+        }
+      ]
+    },
+    "parse_info": {
+      "format": "bk18_pair_columns",
+      "n_columns": 134
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P40",
+    "CL5"
+  ],
+  "prediction_names": [
+    "P40 \u2014 bulk-Weyl CMB B-mode component",
+    "CL5 \u2014 joint (\u03bd_bulk, c_W) constraint from P39 + P40"
+  ],
+  "status": "consistent_bound_only",
+  "test_id": "T23",
+  "warnings": [
+    "Large low-ell |bandpower/error| exists in at least one BK18 spectrum; inspect spectrum identity before interpreting P40."
+  ]
+}
+</T23.json>
+
+<T24.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\gwosc\\H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "size": 1040781,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5"
+    }
+  ],
+  "description": "Download public GWOSC event data and run a simple damped-sinusoid ringdown residual screen without LALSuite/Bilby.",
+  "falsification_logic": {
+    "confirm_like": "two-mode damped fit leaves systematic overtone-like residual at predicted scale",
+    "falsify_like": "Kerr-like one/two-mode residuals are noise-like in public strain"
+  },
+  "generated_utc": "2026-04-28T22:55:59Z",
+  "metrics": {
+    "file": ".cache\\gwosc\\H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "fs_Hz": 4096.0,
+    "gwosc_file_candidates": [
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf"
+    ],
+    "note": "Simple damped-sinusoid screen only; not a LALSuite/Bilby ringdown posterior.",
+    "one_mode_params": [
+      7.938752487711792e-19,
+      7.0374460124067815,
+      -0.3074478344001118,
+      1.3194150099160182,
+      -5.352633948326149e-20
+    ],
+    "one_mode_residual_over_signal": 0.030480085993194364,
+    "one_mode_residual_rms": 1.407100845549552e-20,
+    "signal_rms": 4.616459565972785e-19,
+    "two_mode_screen": {
+      "improvement_fraction": 0.24111376195352585,
+      "two_mode_params": [
+        7.939293206425261e-19,
+        7.036786125634117,
+        -0.30743768246283737,
+        1.319717317660923,
+        -2.1875969511402567e-20,
+        999.3435318512667,
+        0.11680568983736571,
+        -0.47666691578468373,
+        -5.3464267572126986e-20
+      ],
+      "two_mode_residual_rms": 1.0678294672311125e-20
+    },
+    "window_samples": 634
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P32"
+  ],
+  "status": "diagnostic_only",
+  "test_id": "T24",
+  "warnings": []
+}
+</T24.json>
+
+<T25.json>
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "url": "https://www.hepdata.net/download/table/ins1666817/Table%201/1/csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "url": "https://www.hepdata.net/download/table/ins1666817/Figure%201/1/csv"
+    }
+  ],
+  "description": "Download public HEPData/literature tables and test whether \u03b7/s approaches the KSS bound non-monotonically.",
+  "falsification_logic": {
+    "confirm_like": "\u03b7/s(T) has a minimum near 1/(4\u03c0) in natural units and non-monotonic structure",
+    "falsify_like": "verified \u03b7/s columns show no KSS-adjacent minimum"
+  },
+  "generated_utc": "2026-04-28T22:56:05Z",
+  "metrics": {
+    "kss_eta_over_s_SI": 6.078312356035156e-13,
+    "note": "v9.3 requires explicit \u03b7/s-like column names; v2{2,\u0394\u03b7} columns are not treated as viscosity.",
+    "tables_rejected": [
+      {
+        "best_column": "stat +",
+        "best_score": -5,
+        "columns": [
+          "Centrality",
+          "Centrality LOW",
+          "Centrality HIGH",
+          "v22Deta1",
+          "stat +",
+          "stat -",
+          "sys +",
+          "sys -"
+        ],
+        "note": "Rejecting v2/flow tables prevents false KSS nulls.",
+        "reason": "no_verified_eta_over_s_column",
+        "source": "https://www.hepdata.net/download/table/ins1666817/Table%201/1/csv"
+      }
+    ],
+    "tables_used": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P5"
+  ],
+  "status": "data_limited",
+  "test_id": "T25",
+  "warnings": [
+    "No verified public \u03b7/s column was found in the default HEPData records; no KSS falsification is claimed."
+  ]
+}
+</T25.json>
+

@@ -1,0 +1,75 @@
+{
+  "best_fit": {
+    "A": 0.6499999999999999,
+    "chi2": 8.816626754468075,
+    "epsilon_live_proxy": -0.05
+  },
+  "data": [
+    {
+      "err": 0.046,
+      "fs8": 0.428,
+      "z": 0.02
+    },
+    {
+      "err": 0.15,
+      "fs8": 0.49,
+      "z": 0.15
+    },
+    {
+      "err": 0.045,
+      "fs8": 0.497,
+      "z": 0.38
+    },
+    {
+      "err": 0.038,
+      "fs8": 0.459,
+      "z": 0.51
+    },
+    {
+      "err": 0.034,
+      "fs8": 0.436,
+      "z": 0.61
+    },
+    {
+      "err": 0.095,
+      "fs8": 0.315,
+      "z": 0.85
+    },
+    {
+      "err": 0.045,
+      "fs8": 0.462,
+      "z": 1.48
+    }
+  ],
+  "data_sources": [
+    {
+      "url": "https://data.desi.lbl.gov/public/dr2/README"
+    },
+    {
+      "url": "https://lambda.gsfc.nasa.gov/product/map/dr5/params/"
+    }
+  ],
+  "delta_chi2_frozen_minus_best": 0.19909563821031284,
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "frozen_null_fit": {
+    "A": 0.6499999999999999,
+    "chi2": 9.015722392678388,
+    "epsilon_live_proxy": 0.0
+  },
+  "generated_utc": "2026-05-05T14:58:10Z",
+  "group": "growth",
+  "interpretation": "P29 v6: compact public fσ8-style compilation gives a live/frozen proxy bound; compatible-bound/readiness positive, not a live-DM detection.",
+  "n_points": 7,
+  "prediction_id": "P29",
+  "prediction_name": "P29 growth fσ8 live/frozen compatible-bound proxy",
+  "round": 10,
+  "runner_elapsed_s": 0.234,
+  "runner_returncode": 0,
+  "status": "consistent_bound_only",
+  "test_id": "R10-T15",
+  "tier": "public-current"
+}

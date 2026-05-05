@@ -1,0 +1,195 @@
+{
+  "data_sources": [
+    {
+      "file": "NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "ok": true,
+      "path": ".cache\\zenodo_16051178\\NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+      "record_id": "16051178",
+      "size": 638719668,
+      "url": "https://zenodo.org/api/records/16051178/files/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz/content"
+    },
+    {
+      "n_links": 1,
+      "ok": true,
+      "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_get.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\act_dr6\\dr6_lensing_release.tar.gz",
+      "size": 1371472486,
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/ACT_dr6/dr6_lensing_release.tar.gz"
+    },
+    {
+      "healpy_available": true,
+      "inspected_sample": [
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\baseline\\kappa_alm_data_act_dr6_lensing_v1_baseline.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\baseline\\mask_act_dr6_lensing_v1_healpix_nside_4096_baseline.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\cibdeproj\\kappa_alm_data_act_dr6_lensing_v1_cibdeproj.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\cibdeproj\\mask_act_dr6_lensing_v1_healpix_nside_4096_cibdeproj.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\curl\\kappa_alm_data_act_dr6_lensing_v1_curl.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\curl\\mask_act_dr6_lensing_v1_healpix_nside_4096_curl.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\diff_f150_f090\\kappa_alm_data_act_dr6_lensing_v1_diff_f150_f090.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\diff_f150_f090\\mask_act_dr6_lensing_v1_healpix_nside_4096_diff_f150_f090.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\diff_f150_f090_tonly\\kappa_alm_data_act_dr6_lensing_v1_diff_f150_f090_tonly.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\diff_f150_f090_tonly\\mask_act_dr6_lensing_v1_healpix_nside_4096_diff_f150_f090_tonly.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f090\\kappa_alm_data_act_dr6_lensing_v1_f090.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f090\\mask_act_dr6_lensing_v1_healpix_nside_4096_f090.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f090_tonly\\kappa_alm_data_act_dr6_lensing_v1_f090_tonly.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f090_tonly\\mask_act_dr6_lensing_v1_healpix_nside_4096_f090_tonly.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f150\\kappa_alm_data_act_dr6_lensing_v1_f150.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f150\\mask_act_dr6_lensing_v1_healpix_nside_4096_f150.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f150_tonly\\kappa_alm_data_act_dr6_lensing_v1_f150_tonly.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f150_tonly\\mask_act_dr6_lensing_v1_healpix_nside_4096_f150_tonly.fits"
+        },
+        {
+          "harmonic": true,
+          "is_mask_like": false,
+          "kind": "harmonic_alm",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\galcut040\\kappa_alm_data_act_dr6_lensing_v1_galcut040.fits"
+        },
+        {
+          "harmonic": false,
+          "is_mask_like": true,
+          "kind": "mask_or_weight",
+          "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\galcut040\\mask_act_dr6_lensing_v1_healpix_nside_4096_galcut040.fits"
+        }
+      ],
+      "n_fits_inspected": 26,
+      "ok": true,
+      "requires_healpy": true,
+      "selected_map": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f090\\kappa_alm_data_act_dr6_lensing_v1_f090.fits",
+      "selection": "act_harmonic_requires_healpy_alm2map"
+    }
+  ],
+  "description": "Use NANOGrav pulsar sky positions and public ACT/Planck \u03ba products to test a PTA\u00d7\u03ba sky cross-link proxy.",
+  "falsification_logic": {
+    "confirm_like": "pulsar-associated PTA proxy correlates positively with \u03ba map values",
+    "falsify_like": "random sky rotations match or exceed observed \u03ba correlation; masks are data_limited"
+  },
+  "generated_utc": "2026-05-03T12:04:45Z",
+  "metrics": {
+    "map_sampling": {
+      "coordsys": "icrs_assumed",
+      "hdu": 1,
+      "imag_col": "imag",
+      "lmax": 4000,
+      "mode": "alm2map_healpy",
+      "n_alm": 8006001,
+      "n_good_pixels": 0,
+      "n_requested": 318,
+      "nside": 2048,
+      "path": ".cache\\act_dr6\\dr6_lensing_release_extracted\\maps\\f090\\kappa_alm_data_act_dr6_lensing_v1_f090.fits",
+      "real_col": "real"
+    },
+    "map_validation": {
+      "n_finite": 0,
+      "ok": false,
+      "reason": "too_few_finite_values",
+      "signal_label": "kappa"
+    },
+    "pulsar_position_parse": {
+      "n_par_files_scanned": 318,
+      "n_positions": 318,
+      "used_psrj_fallback": 318
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P8c",
+    "CL2"
+  ],
+  "status": "data_limited",
+  "test_id": "T16",
+  "warnings": [
+    "PTA map sampling unusable: too_few_finite_values"
+  ]
+}

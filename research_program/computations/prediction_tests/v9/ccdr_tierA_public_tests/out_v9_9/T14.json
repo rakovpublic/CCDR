@@ -1,0 +1,213 @@
+{
+  "claim_strength": "diagnostic",
+  "data_sources": [
+    {
+      "file": "Rotmod_LTG.zip",
+      "ok": true,
+      "path": ".cache\\zenodo_16284118\\Rotmod_LTG.zip",
+      "record_id": "16284118",
+      "size": 110737,
+      "url": "https://zenodo.org/api/records/16284118/files/Rotmod_LTG.zip/content"
+    },
+    {
+      "n_links": 9,
+      "ok": true,
+      "source_catalog": "KMOS3D",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "source_catalog": "KROSS",
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\00_kross_release_v2.fits",
+      "source_catalog": "KROSS",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Diagnose standalone MOND-sequence instability by comparing SPARC stability with raw vs quality-cut high-z proxy.",
+  "falsification_logic": {
+    "confirm_like": "SPARC local anchor is stable while high-z proxy instability is traceable to explicit quality/mapping cuts",
+    "falsify_like": "no stable local or high-z \u03bd-like extraction is possible"
+  },
+  "generated_utc": "2026-05-03T16:39:21Z",
+  "metrics": {
+    "highz_group_bootstrap": {
+      "id_column": "KID",
+      "log_g_vs_z_coef": [
+        1.0983767564224554,
+        -10.88875002575607
+      ],
+      "mean_a_proxy_boot_sigma": 4.7027219084643546e-11,
+      "mean_a_proxy_m_s2": 3.45204666237458e-10,
+      "n_groups": 409,
+      "n_quality_points": 409,
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "slope_boot_median": 1.1064656440173883,
+      "slope_boot_p16": 0.5829523418571531,
+      "slope_boot_p84": 1.6000369725928185
+    },
+    "highz_summary": {
+      "cols": {
+        "r": "R_IM",
+        "v": "V22",
+        "z": "Z"
+      },
+      "quality_cut": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.06679533955756703,
+          "delta": 0.11198225687296848,
+          "n_a": 204,
+          "n_b": 205,
+          "z": 1.6764980553240165
+        },
+        "log_g_vs_z_coef": [
+          1.0983767564224554,
+          -10.88875002575607
+        ],
+        "mean_a_proxy_m_s2": 3.45204666237458e-10,
+        "median_a_proxy_m_s2": 1.3103277035081414e-10,
+        "n": 409,
+        "spearman_z_g": {
+          "n": 409,
+          "pvalue": 0.1372346633993595,
+          "rho": 0.07361184679012041
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8694707948800567,
+        "z_min": 0.5798440460150321
+      },
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "raw": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.05748172165186681,
+          "delta": 0.06185300321960874,
+          "n_a": 293,
+          "n_b": 293,
+          "z": 1.0760464621121864
+        },
+        "log_g_vs_z_coef": [
+          0.570250202230903,
+          -10.459718509418677
+        ],
+        "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+        "median_a_proxy_m_s2": 1.2040908213339262e-10,
+        "n": 586,
+        "spearman_z_g": {
+          "n": 586,
+          "pvalue": 0.459523199142696,
+          "rho": 0.030612126543890412
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8721486339630791,
+        "z_min": 0.5798440460150321
+      }
+    },
+    "quality_to_raw_highz_mean_ratio": 0.8200471821042623,
+    "sparc_all": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.011849399875307004,
+      "n_galaxies_used": 175,
+      "n_points": 3389,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.1952710356785446
+    },
+    "sparc_first50": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.020469872006323345,
+      "n_galaxies_used": 50,
+      "n_points": 947,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.23418159258501497
+    },
+    "sparc_subset_ratio": 1.0
+  },
+  "notes": [],
+  "prediction_ids": [
+    "OP11",
+    "P36"
+  ],
+  "prediction_names": [
+    "OP11 \u2014 MOND-sequence standalone extractor instability",
+    "P36 \u2014 MOND-sequence \u03bd extractor / CL1"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "methodology_finding",
+  "test_id": "T14",
+  "warnings": []
+}

@@ -1,0 +1,47 @@
+{
+  "bounds_95_proxy": {
+    "mu_like_95_abs_bound": 0.20352906388150932,
+    "y_like_95_abs_bound": 0.00014768447471409692
+  },
+  "chi2": 44.92536908633213,
+  "coefficient_errors": {
+    "dT_K": 0.280964615508528,
+    "mu_like": 0.10313144091934379,
+    "offset_kJy_sr": 20.297028156078106,
+    "y_like": 7.385413684738743e-05
+  },
+  "coefficients": {
+    "dT_K": 0.003786350015061599,
+    "mu_like": -0.0013914396795955198,
+    "offset_kJy_sr": 1.7381985879281658,
+    "y_like": -2.9303664932175467e-06
+  },
+  "data_sources": [
+    {
+      "url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt"
+    },
+    {
+      "url": "https://lambda.gsfc.nasa.gov/product/cobe/firas_monopole_get.html"
+    }
+  ],
+  "dof": 39,
+  "downloaded_path": ".ccdr_round10_cache\\R10-T23__firas_monopole_spec_v1.txt",
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:27:25Z",
+  "group": "cmb",
+  "interpretation": "FIRAS μ/y toy-template least-squares bound. This checks consistency room for P28 staged distortions, not a precision FIRAS limit paper.",
+  "n_rows": 43,
+  "prediction_id": "P28",
+  "prediction_name": "FIRAS standard μ/y 95%-bound proxy",
+  "round": 10,
+  "runner_elapsed_s": 1.944,
+  "runner_returncode": 0,
+  "status": "consistent_bound_only",
+  "template_note": "Standardized v5 bound wrapper: reports 95%-style absolute bounds from FIRAS residual covariance proxy.",
+  "test_id": "R10-T23",
+  "tier": "public-current"
+}

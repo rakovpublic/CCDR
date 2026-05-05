@@ -1,0 +1,297 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_columns_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20column_name%2C%20datatype%2C%20description%20FROM%20TAP_SCHEMA.columns%20WHERE%20table_name%20%3D%20%27euclid_q1_mer_catalogue%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_enriched_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2C%20dec%2C%20object_id%2C%20z%2C%20fluxerr_i_ext_lsst_2fwhm_aper%2C%20flag_vis%20FROM%20euclid_q1_mer_catalogue%20WHERE%20ra%20IS%20NOT%20NULL%20AND%20dec%20IS%20NOT%20NULL"
+    },
+    {
+      "available_columns_sample": [
+        "fluxerr_i_ext_lsst_2fwhm_aper",
+        "fluxerr_i_ext_lsst_3fwhm_aper",
+        "fluxerr_i_ext_lsst_4fwhm_aper",
+        "fluxerr_z_ext_lsst_1fwhm_aper",
+        "fluxerr_z_ext_lsst_2fwhm_aper",
+        "fluxerr_z_ext_lsst_3fwhm_aper",
+        "fluxerr_z_ext_lsst_4fwhm_aper",
+        "fluxerr_u_ext_megacam_1fwhm_aper",
+        "fluxerr_u_ext_megacam_2fwhm_aper",
+        "fluxerr_u_ext_megacam_3fwhm_aper",
+        "fluxerr_u_ext_megacam_4fwhm_aper",
+        "fluxerr_r_ext_megacam_1fwhm_aper",
+        "fluxerr_r_ext_megacam_2fwhm_aper",
+        "fluxerr_r_ext_megacam_3fwhm_aper",
+        "fluxerr_r_ext_megacam_4fwhm_aper",
+        "fluxerr_g_ext_jpcam_1fwhm_aper",
+        "fluxerr_g_ext_jpcam_2fwhm_aper",
+        "fluxerr_g_ext_jpcam_3fwhm_aper",
+        "fluxerr_g_ext_jpcam_4fwhm_aper",
+        "fluxerr_i_ext_panstarrs_1fwhm_aper",
+        "fluxerr_i_ext_panstarrs_2fwhm_aper",
+        "fluxerr_i_ext_panstarrs_3fwhm_aper",
+        "fluxerr_i_ext_panstarrs_4fwhm_aper",
+        "fluxerr_z_ext_panstarrs_1fwhm_aper",
+        "fluxerr_z_ext_panstarrs_2fwhm_aper",
+        "fluxerr_z_ext_panstarrs_3fwhm_aper",
+        "fluxerr_z_ext_panstarrs_4fwhm_aper",
+        "fluxerr_g_ext_hsc_1fwhm_aper",
+        "fluxerr_g_ext_hsc_2fwhm_aper",
+        "fluxerr_g_ext_hsc_3fwhm_aper",
+        "fluxerr_g_ext_hsc_4fwhm_aper",
+        "fluxerr_z_ext_hsc_1fwhm_aper",
+        "fluxerr_z_ext_hsc_2fwhm_aper",
+        "fluxerr_z_ext_hsc_3fwhm_aper",
+        "fluxerr_z_ext_hsc_4fwhm_aper",
+        "flux_y_templfit",
+        "flux_j_templfit",
+        "flux_h_templfit",
+        "flux_u_ext_decam_templfit",
+        "flux_g_ext_decam_templfit",
+        "flux_r_ext_decam_templfit",
+        "flux_i_ext_decam_templfit",
+        "flux_z_ext_decam_templfit",
+        "flux_u_ext_lsst_templfit",
+        "flux_g_ext_lsst_templfit",
+        "flux_r_ext_lsst_templfit",
+        "flux_i_ext_lsst_templfit",
+        "flux_z_ext_lsst_templfit",
+        "flux_u_ext_megacam_templfit",
+        "flux_r_ext_megacam_templfit",
+        "flux_g_ext_jpcam_templfit",
+        "flux_i_ext_panstarrs_templfit",
+        "flux_z_ext_panstarrs_templfit",
+        "flux_g_ext_hsc_templfit",
+        "flux_z_ext_hsc_templfit",
+        "fluxerr_y_templfit",
+        "fluxerr_j_templfit",
+        "fluxerr_h_templfit",
+        "fluxerr_u_ext_decam_templfit",
+        "fluxerr_g_ext_decam_templfit",
+        "fluxerr_r_ext_decam_templfit",
+        "fluxerr_i_ext_decam_templfit",
+        "fluxerr_z_ext_decam_templfit",
+        "fluxerr_u_ext_lsst_templfit",
+        "fluxerr_g_ext_lsst_templfit",
+        "fluxerr_r_ext_lsst_templfit",
+        "fluxerr_i_ext_lsst_templfit",
+        "fluxerr_z_ext_lsst_templfit",
+        "fluxerr_u_ext_megacam_templfit",
+        "fluxerr_r_ext_megacam_templfit",
+        "fluxerr_g_ext_jpcam_templfit",
+        "fluxerr_i_ext_panstarrs_templfit",
+        "fluxerr_z_ext_panstarrs_templfit",
+        "fluxerr_g_ext_hsc_templfit",
+        "fluxerr_z_ext_hsc_templfit",
+        "flux_vis_to_y_templfit",
+        "flux_vis_to_j_templfit",
+        "flux_vis_to_h_templfit",
+        "flux_vis_to_u_ext_decam_templfit",
+        "flux_vis_to_g_ext_decam_templfit"
+      ],
+      "enriched": true,
+      "ok": true,
+      "selected_optional_columns": [
+        "object_id",
+        "z",
+        "fluxerr_i_ext_lsst_2fwhm_aper",
+        "flag_vis"
+      ],
+      "selected_table": "euclid_q1_mer_catalogue"
+    }
+  ],
+  "description": "Measure source-density patch spread across Euclid Q1 fields while auditing depth/mask proxies.",
+  "falsification_logic": {
+    "confirm_like": "patch spread exceeds randomized within-field null and is not explained by public depth/magnitude proxies",
+    "falsify_like": "patch spread matches mask/depth/random null"
+  },
+  "generated_utc": "2026-05-02T19:39:33Z",
+  "metrics": {
+    "depth_or_mask_diagnostic": {
+      "count_cv": 2.227478699655589,
+      "depth_control": "unavailable",
+      "n_cells": 32,
+      "patch_rows_first20": [
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 0,
+          "j": 0
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 0,
+          "j": 1
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 0,
+          "j": 2
+        },
+        {
+          "count": 2882,
+          "depth_median": null,
+          "field": 0,
+          "i": 0,
+          "j": 3
+        },
+        {
+          "count": 1601,
+          "depth_median": null,
+          "field": 0,
+          "i": 1,
+          "j": 0
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 1,
+          "j": 1
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 1,
+          "j": 2
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 1,
+          "j": 3
+        },
+        {
+          "count": 303,
+          "depth_median": null,
+          "field": 0,
+          "i": 2,
+          "j": 0
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 2,
+          "j": 1
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 2,
+          "j": 2
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 2,
+          "j": 3
+        },
+        {
+          "count": 2576,
+          "depth_median": null,
+          "field": 0,
+          "i": 3,
+          "j": 0
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 3,
+          "j": 1
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 3,
+          "j": 2
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 0,
+          "i": 3,
+          "j": 3
+        },
+        {
+          "count": 3917,
+          "depth_median": null,
+          "field": 1,
+          "i": 0,
+          "j": 0
+        },
+        {
+          "count": 0,
+          "depth_median": null,
+          "field": 1,
+          "i": 0,
+          "j": 1
+        },
+        {
+          "count": 716,
+          "depth_median": null,
+          "field": 1,
+          "i": 0,
+          "j": 2
+        },
+        {
+          "count": 6087,
+          "depth_median": null,
+          "field": 1,
+          "i": 0,
+          "j": 3
+        }
+      ]
+    },
+    "depth_proxy": {
+      "error": "no_depth_or_magnitude_proxy_columns",
+      "numeric_columns_sample": [
+        "ra",
+        "dec",
+        "object_id",
+        "z",
+        "flag_vis"
+      ]
+    },
+    "field_counts": {
+      "0": 7362,
+      "1": 12638
+    },
+    "n_fields": 2,
+    "n_sources": 20000,
+    "patch_cv_field_aware": 2.154082028783943,
+    "uniform_within_field_null_mean": 0.040157311492851254,
+    "uniform_within_field_null_sigma": 0.005623502187626523,
+    "z_vs_uniform_null": 375.908934816882
+  },
+  "notes": [],
+  "prediction_ids": [
+    "OP13",
+    "P30"
+  ],
+  "status": "mask_risk_suggestive",
+  "test_id": "T06",
+  "warnings": [
+    "No Euclid depth/magnitude proxy was available; large patch spread can still be survey mask/depth, not CCDR."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\firas\\firas_monopole_spec_v1.txt",
+      "size": 2388,
+      "url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt"
+    }
+  ],
+  "description": "Fit simple \u03bc/y-like spectral distortion templates to public COBE/FIRAS monopole spectrum.",
+  "falsification_logic": {
+    "confirm_like": "staged templates remain below FIRAS but with nonzero best-fit compatible amplitude",
+    "falsify_like": "predicted staged amplitude is excluded by FIRAS residuals"
+  },
+  "generated_utc": "2026-04-28T19:19:21Z",
+  "metrics": {
+    "chi2": 15.867014806650833,
+    "columns": [
+      "0",
+      "1",
+      "2"
+    ],
+    "n_points": 43,
+    "note": "Generic distortion-shape screening only; not a FIRAS collaboration likelihood.",
+    "template_coeff_mu_like": 245.6947124087805,
+    "template_coeff_y_like": 373.46715850429274
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P28"
+  ],
+  "status": "suggestive",
+  "test_id": "T21",
+  "warnings": []
+}

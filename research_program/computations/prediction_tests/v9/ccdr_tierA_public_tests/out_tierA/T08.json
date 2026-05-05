@@ -1,0 +1,32 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\asu-tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/440/2562&-out.all&-out.max=50000"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\asu-tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    }
+  ],
+  "description": "Attempt independent filament-orientation replication using public filament catalogues discoverable from CDS/Zenodo pages.",
+  "falsification_logic": {
+    "confirm_like": "independent public filament catalogue shows positive orientation correlation and density stratification",
+    "falsify_like": "orientation statistic is null/opposite in independent catalogue"
+  },
+  "generated_utc": "2026-04-28T18:29:23Z",
+  "metrics": {
+    "filament_catalogue_result": null
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3"
+  ],
+  "status": "data_limited",
+  "test_id": "T08",
+  "warnings": [
+    "No parseable public filament table found from default registry; add another public catalogue URL to the registry in this script."
+  ]
+}

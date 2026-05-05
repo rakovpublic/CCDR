@@ -1,0 +1,1058 @@
+{
+  "data_sources": [],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:24Z",
+  "group": "cross_link",
+  "hard_blockers_v11": [
+    {
+      "file": "test17_p08c_nanograv_density_cross_scaffold.json",
+      "name": "CL2 full NANOGrav coordinate kappa sampler",
+      "prediction_id": "P8c/CL2",
+      "status": "broken",
+      "test_id": "R10-T17"
+    }
+  ],
+  "interpretation": "Round-10 v13 dashboard: guarded statuses are now explicitly counted in sign_unfixed_ready and proxy_ready_no_evidence buckets.",
+  "n_hard_blockers_v11": 1,
+  "n_inputs": 50,
+  "n_positive_or_compatible": 46,
+  "plain_partials": [],
+  "positives": [
+    {
+      "file": "test01_p39_pantheon_sn_residual_drift.json",
+      "name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+      "prediction_id": "P39",
+      "status": "positive_compatible",
+      "test_id": "R10-T01"
+    },
+    {
+      "file": "test02_p01_rvm_pantheon_lowz_systematic.json",
+      "name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+      "prediction_id": "P1/P39",
+      "status": "positive_compatible",
+      "test_id": "R10-T02"
+    },
+    {
+      "file": "test03_p39_desi_dr2_bao_inventory.json",
+      "name": "P39 DESI DR2 BAO grid positive-compatible",
+      "prediction_id": "P39",
+      "status": "bao_wgrid_positive_compatible",
+      "test_id": "R10-T03"
+    },
+    {
+      "file": "test04_p30_act_dr6_lensing_inventory.json",
+      "name": "P30 ACT finite-footprint density-kappa statistic with Euclid/SDSS fallback",
+      "prediction_id": "P30",
+      "status": "density_kappa_map_catalogue_positive_ready",
+      "test_id": "R10-T04"
+    },
+    {
+      "file": "test05_p30_planck_lensing_inventory.json",
+      "name": "P30 Planck recursive lensing resolver",
+      "prediction_id": "P30",
+      "status": "density_kappa_positive_ready",
+      "test_id": "R10-T05"
+    },
+    {
+      "file": "test06_p30_euclid_q1_inventory.json",
+      "name": "P30 Euclid mer_catalogue object-coordinate sample",
+      "prediction_id": "P30",
+      "status": "euclid_mer_catalogue_sample_positive_ready",
+      "test_id": "R10-T06"
+    },
+    {
+      "file": "test07_p33_desi_density_bao_inventory.json",
+      "name": "P33 density-BAO baseline positive-ready",
+      "prediction_id": "P33",
+      "status": "p33_density_bao_baseline_positive_ready",
+      "test_id": "R10-T07"
+    },
+    {
+      "file": "test08_p35_power_spectrum_harmonic_inventory.json",
+      "name": "P35 BAO harmonic-comb proxy readiness-positive",
+      "prediction_id": "P35",
+      "status": "harmonic_proxy_positive_ready",
+      "test_id": "R10-T08"
+    },
+    {
+      "file": "test10_p38_vast_voidfinder_inventory.json",
+      "name": "P38 jackknife-hardened void morphology positive-compatible",
+      "prediction_id": "P38",
+      "status": "void_morphology_jackknife_positive_compatible",
+      "test_id": "R10-T10"
+    },
+    {
+      "file": "test11_cl4_filament_void_joint_scaffold.json",
+      "name": "CL4 P3+P38 whitelist-updated bridge-positive",
+      "prediction_id": "CL4",
+      "status": "partial_positive_bridge",
+      "test_id": "R10-T11"
+    },
+    {
+      "file": "test12_p36_sparc_local_a0_inventory.json",
+      "name": "P36 SPARC robust local RAR/a0 bootstrap test",
+      "prediction_id": "P36/local a0",
+      "status": "robust_confirm_like",
+      "test_id": "R10-T12"
+    },
+    {
+      "file": "test13_p36_kmos3d_inventory.json",
+      "name": "P36 high-z a0 KROSS/KGES rotation-catalogue probe",
+      "prediction_id": "P36/high-z a0",
+      "status": "highz_a0_rotation_catalogue_positive_ready",
+      "test_id": "R10-T13"
+    },
+    {
+      "file": "test14_p36_highz_a0_cross_catalogue_inventory.json",
+      "name": "P36 high-z a0 cross-catalogue rotation probe",
+      "prediction_id": "P36",
+      "status": "highz_a0_rotation_catalogue_positive_ready",
+      "test_id": "R10-T14"
+    },
+    {
+      "file": "test15_p29_growth_live_frozen_inventory.json",
+      "name": "P29 growth fσ8 live/frozen compatible-bound proxy",
+      "prediction_id": "P29",
+      "status": "consistent_bound_only",
+      "test_id": "R10-T15"
+    },
+    {
+      "file": "test16_p08_nanograv_15yr_inventory.json",
+      "name": "P8/P8c NANOGrav κ-sky positive-ready",
+      "prediction_id": "P8/P8c",
+      "status": "pta_density_cross_positive_ready",
+      "test_id": "R10-T16"
+    },
+    {
+      "file": "test18_p32_gwosc_gwtc3_inventory.json",
+      "name": "P32 GWOSC metadata ringdown positive-ready",
+      "prediction_id": "P32",
+      "status": "ringdown_metadata_positive_ready",
+      "test_id": "R10-T18"
+    },
+    {
+      "file": "test19_p32_ringdown_high_snr_scaffold.json",
+      "name": "P32 ringdown targeted-ready positive bound",
+      "prediction_id": "P32",
+      "status": "ringdown_ready_positive_bound",
+      "test_id": "R10-T19"
+    },
+    {
+      "file": "test20_noftl_gw170817_luminal_inventory.json",
+      "name": "GW170817 luminal multimessenger inventory",
+      "prediction_id": "No-FTL",
+      "status": "consistent_bound_only",
+      "test_id": "R10-T20"
+    },
+    {
+      "file": "test21_p40_bk18_bmode_inventory.json",
+      "name": "P40 BK18 bandpower-bound positive-ready",
+      "prediction_id": "P40",
+      "status": "p40_bb_bound_positive_compatible",
+      "test_id": "R10-T21"
+    },
+    {
+      "file": "test22_p40_planck_bmode_limit_inventory.json",
+      "name": "P40 Planck/BK18 cross-bound positive-ready",
+      "prediction_id": "P40",
+      "status": "p40_planck_cross_bound_positive_ready",
+      "test_id": "R10-T22"
+    },
+    {
+      "file": "test23_p28_firas_spectral_distortion_inventory.json",
+      "name": "FIRAS standard μ/y 95%-bound proxy",
+      "prediction_id": "P28",
+      "status": "consistent_bound_only",
+      "test_id": "R10-T23"
+    },
+    {
+      "file": "test24_p28_planck_y_map_inventory.json",
+      "name": "P28 Planck y-map plus FIRAS bound cross-check",
+      "prediction_id": "P28",
+      "status": "consistent_bound_only",
+      "test_id": "R10-T24"
+    },
+    {
+      "file": "test25_p10_xenonnt_2025_inventory.json",
+      "name": "XENONnT mass/limit column positive-ready",
+      "prediction_id": "P10/P25/P31",
+      "status": "mass_window_quantified_positive_ready",
+      "test_id": "R10-T25"
+    },
+    {
+      "file": "test26_p10_lz_inventory.json",
+      "name": "LZ mass/limit column positive-ready",
+      "prediction_id": "P10/P25/P31",
+      "status": "mass_window_quantified_positive_ready",
+      "test_id": "R10-T26"
+    },
+    {
+      "file": "test27_p10_pandax_inventory.json",
+      "name": "PandaX quantified mass-window positive-ready",
+      "prediction_id": "P10/P25/P31",
+      "status": "mass_window_quantified_positive_ready",
+      "test_id": "R10-T27"
+    },
+    {
+      "file": "test28_p27_mass_tower_readiness.json",
+      "name": "P27 direct-detection mass-window sensitivity dashboard",
+      "prediction_id": "P27",
+      "status": "sensitivity_positive_ready",
+      "test_id": "R10-T28"
+    },
+    {
+      "file": "test29_p37_phase_space_drift_readiness.json",
+      "name": "P37 DM phase-space drift event-level readiness positive",
+      "prediction_id": "P37",
+      "status": "event_level_ready_positive",
+      "test_id": "R10-T29"
+    },
+    {
+      "file": "test30_p05_alice_qgp_hepdata_inventory.json",
+      "name": "P5 QGP/KSS units-column bound-positive",
+      "prediction_id": "P5",
+      "status": "kss_proxy_bound_positive",
+      "test_id": "R10-T30"
+    },
+    {
+      "file": "test33_p09_met_drell_yan_hh_inventory.json",
+      "name": "P9 MET/DY/HH units-column bound-positive",
+      "prediction_id": "P9b/P9e/P9f",
+      "status": "collider_threshold_bound_positive",
+      "test_id": "R10-T33"
+    },
+    {
+      "file": "test34_smd1_alpha_coddata.json",
+      "name": "SM-D1 α inverse constant check",
+      "prediction_id": "SM-D1",
+      "status": "confirm_like",
+      "test_id": "R10-SMD01"
+    },
+    {
+      "file": "test35_smd2_alpha_s_pdg_inventory.json",
+      "name": "SM-D2 αs(mZ) constant check",
+      "prediction_id": "SM-D2",
+      "status": "confirm_like",
+      "test_id": "R10-SMD02"
+    },
+    {
+      "file": "test36_smd3_weak_angle_pdg_inventory.json",
+      "name": "SM-D3 weak mixing angle constant check",
+      "prediction_id": "SM-D3",
+      "status": "confirm_like",
+      "test_id": "R10-SMD03"
+    },
+    {
+      "file": "test37_smd4_higgs_mass_pdg_inventory.json",
+      "name": "SM-D4 Higgs mass constant check",
+      "prediction_id": "SM-D4",
+      "status": "confirm_like",
+      "test_id": "R10-SMD04"
+    },
+    {
+      "file": "test38_smd5_koide_charged_leptons.json",
+      "name": "SM-D5 charged-lepton Koide constant-level check",
+      "prediction_id": "SM-D5",
+      "status": "confirm_like",
+      "test_id": "R10-SMD05"
+    },
+    {
+      "file": "test39_smd6_fermion_masses_inventory.json",
+      "name": "SM-D6 12-fermion mass inventory check",
+      "prediction_id": "SM-D6",
+      "status": "consistent_constant_check",
+      "test_id": "R10-SMD06"
+    },
+    {
+      "file": "test40_smd7_ckm_inventory.json",
+      "name": "SM-D7 CKM inventory check",
+      "prediction_id": "SM-D7",
+      "status": "consistent_constant_check",
+      "test_id": "R10-SMD07"
+    },
+    {
+      "file": "test41_smd8_cp_phase_inventory.json",
+      "name": "SM-D8 CKM CP/Jarlskog inventory check",
+      "prediction_id": "SM-D8",
+      "status": "consistent_constant_check",
+      "test_id": "R10-SMD08"
+    },
+    {
+      "file": "test42_smd9_gauge_group_scaffold.json",
+      "name": "SM-D9 structural gauge-group consistency positive",
+      "prediction_id": "SM-D9",
+      "status": "structural_consistency_positive",
+      "test_id": "R10-SMD09"
+    },
+    {
+      "file": "test43_smd10_strong_cp_edm_inventory.json",
+      "name": "SM-D10 neutron EDM/strong-CP bound check",
+      "prediction_id": "SM-D10",
+      "status": "consistent_constant_check",
+      "test_id": "R10-SMD10"
+    },
+    {
+      "file": "test44_darkcone_lensing_anticipation_scaffold.json",
+      "name": "Dark-Cone lensing anticipation branch-survival positive",
+      "prediction_id": "Dark-Cone",
+      "status": "branch_survival_positive",
+      "test_id": "R10-DC01"
+    },
+    {
+      "file": "test45_darkcone_cosmic_web_nonlocality_scaffold.json",
+      "name": "Dark-Cone cosmic-web whitelist-updated branch positive",
+      "prediction_id": "Dark-Cone",
+      "status": "branch_survival_positive",
+      "test_id": "R10-DC02"
+    },
+    {
+      "file": "test46_darkcone_halo_sharpness_scaffold.json",
+      "name": "Dark-Cone halo-sharpness data-readiness positive",
+      "prediction_id": "Dark-Cone",
+      "status": "branch_survival_positive",
+      "test_id": "R10-DC03"
+    },
+    {
+      "file": "test47_dcn_microlensing_inventory.json",
+      "name": "DCN/AQN microlensing digitized-window positive-ready",
+      "prediction_id": "DCN_k",
+      "status": "dcn_allowed_window_quantified_positive",
+      "test_id": "R10-DCN01"
+    },
+    {
+      "file": "test48_dcn_macro_impact_inventory.json",
+      "name": "DCN/AQN macro-impact digitized-window positive-ready",
+      "prediction_id": "DCN_k",
+      "status": "dcn_allowed_window_quantified_positive",
+      "test_id": "R10-DCN02"
+    },
+    {
+      "file": "test49_cl5_p39_p40_joint_scaffold.json",
+      "name": "CL5 P39+P40 fixed joint positive-compatible bound",
+      "prediction_id": "CL5",
+      "status": "joint_positive_compatible_bound",
+      "test_id": "R10-CL05"
+    },
+    {
+      "file": "test50_cl6_p41_p40_joint_scaffold.json",
+      "name": "CL6 P41+P40 whitelist-updated joint positive",
+      "prediction_id": "CL6",
+      "status": "partial_positive_bridge",
+      "test_id": "R10-CL06"
+    }
+  ],
+  "prediction_id": "P/CL dashboard",
+  "prediction_name": "Round-10 v13 guarded-status severity dashboard",
+  "round": 10,
+  "runner_elapsed_s": 0.305,
+  "runner_returncode": 0,
+  "severity_buckets_v12": {
+    "compatible_positive": {
+      "items": [
+        {
+          "file": "test01_p39_pantheon_sn_residual_drift.json",
+          "name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+          "prediction_id": "P39",
+          "status": "positive_compatible",
+          "test_id": "R10-T01"
+        },
+        {
+          "file": "test02_p01_rvm_pantheon_lowz_systematic.json",
+          "name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+          "prediction_id": "P1/P39",
+          "status": "positive_compatible",
+          "test_id": "R10-T02"
+        },
+        {
+          "file": "test03_p39_desi_dr2_bao_inventory.json",
+          "name": "P39 DESI DR2 BAO grid positive-compatible",
+          "prediction_id": "P39",
+          "status": "bao_wgrid_positive_compatible",
+          "test_id": "R10-T03"
+        },
+        {
+          "file": "test10_p38_vast_voidfinder_inventory.json",
+          "name": "P38 jackknife-hardened void morphology positive-compatible",
+          "prediction_id": "P38",
+          "status": "void_morphology_jackknife_positive_compatible",
+          "test_id": "R10-T10"
+        },
+        {
+          "file": "test15_p29_growth_live_frozen_inventory.json",
+          "name": "P29 growth fσ8 live/frozen compatible-bound proxy",
+          "prediction_id": "P29",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T15"
+        },
+        {
+          "file": "test20_noftl_gw170817_luminal_inventory.json",
+          "name": "GW170817 luminal multimessenger inventory",
+          "prediction_id": "No-FTL",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T20"
+        },
+        {
+          "file": "test21_p40_bk18_bmode_inventory.json",
+          "name": "P40 BK18 bandpower-bound positive-ready",
+          "prediction_id": "P40",
+          "status": "p40_bb_bound_positive_compatible",
+          "test_id": "R10-T21"
+        },
+        {
+          "file": "test23_p28_firas_spectral_distortion_inventory.json",
+          "name": "FIRAS standard μ/y 95%-bound proxy",
+          "prediction_id": "P28",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T23"
+        },
+        {
+          "file": "test24_p28_planck_y_map_inventory.json",
+          "name": "P28 Planck y-map plus FIRAS bound cross-check",
+          "prediction_id": "P28",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T24"
+        },
+        {
+          "file": "test29_p37_phase_space_drift_readiness.json",
+          "name": "P37 DM phase-space drift event-level readiness positive",
+          "prediction_id": "P37",
+          "status": "event_level_ready_positive",
+          "test_id": "R10-T29"
+        },
+        {
+          "file": "test30_p05_alice_qgp_hepdata_inventory.json",
+          "name": "P5 QGP/KSS units-column bound-positive",
+          "prediction_id": "P5",
+          "status": "kss_proxy_bound_positive",
+          "test_id": "R10-T30"
+        },
+        {
+          "file": "test33_p09_met_drell_yan_hh_inventory.json",
+          "name": "P9 MET/DY/HH units-column bound-positive",
+          "prediction_id": "P9b/P9e/P9f",
+          "status": "collider_threshold_bound_positive",
+          "test_id": "R10-T33"
+        },
+        {
+          "file": "test39_smd6_fermion_masses_inventory.json",
+          "name": "SM-D6 12-fermion mass inventory check",
+          "prediction_id": "SM-D6",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD06"
+        },
+        {
+          "file": "test40_smd7_ckm_inventory.json",
+          "name": "SM-D7 CKM inventory check",
+          "prediction_id": "SM-D7",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD07"
+        },
+        {
+          "file": "test41_smd8_cp_phase_inventory.json",
+          "name": "SM-D8 CKM CP/Jarlskog inventory check",
+          "prediction_id": "SM-D8",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD08"
+        },
+        {
+          "file": "test42_smd9_gauge_group_scaffold.json",
+          "name": "SM-D9 structural gauge-group consistency positive",
+          "prediction_id": "SM-D9",
+          "status": "structural_consistency_positive",
+          "test_id": "R10-SMD09"
+        },
+        {
+          "file": "test43_smd10_strong_cp_edm_inventory.json",
+          "name": "SM-D10 neutron EDM/strong-CP bound check",
+          "prediction_id": "SM-D10",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD10"
+        },
+        {
+          "file": "test44_darkcone_lensing_anticipation_scaffold.json",
+          "name": "Dark-Cone lensing anticipation branch-survival positive",
+          "prediction_id": "Dark-Cone",
+          "status": "branch_survival_positive",
+          "test_id": "R10-DC01"
+        },
+        {
+          "file": "test45_darkcone_cosmic_web_nonlocality_scaffold.json",
+          "name": "Dark-Cone cosmic-web whitelist-updated branch positive",
+          "prediction_id": "Dark-Cone",
+          "status": "branch_survival_positive",
+          "test_id": "R10-DC02"
+        },
+        {
+          "file": "test46_darkcone_halo_sharpness_scaffold.json",
+          "name": "Dark-Cone halo-sharpness data-readiness positive",
+          "prediction_id": "Dark-Cone",
+          "status": "branch_survival_positive",
+          "test_id": "R10-DC03"
+        },
+        {
+          "file": "test47_dcn_microlensing_inventory.json",
+          "name": "DCN/AQN microlensing digitized-window positive-ready",
+          "prediction_id": "DCN_k",
+          "status": "dcn_allowed_window_quantified_positive",
+          "test_id": "R10-DCN01"
+        },
+        {
+          "file": "test48_dcn_macro_impact_inventory.json",
+          "name": "DCN/AQN macro-impact digitized-window positive-ready",
+          "prediction_id": "DCN_k",
+          "status": "dcn_allowed_window_quantified_positive",
+          "test_id": "R10-DCN02"
+        },
+        {
+          "file": "test49_cl5_p39_p40_joint_scaffold.json",
+          "name": "CL5 P39+P40 fixed joint positive-compatible bound",
+          "prediction_id": "CL5",
+          "status": "joint_positive_compatible_bound",
+          "test_id": "R10-CL05"
+        }
+      ],
+      "n": 23
+    },
+    "hard_blocker": {
+      "items": [
+        {
+          "file": "test17_p08c_nanograv_density_cross_scaffold.json",
+          "name": "CL2 full NANOGrav coordinate kappa sampler",
+          "prediction_id": "P8c/CL2",
+          "status": "broken",
+          "test_id": "R10-T17"
+        }
+      ],
+      "n": 1
+    },
+    "hard_confirm": {
+      "items": [
+        {
+          "file": "test12_p36_sparc_local_a0_inventory.json",
+          "name": "P36 SPARC robust local RAR/a0 bootstrap test",
+          "prediction_id": "P36/local a0",
+          "status": "robust_confirm_like",
+          "test_id": "R10-T12"
+        },
+        {
+          "file": "test34_smd1_alpha_coddata.json",
+          "name": "SM-D1 α inverse constant check",
+          "prediction_id": "SM-D1",
+          "status": "confirm_like",
+          "test_id": "R10-SMD01"
+        },
+        {
+          "file": "test35_smd2_alpha_s_pdg_inventory.json",
+          "name": "SM-D2 αs(mZ) constant check",
+          "prediction_id": "SM-D2",
+          "status": "confirm_like",
+          "test_id": "R10-SMD02"
+        },
+        {
+          "file": "test36_smd3_weak_angle_pdg_inventory.json",
+          "name": "SM-D3 weak mixing angle constant check",
+          "prediction_id": "SM-D3",
+          "status": "confirm_like",
+          "test_id": "R10-SMD03"
+        },
+        {
+          "file": "test37_smd4_higgs_mass_pdg_inventory.json",
+          "name": "SM-D4 Higgs mass constant check",
+          "prediction_id": "SM-D4",
+          "status": "confirm_like",
+          "test_id": "R10-SMD04"
+        },
+        {
+          "file": "test38_smd5_koide_charged_leptons.json",
+          "name": "SM-D5 charged-lepton Koide constant-level check",
+          "prediction_id": "SM-D5",
+          "status": "confirm_like",
+          "test_id": "R10-SMD05"
+        }
+      ],
+      "n": 6
+    },
+    "positive_ready": {
+      "items": [
+        {
+          "file": "test04_p30_act_dr6_lensing_inventory.json",
+          "name": "P30 ACT finite-footprint density-kappa statistic with Euclid/SDSS fallback",
+          "prediction_id": "P30",
+          "status": "density_kappa_map_catalogue_positive_ready",
+          "test_id": "R10-T04"
+        },
+        {
+          "file": "test05_p30_planck_lensing_inventory.json",
+          "name": "P30 Planck recursive lensing resolver",
+          "prediction_id": "P30",
+          "status": "density_kappa_positive_ready",
+          "test_id": "R10-T05"
+        },
+        {
+          "file": "test06_p30_euclid_q1_inventory.json",
+          "name": "P30 Euclid mer_catalogue object-coordinate sample",
+          "prediction_id": "P30",
+          "status": "euclid_mer_catalogue_sample_positive_ready",
+          "test_id": "R10-T06"
+        },
+        {
+          "file": "test07_p33_desi_density_bao_inventory.json",
+          "name": "P33 density-BAO baseline positive-ready",
+          "prediction_id": "P33",
+          "status": "p33_density_bao_baseline_positive_ready",
+          "test_id": "R10-T07"
+        },
+        {
+          "file": "test08_p35_power_spectrum_harmonic_inventory.json",
+          "name": "P35 BAO harmonic-comb proxy readiness-positive",
+          "prediction_id": "P35",
+          "status": "harmonic_proxy_positive_ready",
+          "test_id": "R10-T08"
+        },
+        {
+          "file": "test13_p36_kmos3d_inventory.json",
+          "name": "P36 high-z a0 KROSS/KGES rotation-catalogue probe",
+          "prediction_id": "P36/high-z a0",
+          "status": "highz_a0_rotation_catalogue_positive_ready",
+          "test_id": "R10-T13"
+        },
+        {
+          "file": "test14_p36_highz_a0_cross_catalogue_inventory.json",
+          "name": "P36 high-z a0 cross-catalogue rotation probe",
+          "prediction_id": "P36",
+          "status": "highz_a0_rotation_catalogue_positive_ready",
+          "test_id": "R10-T14"
+        },
+        {
+          "file": "test16_p08_nanograv_15yr_inventory.json",
+          "name": "P8/P8c NANOGrav κ-sky positive-ready",
+          "prediction_id": "P8/P8c",
+          "status": "pta_density_cross_positive_ready",
+          "test_id": "R10-T16"
+        },
+        {
+          "file": "test18_p32_gwosc_gwtc3_inventory.json",
+          "name": "P32 GWOSC metadata ringdown positive-ready",
+          "prediction_id": "P32",
+          "status": "ringdown_metadata_positive_ready",
+          "test_id": "R10-T18"
+        },
+        {
+          "file": "test22_p40_planck_bmode_limit_inventory.json",
+          "name": "P40 Planck/BK18 cross-bound positive-ready",
+          "prediction_id": "P40",
+          "status": "p40_planck_cross_bound_positive_ready",
+          "test_id": "R10-T22"
+        },
+        {
+          "file": "test25_p10_xenonnt_2025_inventory.json",
+          "name": "XENONnT mass/limit column positive-ready",
+          "prediction_id": "P10/P25/P31",
+          "status": "mass_window_quantified_positive_ready",
+          "test_id": "R10-T25"
+        },
+        {
+          "file": "test26_p10_lz_inventory.json",
+          "name": "LZ mass/limit column positive-ready",
+          "prediction_id": "P10/P25/P31",
+          "status": "mass_window_quantified_positive_ready",
+          "test_id": "R10-T26"
+        },
+        {
+          "file": "test27_p10_pandax_inventory.json",
+          "name": "PandaX quantified mass-window positive-ready",
+          "prediction_id": "P10/P25/P31",
+          "status": "mass_window_quantified_positive_ready",
+          "test_id": "R10-T27"
+        },
+        {
+          "file": "test28_p27_mass_tower_readiness.json",
+          "name": "P27 direct-detection mass-window sensitivity dashboard",
+          "prediction_id": "P27",
+          "status": "sensitivity_positive_ready",
+          "test_id": "R10-T28"
+        }
+      ],
+      "n": 14
+    },
+    "proxy_ready_no_evidence": {
+      "items": [],
+      "n": 0
+    },
+    "sign_unfixed_ready": {
+      "items": [],
+      "n": 0
+    },
+    "true_null_or_tension": {
+      "items": [],
+      "n": 0
+    }
+  },
+  "severity_buckets_v13": {
+    "compatible_positive": {
+      "items": [
+        {
+          "name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+          "prediction_id": "P39",
+          "status": "positive_compatible",
+          "test_id": "R10-T01"
+        },
+        {
+          "name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+          "prediction_id": "P1/P39",
+          "status": "positive_compatible",
+          "test_id": "R10-T02"
+        },
+        {
+          "name": "P39 DESI DR2 BAO grid positive-compatible",
+          "prediction_id": "P39",
+          "status": "bao_wgrid_positive_compatible",
+          "test_id": "R10-T03"
+        },
+        {
+          "name": "P38 jackknife-hardened void morphology positive-compatible",
+          "prediction_id": "P38",
+          "status": "void_morphology_jackknife_positive_compatible",
+          "test_id": "R10-T10"
+        },
+        {
+          "name": "P29 growth fσ8 live/frozen compatible-bound proxy",
+          "prediction_id": "P29",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T15"
+        },
+        {
+          "name": "GW170817 luminal multimessenger inventory",
+          "prediction_id": "No-FTL",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T20"
+        },
+        {
+          "name": "P40 BK18 bandpower-bound positive-ready",
+          "prediction_id": "P40",
+          "status": "p40_bb_bound_positive_compatible",
+          "test_id": "R10-T21"
+        },
+        {
+          "name": "FIRAS standard μ/y 95%-bound proxy",
+          "prediction_id": "P28",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T23"
+        },
+        {
+          "name": "P28 Planck y-map plus FIRAS bound cross-check",
+          "prediction_id": "P28",
+          "status": "consistent_bound_only",
+          "test_id": "R10-T24"
+        },
+        {
+          "name": "P37 DM phase-space drift event-level readiness positive",
+          "prediction_id": "P37",
+          "status": "event_level_ready_positive",
+          "test_id": "R10-T29"
+        },
+        {
+          "name": "P5 QGP/KSS units-column bound-positive",
+          "prediction_id": "P5",
+          "status": "kss_proxy_bound_positive",
+          "test_id": "R10-T30"
+        },
+        {
+          "name": "P9 MET/DY/HH units-column bound-positive",
+          "prediction_id": "P9b/P9e/P9f",
+          "status": "collider_threshold_bound_positive",
+          "test_id": "R10-T33"
+        },
+        {
+          "name": "SM-D6 12-fermion mass inventory check",
+          "prediction_id": "SM-D6",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD06"
+        },
+        {
+          "name": "SM-D7 CKM inventory check",
+          "prediction_id": "SM-D7",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD07"
+        },
+        {
+          "name": "SM-D8 CKM CP/Jarlskog inventory check",
+          "prediction_id": "SM-D8",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD08"
+        },
+        {
+          "name": "SM-D9 structural gauge-group consistency positive",
+          "prediction_id": "SM-D9",
+          "status": "structural_consistency_positive",
+          "test_id": "R10-SMD09"
+        },
+        {
+          "name": "SM-D10 neutron EDM/strong-CP bound check",
+          "prediction_id": "SM-D10",
+          "status": "consistent_constant_check",
+          "test_id": "R10-SMD10"
+        },
+        {
+          "name": "Dark-Cone lensing anticipation branch-survival positive",
+          "prediction_id": "Dark-Cone",
+          "status": "branch_survival_positive",
+          "test_id": "R10-DC01"
+        },
+        {
+          "name": "Dark-Cone cosmic-web whitelist-updated branch positive",
+          "prediction_id": "Dark-Cone",
+          "status": "branch_survival_positive",
+          "test_id": "R10-DC02"
+        },
+        {
+          "name": "Dark-Cone halo-sharpness data-readiness positive",
+          "prediction_id": "Dark-Cone",
+          "status": "branch_survival_positive",
+          "test_id": "R10-DC03"
+        },
+        {
+          "name": "DCN/AQN microlensing digitized-window positive-ready",
+          "prediction_id": "DCN_k",
+          "status": "dcn_allowed_window_quantified_positive",
+          "test_id": "R10-DCN01"
+        },
+        {
+          "name": "DCN/AQN macro-impact digitized-window positive-ready",
+          "prediction_id": "DCN_k",
+          "status": "dcn_allowed_window_quantified_positive",
+          "test_id": "R10-DCN02"
+        },
+        {
+          "name": "CL5 P39+P40 fixed joint positive-compatible bound",
+          "prediction_id": "CL5",
+          "status": "joint_positive_compatible_bound",
+          "test_id": "R10-CL05"
+        }
+      ],
+      "n": 23
+    },
+    "hard_blocker": {
+      "items": [
+        {
+          "name": "CL2 full NANOGrav coordinate kappa sampler",
+          "prediction_id": "P8c/CL2",
+          "status": "broken",
+          "test_id": "R10-T17"
+        }
+      ],
+      "n": 1
+    },
+    "hard_confirm": {
+      "items": [
+        {
+          "name": "P36 SPARC robust local RAR/a0 bootstrap test",
+          "prediction_id": "P36/local a0",
+          "status": "robust_confirm_like",
+          "test_id": "R10-T12"
+        },
+        {
+          "name": "SM-D1 α inverse constant check",
+          "prediction_id": "SM-D1",
+          "status": "confirm_like",
+          "test_id": "R10-SMD01"
+        },
+        {
+          "name": "SM-D2 αs(mZ) constant check",
+          "prediction_id": "SM-D2",
+          "status": "confirm_like",
+          "test_id": "R10-SMD02"
+        },
+        {
+          "name": "SM-D3 weak mixing angle constant check",
+          "prediction_id": "SM-D3",
+          "status": "confirm_like",
+          "test_id": "R10-SMD03"
+        },
+        {
+          "name": "SM-D4 Higgs mass constant check",
+          "prediction_id": "SM-D4",
+          "status": "confirm_like",
+          "test_id": "R10-SMD04"
+        },
+        {
+          "name": "SM-D5 charged-lepton Koide constant-level check",
+          "prediction_id": "SM-D5",
+          "status": "confirm_like",
+          "test_id": "R10-SMD05"
+        }
+      ],
+      "n": 6
+    },
+    "positive_ready": {
+      "items": [
+        {
+          "name": "P30 ACT finite-footprint density-kappa statistic with Euclid/SDSS fallback",
+          "prediction_id": "P30",
+          "status": "density_kappa_map_catalogue_positive_ready",
+          "test_id": "R10-T04"
+        },
+        {
+          "name": "P30 Planck recursive lensing resolver",
+          "prediction_id": "P30",
+          "status": "density_kappa_positive_ready",
+          "test_id": "R10-T05"
+        },
+        {
+          "name": "P30 Euclid mer_catalogue object-coordinate sample",
+          "prediction_id": "P30",
+          "status": "euclid_mer_catalogue_sample_positive_ready",
+          "test_id": "R10-T06"
+        },
+        {
+          "name": "P33 density-BAO baseline positive-ready",
+          "prediction_id": "P33",
+          "status": "p33_density_bao_baseline_positive_ready",
+          "test_id": "R10-T07"
+        },
+        {
+          "name": "P35 BAO harmonic-comb proxy readiness-positive",
+          "prediction_id": "P35",
+          "status": "harmonic_proxy_positive_ready",
+          "test_id": "R10-T08"
+        },
+        {
+          "name": "P36 high-z a0 KROSS/KGES rotation-catalogue probe",
+          "prediction_id": "P36/high-z a0",
+          "status": "highz_a0_rotation_catalogue_positive_ready",
+          "test_id": "R10-T13"
+        },
+        {
+          "name": "P36 high-z a0 cross-catalogue rotation probe",
+          "prediction_id": "P36",
+          "status": "highz_a0_rotation_catalogue_positive_ready",
+          "test_id": "R10-T14"
+        },
+        {
+          "name": "P8/P8c NANOGrav κ-sky positive-ready",
+          "prediction_id": "P8/P8c",
+          "status": "pta_density_cross_positive_ready",
+          "test_id": "R10-T16"
+        },
+        {
+          "name": "P32 GWOSC metadata ringdown positive-ready",
+          "prediction_id": "P32",
+          "status": "ringdown_metadata_positive_ready",
+          "test_id": "R10-T18"
+        },
+        {
+          "name": "P40 Planck/BK18 cross-bound positive-ready",
+          "prediction_id": "P40",
+          "status": "p40_planck_cross_bound_positive_ready",
+          "test_id": "R10-T22"
+        },
+        {
+          "name": "XENONnT mass/limit column positive-ready",
+          "prediction_id": "P10/P25/P31",
+          "status": "mass_window_quantified_positive_ready",
+          "test_id": "R10-T25"
+        },
+        {
+          "name": "LZ mass/limit column positive-ready",
+          "prediction_id": "P10/P25/P31",
+          "status": "mass_window_quantified_positive_ready",
+          "test_id": "R10-T26"
+        },
+        {
+          "name": "PandaX quantified mass-window positive-ready",
+          "prediction_id": "P10/P25/P31",
+          "status": "mass_window_quantified_positive_ready",
+          "test_id": "R10-T27"
+        },
+        {
+          "name": "P27 direct-detection mass-window sensitivity dashboard",
+          "prediction_id": "P27",
+          "status": "sensitivity_positive_ready",
+          "test_id": "R10-T28"
+        }
+      ],
+      "n": 14
+    },
+    "proxy_ready_no_evidence": {
+      "items": [
+        {
+          "name": "P3 CDS ReadMe endpoint-table resolver",
+          "prediction_id": "P3",
+          "status": "filament_orientation_proxy_ready_no_evidence",
+          "test_id": "R10-T09"
+        }
+      ],
+      "n": 1
+    },
+    "sign_unfixed_ready": {
+      "items": [
+        {
+          "name": "P41 arXiv-source sign/table guarded extractor",
+          "prediction_id": "P41",
+          "status": "p41_pattern_positive_ready_sign_unfixed",
+          "test_id": "R10-T31"
+        },
+        {
+          "name": "P41 control arXiv-source sign/table guarded extractor",
+          "prediction_id": "P41",
+          "status": "p41_pattern_positive_ready_sign_unfixed",
+          "test_id": "R10-T32"
+        }
+      ],
+      "n": 2
+    },
+    "true_null_or_tension": {
+      "items": [],
+      "n": 0
+    }
+  },
+  "status": "dashboard_positive_with_blockers",
+  "status_counts": {
+    "bao_wgrid_positive_compatible": 1,
+    "branch_survival_positive": 3,
+    "broken": 1,
+    "collider_threshold_bound_positive": 1,
+    "confirm_like": 5,
+    "consistent_bound_only": 4,
+    "consistent_constant_check": 4,
+    "dcn_allowed_window_quantified_positive": 2,
+    "density_kappa_map_catalogue_positive_ready": 1,
+    "density_kappa_positive_ready": 1,
+    "euclid_mer_catalogue_sample_positive_ready": 1,
+    "event_level_ready_positive": 1,
+    "filament_orientation_proxy_ready_no_evidence": 1,
+    "harmonic_proxy_positive_ready": 1,
+    "highz_a0_rotation_catalogue_positive_ready": 2,
+    "joint_positive_compatible_bound": 1,
+    "kss_proxy_bound_positive": 1,
+    "mass_window_quantified_positive_ready": 3,
+    "p33_density_bao_baseline_positive_ready": 1,
+    "p40_bb_bound_positive_compatible": 1,
+    "p40_planck_cross_bound_positive_ready": 1,
+    "p41_pattern_positive_ready_sign_unfixed": 2,
+    "partial_positive_bridge": 2,
+    "positive_compatible": 2,
+    "pta_density_cross_positive_ready": 1,
+    "ringdown_metadata_positive_ready": 1,
+    "ringdown_ready_positive_bound": 1,
+    "robust_confirm_like": 1,
+    "sensitivity_positive_ready": 1,
+    "structural_consistency_positive": 1,
+    "void_morphology_jackknife_positive_compatible": 1
+  },
+  "test_id": "R10-DASH",
+  "tier": "public-current",
+  "weak_or_problem": [
+    {
+      "file": "test17_p08c_nanograv_density_cross_scaffold.json",
+      "name": "CL2 full NANOGrav coordinate kappa sampler",
+      "prediction_id": "P8c/CL2",
+      "status": "broken",
+      "test_id": "R10-T17"
+    }
+  ]
+}

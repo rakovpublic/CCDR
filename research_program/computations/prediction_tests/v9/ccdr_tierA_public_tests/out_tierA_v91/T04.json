@@ -1,0 +1,44 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    },
+    {
+      "n_links": 1,
+      "ok": true,
+      "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_info.html"
+    },
+    {
+      "note": "ACT DR6 lensing maps are large; rerun with --allow-large.",
+      "ok": false,
+      "reason": "large_download_not_enabled"
+    }
+  ],
+  "description": "Cross-correlate Euclid Q1 source density with ACT DR6 CMB-lensing convergence map.",
+  "falsification_logic": {
+    "confirm_like": "high Euclid-density positions have higher ACT \u03ba and positive density-\u03ba Spearman correlation",
+    "falsify_like": "correlation disappears or flips under density splits/nulls"
+  },
+  "generated_utc": "2026-04-28T19:12:27Z",
+  "metrics": {},
+  "notes": [],
+  "prediction_ids": [
+    "P14/P30"
+  ],
+  "status": "data_limited",
+  "test_id": "T04",
+  "warnings": [
+    "Requires Euclid Q1 public catalog and ACT map; rerun with --allow-large for ACT map. Script downloads automatically when enabled."
+  ]
+}

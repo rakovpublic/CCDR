@@ -1,0 +1,394 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_columns_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20column_name%2C%20datatype%2C%20description%20FROM%20TAP_SCHEMA.columns%20WHERE%20table_name%20%3D%20%27euclid_q1_mer_catalogue%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_enriched_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2C%20dec%2C%20object_id%2C%20z%2C%20fluxerr_vis_to_z_ext_panstarrs_templfit%2C%20fluxerr_vis_to_i_ext_panstarrs_templfit%2C%20fluxerr_vis_to_u_ext_megacam_templfit%2C%20fluxerr_vis_to_r_ext_megacam_templfit%2C%20fluxerr_z_ext_panstarrs_disk_sersic%2C%20fluxerr_vis_to_z_ext_decam_templfit%2C%20flag_z_ext_panstarrs%2C%20flag_i_ext_panstarrs%2C%20gaia_match_quality%20FROM%20euclid_q1_mer_cata"
+    },
+    {
+      "available_columns_sample": [
+        "fluxerr_i_ext_lsst_2fwhm_aper",
+        "fluxerr_i_ext_lsst_3fwhm_aper",
+        "fluxerr_i_ext_lsst_4fwhm_aper",
+        "fluxerr_z_ext_lsst_1fwhm_aper",
+        "fluxerr_z_ext_lsst_2fwhm_aper",
+        "fluxerr_z_ext_lsst_3fwhm_aper",
+        "fluxerr_z_ext_lsst_4fwhm_aper",
+        "fluxerr_u_ext_megacam_1fwhm_aper",
+        "fluxerr_u_ext_megacam_2fwhm_aper",
+        "fluxerr_u_ext_megacam_3fwhm_aper",
+        "fluxerr_u_ext_megacam_4fwhm_aper",
+        "fluxerr_r_ext_megacam_1fwhm_aper",
+        "fluxerr_r_ext_megacam_2fwhm_aper",
+        "fluxerr_r_ext_megacam_3fwhm_aper",
+        "fluxerr_r_ext_megacam_4fwhm_aper",
+        "fluxerr_g_ext_jpcam_1fwhm_aper",
+        "fluxerr_g_ext_jpcam_2fwhm_aper",
+        "fluxerr_g_ext_jpcam_3fwhm_aper",
+        "fluxerr_g_ext_jpcam_4fwhm_aper",
+        "fluxerr_i_ext_panstarrs_1fwhm_aper",
+        "fluxerr_i_ext_panstarrs_2fwhm_aper",
+        "fluxerr_i_ext_panstarrs_3fwhm_aper",
+        "fluxerr_i_ext_panstarrs_4fwhm_aper",
+        "fluxerr_z_ext_panstarrs_1fwhm_aper",
+        "fluxerr_z_ext_panstarrs_2fwhm_aper",
+        "fluxerr_z_ext_panstarrs_3fwhm_aper",
+        "fluxerr_z_ext_panstarrs_4fwhm_aper",
+        "fluxerr_g_ext_hsc_1fwhm_aper",
+        "fluxerr_g_ext_hsc_2fwhm_aper",
+        "fluxerr_g_ext_hsc_3fwhm_aper",
+        "fluxerr_g_ext_hsc_4fwhm_aper",
+        "fluxerr_z_ext_hsc_1fwhm_aper",
+        "fluxerr_z_ext_hsc_2fwhm_aper",
+        "fluxerr_z_ext_hsc_3fwhm_aper",
+        "fluxerr_z_ext_hsc_4fwhm_aper",
+        "flux_y_templfit",
+        "flux_j_templfit",
+        "flux_h_templfit",
+        "flux_u_ext_decam_templfit",
+        "flux_g_ext_decam_templfit",
+        "flux_r_ext_decam_templfit",
+        "flux_i_ext_decam_templfit",
+        "flux_z_ext_decam_templfit",
+        "flux_u_ext_lsst_templfit",
+        "flux_g_ext_lsst_templfit",
+        "flux_r_ext_lsst_templfit",
+        "flux_i_ext_lsst_templfit",
+        "flux_z_ext_lsst_templfit",
+        "flux_u_ext_megacam_templfit",
+        "flux_r_ext_megacam_templfit",
+        "flux_g_ext_jpcam_templfit",
+        "flux_i_ext_panstarrs_templfit",
+        "flux_z_ext_panstarrs_templfit",
+        "flux_g_ext_hsc_templfit",
+        "flux_z_ext_hsc_templfit",
+        "fluxerr_y_templfit",
+        "fluxerr_j_templfit",
+        "fluxerr_h_templfit",
+        "fluxerr_u_ext_decam_templfit",
+        "fluxerr_g_ext_decam_templfit",
+        "fluxerr_r_ext_decam_templfit",
+        "fluxerr_i_ext_decam_templfit",
+        "fluxerr_z_ext_decam_templfit",
+        "fluxerr_u_ext_lsst_templfit",
+        "fluxerr_g_ext_lsst_templfit",
+        "fluxerr_r_ext_lsst_templfit",
+        "fluxerr_i_ext_lsst_templfit",
+        "fluxerr_z_ext_lsst_templfit",
+        "fluxerr_u_ext_megacam_templfit",
+        "fluxerr_r_ext_megacam_templfit",
+        "fluxerr_g_ext_jpcam_templfit",
+        "fluxerr_i_ext_panstarrs_templfit",
+        "fluxerr_z_ext_panstarrs_templfit",
+        "fluxerr_g_ext_hsc_templfit",
+        "fluxerr_z_ext_hsc_templfit",
+        "flux_vis_to_y_templfit",
+        "flux_vis_to_j_templfit",
+        "flux_vis_to_h_templfit",
+        "flux_vis_to_u_ext_decam_templfit",
+        "flux_vis_to_g_ext_decam_templfit",
+        "flux_vis_to_r_ext_decam_templfit",
+        "flux_vis_to_i_ext_decam_templfit",
+        "flux_vis_to_z_ext_decam_templfit",
+        "flux_vis_to_u_ext_lsst_templfit",
+        "flux_vis_to_g_ext_lsst_templfit",
+        "flux_vis_to_r_ext_lsst_templfit",
+        "flux_vis_to_i_ext_lsst_templfit",
+        "flux_vis_to_z_ext_lsst_templfit",
+        "flux_vis_to_u_ext_megacam_templfit",
+        "flux_vis_to_r_ext_megacam_templfit",
+        "flux_vis_to_g_ext_jpcam_templfit",
+        "flux_vis_to_i_ext_panstarrs_templfit",
+        "flux_vis_to_z_ext_panstarrs_templfit",
+        "flux_vis_to_g_ext_hsc_templfit",
+        "flux_vis_to_z_ext_hsc_templfit",
+        "fluxerr_vis_to_y_templfit",
+        "fluxerr_vis_to_j_templfit",
+        "fluxerr_vis_to_h_templfit",
+        "fluxerr_vis_to_u_ext_decam_templfit",
+        "fluxerr_vis_to_g_ext_decam_templfit"
+      ],
+      "enriched": true,
+      "ok": true,
+      "selected_optional_columns": [
+        "object_id",
+        "z",
+        "fluxerr_vis_to_z_ext_panstarrs_templfit",
+        "fluxerr_vis_to_i_ext_panstarrs_templfit",
+        "fluxerr_vis_to_u_ext_megacam_templfit",
+        "fluxerr_vis_to_r_ext_megacam_templfit",
+        "fluxerr_z_ext_panstarrs_disk_sersic",
+        "fluxerr_vis_to_z_ext_decam_templfit",
+        "flag_z_ext_panstarrs",
+        "flag_i_ext_panstarrs",
+        "gaia_match_quality"
+      ],
+      "selected_table": "euclid_q1_mer_catalogue",
+      "v9_6_note": "fluxerr/depth/quality columns are prioritised and returned for systematics controls"
+    }
+  ],
+  "description": "Estimate local filament axes from Euclid Q1 source positions and compare orientation correlations in high-vs-low residual-density regions.",
+  "falsification_logic": {
+    "confirm_like": "high residual-density orientation correlation exceeds low-density correlation inside connected Q1 fields and beats within-field density/depth-shuffle null",
+    "falsify_like": "density-stratified orientation signal is absent/opposite or indistinguishable from within-field null"
+  },
+  "generated_utc": "2026-05-03T00:12:37Z",
+  "metrics": {
+    "bins_deg": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "density_depth_stratified_null": {
+      "mean": 0.004988798264201356,
+      "n": 100,
+      "p_one_sided_high_gt_low": 1.0,
+      "sigma": 0.00911208132834492,
+      "z_vs_null": -7.355613321354556
+    },
+    "density_residualization": [
+      {
+        "depth_residualized": false,
+        "field": 0
+      },
+      {
+        "beta": [
+          11.105087222144649,
+          0.2495576302444862
+        ],
+        "depth_residualized": true,
+        "field": 1,
+        "n": 6858
+      }
+    ],
+    "depth_proxy": {
+      "column": "fluxerr_vis_to_i_ext_panstarrs_templfit",
+      "note": "Automated depth/completeness proxy used only for confounding controls, not calibrated survey depth.",
+      "score": 80,
+      "transform": "minus_log10_positive_fluxerr"
+    },
+    "field_depth_photoz_matched_controls": {
+      "available_depth": true,
+      "available_photoz": true,
+      "matched_density_median": -0.006642221729422637,
+      "n_matched_base": 6858,
+      "residualized_density_std": 0.6211201475169761
+    },
+    "field_summaries": [
+      {
+        "density_split_median": 95037.85337734077,
+        "field": 0,
+        "field_mean_high_minus_low": -0.07742512887232936,
+        "field_weight": 56462,
+        "n": 10371
+      },
+      {
+        "density_split_median": 0.28815349163896187,
+        "field": 1,
+        "field_mean_high_minus_low": -0.05269653133376028,
+        "field_weight": 93033,
+        "n": 9629
+      }
+    ],
+    "high_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.028229379787406805,
+        "n_pairs": 12106
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.02855797699546054,
+        "n_pairs": 12282
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.03804625851725509,
+        "n_pairs": 18860
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.03882870813294086,
+        "n_pairs": 13558
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": -0.15120839238333844,
+        "n_pairs": 616
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.01399727253490239,
+        "n_pairs": 2288
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.029042743593448772,
+        "n_pairs": 44819
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.027825295140213202,
+        "n_pairs": 8842
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.007301746445528523,
+        "n_pairs": 14919
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.019895952718504955,
+        "n_pairs": 23433
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.01849902369310896,
+        "n_pairs": 29831
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 9.888875150848239e-05,
+        "n_pairs": 42387
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.01302469937590068,
+        "n_pairs": 46020
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.013472860828485322,
+        "n_pairs": 19637
+      }
+    ],
+    "low_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.12685678659926317,
+        "n_pairs": 4272
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.11763377740790298,
+        "n_pairs": 4495
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.14570956125236617,
+        "n_pairs": 8875
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.09185108952414497,
+        "n_pairs": 23042
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.0965209863355036,
+        "n_pairs": 15795
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.014453870526098823,
+        "n_pairs": 746
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.10111447763390845,
+        "n_pairs": 23900
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.07407234725713817,
+        "n_pairs": 7458
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.059572273081327745,
+        "n_pairs": 9235
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.05758847429261997,
+        "n_pairs": 14139
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.07437098467524698,
+        "n_pairs": 33744
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.17947202614254726,
+        "n_pairs": 4815
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.030553569720761394,
+        "n_pairs": 7918
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.05791759723837775,
+        "n_pairs": 69486
+      }
+    ],
+    "mean_high_minus_low_corr": -0.06203614853983866,
+    "n_sources": 20000,
+    "weighted_pair_count": 149495
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3",
+    "CL4"
+  ],
+  "status": "null",
+  "test_id": "T07",
+  "warnings": [
+    "High-density minus low-density orientation correlation is negative after v9.6 controls; this is direct tension for P3 unless axis/density proxy is invalid."
+  ]
+}

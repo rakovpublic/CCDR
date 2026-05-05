@@ -1,0 +1,121 @@
+{
+  "analysis_note": "v3 splits charged-lepton Koide from quark/lattice Koide. A charged-lepton match no longer implies full sector-distance confirmation.",
+  "data_source": "NIST constants + PDG public MC mass-width data + FLAG public page, all downloaded by script",
+  "downloaded_sources": [
+    {
+      "label": "nist_electron_mass_energy_equivalent_mev",
+      "meta": {
+        "bytes": 7905,
+        "cache_path": "tierb_cache_v12_core\\koide_public_v3\\c51ca3d8e790_Value.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev"
+      },
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mec2mev"
+    },
+    {
+      "label": "nist_muon_mass_energy_equivalent_mev",
+      "meta": {
+        "bytes": 7870,
+        "cache_path": "tierb_cache_v12_core\\koide_public_v3\\bd3db092c507_Value.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmuc2mev",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmuc2mev"
+      },
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmuc2mev"
+    },
+    {
+      "label": "pdg_2025_mc_mass_width",
+      "meta": {
+        "bytes": 31341,
+        "cache_path": "tierb_cache_v12_core\\koide_public_v3\\4d77822b841e_mass_width_2025.mcd",
+        "cached": false,
+        "content_type": "application/vnd.mcd",
+        "error": null,
+        "final_url": "https://pdg.lbl.gov/2025/mcdata/mass_width_2025.mcd",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pdg.lbl.gov/2025/mcdata/mass_width_2025.mcd"
+      },
+      "url": "https://pdg.lbl.gov/2025/mcdata/mass_width_2025.mcd"
+    },
+    {
+      "label": "pdg_2024_mc_mass_width",
+      "meta": {
+        "bytes": 30830,
+        "cache_path": "tierb_cache_v12_core\\koide_public_v3\\8282fa02a040_mass_width_2024.mcd",
+        "cached": false,
+        "content_type": "application/vnd.mcd",
+        "error": null,
+        "final_url": "https://pdg.lbl.gov/2024/mcdata/mass_width_2024.mcd",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pdg.lbl.gov/2024/mcdata/mass_width_2024.mcd"
+      },
+      "url": "https://pdg.lbl.gov/2024/mcdata/mass_width_2024.mcd"
+    },
+    {
+      "label": "flag_review_page",
+      "meta": {
+        "cache_path": "tierb_cache_v12_core\\koide_public_v3\\9cc87b7605aa_flag.unibe.ch.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectTimeout: HTTPSConnectionPool(host='flag.unibe.ch', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='flag.unibe.ch', port=443) at 0x16933846c10>, 'Connection to flag.unibe.ch timed out. (connect timeout=45)'))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://flag.unibe.ch/"
+      },
+      "url": "https://flag.unibe.ch/"
+    }
+  ],
+  "evidence_status": "confirm_like",
+  "falsification_logic": {
+    "caveat": "T60a can succeed independently; T60b remains data_limited until FLAG/PDG quark tables with uncertainties parse.",
+    "confirm_like": "Charged-lepton and quark/lattice sectors both reproduce persistent sector-dependent Koide closeness/distance with propagated uncertainties.",
+    "falsify_like": "Updated public values erase the sector-dependent pattern or produce non-stable scales."
+  },
+  "generated_utc": "2026-05-02T20:19:23Z",
+  "prediction_ids": [
+    "\u00a76.3"
+  ],
+  "prediction_names": [
+    "sector-dependent Koide distance/scales persist with public PDG/FLAG values"
+  ],
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "readiness_status": "model_fit_done",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "ok",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "subtests": {
+    "T60a_charged_leptons": {
+      "Q": 0.6666819730184289,
+      "deviation_from_2_over_3": 1.530635176227868e-05,
+      "masses_MeV": {
+        "electron_MeV": 0.51,
+        "muon_MeV": 105.658,
+        "tau_MeV": 1776.9299999999998
+      },
+      "status": "ok",
+      "support_like": true
+    },
+    "T60b_quark_lattice_sector": {
+      "reason": "FLAG/PDG quark masses with correlated uncertainties were not parsed as machine-readable rows; kept separate from charged-lepton success.",
+      "status": "data_limited",
+      "support_like": null
+    }
+  },
+  "support_like": true,
+  "test_id": "T60",
+  "test_name": "Koide sector-distance audit"
+}

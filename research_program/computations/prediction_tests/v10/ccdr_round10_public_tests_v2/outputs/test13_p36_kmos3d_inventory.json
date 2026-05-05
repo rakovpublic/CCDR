@@ -1,0 +1,411 @@
+{
+  "attempts": [
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\R10-T13__data",
+      "size_bytes": 168772,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    }
+  ],
+  "calibrated_a0_proxy_v8": {
+    "high_over_low_ratio": 0.9698248188735389,
+    "high_z_median_a_proxy_m_s2": 3.443626471938519e-11,
+    "local_sparc_a0_reference_m_s2": 9.55e-11,
+    "low_z_median_a_proxy_m_s2": 3.5507716496040234e-11,
+    "median_a_proxy_m_s2": 3.489297275065816e-11,
+    "n": 641,
+    "sample": [
+      {
+        "SIG": 349.29998779296875,
+        "a_proxy_m_s2": 3.3582740749908984e-10,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.774174252028834,
+        "z": 0.9243000149726868
+      },
+      {
+        "SIG": 279.70001220703125,
+        "a_proxy_m_s2": 2.1854724169485817e-10,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.600830886988108,
+        "z": 0.8776100277900696
+      },
+      {
+        "SIG": 97.69999694824219,
+        "a_proxy_m_s2": 2.7233991832687777e-11,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.358663981859287,
+        "z": 0.8205599784851074
+      },
+      {
+        "SIG": 223.6999969482422,
+        "a_proxy_m_s2": 1.4098917098311597e-10,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.502590376632353,
+        "z": 0.8534600138664246
+      },
+      {
+        "SIG": 81.4000015258789,
+        "a_proxy_m_s2": 1.822296927497835e-11,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.783631098595642,
+        "z": 0.9270200133323669
+      },
+      {
+        "SIG": 101.9000015258789,
+        "a_proxy_m_s2": 2.7353671219621597e-11,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 12.302183855060395,
+        "z": 2.3059499263763428
+      },
+      {
+        "SIG": 48.599998474121094,
+        "a_proxy_m_s2": 6.721464455924235e-12,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.388277986193563,
+        "z": 0.8271099925041199
+      },
+      {
+        "SIG": 133.1999969482422,
+        "a_proxy_m_s2": 5.1574437092874526e-11,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.14867840478666,
+        "z": 0.7769500017166138
+      },
+      {
+        "SIG": 73.5,
+        "a_proxy_m_s2": 1.486887923303356e-11,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 11.774592853982664,
+        "z": 0.9244199991226196
+      },
+      {
+        "SIG": 128.39999389648438,
+        "a_proxy_m_s2": 4.3435931918986136e-11,
+        "radius_arcsec": 1.5,
+        "radius_kpc": 12.300713893348274,
+        "z": 2.307499885559082
+      }
+    ]
+  },
+  "candidate_data_links": [
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "https://www.mpe.mpg.de/ir/KMOS3D/data",
+    "/ir/KMOS3D",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+    "https://bsky.app/intent/compose?text=Max+Planck+Institute+for+extraterrestrial+Physics+-+Data+Download+https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+    "https://www.mpe.mpg.de/resources/KMOS3D/doc/guide2.pdf",
+    "http://www.mpe.mpg.de/ir/KMOS3D/publications",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_COSMOS.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_GOODSS.tar.gz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_UDS.tar.gz",
+    "/ir/KMOS3D",
+    "/ir/KMOS3D/surveyscience",
+    "/ir/KMOS3D/publications",
+    "/ir/KMOS3D/data",
+    "/ir/KMOS3D/team",
+    "/data-protection",
+    "/ir/KMOS3D/data?print=yes",
+    "https://mpe.iedit.mpg.de/7107411/Data"
+  ],
+  "claim_guard_v11": "No rotation/dynamical-mass column detected. SIG^2/R proxy is retained only as proxy-ready and must not be counted as evidence for a high-z rise.",
+  "claim_guard_v12": "Rotation-source probes were added; SIG^2/R remains proxy-only until Vrot/dynamical-mass columns are parsed.",
+  "claim_guard_v13": "Still no high-z rise claim until Vrot/R or dynamical-mass columns are parsed into physical V^2/R.",
+  "data_sources": [
+    {
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "url": "https://www.mpe.mpg.de/resources/IR/KMOS3D/data/README"
+    }
+  ],
+  "downloaded_catalog_archives": [
+    {
+      "n_tar_files": 1,
+      "path": ".ccdr_round10_cache\\R10-T13_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+      "size_bytes": 57365,
+      "tar_files": [
+        "k3d_fnlsp_table_v3.fits"
+      ],
+      "url": "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz"
+    },
+    {
+      "n_tar_files": 1,
+      "path": ".ccdr_round10_cache\\R10-T13_k3d_fnlsp_table_hafits_v3.fits.tgz__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "size_bytes": 26378,
+      "tar_files": [
+        "k3d_fnlsp_table_hafits_v3.fits"
+      ],
+      "url": "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+    }
+  ],
+  "downloaded_path": ".ccdr_round10_cache\\R10-T13__data",
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "fits_tables": [
+    {
+      "acceleration_proxy_summary": {
+        "median_sigma2_over_radius": null,
+        "n": 0
+      },
+      "columns_preview": [
+        "ID",
+        "FIELD",
+        "ID_SKELTON",
+        "ID_TARGETED",
+        "FILE",
+        "FLAG_PRIMARYTARG",
+        "FLAG_ADDGALDET",
+        "FLAG_SEGMENTATION",
+        "FLAG_ZQUALITY",
+        "RA",
+        "DEC",
+        "Z_TARGETED",
+        "OBSBAND",
+        "EXPTIME",
+        "PSF_FWHM",
+        "Z",
+        "SPEC_RES",
+        "M_KS",
+        "RF_U",
+        "RF_V",
+        "RF_J",
+        "SFR",
+        "SFR_TYPE",
+        "LMSTAR",
+        "SED_AV",
+        "RHALF",
+        "RHALFERR",
+        "Q",
+        "QERR",
+        "FLAG_HSOURCE"
+      ],
+      "fits_read": true,
+      "n_rows": 785,
+      "path": ".ccdr_round10_cache\\R10-T13_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+      "radius_column": "SPEC_RES",
+      "sigma_column": null,
+      "z_column": "Z",
+      "z_summary": {
+        "max": 2.6754300594329834,
+        "median": 1.0213099718093872,
+        "min": -9999.0,
+        "n": 785
+      }
+    },
+    {
+      "acceleration_proxy_summary": {
+        "median_sigma2_over_radius": 8214.0,
+        "n": 739
+      },
+      "columns_preview": [
+        "ID",
+        "FIELD",
+        "ID_SKELTON",
+        "RA",
+        "DEC",
+        "AP_RADIUS",
+        "Z",
+        "Z_ERR",
+        "SIG",
+        "SIG_ERR",
+        "FLUX_HA",
+        "FLUX_HA_ERR",
+        "FLUX_AP_CORR",
+        "FLAG"
+      ],
+      "fits_read": true,
+      "n_rows": 739,
+      "path": ".ccdr_round10_cache\\R10-T13_k3d_fnlsp_table_hafits_v3.fits.tgz__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "radius_column": "AP_RADIUS",
+      "sigma_column": "SIG",
+      "z_column": "Z",
+      "z_summary": {
+        "max": 2.6754300594329834,
+        "median": 1.0390000343322754,
+        "min": -99.9000015258789,
+        "n": 739
+      }
+    }
+  ],
+  "generated_utc": "2026-05-05T13:55:21Z",
+  "group": "galaxy",
+  "interpretation": "KMOS3D v10: FITS columns are scanned for rotation/velocity-gradient proxies and quality flags. If rotation-like columns exist, the high-z a0 path is ready for Vrot^2/R rather than SIG^2/R.",
+  "kross_rotation_candidate_links_v13": [
+    "https://astro.dur.ac.uk/KROSS/data.html",
+    "https://astro.dur.ac.uk/KROSS/data/kges.tar.gz",
+    "https://astro.dur.ac.uk/KROSS/data/KROSS_cubes.tar.gz",
+    "https://astro.dur.ac.uk/KROSS/data/KROSS_Halpha_maps.tar.gz",
+    "https://astro.dur.ac.uk/KROSS/data/KROSS_velocity_maps.tar.gz",
+    "https://astro.dur.ac.uk/KROSS/data/KROSS_sigma_maps.tar.gz",
+    "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits",
+    "https://astro.dur.ac.uk/KROSS/data/TILEY_18_SAMIKROSS_TFR_V1.fits",
+    "https://astro.dur.ac.uk/KROSS/data.html",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+    "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+  ],
+  "kross_rotation_downloads_v13": [
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__data.html",
+      "rotation_header_hit": true,
+      "size_bytes": 5813,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__kges.tar.gz",
+      "rotation_header_hit": true,
+      "size_bytes": 24267333938,
+      "url": "https://astro.dur.ac.uk/KROSS/data/kges.tar.gz"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__KROSS_cubes.tar.gz",
+      "rotation_header_hit": true,
+      "size_bytes": 1195356689,
+      "url": "https://astro.dur.ac.uk/KROSS/data/KROSS_cubes.tar.gz"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__KROSS_Halpha_maps.tar.gz",
+      "rotation_header_hit": true,
+      "size_bytes": 2789061,
+      "url": "https://astro.dur.ac.uk/KROSS/data/KROSS_Halpha_maps.tar.gz"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__KROSS_velocity_maps.tar.gz",
+      "rotation_header_hit": true,
+      "size_bytes": 877552,
+      "url": "https://astro.dur.ac.uk/KROSS/data/KROSS_velocity_maps.tar.gz"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__KROSS_sigma_maps.tar.gz",
+      "rotation_header_hit": true,
+      "size_bytes": 1301939,
+      "url": "https://astro.dur.ac.uk/KROSS/data/KROSS_sigma_maps.tar.gz"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__kross_release_v2.fits",
+      "rotation_header_hit": true,
+      "size_bytes": 184320,
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__TILEY_18_SAMIKROSS_TFR_V1.fits",
+      "rotation_header_hit": true,
+      "size_bytes": 63360,
+      "url": "https://astro.dur.ac.uk/KROSS/data/TILEY_18_SAMIKROSS_TFR_V1.fits"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__data.html",
+      "rotation_header_hit": true,
+      "size_bytes": 5813,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__k3d_fnlsp_table_v3.fits.tgz",
+      "rotation_header_hit": true,
+      "size_bytes": 57365,
+      "url": "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_kross_rot__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "rotation_header_hit": true,
+      "size_bytes": 26378,
+      "url": "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz"
+    }
+  ],
+  "numeric_rows_preview": 0,
+  "positive_conversion": {
+    "n_acceleration_proxy_rows": 739,
+    "n_redshift_rows": 1524,
+    "next_statistic": "calibrate sigma^2/radius or V^2/R proxy against SPARC a0; bin by redshift and test high-z offset/trend"
+  },
+  "prediction_id": "P36/high-z a0",
+  "prediction_name": "P36 high-z a0 KROSS/KGES rotation-catalogue probe",
+  "preview": "<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"en\">\n<!-- 7.2.3.1 -->\n<head>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n  <title>Data Download</title>\n  \n  <meta name=\"keywords\" content=\"\" /><meta name=\"description\" content=\"\" />\n  \n  \n<meta property=\"og:title\" content=\"Data Download\">\n<meta property=\"og:description\" content=\"\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:url\" content=\"https://www.mpe.mpg.de/ir/KMOS3D/data\">\n<meta property=\"og:image\" content=\"https://www.mpe.mpg.de/assets/og-logo-281c44f14f2114ed3fe50e666618ff96341055a2f8ce31aa0fd70471a30ca9ed.jpg\">\n\n\n  \n  \n\n\n  <meta name=\"msapplication-Ti",
+  "quality_counts_v10": {
+    "quality_flag_good": 313,
+    "valid_z": 1287
+  },
+  "rotation_header_hits_v13": [
+    "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n<title>KMOS Redshift One Spectroscopic Survey (KROSS; z=1) & KMOS Galaxy Evolution Survey (KGES; z=1.5)</title>\n<link href=\"http://fonts.googleapis.com/css?family=Open+Sans+Condensed:30",
+    "velocity/out/C-HiZ_z1_111.fits\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000000644 \u0000000765 \u0000000024 \u000000000047300 13471764200 016213\u0000 0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ustar\u000000ams\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000staff\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000000000 \u0000000000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "sigma/out/C-HiZ_z1_111.fits\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000000644 \u0000000765 \u0000000024 \u000000000047300 13471764264 015467\u0000 0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ustar\u000000ams\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000staff\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000000000 \u0000000000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 6182 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT             ",
+    "SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 1346 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT             ",
+    "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n<title>KMOS Redshift One Spectroscopic Survey (KROSS; z=1) & KMOS Galaxy Evolution Survey (KGES; z=1.5)</title>\n<link href=\"http://fonts.googleapis.com/css?family=Open+Sans+Condensed:30"
+  ],
+  "rotation_proxy_columns_v10": [],
+  "rotation_source_probes_v12": [
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_rot_sources__data.html",
+      "preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<meta http-equiv=\"content-type\" content=\"text/html; cha",
+      "rot_like_links": [
+        "https://astro.dur.ac.uk/KROSS/data.html",
+        "https://astro.dur.ac.uk/KROSS/data/kges.tar.gz",
+        "https://astro.dur.ac.uk/KROSS/data/KROSS_cubes.tar.gz",
+        "https://astro.dur.ac.uk/KROSS/data/KROSS_Halpha_maps.tar.gz",
+        "https://astro.dur.ac.uk/KROSS/data/KROSS_velocity_maps.tar.gz",
+        "https://astro.dur.ac.uk/KROSS/data/KROSS_sigma_maps.tar.gz",
+        "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits",
+        "https://astro.dur.ac.uk/KROSS/data/TILEY_18_SAMIKROSS_TFR_V1.fits"
+      ],
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_rot_sources__KROSS",
+      "preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<!--\r\n-->\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta name=\"keywords\" content=\"\" />\r\n<meta name=\"description\" content=\"\" />\r\n<meta http-equiv=\"content-type\" content=\"text/ht",
+      "rot_like_links": [
+        "https://astro.dur.ac.uk/KROSS/data.html"
+      ],
+      "url": "https://astro.dur.ac.uk/KROSS/"
+    },
+    {
+      "path": ".ccdr_round10_cache\\R10-T13_rot_sources__data",
+      "preview": "<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"en\">\n<!-- 7.2.3.1 -->\n<head>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n  <title>Dat",
+      "rot_like_links": [
+        "https://www.mpe.mpg.de/ir/KMOS3D/data",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+        "https://bsky.app/intent/compose?text=Max+Planck+Institute+for+extraterrestrial+Physics+-+Data+Download+https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata",
+        "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_v3.fits.tgz",
+        "https://www.mpe.mpg.de/resources/KMOS3D/catalogs/k3d_fnlsp_table_hafits_v3.fits.tgz",
+        "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes.tar.gz",
+        "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_COSMOS.tar.gz",
+        "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_GOODSS.tar.gz",
+        "https://www.mpe.mpg.de/resources/KMOS3D/KMOS3D_cubes_UDS.tar.gz",
+        "https://www.mpe.mpg.de/ir/KMOS3D/data#top",
+        "https://www.mpe.mpg.de/data-protection",
+        "https://www.mpe.mpg.de/ir/KMOS3D/data?print=yes",
+        "https://mpe.iedit.mpg.de/7107411/Data",
+        "https://www.mpe.mpg.de/resources/KMOS3D/bs/{field}_{id}_{band}_bootstrap.fits.gz",
+        "https://www.mpe.mpg.de/resources/KMOS3D/bs/GS4_02503_H_bootstrap.fits.gz",
+        "https://www.mpg.de/datenschutzhinweis"
+      ],
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    }
+  ],
+  "round": 10,
+  "runner_elapsed_s": 2486.184,
+  "runner_returncode": 0,
+  "size_bytes": 168772,
+  "status": "highz_a0_rotation_catalogue_positive_ready",
+  "test_id": "R10-T13",
+  "tier": "public-current",
+  "trend_caution_v11": {
+    "confirms_high_z_rise": false,
+    "high_over_low_ratio": 0.9698248188735389,
+    "local_sparc_a0_m_s2": 9.55e-11,
+    "median_sigma_proxy_m_s2": 3.489297275065816e-11
+  },
+  "velocity_calibration_v9": {
+    "claim_level": "velocity-calibrated readiness; not a high-z rise confirmation unless Vrot/R proxy is added",
+    "local_sparc_a0_m_s2": 9.55e-11,
+    "median_proxy_m_s2": 3.489297275065816e-11,
+    "n_proxy_rows": 641,
+    "needs_rotation_velocity_for_stronger_claim": true,
+    "uses_SIG2_over_radius": true
+  }
+}

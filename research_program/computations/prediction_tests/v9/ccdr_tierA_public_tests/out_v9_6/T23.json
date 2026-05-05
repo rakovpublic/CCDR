@@ -1,0 +1,202 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\cmb_bmode\\BK18_bandpowers_20210607.txt",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/BICEPK_2021/BK18_bandpowers_20210607.txt"
+    }
+  ],
+  "description": "Screen public B-mode bandpower tables for low-l residual room for a bulk-Weyl component.",
+  "falsification_logic": {
+    "confirm_like": "low-l BB bandpowers leave residual room for a P40-shaped contribution after uncertainties",
+    "falsify_like": "published BB bandpowers/uncertainties exclude predicted amplitude/shape"
+  },
+  "generated_utc": "2026-05-02T23:31:06Z",
+  "metrics": {
+    "bk18_pair_summary": {
+      "best_measured_pair": {
+        "bandpower_col_index_1based": 133,
+        "error_col_index_1based": 134,
+        "low_ell_max_abs_snr": 1.7831829507244974,
+        "low_ell_n": 4,
+        "low_ell_weighted_mean_bp": 0.5290593607927877,
+        "low_ell_weighted_sigma": 0.221457480882475,
+        "max_abs_snr": 2.982424049626213,
+        "median_error": 0.6732,
+        "n": 9,
+        "spectrum_identity_status": "verified_BB_from_header",
+        "spectrum_label_hint": "BB BANDPOWER AND ERROR BAR WITH THE FOLLOWING ORDER FOR THE SPECTRA:"
+      },
+      "n_pairs": 66,
+      "note": "Column 2 is ell; columns 3+ are bandpower/error pairs. v9.6 preserves header hints and treats spectrum identity as unverified unless labels prove BB.",
+      "p40_generic_template_bound": {
+        "A_95_abs_limit": 2746.2821433711224,
+        "A_best": 1323.0641918973529,
+        "n_low_ell_bins": 4,
+        "note": "Generic amplitude bound only; a real P40 test needs verified BB spectrum identity and a theory-predicted ell-shape.",
+        "template": "A/[ell(ell+1)] on ell<=150 for best-error BK18 pair"
+      },
+      "pair_summaries_first10": [
+        {
+          "bandpower_col_index_1based": 3,
+          "error_col_index_1based": 4,
+          "low_ell_max_abs_snr": 1.8693776772965254,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.0030500326595733845,
+          "low_ell_weighted_sigma": 0.0015388264077500096,
+          "max_abs_snr": 2.8286162401083623,
+          "median_error": 0.008485,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 5,
+          "error_col_index_1based": 6,
+          "low_ell_max_abs_snr": 5.866945182934549,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.005133876451681087,
+          "low_ell_weighted_sigma": 0.000664135015395746,
+          "max_abs_snr": 6.794837750278825,
+          "median_error": 0.0020714,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 7,
+          "error_col_index_1based": 8,
+          "low_ell_max_abs_snr": 5.576836243226972,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.013901169862996797,
+          "low_ell_weighted_sigma": 0.0016868788343518933,
+          "max_abs_snr": 6.5561705310396405,
+          "median_error": 0.0042892,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 9,
+          "error_col_index_1based": 10,
+          "low_ell_max_abs_snr": 5.9745179063360885,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.09109997716349073,
+          "low_ell_weighted_sigma": 0.01243249055797104,
+          "max_abs_snr": 5.9745179063360885,
+          "median_error": 0.027508,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 11,
+          "error_col_index_1based": 12,
+          "low_ell_max_abs_snr": 1.4274439057390913,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 1.8696587704663927,
+          "low_ell_weighted_sigma": 1.3849293644191971,
+          "max_abs_snr": 3.1197786601031243,
+          "median_error": 20.851,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 13,
+          "error_col_index_1based": 14,
+          "low_ell_max_abs_snr": 1.3539336712975505,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.1820340743265743,
+          "low_ell_weighted_sigma": 0.5700580700842037,
+          "max_abs_snr": 1.3539336712975505,
+          "median_error": 3.6095,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 15,
+          "error_col_index_1based": 16,
+          "low_ell_max_abs_snr": 1.709677901949344,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.6647665316906167,
+          "low_ell_weighted_sigma": 1.0452398613791094,
+          "max_abs_snr": 1.709677901949344,
+          "median_error": 11.336,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 17,
+          "error_col_index_1based": 18,
+          "low_ell_max_abs_snr": 1.046002538071066,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": -0.5745282775905215,
+          "low_ell_weighted_sigma": 0.6641244128984001,
+          "max_abs_snr": 1.046002538071066,
+          "median_error": 4.7229,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 19,
+          "error_col_index_1based": 20,
+          "low_ell_max_abs_snr": 2.626077422105808,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.04844131352770508,
+          "low_ell_weighted_sigma": 0.022523371421455867,
+          "max_abs_snr": 2.72809509569378,
+          "median_error": 0.10869,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        },
+        {
+          "bandpower_col_index_1based": 21,
+          "error_col_index_1based": 22,
+          "low_ell_max_abs_snr": 2.879933399111988,
+          "low_ell_n": 4,
+          "low_ell_weighted_mean_bp": 0.1683979967191214,
+          "low_ell_weighted_sigma": 0.05820176754069534,
+          "max_abs_snr": 2.879933399111988,
+          "median_error": 0.21223,
+          "n": 9,
+          "spectrum_identity_status": "unverified_pair_columns",
+          "spectrum_label_hint": ""
+        }
+      ]
+    },
+    "parse_info": {
+      "column_label_map": {
+        "1": "bin number",
+        "2": "ell",
+        "134": "BB bandpower and error bar with the following order for the spectra:"
+      },
+      "format": "bk18_pair_columns",
+      "header_label_hints": [
+        "BICEP/Keck Array June 2021 Data Products",
+        "BICEP/Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season",
+        "http://bicepkeck.org/",
+        "This file contains BB bandpowers from the BK18 analysis: a total of 11 auto and",
+        "55 cross spectra between BICEP3 95 GHz map, BICEP2/Keck maps at 95, 150, and 220 GHz, WMAP maps at",
+        "Columns 3-134: BB bandpower and error bar with the following order for the spectra:"
+      ],
+      "n_columns": 134
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P40",
+    "CL5"
+  ],
+  "prediction_names": [
+    "P40 \u2014 bulk-Weyl CMB B-mode component",
+    "CL5 \u2014 joint (\u03bd_bulk, c_W) constraint from P39 + P40"
+  ],
+  "status": "consistent_bound_only",
+  "test_id": "T23",
+  "warnings": []
+}

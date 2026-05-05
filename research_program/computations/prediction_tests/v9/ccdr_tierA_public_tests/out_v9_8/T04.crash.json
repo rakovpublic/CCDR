@@ -1,0 +1,14 @@
+{
+  "test_id": "T04",
+  "script": "tests/test04_p30_euclid_q1_act_dr6_density_kappa.py",
+  "status": "crashed",
+  "generated_utc": "2026-05-03T10:35:11.311923+00:00",
+  "returncode": 1,
+  "seconds": 450.6879518032074,
+  "error_type": "subprocess_nonzero_return",
+  "stdout_tail": "",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\test04_p30_euclid_q1_act_dr6_density_kappa.py\", line 55, in <module>\n    if __name__=='__main__': main()\n                             ~~~~^^\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\test04_p30_euclid_q1_act_dr6_density_kappa.py\", line 21, in main\n    mp,att2=download_act_dr6_lensing_map(cache,timeout=args.timeout,allow_large=args.allow_large,force=args.force); res['data_sources'].extend(att2)\n            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\_common_public.py\", line 3660, in download_act_dr6_lensing_map\n    p=download_file(url, cache/'act_dr6', filename='dr6_lensing_release.tar.gz', timeout=timeout, force=force, max_bytes=None)\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v9\\ccdr_tierA_public_tests\\tests\\_common_public.py\", line 119, in download_file\n    chunk = r.read(1024 * 1024)\n  File \"C:\\Users\\dmytr\\miniforge3\\Lib\\http\\client.py\", line 484, in read\n    s = self.fp.read(amt)\n  File \"C:\\Users\\dmytr\\miniforge3\\Lib\\socket.py\", line 719, in readinto\n    return self._sock.recv_into(b)\n           ~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\dmytr\\miniforge3\\Lib\\ssl.py\", line 1304, in recv_into\n    return self.read(nbytes, buffer)\n           ~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\dmytr\\miniforge3\\Lib\\ssl.py\", line 1138, in read\n    return self._sslobj.read(len, buffer)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n",
+  "warnings": [
+    "run_all_tierA.py continued after this test crashed; inspect stderr_tail."
+  ]
+}

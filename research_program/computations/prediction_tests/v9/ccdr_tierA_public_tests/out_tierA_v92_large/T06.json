@@ -1,0 +1,44 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    }
+  ],
+  "description": "Measure source-density patch spread across Euclid Q1 fields as a proxy for cross-patch composition variation.",
+  "falsification_logic": {
+    "confirm_like": "field-aware patch spread exceeds randomized within-field null",
+    "falsify_like": "patch spread matches mask/depth/random null"
+  },
+  "generated_utc": "2026-04-28T20:31:38Z",
+  "metrics": {
+    "field_counts": {
+      "0": 10372,
+      "1": 9628
+    },
+    "n_fields": 2,
+    "n_sources": 20000,
+    "null_mean": 0.040237811666553255,
+    "null_sigma": 0.0047221063697371665,
+    "patch_cv_field_aware": 2.034898615145812,
+    "z": 422.40912154426593
+  },
+  "notes": [],
+  "prediction_ids": [
+    "OP13",
+    "P30"
+  ],
+  "status": "suggestive",
+  "test_id": "T06",
+  "warnings": []
+}

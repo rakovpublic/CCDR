@@ -1,0 +1,244 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    }
+  ],
+  "description": "Estimate local filament axes from Euclid Q1 source positions and compare orientation correlations in high-vs-low density regions.",
+  "falsification_logic": {
+    "confirm_like": "high-density orientation correlation exceeds low-density correlation inside connected Q1 fields and beats within-field density-shuffle null",
+    "falsify_like": "density-stratified orientation signal is absent/opposite or indistinguishable from within-field null"
+  },
+  "generated_utc": "2026-04-28T21:47:45Z",
+  "metrics": {
+    "bins_deg": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "density_shuffle_null": {
+      "mean": 0.0010246897669931145,
+      "n": 100,
+      "p_one_sided_high_gt_low": 1.0,
+      "sigma": 0.007519632004774607,
+      "z_vs_null": -5.7086539779739605
+    },
+    "field_summaries": [
+      {
+        "density_median": 88899.18919239164,
+        "field": 0,
+        "field_mean_high_minus_low": -0.06847909664949878,
+        "field_weight": 59831,
+        "n": 9628
+      },
+      {
+        "density_median": 70813.50501522262,
+        "field": 1,
+        "field_mean_high_minus_low": -0.02629408264495515,
+        "field_weight": 101877,
+        "n": 10372
+      }
+    ],
+    "high_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.043360346097980555,
+        "n_pairs": 11922
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.057996842022331734,
+        "n_pairs": 11725
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.05051906450055457,
+        "n_pairs": 17952
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.03227125155002257,
+        "n_pairs": 13269
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": -0.05878612333933651,
+        "n_pairs": 845
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.03802653315844475,
+        "n_pairs": 1535
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.0359711907563334,
+        "n_pairs": 37397
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.016799592288567373,
+        "n_pairs": 13988
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.008648623001779474,
+        "n_pairs": 13954
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.015027447106768647,
+        "n_pairs": 22702
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.019320008601610542,
+        "n_pairs": 32353
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.016013983424822437,
+        "n_pairs": 18678
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.012262253379219585,
+        "n_pairs": 14864
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.015898985281998023,
+        "n_pairs": 65879
+      }
+    ],
+    "low_density_corr": [
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.10206139760524399,
+        "n_pairs": 4324
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.12782412260997028,
+        "n_pairs": 4517
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.12670366091506263,
+        "n_pairs": 9300
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.09799829345494558,
+        "n_pairs": 21669
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.11393352848311639,
+        "n_pairs": 15562
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.07206010174604027,
+        "n_pairs": 991
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.10246039220650313,
+        "n_pairs": 26585
+      },
+      {
+        "bin_hi_deg": 0.05,
+        "bin_lo_deg": 0.0,
+        "corr": 0.03697737641913443,
+        "n_pairs": 6584
+      },
+      {
+        "bin_hi_deg": 0.1,
+        "bin_lo_deg": 0.05,
+        "corr": 0.01751884530204783,
+        "n_pairs": 11597
+      },
+      {
+        "bin_hi_deg": 0.2,
+        "bin_lo_deg": 0.1,
+        "corr": 0.017986785862993078,
+        "n_pairs": 17625
+      },
+      {
+        "bin_hi_deg": 0.5,
+        "bin_lo_deg": 0.2,
+        "corr": 0.04387766918530449,
+        "n_pairs": 27117
+      },
+      {
+        "bin_hi_deg": 1.0,
+        "bin_lo_deg": 0.5,
+        "corr": 0.12767103336926588,
+        "n_pairs": 5158
+      },
+      {
+        "bin_hi_deg": 2.0,
+        "bin_lo_deg": 1.0,
+        "corr": 0.015054878090205805,
+        "n_pairs": 52093
+      },
+      {
+        "bin_hi_deg": 4.0,
+        "bin_lo_deg": 2.0,
+        "corr": 0.07439881065407745,
+        "n_pairs": 18932
+      }
+    ],
+    "mean_high_minus_low_corr": -0.04190228738996375,
+    "n_sources": 20000,
+    "weighted_pair_count": 161708
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3",
+    "CL4"
+  ],
+  "status": "null",
+  "test_id": "T07",
+  "warnings": [
+    "High-density minus low-density orientation correlation is negative; this is direct tension for P3 unless axis/density proxy is invalid."
+  ]
+}

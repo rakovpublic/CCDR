@@ -1,0 +1,550 @@
+{
+  "claim_strength": "diagnostic",
+  "data_sources": [
+    {
+      "n_links": 9,
+      "ok": true,
+      "source_catalog": "KMOS3D",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "source_catalog": "KROSS",
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\00_kross_release_v2.fits",
+      "source_catalog": "KROSS",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Estimate high-z acceleration proxy from public KMOS3D/KROSS catalogue products and test trend with quality cuts.",
+  "falsification_logic": {
+    "confirm_like": "quality-cut high-z acceleration proxy is above a matched local SPARC scale and increases with redshift",
+    "falsify_like": "quality-cut proxy trend vanishes/decreases or offset disappears under controls"
+  },
+  "generated_utc": "2026-05-03T16:38:42Z",
+  "metrics": {
+    "galaxy_or_object_bootstrap": {
+      "id_column": "KID",
+      "log_g_vs_z_coef": [
+        1.0983767564224554,
+        -10.88875002575607
+      ],
+      "mean_a_proxy_boot_sigma": 4.7027219084643546e-11,
+      "mean_a_proxy_m_s2": 3.45204666237458e-10,
+      "n_groups": 409,
+      "n_quality_points": 409,
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "slope_boot_median": 1.1064656440173883,
+      "slope_boot_p16": 0.5829523418571531,
+      "slope_boot_p84": 1.6000369725928185
+    },
+    "highz_acceleration": {
+      "cols": {
+        "r": "R_IM",
+        "v": "V22",
+        "z": "Z"
+      },
+      "quality_cut": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.06679533955756703,
+          "delta": 0.11198225687296848,
+          "n_a": 204,
+          "n_b": 205,
+          "z": 1.6764980553240165
+        },
+        "log_g_vs_z_coef": [
+          1.0983767564224554,
+          -10.88875002575607
+        ],
+        "mean_a_proxy_m_s2": 3.45204666237458e-10,
+        "median_a_proxy_m_s2": 1.3103277035081414e-10,
+        "n": 409,
+        "spearman_z_g": {
+          "n": 409,
+          "pvalue": 0.1372346633993595,
+          "rho": 0.07361184679012041
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8694707948800567,
+        "z_min": 0.5798440460150321
+      },
+      "quality_cuts": {
+        "applied_cuts": [
+          {
+            "after": 564,
+            "before": 586,
+            "column": "AGN_FLAG",
+            "rule": "AGN flag == 0"
+          },
+          {
+            "after": 533,
+            "before": 564,
+            "column": "IRR_FLAG",
+            "rule": "irregular flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 533,
+            "column": "EXTRAP_FLAG",
+            "rule": "extrapolation flag == 0"
+          },
+          {
+            "after": 409,
+            "before": 409,
+            "column": "R_IM_ERR",
+            "rule": "finite where selected"
+          }
+        ],
+        "final_n": 409,
+        "initial_n": 586
+      },
+      "radius_meta": {
+        "radius_median_raw": 2.826247215270996,
+        "radius_mode": "kpc"
+      },
+      "raw": {
+        "high_minus_low_z_log10g": {
+          "boot_sigma": 0.05748172165186681,
+          "delta": 0.06185300321960874,
+          "n_a": 293,
+          "n_b": 293,
+          "z": 1.0760464621121864
+        },
+        "log_g_vs_z_coef": [
+          0.570250202230903,
+          -10.459718509418677
+        ],
+        "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+        "median_a_proxy_m_s2": 1.2040908213339262e-10,
+        "n": 586,
+        "spearman_z_g": {
+          "n": 586,
+          "pvalue": 0.459523199142696,
+          "rho": 0.030612126543890412
+        },
+        "z_max": 1.0419789833847581,
+        "z_mean": 0.8721486339630791,
+        "z_min": 0.5798440460150321
+      }
+    },
+    "interpretation": {
+      "bootstrap_slope_p16_positive": true,
+      "group_bootstrap": {
+        "id_column": "KID",
+        "log_g_vs_z_coef": [
+          1.0983767564224554,
+          -10.88875002575607
+        ],
+        "mean_a_proxy_boot_sigma": 4.7027219084643546e-11,
+        "mean_a_proxy_m_s2": 3.45204666237458e-10,
+        "n_groups": 409,
+        "n_quality_points": 409,
+        "quality_cuts": {
+          "applied_cuts": [
+            {
+              "after": 564,
+              "before": 586,
+              "column": "AGN_FLAG",
+              "rule": "AGN flag == 0"
+            },
+            {
+              "after": 533,
+              "before": 564,
+              "column": "IRR_FLAG",
+              "rule": "irregular flag == 0"
+            },
+            {
+              "after": 409,
+              "before": 533,
+              "column": "EXTRAP_FLAG",
+              "rule": "extrapolation flag == 0"
+            },
+            {
+              "after": 409,
+              "before": 409,
+              "column": "R_IM_ERR",
+              "rule": "finite where selected"
+            }
+          ],
+          "final_n": 409,
+          "initial_n": 586
+        },
+        "radius_meta": {
+          "radius_median_raw": 2.826247215270996,
+          "radius_mode": "kpc"
+        },
+        "slope_boot_median": 1.1064656440173883,
+        "slope_boot_p16": 0.5829523418571531,
+        "slope_boot_p84": 1.6000369725928185
+      },
+      "offset_above_milgrom": true,
+      "quality_n": 409,
+      "quality_slope_log10g_per_z": 1.0983767564224554,
+      "quality_spearman_pvalue": 0.1372346633993595,
+      "raw_n": 586,
+      "survey_split_summary": {
+        "groups": {
+          "global_unsplit": {
+            "acceleration_summary": {
+              "cols": {
+                "r": "R_IM",
+                "v": "V22",
+                "z": "Z"
+              },
+              "quality_cut": {
+                "high_minus_low_z_log10g": {
+                  "boot_sigma": 0.06679533955756703,
+                  "delta": 0.11198225687296848,
+                  "n_a": 204,
+                  "n_b": 205,
+                  "z": 1.6764980553240165
+                },
+                "log_g_vs_z_coef": [
+                  1.0983767564224554,
+                  -10.88875002575607
+                ],
+                "mean_a_proxy_m_s2": 3.45204666237458e-10,
+                "median_a_proxy_m_s2": 1.3103277035081414e-10,
+                "n": 409,
+                "spearman_z_g": {
+                  "n": 409,
+                  "pvalue": 0.1372346633993595,
+                  "rho": 0.07361184679012041
+                },
+                "z_max": 1.0419789833847581,
+                "z_mean": 0.8694707948800567,
+                "z_min": 0.5798440460150321
+              },
+              "quality_cuts": {
+                "applied_cuts": [
+                  {
+                    "after": 564,
+                    "before": 586,
+                    "column": "AGN_FLAG",
+                    "rule": "AGN flag == 0"
+                  },
+                  {
+                    "after": 533,
+                    "before": 564,
+                    "column": "IRR_FLAG",
+                    "rule": "irregular flag == 0"
+                  },
+                  {
+                    "after": 409,
+                    "before": 533,
+                    "column": "EXTRAP_FLAG",
+                    "rule": "extrapolation flag == 0"
+                  },
+                  {
+                    "after": 409,
+                    "before": 409,
+                    "column": "R_IM_ERR",
+                    "rule": "finite where selected"
+                  }
+                ],
+                "final_n": 409,
+                "initial_n": 586
+              },
+              "radius_meta": {
+                "radius_median_raw": 2.826247215270996,
+                "radius_mode": "kpc"
+              },
+              "raw": {
+                "high_minus_low_z_log10g": {
+                  "boot_sigma": 0.05748172165186681,
+                  "delta": 0.06185300321960874,
+                  "n_a": 293,
+                  "n_b": 293,
+                  "z": 1.0760464621121864
+                },
+                "log_g_vs_z_coef": [
+                  0.570250202230903,
+                  -10.459718509418677
+                ],
+                "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+                "median_a_proxy_m_s2": 1.2040908213339262e-10,
+                "n": 586,
+                "spearman_z_g": {
+                  "n": 586,
+                  "pvalue": 0.459523199142696,
+                  "rho": 0.030612126543890412
+                },
+                "z_max": 1.0419789833847581,
+                "z_mean": 0.8721486339630791,
+                "z_min": 0.5798440460150321
+              }
+            },
+            "n_rows": 586,
+            "object_bootstrap": {
+              "id_column": "KID",
+              "log_g_vs_z_coef": [
+                1.0983767564224554,
+                -10.88875002575607
+              ],
+              "mean_a_proxy_boot_sigma": 4.7027219084643546e-11,
+              "mean_a_proxy_m_s2": 3.45204666237458e-10,
+              "n_groups": 409,
+              "n_quality_points": 409,
+              "quality_cuts": {
+                "applied_cuts": [
+                  {
+                    "after": 564,
+                    "before": 586,
+                    "column": "AGN_FLAG",
+                    "rule": "AGN flag == 0"
+                  },
+                  {
+                    "after": 533,
+                    "before": 564,
+                    "column": "IRR_FLAG",
+                    "rule": "irregular flag == 0"
+                  },
+                  {
+                    "after": 409,
+                    "before": 533,
+                    "column": "EXTRAP_FLAG",
+                    "rule": "extrapolation flag == 0"
+                  },
+                  {
+                    "after": 409,
+                    "before": 409,
+                    "column": "R_IM_ERR",
+                    "rule": "finite where selected"
+                  }
+                ],
+                "final_n": 409,
+                "initial_n": 586
+              },
+              "radius_meta": {
+                "radius_median_raw": 2.826247215270996,
+                "radius_mode": "kpc"
+              },
+              "slope_boot_median": 1.1064656440173883,
+              "slope_boot_p16": 0.5829523418571531,
+              "slope_boot_p84": 1.6000369725928185
+            },
+            "offset_status": {
+              "offset_above_milgrom": true,
+              "status": "offset_only",
+              "trend_positive_object_bootstrap": true,
+              "trend_positive_row_level": false
+            }
+          }
+        },
+        "n_groups": 1,
+        "note": "No KROSS/KMOS3D survey split column found; global unsplit model only.",
+        "split_column": null
+      },
+      "trend_confirmed": false
+    },
+    "survey_split_hierarchical_object_model": {
+      "groups": {
+        "global_unsplit": {
+          "acceleration_summary": {
+            "cols": {
+              "r": "R_IM",
+              "v": "V22",
+              "z": "Z"
+            },
+            "quality_cut": {
+              "high_minus_low_z_log10g": {
+                "boot_sigma": 0.06679533955756703,
+                "delta": 0.11198225687296848,
+                "n_a": 204,
+                "n_b": 205,
+                "z": 1.6764980553240165
+              },
+              "log_g_vs_z_coef": [
+                1.0983767564224554,
+                -10.88875002575607
+              ],
+              "mean_a_proxy_m_s2": 3.45204666237458e-10,
+              "median_a_proxy_m_s2": 1.3103277035081414e-10,
+              "n": 409,
+              "spearman_z_g": {
+                "n": 409,
+                "pvalue": 0.1372346633993595,
+                "rho": 0.07361184679012041
+              },
+              "z_max": 1.0419789833847581,
+              "z_mean": 0.8694707948800567,
+              "z_min": 0.5798440460150321
+            },
+            "quality_cuts": {
+              "applied_cuts": [
+                {
+                  "after": 564,
+                  "before": 586,
+                  "column": "AGN_FLAG",
+                  "rule": "AGN flag == 0"
+                },
+                {
+                  "after": 533,
+                  "before": 564,
+                  "column": "IRR_FLAG",
+                  "rule": "irregular flag == 0"
+                },
+                {
+                  "after": 409,
+                  "before": 533,
+                  "column": "EXTRAP_FLAG",
+                  "rule": "extrapolation flag == 0"
+                },
+                {
+                  "after": 409,
+                  "before": 409,
+                  "column": "R_IM_ERR",
+                  "rule": "finite where selected"
+                }
+              ],
+              "final_n": 409,
+              "initial_n": 586
+            },
+            "radius_meta": {
+              "radius_median_raw": 2.826247215270996,
+              "radius_mode": "kpc"
+            },
+            "raw": {
+              "high_minus_low_z_log10g": {
+                "boot_sigma": 0.05748172165186681,
+                "delta": 0.06185300321960874,
+                "n_a": 293,
+                "n_b": 293,
+                "z": 1.0760464621121864
+              },
+              "log_g_vs_z_coef": [
+                0.570250202230903,
+                -10.459718509418677
+              ],
+              "mean_a_proxy_m_s2": 4.2095707877643566e-10,
+              "median_a_proxy_m_s2": 1.2040908213339262e-10,
+              "n": 586,
+              "spearman_z_g": {
+                "n": 586,
+                "pvalue": 0.459523199142696,
+                "rho": 0.030612126543890412
+              },
+              "z_max": 1.0419789833847581,
+              "z_mean": 0.8721486339630791,
+              "z_min": 0.5798440460150321
+            }
+          },
+          "n_rows": 586,
+          "object_bootstrap": {
+            "id_column": "KID",
+            "log_g_vs_z_coef": [
+              1.0983767564224554,
+              -10.88875002575607
+            ],
+            "mean_a_proxy_boot_sigma": 4.7027219084643546e-11,
+            "mean_a_proxy_m_s2": 3.45204666237458e-10,
+            "n_groups": 409,
+            "n_quality_points": 409,
+            "quality_cuts": {
+              "applied_cuts": [
+                {
+                  "after": 564,
+                  "before": 586,
+                  "column": "AGN_FLAG",
+                  "rule": "AGN flag == 0"
+                },
+                {
+                  "after": 533,
+                  "before": 564,
+                  "column": "IRR_FLAG",
+                  "rule": "irregular flag == 0"
+                },
+                {
+                  "after": 409,
+                  "before": 533,
+                  "column": "EXTRAP_FLAG",
+                  "rule": "extrapolation flag == 0"
+                },
+                {
+                  "after": 409,
+                  "before": 409,
+                  "column": "R_IM_ERR",
+                  "rule": "finite where selected"
+                }
+              ],
+              "final_n": 409,
+              "initial_n": 586
+            },
+            "radius_meta": {
+              "radius_median_raw": 2.826247215270996,
+              "radius_mode": "kpc"
+            },
+            "slope_boot_median": 1.1064656440173883,
+            "slope_boot_p16": 0.5829523418571531,
+            "slope_boot_p84": 1.6000369725928185
+          },
+          "offset_status": {
+            "offset_above_milgrom": true,
+            "status": "offset_only",
+            "trend_positive_object_bootstrap": true,
+            "trend_positive_row_level": false
+          }
+        }
+      },
+      "n_groups": 1,
+      "note": "No KROSS/KMOS3D survey split column found; global unsplit model only.",
+      "split_column": null
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "\u00a76.1b",
+    "P36"
+  ],
+  "prediction_names": [
+    "\u00a76.1b \u2014 high-z a0 \u2192 cH0",
+    "P36 \u2014 MOND-sequence \u03bd extractor / CL1"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "offset_only_no_robust_trend",
+  "test_id": "T12",
+  "warnings": [
+    "High-z mean acceleration is above local Milgrom scale, but redshift trend is not significant under quality cuts."
+  ]
+}

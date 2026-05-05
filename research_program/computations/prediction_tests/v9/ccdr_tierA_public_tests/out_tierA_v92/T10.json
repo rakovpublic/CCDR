@@ -1,0 +1,44 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_primary_v3.2.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_primary_v3.2.fits.tgz"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_cosmology_v1.1.fits.tgz"
+    }
+  ],
+  "description": "Fit simple single-vs-mixture proxy distributions for public eROSITA cluster catalogues.",
+  "falsification_logic": {
+    "confirm_like": "two-component mixture preferred for cluster proxy residuals",
+    "falsify_like": "single Gaussian/lognormal fully explains public cluster proxy distribution"
+  },
+  "generated_utc": "2026-04-28T19:38:17Z",
+  "metrics": {
+    "mixture_proxy": {
+      "bic_single": -4547.326688162651,
+      "bic_two_component": -5566.736014802082,
+      "components": {
+        "mu1": 0.19768574650576265,
+        "mu2": 0.4111502278952125,
+        "s1": 0.06074901539761152,
+        "s2": 0.14432090266589503,
+        "w1": 0.4343224052854659
+      },
+      "delta_bic_single_minus_mix": 1019.4093266394302,
+      "n": 5259,
+      "proxy_col": "Z_LAMBDA",
+      "source": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits_extract\\erass1cl_cosmology_v1.1.fits"
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P34"
+  ],
+  "status": "suggestive",
+  "test_id": "T10",
+  "warnings": []
+}

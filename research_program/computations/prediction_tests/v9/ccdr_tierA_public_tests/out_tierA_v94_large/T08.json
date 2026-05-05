@@ -1,0 +1,74 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_0.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/440/2562&-out.all&-out.max=50000"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_1.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    }
+  ],
+  "description": "Attempt independent filament-orientation replication using public filament catalogues discoverable from CDS/VizieR pages.",
+  "falsification_logic": {
+    "confirm_like": "independent public filament catalogue shows positive orientation correlation",
+    "falsify_like": "orientation statistic is null/opposite in independent catalogue"
+  },
+  "generated_utc": "2026-04-28T22:26:54Z",
+  "metrics": {
+    "filament_catalogue_result": {
+      "corr": [
+        {
+          "bin_hi_deg": 0.2,
+          "bin_lo_deg": 0.0,
+          "corr": 0.13268654897639653,
+          "n_pairs": 1877
+        },
+        {
+          "bin_hi_deg": 0.5,
+          "bin_lo_deg": 0.2,
+          "corr": 0.031673647929243404,
+          "n_pairs": 5689
+        },
+        {
+          "bin_hi_deg": 1.0,
+          "bin_lo_deg": 0.5,
+          "corr": 0.039159967573971596,
+          "n_pairs": 11279
+        },
+        {
+          "bin_hi_deg": 2.0,
+          "bin_lo_deg": 1.0,
+          "corr": 0.01558416477902072,
+          "n_pairs": 19460
+        },
+        {
+          "bin_hi_deg": 5.0,
+          "bin_lo_deg": 2.0,
+          "corr": 0.032576411778870815,
+          "n_pairs": 32944
+        },
+        {
+          "bin_hi_deg": 10.0,
+          "bin_lo_deg": 5.0,
+          "corr": 0.019390283097650667,
+          "n_pairs": 16265
+        }
+      ],
+      "dec_col": "DEJ2000",
+      "n": 6195,
+      "ra_col": "RAJ2000",
+      "source": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    },
+    "mean_corr": 0.04517850402252562
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3"
+  ],
+  "status": "suggestive",
+  "test_id": "T08",
+  "warnings": []
+}

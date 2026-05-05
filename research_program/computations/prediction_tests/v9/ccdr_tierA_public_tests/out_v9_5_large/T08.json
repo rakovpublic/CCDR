@@ -1,0 +1,33 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_0.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/440/2562&-out.all&-out.max=50000"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\filaments\\vizier_filaments_1.tsv",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122&-out.all&-out.max=50000"
+    }
+  ],
+  "description": "Attempt independent filament-orientation replication using public filament catalogues discoverable from CDS/VizieR pages.",
+  "falsification_logic": {
+    "confirm_like": "independent public filament catalogue shows positive orientation correlation",
+    "falsify_like": "orientation statistic is null/opposite in independent catalogue"
+  },
+  "generated_utc": "2026-05-02T20:22:19Z",
+  "metrics": {
+    "filament_catalogue_result": null,
+    "mean_corr": null
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P3"
+  ],
+  "status": "data_limited",
+  "test_id": "T08",
+  "warnings": [
+    "No parseable public filament table with coordinate columns found from default registry; add exact catalogue URL if needed."
+  ]
+}

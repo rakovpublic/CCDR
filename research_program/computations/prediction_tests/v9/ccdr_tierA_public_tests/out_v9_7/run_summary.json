@@ -1,0 +1,177 @@
+[
+  {
+    "script": "tests/test01_rvm_nu_audit_planck_pantheon_desi.py",
+    "test_id": "T01",
+    "returncode": 0,
+    "seconds": 42.03456234931946,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test02_p39_wz_drift_desi_dr2_proxy.py",
+    "test_id": "T02",
+    "returncode": 0,
+    "seconds": 12.1142737865448,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test03_pantheon_lowz_systematic_isolation.py",
+    "test_id": "T03",
+    "returncode": 0,
+    "seconds": 6.094346284866333,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test04_p30_euclid_q1_act_dr6_density_kappa.py",
+    "test_id": "T04",
+    "returncode": 0,
+    "seconds": 1642.4900045394897,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test05_p30_planck_crosscheck_density_kappa.py",
+    "test_id": "T05",
+    "returncode": 0,
+    "seconds": 48.03200817108154,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test06_euclid_q1_patch_spread_audit.py",
+    "test_id": "T06",
+    "returncode": 0,
+    "seconds": 32.78352642059326,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test07_p3_euclid_filament_orientation_density_split.py",
+    "test_id": "T07",
+    "returncode": 0,
+    "seconds": 2368.9927155971527,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test08_public_cosmic_web_filament_replication.py",
+    "test_id": "T08",
+    "returncode": 0,
+    "seconds": 3620.856456041336,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test09_p38_vast_void_wall_kurtosis.py",
+    "test_id": "T09",
+    "returncode": 0,
+    "seconds": 204.65053534507751,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test10_erosita_desi_cluster_sigma_mixture.py",
+    "test_id": "T10",
+    "returncode": 0,
+    "seconds": 26.157894611358643,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test11_sparc_local_a0_anchor.py",
+    "test_id": "T11",
+    "returncode": 0,
+    "seconds": 50.9364972114563,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test12_kmos3d_highz_a0_trend.py",
+    "test_id": "T12",
+    "returncode": 0,
+    "seconds": 22.230985164642334,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test13_p36_three_point_nu_extractor.py",
+    "test_id": "T13",
+    "returncode": 0,
+    "seconds": 16.315858364105225,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test14_standalone_vs_joint_nu_diagnostic.py",
+    "test_id": "T14",
+    "returncode": 0,
+    "seconds": 15.938358783721924,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test15_nanograv_beat_recheck.py",
+    "test_id": "T15",
+    "returncode": 0,
+    "seconds": 125.02895069122314,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test16_pta_kappa_crosslink.py",
+    "test_id": "T16",
+    "returncode": 0,
+    "seconds": 17.41390037536621,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test17_gw_spectral_index_proxy.py",
+    "test_id": "T17",
+    "returncode": 0,
+    "seconds": 3.822549819946289,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test18_direct_detection_window_and_peak_audit.py",
+    "test_id": "T18",
+    "returncode": 0,
+    "seconds": 18.429067373275757,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test19_geometric_peak_ratio_audit.py",
+    "test_id": "T19",
+    "returncode": 0,
+    "seconds": 15.425995588302612,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test20_phase_space_drift_proxy.py",
+    "test_id": "T20",
+    "returncode": 0,
+    "seconds": 15.351674795150757,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test21_cmb_mu_y_staged_distortion_bound.py",
+    "test_id": "T21",
+    "returncode": 0,
+    "seconds": 2.451141119003296,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test22_cmb_large_angle_no_map_proxy.py",
+    "test_id": "T22",
+    "returncode": 1,
+    "seconds": 83.87035131454468,
+    "crash_json": "out_v9_7\\T22.crash.json"
+  },
+  {
+    "script": "tests/test23_bulk_weyl_bmode_bandpower.py",
+    "test_id": "T23",
+    "returncode": 0,
+    "seconds": 2.455049991607666,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test24_gwosc_ringdown_overtone_residual.py",
+    "test_id": "T24",
+    "returncode": 0,
+    "seconds": 4.9229795932769775,
+    "crash_json": null
+  },
+  {
+    "script": "tests/test25_qgp_kss_meta_analysis.py",
+    "test_id": "T25",
+    "returncode": 0,
+    "seconds": 29.615291118621826,
+    "crash_json": null
+  }
+]

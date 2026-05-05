@@ -1,0 +1,80 @@
+{
+  "data_sources": [
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=eta%2Fs: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=eta%2Fs"
+    },
+    {
+      "error": "download failed for https://www.hepdata.net/search/?q=shear%20viscosity%20entropy%20density: HTTP Error 403: Forbidden",
+      "ok": false,
+      "url": "https://www.hepdata.net/search/?q=shear%20viscosity%20entropy%20density"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "url": "https://www.hepdata.net/download/table/ins1666817/Table%201/1/csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\hepdata_kss\\csv.csv",
+      "url": "https://www.hepdata.net/download/table/ins1666817/Figure%201/1/csv"
+    }
+  ],
+  "description": "Download public HEPData/literature tables and test whether \u03b7/s approaches the KSS bound non-monotonically.",
+  "falsification_logic": {
+    "confirm_like": "\u03b7/s(T) has a minimum near 1/(4\u03c0) in natural units and non-monotonic structure",
+    "falsify_like": "verified \u03b7/s columns show no KSS-adjacent minimum"
+  },
+  "generated_utc": "2026-05-02T23:31:13Z",
+  "metrics": {
+    "kss_eta_over_s_SI": 6.078312356035156e-13,
+    "note": "v9.6 discovers HEPData candidates but still requires explicit \u03b7/s-like column names; v2/flow tables are not treated as viscosity.",
+    "tables_rejected": [
+      {
+        "best_column": "stat +",
+        "best_score": -5,
+        "columns": [
+          "Centrality",
+          "Centrality LOW",
+          "Centrality HIGH",
+          "v22Deta1",
+          "stat +",
+          "stat -",
+          "sys +",
+          "sys -"
+        ],
+        "note": "Rejecting v2/flow tables prevents false KSS nulls.",
+        "reason": "no_verified_eta_over_s_column",
+        "source": "https://www.hepdata.net/download/table/ins1666817/Table%201/1/csv"
+      },
+      {
+        "best_column": "stat +",
+        "best_score": -5,
+        "columns": [
+          "Centrality",
+          "Centrality LOW",
+          "Centrality HIGH",
+          "v22Deta1",
+          "stat +",
+          "stat -",
+          "sys +",
+          "sys -"
+        ],
+        "note": "Rejecting v2/flow tables prevents false KSS nulls.",
+        "reason": "no_verified_eta_over_s_column",
+        "source": "https://www.hepdata.net/download/table/ins1666817/Figure%201/1/csv"
+      }
+    ],
+    "tables_used": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P5"
+  ],
+  "status": "data_limited",
+  "test_id": "T25",
+  "warnings": [
+    "No verified public \u03b7/s column was found after HEPData discovery; no KSS falsification is claimed."
+  ]
+}

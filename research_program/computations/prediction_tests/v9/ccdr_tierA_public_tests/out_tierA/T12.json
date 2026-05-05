@@ -1,0 +1,129 @@
+{
+  "data_sources": [
+    {
+      "n_links": 9,
+      "ok": true,
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "n_links": 8,
+      "ok": true,
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\share-offsite",
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\compose",
+      "url": "https://bsky.app/intent/compose?text=Max+Planck+Institute+for+extraterrestrial+Physics+-+Data+Download+https%3A%2F%2Fwww.mpe.mpg.de%2Fir%2FKMOS3D%2Fdata"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data#top"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data-protection",
+      "url": "https://www.mpe.mpg.de/data-protection"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data",
+      "url": "https://www.mpe.mpg.de/ir/KMOS3D/data?print=yes"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\Data",
+      "url": "https://mpe.iedit.mpg.de/7107411/Data"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\data.html",
+      "url": "https://astro.dur.ac.uk/KROSS/data.html"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\kmos_kross\\kross_release_v2.fits",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    }
+  ],
+  "description": "Estimate high-z acceleration proxy from public KMOS3D/KROSS catalogue-level products and test trend with redshift.",
+  "falsification_logic": {
+    "confirm_like": "high-z acceleration proxy increases with z and lies above local SPARC anchor",
+    "falsify_like": "proxy trend vanishes or decreases after quality cuts"
+  },
+  "generated_utc": "2026-04-28T18:32:45Z",
+  "metrics": {
+    "columns": [
+      "KID",
+      "NAME",
+      "RA",
+      "DEC",
+      "K_AB",
+      "R_AB",
+      "Z_AB",
+      "MH",
+      "MASS",
+      "VDW12_N",
+      "IM_TYPE",
+      "QUALITY_FLAG",
+      "PA_IM",
+      "R_IM",
+      "R_IM_ERR",
+      "R_FLAG",
+      "B_O_A",
+      "THETA_IM",
+      "THETA_IM_ERR",
+      "THETA_FLAG",
+      "Z",
+      "F_HA",
+      "L_HA",
+      "SFR",
+      "SIGMA_TOT",
+      "AGN_FLAG",
+      "IRR_FLAG",
+      "VEL_PA",
+      "V22_OBS",
+      "V22",
+      "VC_OBS",
+      "VC",
+      "VC_ERR_L",
+      "VC_ERR_H",
+      "EXTRAP_FLAG",
+      "KIN_TYPE",
+      "JS",
+      "JS_ERR_LOW",
+      "JS_ERR_HIGH",
+      "JN",
+      "SIGMA0_OBS",
+      "SIGMA0_OBS_ERR",
+      "SIGMA0",
+      "SIGMA0_ERR",
+      "SIGMA0_FLAG",
+      "RD_RPSF",
+      "RD_RPSF_ERR",
+      "Q_g",
+      "Q_g_ERR_HIGH",
+      "Q_g_ERR_LOW"
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "\u00a76.1b",
+    "P36"
+  ],
+  "status": "data_limited",
+  "test_id": "T12",
+  "warnings": [
+    "Catalogue parsed but z / velocity / radius-like columns were not identifiable."
+  ]
+}

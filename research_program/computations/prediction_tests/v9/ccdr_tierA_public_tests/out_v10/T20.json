@@ -1,0 +1,211 @@
+{
+  "claim_strength": "null",
+  "data_sources": [
+    {
+      "github": "XENONnT/light_wimp_data_release",
+      "n_files": 6376,
+      "note": "GitHub branch autodetection succeeded; earlier branch misses are expected and are not data failures.",
+      "ok": true,
+      "tried_branches": [
+        "main",
+        "master"
+      ],
+      "used_branch": "master"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__README.md",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/README.md"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_LightMediator.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_LightMediator.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n1.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n1.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_MDDM_n2.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_MDDM_n2.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SDn.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SDn.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\github_XENONnT_light_wimp_data_release\\light_wimp_data_release__limits__XENONnT_2024_SI.csv",
+      "url": "https://raw.githubusercontent.com/XENONnT/light_wimp_data_release/master/light_wimp_data_release/limits/XENONnT_2024_SI.csv"
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://pandax.sjtu.edu.cn/sites/default/files/run0_data.csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://pandax.sjtu.edu.cn/sites/default/files/run1_data.csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://www.hepdata.net/download/record/155182?format=csv"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "ok": false,
+      "source_family": "direct_detection_extra",
+      "url": "https://www.hepdata.net/download/record/155182?format=yaml"
+    }
+  ],
+  "description": "Compare public direct-detection curve extrema/coverage across releases as a proxy for live-DM mass drift, with metadata safeguards.",
+  "falsification_logic": {
+    "confirm_like": "non-endpoint extremum mass shifts coherently with verified release dates",
+    "falsify_like": "no drift beyond sensitivity/scan-grid changes"
+  },
+  "generated_utc": "2026-05-03T20:04:43Z",
+  "metrics": {
+    "log_best_mass_vs_release_year_coef": null,
+    "note": "v9.6 refuses to score drift from arbitrary curve index or endpoint minima.",
+    "release_order_best_masses": [
+      {
+        "best_is_endpoint": true,
+        "best_limit": 1.7140981123129978e-41,
+        "best_mass_GeV": 12.0,
+        "curve_index": 0,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 5.699912133353331e-48,
+        "best_mass_GeV": 12.0,
+        "curve_index": 1,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 6.939951737853886e-49,
+        "best_mass_GeV": 12.0,
+        "curve_index": 2,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 6.388617387316039e-42,
+        "best_mass_GeV": 12.0,
+        "curve_index": 3,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 8.889060032315933e-46,
+        "best_mass_GeV": 12.0,
+        "curve_index": 4,
+        "mass_max": 12.0,
+        "mass_min": 3.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": false,
+        "best_limit": 6.251001628448816e-42,
+        "best_mass_GeV": 30.0,
+        "curve_index": 5,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": false,
+        "best_limit": 1.938604092296444e-40,
+        "best_mass_GeV": 30.0,
+        "curve_index": 6,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": true,
+        "best_limit": 136.58891381315397,
+        "best_mass_GeV": 6.0,
+        "curve_index": 7,
+        "mass_max": 10000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      }
+    ],
+    "usable_nonendpoint_year_drift_points": [
+      {
+        "best_is_endpoint": false,
+        "best_limit": 6.251001628448816e-42,
+        "best_mass_GeV": 30.0,
+        "curve_index": 5,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      },
+      {
+        "best_is_endpoint": false,
+        "best_limit": 1.938604092296444e-40,
+        "best_mass_GeV": 30.0,
+        "curve_index": 6,
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "release_year_guess": 2024
+      }
+    ]
+  },
+  "notes": [
+    "v9.7 guardrail: limit-curve scans are readiness-only; no peak evidence is claimed without public event-level likelihoods or binned events."
+  ],
+  "prediction_ids": [
+    "P37"
+  ],
+  "prediction_names": [
+    "P37 \u2014 phase-space drift from live DM"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "null",
+  "test_id": "T20",
+  "warnings": []
+}

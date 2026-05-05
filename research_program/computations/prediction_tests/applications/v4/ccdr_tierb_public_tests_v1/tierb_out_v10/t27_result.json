@@ -1,0 +1,421 @@
+{
+  "data_source_policy": "v8 curated ELM/RMP source manifest with manifest diagnostics; article/PDF prose is not evidence.",
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If curated sources are plot/PDF-only or expose no machine-readable supplement, result is data_limited, not null.",
+    "confirm_like": "A curated structured ELM/RMP table with required physical columns gives the predicted sign/scaling under controls.",
+    "falsify_like": "Adequate curated structured rows exist and the predicted sign/scaling is absent or reversed."
+  },
+  "generated_utc": "2026-05-01T20:29:18Z",
+  "manifest_debug": {
+    "manifest_columns": [
+      "test_id",
+      "priority",
+      "label",
+      "url",
+      "source_kind",
+      "expected_files",
+      "required_column_groups",
+      "mode",
+      "evidence_level",
+      "note"
+    ],
+    "manifest_exists": true,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+    "manifest_rows_total": 10,
+    "manifest_test_ids_seen": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30"
+    ],
+    "rows_selected_for_test": 3,
+    "selected_labels": [
+      "DIII-D RMP ELM suppression IAEA PDF",
+      "Integrated RMP-based ELM crash control OSTI PDF",
+      "RMP ELM suppression multi-machine operational space arXiv HTML"
+    ]
+  },
+  "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+  "manifest_records": [
+    {
+      "evidence_level": "evidence",
+      "label": "DIII-D RMP ELM suppression IAEA PDF",
+      "manifest_note": "Curated RMP/ELM source; PDF prose is not evidence.",
+      "manifest_row": {
+        "evidence_level": "evidence",
+        "expected_files": "csv|xls|xlsx|dat|table|supplement",
+        "label": "DIII-D RMP ELM suppression IAEA PDF",
+        "mode": "scientific",
+        "note": "Curated RMP/ELM source; PDF prose is not evidence.",
+        "priority": "1",
+        "required_column_groups": "ELM frequency|f_ELM|ELM suppression|ELM mitigation;RMP current|I-coil|coil current|phasing|n=2|n=3;shot|discharge|device",
+        "source_kind": "pdf_or_supplement",
+        "test_id": "T27",
+        "url": "https://www-pub.iaea.org/MTCD/Meetings/FEC2008/ex_4-1.pdf"
+      },
+      "meta": {
+        "cache_path": "tierb_cache_v10\\v7_curated_tables\\files\\b94816cadb7e_ex_4-1.pdf",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 401 Client Error: Unauthorized for url: https://www-pub.iaea.org/MTCD/Meetings/FEC2008/ex_4-1.pdf",
+        "head": {
+          "content_length": 1293,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://www-pub.iaea.org/MTCD/Meetings/FEC2008/ex_4-1.pdf",
+          "ok": false,
+          "status_code": 401,
+          "url": "https://www-pub.iaea.org/MTCD/Meetings/FEC2008/ex_4-1.pdf"
+        },
+        "ok": false,
+        "status_code": 401,
+        "url": "https://www-pub.iaea.org/MTCD/Meetings/FEC2008/ex_4-1.pdf"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "ELM frequency",
+          "f_ELM",
+          "ELM suppression",
+          "ELM mitigation"
+        ],
+        [
+          "RMP current",
+          "I-coil",
+          "coil current",
+          "phasing",
+          "n=2",
+          "n=3"
+        ],
+        [
+          "shot",
+          "discharge",
+          "device"
+        ]
+      ],
+      "source_kind": "pdf_or_supplement",
+      "tables": [],
+      "url": "https://www-pub.iaea.org/MTCD/Meetings/FEC2008/ex_4-1.pdf"
+    },
+    {
+      "evidence_level": "evidence",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "Integrated RMP-based ELM crash control OSTI PDF",
+      "manifest_note": "Curated source; structured table required.",
+      "manifest_row": {
+        "evidence_level": "evidence",
+        "expected_files": "csv|xls|xlsx|dat|table|supplement",
+        "label": "Integrated RMP-based ELM crash control OSTI PDF",
+        "mode": "scientific",
+        "note": "Curated source; structured table required.",
+        "priority": "2",
+        "required_column_groups": "ELM frequency|f_ELM|ELM crash|suppression;RMP current|IRMP|coil current|phasing;shot|discharge|device",
+        "source_kind": "pdf_or_supplement",
+        "test_id": "T27",
+        "url": "https://www.osti.gov/servlets/purl/1995173"
+      },
+      "meta": {
+        "bytes": 1941664,
+        "cache_path": "tierb_cache_v10\\v7_curated_tables\\files\\866155788c88_1995173.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1995173",
+        "head": {
+          "content_length": 1941664,
+          "content_type": "application/pdf",
+          "error": null,
+          "final_url": "https://www.osti.gov/servlets/purl/1995173",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.osti.gov/servlets/purl/1995173"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1995173"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "ELM frequency",
+          "f_ELM",
+          "ELM crash",
+          "suppression"
+        ],
+        [
+          "RMP current",
+          "IRMP",
+          "coil current",
+          "phasing"
+        ],
+        [
+          "shot",
+          "discharge",
+          "device"
+        ]
+      ],
+      "source_kind": "pdf_or_supplement",
+      "tables": [],
+      "url": "https://www.osti.gov/servlets/purl/1995173"
+    },
+    {
+      "evidence_level": "evidence",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              "<",
+              "ead>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<",
+                "ead>"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "ELM frequency",
+                  "f_ELM",
+                  "ELM suppression",
+                  "ELM mitigation"
+                ],
+                [
+                  "RMP",
+                  "coil",
+                  "phasing",
+                  "n=2",
+                  "n=3"
+                ],
+                [
+                  "shot",
+                  "device",
+                  "machine"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "<meta content=\"text/html",
+              " charset=utf-8\" http-equiv=\"content-type\"/>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<meta content=\"text/html",
+                " charset=utf-8\" http-equiv=\"content-type\"/>"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "ELM frequency",
+                  "f_ELM",
+                  "ELM suppression",
+                  "ELM mitigation"
+                ],
+                [
+                  "RMP",
+                  "coil",
+                  "phasing",
+                  "n=2",
+                  "n=3"
+                ],
+                [
+                  "shot",
+                  "device",
+                  "machine"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              2
+            ]
+          },
+          {
+            "columns": [
+              "<meta content=\"text/html",
+              " charset=utf-8\" http-equiv=\"content-type\"/>"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "<meta content=\"text/html",
+                " charset=utf-8\" http-equiv=\"content-type\"/>"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "ELM frequency",
+                  "f_ELM",
+                  "ELM suppression",
+                  "ELM mitigation"
+                ],
+                [
+                  "RMP",
+                  "coil",
+                  "phasing",
+                  "n=2",
+                  "n=3"
+                ],
+                [
+                  "shot",
+                  "device",
+                  "machine"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              2
+            ]
+          }
+        ]
+      },
+      "label": "RMP ELM suppression multi-machine operational space arXiv HTML",
+      "manifest_note": "Curated source; HTML tables can be parsed but article prose is not evidence.",
+      "manifest_row": {
+        "evidence_level": "evidence",
+        "expected_files": "csv|xls|xlsx|dat|table|supplement",
+        "label": "RMP ELM suppression multi-machine operational space arXiv HTML",
+        "mode": "scientific",
+        "note": "Curated source; HTML tables can be parsed but article prose is not evidence.",
+        "priority": "3",
+        "required_column_groups": "ELM frequency|f_ELM|ELM suppression|ELM mitigation;RMP|coil|phasing|n=2|n=3;shot|device|machine",
+        "source_kind": "html_or_supplement",
+        "test_id": "T27",
+        "url": "https://arxiv.org/html/2403.03693v1"
+      },
+      "meta": {
+        "bytes": 601524,
+        "cache_path": "tierb_cache_v10\\v7_curated_tables\\files\\4c049da88519_2403.03693v1",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/html/2403.03693v1",
+        "head": {
+          "content_length": 601524,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://arxiv.org/html/2403.03693v1",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://arxiv.org/html/2403.03693v1"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/html/2403.03693v1"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "ELM frequency",
+          "f_ELM",
+          "ELM suppression",
+          "ELM mitigation"
+        ],
+        [
+          "RMP",
+          "coil",
+          "phasing",
+          "n=2",
+          "n=3"
+        ],
+        [
+          "shot",
+          "device",
+          "machine"
+        ]
+      ],
+      "source_kind": "html_or_supplement",
+      "tables": [],
+      "url": "https://arxiv.org/html/2403.03693v1"
+    }
+  ],
+  "manual_curated_analysis": {
+    "manual_rows_used": 0,
+    "status": "no_manual_rows"
+  },
+  "manual_curated_policy": "Manual-curated rows are allowed only as transparent public-data rows with source_url/evidence_tier. They are separate from primary machine-readable supplements.",
+  "manual_curated_table_debug": {
+    "columns": [
+      "test_id",
+      "source_label",
+      "source_url",
+      "evidence_tier",
+      "device",
+      "device_type",
+      "shot",
+      "year",
+      "E_ELM",
+      "W_ELM",
+      "P_ped",
+      "V_ped",
+      "dP_over_P",
+      "ELM_frequency",
+      "RMP_current",
+      "helicity_abs_proxy",
+      "coil_phasing",
+      "n_mode",
+      "tau_E",
+      "density",
+      "stored_energy",
+      "power",
+      "ip",
+      "bt",
+      "elongation",
+      "triangularity",
+      "q95",
+      "R_major",
+      "a_minor",
+      "rho",
+      "Te",
+      "Ti",
+      "ne",
+      "heat_flux",
+      "diffusivity",
+      "notes"
+    ],
+    "evidence_tiers_seen": [],
+    "exists": true,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\manual_curated_fusion_tables.csv",
+    "rows_selected_for_test": 0,
+    "rows_total": 0,
+    "selected_source_labels": [],
+    "test_ids_seen": []
+  },
+  "prediction_ids": [
+    "FR6"
+  ],
+  "prediction_names": [
+    "ELM frequency proportional to separatrix magnetic helicity proxy |H_mag|"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_manifest_diagnostics_curated_fusion_supplements+v9_manual_table_route",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "source_funnel_policy": "v8 curated-source-only with manifest diagnostics; article/PDF prose is not evidence; only structured CSV/XLS/JSON/DAT tables count",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T27",
+  "test_name": "ELM helicity proxy"
+}

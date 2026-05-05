@@ -1,0 +1,126 @@
+{
+  "best_fit": {
+    "Omega_m": 0.3,
+    "chi2": 9.141686390742008,
+    "scale_c_over_H0rs": 30.17914585110095,
+    "w0": -0.9
+  },
+  "cov_file": ".ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+  "data_sources": [
+    {
+      "url": "https://github.com/CobayaSampler/bao_data/tree/master/desi_bao_dr2"
+    },
+    {
+      "url": "https://data.sdss.org/sas/dr17/eboss/lss/catalogs/DR16/"
+    }
+  ],
+  "delta_chi2_lcdm_minus_best": 1.2117649731708635,
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T12:53:49Z",
+  "group": "bao",
+  "interpretation": "P33 v8: standalone DESI BAO diagnostic is converted to a density-BAO baseline positive-ready result; it is not yet the density-split sign test.",
+  "lcdm_fit": {
+    "Omega_m": 0.295,
+    "chi2": 10.353451363912871,
+    "scale_c_over_H0rs": 29.468025096697712,
+    "w0": -1.0
+  },
+  "mean_file": ".ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ALL_GCcomb_mean.txt__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+  "n_observables": 13,
+  "observables": [
+    {
+      "quantity": "DV_over_rs",
+      "value": 7.94167639,
+      "z": 0.295
+    },
+    {
+      "quantity": "DM_over_rs",
+      "value": 13.58758434,
+      "z": 0.51
+    },
+    {
+      "quantity": "DH_over_rs",
+      "value": 21.86294686,
+      "z": 0.51
+    },
+    {
+      "quantity": "DM_over_rs",
+      "value": 17.35069094,
+      "z": 0.706
+    },
+    {
+      "quantity": "DH_over_rs",
+      "value": 19.45534918,
+      "z": 0.706
+    },
+    {
+      "quantity": "DM_over_rs",
+      "value": 21.57563956,
+      "z": 0.934
+    },
+    {
+      "quantity": "DH_over_rs",
+      "value": 17.64149464,
+      "z": 0.934
+    },
+    {
+      "quantity": "DM_over_rs",
+      "value": 27.60085612,
+      "z": 1.321
+    },
+    {
+      "quantity": "DH_over_rs",
+      "value": 14.17602155,
+      "z": 1.321
+    },
+    {
+      "quantity": "DM_over_rs",
+      "value": 30.51190063,
+      "z": 1.484
+    },
+    {
+      "quantity": "DH_over_rs",
+      "value": 12.81699964,
+      "z": 1.484
+    },
+    {
+      "quantity": "DH_over_rs",
+      "value": 8.631545674846294,
+      "z": 2.33
+    },
+    {
+      "quantity": "DM_over_rs",
+      "value": 38.988973961958784,
+      "z": 2.33
+    }
+  ],
+  "positive_conversion": {
+    "next_statistic": "add density-stratified clustering/BAO rows, then compare high-density vs low-density BAO scale with mock-calibrated null",
+    "quantities": [
+      "DH_over_rs",
+      "DM_over_rs",
+      "DV_over_rs"
+    ],
+    "redshift_bins": [
+      0.295,
+      0.51,
+      0.706,
+      0.934,
+      1.321,
+      1.484,
+      2.33
+    ]
+  },
+  "prediction_id": "P33",
+  "prediction_name": "P33 density-BAO baseline positive-ready",
+  "round": 10,
+  "runner_elapsed_s": 1.183,
+  "runner_returncode": 0,
+  "status": "p33_density_bao_baseline_positive_ready",
+  "test_id": "R10-T07",
+  "tier": "public-current"
+}

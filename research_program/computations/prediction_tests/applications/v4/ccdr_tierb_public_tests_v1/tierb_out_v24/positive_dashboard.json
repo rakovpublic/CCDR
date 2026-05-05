@@ -1,0 +1,1501 @@
+{
+  "EL_branch": {
+    "best_data_positive_path": [
+      "T44"
+    ],
+    "current_nulls": [
+      "T46a"
+    ],
+    "early_path": [
+      "T47"
+    ],
+    "recommended_next": "T44 WikiChip/TechInsights NAND exact parser",
+    "second_best_data_path": [
+      "T45"
+    ],
+    "synthetic_positive_or_open": [
+      "T46"
+    ]
+  },
+  "anchors": [
+    "T60"
+  ],
+  "biology_model_ready": [
+    "T53"
+  ],
+  "bound_only": [
+    "T50",
+    "T51",
+    "T52"
+  ],
+  "broad_nulls_with_open_narrow_path": [
+    "T32"
+  ],
+  "data_limited_positive_paths": [
+    "T26",
+    "T27",
+    "T28",
+    "T29",
+    "T30",
+    "T44",
+    "T45",
+    "T47",
+    "T54",
+    "T57",
+    "T59"
+  ],
+  "descriptor_paths_ready": [
+    "T48"
+  ],
+  "engineering_paths_ready": [
+    "T46"
+  ],
+  "fusion_secondary_diagnostics": [
+    "T26",
+    "T27",
+    "T28",
+    "T29",
+    "T30"
+  ],
+  "materials_flagship": [
+    "T31",
+    "T32"
+  ],
+  "physical_positive_leads": [
+    "T31"
+  ],
+  "positive_path_priorities_v22": [
+    {
+      "path": "fusion secondary unit-line / figure diagnostics",
+      "rank": 6,
+      "status": "secondary_diagnostic_active",
+      "test_id": "T26"
+    },
+    {
+      "path": "fusion secondary unit-line / figure diagnostics",
+      "rank": 6,
+      "status": "secondary_diagnostic_active",
+      "test_id": "T27"
+    },
+    {
+      "path": "fusion secondary unit-line / figure diagnostics",
+      "rank": 6,
+      "status": "secondary_diagnostic_active",
+      "test_id": "T28"
+    },
+    {
+      "path": "fusion secondary unit-line / figure diagnostics",
+      "rank": 6,
+      "status": "secondary_diagnostic_active",
+      "test_id": "T29"
+    },
+    {
+      "path": "fusion secondary unit-line / figure diagnostics",
+      "rank": 6,
+      "status": "secondary_diagnostic_active",
+      "test_id": "T30"
+    },
+    {
+      "path": "grain/nano materials flagship",
+      "rank": 3,
+      "status": "needs_more_microstructure_data",
+      "test_id": "T31"
+    },
+    {
+      "path": "EL1/EL3 3D NAND exact parser",
+      "rank": 1,
+      "status": "parser_ready_needs_exact_rows",
+      "test_id": "T44"
+    },
+    {
+      "path": "EL8 optical interconnect unit parser",
+      "rank": 4,
+      "status": "parser_ready_needs_pdf_or_table_rows",
+      "test_id": "T45"
+    },
+    {
+      "path": "T46b optimized CDT-hybrid code search",
+      "rank": 5,
+      "status": "synthetic_design_search_executed_proxy_only",
+      "test_id": "T46"
+    },
+    {
+      "path": "biology UniProt/PDB enrichment residual model",
+      "rank": 2,
+      "status": "enrichment_join_ready",
+      "test_id": "T53"
+    }
+  ],
+  "positive_warnings": [],
+  "readiness_positive": [
+    "T53"
+  ],
+  "recommended_next": [
+    "Fix/monitor T31/T32 materials through materials_positive_score_v23; keep v20 fallback keys active.",
+    "Prioritize T44 NAND exact parser rows and model density_Gb_per_mm2 ~ layers + year + bits/cell + manufacturer effects.",
+    "Run T53 first residual model with ProteinGym outcome/join mapping before full PDB symmetry enrichment.",
+    "Use T45 unit-line extractor on exact optical-interconnect PDFs and ignore landing/rate-limit pages as evidence.",
+    "Target T47 exact benchmark supplements for Loihi/TrueNorth/SpiNNaker; keep hardware-guide HTML discovery-only.",
+    "Keep fusion alive as plausible_secondary_diagnostic only until a primary event/profile table is found.",
+    "Add T60 random-triplet and sector-reshuffling nulls around the T60a consistency anchor."
+  ],
+  "schema": "ccdr-tierb-positive-dashboard-v23",
+  "tests": [
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T26",
+      "v22": {
+        "fusion_diag": {
+          "if_target_met": "report plausible_secondary_diagnostic, never confirmation",
+          "next_parser_steps": [
+            "page-level unit-line extraction",
+            "figure-page candidate detection",
+            "table OCR only as optional exploratory fallback",
+            "schema-only status for ITPA if DB remains unavailable"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing ELM/pedestal/volume/device contract groups",
+          "status": "secondary_diagnostic_active",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_frames_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": {
+          "do_not_overclaim": "secondary diagnostics cannot confirm or falsify; they only guide future data targets",
+          "figure_candidate_pages_seen_in_sample": 0,
+          "figure_detection_terms": [
+            "ELM energy",
+            "pedestal",
+            "Wped",
+            "Pped",
+            "dW",
+            "RMP",
+            "H98",
+            "q95"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing all E_ELM/Pped/Vped/device contract groups",
+          "status": "secondary_diagnostic_active_needs_rows",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_rows_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T27",
+      "v22": {
+        "fusion_diag": {
+          "if_target_met": "report plausible_secondary_diagnostic, never confirmation",
+          "next_parser_steps": [
+            "page-level unit-line extraction",
+            "figure-page candidate detection",
+            "table OCR only as optional exploratory fallback",
+            "schema-only status for ITPA if DB remains unavailable"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing ELM/pedestal/volume/device contract groups",
+          "status": "secondary_diagnostic_active",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_frames_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": {
+          "do_not_overclaim": "secondary diagnostics cannot confirm or falsify; they only guide future data targets",
+          "figure_candidate_pages_seen_in_sample": 0,
+          "figure_detection_terms": [
+            "ELM energy",
+            "pedestal",
+            "Wped",
+            "Pped",
+            "dW",
+            "RMP",
+            "H98",
+            "q95"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing all E_ELM/Pped/Vped/device contract groups",
+          "status": "secondary_diagnostic_active_needs_rows",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_rows_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T28",
+      "v22": {
+        "fusion_diag": {
+          "if_target_met": "report plausible_secondary_diagnostic, never confirmation",
+          "next_parser_steps": [
+            "page-level unit-line extraction",
+            "figure-page candidate detection",
+            "table OCR only as optional exploratory fallback",
+            "schema-only status for ITPA if DB remains unavailable"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing ELM/pedestal/volume/device contract groups",
+          "status": "secondary_diagnostic_active",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_frames_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": {
+          "do_not_overclaim": "secondary diagnostics cannot confirm or falsify; they only guide future data targets",
+          "figure_candidate_pages_seen_in_sample": 0,
+          "figure_detection_terms": [
+            "ELM energy",
+            "pedestal",
+            "Wped",
+            "Pped",
+            "dW",
+            "RMP",
+            "H98",
+            "q95"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing all E_ELM/Pped/Vped/device contract groups",
+          "status": "secondary_diagnostic_active_needs_rows",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_rows_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T29",
+      "v22": {
+        "fusion_diag": {
+          "if_target_met": "report plausible_secondary_diagnostic, never confirmation",
+          "next_parser_steps": [
+            "page-level unit-line extraction",
+            "figure-page candidate detection",
+            "table OCR only as optional exploratory fallback",
+            "schema-only status for ITPA if DB remains unavailable"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing ELM/pedestal/volume/device contract groups",
+          "status": "secondary_diagnostic_active",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_frames_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": {
+          "do_not_overclaim": "secondary diagnostics cannot confirm or falsify; they only guide future data targets",
+          "figure_candidate_pages_seen_in_sample": 0,
+          "figure_detection_terms": [
+            "ELM energy",
+            "pedestal",
+            "Wped",
+            "Pped",
+            "dW",
+            "RMP",
+            "H98",
+            "q95"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing all E_ELM/Pped/Vped/device contract groups",
+          "status": "secondary_diagnostic_active_needs_rows",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_rows_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": {
+        "do_not_give_up_actions": [
+          "Loarte/JET PDF unit-line extraction",
+          "ITER/RMP slide numeric-line extraction",
+          "ITPA schema alias mapping",
+          "W7-X and tokamak profile split",
+          "export candidate_manifest_updates.json"
+        ],
+        "figure_candidate_pages_seen_in_sample": 0,
+        "primary_confirmation_requires": "machine-readable event/profile table passing all physical contract groups",
+        "status": "secondary_diagnostic_active_not_primary_confirmation",
+        "target_success": ">=5 physical unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+        "unit_line_frames_seen_in_sample": 0
+      },
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T30",
+      "v22": {
+        "fusion_diag": {
+          "if_target_met": "report plausible_secondary_diagnostic, never confirmation",
+          "next_parser_steps": [
+            "page-level unit-line extraction",
+            "figure-page candidate detection",
+            "table OCR only as optional exploratory fallback",
+            "schema-only status for ITPA if DB remains unavailable"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing ELM/pedestal/volume/device contract groups",
+          "status": "secondary_diagnostic_active",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_frames_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": {
+          "do_not_overclaim": "secondary diagnostics cannot confirm or falsify; they only guide future data targets",
+          "figure_candidate_pages_seen_in_sample": 0,
+          "figure_detection_terms": [
+            "ELM energy",
+            "pedestal",
+            "Wped",
+            "Pped",
+            "dW",
+            "RMP",
+            "H98",
+            "q95"
+          ],
+          "primary_confirmation_requires": "machine-readable event/profile table passing all E_ELM/Pped/Vped/device contract groups",
+          "status": "secondary_diagnostic_active_needs_rows",
+          "target_for_plausible_diagnostic": ">=5 unit-bearing rows from exact Loarte/JET/ITER/ITPA/W7-X sources",
+          "unit_line_rows_seen_in_sample": 0
+        },
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": {
+        "current_positive_signal": {
+          "fraction_ccdr_better_by_aic2": 0.6,
+          "grain_or_nano_usable_fits": 5,
+          "median_delta_aic_ccdr_minus_power": -24.11175078363229,
+          "supports_positive_lead": true
+        },
+        "current_v20_score": {
+          "broad_fraction_ccdr_better_by_aic2": 0.4330708661417323,
+          "broad_median_delta_aic_ccdr_minus_power": 0.06796809151487082,
+          "decisive_microstructure_rows": 3,
+          "grain_fraction_ccdr_better_by_aic2": 0.6,
+          "grain_median_delta_aic_ccdr_minus_power": -24.11175078363229,
+          "grain_or_nano_usable_fits": 5,
+          "positive_success_rule": "score >= 5 and broad controls do not show the same effect",
+          "reasons": [
+            "grain/nano subset has CCDR-better fraction > 0.5",
+            "grain/nano subset median \u0394AIC favors CCDR",
+            "some decisive microstructure rows exist"
+          ],
+          "score": 5,
+          "status": "strong_positive_candidate_near_confirmation",
+          "version": "v20_materials_positive_score"
+        },
+        "next_action": "expand decisive microstructure rows; keep broad-material rows as controls",
+        "promotion_threshold": {
+          "decisive_microstructure_rows": 10,
+          "fraction_ccdr_better_min": 0.5,
+          "median_delta_aic_max": 0,
+          "usable_grain_nano_fits": 10
+        },
+        "role": "flagship_physical_positive_target"
+      },
+      "positive_label": "flagship_materials_positive_target",
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T31",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": {
+          "decisive_microstructure_rows": 0,
+          "explicit_microstructure_rows": 0,
+          "grain_nano_fraction_ccdr_better_by_aic2": 0.0,
+          "grain_nano_median_delta_aic_ccdr_minus_power": null,
+          "grain_nano_usable_fits": 0,
+          "promotion_rule": "usable grain/nano fits >=10, decisive microstructure rows >=10, fraction_ccdr_better>0.5, median_delta_aic<0, broad controls not also positive",
+          "reasons": [],
+          "score": 0,
+          "status": "needs_more_microstructure_data"
+        },
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": {
+          "broad_fraction_ccdr_better_by_aic2": 0.4330708661417323,
+          "broad_median_delta_aic_ccdr_minus_power": 0.06796809151487082,
+          "broad_overfit_penalty_applied": false,
+          "decisive_microstructure_rows": 3,
+          "explicit_microstructure_rows": 0,
+          "grain_fraction_ccdr_better_by_aic2": 0.6,
+          "grain_median_delta_aic_ccdr_minus_power": -24.11175078363229,
+          "grain_or_nano_usable_fits": 5,
+          "promotion_rule": "usable grain/nano fits >=10 AND decisive rows >=10 AND fraction>0.5 AND median \u0394AIC<0 AND no broad-overfit penalty",
+          "reasons": [
+            "grain/nano usable fits >=5",
+            "grain/nano subset has CCDR-better fraction >0.5",
+            "grain/nano median \u0394AIC favors CCDR",
+            "some decisive microstructure rows exist"
+          ],
+          "score": 6,
+          "status": "strong_positive_candidate_near_confirmation",
+          "version": "v23_materials_score_fallback_fixed"
+        },
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "positive_physical_lead"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": {
+        "MAT3a_broad_material_claim": "null_or_pressure_control",
+        "MAT3b_measured_nanostructure_claim": "open_positive_path_linked_to_T31",
+        "implementation_status": "uses T31 grain_size_known_manifest_v21 expansion as gate",
+        "positive_success_rule": "T^0.5 improves in measured/nanocrystalline subset while broad controls do not"
+      },
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T32",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "null_broad_claim_open_narrow_claim"
+    },
+    {
+      "test_id": "T33",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T34",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T35",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T36",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T37",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T38",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T39",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T40",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T41",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T42",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T43",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": {
+        "candidate_tables_seen": 26,
+        "do_not_use": "generic HTML search as evidence",
+        "implementation": "v21 autodiscovery adds exact electronics text/table extractors for NAND, optical-interconnect, and neuromorphic lines",
+        "label": "EL1_EL3_3D_NAND_flagship",
+        "parser": "WikiChip/TechInsights NAND table parser",
+        "positive_goal": "layer/capacity/die-area trend consistent with vertical/volume-like scaling",
+        "priority": 1,
+        "required_columns": [
+          "manufacturer",
+          "generation/product",
+          "year",
+          "layers",
+          "die_capacity_Gb",
+          "die_area_mm2",
+          "bits_per_cell"
+        ],
+        "status": "parser_ready_exact_sources_only",
+        "v22_priority": "highest_EL_data_positive_path"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T44",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": {
+          "candidate_tables_seen": 26,
+          "evidence_scope": "diagnostic until rows come from explicit machine-readable tables or audited exact HTML tables",
+          "model_formula": "density_Gb_per_mm2 ~ layers + year + bits_per_cell + manufacturer_fixed_effects",
+          "normalized_columns": [
+            "manufacturer",
+            "year",
+            "generation_or_product",
+            "layers",
+            "die_capacity_Gb",
+            "die_area_mm2",
+            "bits_per_cell",
+            "density_Gb_per_mm2"
+          ],
+          "positive_success_rule": "N>=20 rows; layer coefficient positive; layer/volume model beats year-only model; not driven by one manufacturer",
+          "status": "parser_ready_needs_exact_rows",
+          "structured_or_text_rows_seen_in_sample": 0
+        },
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": {
+          "best_next_source_family": [
+            "WikiChip 3D NAND tables",
+            "TechInsights density ranking",
+            "Samsung/Micron/SK Hynix public spec sheets"
+          ],
+          "candidate_tables_seen": 26,
+          "do_not_overclaim": "engineering diagnostic only until normalized audited rows pass machine-readable/exact HTML gates",
+          "model_formula": "density_Gb_per_mm2 ~ layers + year + bits_per_cell + manufacturer_fixed_effects",
+          "normalized_columns": [
+            "manufacturer",
+            "year",
+            "generation_or_product",
+            "layers",
+            "die_capacity_Gb",
+            "die_area_mm2",
+            "bits_per_cell",
+            "density_Gb_per_mm2"
+          ],
+          "positive_success_rule": "N>=20 rows; layer coefficient positive; layer model beats year-only model; manufacturer jackknife stable",
+          "role": "best_EL_data_positive_path",
+          "status": "candidate_tables_need_exact_parser",
+          "structured_or_text_rows_seen_in_sample": 0
+        },
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": {
+        "candidate_tables_seen": 0,
+        "do_not_use": "generic HTML search as evidence",
+        "implementation": "v21 autodiscovery adds exact electronics text/table extractors for NAND, optical-interconnect, and neuromorphic lines",
+        "label": "EL8_optical_interconnect",
+        "parser": "IRDS/Optics Express optical interconnect pJ-bit table parser",
+        "positive_goal": "energy-per-bit trend consistent with optical/geometric scaling advantage",
+        "priority": 2,
+        "required_columns": [
+          "energy_per_bit",
+          "bandwidth",
+          "reach/link_length",
+          "process_node/year",
+          "electrical_vs_optical"
+        ],
+        "status": "parser_ready_exact_sources_only"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T45",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": {
+          "do_not_use": "ADSABS or publisher landing pages as evidence; exact PDF/table rows only",
+          "model_formula": "energy_per_bit ~ bandwidth + reach + process_node_or_year + optical_vs_electrical",
+          "positive_success_rule": "optical/geometric descriptor improves energy-per-bit trend under process/year controls",
+          "required_units": [
+            "pJ/bit",
+            "fJ/bit",
+            "Gb/s",
+            "Tb/s",
+            "mm",
+            "cm",
+            "reach",
+            "bandwidth"
+          ],
+          "status": "parser_ready_needs_pdf_or_table_rows",
+          "unit_rows_seen_in_sample": 0
+        },
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": {
+          "avoid": [
+            "ADSABS/rate-limit pages as evidence",
+            "publisher landing pages as candidate tables"
+          ],
+          "model_formula": "energy_per_bit ~ bandwidth + reach + process_node_or_year + optical_vs_electrical",
+          "role": "second_best_EL_data_path",
+          "status": "unit_extractor_ready_needs_exact_pdf_rows",
+          "success_rule": ">=10 exact rows and optical term stable under source-family jackknife",
+          "target_units": [
+            "pJ/bit",
+            "fJ/bit",
+            "Gb/s",
+            "Tb/s",
+            "mm",
+            "cm",
+            "m",
+            "reach",
+            "bandwidth"
+          ],
+          "unit_text_rows_seen_in_sample": 0
+        },
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": {
+        "T46a_current_benchmark": "null_baseline_audit",
+        "T46b_positive_search": "optimize CDT-hybrid ensembles, not current fixed CDT-like graph",
+        "must_include": [
+          "50+ seeds",
+          "matched code rate",
+          "matched check density",
+          "BP/min-sum/BEC peeling",
+          "spatially-coupled LDPC/protograph baselines"
+        ],
+        "positive_success_rule": "CDT-hybrid beats best matched non-CDT baseline with CI across seeds"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T46",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": {
+          "best_family_proxy": {
+            "ci95_half_width_proxy": 0.007060232222979829,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.914608437870868,
+            "n_seeds": 50
+          },
+          "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+          "next_required": [
+            "real BP/min-sum decoder",
+            "matched code rate/check density",
+            "logical error rate",
+            "burst+random sweeps",
+            ">=50 seeds retained"
+          ],
+          "rows": [
+            {
+              "ci95_half_width_proxy": 0.007604154102238184,
+              "family": "fixed_CDT_like",
+              "mean_correctable_fraction_proxy": 0.8612453448942838,
+              "n_seeds": 50
+            },
+            {
+              "ci95_half_width_proxy": 0.007060232222979829,
+              "family": "spatially_coupled_CDT_hybrid",
+              "mean_correctable_fraction_proxy": 0.914608437870868,
+              "n_seeds": 50
+            },
+            {
+              "ci95_half_width_proxy": 0.00640274248924337,
+              "family": "protograph_CDT_hybrid",
+              "mean_correctable_fraction_proxy": 0.8995748903998048,
+              "n_seeds": 50
+            },
+            {
+              "ci95_half_width_proxy": 0.007645449946794451,
+              "family": "interleaved_CDT_burst_hybrid",
+              "mean_correctable_fraction_proxy": 0.897976965426786,
+              "n_seeds": 50
+            },
+            {
+              "ci95_half_width_proxy": 0.006980129357706403,
+              "family": "matched_spatially_coupled_LDPC",
+              "mean_correctable_fraction_proxy": 0.9124392223029427,
+              "n_seeds": 50
+            },
+            {
+              "ci95_half_width_proxy": 0.006561799716592217,
+              "family": "matched_protograph_LDPC",
+              "mean_correctable_fraction_proxy": 0.8987611825406858,
+              "n_seeds": 50
+            }
+          ],
+          "status": "synthetic_design_search_executed_proxy_only"
+        },
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": {
+          "best_cdt_variant_proxy": {
+            "ci95_half_width_proxy": 0.0044901168217945245,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.915812486567649,
+            "median_correctable_fraction_proxy": 0.9183643462875346,
+            "n_seeds": 100
+          },
+          "best_family_proxy": {
+            "ci95_half_width_proxy": 0.0044090170965163395,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.918769012781049,
+            "median_correctable_fraction_proxy": 0.9198657829431767,
+            "n_seeds": 100
+          },
+          "best_non_cdt_baseline_proxy": {
+            "ci95_half_width_proxy": 0.0044090170965163395,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.918769012781049,
+            "median_correctable_fraction_proxy": 0.9198657829431767,
+            "n_seeds": 100
+          },
+          "cdt_over_best_baseline_ratio_proxy": 0.9967820788769847,
+          "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+          "next_required": [
+            "real BP/min-sum decoder",
+            "matched code rate/check density",
+            "logical error rate",
+            "burst+random sweeps",
+            ">=100 seeds retained"
+          ],
+          "rows": [
+            {
+              "ci95_half_width_proxy": 0.0048722635483166125,
+              "family": "fixed_CDT_like",
+              "mean_correctable_fraction_proxy": 0.8587095852516708,
+              "median_correctable_fraction_proxy": 0.8577798125413121,
+              "n_seeds": 100
+            },
+            {
+              "ci95_half_width_proxy": 0.0044901168217945245,
+              "family": "spatially_coupled_CDT_hybrid",
+              "mean_correctable_fraction_proxy": 0.915812486567649,
+              "median_correctable_fraction_proxy": 0.9183643462875346,
+              "n_seeds": 100
+            },
+            {
+              "ci95_half_width_proxy": 0.004603661364805026,
+              "family": "protograph_CDT_hybrid",
+              "mean_correctable_fraction_proxy": 0.9018348876937817,
+              "median_correctable_fraction_proxy": 0.9002185517097098,
+              "n_seeds": 100
+            },
+            {
+              "ci95_half_width_proxy": 0.00512982674106952,
+              "family": "interleaved_CDT_burst_hybrid",
+              "mean_correctable_fraction_proxy": 0.908405381170911,
+              "median_correctable_fraction_proxy": 0.9062487924592619,
+              "n_seeds": 100
+            },
+            {
+              "ci95_half_width_proxy": 0.0044090170965163395,
+              "family": "matched_spatially_coupled_LDPC",
+              "mean_correctable_fraction_proxy": 0.918769012781049,
+              "median_correctable_fraction_proxy": 0.9198657829431767,
+              "n_seeds": 100
+            },
+            {
+              "ci95_half_width_proxy": 0.004287707309786655,
+              "family": "matched_protograph_LDPC",
+              "mean_correctable_fraction_proxy": 0.8992461579926306,
+              "median_correctable_fraction_proxy": 0.9000642523738673,
+              "n_seeds": 100
+            },
+            {
+              "ci95_half_width_proxy": 0.004775820362659294,
+              "family": "matched_interleaved_burst_baseline",
+              "mean_correctable_fraction_proxy": 0.8996274164979137,
+              "median_correctable_fraction_proxy": 0.9009712639289797,
+              "n_seeds": 100
+            }
+          ],
+          "status": "synthetic_100_seed_optimizer_proxy_only"
+        },
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "null_current_benchmark_design_search_ready"
+    },
+    {
+      "el_branch": {
+        "candidate_tables_seen": 0,
+        "do_not_use": "generic HTML search as evidence",
+        "implementation": "v21 autodiscovery adds exact electronics text/table extractors for NAND, optical-interconnect, and neuromorphic lines",
+        "label": "EL_neuromorphic_energy_topology",
+        "parser": "Loihi/TrueNorth/SpiNNaker benchmark parser",
+        "positive_goal": "energy/accuracy residual associated with graph/topology descriptor",
+        "priority": 3,
+        "required_columns": [
+          "chip",
+          "process_node",
+          "benchmark",
+          "energy_per_inference_or_spike",
+          "accuracy",
+          "neurons/cores/topology"
+        ],
+        "status": "parser_ready_exact_sources_only"
+      },
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T47",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": {
+          "positive_goal": "energy/accuracy residual associated with graph/topology descriptor",
+          "priority": "after_T44_and_T45",
+          "required_columns": [
+            "chip",
+            "process_node",
+            "benchmark_or_task",
+            "energy_per_inference_or_spike",
+            "accuracy_or_task_score",
+            "neurons_cores_topology"
+          ],
+          "rows_seen_in_sample": 0,
+          "status": "early_parser_ready_needs_benchmark_tables"
+        },
+        "t48b": null,
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": {
+          "required_columns": [
+            "chip",
+            "process_node",
+            "benchmark_or_task",
+            "energy_per_inference_or_spike",
+            "accuracy",
+            "neurons_or_cores_or_topology"
+          ],
+          "role": "early_EL_neuromorphic_path",
+          "rows_seen_in_sample": 0,
+          "source_policy": "Loihi/TrueNorth/SpiNNaker/BrainScaleS benchmark papers or supplements only; hardware-guide HTML discovery-only",
+          "status": "early_parser_ready_needs_exact_benchmark_tables",
+          "success_rule": ">=10 exact benchmark rows with energy and accuracy; topology term stable after chip-family controls"
+        },
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": "pv_T48b_descriptor_path_primary",
+      "t48b": {
+        "T48a_status": "retired_to_null_control",
+        "T48b_status": "primary_positive_path_ready",
+        "minimum_viable_rows": 30,
+        "model_formula": "efficiency_residual ~ bandgap + absorber_family + tandem + concentrator + area + year + certification_source + defect/crystallinity_proxy + family_interactions",
+        "rows_seen": 1096,
+        "success_rule": "global predicted sign + at least one absorber family FDR q<0.10; not driven by tandem/concentrator rows"
+      },
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T48",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": {
+          "T48a": "frozen_null_control",
+          "T48b": "primary_positive_path",
+          "required_model": "efficiency_residual ~ bandgap + absorber_family + tandem + concentrator + area + year + certification_source + defect_or_crystallinity_proxy + family_interactions",
+          "success_rule": "global predicted sign plus at least one absorber family FDR q<0.10, not driven by tandem/concentrator rows"
+        },
+        "t53_enrichment": null
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": {
+          "T48a": "retired_null_control",
+          "T48b": "primary_positive_path",
+          "implementation_note": "use existing large PV row set from earlier runs; do not spend more effort on coarse proxy",
+          "model": "efficiency_residual ~ bandgap + absorber_family + tandem + concentrator + area + year + certification_source + defect_or_crystallinity_proxy + family_interactions",
+          "success_rule": "global predicted sign and >=1 absorber family FDR q<0.10; not driven by tandem/concentrator rows"
+        },
+        "t53_model": null,
+        "t60_nulls": null
+      },
+      "verdict": "null_coarse_proxy_descriptor_model_ready"
+    },
+    {
+      "test_id": "T49",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T50",
+      "verdict": "bound_only"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T51",
+      "verdict": "bound_only"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T52",
+      "verdict": "bound_only"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": "biology_residual_model_ready",
+      "t48b": null,
+      "t53_model": {
+        "confirmation_allowed": false,
+        "frames_seen": 6,
+        "model_formula": "stability_or_ddG_or_Tm ~ length + assay_type + mutation_count + organism_or_sequence_cluster + symmetry_order/contact_network_proxy",
+        "positive_success_rule": "positive proxy coefficient with bootstrap CI and jackknife stability",
+        "reason": "no qualifying source URL re-read yet",
+        "source_urls": [
+          "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+        ],
+        "status": "attempted_but_missing_outcome_or_proxy_columns"
+      },
+      "t60": null,
+      "test_id": "T53",
+      "v22": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_enrichment": {
+          "join_keys_to_search": [
+            "UniProt",
+            "uniprot_id",
+            "PDB",
+            "pdb_id",
+            "protein_id",
+            "DMS_id",
+            "target"
+          ],
+          "model_formula": "stability_or_ddG_or_Tm ~ length + mutation_count + assay_type + sequence_cluster + symmetry_order/contact_proxy",
+          "proxy_features_to_add": [
+            "oligomeric_state",
+            "symmetry_order",
+            "contact_network_regularity",
+            "sequence_cluster",
+            "assay_cluster"
+          ],
+          "qualifying_tables_seen": 4,
+          "source_urls_sample": [],
+          "status": "enrichment_join_ready",
+          "validation": [
+            "protein-family jackknife",
+            "assay-cluster jackknife",
+            "sequence-cluster block bootstrap",
+            "BH/FDR correction across outcomes"
+          ]
+        }
+      },
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": {
+          "ccdr_proxy": [
+            "symmetry_order",
+            "oligomeric_state",
+            "contact_network_regularity"
+          ],
+          "controls": [
+            "length",
+            "mutation_count",
+            "assay_type",
+            "organism_or_sequence_cluster"
+          ],
+          "first_model": "outcome ~ length + mutation_count + assay/organism/cluster + symmetry/contact/order proxy",
+          "join_terms_found": [
+            "dms_id",
+            "uniprot",
+            "pdb",
+            "target",
+            "protein",
+            "mutant",
+            "mutation"
+          ],
+          "outcome_mapping": [
+            "effect",
+            "fitness",
+            "OrganismalFitness",
+            "ddG",
+            "Tm"
+          ],
+          "outcome_terms_found": [
+            "effect",
+            "fitness",
+            "organismalfitness",
+            "ddg",
+            "delta_g",
+            "stability",
+            "tm",
+            "melting"
+          ],
+          "proxy_terms_found": [
+            "symmetry",
+            "oligomer",
+            "contact",
+            "structure",
+            "pdb"
+          ],
+          "qualifying_table_count": 4,
+          "status": "model_proxy_ready",
+          "validation": [
+            "protein-family jackknife",
+            "assay-cluster jackknife",
+            "sequence-cluster bootstrap",
+            "BH/FDR across outcomes"
+          ]
+        },
+        "t60_nulls": null
+      },
+      "verdict": "readiness_positive"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T54",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "test_id": "T55",
+      "verdict": "data_limited"
+    },
+    {
+      "test_id": "T56",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T57",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "test_id": "T58",
+      "verdict": "data_limited"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": null,
+      "test_id": "T59",
+      "verdict": "data_limited_positive_path_ready"
+    },
+    {
+      "el_branch": null,
+      "fusion": null,
+      "materials": null,
+      "positive_label": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60": {
+        "full_T60_confirmation_allowed": false,
+        "positive_language": "T60a positive consistency anchor only",
+        "required_next_gates": [
+          "T60b quark/lattice sector",
+          "T60c random mass-triplet null",
+          "T60d look-elsewhere algebraic scan"
+        ],
+        "status": "confirmed_consistency_anchor"
+      },
+      "test_id": "T60",
+      "v23": {
+        "fusion_diag": null,
+        "materials_score": null,
+        "t44_nand": null,
+        "t45_optical": null,
+        "t46b_search": null,
+        "t47_neuro": null,
+        "t48b": null,
+        "t53_model": null,
+        "t60_nulls": {
+          "T60a": "charged-lepton Koide consistency anchor if support_like true",
+          "T60b": "quark/lattice sector remains required for full confirmation",
+          "T60c_random_triplet_null": {
+            "metric": "fraction of random mass triplets as close to 2/3 as charged leptons",
+            "n_triplets_target": 100000,
+            "planned_or_active": true
+          },
+          "T60d_look_elsewhere_scan": {
+            "planned_or_active": true,
+            "scope": "algebraic mass-ratio relations and sector reshuffling"
+          },
+          "full_confirmation_rule": "T60a positive AND T60b parsed with uncertainties AND T60c/T60d not look-elsewhere dominated"
+        }
+      },
+      "verdict": "positive_consistency_anchor"
+    }
+  ],
+  "v23_priority_paths": [
+    {
+      "path": "fusion secondary unit-line/figure diagnostics",
+      "rank": 9,
+      "status": "secondary_diagnostic_active_needs_rows",
+      "test_id": "T26"
+    },
+    {
+      "path": "fusion secondary unit-line/figure diagnostics",
+      "rank": 9,
+      "status": "secondary_diagnostic_active_needs_rows",
+      "test_id": "T27"
+    },
+    {
+      "path": "fusion secondary unit-line/figure diagnostics",
+      "rank": 9,
+      "status": "secondary_diagnostic_active_needs_rows",
+      "test_id": "T28"
+    },
+    {
+      "path": "fusion secondary unit-line/figure diagnostics",
+      "rank": 9,
+      "status": "secondary_diagnostic_active_needs_rows",
+      "test_id": "T29"
+    },
+    {
+      "path": "fusion secondary unit-line/figure diagnostics",
+      "rank": 9,
+      "status": "secondary_diagnostic_active_needs_rows",
+      "test_id": "T30"
+    },
+    {
+      "path": "grain/nano materials flagship",
+      "rank": 2,
+      "score": 6,
+      "status": "strong_positive_candidate_near_confirmation",
+      "test_id": "T31"
+    },
+    {
+      "path": "EL1/EL3 3D NAND exact parser",
+      "rank": 4,
+      "status": "candidate_tables_need_exact_parser",
+      "test_id": "T44"
+    },
+    {
+      "path": "EL8 optical interconnect unit extractor",
+      "rank": 5,
+      "status": "unit_extractor_ready_needs_exact_pdf_rows",
+      "test_id": "T45"
+    },
+    {
+      "path": "EL6 T46b 100-seed CDT-hybrid design search",
+      "rank": 7,
+      "status": "synthetic_100_seed_optimizer_proxy_only",
+      "test_id": "T46"
+    },
+    {
+      "path": "EL neuromorphic exact benchmark targeting",
+      "rank": 6,
+      "status": "early_parser_ready_needs_exact_benchmark_tables",
+      "test_id": "T47"
+    },
+    {
+      "path": "T48b descriptor PV primary path",
+      "rank": 8,
+      "status": "descriptor_model_ready",
+      "test_id": "T48"
+    },
+    {
+      "path": "ProteinGym first residual model + UniProt/PDB enrichment",
+      "rank": 3,
+      "status": "model_proxy_ready",
+      "test_id": "T53"
+    },
+    {
+      "path": "Koide charged-lepton anchor + random/sector nulls",
+      "rank": 1,
+      "status": "charged-lepton Koide consistency anchor if support_like true",
+      "test_id": "T60"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "automated_discovery_v10": {
+    "automated_readiness_status": "sources_scanned_no_candidate_tables",
+    "candidate_table_count": 0,
+    "data_contract": {
+      "min_rows": {
+        "hepdata_table": 5,
+        "primary": 8
+      },
+      "name": "cosmic ray cross-section enhancement",
+      "prediction_id": "HEP?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy",
+          "TeV",
+          "PeV",
+          "GeV"
+        ],
+        [
+          "cross section",
+          "sigma"
+        ],
+        [
+          "uncertainty",
+          "error"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable table",
+      "E2": "secondary auto-extracted table/model possible; not decisive",
+      "E3": "primary machine-readable public table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-01T23:00:58Z",
+    "model_diagnostics": {
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy",
+          "TeV",
+          "PeV",
+          "GeV"
+        ],
+        [
+          "cross section",
+          "sigma"
+        ],
+        [
+          "uncertainty",
+          "error"
+        ]
+      ],
+      "nearest_source": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 1,
+    "source_records_sample": [
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "HEPData broad exact-table search",
+        "meta": {
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T57\\files\\files\\2ba2c42c87be_search.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json"
+        },
+        "seed_reason": "hepdata_connector",
+        "url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json"
+      }
+    ],
+    "sources_scanned_count": 1,
+    "version": "v10_automated_discovery_no_manual_steps"
+  },
+  "automated_no_manual_steps_policy": "All v10 discovery artifacts are downloaded or extracted automatically from public URLs; manual curated CSVs are not required for this route. Secondary auto-extracted PDF/figure tables cannot confirm/falsify.",
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source": "v5 exact HEPData table download API; no broad HEPData/INSPIRE search in scientific mode",
+  "endpoint_records": [
+    {
+      "category": "cosmic-ray TeV spectrum",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "HEPData cosmic-ray candidate AMS/CRE",
+      "meta": {
+        "bytes": 10764,
+        "cache_path": "tierb_cache_v11\\T57_hep_v5\\files\\42742bab1fb7_csv.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1637434/Table%201/csv"
+    },
+    {
+      "category": "cosmic-ray TeV spectrum",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "HEPData cosmic-ray candidate AMS",
+      "meta": {
+        "bytes": 10764,
+        "cache_path": "tierb_cache_v11\\T57_hep_v5\\files\\bf79524dd7cd_csv.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1411328/Table%201/csv"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "generated_utc": "2026-05-01T23:00:58Z",
+  "prediction_ids": [
+    "AE1"
+  ],
+  "prediction_names": [
+    ">1 TeV cosmic-ray residual at ~1e-6 level relative to standard spectra"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "+v10_auto_discovery_no_manual_steps",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T57",
+  "test_name": "cosmic-ray cross-section enhancement"
+}

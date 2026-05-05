@@ -1,0 +1,84 @@
+{
+  "data_sources": [
+    {
+      "error": "download failed for https://api.github.com/repos/XENONnT/light_wimp_data_release/git/trees/main?recursive=1: HTTP Error 404: Not Found",
+      "github": "XENONnT/light_wimp_data_release",
+      "ok": false
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    }
+  ],
+  "description": "Search public direct-detection limit curves for repeated mass-domain extrema with geometric spacing; strict artifact warning included.",
+  "falsification_logic": {
+    "confirm_like": "same geometric extrema appear across independent public curves",
+    "falsify_like": "extrema track scan grids or are absent under smoothing/null controls"
+  },
+  "generated_utc": "2026-04-28T18:33:32Z",
+  "metrics": {
+    "extrema_audit": [
+      {
+        "consecutive_ratios": [
+          20.000000000000004
+        ],
+        "extrema_masses_GeV": [
+          15.000000000000004,
+          300.0000000000001
+        ],
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "n_extrema": 2,
+        "n_points": 20
+      },
+      {
+        "consecutive_ratios": [
+          20.000000000000004
+        ],
+        "extrema_masses_GeV": [
+          15.000000000000004,
+          300.0000000000001
+        ],
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "n_extrema": 2,
+        "n_points": 20
+      },
+      {
+        "consecutive_ratios": [],
+        "extrema_masses_GeV": [
+          119.99999999999996
+        ],
+        "limit_col": "limit_mediator_mass",
+        "mass_col": "mass_gev",
+        "n_extrema": 1,
+        "n_points": 22
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P27"
+  ],
+  "status": "suggestive",
+  "test_id": "T19",
+  "warnings": [
+    "Limit-curve extrema are not event-level peaks; treat any positive result as a scan-grid artifact candidate until event-level data exist."
+  ]
+}

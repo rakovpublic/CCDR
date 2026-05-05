@@ -1,0 +1,395 @@
+{
+  "automated_discovery_v10": {
+    "automated_readiness_status": "sources_scanned_no_candidate_tables",
+    "candidate_table_count": 0,
+    "data_contract": {
+      "min_rows": {
+        "html_table": 6,
+        "primary": 8
+      },
+      "name": "optical interconnect energy trend",
+      "prediction_id": "EL?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable table",
+      "E2": "secondary auto-extracted table/model possible; not decisive",
+      "E3": "primary machine-readable public table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-01T22:34:49Z",
+    "model_diagnostics": {
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "energy per bit",
+          "pJ/bit",
+          "fJ/bit"
+        ],
+        [
+          "bandwidth",
+          "Gbps",
+          "bandwidth/mm"
+        ],
+        [
+          "link length",
+          "distance",
+          "reach"
+        ],
+        [
+          "node",
+          "process"
+        ]
+      ],
+      "nearest_source": "https://irds.ieee.org/editions",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 2,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_tabular_bytes"
+          ],
+          "frames_extracted": 0,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          }
+        ],
+        "label": "IRDS public roadmap page",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T45\\files\\files\\19291ac5d5b1_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "seed_reason": "manifest_records",
+        "url": "https://irds.ieee.org/editions"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "content_type": "text/html; charset=utf-8",
+          "extractors_tried": [
+            "html_read_tabular_bytes"
+          ],
+          "frames_extracted": 0,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          {
+            "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "reason": "html_href_data_like",
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          }
+        ],
+        "label": "IRDS public roadmap page final",
+        "meta": {
+          "bytes": 78961,
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T45\\files\\files\\3e60122cd4ac_editions.bin",
+          "cached": false,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://irds.ieee.org/editions/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://irds.ieee.org/editions/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions/"
+        },
+        "seed_reason": "manifest_records:final_url",
+        "url": "https://irds.ieee.org/editions/"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T45\\files\\files\\6e7da7d50489_DOI_Assignments_-_2021_and_2023.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf",
+            "ok": false,
+            "status_code": 404,
+            "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+          },
+          "ok": false,
+          "status_code": 404,
+          "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+        },
+        "seed_reason": "html_href_data_like",
+        "url": "https://irds.ieee.org/images/files/images/IRDS_News/DOI_Assignments_-_2021_and_2023.pdf"
+      },
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+        "meta": {
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T45\\files\\files\\a9020f2846a0_Event_20Conduct_20and_20Safety_20Statement.pdf",
+          "content_type": "text/html",
+          "error": "download_failed: HTTPError: 418 Client Error: Unknown Code for url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+          "head": {
+            "content_length": 245,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf",
+            "ok": false,
+            "status_code": 418,
+            "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+          },
+          "ok": false,
+          "status_code": 418,
+          "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+        },
+        "seed_reason": "html_href_data_like",
+        "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Event%20Conduct%20and%20Safety%20Statement.pdf"
+      }
+    ],
+    "sources_scanned_count": 4,
+    "version": "v10_automated_discovery_no_manual_steps"
+  },
+  "automated_no_manual_steps_policy": "All v10 discovery artifacts are downloaded or extracted automatically from public URLs; manual curated CSVs are not required for this route. Secondary auto-extracted PDF/figure tables cannot confirm/falsify.",
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source_policy": "v8 curated electronics/spec manifest only; broad literature text is not evidence.",
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If curated pages lack machine-readable rows, result is data_limited, not null.",
+    "confirm_like": "Curated structured rows satisfy required spec columns and support the predicted scaling after controls.",
+    "falsify_like": "Adequate curated rows exist and the predicted scaling is absent/reversed."
+  },
+  "generated_utc": "2026-05-01T22:34:49Z",
+  "manifest_debug": {
+    "manifest_columns": [
+      "test_id",
+      "label",
+      "url",
+      "source_kind",
+      "required_columns",
+      "note"
+    ],
+    "manifest_exists": true,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\electronics_source_manifest.csv",
+    "manifest_rows_total": 5,
+    "manifest_test_ids_seen": [
+      "T44",
+      "T45",
+      "T47"
+    ],
+    "rows_selected_for_test": 1,
+    "selected_labels": [
+      "IRDS public roadmap page"
+    ]
+  },
+  "manifest_records": [
+    {
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "IRDS public roadmap page",
+      "manifest_note": "Curated source only; evidence requires structured table download.",
+      "manifest_row": {
+        "label": "IRDS public roadmap page",
+        "note": "Curated source only; evidence requires structured table download.",
+        "required_columns": "energy per bit;bandwidth per mm;node;link length",
+        "source_kind": "html_table",
+        "test_id": "T45",
+        "url": "https://irds.ieee.org/editions"
+      },
+      "meta": {
+        "bytes": 78961,
+        "cache_path": "tierb_cache_v11\\v7_curated_tables\\files\\19291ac5d5b1_editions.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://irds.ieee.org/editions/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://irds.ieee.org/editions/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://irds.ieee.org/editions"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://irds.ieee.org/editions"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "energy per bit"
+        ],
+        [
+          "bandwidth per mm"
+        ],
+        [
+          "node"
+        ],
+        [
+          "link length"
+        ]
+      ],
+      "source_kind": "html_table",
+      "tables": [],
+      "url": "https://irds.ieee.org/editions"
+    }
+  ],
+  "manual_curated_spec_analysis": {
+    "manual_rows_used": 0,
+    "status": "no_manual_rows"
+  },
+  "manual_curated_spec_debug": {
+    "columns": [
+      "test_id",
+      "source_label",
+      "source_url",
+      "evidence_tier",
+      "company",
+      "technology",
+      "year",
+      "layers",
+      "die_capacity_gb",
+      "die_area_mm2",
+      "bits_per_cell",
+      "energy_per_bit_pj",
+      "bandwidth_per_mm_gbps",
+      "link_length_mm",
+      "process_node_nm",
+      "chip",
+      "benchmark",
+      "energy_per_inference_uj",
+      "accuracy_pct",
+      "topology",
+      "node_count",
+      "notes"
+    ],
+    "evidence_tiers_seen": [],
+    "exists": true,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\manual_curated_electronics_specs.csv",
+    "rows_selected_for_test": 0,
+    "rows_total": 0,
+    "selected_source_labels": [],
+    "test_ids_seen": []
+  },
+  "prediction_ids": [
+    "EL8"
+  ],
+  "prediction_names": [
+    "optical surface links improve energy/bit and bandwidth/mm versus electronic vias"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_manifest_diagnostics_and_data_limited_fixes+v9_manual_specs_route+v10_auto_discovery_no_manual_steps",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "source_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\electronics_source_manifest.csv",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T45",
+  "test_name": "optical interconnect trend"
+}

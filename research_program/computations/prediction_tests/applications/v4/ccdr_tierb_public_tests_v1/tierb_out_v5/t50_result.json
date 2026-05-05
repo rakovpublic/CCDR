@@ -1,0 +1,56 @@
+{
+  "analysis_note": "v3 treats T50 as an upper-limit test only. Confirmation is not claimed from literature tables; if residual/noise columns parse, convert sensitivity to bound on the predicted \u03bd_bulk-like amplitude.",
+  "candidate_works_count": 0,
+  "candidate_works_sample": [],
+  "discovered_data_links_sample": [],
+  "downloaded_sources": [],
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "No confirmation claim is allowed; these are constraint/upper-limit tests.",
+    "confirm_like": "Current precision is above the predicted target but provides a useful bound.",
+    "falsify_like": "Adequate precision tables exclude the predicted residual/noise floor amplitude."
+  },
+  "generated_utc": "2026-04-30T21:10:30Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "parsed_tables_count": 0,
+  "prediction_ids": [
+    "SE2",
+    "SE6"
+  ],
+  "prediction_names": [
+    "\u03bd_bulk-like constant floor in precision Casimir residuals"
+  ],
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "queries": [
+    "precision Casimir force residual table separation experiment",
+    "Casimir force residuals public data torsion oscillator table"
+  ],
+  "readiness_status": "no_source_found",
+  "rejected_tables_sample": [],
+  "required_column_groups": [
+    [
+      "residual|force|pressure|gradient"
+    ],
+    [
+      "Casimir|separation|distance"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "table_summaries": [],
+  "test_id": "T50",
+  "test_name": "Casimir residual public-table audit",
+  "upper_limit_protocol": {
+    "observable": "Casimir residual force/pressure floor",
+    "primary_output": "sensitivity_over_predicted_target and bound_on_nu_bulk_like_amplitude",
+    "required_rows": "reported residual/noise floor, integration time or baseline, uncertainty/systematic floor, units"
+  }
+}

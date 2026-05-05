@@ -1,0 +1,2671 @@
+{
+  "analysis_note": "Automatic public-data/literature-table probe. A status of data_limited means public metadata/papers were found but no sufficiently machine-readable numeric tables were discoverable by the script. This is not a CCDR null; it is a public-data availability limit.",
+  "candidate_works_count": 60,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 194,
+      "doi": "https://doi.org/10.1088/1741-4326/abf99f",
+      "id": "https://openalex.org/W3102560187",
+      "landing_page_url": "https://doi.org/10.1088/1741-4326/abf99f",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf"
+      },
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf",
+      "primary_location": {
+        "id": "doi:10.1088/1741-4326/abf99f",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/1741-4326/abf99f",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf",
+        "raw_source_name": "Nuclear Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nuclear Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S133992056",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": false,
+          "issn": [
+            "0029-5515",
+            "1741-4326"
+          ],
+          "issn_l": "0029-5515",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas",
+      "type": "article",
+      "year": 2021
+    },
+    {
+      "cited_by_count": 60,
+      "doi": "https://doi.org/10.1063/1.4907901",
+      "id": "https://openalex.org/W2086386029",
+      "landing_page_url": "https://doi.org/10.1063/1.4907901",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://infoscience.epfl.ch/record/207358"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1063/1.4907901",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1063/1.4907901",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Physics of Plasmas",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physics of Plasmas",
+          "host_organization": "https://openalex.org/P4310320257",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320257"
+          ],
+          "host_organization_lineage_names": [
+            "American Institute of Physics"
+          ],
+          "host_organization_name": "American Institute of Physics",
+          "id": "https://openalex.org/S66354037",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1070-664X",
+            "1089-7674",
+            "1527-2419"
+          ],
+          "issn_l": "1070-664X",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Novel aspects of plasma control in ITER",
+      "type": "article",
+      "year": 2015
+    },
+    {
+      "cited_by_count": 49,
+      "doi": "https://doi.org/10.1088/0741-3335/58/11/114006",
+      "id": "https://openalex.org/W2531055236",
+      "landing_page_url": "https://doi.org/10.1088/0741-3335/58/11/114006",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://publications.lib.chalmers.se/records/fulltext/246369/local_246369.pdf"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1088/0741-3335/58/11/114006",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/0741-3335/58/11/114006",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Plasma Physics and Controlled Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Plasma Physics and Controlled Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S75093782",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0741-3335",
+            "1361-6587"
+          ],
+          "issn_l": "0741-3335",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Modelling of plasma response to 3D external magnetic field perturbations in EAST",
+      "type": "article",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 53,
+      "doi": "https://doi.org/10.1007/s10894-018-0185-y",
+      "id": "https://openalex.org/W2891125711",
+      "landing_page_url": "https://doi.org/10.1007/s10894-018-0185-y",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s10894-018-0185-y.pdf"
+      },
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10894-018-0185-y.pdf",
+      "primary_location": {
+        "id": "doi:10.1007/s10894-018-0185-y",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1007/s10894-018-0185-y",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10894-018-0185-y.pdf",
+        "raw_source_name": "Journal of Fusion Energy",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Journal of Fusion Energy",
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Springer Science+Business Media",
+          "id": "https://openalex.org/S125685628",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0164-0313",
+            "1572-9591"
+          ],
+          "issn_l": "0164-0313",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "DIII-D Research to Prepare for Steady State Advanced Tokamak Power Plants",
+      "type": "article",
+      "year": 2018
+    },
+    {
+      "cited_by_count": 36,
+      "doi": "https://doi.org/10.1088/1741-4326/aace92",
+      "id": "https://openalex.org/W2809051017",
+      "landing_page_url": "http://doi.org/10.1088/1741-4326/aace92",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.osti.gov/biblio/1460098"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1088/1741-4326/aace92",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "http://doi.org/10.1088/1741-4326/aace92",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Nuclear Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nuclear Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S133992056",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": false,
+          "issn": [
+            "0029-5515",
+            "1741-4326"
+          ],
+          "issn_l": "0029-5515",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Investigation of the role of pedestal pressure and collisionality on type-I ELM divertor heat loads in DIII-D",
+      "type": "article",
+      "year": 2018
+    },
+    {
+      "cited_by_count": 30,
+      "doi": "https://doi.org/10.1063/1.5089895",
+      "id": "https://openalex.org/W2953321816",
+      "landing_page_url": "https://doi.org/10.1063/1.5089895",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/1911.02611"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1063/1.5089895",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1063/1.5089895",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Physics of Plasmas",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physics of Plasmas",
+          "host_organization": "https://openalex.org/P4310320257",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320257"
+          ],
+          "host_organization_lineage_names": [
+            "American Institute of Physics"
+          ],
+          "host_organization_name": "American Institute of Physics",
+          "id": "https://openalex.org/S66354037",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1070-664X",
+            "1089-7674",
+            "1527-2419"
+          ],
+          "issn_l": "1070-664X",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Impact of ELM control techniques on tungsten sputtering in the DIII-D divertor and extrapolations to ITER",
+      "type": "article",
+      "year": 2019
+    },
+    {
+      "cited_by_count": 21,
+      "doi": "https://doi.org/10.1016/j.fusengdes.2015.12.035",
+      "id": "https://openalex.org/W2197181984",
+      "landing_page_url": "https://doi.org/10.1016/j.fusengdes.2015.12.035",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://nifs-repository.repo.nii.ac.jp/record/10709/files/Nucl.Fusion53_pp104025.pdf"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1016/j.fusengdes.2015.12.035",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1016/j.fusengdes.2015.12.035",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Fusion Engineering and Design",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Fusion Engineering and Design",
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "host_organization_name": "Elsevier BV",
+          "id": "https://openalex.org/S191935395",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0920-3796",
+            "1873-7196"
+          ],
+          "issn_l": "0920-3796",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Japanese endeavors to establish technological bases for DEMO",
+      "type": "article",
+      "year": 2015
+    },
+    {
+      "cited_by_count": 21,
+      "doi": "https://doi.org/10.1088/1361-6587/abce18",
+      "id": "https://openalex.org/W3107495840",
+      "landing_page_url": "https://doi.org/10.1088/1361-6587/abce18",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.osti.gov/biblio/1755484"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1088/1361-6587/abce18",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/1361-6587/abce18",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Plasma Physics and Controlled Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Plasma Physics and Controlled Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S75093782",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0741-3335",
+            "1361-6587"
+          ],
+          "issn_l": "0741-3335",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "On the stability and stationarity of the Super H-mode combined with an ion transport barrier in the core",
+      "type": "article",
+      "year": 2020
+    },
+    {
+      "cited_by_count": 17,
+      "doi": "https://doi.org/10.1088/1741-4326/accded",
+      "id": "https://openalex.org/W4366257172",
+      "landing_page_url": "https://doi.org/10.1088/1741-4326/accded",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf"
+      },
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf",
+      "primary_location": {
+        "id": "doi:10.1088/1741-4326/accded",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/1741-4326/accded",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf",
+        "raw_source_name": "Nuclear Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nuclear Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S133992056",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "0029-5515",
+            "1741-4326"
+          ],
+          "issn_l": "0029-5515",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.1088/1361-6587/abbf85",
+      "id": "https://openalex.org/W3092189518",
+      "landing_page_url": "https://doi.org/10.1088/1361-6587/abbf85",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.osti.gov/servlets/purl/1810627"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1088/1361-6587/abbf85",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/1361-6587/abbf85",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Plasma Physics and Controlled Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Plasma Physics and Controlled Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S75093782",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0741-3335",
+            "1361-6587"
+          ],
+          "issn_l": "0741-3335",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Review: Turbulence dynamics during the pedestal evolution between edge localized modes in magnetic fusion devices",
+      "type": "article",
+      "year": 2020
+    },
+    {
+      "cited_by_count": 13,
+      "doi": "https://doi.org/10.1063/5.0168955",
+      "id": "https://openalex.org/W4390588266",
+      "landing_page_url": "https://doi.org/10.1063/5.0168955",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.osti.gov/biblio/2329319"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1063/5.0168955",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1063/5.0168955",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Physics of Plasmas",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physics of Plasmas",
+          "host_organization": "https://openalex.org/P4310320257",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320257"
+          ],
+          "host_organization_lineage_names": [
+            "American Institute of Physics"
+          ],
+          "host_organization_name": "American Institute of Physics",
+          "id": "https://openalex.org/S66354037",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1070-664X",
+            "1089-7674",
+            "1527-2419"
+          ],
+          "issn_l": "1070-664X",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Validation of MARS-F modeling of plasma response to RMPs using internal measurements on DIII-D",
+      "type": "article",
+      "year": 2024
+    },
+    {
+      "cited_by_count": 18,
+      "doi": "https://doi.org/10.1088/1741-4326/ab72c0",
+      "id": "https://openalex.org/W3005334667",
+      "landing_page_url": "https://doi.org/10.1088/1741-4326/ab72c0",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://eprints.whiterose.ac.uk/159698/1/Achieving_robust_grassy_elm_clean_02052020_.pdf"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1088/1741-4326/ab72c0",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/1741-4326/ab72c0",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Nuclear Fusion",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nuclear Fusion",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S133992056",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": false,
+          "issn": [
+            "0029-5515",
+            "1741-4326"
+          ],
+          "issn_l": "0029-5515",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Achieving a robust grassy-ELM operation regime in CFETR",
+      "type": "article",
+      "year": 2020
+    }
+  ],
+  "discovered_data_links_sample": [
+    "https://doi.org/article/10.1007/s10894-018-0185-y/tables/1",
+    "https://doi.org/article/10.1007/s10894-018-0185-y/tables/2",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2002NucFu..42..614L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999NucFu..39.2137I",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993PPCF...35...39K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PPCF...36..213G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PPCF...36..229T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995NucFu..35..551G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhPl...18c0501L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1968JETP...26..233G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1987RvMP...59..175F",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009NucFu..49g5029T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55e3027K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016NucFu..56j6023M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010rast.book.....C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014NucFu..54g3015G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014ITPS...42..503S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhPl....4.1654S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011NucFu..51f3026F",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1985PhLA..110...29T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1998NucFu..38.1467T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhPl...13b2305K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55b3017C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55l3025G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PhPl...16e6116H",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013PhPl...20i2504F",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014NucFu..54i3009H",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995PhPl....2.2408W",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995PhRvL..75.4421S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015PhPl...22e6113T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016NucFu..56a6016P",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PhRvL.102d5005P",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015PhRvL.115u5001J",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55g3030F",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017CoPhC.214....1P",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018PhPl...25a2506P",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NucFu..57k6057P",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2005NucFu..45..407W",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018NucFu..58j6010N",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1992PhFlB...4.1724H",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999PhPl....6.3934L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1992PhFlB...4..232L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhPl....4.1062M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009NucFu..49f5031M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015PhPl...22e5904H",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016PhRvL.116i5001C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NucFu..57e6024K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016NucFu..56k2007V",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NucFu..57a4001P",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018PhPl...25e6109P"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\559af4659f45_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=a6fc75c0-a97e-4dc3-95b4-b87a5203da34&ssb=90970223361&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fabf99f%2Fpdf&ssi=c6a00f64-cnvj-419d-a793-fc5a9356e119&ssk=botmanager_support@radware.com&ssm=67324778288943943107415584214689&ssn=e28479563fe8378f14519e26f12e7ffde5836eb807b5-372d-4ad3-a7e51b&sso=9faeab54-af00435fb41adead5e6bc007ec950de4c65332ea50f70151&ssp=96322787931777484994177749981998567&ssq=66506408546429629327885464153019113991533&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDA2ZWI4MDdiNS0zNzJkLTRhZDMtYWI1NC1hZjAwNDM1ZmI0MWExLTE3Nzc0ODU0NjQxODgwLTAwMzE4ZjFlMzBlNmU3ZWM2M2ExMCIsInV6bXgiOiI3ZjkwMDAxZTNhMTU0ZS1iZDM4LTQzZTgtYTE5My0yNjA4NThmYmQ1ZGYxLTE3Nzc0ODU0NjQxODgwLTdlNzBmY2Y5YjQ5NDZmMjYxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf"
+      },
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\18c12c94e669_abf99f.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=eda1ac42-454b-4650-8180-eef89af3b9aa&ssb=96080210301&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fabf99f&ssi=b9fe02c3-cnvj-4e2f-a890-a3fe712e9bd6&ssk=botmanager_support@radware.com&ssm=74436378404545840109796258882685&ssn=0077c25b202ec9365f4091231211e70eef86807523c3-4f9b-408c-b59938&sso=38913e3f-0a74cb61b3e18aba1ac65e38a2f3379629418310c085f383&ssp=65750211011777493874177749473184270&ssq=86084208546574892613885465373824178143240&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA4MDc1MjNjMy00ZjliLTQwOGMtYmUzZi0wYTc0Y2I2MWIzZTExLTE3Nzc0ODU0NjUyMzcwLTAwMzFjMGYxMmIyMmMxZWM2ODQxMCIsInV6bXgiOiI3ZjkwMDBhOTg0YTAzYS1lNjJkLTQ4OWUtYmNlNS1hNGQ3NDZlNWU4OGUxLTE3Nzc0ODU0NjUyMzcwLTA2Y2NiZTA2NjExNWJlN2IxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/abf99f"
+      },
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas",
+      "url": "https://doi.org/10.1088/1741-4326/abf99f"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\49f8d1d83781_1.4907901",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/pop/article/22/2/021806/110014/Novel-aspects-of-plasma-control-in-ITER",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/1.4907901"
+      },
+      "title": "Novel aspects of plasma control in ITER",
+      "url": "https://doi.org/10.1063/1.4907901"
+    },
+    {
+      "meta": {
+        "bytes": 659612,
+        "cache_path": "tierb_cache\\T27\\papers\\e4f21699bc2e_207358.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://infoscience.epfl.ch/entities/publication/94996698-fadc-43b5-9f7a-cd459b1182e2",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://infoscience.epfl.ch/record/207358"
+      },
+      "title": "Novel aspects of plasma control in ITER",
+      "url": "http://infoscience.epfl.ch/record/207358"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\5dc587549a71_114006.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=6c43fbd7-175f-4948-ab49-ad92fc871aca&ssb=53104205400&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F0741-3335%2F58%2F11%2F114006&ssi=0b6a4da2-cnvj-4c28-a578-a2a6221e0fc7&ssk=botmanager_support@radware.com&ssm=30561525320106830100020652188314&ssn=c2b40007b5d1ff1d7a061df85d94c85f3cfa5604a0ae-6530-403d-aa6815&sso=feb8a9df-465a9b3df80ef2a158768aa69a99435dcc3bef641695f79b&ssp=50707329091777464422177744329054586&ssq=85245458546876755613085468218026823623550&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA1NjA0YTBhZS02NTMwLTQwM2QtYTlkZi00NjVhOWIzZGY4MGUxLTE3Nzc0ODU0Njg2NjEwLTAwMzhjNjE1NTlkZGY5YzYzNjIxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDBjMDYwZmRlZi03MjMxLTQzZTUtOWRiYy02M2E3NDQzNTk4ZGQxLTE3Nzc0ODU0Njg2NjEwLTdmZTRmYmNmZmQ5MTYzMzMxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/0741-3335/58/11/114006"
+      },
+      "title": "Modelling of plasma response to 3D external magnetic field perturbations in EAST",
+      "url": "https://doi.org/10.1088/0741-3335/58/11/114006"
+    },
+    {
+      "meta": {
+        "bytes": 2016681,
+        "cache_path": "tierb_cache\\T27\\papers\\853dfb42465c_local_246369.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://publications.lib.chalmers.se/records/fulltext/246369/local_246369.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://publications.lib.chalmers.se/records/fulltext/246369/local_246369.pdf"
+      },
+      "title": "Modelling of plasma response to 3D external magnetic field perturbations in EAST",
+      "url": "http://publications.lib.chalmers.se/records/fulltext/246369/local_246369.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 8602920,
+        "cache_path": "tierb_cache\\T27\\papers\\946cb9ee0d87_s10894-018-0185-y.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s10894-018-0185-y.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/content/pdf/10.1007/s10894-018-0185-y.pdf"
+      },
+      "title": "DIII-D Research to Prepare for Steady State Advanced Tokamak Power Plants",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10894-018-0185-y.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 827759,
+        "cache_path": "tierb_cache\\T27\\papers\\488a808c3771_s10894-018-0185-y.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1007/s10894-018-0185-y",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1007/s10894-018-0185-y"
+      },
+      "title": "DIII-D Research to Prepare for Steady State Advanced Tokamak Power Plants",
+      "url": "https://doi.org/10.1007/s10894-018-0185-y"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\e59595a60bb9_aace92.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=0649ebd6-56c2-429f-b6e9-9a2b097328d1&ssb=35566229052&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Faace92&ssi=0ff0e971-cnvj-4bd9-b196-aa1a7d4e0e7c&ssk=botmanager_support@radware.com&ssm=49198279279258801100180737806117&ssn=90fac541aa0e2ee54ee4c12434b200a27c651aa554d3-74e8-4d99-a2079f&sso=409e4d9e-0828df671f8492749b9a64471001b592e720ef81b49343d1&ssp=77649284261777489885177747048387039&ssq=94420288547480031840885474354659698617337&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxYWE1NTRkMy03NGU4LTRkOTktYWQ5ZS0wODI4ZGY2NzFmODQxLTE3Nzc0ODU0NzQxOTUwLTAwMzRiYmQ2MDA2ZDI0OTViNzMxMCIsInV6bXgiOiI3ZjkwMDA1Mjg3MTAxZC0yYzIyLTRkYjQtYjc1MS1iMGRhZGJmZDIzOTkxLTE3Nzc0ODU0NzQxOTUwLWFmYzI0MmE2NWFiZGU0OTgxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://doi.org/10.1088/1741-4326/aace92"
+      },
+      "title": "Investigation of the role of pedestal pressure and collisionality on type-I ELM divertor heat loads in DIII-D",
+      "url": "http://doi.org/10.1088/1741-4326/aace92"
+    },
+    {
+      "meta": {
+        "bytes": 130682,
+        "cache_path": "tierb_cache\\T27\\papers\\52decec5c12c_1460098.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.osti.gov/biblio/1460098",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/biblio/1460098"
+      },
+      "title": "Investigation of the role of pedestal pressure and collisionality on type-I ELM divertor heat loads in DIII-D",
+      "url": "https://www.osti.gov/biblio/1460098"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\7e4d2cfa945e_1.5089895",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/pop/article/26/6/062504/1061753/Impact-of-ELM-control-techniques-on-tungsten",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/1.5089895"
+      },
+      "title": "Impact of ELM control techniques on tungsten sputtering in the DIII-D divertor and extrapolations to ITER",
+      "url": "https://doi.org/10.1063/1.5089895"
+    },
+    {
+      "meta": {
+        "bytes": 1981736,
+        "cache_path": "tierb_cache\\T27\\papers\\4ada178cd50e_1911.02611",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/1911.02611",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/1911.02611"
+      },
+      "title": "Impact of ELM control techniques on tungsten sputtering in the DIII-D divertor and extrapolations to ITER",
+      "url": "https://arxiv.org/pdf/1911.02611"
+    },
+    {
+      "meta": {
+        "bytes": 2674,
+        "cache_path": "tierb_cache\\T27\\papers\\86bb9fb10656_j.fusengdes.2015.12.035",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S092037961530418X",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.fusengdes.2015.12.035"
+      },
+      "title": "Japanese endeavors to establish technological bases for DEMO",
+      "url": "https://doi.org/10.1016/j.fusengdes.2015.12.035"
+    },
+    {
+      "meta": {
+        "bytes": 1728059,
+        "cache_path": "tierb_cache\\T27\\papers\\9adacc5839fc_Nucl.Fusion53_pp104025.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://nifs-repository.repo.nii.ac.jp/record/10709/files/Nucl.Fusion53_pp104025.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://nifs-repository.repo.nii.ac.jp/record/10709/files/Nucl.Fusion53_pp104025.pdf"
+      },
+      "title": "Japanese endeavors to establish technological bases for DEMO",
+      "url": "https://nifs-repository.repo.nii.ac.jp/record/10709/files/Nucl.Fusion53_pp104025.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\50b6a00e2b4c_abce18.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=7bd9f855-1f6a-4917-8589-fde4a0127dd0&ssb=89225278996&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-6587%2Fabce18&ssi=c2d59d74-cnvj-4c5d-8864-915f3ab10e98&ssk=botmanager_support@radware.com&ssm=70728677758950807107357859379756&ssn=3a37bfa3074ca1fc53e33e5b572eed3911082f01a761-2036-44c2-bee31c&sso=957510a5-ae42455922c8c43cca6c3d77cad2f7dff13d2e5e0d9bbba9&ssp=39532011611777441806177747846090336&ssq=46353448548679118036385486271658626662248&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAyZjAxYTc2MS0yMDM2LTQ0YzItYjBhNS1hZTQyNDU1OTIyYzgxLTE3Nzc0ODU0ODYwOTcwLTAwM2JhOTFlMDZiZDI5YmQyZDAxMCIsInV6bXgiOiI3ZjkwMDBhY2JkYzQ0My1jYTZhLTRkZGEtOGU5Yy0wZjNmMmM2MWU2NmIxLTE3Nzc0ODU0ODYwOTcwLWVkZjY3YjA3NjU3OWI2MGQxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1361-6587/abce18"
+      },
+      "title": "On the stability and stationarity of the Super H-mode combined with an ion transport barrier in the core",
+      "url": "https://doi.org/10.1088/1361-6587/abce18"
+    },
+    {
+      "meta": {
+        "bytes": 167663,
+        "cache_path": "tierb_cache\\T27\\papers\\31aa2440b644_1755484.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.osti.gov/biblio/1756059",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/biblio/1755484"
+      },
+      "title": "On the stability and stationarity of the Super H-mode combined with an ion transport barrier in the core",
+      "url": "https://www.osti.gov/biblio/1755484"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\b588460fd708_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=c6dfda93-15ee-4aff-ba1d-23e264f85eef&ssb=79131272209&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Faccded%2Fpdf&ssi=f66901cb-cnvj-417a-8fd6-b2442e672f90&ssk=botmanager_support@radware.com&ssm=94926109110050704102945550345211&ssn=4ca23a0f1205327319a3a1a8e2ba6a363b6612083ea6-bbe4-400b-88f2d7&sso=e6eb2fd3-e37747db92ff4bee652b3a66ecf2e5c576b9ca9e7e52550d&ssp=83533185691777492362177748540002193&ssq=42935858548845596720785488853566985974959&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxMjA4M2VhNi1iYmU0LTQwMGItOGZkMy1lMzc3NDdkYjkyZmYxLTE3Nzc0ODU0ODgyOTMwLTAwMzBlYjM5ZGFlNGYyMDMwNGQxMCIsInV6bXgiOiI3ZjkwMDAzNTViNWU3OS0yZjJkLTQ0YzUtOGUyYy04NWRhYmYwNWIzMDcxLTE3Nzc0ODU0ODgyOTMwLTNlZjk0MGUyNDk2NjdlYmYxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf"
+      },
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\3c77c49a3385_accded.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=f5ea8d73-43c6-4381-9a69-4efea3be5ebd&ssb=87907280731&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Faccded&ssi=8b101942-cnvj-47a9-bd91-4438e2f312a0&ssk=botmanager_support@radware.com&ssm=53665827883385319108877399333301&ssn=70b00d0c2d4d4c6c6b694d097abf1e7650a65956f3b5-bc5b-48bf-ac11e4&sso=141a30b5-69afd736a8de7da49a4c63c223f85fc60ee07627b373d823&ssp=16401053961777477734177748506254926&ssq=66470108548933070815185489337824493689234&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2Y5MDAwOGE0MDUwYjYtYmMyNy00ZmIyLWI2ZTQtMjY1NmUzMzA5ODJlMS0xNzc3NDg1NDg5MTU2MC1lMDM0NTljNTc4OTczZTcwMTAiLCJfX3V6bWYiOiI3ZjkwMDA1OTU2ZjNiNS1iYzViLTQ4YmYtYTBiNS02OWFmZDczNmE4ZGUxLTE3Nzc0ODU0ODkxNTYwLTAwMzllNGE2OTQ3MGMzMGEyOWYxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/accded"
+      },
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST",
+      "url": "https://doi.org/10.1088/1741-4326/accded"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\47e4f8803846_abbf85.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=e7ff2438-b083-473e-8c7b-bb51b9ad7458&ssb=99234222288&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-6587%2Fabbf85&ssi=b5e546ca-cnvj-4f90-b644-dd7f62b17a73&ssk=botmanager_support@radware.com&ssm=55163194399690890105920395717189&ssn=3ce5fbb1c1342e55de99ca51b5616802442711954b18-f1c7-46e0-b8661e&sso=fac1fba8-f0d6d4d0e6ad27012e14a27dc17a8f1051d9bce6010ff8ac&ssp=23330658961777418592177744178388040&ssq=76517808549026391731685490681882827596851&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxMTk1NGIxOC1mMWM3LTQ2ZTAtYmJhOC1mMGQ2ZDRkMGU2YWQxLTE3Nzc0ODU0OTAxNzIwLTAwM2RlMWViZDgzNzgwZTQ5MDAxMCIsInV6bXgiOiI3ZjkwMDAzOTQwZDhlNS1hZjQ1LTQ1ODYtOGM4Zi04NjEyNWMyOTIxOGExLTE3Nzc0ODU0OTAxNzIwLTlhNzE3ODU1YmM5MThkNjMxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1361-6587/abbf85"
+      },
+      "title": "Review: Turbulence dynamics during the pedestal evolution between edge localized modes in magnetic fusion devices",
+      "url": "https://doi.org/10.1088/1361-6587/abbf85"
+    },
+    {
+      "meta": {
+        "bytes": 10163261,
+        "cache_path": "tierb_cache\\T27\\papers\\2f6145edd2b2_1810627.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1810627",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1810627"
+      },
+      "title": "Review: Turbulence dynamics during the pedestal evolution between edge localized modes in magnetic fusion devices",
+      "url": "https://www.osti.gov/servlets/purl/1810627"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\132dd778defd_5.0168955",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/pop/article/31/1/013902/2932418/Validation-of-MARS-F-modeling-of-plasma-response",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0168955"
+      },
+      "title": "Validation of MARS-F modeling of plasma response to RMPs using internal measurements on DIII-D",
+      "url": "https://doi.org/10.1063/5.0168955"
+    },
+    {
+      "meta": {
+        "bytes": 118955,
+        "cache_path": "tierb_cache\\T27\\papers\\802dbfeb34dc_2329319.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.osti.gov/biblio/2567824",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/biblio/2329319"
+      },
+      "title": "Validation of MARS-F modeling of plasma response to RMPs using internal measurements on DIII-D",
+      "url": "https://www.osti.gov/biblio/2329319"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\2f3160d989aa_ab72c0.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=7be38a18-bbb2-44ef-9664-aa140cd8a31d&ssb=94261207436&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fab72c0&ssi=6c2d1ba4-cnvj-48c1-b52e-e31d24cfd33d&ssk=botmanager_support@radware.com&ssm=24491343254699402106612996419132&ssn=87bd7698036555d315809c29f2a97c2b7310188030ae-ca3c-4d56-ac61c1&sso=8c4429fe-1bf17fb47b01515b566b4964913a80b78316f73a884e66a9&ssp=53768800541777496033177746870000876&ssq=30617468551603675537185516688666014199967&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDAxODgwMzBhZS1jYTNjLTRkNTYtYTlmZS0xYmYxN2ZiNDdiMDExLTE3Nzc0ODU1MTYwNTUwLTAwMzg1NTYyYjc1OGE0YjMwODcxMCIsInV6bXgiOiI3ZjkwMDA0NTM0YjYzYS03YWJjLTRlOTEtYjdlNC05YjFlMThjMmEwYWUxLTE3Nzc0ODU1MTYwNTUwLTIwMTA0YTc1YzAyNDdjMDAxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ab72c0"
+      },
+      "title": "Achieving a robust grassy-ELM operation regime in CFETR",
+      "url": "https://doi.org/10.1088/1741-4326/ab72c0"
+    },
+    {
+      "meta": {
+        "bytes": 1897026,
+        "cache_path": "tierb_cache\\T27\\papers\\d0b3c0fc1cd8_Achieving_robust_grassy_elm_clean_02052020_.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://eprints.whiterose.ac.uk/id/eprint/159698/1/Achieving_robust_grassy_elm_clean_02052020_.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://eprints.whiterose.ac.uk/159698/1/Achieving_robust_grassy_elm_clean_02052020_.pdf"
+      },
+      "title": "Achieving a robust grassy-ELM operation regime in CFETR",
+      "url": "https://eprints.whiterose.ac.uk/159698/1/Achieving_robust_grassy_elm_clean_02052020_.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\0eb9815f6a79_ad8ced.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=de2d0c69-32d0-486f-a496-d3fa45e90cce&ssb=03547272932&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fad8ced&ssi=65b3cb7c-cnvj-4424-a968-46fe85e22b3c&ssk=botmanager_support@radware.com&ssm=15062607701197451107960884146993&ssn=3e75094288b731273ea41b51f38a183250c02b822c93-fd47-40d0-b5cc28&sso=cdc07206-a9c8fa2112ddb890659768318771df96af597696aaf43ebd&ssp=74764345621777432308177742620845575&ssq=02809868551761038611185517201842806927677&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAyYjgyMmM5My1mZDQ3LTQwZDAtYjIwNi1hOWM4ZmEyMTEyZGQxLTE3Nzc0ODU1MTc4MzkwLTAwMzQ1MWMxZWNhN2NmNjQ4ZTkxMCIsInV6bXgiOiI3ZjkwMDA0NWMxZmU5YS01OGViLTRjOTMtYTIyOC1iZGE1YTYxMmQwMzgxLTE3Nzc0ODU1MTc4MzkwLTI5ZTQzYWIzOGNlMTI2OTkxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ad8ced"
+      },
+      "title": "Transport and confinement physics: Chapter 2 of the special issue: on the path to tokamak burning plasma operation",
+      "url": "https://doi.org/10.1088/1741-4326/ad8ced"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\1f3c8fcaee92_5.0011008",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/pop/article/27/10/102506/1064916/Optimizing-the-Super-H-mode-pedestal-to-improve",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0011008"
+      },
+      "title": "Optimizing the Super H-mode pedestal to improve performance and facilitate divertor integration",
+      "url": "https://doi.org/10.1063/5.0011008"
+    },
+    {
+      "meta": {
+        "bytes": 3066998,
+        "cache_path": "tierb_cache\\T27\\papers\\0e04a4983ad7_1677414.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1677414",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1677414"
+      },
+      "title": "Optimizing the Super H-mode pedestal to improve performance and facilitate divertor integration",
+      "url": "https://www.osti.gov/servlets/purl/1677414"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\c0c3b7aeff5b_fst14-795.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.tandfonline.com/doi/full/10.13182/FST14-795",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.13182/fst14-795"
+      },
+      "title": "Physics Basis for an Advanced Physics and Advanced Technology Tokamak Power Plant Configuration: ARIES-ACT1",
+      "url": "https://doi.org/10.13182/fst14-795"
+    },
+    {
+      "meta": {
+        "bytes": 259447,
+        "cache_path": "tierb_cache\\T27\\papers\\3cde80cfefd1_1297641.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.osti.gov/biblio/1297641",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/biblio/1297641"
+      },
+      "title": "Physics Basis for an Advanced Physics and Advanced Technology Tokamak Power Plant Configuration: ARIES-ACT1",
+      "url": "https://www.osti.gov/biblio/1297641"
+    },
+    {
+      "meta": {
+        "bytes": 20402239,
+        "cache_path": "tierb_cache\\T27\\papers\\14783e8f9b8e_Thesis_final_singlesided_300dpi.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://etheses.durham.ac.uk/id/eprint/10996/1/Thesis_final_singlesided_300dpi.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://etheses.dur.ac.uk/10996/1/Thesis_final_singlesided_300dpi.pdf"
+      },
+      "title": "A Doppler Coherence Imaging Diagnostic for the Mega-Amp Spherical Tokamak",
+      "url": "http://etheses.dur.ac.uk/10996/1/Thesis_final_singlesided_300dpi.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\8a675ca890a4_ac74d2.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=2707ef05-964e-4926-b638-1934c0bdafa2&ssb=57492224164&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fac74d2&ssi=956df8c1-cnvj-4b33-ad19-b904370f0bad&ssk=botmanager_support@radware.com&ssm=38161883000284681109527892246855&ssn=2b5e331563d98c15f683bce81c9a280ef748ea5c72b1-3879-43dd-ac842f&sso=2449b722-96f694d62b4531013ddda61995e373c41380c0f7a27e52f5&ssp=78407326621777492278177743846170063&ssq=13802538553777036161985537429861426889772&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBlYTVjNzJiMS0zODc5LTQzZGQtYTcyMi05NmY2OTRkNjJiNDUxLTE3Nzc0ODU1Mzc4ODEwLTAwMzI1NTAzMGM0MTdlNzZmZTgxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDA1NTU3NDZlYy02NjYxLTQ1ZGUtODVjZC1jZTNkYjk3MWFiYjExLTE3Nzc0ODU1Mzc4ODEwLTRkMTVjMDQ1ZDhmZmE3YWUxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ac74d2"
+      },
+      "title": "Experimental investigation of beam-ion losses induced by magnetic perturbations using the light ion beam probe technique in the ASDEX Upgrade tokamak",
+      "url": "https://doi.org/10.1088/1741-4326/ac74d2"
+    },
+    {
+      "meta": {
+        "bytes": 6274231,
+        "cache_path": "tierb_cache\\T27\\papers\\ba76f5ba3931_1979418.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1979418",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1979418"
+      },
+      "title": "Experimental investigation of beam-ion losses induced by magnetic perturbations using the light ion beam probe technique in the ASDEX Upgrade tokamak",
+      "url": "https://www.osti.gov/servlets/purl/1979418"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\ea9b206d93b2_rsta.2023.0403",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://royalsocietypublishing.org/doi/10.1098/rsta.2023.0403",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1098/rsta.2023.0403"
+      },
+      "title": "Controlling a new plasma regime",
+      "url": "https://doi.org/10.1098/rsta.2023.0403"
+    },
+    {
+      "meta": {
+        "bytes": 1441,
+        "cache_path": "tierb_cache\\T27\\papers\\ee0deeb31f58_1.5086402",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://aip.scitation.org/doi/pdf/10.1063/1.5086402",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://aip.scitation.org/doi/pdf/10.1063/1.5086402"
+      },
+      "title": "Numerical study of tearing mode seeding in tokamak X-point plasma",
+      "url": "https://aip.scitation.org/doi/pdf/10.1063/1.5086402"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\c09122505ac1_1.5086402",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/pop/article/26/4/042504/257144/Numerical-study-of-tearing-mode-seeding-in-tokamak",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/1.5086402"
+      },
+      "title": "Numerical study of tearing mode seeding in tokamak X-point plasma",
+      "url": "https://doi.org/10.1063/1.5086402"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\cd9af47924b1_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=4b226037-a158-4025-85e0-1782a500f345&ssb=18457241853&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fac301f%2Fpdf&ssi=d282f418-cnvj-4964-9706-f7d03b2a878c&ssk=botmanager_support@radware.com&ssm=30135068049625832102379065976171&ssn=8ae6952c4f2c6200ba9a1b8467ac68e33dcec6bfe729-7fe2-40a1-b76915&sso=e8d7aa60-ef79c73dc8b217f0cc9c771248e72a06416435b4ff6e4712&ssp=10193591731777497497177741515053071&ssq=41181808555422543395585554338887652497395&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDBjNmJmZTcyOS03ZmUyLTQwYTEtYmE2MC1lZjc5YzczZGM4YjIxLTE3Nzc0ODU1NTQ2OTUwLTAwMzgwODQxNDU4ZGNjYjQ0MmYxMCIsInV6bXgiOiI3ZjkwMDA1YzVjOGNiZi1hZmE1LTQ3NmMtODJjNi02ZTQzNmJmNGIzNzMxLTE3Nzc0ODU1NTQ2OTUwLTVlNDkzMjI2MTg2NThmNDAxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ac301f/pdf"
+      },
+      "title": "Overview of the COMPASS results <sup>*</sup>",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ac301f/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\3cfa9aade65c_ac301f.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=0b673c3b-45c3-4786-8b33-8d458dbb9b9b&ssb=31892271630&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fac301f&ssi=dc04affa-cnvj-4581-bead-7277bddc71ef&ssk=botmanager_support@radware.com&ssm=51391286766626059106300667190681&ssn=394806367c34bb6d6b70d6648d9f6895da8689dca43a-7baa-4fa5-935f6a&sso=417aaaea-4ed622b4c4679e6aaa2e57b0e3e45dfa22726dee2a8bcb1c&ssp=29777556101777455486177745212839327&ssq=58781168555534022810885555716360405463583&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDA4OWRjYTQzYS03YmFhLTRmYTUtOWFlYS00ZWQ2MjJiNGM0NjcxLTE3Nzc0ODU1NTU2NTAwLTAwMzFmNWU3MWY0ZWY3YzkyN2MxMCIsInV6bXgiOiI3ZjkwMDA3ZTVjNjAzZC04MTEwLTRjZjMtOWMzYS04YjY2YzUyNDdmMGYxLTE3Nzc0ODU1NTU2NTAwLTExNWU5NDNjNTRkZWY1ODMxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ac301f"
+      },
+      "title": "Overview of the COMPASS results <sup>*</sup>",
+      "url": "https://doi.org/10.1088/1741-4326/ac301f"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\312a22a6b49a_052504_1_5.0198299.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/5.0198299/19935237/052504_1_5.0198299.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/5.0198299/19935237/052504_1_5.0198299.pdf"
+      },
+      "title": "Simulation of neoclassical heavy impurity transport in ASDEX Upgrade with applied 3D magnetic fields using the nonlinear MHD code JOREK",
+      "url": "https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/5.0198299/19935237/052504_1_5.0198299.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\f77243e9978a_5.0198299",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/pop/article/31/5/052504/3290641/Simulation-of-neoclassical-heavy-impurity",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0198299"
+      },
+      "title": "Simulation of neoclassical heavy impurity transport in ASDEX Upgrade with applied 3D magnetic fields using the nonlinear MHD code JOREK",
+      "url": "https://doi.org/10.1063/5.0198299"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\e81ad9050e21_5.0219545",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/rsi/article/95/9/093516/3311986/Frontier-system-on-chip-SoC-technology-for",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0219545"
+      },
+      "title": "Frontier system-on-chip (SoC) technology for microwave diagnostics (invited)",
+      "url": "https://doi.org/10.1063/5.0219545"
+    },
+    {
+      "meta": {
+        "bytes": 9031041,
+        "cache_path": "tierb_cache\\T27\\papers\\7654ce03ebf0_2478397.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/2478397",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/2478397"
+      },
+      "title": "Frontier system-on-chip (SoC) technology for microwave diagnostics (invited)",
+      "url": "https://www.osti.gov/servlets/purl/2478397"
+    },
+    {
+      "meta": {
+        "bytes": 4488797,
+        "cache_path": "tierb_cache\\T27\\papers\\3d56bc5dd53f_s41614-023-00119-2.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s41614-023-00119-2.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/content/pdf/10.1007/s41614-023-00119-2.pdf"
+      },
+      "title": "Recent advances in developing natural and impurity-induced small/no-ELM H-mode regimes in EAST",
+      "url": "https://link.springer.com/content/pdf/10.1007/s41614-023-00119-2.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 559056,
+        "cache_path": "tierb_cache\\T27\\papers\\c87bcbdb827c_s41614-023-00119-2.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://link.springer.com/article/10.1007/s41614-023-00119-2",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1007/s41614-023-00119-2"
+      },
+      "title": "Recent advances in developing natural and impurity-induced small/no-ELM H-mode regimes in EAST",
+      "url": "https://doi.org/10.1007/s41614-023-00119-2"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\c07a0bcf29bd_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=6dfc80b4-2fd0-4726-827a-b1218166b79d&ssb=85320238131&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fad5e97%2Fpdf&ssi=456b414d-cnvj-4b16-8417-11773b022d2c&ssk=botmanager_support@radware.com&ssm=97637008625092318104488345576757&ssn=6a0226f7ff20a459d7cff8353db94983ff5a3d4ca235-481e-4f27-b4148c&sso=ca178c9c-8ca3278ad1eb13027e5a98c3bf85454d015b2e9001bdfdbc&ssp=13808056551777410597177746742824915&ssq=85120648558254927542385582725542087667879&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAzZDRjYTIzNS00ODFlLTRmMjctYmM5Yy04Y2EzMjc4YWQxZWIxLTE3Nzc0ODU1ODIwMTUwLTAwMzY3ODM3MjI0NjQ1YWEzMjgxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDA1MzRjZjRlNi0xZWVkLTQ1YjktYTAxMS03NzkxZDhlODYxZGIxLTE3Nzc0ODU1ODIwMTUwLTM3MjA0ZTZmZmQzMmIxYWYxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ad5e97/pdf"
+      },
+      "title": "Non-linear MHD investigations of high-confinement regimes without type-I ELMs in ASDEX Upgrade and JT-60SA",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ad5e97/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\bf9e5fd5f479_ad5e97.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=116ab09b-627f-42a4-bab4-afa3ee643b3a&ssb=85320238131&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fad5e97&ssi=19b447d1-cnvj-430e-be3b-03f0443a7e58&ssk=botmanager_support@radware.com&ssm=97637008625092318104488345576757&ssn=6a0226f73d1b732ac9288f7f29464983ff5a0577c803-2a85-435c-94148c&sso=ca178c2c-72fb241cb2ec13027e5adcd556d42de885161f6501bdfdbc&ssp=13808056551777410597177746742824915&ssq=85120648558254927542385582725542087667879&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAwNTc3YzgwMy0yYTg1LTQzNWMtOWMyYy03MmZiMjQxY2IyZWMxLTE3Nzc0ODU1ODI4ODIwLTAwMzAxOThkZTI5ZTM0MzhhZTUxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDAwNGFlNWQ4OC1mZWUzLTQzYmItYmNjNy01NWYxZGViYzc4ZWIxLTE3Nzc0ODU1ODI4ODIwLWE1ZWVkYmY0NjI1Mjg3YjExMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ad5e97"
+      },
+      "title": "Non-linear MHD investigations of high-confinement regimes without type-I ELMs in ASDEX Upgrade and JT-60SA",
+      "url": "https://doi.org/10.1088/1741-4326/ad5e97"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\68b9e903fcb0_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=b936c0e3-520a-45a5-839e-1c119b935b95&ssb=06149283088&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Faca169%2Fpdf&ssi=cd9dab97-cnvj-406f-a56b-da6c1c39ac19&ssk=botmanager_support@radware.com&ssm=90297416359942784109289109215067&ssn=d9bfe9bae74dbcfef2ac632c5d76b198668eddef39d1-ec3d-4d65-940590&sso=cbbe0c49-b37b2d0b647e055a1141babbc2d6abb467982b8c5ce675e8&ssp=55629751351777418798177749795960690&ssq=09933228558344050253285583996963858140199&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2Y5MDAwYWY0NTMzOWMtZjE3NS00YjcwLWJkZDItY2Y5ZWQxZjRhZGQxMS0xNzc3NDg1NTgzNTQ3MC0zOWM1MGJlZDg3ZDc0YTg3MTAiLCJfX3V6bWYiOiI3ZjkwMDBkZGVmMzlkMS1lYzNkLTRkNjUtOWM0OS1iMzdiMmQwYjY0N2UxLTE3Nzc0ODU1ODM1NDcwLTAwM2I3ZjQxYmViMDliMTFhMTIxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1741-4326/aca169/pdf"
+      },
+      "title": "Toroidal modeling of 3D perturbations generated by current filaments in scrape-off layer in tokamak with biased divertor targets",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-4326/aca169/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\aa5ad6ddecb4_aca169.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=dd5307bc-2a5f-4ac4-b2ea-1741c7ceec5f&ssb=00336261637&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Faca169&ssi=682ac67d-cnvj-4004-8cf6-d94758aae216&ssk=botmanager_support@radware.com&ssm=13073724466675124107162848217730&ssn=2f76c563df8292a7e666b91da2ed89e0b01cab05a3a5-921b-44fc-b2e343&sso=6a86b94c-f88e0c90dad45a95e22b056d0897e115cdf8eaee929bfa52&ssp=97482904771777479981177746731472465&ssq=83609628558452857833185584930897022413611&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDBhYjA1YTNhNS05MjFiLTQ0ZmMtYjk0Yy1mODhlMGM5MGRhZDQxLTE3Nzc0ODU1ODQ0NTcwLTAwM2M1OWM2MjEzZGM1Nzk1YWIxMCIsInV6bXgiOiI3ZjkwMDAyYzMwYTRhYS02ZDRhLTQ0MWItYTE4Zi03NTdjNDgxODRjY2MxLTE3Nzc0ODU1ODQ0NTcwLTQ3M2FkYTdkZWM1MDEyMTExMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/aca169"
+      },
+      "title": "Toroidal modeling of 3D perturbations generated by current filaments in scrape-off layer in tokamak with biased divertor targets",
+      "url": "https://doi.org/10.1088/1741-4326/aca169"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\a12b1e8616bd_abd641.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=4b028138-a35d-4713-be8c-297960180700&ssb=22598224475&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fabd641&ssi=f2d1c216-cnvj-4611-a5e8-d3bedf6d9487&ssk=botmanager_support@radware.com&ssm=60959754331081138107659973191162&ssn=e686728f35d19cbee757f1851cf99e52f9c1236d5a29-c8e9-47b6-8a04c6&sso=60fc0d54-3e225ec1859ccc4fe5a77205c6e9ad421ba204962eddf759&ssp=21960974881777462559177742601667778&ssq=05408388558579567259485585307046192650370&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAyMzZkNWEyOS1jOGU5LTQ3YjYtOGQ1NC0zZTIyNWVjMTg1OWMxLTE3Nzc0ODU1ODU2MDYwLTAwMzgzNDcxZDk2ZDYxMTdlOGYxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDAxNzdkYzVlNC1lNmEwLTQyZjEtOTMyNS0zMGZiOWU0MTc4NDMxLTE3Nzc0ODU1ODU2MDYwLWM3ZTc1NDQ3ZDU5MWM5ZDcxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/abd641"
+      },
+      "title": "Impact of shape on pedestal characteristics in the wide pedestal quiescent H-mode in the DIII-D tokamak",
+      "url": "https://doi.org/10.1088/1741-4326/abd641"
+    },
+    {
+      "meta": {
+        "bytes": 116227,
+        "cache_path": "tierb_cache\\T27\\papers\\a5e3f750896d_1768021.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.osti.gov/biblio/1768021",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/biblio/1768021"
+      },
+      "title": "Impact of shape on pedestal characteristics in the wide pedestal quiescent H-mode in the DIII-D tokamak",
+      "url": "https://www.osti.gov/biblio/1768021"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\e1b6aff87a6a_ac286f.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=3dd1faff-a5e8-4cef-84ad-55813f37831d&ssb=46928266434&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Fac286f&ssi=10df4da4-cnvj-4222-a565-8f873c14f3b0&ssk=botmanager_support@radware.com&ssm=54019684301693410105252086326657&ssn=5830c811790a279cb42f8b0ca81bd44b65bd196695e8-0206-42d6-b40235&sso=a17bfe9a-df00e50cb7764fca43911b10d707ccc5b11add734330c106&ssp=15056228441777422378177747483105722&ssq=86144098558721207733885587727604326576932&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxOTY2OTVlOC0wMjA2LTQyZDYtYmU5YS1kZjAwZTUwY2I3NzYxLTE3Nzc0ODU1ODc1MTkwLTAwMzFjZjcxMjQ2YzlkODlkYmQxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDA3NTY4YTcwMi0wYmM1LTQyMWMtYTg4MC1hZDZmMDI3OWE4ZTkxLTE3Nzc0ODU1ODc1MTkwLWNkMjI3N2Y4OTUzOWM0ZDUxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ac286f"
+      },
+      "title": "Exploration of RMP ELM control on ITER-similar shape (ISS) in KSTAR",
+      "url": "https://doi.org/10.1088/1741-4326/ac286f"
+    },
+    {
+      "meta": {
+        "bytes": 1390057,
+        "cache_path": "tierb_cache\\T27\\papers\\5de9027fd148_1979394.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1979394",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1979394"
+      },
+      "title": "Exploration of RMP ELM control on ITER-similar shape (ISS) in KSTAR",
+      "url": "https://www.osti.gov/servlets/purl/1979394"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\papers\\e056507e4895_S0920379619303229.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S0920379619303229",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0920379619303229"
+      },
+      "title": "Sensitivity of fast ion losses to magnetic perturbations in the European DEMO",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0920379619303229"
+    },
+    {
+      "meta": {
+        "bytes": 2691,
+        "cache_path": "tierb_cache\\T27\\papers\\aac9417592ac_j.fusengdes.2019.03.001",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0920379619303229",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.fusengdes.2019.03.001"
+      },
+      "title": "Sensitivity of fast ion losses to magnetic perturbations in the European DEMO",
+      "url": "https://doi.org/10.1016/j.fusengdes.2019.03.001"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\855469cc5e16_ac93b0.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=8e2a0afa-9fff-41cc-b9f5-1f31f9757a86&ssb=84003245921&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-6587%2Fac93b0&ssi=090e4cff-cnvj-4748-9041-f2eefd0ecc89&ssk=botmanager_support@radware.com&ssm=13111449735372286109506198834458&ssn=dbf9e76faad4983827aa99da185d41ce078d990da8da-0ed7-4a97-8134de&sso=954b3203-6f7fbb7425818b60b8eecdaf63126388b02b0be83d8d235e&ssp=06257732841777469753177746721151137&ssq=43021848559374233639985593989340437303607&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDA5OTBkYThkYS0wZWQ3LTRhOTctODIwMy02ZjdmYmI3NDI1ODExLTE3Nzc0ODU1OTM1MTgwLTAwM2Q2MGM1Y2Y1OGE1OWZjMDcxMCIsInV6bXgiOiI3ZjkwMDAxNDY4NjViZi1lMjFmLTQxMDktYTFkZi1lNGI2YjJjZmE4MWMxLTE3Nzc0ODU1OTM1MTgwLWJmMDU5OTU0MDg4MTdlZDAxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1361-6587/ac93b0"
+      },
+      "title": "Theory of mean E \u00d7 B shear in a stochastic magnetic field: ambipolarity breaking and radial current",
+      "url": "https://doi.org/10.1088/1361-6587/ac93b0"
+    },
+    {
+      "meta": {
+        "bytes": 1114035,
+        "cache_path": "tierb_cache\\T27\\papers\\4992a6beeb40_1893896.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1893896",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1893896"
+      },
+      "title": "Theory of mean E \u00d7 B shear in a stochastic magnetic field: ambipolarity breaking and radial current",
+      "url": "https://www.osti.gov/servlets/purl/1893896"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\47938e09815c_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=a941fbe6-4bf0-45ee-bb36-17ccb9feb608&ssb=61859219863&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Face26e%2Fpdf&ssi=37533cf8-cnvj-4c26-b07b-4f9dcb653a33&ssk=botmanager_support@radware.com&ssm=73394608653323457100070249602468&ssn=c4c9f778935ab187af822467a6f4297217addee56c21-12d2-4be8-92204f&sso=7ba820c4-e658d4219fd414fa9a397465b8b67581003ea018df813f16&ssp=01001953521777434278177742031859699&ssq=89848398559712479667685597914137308467182&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDBkZWU1NmMyMS0xMmQyLTRiZTgtOTBjNC1lNjU4ZDQyMTlmZDQxLTE3Nzc0ODU1OTc1OTIwLTAwM2NjM2RkOGJjYjQ5MWZiNDMxMCIsInV6bXgiOiI3ZjkwMDA5ZmJmZDk2ZC1lZTZjLTQyODItOTk3Zi0wMzFkZDgxZGJlYzIxLTE3Nzc0ODU1OTc1OTIwLWYxMjY0ZjQ3NjQxODI3NzMxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ace26e/pdf"
+      },
+      "title": "Investigation of helium exhaust dynamics at the ASDEX Upgrade tokamak with full-tungsten wall",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ace26e/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache\\T27\\papers\\a9a6e933e279_ace26e.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=a31add9a-9f4c-473e-bb7a-e8690ad9ed7a&ssb=22357298820&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1741-4326%2Face26e&ssi=da9a9071-cnvj-427f-9fb0-c338b5d748f8&ssk=botmanager_support@radware.com&ssm=49678198925161480109494193429977&ssn=e59b97e4740da380afe236b488665b9e33fde5ccf84f-7708-438d-b5d3d3&sso=702f3c7c-370eedf4529af542a4425c65c03a7d397fb7eaee85ffdee8&ssp=26991033161777414383177741849809563&ssq=62267748559875441308285598395696350304923&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBlNWNjZjg0Zi03NzA4LTQzOGQtYmM3Yy0zNzBlZWRmNDUyOWExLTE3Nzc0ODU1OTg1MDUwLTAwM2U4ZjExODgzNjZhYTA3ZTIxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDA2ODE2OTAwMC1lNmM0LTQ5ZmMtODk2My1mZmM4ODBkNjRkOGMxLTE3Nzc0ODU1OTg1MDUwLWZjZDgzNDRiYTQ3MGQ1NWQxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1741-4326/ace26e"
+      },
+      "title": "Investigation of helium exhaust dynamics at the ASDEX Upgrade tokamak with full-tungsten wall",
+      "url": "https://doi.org/10.1088/1741-4326/ace26e"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\data_links\\7cdbf68a86d0_1.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/article/10.1007/s10894-018-0185-y/tables/1",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/article/10.1007/s10894-018-0185-y/tables/1"
+      },
+      "url": "https://doi.org/article/10.1007/s10894-018-0185-y/tables/1"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache\\T27\\data_links\\a0a273425e21_2.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/article/10.1007/s10894-018-0185-y/tables/2",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/article/10.1007/s10894-018-0185-y/tables/2"
+      },
+      "url": "https://doi.org/article/10.1007/s10894-018-0185-y/tables/2"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 37680,
+        "cache_path": "tierb_cache\\T27\\data_links\\fe3e42153c2d_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2002NucFu..42..614L/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2002NucFu..42..614L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2002NucFu..42..614L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 46673,
+        "cache_path": "tierb_cache\\T27\\data_links\\98be7d49f3b6_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1999NucFu..39.2137I/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999NucFu..39.2137I"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999NucFu..39.2137I"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 35064,
+        "cache_path": "tierb_cache\\T27\\data_links\\19c6a7134fc2_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1993PPCF...35...39K/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993PPCF...35...39K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993PPCF...35...39K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 39535,
+        "cache_path": "tierb_cache\\T27\\data_links\\49b237678d4b_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1994PPCF...36..213G/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PPCF...36..213G"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PPCF...36..213G"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 39232,
+        "cache_path": "tierb_cache\\T27\\data_links\\b94a9291548a_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1994PPCF...36..229T/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PPCF...36..229T"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1994PPCF...36..229T"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 42957,
+        "cache_path": "tierb_cache\\T27\\data_links\\0fb3dd5d2467_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1995NucFu..35..551G/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995NucFu..35..551G"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995NucFu..35..551G"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 42143,
+        "cache_path": "tierb_cache\\T27\\data_links\\f05cdac9faed_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2011PhPl...18c0501L/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhPl...18c0501L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhPl...18c0501L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 35111,
+        "cache_path": "tierb_cache\\T27\\data_links\\92d5868ad640_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1968JETP...26..233G/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1968JETP...26..233G"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1968JETP...26..233G"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 37640,
+        "cache_path": "tierb_cache\\T27\\data_links\\4727310cd487_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1987RvMP...59..175F/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1987RvMP...59..175F"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1987RvMP...59..175F"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 50409,
+        "cache_path": "tierb_cache\\T27\\data_links\\a4a1f7c21d10_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2009NucFu..49g5029T/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009NucFu..49g5029T"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009NucFu..49g5029T"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 44458,
+        "cache_path": "tierb_cache\\T27\\data_links\\f530d1e5dee1_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2015NucFu..55e3027K/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55e3027K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55e3027K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 53335,
+        "cache_path": "tierb_cache\\T27\\data_links\\e964485435d8_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2016NucFu..56j6023M/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016NucFu..56j6023M"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016NucFu..56j6023M"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 35144,
+        "cache_path": "tierb_cache\\T27\\data_links\\eeaa1dec04f7_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2010rast.book.....C/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010rast.book.....C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010rast.book.....C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 43421,
+        "cache_path": "tierb_cache\\T27\\data_links\\150c5eef9f6f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2014NucFu..54g3015G/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014NucFu..54g3015G"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014NucFu..54g3015G"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 45057,
+        "cache_path": "tierb_cache\\T27\\data_links\\87362163ca46_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2014ITPS...42..503S/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014ITPS...42..503S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014ITPS...42..503S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 49211,
+        "cache_path": "tierb_cache\\T27\\data_links\\931df0c4858d_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1997PhPl....4.1654S/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhPl....4.1654S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhPl....4.1654S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 48351,
+        "cache_path": "tierb_cache\\T27\\data_links\\71d92f5ffad0_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2011NucFu..51f3026F/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011NucFu..51f3026F"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011NucFu..51f3026F"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 38644,
+        "cache_path": "tierb_cache\\T27\\data_links\\729e7a565286_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1985PhLA..110...29T/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1985PhLA..110...29T"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1985PhLA..110...29T"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 42925,
+        "cache_path": "tierb_cache\\T27\\data_links\\c70f79033ff5_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/1998NucFu..38.1467T/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1998NucFu..38.1467T"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1998NucFu..38.1467T"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 43953,
+        "cache_path": "tierb_cache\\T27\\data_links\\3510e4d2419c_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2006PhPl...13b2305K/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhPl...13b2305K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhPl...13b2305K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 44457,
+        "cache_path": "tierb_cache\\T27\\data_links\\4454fe22f51f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/abs/2015NucFu..55b3017C/abstract",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55b3017C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NucFu..55b3017C"
+    }
+  ],
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-04-29T18:02:52Z",
+  "numeric_tables_count": 0,
+  "numeric_text_values_count": 3145,
+  "parsed_tables_count": 46,
+  "prediction_ids": [
+    "FR6"
+  ],
+  "prediction_names": [
+    "ELM frequency proportional to separatrix magnetic helicity proxy |H_mag|"
+  ],
+  "queries": [
+    "RMP coil phasing ELM frequency DIII-D JET ASDEX Upgrade table",
+    "resonant magnetic perturbation ELM suppression coil current phasing ELM frequency"
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "partial",
+  "table_summaries": [
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf",
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/abf99f/pdf",
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/abf99f",
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/abf99f",
+      "title": "The JOREK non-linear extended MHD code and applications to large-scale instabilities and their control in magnetically confined fusion plasmas"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/0741-3335/58/11/114006",
+      "title": "Modelling of plasma response to 3D external magnetic field perturbations in EAST"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/0741-3335/58/11/114006",
+      "title": "Modelling of plasma response to 3D external magnetic field perturbations in EAST"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "http://doi.org/10.1088/1741-4326/aace92",
+      "title": "Investigation of the role of pedestal pressure and collisionality on type-I ELM divertor heat loads in DIII-D"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "http://doi.org/10.1088/1741-4326/aace92",
+      "title": "Investigation of the role of pedestal pressure and collisionality on type-I ELM divertor heat loads in DIII-D"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1361-6587/abce18",
+      "title": "On the stability and stationarity of the Super H-mode combined with an ion transport barrier in the core"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1361-6587/abce18",
+      "title": "On the stability and stationarity of the Super H-mode combined with an ion transport barrier in the core"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf",
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/accded/pdf",
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/accded",
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/accded",
+      "title": "The effect of plasma beta on error-field penetration in radio-frequency wave heated plasmas in EAST"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1361-6587/abbf85",
+      "title": "Review: Turbulence dynamics during the pedestal evolution between edge localized modes in magnetic fusion devices"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1361-6587/abbf85",
+      "title": "Review: Turbulence dynamics during the pedestal evolution between edge localized modes in magnetic fusion devices"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ab72c0",
+      "title": "Achieving a robust grassy-ELM operation regime in CFETR"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ab72c0",
+      "title": "Achieving a robust grassy-ELM operation regime in CFETR"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ad8ced",
+      "title": "Transport and confinement physics: Chapter 2 of the special issue: on the path to tokamak burning plasma operation"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ad8ced",
+      "title": "Transport and confinement physics: Chapter 2 of the special issue: on the path to tokamak burning plasma operation"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ac74d2",
+      "title": "Experimental investigation of beam-ion losses induced by magnetic perturbations using the light ion beam probe technique in the ASDEX Upgrade tokamak"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ac74d2",
+      "title": "Experimental investigation of beam-ion losses induced by magnetic perturbations using the light ion beam probe technique in the ASDEX Upgrade tokamak"
+    },
+    {
+      "columns": [
+        "if",
+        "(typeof",
+        "phantom",
+        "!==",
+        "'undefined')",
+        "return",
+        "'phantom';"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        63,
+        7
+      ],
+      "source_url": "https://aip.scitation.org/doi/pdf/10.1063/1.5086402",
+      "title": "Numerical study of tearing mode seeding in tokamak X-point plasma"
+    },
+    {
+      "columns": [
+        "if",
+        "(typeof",
+        "module",
+        "!==",
+        "'undefined'",
+        "&&",
+        "module.exports)",
+        "return",
+        "'node';"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        62,
+        9
+      ],
+      "source_url": "https://aip.scitation.org/doi/pdf/10.1063/1.5086402",
+      "title": "Numerical study of tearing mode seeding in tokamak X-point plasma"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/ac301f/pdf",
+      "title": "Overview of the COMPASS results <sup>*</sup>"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/ac301f/pdf",
+      "title": "Overview of the COMPASS results <sup>*</sup>"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ac301f",
+      "title": "Overview of the COMPASS results <sup>*</sup>"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ac301f",
+      "title": "Overview of the COMPASS results <sup>*</sup>"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/ad5e97/pdf",
+      "title": "Non-linear MHD investigations of high-confinement regimes without type-I ELMs in ASDEX Upgrade and JT-60SA"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/ad5e97/pdf",
+      "title": "Non-linear MHD investigations of high-confinement regimes without type-I ELMs in ASDEX Upgrade and JT-60SA"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ad5e97",
+      "title": "Non-linear MHD investigations of high-confinement regimes without type-I ELMs in ASDEX Upgrade and JT-60SA"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ad5e97",
+      "title": "Non-linear MHD investigations of high-confinement regimes without type-I ELMs in ASDEX Upgrade and JT-60SA"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/aca169/pdf",
+      "title": "Toroidal modeling of 3D perturbations generated by current filaments in scrape-off layer in tokamak with biased divertor targets"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/aca169/pdf",
+      "title": "Toroidal modeling of 3D perturbations generated by current filaments in scrape-off layer in tokamak with biased divertor targets"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/aca169",
+      "title": "Toroidal modeling of 3D perturbations generated by current filaments in scrape-off layer in tokamak with biased divertor targets"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/aca169",
+      "title": "Toroidal modeling of 3D perturbations generated by current filaments in scrape-off layer in tokamak with biased divertor targets"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/abd641",
+      "title": "Impact of shape on pedestal characteristics in the wide pedestal quiescent H-mode in the DIII-D tokamak"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/abd641",
+      "title": "Impact of shape on pedestal characteristics in the wide pedestal quiescent H-mode in the DIII-D tokamak"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ac286f",
+      "title": "Exploration of RMP ELM control on ITER-similar shape (ISS) in KSTAR"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ac286f",
+      "title": "Exploration of RMP ELM control on ITER-similar shape (ISS) in KSTAR"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1361-6587/ac93b0",
+      "title": "Theory of mean E \u00d7 B shear in a stochastic magnetic field: ambipolarity breaking and radial current"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1361-6587/ac93b0",
+      "title": "Theory of mean E \u00d7 B shear in a stochastic magnetic field: ambipolarity breaking and radial current"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/ace26e/pdf",
+      "title": "Investigation of helium exhaust dynamics at the ASDEX Upgrade tokamak with full-tungsten wall"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://iopscience.iop.org/article/10.1088/1741-4326/ace26e/pdf",
+      "title": "Investigation of helium exhaust dynamics at the ASDEX Upgrade tokamak with full-tungsten wall"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ace26e",
+      "title": "Investigation of helium exhaust dynamics at the ASDEX Upgrade tokamak with full-tungsten wall"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a.src = u;"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        43,
+        3
+      ],
+      "source_url": "https://doi.org/10.1088/1741-4326/ace26e",
+      "title": "Investigation of helium exhaust dynamics at the ASDEX Upgrade tokamak with full-tungsten wall"
+    }
+  ],
+  "test_id": "T27",
+  "test_name": "ELM helicity proxy",
+  "text_value_sample": [
+    {
+      "context": "> The energy confinement time \u03c4<sub>E</sub> is plotted against line-averaged density at two distinct power levels, i.e., 10.5 MW (red circles) and 14.4 (black squares). <b>b</b> The ELM frequency \u03bd<sub>ELM</sub> is plotted against line-averaged density for the same data set. Density was raised by injecting deuterium gas.</p></div></div></figure></d",
+      "term": "E[_ -]?ELM",
+      "value": 10.5
+    },
+    {
+      "context": "> The energy confinement time \u03c4<sub>E</sub> is plotted against line-averaged density at two distinct power levels, i.e., 10.5 MW (red circles) and 14.4 (black squares). <b>b</b> The ELM frequency \u03bd<sub>ELM</sub> is plotted against line-averaged density for the same data set. Density was raised by injecting deuterium gas.</p></div></div></figure></d",
+      "term": "E[_ -]?ELM",
+      "value": 14.4
+    },
+    {
+      "context": "> The energy confinement time \u03c4<sub>E</sub> is plotted against line-averaged density at two distinct power levels, i.e., 10.5 MW (red circles) and 14.4 (black squares). <b>b</b> The ELM frequency \u03bd<sub>ELM</sub> is plotted against line-averaged density for the same data set. Density was raised by injecting deuterium gas.</p></div></div></figure></d",
+      "term": "E[_ -]?ELM",
+      "value": 2.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": 55.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": 123025.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": 2015.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": 10.1007
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": 10894.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": -18.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": -185.0
+    },
+    {
+      "context": "ty, J. Qian, C. Paz-Soldan, G. Xu, Nucl. Fusion 55, 123025 (2015)\" href=\"/article/10.1007/s10894-018-0185-y#ref-CR37\" id=\"ref-link-section-d135227055e8225\">37</a>]. The kink and the ELM that drives it both typically evolve on a sub-millisecond time scale, shorter than the time constant of the vessel wall, and thus the instability behaves as an idea",
+      "term": "E[_ -]?ELM",
+      "value": 37.0
+    },
+    {
+      "context": "r relevant physics regimes. Radiative techniques have also been pioneered to develop improved compatibility with divertor requirements, and simultaneous access to high performance pedestals. Research has also developed major advances in physics understanding, validating concepts of kinetic damping of ideal MHD instabilities that enable high &#946; ",
+      "term": "pedestal",
+      "value": 946.0
+    },
+    {
+      "context": "r relevant physics regimes. Radiative techniques have also been pioneered to develop improved compatibility with divertor requirements, and simultaneous access to high performance pedestals. Research has also developed major advances in physics understanding, validating concepts of kinetic damping of ideal MHD instabilities that enable high &#946; ",
+      "term": "pedestal",
+      "value": 946.0
+    },
+    {
+      "context": "olution procedure to find a steady-state solution (d/dt ~ 0) of core transport, self-consistent with external heating/current drive, MHD equilibrium, ideal MHD stability, and edge pedestal, built upon a modern integrated modeling framework, Integrated Plasma Simulator (IPS). Recently, remarkable progress has been made in improving the individual el",
+      "term": "pedestal",
+      "value": 0.0
+    },
+    {
+      "context": "nd 5th (solid) iterations of the steady-state solution procedures to update the sources, MHD equilibrium, and boundary conditions. The vertical line shows the location of the edge pedestal top.</p></div></div></figure></div><p>In addition to guiding the DIII-D experiment and H/CD upgrade (\"<a data-track=\"click\" data-track-label=\"link\" data-track-ac",
+      "term": "pedestal",
+      "value": 5.0
+    },
+    {
+      "context": "le-section__figure-description\" data-test=\"bottom-caption\" id=\"figure-7-desc\"><p>Self-consistent profiles for ITER steady-state Q<sub>fus</sub> \u2248 5 case from FASTRAN simulation if pedestal is increased over EPED predictions: <b>a</b> electron and ion temperatures, <b>b</b> electron, fuel ion and helium ash densities, <b>c</b> toroidal rotation and ",
+      "term": "pedestal",
+      "value": -7.0
+    },
+    {
+      "context": "le-section__figure-description\" data-test=\"bottom-caption\" id=\"figure-7-desc\"><p>Self-consistent profiles for ITER steady-state Q<sub>fus</sub> \u2248 5 case from FASTRAN simulation if pedestal is increased over EPED predictions: <b>a</b> electron and ion temperatures, <b>b</b> electron, fuel ion and helium ash densities, <b>c</b> toroidal rotation and ",
+      "term": "pedestal",
+      "value": 5.0
+    },
+    {
+      "context": "en the central solenoid current was frozen between 2.5 and 5.5 s. The RMP stabilization of type-I ELMs is predominantly through density pumpout, partially compensated by increased pedestal temperature, which shifts the pedestal from the unstable region for peeling\u2013ballooning modes to the stable region. A new finding in this steady-state hybrid regi",
+      "term": "pedestal",
+      "value": 2.5
+    },
+    {
+      "context": "en the central solenoid current was frozen between 2.5 and 5.5 s. The RMP stabilization of type-I ELMs is predominantly through density pumpout, partially compensated by increased pedestal temperature, which shifts the pedestal from the unstable region for peeling\u2013ballooning modes to the stable region. A new finding in this steady-state hybrid regi",
+      "term": "pedestal",
+      "value": 5.5
+    },
+    {
+      "context": "zen between 2.5 and 5.5 s. The RMP stabilization of type-I ELMs is predominantly through density pumpout, partially compensated by increased pedestal temperature, which shifts the pedestal from the unstable region for peeling\u2013ballooning modes to the stable region. A new finding in this steady-state hybrid regime from ideal MHD modeling using the GP",
+      "term": "pedestal",
+      "value": 2.5
+    },
+    {
+      "context": "zen between 2.5 and 5.5 s. The RMP stabilization of type-I ELMs is predominantly through density pumpout, partially compensated by increased pedestal temperature, which shifts the pedestal from the unstable region for peeling\u2013ballooning modes to the stable region. A new finding in this steady-state hybrid regime from ideal MHD modeling using the GP",
+      "term": "pedestal",
+      "value": 5.5
+    },
+    {
+      "context": "However the <i>l</i><sub><i>i</i></sub> is not sustained because the current is not distributed centrally enough to maintain it. Further current drive upgrades and work to control pedestal height are projected to address this.</p><p>Discharges in the planned ITER shape, scaled to fit into the DIII-D vacuum vessel, have been studied with q<sub>95</s",
+      "term": "pedestal",
+      "value": 95.0
+    },
+    {
+      "context": "However the <i>l</i><sub><i>i</i></sub> is not sustained because the current is not distributed centrally enough to maintain it. Further current drive upgrades and work to control pedestal height are projected to address this.</p><p>Discharges in the planned ITER shape, scaled to fit into the DIII-D vacuum vessel, have been studied with q<sub>95</s",
+      "term": "pedestal",
+      "value": 4.8
+    },
+    {
+      "context": "B<sub>T</sub> = 1.7 T, I<sub>p</sub> = 0.92 MA.</p></div></div></figure></div><p>A high <i>l</i><sub><i>i</i></sub> scenario is a possibility for ITER in the event that the H-mode pedestal pressure is found to be too low to achieve the target fusion gain for the steady-state mission at high <i>q</i><sub><i>min</i></sub> &gt; 2. ELM mitigation using",
+      "term": "pedestal",
+      "value": 1.7
+    },
+    {
+      "context": "B<sub>T</sub> = 1.7 T, I<sub>p</sub> = 0.92 MA.</p></div></div></figure></div><p>A high <i>l</i><sub><i>i</i></sub> scenario is a possibility for ITER in the event that the H-mode pedestal pressure is found to be too low to achieve the target fusion gain for the steady-state mission at high <i>q</i><sub><i>min</i></sub> &gt; 2. ELM mitigation using",
+      "term": "pedestal",
+      "value": 0.92
+    },
+    {
+      "context": "B<sub>T</sub> = 1.7 T, I<sub>p</sub> = 0.92 MA.</p></div></div></figure></div><p>A high <i>l</i><sub><i>i</i></sub> scenario is a possibility for ITER in the event that the H-mode pedestal pressure is found to be too low to achieve the target fusion gain for the steady-state mission at high <i>q</i><sub><i>min</i></sub> &gt; 2. ELM mitigation using",
+      "term": "pedestal",
+      "value": 2.0
+    },
+    {
+      "context": "B<sub>T</sub> = 1.7 T, I<sub>p</sub> = 0.92 MA.</p></div></div></figure></div><p>A high <i>l</i><sub><i>i</i></sub> scenario is a possibility for ITER in the event that the H-mode pedestal pressure is found to be too low to achieve the target fusion gain for the steady-state mission at high <i>q</i><sub><i>min</i></sub> &gt; 2. ELM mitigation using",
+      "term": "pedestal",
+      "value": 3.0
+    },
+    {
+      "context": " to achieve the target fusion gain for the steady-state mission at high <i>q</i><sub><i>min</i></sub> &gt; 2. ELM mitigation using 3D magnetic fields, for instance, can reduce the pedestal density and pressure, an effect that would reduce the bootstrap current density near the plasma boundary, leading naturally to increased <i>l</i><sub><i>i</i></s",
+      "term": "pedestal",
+      "value": 2.0
+    },
+    {
+      "context": " to achieve the target fusion gain for the steady-state mission at high <i>q</i><sub><i>min</i></sub> &gt; 2. ELM mitigation using 3D magnetic fields, for instance, can reduce the pedestal density and pressure, an effect that would reduce the bootstrap current density near the plasma boundary, leading naturally to increased <i>l</i><sub><i>i</i></s",
+      "term": "pedestal",
+      "value": 3.0
+    },
+    {
+      "context": "ffect that would reduce the bootstrap current density near the plasma boundary, leading naturally to increased <i>l</i><sub><i>i</i></sub>. The effect of a reduction in the H-mode pedestal pressure was tested in DIII-D by applying n = 3 fields from the internal non-axisymmetric coils. As the n = 3 field amplitude was increased, the pedestal pressur",
+      "term": "pedestal",
+      "value": 3.0
+    }
+  ]
+}

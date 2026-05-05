@@ -1,0 +1,32 @@
+{
+  "constant_record": {
+    "Vcb": 0.041,
+    "Vub": 0.00382,
+    "Vus": 0.2243,
+    "name": "CKM_inventory"
+  },
+  "data_sources": [
+    {
+      "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-ckm-matrix.pdf"
+    },
+    {
+      "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-ckm-matrix.pdf"
+    }
+  ],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:17Z",
+  "group": "smd",
+  "interpretation": "SMD v5 constants pack: stable public-constant comparison/inventory. This tests numerical consistency, not the CCDR derivation pipeline.",
+  "prediction_id": "SM-D7",
+  "prediction_name": "SM-D7 CKM inventory check",
+  "round": 10,
+  "runner_elapsed_s": 0.165,
+  "runner_returncode": 0,
+  "status": "consistent_constant_check",
+  "test_id": "R10-SMD07",
+  "tier": "public-current"
+}

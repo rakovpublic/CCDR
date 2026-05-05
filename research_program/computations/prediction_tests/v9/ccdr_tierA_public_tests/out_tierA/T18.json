@@ -1,0 +1,75 @@
+{
+  "data_sources": [
+    {
+      "error": "download failed for https://api.github.com/repos/XENONnT/light_wimp_data_release/git/trees/main?recursive=1: HTTP Error 404: Not Found",
+      "github": "XENONnT/light_wimp_data_release",
+      "ok": false
+    },
+    {
+      "n_links": 18,
+      "ok": true,
+      "url": "https://xenonexperiment.org/public-data/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_n_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_n_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_p_only_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_p_only_limit.csv"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\xenon_public\\x1t_isoscalar_mediator_mass_95CL_limit.csv",
+      "url": "https://xenonexperiment.org/wp-content/uploads/2022/08/x1t_isoscalar_mediator_mass_95CL_limit.csv"
+    }
+  ],
+  "description": "Audit whether public direct-detection curves cover the CCDR predicted 500-3000 GeV window and expose peak-like residual handles.",
+  "falsification_logic": {
+    "confirm_like": "public sensitivity covers predicted mass window and shows reproducible structure",
+    "falsify_like": "window fully covered by event-level public data with no structure"
+  },
+  "generated_utc": "2026-04-28T18:33:16Z",
+  "metrics": {
+    "curve_audits": [
+      {
+        "best_limit_in_window": 6.991840968608885e-41,
+        "covers_500_3000_GeV": false,
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "n": 20
+      },
+      {
+        "best_limit_in_window": 2.0101532186867257e-39,
+        "covers_500_3000_GeV": false,
+        "limit_col": "limit",
+        "mass_col": "mass_gev",
+        "mass_max": 1000.0,
+        "mass_min": 6.0,
+        "n": 20
+      },
+      {
+        "best_limit_in_window": 372.6144748686594,
+        "covers_500_3000_GeV": true,
+        "limit_col": "limit_mediator_mass",
+        "mass_col": "mass_gev",
+        "mass_max": 10000.0,
+        "mass_min": 6.0,
+        "n": 22
+      }
+    ],
+    "n_curves_covering_window": 1
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P10/P25",
+    "P27"
+  ],
+  "status": "suggestive",
+  "test_id": "T18",
+  "warnings": []
+}

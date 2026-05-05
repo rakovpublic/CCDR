@@ -1,0 +1,95 @@
+{
+  "data_sources": [
+    {
+      "file": "Rotmod_LTG.zip",
+      "ok": true,
+      "path": ".cache\\zenodo_16284118\\Rotmod_LTG.zip",
+      "record_id": "16284118",
+      "size": 110737,
+      "url": "https://zenodo.org/api/records/16284118/files/Rotmod_LTG.zip/content"
+    }
+  ],
+  "description": "Refit a local MOND/RAR acceleration scale from public SPARC rotmod files.",
+  "falsification_logic": {
+    "confirm_like": "best a0 is close to Milgrom 1.2e-10 m/s\u00b2 with small RMS",
+    "falsify_like": "no stable local a0 emerges from public SPARC mass models"
+  },
+  "generated_utc": "2026-05-03T01:56:17Z",
+  "metrics": {
+    "a0_over_milgrom": 0.7867173969049356,
+    "sparc_a0_fit": {
+      "a0_best_m_s2": 9.440608762859226e-11,
+      "a0_boot_median": 9.440608762859226e-11,
+      "a0_boot_sigma_dex": 0.011849399875307004,
+      "n_galaxies_used": 175,
+      "n_points": 3389,
+      "reference_milgrom_m_s2": 1.2e-10,
+      "rms_dex": 0.1952710356785446
+    },
+    "sparc_robustness_matrix": {
+      "a0_subsample_median": 9.440608762859226e-11,
+      "a0_subsample_p16": 8.413951416451964e-11,
+      "a0_subsample_p84": 1.022192400667764e-10,
+      "base": {
+        "a0_best_m_s2": 9.440608762859226e-11,
+        "a0_boot_median": 9.440608762859226e-11,
+        "a0_boot_sigma_dex": 0.011849399875307004,
+        "n_galaxies_used": 175,
+        "n_points": 3389,
+        "reference_milgrom_m_s2": 1.2e-10,
+        "rms_dex": 0.1952710356785446
+      },
+      "bootstrap_subsample_n": 40,
+      "robust_within_factor2_of_milgrom": true,
+      "subsets": [
+        {
+          "a0_best_m_s2": 9.440608762859226e-11,
+          "a0_boot_median": 9.440608762859226e-11,
+          "a0_boot_sigma_dex": 0.015798118144663864,
+          "n_galaxies_used": 87,
+          "n_points": 1644,
+          "reference_milgrom_m_s2": 1.2e-10,
+          "rms_dex": 0.2034730617544441,
+          "subset": "first_half"
+        },
+        {
+          "a0_best_m_s2": 9.716279515771078e-11,
+          "a0_boot_median": 9.440608762859226e-11,
+          "a0_boot_sigma_dex": 0.014886783772736245,
+          "n_galaxies_used": 88,
+          "n_points": 1745,
+          "reference_milgrom_m_s2": 1.2e-10,
+          "rms_dex": 0.18718199754576778,
+          "subset": "second_half"
+        },
+        {
+          "a0_best_m_s2": 9.440608762859226e-11,
+          "a0_boot_median": 9.440608762859226e-11,
+          "a0_boot_sigma_dex": 0.020469872006323345,
+          "n_galaxies_used": 50,
+          "n_points": 947,
+          "reference_milgrom_m_s2": 1.2e-10,
+          "rms_dex": 0.23418159258501497,
+          "subset": "first_50"
+        },
+        {
+          "a0_best_m_s2": 9.440608762859226e-11,
+          "a0_boot_median": 9.440608762859226e-11,
+          "a0_boot_sigma_dex": 0.012106213391666606,
+          "n_galaxies_used": 100,
+          "n_points": 1928,
+          "reference_milgrom_m_s2": 1.2e-10,
+          "rms_dex": 0.19590006469538648,
+          "subset": "first_100"
+        }
+      ]
+    }
+  },
+  "notes": [],
+  "prediction_ids": [
+    "\u00a76.1a"
+  ],
+  "status": "confirm_like",
+  "test_id": "T11",
+  "warnings": []
+}

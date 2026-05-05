@@ -1,0 +1,49 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_tables.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20table_name%2C%20description%20FROM%20TAP_SCHEMA.tables%20WHERE%20LOWER%28table_name%29%20LIKE%20%27%25euclid%25%27"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\irsa_tap\\euclid_sample_euclid_q1_mer_catalogue.csv",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT%20TOP%2020000%20ra%2Cdec%20FROM%20euclid_q1_mer_catalogue%20WHERE%201%3D1"
+    },
+    {
+      "ok": true,
+      "selected_table": "euclid_q1_mer_catalogue"
+    },
+    {
+      "n_links": 329,
+      "ok": true,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/"
+    },
+    {
+      "n_links": 158,
+      "ok": true,
+      "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/"
+    },
+    {
+      "note": "Planck maps can be large; rerun with --allow-large.",
+      "ok": false,
+      "reason": "large_download_not_enabled"
+    }
+  ],
+  "description": "Cross-check Euclid density-\u03ba sign using public Planck PR3 products, avoiding HEALPix-specific code.",
+  "falsification_logic": {
+    "confirm_like": "same-sign density-map correlation as ACT, weaker but positive",
+    "falsify_like": "Planck cross-check gives opposite sign or no correlation"
+  },
+  "generated_utc": "2026-04-28T19:32:57Z",
+  "metrics": {},
+  "notes": [],
+  "prediction_ids": [
+    "P14/P30"
+  ],
+  "status": "data_limited",
+  "test_id": "T05",
+  "warnings": [
+    "Requires Euclid Q1 sample and Planck map; use --allow-large for map-level public product."
+  ]
+}

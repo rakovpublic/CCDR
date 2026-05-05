@@ -1,0 +1,252 @@
+[
+  {
+    "script": "tests/test01_rvm_nu_audit_planck_pantheon_desi.py",
+    "test_id": "T01",
+    "returncode": 0,
+    "seconds": 48.611146688461304,
+    "status": "diagnostic_only",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T01.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test02_p39_wz_drift_desi_dr2_proxy.py",
+    "test_id": "T02",
+    "returncode": 0,
+    "seconds": 16.79689359664917,
+    "status": "model_likelihood_diagnostic_bound_or_schema_limited",
+    "claim_strength": "data_limited",
+    "result_json": "out_v10\\T02.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test03_pantheon_lowz_systematic_isolation.py",
+    "test_id": "T03",
+    "returncode": 0,
+    "seconds": 4.0317301750183105,
+    "status": "diagnostic_only",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T03.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test04_p30_euclid_q1_act_dr6_density_kappa.py",
+    "test_id": "T04",
+    "returncode": 0,
+    "seconds": 1750.479791879654,
+    "status": "weak_or_null",
+    "claim_strength": "null",
+    "result_json": "out_v10\\T04.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test05_p30_planck_crosscheck_density_kappa.py",
+    "test_id": "T05",
+    "returncode": 0,
+    "seconds": 50.81112051010132,
+    "status": "null",
+    "claim_strength": "null",
+    "result_json": "out_v10\\T05.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test06_euclid_q1_patch_spread_audit.py",
+    "test_id": "T06",
+    "returncode": 0,
+    "seconds": 38.03709936141968,
+    "status": "matched_statistic_suggestive",
+    "claim_strength": "suggestive",
+    "result_json": "out_v10\\T06.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test07_p3_euclid_filament_orientation_density_split.py",
+    "test_id": "T07",
+    "returncode": 0,
+    "seconds": 2349.611110687256,
+    "status": "formal_tension_negative_density_split",
+    "claim_strength": "tension",
+    "result_json": "out_v10\\T07.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test08_public_cosmic_web_filament_replication.py",
+    "test_id": "T08",
+    "returncode": 0,
+    "seconds": 3615.1099820137024,
+    "status": "catalogue_position_angle_suggestive",
+    "claim_strength": "suggestive",
+    "result_json": "out_v10\\T08.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test09_p38_vast_void_wall_kurtosis.py",
+    "test_id": "T09",
+    "returncode": 0,
+    "seconds": 87.2621545791626,
+    "status": "null",
+    "claim_strength": "null",
+    "result_json": "out_v10\\T09.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test10_erosita_desi_cluster_sigma_mixture.py",
+    "test_id": "T10",
+    "returncode": 0,
+    "seconds": 19.617252826690674,
+    "status": "control_limited_mixture_signal",
+    "claim_strength": "data_limited",
+    "result_json": "out_v10\\T10.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test11_sparc_local_a0_anchor.py",
+    "test_id": "T11",
+    "returncode": 0,
+    "seconds": 82.7369122505188,
+    "status": "confirm_like",
+    "claim_strength": "confirm_like",
+    "result_json": "out_v10\\T11.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test12_kmos3d_highz_a0_trend.py",
+    "test_id": "T12",
+    "returncode": 0,
+    "seconds": 23.57743740081787,
+    "status": "offset_only_no_robust_trend",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T12.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test13_p36_three_point_nu_extractor.py",
+    "test_id": "T13",
+    "returncode": 0,
+    "seconds": 15.662131309509277,
+    "status": "single_bracket_only",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T13.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test14_standalone_vs_joint_nu_diagnostic.py",
+    "test_id": "T14",
+    "returncode": 0,
+    "seconds": 15.785537719726562,
+    "status": "methodology_finding",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T14.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test15_nanograv_beat_recheck.py",
+    "test_id": "T15",
+    "returncode": 0,
+    "seconds": 140.66570496559143,
+    "status": "data_limited",
+    "claim_strength": "data_limited",
+    "result_json": "out_v10\\T15.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test16_pta_kappa_crosslink.py",
+    "test_id": "T16",
+    "returncode": 0,
+    "seconds": 475.4692876338959,
+    "status": "null",
+    "claim_strength": "null",
+    "result_json": "out_v10\\T16.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test17_gw_spectral_index_proxy.py",
+    "test_id": "T17",
+    "returncode": 0,
+    "seconds": 4.368652582168579,
+    "status": "data_limited",
+    "claim_strength": "data_limited",
+    "result_json": "out_v10\\T17.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test18_direct_detection_window_and_peak_audit.py",
+    "test_id": "T18",
+    "returncode": 0,
+    "seconds": 19.838228225708008,
+    "status": "readiness_only",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T18.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test19_geometric_peak_ratio_audit.py",
+    "test_id": "T19",
+    "returncode": 0,
+    "seconds": 17.50840473175049,
+    "status": "data_limited",
+    "claim_strength": "data_limited",
+    "result_json": "out_v10\\T19.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test20_phase_space_drift_proxy.py",
+    "test_id": "T20",
+    "returncode": 0,
+    "seconds": 15.441627025604248,
+    "status": "null",
+    "claim_strength": "null",
+    "result_json": "out_v10\\T20.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test21_cmb_mu_y_staged_distortion_bound.py",
+    "test_id": "T21",
+    "returncode": 0,
+    "seconds": 3.1756350994110107,
+    "status": "consistent_bound_only_official_likelihood_missing",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T21.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test22_cmb_large_angle_no_map_proxy.py",
+    "test_id": "T22",
+    "returncode": 0,
+    "seconds": 84.35053324699402,
+    "status": "approx_likelihood_suggestive",
+    "claim_strength": "suggestive",
+    "result_json": "out_v10\\T22.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test23_bulk_weyl_bmode_bandpower.py",
+    "test_id": "T23",
+    "returncode": 0,
+    "seconds": 2.868177890777588,
+    "status": "consistent_bound_only",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T23.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test24_gwosc_ringdown_overtone_residual.py",
+    "test_id": "T24",
+    "returncode": 0,
+    "seconds": 5.104218006134033,
+    "status": "diagnostic_only",
+    "claim_strength": "diagnostic",
+    "result_json": "out_v10\\T24.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test25_qgp_kss_meta_analysis.py",
+    "test_id": "T25",
+    "returncode": 0,
+    "seconds": 30.662349462509155,
+    "status": "data_limited",
+    "claim_strength": "data_limited",
+    "result_json": "out_v10\\T25.json",
+    "crash_json": null
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\pantheon\\Pantheon_2BSH0ES.dat",
+      "size": 579283,
+      "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat"
+    }
+  ],
+  "description": "Repeat \u03bd-like Pantheon+ fit under low-z cuts to test whether signal is low-z-systematics carried.",
+  "falsification_logic": {
+    "confirm_like": "\u03bd-like estimate remains positive, non-bound-hit, and non-low-z-carried under cuts",
+    "falsify_like": "\u03bd-like estimate is bound-dominated or carried entirely by low-z choices"
+  },
+  "generated_utc": "2026-04-28T21:21:45Z",
+  "metrics": {
+    "bound_hit_fraction": 1.0,
+    "cut_fits": [
+      {
+        "chi2_best": 795.402391287193,
+        "chi2_nu0_same_om": 795.8556361361952,
+        "delta_chi2_vs_nu0": 0.4532448490022034,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1665,
+        "nu_like": 0.04999713000070425,
+        "nu_like_sigma_profile": 0.009876417062152277,
+        "omega_m": 0.3764169606186679,
+        "zmin": 0.005
+      },
+      {
+        "chi2_best": 713.3036830520427,
+        "chi2_nu0_same_om": 713.6986865038396,
+        "delta_chi2_vs_nu0": 0.3950034517968106,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1583,
+        "nu_like": 0.04999799545874692,
+        "nu_like_sigma_profile": 0.009875989742243711,
+        "omega_m": 0.36720527605501607,
+        "zmin": 0.01
+      },
+      {
+        "chi2_best": 641.1766589903465,
+        "chi2_nu0_same_om": 641.5316479281735,
+        "delta_chi2_vs_nu0": 0.35498893782698815,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1429,
+        "nu_like": 0.04998455003625897,
+        "nu_like_sigma_profile": 0.009882628419597134,
+        "omega_m": 0.36242869432642244,
+        "zmin": 0.02
+      },
+      {
+        "chi2_best": 540.6478158574981,
+        "chi2_nu0_same_om": 540.9543460436932,
+        "delta_chi2_vs_nu0": 0.3065301861951184,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1235,
+        "nu_like": 0.049997841382045285,
+        "nu_like_sigma_profile": 0.009876065817615144,
+        "omega_m": 0.3584455147160012,
+        "zmin": 0.03
+      },
+      {
+        "chi2_best": 446.3770597887367,
+        "chi2_nu0_same_om": 446.4870310081925,
+        "delta_chi2_vs_nu0": 0.10997121945581512,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 1054,
+        "nu_like": 0.049981114556081604,
+        "nu_like_sigma_profile": 0.00988432468793471,
+        "omega_m": 0.33016462812204417,
+        "zmin": 0.05
+      },
+      {
+        "chi2_best": 406.8591783438259,
+        "chi2_nu0_same_om": 406.9092407781761,
+        "delta_chi2_vs_nu0": 0.05006243435025226,
+        "hit_nu_bound": true,
+        "model_note": "phenomenological SN-only audit: E2=Om(1+z)^3+(1-Om)*(1+nu*log(1+z)); bounded |nu|<0.05; not a full RVM likelihood",
+        "n_sne": 975,
+        "nu_like": 0.049936499141543744,
+        "nu_like_sigma_profile": 0.00990635354886278,
+        "omega_m": 0.32234864606801816,
+        "zmin": 0.08
+      }
+    ],
+    "nu_change_zmin_0p005_to_0p08": 6.0630859160505646e-05,
+    "nu_median": 0.049990840018481614,
+    "nu_std": 2.1647564936249387e-05
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P1",
+    "P39",
+    "CL3"
+  ],
+  "prediction_names": [
+    "P1 \u2014 RVM BAO scale shift",
+    "P39 \u2014 secular \u039b-drift from bulk cooling",
+    "CL3 \u2014 \u03bd cross-link"
+  ],
+  "status": "diagnostic_only",
+  "test_id": "T03",
+  "warnings": [
+    "6/6 low-z cuts hit the conservative |\u03bd|<0.05 SN-only proxy bound; no P39 support claimed."
+  ]
+}

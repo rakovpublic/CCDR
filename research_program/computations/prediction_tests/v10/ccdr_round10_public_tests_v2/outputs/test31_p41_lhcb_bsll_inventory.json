@@ -1,0 +1,88 @@
+{
+  "arxiv_source_attempts_v13": [
+    {
+      "cached": false,
+      "content_length_bytes": 275292,
+      "path": ".ccdr_round10_cache\\R10-T31_arxiv_source_v13__2512.18053",
+      "size_bytes": 275292,
+      "url": "https://arxiv.org/e-print/2512.18053"
+    }
+  ],
+  "claim_guard_v11": "Do not count P41 as evidence until sign convention for extracted observable/Wilson-coefficient pattern is fixed; pattern hook remains readiness-positive.",
+  "claim_guard_v12": "Still not evidence unless sign phrases and numeric table rows are both present. Current hook remains positive-ready.",
+  "data_sources": [
+    {
+      "url": "https://cds.cern.ch/record/2951844/export/xm"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.18053"
+    }
+  ],
+  "downloaded_path": ".ccdr_round10_cache\\R10-T31__xm",
+  "extracted_observable_values_v9": [],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:10Z",
+  "group": "flavour",
+  "interpretation": "P41 v13: searches arXiv source/CDS text for tabular observable values and sign-convention/operator-basis terms. Evidence requires both.",
+  "n_numeric_observable_rows_v12": 0,
+  "observable_pattern_score_v8": 45.0,
+  "observable_table_blocks_v13": [],
+  "pattern_counts": {
+    "C9_or_Wilson": 1,
+    "CP_asymmetric": 0,
+    "CP_averaged": 8,
+    "P5prime": 21,
+    "S_observables": 16,
+    "branching_fraction": 5,
+    "q2": 25
+  },
+  "prediction_id": "P41",
+  "prediction_name": "P41 arXiv-source sign/table guarded extractor",
+  "q2_bin_matches": [],
+  "round": 10,
+  "runner_elapsed_s": 2.228,
+  "runner_returncode": 0,
+  "sign_convention_hits_v11": [],
+  "sign_hits_v13": [
+    "SM prediction",
+    "C9 ",
+    "negative",
+    "positive",
+    "positive",
+    "positive",
+    "positive",
+    "SM prediction",
+    "SM prediction",
+    "SM prediction",
+    "SM prediction",
+    "SM prediction",
+    "SM prediction",
+    "SM prediction",
+    "C9 ",
+    "C9 ",
+    "C9 ",
+    "C9 ",
+    "C9 ",
+    "Wilson coefficient",
+    "SM prediction",
+    "negative",
+    "negative",
+    "Wilson coefficient"
+  ],
+  "sign_phrases_v12": [],
+  "status": "p41_pattern_positive_ready_sign_unfixed",
+  "table_blocks_found_v13": 0,
+  "table_like_lines": [],
+  "table_value_summary_v9": {
+    "claim_level": "table-pattern positive-compatible; full Wilson-coefficient fit still needed",
+    "n_extracted_observable_rows": 0,
+    "n_table_lines": 0
+  },
+  "test_id": "R10-T31",
+  "tex_table_blocks_v10": [],
+  "tier": "public-current"
+}

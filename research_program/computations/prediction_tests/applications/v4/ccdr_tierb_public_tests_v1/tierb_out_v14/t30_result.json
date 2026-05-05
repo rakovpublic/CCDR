@@ -1,0 +1,1844 @@
+{
+  "automated_discovery_v10": {
+    "additional_auto_seed_sources_count": 0,
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "arxiv_source_table": 12,
+        "primary": 50,
+        "secondary_auto_pdf_table": 12
+      },
+      "name": "density+curvature confinement residual",
+      "prediction_id": "FR10",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-03T10:16:28Z",
+    "metadata_records_sample": [
+      {
+        "bytes": 2268,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "bytes": 1555,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "bytes": 5355,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      }
+    ],
+    "metadata_records_seen_count": 3,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ],
+      "nearest_source": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 4,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_download_link",
+            "url": "https://osf.io/download/593q6/"
+          },
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_html_link",
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          {
+            "label": "osf_related_parent_folder",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          {
+            "label": "osf_related_node",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          }
+        ],
+        "label": "OSF ITPA API seed",
+        "meta": {
+          "bytes": 2268,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\013d7407f17c_osfstorage.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "unknown",
+          "content_type": "application/octet-stream",
+          "extractors_tried": [],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 2072955,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\565045965a15_593q6.bin",
+          "cached": false,
+          "content_type": "application/octet-stream",
+          "error": null,
+          "final_url": "https://storage.googleapis.com/cos-osf-prod-files-de-1/195c394635ea182dafdb736b84fb817b6a4e508b700686c9b9fe4f15794b7307?response-content-disposition=attachment%3B%20filename%3D%22DB5.2.3_variables.pdf%22%3B%20filename%2A%3DUTF-8%27%27DB5.2.3_variables.pdf&GoogleAccessId=files-de-1%40cos-osf-prod.iam.gserviceaccount.com&Expires=1777803446&Signature=nq5h3Brhz%2Fd4mIAGrNeTbkQcCx507AY5hAVr0F5o3JMYHGzxm5y7b0sIqDlzyUY3bii0USFrt0rIUbjXOsa85ZXUOB7Zb0ujB3LrnsjA3o6bRXBvU6XBGKZl%2BbMYq7RaA4xi%2Bd7G%2Br9HhbNZRw%2FpxD0UV5VCgEZlDo9vfhO7S1FoAL9%2BMtvbORWtkX8oRcdf%2FPt%2BToAT3QnlQJjCsQ%2FJ9crClClsBTjqYZ6Wgljn1%2BmDdLHWYvix%2B4uBGnrw1H1P7JK8VhxESkZR3Eo8Ch3OhVw0FycweVrdCJCymXhIK%2FNNg1kpnbudUqI7Kej9OH7fOlsa9w%2FhJqm2aavtKPtWvQ%3D%3D",
+          "head": {
+            "content_length": 2072955,
+            "content_type": "application/octet-stream",
+            "error": null,
+            "final_url": "https://files.de-1.osf.io/v1/resources/drwcq/providers/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/download/593q6/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_download_url",
+        "url": "https://osf.io/download/593q6/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\6d20f57f19ac_606c8a6bf6585f0225615cae.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_html_url",
+        "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 1555,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\9ea512022db1_60412d1fad052d02c8b5efec.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "osf_related_node",
+        "meta": {
+          "bytes": 5355,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\12fc5b506bcd_drwcq.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/"
+        },
+        "candidate_tables": [],
+        "depth": 2,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "/",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\a04a8f0292fd_osf.io.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://osf.io/"
+      }
+    ],
+    "sources_scanned_count": 6,
+    "strict_verdict_rule_v13": "Metadata/search JSON, HTML/SVG/icon fragments, and false-positive domains are link sources only; candidate_table_count includes only domain-physical tables after contract and noise gates. Repository connectors are file-first; archives are recursively traversed.",
+    "version": "v13_data_limited_hardening_file_first_domain_gated"
+  },
+  "automated_discovery_v11": {
+    "additional_auto_seed_sources_count": 0,
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "arxiv_source_table": 12,
+        "primary": 50,
+        "secondary_auto_pdf_table": 12
+      },
+      "name": "density+curvature confinement residual",
+      "prediction_id": "FR10",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-03T10:16:28Z",
+    "metadata_records_sample": [
+      {
+        "bytes": 2268,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "bytes": 1555,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "bytes": 5355,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      }
+    ],
+    "metadata_records_seen_count": 3,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ],
+      "nearest_source": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 4,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_download_link",
+            "url": "https://osf.io/download/593q6/"
+          },
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_html_link",
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          {
+            "label": "osf_related_parent_folder",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          {
+            "label": "osf_related_node",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          }
+        ],
+        "label": "OSF ITPA API seed",
+        "meta": {
+          "bytes": 2268,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\013d7407f17c_osfstorage.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "unknown",
+          "content_type": "application/octet-stream",
+          "extractors_tried": [],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 2072955,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\565045965a15_593q6.bin",
+          "cached": false,
+          "content_type": "application/octet-stream",
+          "error": null,
+          "final_url": "https://storage.googleapis.com/cos-osf-prod-files-de-1/195c394635ea182dafdb736b84fb817b6a4e508b700686c9b9fe4f15794b7307?response-content-disposition=attachment%3B%20filename%3D%22DB5.2.3_variables.pdf%22%3B%20filename%2A%3DUTF-8%27%27DB5.2.3_variables.pdf&GoogleAccessId=files-de-1%40cos-osf-prod.iam.gserviceaccount.com&Expires=1777803446&Signature=nq5h3Brhz%2Fd4mIAGrNeTbkQcCx507AY5hAVr0F5o3JMYHGzxm5y7b0sIqDlzyUY3bii0USFrt0rIUbjXOsa85ZXUOB7Zb0ujB3LrnsjA3o6bRXBvU6XBGKZl%2BbMYq7RaA4xi%2Bd7G%2Br9HhbNZRw%2FpxD0UV5VCgEZlDo9vfhO7S1FoAL9%2BMtvbORWtkX8oRcdf%2FPt%2BToAT3QnlQJjCsQ%2FJ9crClClsBTjqYZ6Wgljn1%2BmDdLHWYvix%2B4uBGnrw1H1P7JK8VhxESkZR3Eo8Ch3OhVw0FycweVrdCJCymXhIK%2FNNg1kpnbudUqI7Kej9OH7fOlsa9w%2FhJqm2aavtKPtWvQ%3D%3D",
+          "head": {
+            "content_length": 2072955,
+            "content_type": "application/octet-stream",
+            "error": null,
+            "final_url": "https://files.de-1.osf.io/v1/resources/drwcq/providers/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/download/593q6/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_download_url",
+        "url": "https://osf.io/download/593q6/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\6d20f57f19ac_606c8a6bf6585f0225615cae.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_html_url",
+        "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 1555,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\9ea512022db1_60412d1fad052d02c8b5efec.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "osf_related_node",
+        "meta": {
+          "bytes": 5355,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\12fc5b506bcd_drwcq.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/"
+        },
+        "candidate_tables": [],
+        "depth": 2,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "/",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\a04a8f0292fd_osf.io.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://osf.io/"
+      }
+    ],
+    "sources_scanned_count": 6,
+    "strict_verdict_rule_v13": "Metadata/search JSON, HTML/SVG/icon fragments, and false-positive domains are link sources only; candidate_table_count includes only domain-physical tables after contract and noise gates. Repository connectors are file-first; archives are recursively traversed.",
+    "version": "v13_data_limited_hardening_file_first_domain_gated"
+  },
+  "automated_discovery_v12": {
+    "additional_auto_seed_sources_count": 0,
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "arxiv_source_table": 12,
+        "primary": 50,
+        "secondary_auto_pdf_table": 12
+      },
+      "name": "density+curvature confinement residual",
+      "prediction_id": "FR10",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-03T10:16:28Z",
+    "metadata_records_sample": [
+      {
+        "bytes": 2268,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "bytes": 1555,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "bytes": 5355,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      }
+    ],
+    "metadata_records_seen_count": 3,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ],
+      "nearest_source": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 4,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_download_link",
+            "url": "https://osf.io/download/593q6/"
+          },
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_html_link",
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          {
+            "label": "osf_related_parent_folder",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          {
+            "label": "osf_related_node",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          }
+        ],
+        "label": "OSF ITPA API seed",
+        "meta": {
+          "bytes": 2268,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\013d7407f17c_osfstorage.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "unknown",
+          "content_type": "application/octet-stream",
+          "extractors_tried": [],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 2072955,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\565045965a15_593q6.bin",
+          "cached": false,
+          "content_type": "application/octet-stream",
+          "error": null,
+          "final_url": "https://storage.googleapis.com/cos-osf-prod-files-de-1/195c394635ea182dafdb736b84fb817b6a4e508b700686c9b9fe4f15794b7307?response-content-disposition=attachment%3B%20filename%3D%22DB5.2.3_variables.pdf%22%3B%20filename%2A%3DUTF-8%27%27DB5.2.3_variables.pdf&GoogleAccessId=files-de-1%40cos-osf-prod.iam.gserviceaccount.com&Expires=1777803446&Signature=nq5h3Brhz%2Fd4mIAGrNeTbkQcCx507AY5hAVr0F5o3JMYHGzxm5y7b0sIqDlzyUY3bii0USFrt0rIUbjXOsa85ZXUOB7Zb0ujB3LrnsjA3o6bRXBvU6XBGKZl%2BbMYq7RaA4xi%2Bd7G%2Br9HhbNZRw%2FpxD0UV5VCgEZlDo9vfhO7S1FoAL9%2BMtvbORWtkX8oRcdf%2FPt%2BToAT3QnlQJjCsQ%2FJ9crClClsBTjqYZ6Wgljn1%2BmDdLHWYvix%2B4uBGnrw1H1P7JK8VhxESkZR3Eo8Ch3OhVw0FycweVrdCJCymXhIK%2FNNg1kpnbudUqI7Kej9OH7fOlsa9w%2FhJqm2aavtKPtWvQ%3D%3D",
+          "head": {
+            "content_length": 2072955,
+            "content_type": "application/octet-stream",
+            "error": null,
+            "final_url": "https://files.de-1.osf.io/v1/resources/drwcq/providers/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/download/593q6/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_download_url",
+        "url": "https://osf.io/download/593q6/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\6d20f57f19ac_606c8a6bf6585f0225615cae.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_html_url",
+        "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 1555,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\9ea512022db1_60412d1fad052d02c8b5efec.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "osf_related_node",
+        "meta": {
+          "bytes": 5355,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\12fc5b506bcd_drwcq.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/"
+        },
+        "candidate_tables": [],
+        "depth": 2,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "/",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\a04a8f0292fd_osf.io.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://osf.io/"
+      }
+    ],
+    "sources_scanned_count": 6,
+    "strict_verdict_rule_v13": "Metadata/search JSON, HTML/SVG/icon fragments, and false-positive domains are link sources only; candidate_table_count includes only domain-physical tables after contract and noise gates. Repository connectors are file-first; archives are recursively traversed.",
+    "version": "v13_data_limited_hardening_file_first_domain_gated"
+  },
+  "automated_discovery_v13": {
+    "additional_auto_seed_sources_count": 0,
+    "autodiscovery_queue_remaining": 0,
+    "autodiscovery_stop_reason": null,
+    "automated_readiness_status": "sources_scanned_no_physical_candidate_tables",
+    "candidate_rejection_summary": {},
+    "candidate_table_count": 0,
+    "candidate_tables_sample": [],
+    "data_contract": {
+      "min_rows": {
+        "arxiv_source_table": 12,
+        "primary": 50,
+        "secondary_auto_pdf_table": 12
+      },
+      "name": "density+curvature confinement residual",
+      "prediction_id": "FR10",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable physical table",
+      "E2": "secondary auto-extracted physical diagnostic table; not decisive",
+      "E3": "primary machine-readable public physical table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-03T10:16:28Z",
+    "metadata_records_sample": [
+      {
+        "bytes": 2268,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "bytes": 1555,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "bytes": 5355,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      }
+    ],
+    "metadata_records_seen_count": 3,
+    "model_diagnostics": {
+      "reason": "no physical table passed all required groups, numeric, and row-count gates",
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "tau_E",
+          "TAUTH",
+          "TAUE",
+          "energy confinement",
+          "H-factor",
+          "H98"
+        ],
+        [
+          "density",
+          "ne",
+          "nbar",
+          "NEL",
+          "NEBAR"
+        ],
+        [
+          "elongation",
+          "kappa",
+          "triangularity",
+          "delta",
+          "q95",
+          "R_major",
+          "a_minor"
+        ],
+        [
+          "device",
+          "machine",
+          "tokamak"
+        ]
+      ],
+      "nearest_source": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "nonphysical_tables_parsed_count": 0,
+    "nonphysical_tables_sample": [],
+    "physical_candidate_table_count": 0,
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 4,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_download_link",
+            "url": "https://osf.io/download/593q6/"
+          },
+          {
+            "label": "DB5.2.3_variables.pdf",
+            "reason": "osf_html_link",
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          {
+            "label": "osf_related_parent_folder",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          {
+            "label": "osf_related_node",
+            "reason": "osf_related",
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          }
+        ],
+        "label": "OSF ITPA API seed",
+        "meta": {
+          "bytes": 2268,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\013d7407f17c_osfstorage.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_api_seed",
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "unknown",
+          "content_type": "application/octet-stream",
+          "extractors_tried": [],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 2072955,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\565045965a15_593q6.bin",
+          "cached": false,
+          "content_type": "application/octet-stream",
+          "error": null,
+          "final_url": "https://storage.googleapis.com/cos-osf-prod-files-de-1/195c394635ea182dafdb736b84fb817b6a4e508b700686c9b9fe4f15794b7307?response-content-disposition=attachment%3B%20filename%3D%22DB5.2.3_variables.pdf%22%3B%20filename%2A%3DUTF-8%27%27DB5.2.3_variables.pdf&GoogleAccessId=files-de-1%40cos-osf-prod.iam.gserviceaccount.com&Expires=1777803446&Signature=nq5h3Brhz%2Fd4mIAGrNeTbkQcCx507AY5hAVr0F5o3JMYHGzxm5y7b0sIqDlzyUY3bii0USFrt0rIUbjXOsa85ZXUOB7Zb0ujB3LrnsjA3o6bRXBvU6XBGKZl%2BbMYq7RaA4xi%2Bd7G%2Br9HhbNZRw%2FpxD0UV5VCgEZlDo9vfhO7S1FoAL9%2BMtvbORWtkX8oRcdf%2FPt%2BToAT3QnlQJjCsQ%2FJ9crClClsBTjqYZ6Wgljn1%2BmDdLHWYvix%2B4uBGnrw1H1P7JK8VhxESkZR3Eo8Ch3OhVw0FycweVrdCJCymXhIK%2FNNg1kpnbudUqI7Kej9OH7fOlsa9w%2FhJqm2aavtKPtWvQ%3D%3D",
+          "head": {
+            "content_length": 2072955,
+            "content_type": "application/octet-stream",
+            "error": null,
+            "final_url": "https://files.de-1.osf.io/v1/resources/drwcq/providers/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/download/593q6/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/download/593q6/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_download_url",
+        "url": "https://osf.io/download/593q6/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\6d20f57f19ac_606c8a6bf6585f0225615cae.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_html_url",
+        "url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "DB5.2.3_variables.pdf",
+        "meta": {
+          "bytes": 1555,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\9ea512022db1_60412d1fad052d02c8b5efec.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_item_related_parent_folder_url",
+        "url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "metadata_record",
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "extractors_tried": [
+            "metadata_or_nondata_link_extraction_only"
+          ],
+          "frames_extracted": 0,
+          "metadata_not_physical_table": true,
+          "nondata_asset_rejected": false,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "candidate_tables": [],
+        "depth": 1,
+        "extracted_links": [],
+        "label": "osf_related_node",
+        "meta": {
+          "bytes": 5355,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\12fc5b506bcd_drwcq.bin",
+          "cached": false,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+          "head": {
+            "content_length": null,
+            "content_type": "application/vnd.api+json; charset=utf-8",
+            "error": null,
+            "final_url": "https://api.osf.io/v2/nodes/drwcq/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://api.osf.io/v2/nodes/drwcq/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "osf_related",
+        "url": "https://api.osf.io/v2/nodes/drwcq/"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "artifact_role": "html",
+          "content_type": "text/html",
+          "extractors_tried": [
+            "html_read_table_with_noise_filter"
+          ],
+          "frames_extracted": 0,
+          "frames_extracted_before_v13_filter": 0,
+          "frames_rejected_by_v13_noise_or_domain_gate": 0,
+          "url": "https://osf.io/"
+        },
+        "candidate_tables": [],
+        "depth": 2,
+        "extracted_links": [
+          {
+            "label": "/",
+            "reason": "html_href_data_like",
+            "url": "https://osf.io/"
+          }
+        ],
+        "label": "/",
+        "meta": {
+          "bytes": 4190,
+          "cache_path": "tierb_cache_v14\\v13_auto_discovery_T30\\files\\files\\a04a8f0292fd_osf.io.bin",
+          "cached": false,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html",
+            "error": null,
+            "final_url": "https://osf.io/",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://osf.io/"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/"
+        },
+        "nonphysical_tables_sample": [],
+        "seed_reason": "html_href_data_like",
+        "url": "https://osf.io/"
+      }
+    ],
+    "sources_scanned_count": 6,
+    "strict_verdict_rule_v13": "Metadata/search JSON, HTML/SVG/icon fragments, and false-positive domains are link sources only; candidate_table_count includes only domain-physical tables after contract and noise gates. Repository connectors are file-first; archives are recursively traversed.",
+    "version": "v13_data_limited_hardening_file_first_domain_gated"
+  },
+  "automated_no_manual_steps_policy": "All v13 discovery artifacts are downloaded or extracted automatically from public URLs. Metadata/search JSON and HTML/SVG boilerplate are never evidence. Candidate tables are domain-gated physical artifacts only; secondary PDF/figure/arXiv tables cannot confirm/falsify.",
+  "best_model_result": null,
+  "candidate_files": [],
+  "candidate_files_count": 0,
+  "candidate_rejection_counts": {
+    "metadata_dictionary_pdf_not_evidence": 1
+  },
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source_policy": "v8 exact OSF ITPA DB5.2.3 recursive parser with item-level rejection reasons; PDFs/dictionaries are metadata only.",
+  "downloaded_candidate_files": [],
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If only a variables PDF/dictionary or no structured DB table is public, result is data_limited, not null.",
+    "confirm_like": "A real DB5/STD5 structured table is parsed and the predicted confinement/residual relation is stable under controls.",
+    "falsify_like": "Adequate DB5/STD5 rows exist and the predicted terms are absent, reversed, or penalized by model comparison."
+  },
+  "generated_utc": "2026-05-03T10:16:28Z",
+  "manifest_debug": {
+    "manifest_columns": [
+      "test_id",
+      "priority",
+      "label",
+      "url",
+      "source_kind",
+      "expected_files",
+      "required_column_groups",
+      "mode",
+      "evidence_level",
+      "note"
+    ],
+    "manifest_exists": true,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+    "manifest_rows_total": 13,
+    "manifest_test_ids_seen": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30"
+    ],
+    "rows_selected_for_test": 1,
+    "selected_labels": [
+      "ITPA DB5.2.3 OSF recursive API"
+    ]
+  },
+  "manual_curated_analysis": {
+    "manual_rows_used": 0,
+    "status": "no_manual_rows"
+  },
+  "manual_curated_policy": "Manual-curated rows are allowed only as transparent public-data rows with source_url/evidence_tier. They are separate from primary machine-readable supplements.",
+  "manual_curated_table_debug": {
+    "columns": [
+      "test_id",
+      "source_label",
+      "source_url",
+      "evidence_tier",
+      "device",
+      "device_type",
+      "shot",
+      "year",
+      "E_ELM",
+      "W_ELM",
+      "P_ped",
+      "V_ped",
+      "dP_over_P",
+      "ELM_frequency",
+      "RMP_current",
+      "helicity_abs_proxy",
+      "coil_phasing",
+      "n_mode",
+      "tau_E",
+      "density",
+      "stored_energy",
+      "power",
+      "ip",
+      "bt",
+      "elongation",
+      "triangularity",
+      "q95",
+      "R_major",
+      "a_minor",
+      "rho",
+      "Te",
+      "Ti",
+      "ne",
+      "heat_flux",
+      "diffusivity",
+      "notes"
+    ],
+    "evidence_tiers_seen": [],
+    "exists": true,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\manual_curated_fusion_tables.csv",
+    "rows_selected_for_test": 0,
+    "rows_total": 0,
+    "selected_source_labels": [],
+    "test_ids_seen": []
+  },
+  "model_results": [],
+  "osf_api_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+  "osf_diagnostics": [
+    {
+      "depth": 0,
+      "item_details": [
+        {
+          "candidate_rejection_reason": "metadata_dictionary_pdf_not_evidence",
+          "download_url": "https://osf.io/download/593q6/",
+          "exact_itpa_match": true,
+          "html_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+          "id": "606c8a6bf6585f0225615cae",
+          "kind": "file",
+          "materialized_path": "/DB5.2.3_variables.pdf",
+          "name": "DB5.2.3_variables.pdf",
+          "path": "/606c8a6bf6585f0225615cae",
+          "related_files_url": null,
+          "related_parent_folder_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+          "size": 2072955,
+          "structured_extension": false,
+          "type": "files",
+          "variables_dictionary_like": true
+        }
+      ],
+      "items": 1,
+      "meta": {
+        "bytes": 2268,
+        "cache_path": "tierb_cache_v14\\v8_osf_itpa\\files\\013d7407f17c_osfstorage.bin",
+        "cached": false,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "error": null,
+        "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+        "head": {
+          "content_length": null,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+    }
+  ],
+  "osf_files_count": 1,
+  "osf_folders_count": 0,
+  "osf_item_details_sample": [
+    {
+      "candidate_rejection_reason": "metadata_dictionary_pdf_not_evidence",
+      "download_url": "https://osf.io/download/593q6/",
+      "exact_itpa_match": true,
+      "html_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+      "id": "606c8a6bf6585f0225615cae",
+      "kind": "file",
+      "materialized_path": "/DB5.2.3_variables.pdf",
+      "name": "DB5.2.3_variables.pdf",
+      "path": "/606c8a6bf6585f0225615cae",
+      "related_files_url": null,
+      "related_parent_folder_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+      "size": 2072955,
+      "structured_extension": false,
+      "type": "files",
+      "variables_dictionary_like": true
+    }
+  ],
+  "prediction_ids": [
+    "FR10"
+  ],
+  "prediction_names": [
+    "combined density plus shaping/curvature reduces confinement residuals by 10-20 percent"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_osf_manifest_diagnostics_and_itpa_model+v9_manual_table_route+v13_data_limited_hardening",
+  "readiness_status": "no_source_found",
+  "schema": "ccdr-tierb-result-v1",
+  "source_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "table_summaries": [],
+  "test_id": "T30",
+  "test_name": "fusion residual curvature coupling"
+}

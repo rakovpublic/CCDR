@@ -1,0 +1,13 @@
+{
+  "prediction_id": "EL3",
+  "status": "not_executable_no_harmonized_public_table",
+  "prediction": "volume-to-area information/transport scaling crossover at L≈10–100 nm for Si",
+  "required_columns": [
+    "node_or_linewidth_nm",
+    "delay_or_resistance_or_energy_per_bit",
+    "device_or_interconnect_class"
+  ],
+  "fit_that_would_be_run": "piecewise regression in log-log space; test whether best breakpoint lies between 10 and 100 nm and whether post-break slope worsens",
+  "verdict": "no_physics_verdict",
+  "note": "Crossref harvesting was removed. This script now states the exact numeric table needed instead of treating article lists as evidence."
+}

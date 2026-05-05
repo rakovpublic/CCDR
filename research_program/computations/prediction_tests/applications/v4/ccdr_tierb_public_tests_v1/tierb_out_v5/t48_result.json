@@ -1,0 +1,176 @@
+{
+  "candidate_links": [],
+  "candidate_rows_count": 0,
+  "data_source": "v5 NREL/NLR interactive-page parser + fixed PV proxy manifest; no guessed XLSX alone",
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If no public data table rows parse, result is data_limited.",
+    "confirm_like": "After baseline removal by year/material/cell/area, PV residuals positively correlate with predefined within-class proxy.",
+    "falsify_like": "Adequate NREL rows show no positive residual trend or opposite trend."
+  },
+  "generated_utc": "2026-04-30T21:09:01Z",
+  "metrics": {},
+  "nrel_downloads": [
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\eef61a500282_pvdpc.nrel.gov.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='pvdpc.nrel.gov', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='pvdpc.nrel.gov', port=443): Failed to resolve 'pvdpc.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='pvdpc.nrel.gov', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='pvdpc.nrel.gov', port=443): Failed to resolve 'pvdpc.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://pvdpc.nrel.gov/"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://pvdpc.nrel.gov/"
+      },
+      "stage": "source",
+      "url": "https://pvdpc.nrel.gov/"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\89a3f704e8a0_cell-efficiency.html",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /pv/cell-efficiency.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /pv/cell-efficiency.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\8c3a7b7ee3a0_interactive-cell-efficiency.html",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /pv/interactive-cell-efficiency.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /pv/interactive-cell-efficiency.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\4560dffc3a5c_cell-efficiency.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.nlr.gov', port=443): Max retries exceeded with url: /pv/cell-efficiency (Caused by NameResolutionError(\"HTTPSConnection(host='www.nlr.gov', port=443): Failed to resolve 'www.nlr.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='www.nlr.gov', port=443): Max retries exceeded with url: /pv/cell-efficiency (Caused by NameResolutionError(\"HTTPSConnection(host='www.nlr.gov', port=443): Failed to resolve 'www.nlr.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://www.nlr.gov/pv/cell-efficiency"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.nlr.gov/pv/cell-efficiency"
+      },
+      "stage": "source",
+      "url": "https://www.nlr.gov/pv/cell-efficiency"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\40a9055622bf_interactive-cell-efficiency.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.nlr.gov', port=443): Max retries exceeded with url: /pv/interactive-cell-efficiency (Caused by NameResolutionError(\"HTTPSConnection(host='www.nlr.gov', port=443): Failed to resolve 'www.nlr.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='www.nlr.gov', port=443): Max retries exceeded with url: /pv/interactive-cell-efficiency (Caused by NameResolutionError(\"HTTPSConnection(host='www.nlr.gov', port=443): Failed to resolve 'www.nlr.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://www.nlr.gov/pv/interactive-cell-efficiency"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.nlr.gov/pv/interactive-cell-efficiency"
+      },
+      "stage": "source",
+      "url": "https://www.nlr.gov/pv/interactive-cell-efficiency"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\9be78fe6b72d_cell-efficiency-data-table.xlsx",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /media/docs/libraries/pv/cell-efficiency-data-table.xlsx (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /media/docs/libraries/pv/cell-efficiency-data-table.xlsx (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v5\\nrel_pv_v5\\files\\23b6d3b8557a_cell-efficiency-data-table.csv",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /media/docs/libraries/pv/cell-efficiency-data-table.csv (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='www.nrel.gov', port=443): Max retries exceeded with url: /media/docs/libraries/pv/cell-efficiency-data-table.csv (Caused by NameResolutionError(\"HTTPSConnection(host='www.nrel.gov', port=443): Failed to resolve 'www.nrel.gov' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv"
+      },
+      "stage": "source",
+      "url": "https://www.nrel.gov/media/docs/libraries/pv/cell-efficiency-data-table.csv"
+    }
+  ],
+  "prediction_ids": [
+    "EN?"
+  ],
+  "prediction_names": [
+    "material symmetry/mass-contrast residual proxy for PV efficiency"
+  ],
+  "pv_proxy_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\pv_proxy_manifest.csv",
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "table_summaries": [],
+  "tables_count": 0,
+  "test_id": "T48",
+  "test_name": "photovoltaic acoustic-optical proxy"
+}

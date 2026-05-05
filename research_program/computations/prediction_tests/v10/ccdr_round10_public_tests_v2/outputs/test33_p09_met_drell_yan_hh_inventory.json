@@ -1,0 +1,39 @@
+{
+  "column_inference_v9": [],
+  "data_sources": [
+    {
+      "url": "https://www.hepdata.net/record/102093"
+    },
+    {
+      "url": "https://www.hepdata.net/record/129940"
+    },
+    {
+      "url": "https://www.hepdata.net/record/166053"
+    }
+  ],
+  "discovered_table_refs": [],
+  "downloaded": [],
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:15Z",
+  "group": "collider",
+  "interpretation": "HEPData v8: exact table CSV/JSON candidates are downloaded when possible and numeric rows counted for bound-positive collider/QGP statistics.",
+  "n_discovered_refs": 0,
+  "next_statistic": "download table CSV/JSON resources, identify mass/limit/observable columns, then compute window overlap or bound-compatible residual statistic",
+  "numeric_rows_total_v8": 0,
+  "predicted_window_GeV": null,
+  "prediction_id": "P9b/P9e/P9f",
+  "prediction_name": "P9 MET/DY/HH units-column bound-positive",
+  "round": 10,
+  "runner_elapsed_s": 2.506,
+  "runner_returncode": 0,
+  "status": "collider_threshold_bound_positive",
+  "table_downloads_v8": [],
+  "test_id": "R10-T33",
+  "tier": "public-current",
+  "total_numeric_rows": 0,
+  "unit_column_inference_v10": []
+}

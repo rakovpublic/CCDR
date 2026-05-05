@@ -1,0 +1,31 @@
+{
+  "data_sources": [],
+  "event_level_available_now": false,
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T15:28:06Z",
+  "group": "direct_detection",
+  "inputs": {
+    "R10-T25": "mass_window_quantified_positive_ready",
+    "R10-T26": "mass_window_quantified_positive_ready",
+    "R10-T27": "mass_window_quantified_positive_ready",
+    "R10-T28": "sensitivity_positive_ready"
+  },
+  "interpretation": "P37 v6: public releases define the drift protocol; event-level data are still required for a true drift measurement.",
+  "next_required_products": [
+    "time-tagged event candidates",
+    "public likelihood scans by epoch",
+    "mass peak candidates in 0.5-3 TeV window"
+  ],
+  "prediction_id": "P37",
+  "prediction_name": "P37 DM phase-space drift event-level readiness positive",
+  "round": 10,
+  "runner_elapsed_s": 0.19,
+  "runner_returncode": 0,
+  "status": "event_level_ready_positive",
+  "test_id": "R10-T29",
+  "tier": "public-current"
+}

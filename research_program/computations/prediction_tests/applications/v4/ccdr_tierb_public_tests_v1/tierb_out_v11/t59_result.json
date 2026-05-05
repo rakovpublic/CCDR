@@ -1,0 +1,786 @@
+{
+  "automated_discovery_v10": {
+    "automated_readiness_status": "sources_scanned_no_candidate_tables",
+    "candidate_table_count": 0,
+    "data_contract": {
+      "min_rows": {
+        "hepdata_table": 5,
+        "primary": 8
+      },
+      "name": "public HEP anomaly ledger",
+      "prediction_id": "HEP?",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "mass",
+          "mT",
+          "energy",
+          "GeV",
+          "TeV"
+        ],
+        [
+          "cross section",
+          "yield",
+          "events",
+          "limit"
+        ],
+        [
+          "uncertainty",
+          "error",
+          "observed",
+          "expected"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable table",
+      "E2": "secondary auto-extracted table/model possible; not decisive",
+      "E3": "primary machine-readable public table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-01T23:03:28Z",
+    "model_diagnostics": {
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "mass",
+          "mT",
+          "energy",
+          "GeV",
+          "TeV"
+        ],
+        [
+          "cross section",
+          "yield",
+          "events",
+          "limit"
+        ],
+        [
+          "uncertainty",
+          "error",
+          "observed",
+          "expected"
+        ]
+      ],
+      "nearest_source": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 1,
+    "source_records_sample": [
+      {
+        "artifact_diag": {},
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "HEPData broad exact-table search",
+        "meta": {
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T59\\files\\files\\2ba2c42c87be_search.bin",
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json",
+          "head": {
+            "content_length": null,
+            "content_type": "text/html; charset=UTF-8",
+            "error": null,
+            "final_url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json",
+            "ok": false,
+            "status_code": 403,
+            "url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json"
+          },
+          "ok": false,
+          "status_code": 403,
+          "url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json"
+        },
+        "seed_reason": "hepdata_connector",
+        "url": "https://www.hepdata.net/search/?q=ATLAS%20CMS%20Drell-Yan%20Higgs%20MET&format=json"
+      }
+    ],
+    "sources_scanned_count": 1,
+    "version": "v10_automated_discovery_no_manual_steps"
+  },
+  "automated_no_manual_steps_policy": "All v10 discovery artifacts are downloaded or extracted automatically from public URLs; manual curated CSVs are not required for this route. Secondary auto-extracted PDF/figure tables cannot confirm/falsify.",
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source": "v5 exact HEPData table manifest split by MET/Drell-Yan/di-Higgs categories",
+  "endpoint_records": [
+    {
+      "category": "T59a MET near EW threshold",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              "GLUINO MASS [GEV]",
+              "NEUTRALINO1 MASS [GEV]",
+              "ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO MASS [GEV]",
+                "NEUTRALINO1 MASS [GEV]",
+                "ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "GLUINO MASS [GEV]",
+                  "NEUTRALINO1 MASS [GEV]"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              3
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO",
+              "MASS",
+              "[GEV],NEUTRALINO1",
+              "MASS.1",
+              "[GEV],ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO",
+                "MASS",
+                "[GEV],NEUTRALINO1",
+                "MASS.1",
+                "[GEV],ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "MASS",
+                  "MASS.1"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              5
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO MASS [GEV]",
+              "NEUTRALINO1 MASS [GEV]",
+              "ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO MASS [GEV]",
+                "NEUTRALINO1 MASS [GEV]",
+                "ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "GLUINO MASS [GEV]",
+                  "NEUTRALINO1 MASS [GEV]"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              3
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO",
+              "MASS",
+              "[GEV],NEUTRALINO1",
+              "MASS.1",
+              "[GEV],ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO",
+                "MASS",
+                "[GEV],NEUTRALINO1",
+                "MASS.1",
+                "[GEV],ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "MASS",
+                  "MASS.1"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              5
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO MASS [GEV]",
+              "NEUTRALINO1 MASS [GEV]",
+              "ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO MASS [GEV]",
+                "NEUTRALINO1 MASS [GEV]",
+                "ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "GLUINO MASS [GEV]",
+                  "NEUTRALINO1 MASS [GEV]"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              3
+            ]
+          },
+          {
+            "columns": [
+              "GLUINO",
+              "MASS",
+              "[GEV],NEUTRALINO1",
+              "MASS.1",
+              "[GEV],ACCEPTANCE"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "GLUINO",
+                "MASS",
+                "[GEV],NEUTRALINO1",
+                "MASS.1",
+                "[GEV],ACCEPTANCE"
+              ],
+              "matched_groups": [
+                [
+                  "MASS",
+                  "MASS.1"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ],
+                [
+                  "err|unc|stat|sys|sigma|error|pull"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              50,
+              5
+            ]
+          }
+        ]
+      },
+      "label": "HEPData MET near EW threshold example",
+      "meta": {
+        "bytes": 2074,
+        "cache_path": "tierb_cache_v11\\T59_hep_v5\\files\\1e1a0d6ccadc_csv.bin",
+        "cached": false,
+        "content_type": "text/csv; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv",
+        "head": {
+          "content_length": 2074,
+          "content_type": "text/csv; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1458270/Table100/csv"
+    },
+    {
+      "category": "T59b Drell-Yan around 1 TeV",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": [
+          {
+            "columns": [
+              "Channel",
+              "$\\sigma$ [PB]",
+              "stat +",
+              "stat -",
+              "syst +",
+              "syst -",
+              "lumi +",
+              "lumi -",
+              "sys +",
+              "sys -"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Channel",
+                "$\\sigma$ [PB]",
+                "stat +",
+                "stat -",
+                "syst +",
+                "syst -",
+                "lumi +",
+                "lumi -",
+                "sys +",
+                "sys -"
+              ],
+              "matched_groups": [
+                [
+                  "$\\sigma$ [PB]",
+                  "stat +",
+                  "stat -",
+                  "sys +",
+                  "sys -",
+                  "syst +",
+                  "syst -"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "mass|mll|met|missing|mT|energy|bin|threshold|sqrt"
+                ],
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              4,
+              10
+            ]
+          },
+          {
+            "columns": [
+              "Channel",
+              "$\\sigma$ [PB]",
+              "stat +",
+              "stat -",
+              "syst +",
+              "syst -",
+              "lumi +",
+              "lumi -",
+              "sys +",
+              "sys -"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Channel",
+                "$\\sigma$ [PB]",
+                "stat +",
+                "stat -",
+                "syst +",
+                "syst -",
+                "lumi +",
+                "lumi -",
+                "sys +",
+                "sys -"
+              ],
+              "matched_groups": [
+                [
+                  "$\\sigma$ [PB]",
+                  "stat +",
+                  "stat -",
+                  "sys +",
+                  "sys -",
+                  "syst +",
+                  "syst -"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "mass|mll|met|missing|mT|energy|bin|threshold|sqrt"
+                ],
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              4,
+              10
+            ]
+          },
+          {
+            "columns": [
+              "Channel,$\\sigma$",
+              "[PB],stat",
+              "+,stat",
+              "-,syst",
+              "+,syst",
+              "-,lumi",
+              "+,lumi",
+              "-,sys",
+              "+,sys",
+              "-"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Channel,$\\sigma$",
+                "[PB],stat",
+                "+,stat",
+                "-,syst",
+                "+,syst",
+                "-,lumi",
+                "+,lumi",
+                "-,sys",
+                "+,sys",
+                "-"
+              ],
+              "matched_groups": [
+                [
+                  "+,stat",
+                  "+,sys",
+                  "+,syst",
+                  "-,sys",
+                  "-,syst",
+                  "Channel,$\\sigma$",
+                  "[PB],stat"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "mass|mll|met|missing|mT|energy|bin|threshold|sqrt"
+                ],
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              4,
+              10
+            ]
+          },
+          {
+            "columns": [
+              "Channel",
+              "$\\sigma$ [PB]",
+              "stat +",
+              "stat -",
+              "syst +",
+              "syst -",
+              "lumi +",
+              "lumi -",
+              "sys +",
+              "sys -"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Channel",
+                "$\\sigma$ [PB]",
+                "stat +",
+                "stat -",
+                "syst +",
+                "syst -",
+                "lumi +",
+                "lumi -",
+                "sys +",
+                "sys -"
+              ],
+              "matched_groups": [
+                [
+                  "$\\sigma$ [PB]",
+                  "stat +",
+                  "stat -",
+                  "sys +",
+                  "sys -",
+                  "syst +",
+                  "syst -"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "mass|mll|met|missing|mT|energy|bin|threshold|sqrt"
+                ],
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              4,
+              10
+            ]
+          },
+          {
+            "columns": [
+              "Channel",
+              "$\\sigma$ [PB]",
+              "stat +",
+              "stat -",
+              "syst +",
+              "syst -",
+              "lumi +",
+              "lumi -",
+              "sys +",
+              "sys -"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Channel",
+                "$\\sigma$ [PB]",
+                "stat +",
+                "stat -",
+                "syst +",
+                "syst -",
+                "lumi +",
+                "lumi -",
+                "sys +",
+                "sys -"
+              ],
+              "matched_groups": [
+                [
+                  "$\\sigma$ [PB]",
+                  "stat +",
+                  "stat -",
+                  "sys +",
+                  "sys -",
+                  "syst +",
+                  "syst -"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "mass|mll|met|missing|mT|energy|bin|threshold|sqrt"
+                ],
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              4,
+              10
+            ]
+          },
+          {
+            "columns": [
+              "Channel,$\\sigma$",
+              "[PB],stat",
+              "+,stat",
+              "-,syst",
+              "+,syst",
+              "-,lumi",
+              "+,lumi",
+              "-,sys",
+              "+,sys",
+              "-"
+            ],
+            "physical_column_match": {
+              "columns": [
+                "Channel,$\\sigma$",
+                "[PB],stat",
+                "+,stat",
+                "-,syst",
+                "+,syst",
+                "-,lumi",
+                "+,lumi",
+                "-,sys",
+                "+,sys",
+                "-"
+              ],
+              "matched_groups": [
+                [
+                  "+,stat",
+                  "+,sys",
+                  "+,syst",
+                  "-,sys",
+                  "-,syst",
+                  "Channel,$\\sigma$",
+                  "[PB],stat"
+                ]
+              ],
+              "missing_groups": [
+                [
+                  "mass|mll|met|missing|mT|energy|bin|threshold|sqrt"
+                ],
+                [
+                  "data|observed|events|ratio|cross.*section|limit|expected|SM|background|value"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              4,
+              10
+            ]
+          }
+        ]
+      },
+      "label": "HEPData Drell-Yan around 1 TeV example",
+      "meta": {
+        "bytes": 1209,
+        "cache_path": "tierb_cache_v11\\T59_hep_v5\\files\\b09a719b99c3_csv.bin",
+        "cached": false,
+        "content_type": "text/csv; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1502620/Table%201/csv",
+        "head": {
+          "content_length": 1209,
+          "content_type": "text/csv; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.hepdata.net/download/table/ins1502620/Table%201/csv",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.hepdata.net/download/table/ins1502620/Table%201/csv"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1502620/Table%201/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1502620/Table%201/csv"
+    },
+    {
+      "category": "T59c di-Higgs threshold",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "HEPData di-Higgs threshold example",
+      "meta": {
+        "bytes": 10764,
+        "cache_path": "tierb_cache_v11\\T59_hep_v5\\files\\66fd543d1494_csv.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.hepdata.net/download/table/ins1735252/Table%201/csv",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://www.hepdata.net/download/table/ins1735252/Table%201/csv",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www.hepdata.net/download/table/ins1735252/Table%201/csv"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.hepdata.net/download/table/ins1735252/Table%201/csv"
+      },
+      "tables": [],
+      "url": "https://www.hepdata.net/download/table/ins1735252/Table%201/csv"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "generated_utc": "2026-05-01T23:03:28Z",
+  "ledger_categories": {
+    "T59a MET near EW threshold": {
+      "exact_table_attempts": 1,
+      "qualifying": 0
+    },
+    "T59b Drell-Yan around 1 TeV": {
+      "exact_table_attempts": 1,
+      "qualifying": 0
+    },
+    "T59c di-Higgs threshold": {
+      "exact_table_attempts": 1,
+      "qualifying": 0
+    }
+  },
+  "prediction_ids": [
+    "P9b",
+    "P9e",
+    "P9f"
+  ],
+  "prediction_names": [
+    "MET near EW threshold, Drell-Yan ~1 TeV, di-Higgs threshold audit"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "+v10_auto_discovery_no_manual_steps",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T59",
+  "test_name": "public HEP anomaly ledger"
+}

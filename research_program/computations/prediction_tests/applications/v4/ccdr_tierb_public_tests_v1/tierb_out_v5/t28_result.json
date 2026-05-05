@@ -1,0 +1,123 @@
+{
+  "data_source_policy": "v3 structured-source fusion gate: article HTML/PDF text is never evidence; only direct CSV/XLS/JSON/Dat tables with named physical columns count.",
+  "discovered_structured_links_count": 1,
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If no direct structured physical table is found, the result is data_limited, not null.",
+    "confirm_like": "A structured public fusion table with required physical columns gives the predicted sign/scaling under controls.",
+    "falsify_like": "Adequate structured public fusion rows exist and the predicted scaling/sign is absent or reversed."
+  },
+  "generated_utc": "2026-04-30T20:10:10Z",
+  "manifest_only_mode": true,
+  "manifest_records": [
+    {
+      "discovered_links": [
+        "https://osf.io/download/593q6/"
+      ],
+      "discovery_diagnostics": [
+        {
+          "candidate_url": "https://osf.io/download/593q6/",
+          "context_sample": "DB5.2.3_variables.pdf DB5.2.3_variables.pdf DB5.2.3_variables.pdf https://osf.io/download/593q6/",
+          "keyword_gate": {
+            "negative_hits": [],
+            "ok": true,
+            "positive_hits": [
+              "DB5"
+            ],
+            "score": 1
+          }
+        },
+        {
+          "json_type": "dict",
+          "links_found_after_gate": 1
+        }
+      ],
+      "label": "OSF ITPA Global H-mode DB5.2.3 exact file API",
+      "meta": {
+        "bytes": 2267,
+        "cache_path": "tierb_cache_v5\\T28_v5_funnel\\files\\013d7407f17c_osfstorage.bin",
+        "cached": false,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "error": null,
+        "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+        "head": {
+          "content_length": null,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      "stage": "source",
+      "tables": [],
+      "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+    },
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [
+        {
+          "html_page_keyword_gate": {
+            "negative_hits": [],
+            "ok": false,
+            "positive_hits": [],
+            "score": 0
+          },
+          "links_found_after_html": 0
+        }
+      ],
+      "label": "OSF ITPA Global H-mode overview",
+      "meta": {
+        "bytes": 4190,
+        "cache_path": "tierb_cache_v5\\T28_v5_funnel\\files\\27b617f8af3e_drwcq.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://osf.io/drwcq/",
+        "head": {
+          "content_length": null,
+          "content_type": "text/html",
+          "error": null,
+          "final_url": "https://osf.io/drwcq/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://osf.io/drwcq/"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://osf.io/drwcq/"
+      },
+      "stage": "source",
+      "tables": [],
+      "url": "https://osf.io/drwcq/"
+    }
+  ],
+  "prediction_ids": [
+    "FR7",
+    "FR10"
+  ],
+  "prediction_names": [
+    "M_KSS correlates with energy confinement time",
+    "density plus curvature residual coupling in confinement scalings"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "readiness_status": "source_found_no_usable_table",
+  "required_physical_columns": "\u03c4_E/H-factor, density, temperature/stored energy, transport/diffusivity proxy, machine/device",
+  "schema": "ccdr-tierb-result-v1",
+  "source_funnel_policy": "v5 source\u2192record\u2192file; discovery APIs are metadata only; full parse only after header physical-column gate",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T28",
+  "test_name": "global H-mode confinement/KSS margin"
+}

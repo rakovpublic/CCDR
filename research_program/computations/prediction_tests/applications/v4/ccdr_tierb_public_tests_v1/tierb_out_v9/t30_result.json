@@ -1,0 +1,136 @@
+{
+  "best_model_result": null,
+  "candidate_files": [],
+  "candidate_files_count": 0,
+  "candidate_rejection_counts": {
+    "metadata_dictionary_pdf_not_evidence": 1
+  },
+  "data_source_policy": "v8 exact OSF ITPA DB5.2.3 recursive parser with item-level rejection reasons; PDFs/dictionaries are metadata only.",
+  "downloaded_candidate_files": [],
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If only a variables PDF/dictionary or no structured DB table is public, result is data_limited, not null.",
+    "confirm_like": "A real DB5/STD5 structured table is parsed and the predicted confinement/residual relation is stable under controls.",
+    "falsify_like": "Adequate DB5/STD5 rows exist and the predicted terms are absent, reversed, or penalized by model comparison."
+  },
+  "generated_utc": "2026-05-01T18:43:37Z",
+  "manifest_debug": {
+    "manifest_columns": [
+      "test_id",
+      "priority",
+      "label",
+      "url",
+      "source_kind",
+      "expected_files",
+      "required_column_groups",
+      "mode",
+      "evidence_level",
+      "note"
+    ],
+    "manifest_exists": true,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+    "manifest_rows_total": 10,
+    "manifest_test_ids_seen": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30"
+    ],
+    "rows_selected_for_test": 1,
+    "selected_labels": [
+      "ITPA DB5.2.3 OSF recursive API"
+    ]
+  },
+  "model_results": [],
+  "osf_api_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+  "osf_diagnostics": [
+    {
+      "depth": 0,
+      "item_details": [
+        {
+          "candidate_rejection_reason": "metadata_dictionary_pdf_not_evidence",
+          "download_url": "https://osf.io/download/593q6/",
+          "exact_itpa_match": true,
+          "html_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+          "id": "606c8a6bf6585f0225615cae",
+          "kind": "file",
+          "materialized_path": "/DB5.2.3_variables.pdf",
+          "name": "DB5.2.3_variables.pdf",
+          "path": "/606c8a6bf6585f0225615cae",
+          "related_files_url": null,
+          "related_parent_folder_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+          "size": 2072955,
+          "structured_extension": false,
+          "type": "files",
+          "variables_dictionary_like": true
+        }
+      ],
+      "items": 1,
+      "meta": {
+        "bytes": 2267,
+        "cache_path": "tierb_cache_v9\\v8_osf_itpa\\files\\013d7407f17c_osfstorage.bin",
+        "cached": false,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "error": null,
+        "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+        "head": {
+          "content_length": null,
+          "content_type": "application/vnd.api+json; charset=utf-8",
+          "error": null,
+          "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+    }
+  ],
+  "osf_files_count": 1,
+  "osf_folders_count": 0,
+  "osf_item_details_sample": [
+    {
+      "candidate_rejection_reason": "metadata_dictionary_pdf_not_evidence",
+      "download_url": "https://osf.io/download/593q6/",
+      "exact_itpa_match": true,
+      "html_url": "https://osf.io/drwcq/files/osfstorage/606c8a6bf6585f0225615cae",
+      "id": "606c8a6bf6585f0225615cae",
+      "kind": "file",
+      "materialized_path": "/DB5.2.3_variables.pdf",
+      "name": "DB5.2.3_variables.pdf",
+      "path": "/606c8a6bf6585f0225615cae",
+      "related_files_url": null,
+      "related_parent_folder_url": "https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/",
+      "size": 2072955,
+      "structured_extension": false,
+      "type": "files",
+      "variables_dictionary_like": true
+    }
+  ],
+  "prediction_ids": [
+    "FR10"
+  ],
+  "prediction_names": [
+    "combined density plus shaping/curvature reduces confinement residuals by 10-20 percent"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_osf_manifest_diagnostics_and_itpa_model",
+  "readiness_status": "no_source_found",
+  "schema": "ccdr-tierb-result-v1",
+  "source_manifest": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "table_summaries": [],
+  "test_id": "T30",
+  "test_name": "fusion residual curvature coupling"
+}

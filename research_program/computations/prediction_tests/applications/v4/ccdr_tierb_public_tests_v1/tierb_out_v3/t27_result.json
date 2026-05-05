@@ -1,0 +1,109 @@
+{
+  "data_source_policy": "v3 structured-source fusion gate: article HTML/PDF text is never evidence; only direct CSV/XLS/JSON/Dat tables with named physical columns count.",
+  "falsification_logic": {
+    "caveat": "If no direct structured physical table is found, the result is data_limited, not null.",
+    "confirm_like": "A structured public fusion table with required physical columns gives the predicted sign/scaling under controls.",
+    "falsify_like": "Adequate structured public fusion rows exist and the predicted scaling/sign is absent or reversed."
+  },
+  "generated_utc": "2026-04-30T09:44:59Z",
+  "manifest_records": [
+    {
+      "discovered_links": [],
+      "label": "Zenodo RMP ELM frequency discovery",
+      "meta": {
+        "bytes": 164430,
+        "cache_path": "tierb_cache_v3\\T27_structured_manifest\\6d622e89f71d_records.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://zenodo.org/api/records?q=RMP%20ELM%20frequency%20coil%20phasing&size=25",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://zenodo.org/api/records?q=RMP%20ELM%20frequency%20coil%20phasing&size=25"
+      },
+      "tables": [
+        {
+          "columns": [
+            "hits.hits",
+            "hits.total",
+            "aggregations.publication_date.buckets",
+            "aggregations.publication_date.label",
+            "aggregations.access_status.buckets",
+            "aggregations.access_status.label",
+            "aggregations.resource_type.buckets",
+            "aggregations.resource_type.label",
+            "aggregations.subject.buckets",
+            "aggregations.subject.label",
+            "aggregations.file_type.buckets",
+            "aggregations.file_type.label",
+            "links.self",
+            "links.next"
+          ],
+          "numeric_columns": [],
+          "physical_column_match": {
+            "columns": [
+              "hits.hits",
+              "hits.total",
+              "aggregations.publication_date.buckets",
+              "aggregations.publication_date.label",
+              "aggregations.access_status.buckets",
+              "aggregations.access_status.label",
+              "aggregations.resource_type.buckets",
+              "aggregations.resource_type.label",
+              "aggregations.subject.buckets",
+              "aggregations.subject.label",
+              "aggregations.file_type.buckets",
+              "aggregations.file_type.label",
+              "links.self",
+              "links.next"
+            ],
+            "matched_groups": [],
+            "missing_groups": [
+              [
+                "ELM.*freq|freq.*ELM|f[_\\s-]?ELM"
+              ],
+              [
+                "RMP|coil|phasing|n[_\\s-]?=|current|I[_\\s-]?coil|helicity|H[_\\s-]?mag"
+              ]
+            ],
+            "ok": false
+          },
+          "shape": [
+            1,
+            14
+          ],
+          "source_url": "https://zenodo.org/api/records?q=RMP%20ELM%20frequency%20coil%20phasing&size=25"
+        }
+      ],
+      "url": "https://zenodo.org/api/records?q=RMP%20ELM%20frequency%20coil%20phasing&size=25"
+    },
+    {
+      "discovered_links": [],
+      "label": "Figshare RMP ELM frequency discovery",
+      "meta": {
+        "cache_path": "tierb_cache_v3\\T27_structured_manifest\\5fd3f9acdd09_search.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://api.figshare.com/v2/articles/search?search_for=RMP%20ELM%20frequency%20coil%20phasing",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://api.figshare.com/v2/articles/search?search_for=RMP%20ELM%20frequency%20coil%20phasing"
+      },
+      "tables": [],
+      "url": "https://api.figshare.com/v2/articles/search?search_for=RMP%20ELM%20frequency%20coil%20phasing"
+    }
+  ],
+  "prediction_ids": [
+    "FR6"
+  ],
+  "prediction_names": [
+    "ELM frequency proportional to separatrix magnetic helicity proxy |H_mag|"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "required_physical_columns": "ELM frequency, RMP current/amplitude, coil phasing/n-number, device/shot, no-RMP baseline",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "support_like": null,
+  "test_id": "T27",
+  "test_name": "ELM helicity proxy"
+}

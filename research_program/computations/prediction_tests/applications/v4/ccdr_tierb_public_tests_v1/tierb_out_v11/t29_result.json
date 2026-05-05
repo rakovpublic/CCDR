@@ -1,0 +1,593 @@
+{
+  "automated_discovery_v10": {
+    "automated_readiness_status": "sources_scanned_no_candidate_tables",
+    "candidate_table_count": 0,
+    "data_contract": {
+      "min_rows": {
+        "primary": 20,
+        "secondary_auto_figure_digitized": 6,
+        "secondary_auto_pdf_table": 8
+      },
+      "name": "stellarator/tokamak profile transport proxy",
+      "prediction_id": "FR8",
+      "primary_only_decisive": true,
+      "required_column_groups": [
+        [
+          "device",
+          "device_type",
+          "stellarator",
+          "tokamak",
+          "W7-X",
+          "W7-AS",
+          "LHD"
+        ],
+        [
+          "radius",
+          "rho",
+          "r/a",
+          "normalized flux",
+          "profile"
+        ],
+        [
+          "Te",
+          "Ti",
+          "ne",
+          "temperature",
+          "density"
+        ],
+        [
+          "heat flux",
+          "power flux",
+          "diffusivity",
+          "chi",
+          "transport"
+        ]
+      ]
+    },
+    "evidence_ladder": {
+      "E0": "no source found",
+      "E1": "source found but no usable table",
+      "E2": "secondary auto-extracted table/model possible; not decisive",
+      "E3": "primary machine-readable public table/model possible",
+      "E4": "primary table with uncertainties/controls and adequate sensitivity"
+    },
+    "generated_utc": "2026-05-01T22:01:41Z",
+    "model_diagnostics": {
+      "status": "no_model_candidate"
+    },
+    "nearest_miss": {
+      "missing_required_groups": [
+        [
+          "device",
+          "device_type",
+          "stellarator",
+          "tokamak",
+          "W7-X",
+          "W7-AS",
+          "LHD"
+        ],
+        [
+          "radius",
+          "rho",
+          "r/a",
+          "normalized flux",
+          "profile"
+        ],
+        [
+          "Te",
+          "Ti",
+          "ne",
+          "temperature",
+          "density"
+        ],
+        [
+          "heat flux",
+          "power flux",
+          "diffusivity",
+          "chi",
+          "transport"
+        ]
+      ],
+      "nearest_source": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content",
+      "suggested_next_auto_strategy": "supplement_crawler_arxiv_source_pdf_table_extraction"
+    },
+    "primary_qualifying_table_count": 0,
+    "qualifying_table_count": 0,
+    "qualifying_tables_sample": [],
+    "schema_artifacts": [],
+    "secondary_qualifying_table_count": 0,
+    "seed_sources_count": 3,
+    "source_records_sample": [
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "content_type": "application/pdf; charset=utf-8",
+          "extractors_tried": [
+            "pdfplumber_tables_secondary"
+          ],
+          "figure_digitization_attempt": {
+            "attempted": false,
+            "available": false,
+            "candidate_vector_pages": 0,
+            "note": "exploratory only; never decisive"
+          },
+          "frames_extracted": 0,
+          "pdf_table_frames": 0,
+          "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "Stellarator-tokamak energy confinement comparison PDF",
+        "meta": {
+          "bytes": 437793,
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T29\\files\\files\\dd0184ef4efa_content.bin",
+          "cached": false,
+          "content_type": "application/pdf; charset=UTF-8",
+          "error": null,
+          "final_url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content",
+          "head": {
+            "content_length": 437793,
+            "content_type": "application/pdf; charset=UTF-8",
+            "error": null,
+            "final_url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+        },
+        "seed_reason": "manifest_records",
+        "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "content_type": "application/pdf",
+          "extractors_tried": [
+            "pdfplumber_tables_secondary"
+          ],
+          "figure_digitization_attempt": {
+            "attempted": false,
+            "available": false,
+            "candidate_vector_pages": 0,
+            "note": "exploratory only; never decisive"
+          },
+          "frames_extracted": 0,
+          "pdf_table_frames": 0,
+          "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "W7-X magnetic configuration effects profile/transport PDF",
+        "meta": {
+          "bytes": 2155683,
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T29\\files\\files\\e04fac64c121_WPS1PR17_18393_submitted.pdf",
+          "cached": false,
+          "content_type": "application/pdf",
+          "error": null,
+          "final_url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf",
+          "head": {
+            "content_length": 2155683,
+            "content_type": "application/pdf",
+            "error": null,
+            "final_url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+        },
+        "seed_reason": "manifest_records",
+        "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+      },
+      {
+        "artifact_diag": {
+          "archive_members_sample": [],
+          "content_type": "application/pdf",
+          "extractors_tried": [
+            "pdfplumber_tables_secondary"
+          ],
+          "figure_digitization_attempt": {
+            "attempted": false,
+            "available": false,
+            "candidate_vector_pages": 0,
+            "note": "exploratory only; never decisive"
+          },
+          "frames_extracted": 0,
+          "pdf_table_frames": 0,
+          "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+        },
+        "candidate_tables": [],
+        "depth": 0,
+        "extracted_links": [],
+        "label": "W7-AS stellarator IAEA public PDF",
+        "meta": {
+          "bytes": 2354261,
+          "cache_path": "tierb_cache_v11\\v10_auto_discovery_T29\\files\\files\\74d41e2224b9_ov2_4.pdf",
+          "cached": false,
+          "content_type": "application/pdf",
+          "error": null,
+          "final_url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf",
+          "head": {
+            "content_length": 2354261,
+            "content_type": "application/pdf",
+            "error": null,
+            "final_url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf",
+            "ok": true,
+            "status_code": 200,
+            "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+          },
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+        },
+        "seed_reason": "manifest_records",
+        "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+      }
+    ],
+    "sources_scanned_count": 3,
+    "version": "v10_automated_discovery_no_manual_steps"
+  },
+  "automated_no_manual_steps_policy": "All v10 discovery artifacts are downloaded or extracted automatically from public URLs; manual curated CSVs are not required for this route. Secondary auto-extracted PDF/figure tables cannot confirm/falsify.",
+  "data_contract_generation": {
+    "contract_paths_sample": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T26.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T27.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T28.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T44.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T45.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T47.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T50.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T51.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T52.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T54.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T57.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\contracts\\T59.json"
+    ],
+    "contracts_written": 14
+  },
+  "data_source_policy": "v8 curated W7-X/W7-AS vs tokamak profile/transport proxy; full FR8 evidence requires matched machine-readable tables.",
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "PDF/plot-only sources leave FR8 data_limited, not null.",
+    "confirm_like": "Matched stellarator/tokamak profile tables show stellarator edge transport proxy closer to the predicted KSS-like limit after normalization.",
+    "falsify_like": "Comparable public profile/transport rows exist and the stellarator proxy is not closer or is reversed."
+  },
+  "generated_utc": "2026-05-01T22:01:41Z",
+  "manifest_debug": {
+    "manifest_columns": [
+      "test_id",
+      "priority",
+      "label",
+      "url",
+      "source_kind",
+      "expected_files",
+      "required_column_groups",
+      "mode",
+      "evidence_level",
+      "note"
+    ],
+    "manifest_exists": true,
+    "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+    "manifest_rows_total": 10,
+    "manifest_test_ids_seen": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30"
+    ],
+    "rows_selected_for_test": 3,
+    "selected_labels": [
+      "Stellarator-tokamak energy confinement comparison PDF",
+      "W7-X magnetic configuration effects profile/transport PDF",
+      "W7-AS stellarator IAEA public PDF"
+    ]
+  },
+  "manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\fusion_manifest.csv",
+  "manifest_records": [
+    {
+      "evidence_level": "proxy",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "Stellarator-tokamak energy confinement comparison PDF",
+      "manifest_note": "Profile-only proxy source; if only PDF/plots exist classify as data_limited.",
+      "manifest_row": {
+        "evidence_level": "proxy",
+        "expected_files": "csv|xls|xlsx|dat|table|supplement",
+        "label": "Stellarator-tokamak energy confinement comparison PDF",
+        "mode": "scientific",
+        "note": "Profile-only proxy source; if only PDF/plots exist classify as data_limited.",
+        "priority": "1",
+        "required_column_groups": "device|stellarator|tokamak|W7-X|JET|DIII-D|AUG;radius|rho|r/a|normalized flux|profile;Te|Ti|ne|temperature|density;heat flux|power flux|diffusivity|chi|transport",
+        "source_kind": "pdf_or_supplement",
+        "test_id": "T29",
+        "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+      },
+      "meta": {
+        "bytes": 437793,
+        "cache_path": "tierb_cache_v11\\v7_curated_tables\\files\\dd0184ef4efa_content.bin",
+        "cached": false,
+        "content_type": "application/pdf; charset=UTF-8",
+        "error": null,
+        "final_url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content",
+        "head": {
+          "content_length": 437793,
+          "content_type": "application/pdf; charset=UTF-8",
+          "error": null,
+          "final_url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "device",
+          "stellarator",
+          "tokamak",
+          "W7-X",
+          "JET",
+          "DIII-D",
+          "AUG"
+        ],
+        [
+          "radius",
+          "rho",
+          "r/a",
+          "normalized flux",
+          "profile"
+        ],
+        [
+          "Te",
+          "Ti",
+          "ne",
+          "temperature",
+          "density"
+        ],
+        [
+          "heat flux",
+          "power flux",
+          "diffusivity",
+          "chi",
+          "transport"
+        ]
+      ],
+      "source_kind": "pdf_or_supplement",
+      "tables": [],
+      "url": "https://pure.mpg.de/rest/items/item_3266722_3/component/file_3273290/content"
+    },
+    {
+      "evidence_level": "proxy",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "W7-X magnetic configuration effects profile/transport PDF",
+      "manifest_note": "Curated W7-X profile/transport source.",
+      "manifest_row": {
+        "evidence_level": "proxy",
+        "expected_files": "csv|xls|xlsx|dat|table|supplement",
+        "label": "W7-X magnetic configuration effects profile/transport PDF",
+        "mode": "scientific",
+        "note": "Curated W7-X profile/transport source.",
+        "priority": "2",
+        "required_column_groups": "device|W7-X|stellarator;radius|rho|profile;Te|Ti|ne;heat flux|power flux|diffusivity|chi|transport",
+        "source_kind": "pdf_or_supplement",
+        "test_id": "T29",
+        "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+      },
+      "meta": {
+        "bytes": 2155683,
+        "cache_path": "tierb_cache_v11\\v7_curated_tables\\files\\e04fac64c121_WPS1PR17_18393_submitted.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf",
+        "head": {
+          "content_length": 2155683,
+          "content_type": "application/pdf",
+          "error": null,
+          "final_url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "device",
+          "W7-X",
+          "stellarator"
+        ],
+        [
+          "radius",
+          "rho",
+          "profile"
+        ],
+        [
+          "Te",
+          "Ti",
+          "ne"
+        ],
+        [
+          "heat flux",
+          "power flux",
+          "diffusivity",
+          "chi",
+          "transport"
+        ]
+      ],
+      "source_kind": "pdf_or_supplement",
+      "tables": [],
+      "url": "https://scipub.euro-fusion.org/wp-content/uploads/eurofusion/WPS1PR17_18393_submitted.pdf"
+    },
+    {
+      "evidence_level": "proxy",
+      "header_gate": {
+        "full_parse": false,
+        "gate_ok": false,
+        "header_frames": []
+      },
+      "label": "W7-AS stellarator IAEA public PDF",
+      "manifest_note": "Curated source; structured table required.",
+      "manifest_row": {
+        "evidence_level": "proxy",
+        "expected_files": "csv|xls|xlsx|dat|table|supplement",
+        "label": "W7-AS stellarator IAEA public PDF",
+        "mode": "scientific",
+        "note": "Curated source; structured table required.",
+        "priority": "3",
+        "required_column_groups": "device|W7-AS|stellarator;radius|rho|profile;Te|Ti|ne;heat flux|power flux|diffusivity|chi|transport",
+        "source_kind": "pdf_or_supplement",
+        "test_id": "T29",
+        "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+      },
+      "meta": {
+        "bytes": 2354261,
+        "cache_path": "tierb_cache_v11\\v7_curated_tables\\files\\74d41e2224b9_ov2_4.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf",
+        "head": {
+          "content_length": 2354261,
+          "content_type": "application/pdf",
+          "error": null,
+          "final_url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf",
+          "ok": true,
+          "status_code": 200,
+          "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+        },
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+      },
+      "qualifying_tables": [],
+      "required_groups_used": [
+        [
+          "device",
+          "W7-AS",
+          "stellarator"
+        ],
+        [
+          "radius",
+          "rho",
+          "profile"
+        ],
+        [
+          "Te",
+          "Ti",
+          "ne"
+        ],
+        [
+          "heat flux",
+          "power flux",
+          "diffusivity",
+          "chi",
+          "transport"
+        ]
+      ],
+      "source_kind": "pdf_or_supplement",
+      "tables": [],
+      "url": "https://www-pub.iaea.org/MTCD/publications/PDF/csp_019c/pdf/ov2_4.pdf"
+    }
+  ],
+  "manual_curated_analysis": {
+    "manual_rows_used": 0,
+    "status": "no_manual_rows"
+  },
+  "manual_curated_policy": "Manual-curated rows are allowed only as transparent public-data rows with source_url/evidence_tier. They are separate from primary machine-readable supplements.",
+  "manual_curated_table_debug": {
+    "columns": [
+      "test_id",
+      "source_label",
+      "source_url",
+      "evidence_tier",
+      "device",
+      "device_type",
+      "shot",
+      "year",
+      "E_ELM",
+      "W_ELM",
+      "P_ped",
+      "V_ped",
+      "dP_over_P",
+      "ELM_frequency",
+      "RMP_current",
+      "helicity_abs_proxy",
+      "coil_phasing",
+      "n_mode",
+      "tau_E",
+      "density",
+      "stored_energy",
+      "power",
+      "ip",
+      "bt",
+      "elongation",
+      "triangularity",
+      "q95",
+      "R_major",
+      "a_minor",
+      "rho",
+      "Te",
+      "Ti",
+      "ne",
+      "heat_flux",
+      "diffusivity",
+      "notes"
+    ],
+    "evidence_tiers_seen": [],
+    "exists": true,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\manual_curated_fusion_tables.csv",
+    "rows_selected_for_test": 0,
+    "rows_total": 0,
+    "selected_source_labels": [],
+    "test_ids_seen": []
+  },
+  "prediction_ids": [
+    "FR8"
+  ],
+  "prediction_names": [
+    "stellarator edge transport closer to KSS than tokamak edge transport"
+  ],
+  "profile_proxy_protocol": {
+    "interpretation": "profile_only_proxy_available is readiness, not confirmation; full evidence needs stellarator and tokamak rows in comparable units.",
+    "minimum_columns": "device/device_type, radius or normalized flux coordinate, Te/Ti or ne profile, and heat-flux/diffusivity/transport normalization"
+  },
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v8_manifest_diagnostics_profile_only_w7x_tokamak_proxy+v9_manual_table_route+v10_auto_discovery_no_manual_steps",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "source_funnel_policy": "v8 curated-source-only with manifest diagnostics; article/PDF prose is not evidence; only structured CSV/XLS/JSON/DAT tables count",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T29",
+  "test_name": "stellarator vs tokamak edge transport"
+}

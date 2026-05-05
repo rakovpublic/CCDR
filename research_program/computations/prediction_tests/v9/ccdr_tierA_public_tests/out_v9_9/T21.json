@@ -1,0 +1,59 @@
+{
+  "claim_strength": "diagnostic",
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\firas\\firas_monopole_spec_v1.txt",
+      "size": 2388,
+      "url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt"
+    }
+  ],
+  "description": "Fit physical \u03bc/y-like spectral distortion templates to public COBE/FIRAS monopole spectrum.",
+  "falsification_logic": {
+    "confirm_like": "a physically normalized staged distortion amplitude is nonzero and below FIRAS limits",
+    "falsify_like": "predicted staged amplitude is above FIRAS residual limits"
+  },
+  "generated_utc": "2026-05-03T16:57:13Z",
+  "metrics": {
+    "chi2": 3.6362990194495675e-05,
+    "chi2_over_dof": 9.827835187701533e-07,
+    "columns": [
+      "0",
+      "1",
+      "2"
+    ],
+    "dof": 37,
+    "frequency_unit": "cm^-1 converted to GHz",
+    "mu_95_abs_limit": 0.7254750132654597,
+    "mu_best": -0.0005478501883280503,
+    "n_points": 43,
+    "note": "Physical-template screen with nuisance blackbody/calibration terms; v9.6 adds unit/fit sanity audit, but this is still not the official FIRAS residual covariance likelihood.",
+    "official_covariance_used": false,
+    "unit_audit": {
+      "error_median": 13.0,
+      "freq_max": 21.33,
+      "freq_min": 2.27,
+      "intensity_median": 128.835,
+      "warning": "FIRAS public monopole tables have legacy units; official covariance/residual likelihood is still required for a hard P28 bound."
+    },
+    "y_95_abs_limit": 0.8203853002899685,
+    "y_best": 0.0004198831918968274
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P28"
+  ],
+  "prediction_names": [
+    "P28 \u2014 staged CMB \u03bc/y distortions"
+  ],
+  "result_schema_check": {
+    "missing_required_keys": [],
+    "ok": true,
+    "schema": "ccdr_tierA_result_minimal_v1"
+  },
+  "status": "consistent_bound_only_official_likelihood_missing",
+  "test_id": "T21",
+  "warnings": [
+    "No official FIRAS residual covariance likelihood is used; this remains a staged physical-template bound only."
+  ]
+}

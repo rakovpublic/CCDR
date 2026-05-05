@@ -1,0 +1,461 @@
+[
+  {
+    "file": "test01_p39_pantheon_sn_residual_drift.py",
+    "group": "cosmology",
+    "kind": "pantheon_bao_likelihood_joint",
+    "prediction_id": "P39",
+    "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+    "test_id": "R10-T01",
+    "tier": "public-current"
+  },
+  {
+    "file": "test02_p01_rvm_pantheon_lowz_systematic.py",
+    "group": "cosmology",
+    "kind": "pantheon_bao_likelihood_joint",
+    "prediction_id": "P1/P39",
+    "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+    "test_id": "R10-T02",
+    "tier": "public-current"
+  },
+  {
+    "file": "test03_p39_desi_dr2_bao_inventory.py",
+    "group": "cosmology",
+    "kind": "bao_grid_positive_v8",
+    "prediction_id": "P39",
+    "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+    "test_id": "R10-T03",
+    "tier": "public-current"
+  },
+  {
+    "file": "test04_p30_act_dr6_lensing_inventory.py",
+    "group": "lensing",
+    "kind": "p30_act_confirm_squeeze_v14",
+    "prediction_id": "P30",
+    "prediction_name": "P30 ACT-Euclid/SDSS density-kappa confirmation squeeze",
+    "test_id": "R10-T04",
+    "tier": "public-current"
+  },
+  {
+    "file": "test05_p30_planck_lensing_inventory.py",
+    "group": "lensing",
+    "kind": "planck_recursive_lensing_v12",
+    "prediction_id": "P30",
+    "prediction_name": "P30 Planck recursive lensing resolver",
+    "test_id": "R10-T05",
+    "tier": "public-current"
+  },
+  {
+    "file": "test06_p30_euclid_q1_inventory.py",
+    "group": "lensing",
+    "kind": "euclid_mer_catalogue_only_v13",
+    "prediction_id": "P30",
+    "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+    "test_id": "R10-T06",
+    "tier": "public-current"
+  },
+  {
+    "file": "test07_p33_desi_density_bao_inventory.py",
+    "group": "bao",
+    "kind": "p33_density_bao_baseline_positive_v8",
+    "prediction_id": "P33",
+    "prediction_name": "P33 density-BAO baseline positive-ready",
+    "test_id": "R10-T07",
+    "tier": "public-current"
+  },
+  {
+    "file": "test08_p35_power_spectrum_harmonic_inventory.py",
+    "group": "bao",
+    "kind": "harmonic_comb_proxy",
+    "prediction_id": "P35",
+    "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+    "test_id": "R10-T08",
+    "tier": "public-current"
+  },
+  {
+    "file": "test09_p03_filament_catalogue_inventory.py",
+    "group": "cosmic_web",
+    "kind": "p3_readme_byte_parser_v14",
+    "prediction_id": "P3",
+    "prediction_name": "P3 CDS ReadMe byte-parser endpoint guard",
+    "test_id": "R10-T09",
+    "tier": "public-current"
+  },
+  {
+    "file": "test10_p38_vast_voidfinder_inventory.py",
+    "group": "voids",
+    "kind": "p38_jackknife_v9",
+    "prediction_id": "P38",
+    "prediction_name": "P38 jackknife-hardened void morphology positive-compatible",
+    "test_id": "R10-T10",
+    "tier": "public-current"
+  },
+  {
+    "file": "test11_cl4_filament_void_joint_scaffold.py",
+    "group": "cross_link",
+    "kind": "bridge_whitelist_v9",
+    "prediction_id": "CL4",
+    "prediction_name": "CL4 P3+P38 whitelist-updated bridge-positive",
+    "test_id": "R10-T11",
+    "tier": "public-current"
+  },
+  {
+    "file": "test12_p36_sparc_local_a0_inventory.py",
+    "group": "galaxy",
+    "kind": "sparc_robust_a0",
+    "prediction_id": "P36/local a0",
+    "prediction_name": "P36 SPARC robust local RAR/a0 bootstrap test",
+    "test_id": "R10-T12",
+    "tier": "public-current"
+  },
+  {
+    "file": "test13_p36_kmos3d_inventory.py",
+    "group": "galaxy",
+    "kind": "kross_vrot_parser_v14",
+    "prediction_id": "P36/high-z a0",
+    "prediction_name": "P36 high-z a0 Vrot^2/R confirmation squeeze",
+    "test_id": "R10-T13",
+    "tier": "public-current"
+  },
+  {
+    "file": "test14_p36_highz_a0_cross_catalogue_inventory.py",
+    "group": "galaxy",
+    "kind": "kross_vrot_parser_v14",
+    "prediction_id": "P36",
+    "prediction_name": "P36 high-z a0 cross-catalogue Vrot^2/R squeeze",
+    "test_id": "R10-T14",
+    "tier": "public-current"
+  },
+  {
+    "file": "test15_p29_growth_live_frozen_inventory.py",
+    "group": "growth",
+    "kind": "growth_fsigma8_bound",
+    "prediction_id": "P29",
+    "prediction_name": "P29 growth fσ8 live/frozen compatible-bound proxy",
+    "test_id": "R10-T15",
+    "tier": "public-current"
+  },
+  {
+    "file": "test16_p08_nanograv_15yr_inventory.py",
+    "group": "pta",
+    "kind": "nanograv_kappa_sky_ready_v8",
+    "prediction_id": "P8/P8c",
+    "prediction_name": "P8/P8c NANOGrav κ-sky positive-ready",
+    "test_id": "R10-T16",
+    "tier": "public-current"
+  },
+  {
+    "file": "test17_p08c_nanograv_density_cross_scaffold.py",
+    "group": "pta",
+    "kind": "cl2_fullcoords_fixed_v14",
+    "prediction_id": "P8c/CL2",
+    "prediction_name": "CL2 fixed full NANOGrav kappa confirmation squeeze",
+    "test_id": "R10-T17",
+    "tier": "public-current"
+  },
+  {
+    "file": "test18_p32_gwosc_gwtc3_inventory.py",
+    "group": "gw",
+    "kind": "gwosc_metadata_ranker_v8",
+    "prediction_id": "P32",
+    "prediction_name": "P32 GWOSC metadata ringdown positive-ready",
+    "test_id": "R10-T18",
+    "tier": "public-current"
+  },
+  {
+    "file": "test19_p32_ringdown_high_snr_scaffold.py",
+    "group": "gw",
+    "kind": "ringdown_ready_bound",
+    "prediction_id": "P32",
+    "prediction_name": "P32 ringdown targeted-ready positive bound",
+    "test_id": "R10-T19",
+    "tier": "public-current"
+  },
+  {
+    "file": "test20_noftl_gw170817_luminal_inventory.py",
+    "group": "gw",
+    "kind": "gw170817_inventory",
+    "prediction_id": "No-FTL",
+    "prediction_name": "GW170817 luminal multimessenger inventory",
+    "test_id": "R10-T20",
+    "tier": "public-current"
+  },
+  {
+    "file": "test21_p40_bk18_bmode_inventory.py",
+    "group": "cmb",
+    "kind": "bk18_bandpower_bound_v10",
+    "prediction_id": "P40",
+    "prediction_name": "P40 BK18 bandpower-bound positive-ready",
+    "test_id": "R10-T21",
+    "tier": "public-current"
+  },
+  {
+    "file": "test22_p40_planck_bmode_limit_inventory.py",
+    "group": "cmb",
+    "kind": "p40_planck_cross_bound_v9",
+    "prediction_id": "P40",
+    "prediction_name": "P40 Planck/BK18 cross-bound positive-ready",
+    "test_id": "R10-T22",
+    "tier": "public-current"
+  },
+  {
+    "file": "test23_p28_firas_spectral_distortion_inventory.py",
+    "group": "cmb",
+    "kind": "firas_standard_mu_y_bounds",
+    "prediction_id": "P28",
+    "prediction_name": "FIRAS standard μ/y 95%-bound proxy",
+    "test_id": "R10-T23",
+    "tier": "public-current"
+  },
+  {
+    "file": "test24_p28_planck_y_map_inventory.py",
+    "group": "cmb",
+    "kind": "planck_y_firas_cross_bound",
+    "prediction_id": "P28",
+    "prediction_name": "P28 Planck y-map plus FIRAS bound cross-check",
+    "test_id": "R10-T24",
+    "tier": "public-current"
+  },
+  {
+    "file": "test25_p10_xenonnt_2025_inventory.py",
+    "group": "direct_detection",
+    "kind": "direct_detection_columns_confirm_v14",
+    "prediction_id": "P10/P25/P31",
+    "prediction_name": "XENONnT mass-window measured coverage confirmation-ready",
+    "test_id": "R10-T25",
+    "tier": "public-current"
+  },
+  {
+    "file": "test26_p10_lz_inventory.py",
+    "group": "direct_detection",
+    "kind": "direct_detection_columns_confirm_v14",
+    "prediction_id": "P10/P25/P31",
+    "prediction_name": "LZ mass-window measured coverage confirmation-ready",
+    "test_id": "R10-T26",
+    "tier": "public-current"
+  },
+  {
+    "file": "test27_p10_pandax_inventory.py",
+    "group": "direct_detection",
+    "kind": "pandax_quant_v8",
+    "prediction_id": "P10/P25/P31",
+    "prediction_name": "PandaX quantified mass-window positive-ready",
+    "test_id": "R10-T27",
+    "tier": "public-current"
+  },
+  {
+    "file": "test28_p27_mass_tower_readiness.py",
+    "group": "direct_detection",
+    "kind": "direct_detection_window_dashboard",
+    "prediction_id": "P27",
+    "prediction_name": "P27 direct-detection mass-window sensitivity dashboard",
+    "test_id": "R10-T28",
+    "tier": "public-current"
+  },
+  {
+    "file": "test29_p37_phase_space_drift_readiness.py",
+    "group": "direct_detection",
+    "kind": "dm_phase_event_ready",
+    "prediction_id": "P37",
+    "prediction_name": "P37 DM phase-space drift event-level readiness positive",
+    "test_id": "R10-T29",
+    "tier": "public-current"
+  },
+  {
+    "file": "test30_p05_alice_qgp_hepdata_inventory.py",
+    "group": "collider",
+    "kind": "hepdata_units_columns_v10",
+    "prediction_id": "P5",
+    "prediction_name": "P5 QGP/KSS units-column bound-positive",
+    "test_id": "R10-T30",
+    "tier": "public-current"
+  },
+  {
+    "file": "test31_p41_lhcb_bsll_inventory.py",
+    "group": "flavour",
+    "kind": "p41_pdf_cds_table_guard_v14",
+    "prediction_id": "P41",
+    "prediction_name": "P41 CDS/PDF table-sign guarded confirmation path",
+    "test_id": "R10-T31",
+    "tier": "public-current"
+  },
+  {
+    "file": "test32_p41_hepdata_api_inventory.py",
+    "group": "flavour",
+    "kind": "p41_pdf_cds_table_guard_v14",
+    "prediction_id": "P41",
+    "prediction_name": "P41 control CDS/PDF table-sign guarded path",
+    "test_id": "R10-T32",
+    "tier": "public-current"
+  },
+  {
+    "file": "test33_p09_met_drell_yan_hh_inventory.py",
+    "group": "collider",
+    "kind": "hepdata_units_columns_v10",
+    "prediction_id": "P9b/P9e/P9f",
+    "prediction_name": "P9 MET/DY/HH units-column bound-positive",
+    "test_id": "R10-T33",
+    "tier": "public-current"
+  },
+  {
+    "file": "test34_smd1_alpha_coddata.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D1",
+    "prediction_name": "SM-D1 α inverse constant check",
+    "test_id": "R10-SMD01",
+    "tier": "public-current"
+  },
+  {
+    "file": "test35_smd2_alpha_s_pdg_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D2",
+    "prediction_name": "SM-D2 αs(mZ) constant check",
+    "test_id": "R10-SMD02",
+    "tier": "public-current"
+  },
+  {
+    "file": "test36_smd3_weak_angle_pdg_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D3",
+    "prediction_name": "SM-D3 weak mixing angle constant check",
+    "test_id": "R10-SMD03",
+    "tier": "public-current"
+  },
+  {
+    "file": "test37_smd4_higgs_mass_pdg_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D4",
+    "prediction_name": "SM-D4 Higgs mass constant check",
+    "test_id": "R10-SMD04",
+    "tier": "public-current"
+  },
+  {
+    "file": "test38_smd5_koide_charged_leptons.py",
+    "group": "smd",
+    "kind": "koide_constants",
+    "prediction_id": "SM-D5",
+    "prediction_name": "SM-D5 charged-lepton Koide constant-level check",
+    "test_id": "R10-SMD05",
+    "tier": "public-current"
+  },
+  {
+    "file": "test39_smd6_fermion_masses_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D6",
+    "prediction_name": "SM-D6 12-fermion mass inventory check",
+    "test_id": "R10-SMD06",
+    "tier": "public-current"
+  },
+  {
+    "file": "test40_smd7_ckm_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D7",
+    "prediction_name": "SM-D7 CKM inventory check",
+    "test_id": "R10-SMD07",
+    "tier": "public-current"
+  },
+  {
+    "file": "test41_smd8_cp_phase_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D8",
+    "prediction_name": "SM-D8 CKM CP/Jarlskog inventory check",
+    "test_id": "R10-SMD08",
+    "tier": "public-current"
+  },
+  {
+    "file": "test42_smd9_gauge_group_scaffold.py",
+    "group": "smd",
+    "kind": "smd9_structural",
+    "prediction_id": "SM-D9",
+    "prediction_name": "SM-D9 structural gauge-group consistency positive",
+    "test_id": "R10-SMD09",
+    "tier": "public-current"
+  },
+  {
+    "file": "test43_smd10_strong_cp_edm_inventory.py",
+    "group": "smd",
+    "kind": "smd_constants_pack",
+    "prediction_id": "SM-D10",
+    "prediction_name": "SM-D10 neutron EDM/strong-CP bound check",
+    "test_id": "R10-SMD10",
+    "tier": "public-current"
+  },
+  {
+    "file": "test44_darkcone_lensing_anticipation_scaffold.py",
+    "group": "darkcone",
+    "kind": "darkcone_lensing_branch",
+    "prediction_id": "Dark-Cone",
+    "prediction_name": "Dark-Cone lensing anticipation branch-survival positive",
+    "test_id": "R10-DC01",
+    "tier": "public-proxy"
+  },
+  {
+    "file": "test45_darkcone_cosmic_web_nonlocality_scaffold.py",
+    "group": "darkcone",
+    "kind": "bridge_whitelist_v9",
+    "prediction_id": "Dark-Cone",
+    "prediction_name": "Dark-Cone cosmic-web whitelist-updated branch positive",
+    "test_id": "R10-DC02",
+    "tier": "public-proxy"
+  },
+  {
+    "file": "test46_darkcone_halo_sharpness_scaffold.py",
+    "group": "darkcone",
+    "kind": "darkcone_halo_branch",
+    "prediction_id": "Dark-Cone",
+    "prediction_name": "Dark-Cone halo-sharpness data-readiness positive",
+    "test_id": "R10-DC03",
+    "tier": "public-proxy"
+  },
+  {
+    "file": "test47_dcn_microlensing_inventory.py",
+    "group": "dcn",
+    "kind": "dcn_digitized_window_v10",
+    "prediction_id": "DCN_k",
+    "prediction_name": "DCN/AQN microlensing digitized-window positive-ready",
+    "test_id": "R10-DCN01",
+    "tier": "public-proxy"
+  },
+  {
+    "file": "test48_dcn_macro_impact_inventory.py",
+    "group": "dcn",
+    "kind": "dcn_digitized_window_v10",
+    "prediction_id": "DCN_k",
+    "prediction_name": "DCN/AQN macro-impact digitized-window positive-ready",
+    "test_id": "R10-DCN02",
+    "tier": "public-proxy"
+  },
+  {
+    "file": "test49_cl5_p39_p40_joint_scaffold.py",
+    "group": "cross_link",
+    "kind": "cl5_joint_v10",
+    "prediction_id": "CL5",
+    "prediction_name": "CL5 P39+P40 fixed joint positive-compatible bound",
+    "test_id": "R10-CL05",
+    "tier": "public-current"
+  },
+  {
+    "file": "test50_cl6_p41_p40_joint_scaffold.py",
+    "group": "cross_link",
+    "kind": "bridge_whitelist_v9",
+    "prediction_id": "CL6",
+    "prediction_name": "CL6 P41+P40 whitelist-updated joint positive",
+    "test_id": "R10-CL06",
+    "tier": "public-current"
+  },
+  {
+    "file": "test51_round10_joint_dashboard.py",
+    "group": "cross_link",
+    "kind": "dashboard_suite_status_v14",
+    "prediction_id": "P/CL dashboard",
+    "prediction_name": "Round-10 v14 suite-status confirmation dashboard",
+    "test_id": "R10-DASH",
+    "tier": "public-current"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\firas\\firas_monopole_spec_v1.txt",
+      "size": 2388,
+      "url": "https://lambda.gsfc.nasa.gov/data/cobe/firas/monopole_spec/firas_monopole_spec_v1.txt"
+    }
+  ],
+  "description": "Fit physical \u03bc/y-like spectral distortion templates to public COBE/FIRAS monopole spectrum.",
+  "falsification_logic": {
+    "confirm_like": "a physically normalized staged distortion amplitude is nonzero and below FIRAS limits",
+    "falsify_like": "predicted staged amplitude is above FIRAS residual limits"
+  },
+  "generated_utc": "2026-05-02T20:40:21Z",
+  "metrics": {
+    "chi2": 3.636299019453596e-05,
+    "columns": [
+      "0",
+      "1",
+      "2"
+    ],
+    "dof": 37,
+    "frequency_unit": "cm^-1 converted to GHz",
+    "mu_95_abs_limit": 0.7254750132215037,
+    "mu_best": -0.0005478501883347444,
+    "n_points": 43,
+    "note": "Physical-template screen with nuisance blackbody/calibration terms; v9.5 adds unit audit, but this is still not the official FIRAS covariance likelihood.",
+    "unit_audit": {
+      "error_median": 13.0,
+      "freq_max": 21.33,
+      "freq_min": 2.27,
+      "intensity_median": 128.835,
+      "warning": "FIRAS public monopole tables have legacy units; official covariance/residual likelihood is still required for a hard P28 bound."
+    },
+    "y_95_abs_limit": 0.8203853002396334,
+    "y_best": 0.0004198831919040992
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P28"
+  ],
+  "prediction_names": [
+    "P28 \u2014 staged CMB \u03bc/y distortions"
+  ],
+  "status": "consistent_bound_only",
+  "test_id": "T21",
+  "warnings": []
+}

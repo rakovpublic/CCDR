@@ -1,0 +1,202 @@
+[
+  {
+    "script": "tests/test01_rvm_nu_audit_planck_pantheon_desi.py",
+    "test_id": "T01",
+    "returncode": 0,
+    "seconds": 50.942708015441895,
+    "result_json": "out_v9_8\\T01.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test02_p39_wz_drift_desi_dr2_proxy.py",
+    "test_id": "T02",
+    "returncode": 0,
+    "seconds": 16.447076320648193,
+    "result_json": "out_v9_8\\T02.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test03_pantheon_lowz_systematic_isolation.py",
+    "test_id": "T03",
+    "returncode": 0,
+    "seconds": 4.270834684371948,
+    "result_json": "out_v9_8\\T03.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test04_p30_euclid_q1_act_dr6_density_kappa.py",
+    "test_id": "T04",
+    "returncode": 1,
+    "seconds": 450.6879518032074,
+    "result_json": null,
+    "crash_json": "out_v9_8\\T04.crash.json"
+  },
+  {
+    "script": "tests/test05_p30_planck_crosscheck_density_kappa.py",
+    "test_id": "T05",
+    "returncode": 0,
+    "seconds": 56.8556694984436,
+    "result_json": "out_v9_8\\T05.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test06_euclid_q1_patch_spread_audit.py",
+    "test_id": "T06",
+    "returncode": 0,
+    "seconds": 31.56816554069519,
+    "result_json": "out_v9_8\\T06.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test07_p3_euclid_filament_orientation_density_split.py",
+    "test_id": "T07",
+    "returncode": 0,
+    "seconds": 1180.5483293533325,
+    "result_json": "out_v9_8\\T07.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test08_public_cosmic_web_filament_replication.py",
+    "test_id": "T08",
+    "returncode": 0,
+    "seconds": 3620.089025259018,
+    "result_json": "out_v9_8\\T08.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test09_p38_vast_void_wall_kurtosis.py",
+    "test_id": "T09",
+    "returncode": 0,
+    "seconds": 82.97475361824036,
+    "result_json": "out_v9_8\\T09.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test10_erosita_desi_cluster_sigma_mixture.py",
+    "test_id": "T10",
+    "returncode": 0,
+    "seconds": 22.708415031433105,
+    "result_json": "out_v9_8\\T10.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test11_sparc_local_a0_anchor.py",
+    "test_id": "T11",
+    "returncode": 0,
+    "seconds": 75.04030585289001,
+    "result_json": "out_v9_8\\T11.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test12_kmos3d_highz_a0_trend.py",
+    "test_id": "T12",
+    "returncode": 0,
+    "seconds": 25.120901584625244,
+    "result_json": "out_v9_8\\T12.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test13_p36_three_point_nu_extractor.py",
+    "test_id": "T13",
+    "returncode": 0,
+    "seconds": 16.67161512374878,
+    "result_json": "out_v9_8\\T13.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test14_standalone_vs_joint_nu_diagnostic.py",
+    "test_id": "T14",
+    "returncode": 0,
+    "seconds": 15.380221843719482,
+    "result_json": "out_v9_8\\T14.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test15_nanograv_beat_recheck.py",
+    "test_id": "T15",
+    "returncode": 0,
+    "seconds": 138.83924078941345,
+    "result_json": "out_v9_8\\T15.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test16_pta_kappa_crosslink.py",
+    "test_id": "T16",
+    "returncode": 0,
+    "seconds": 1576.8506906032562,
+    "result_json": "out_v9_8\\T16.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test17_gw_spectral_index_proxy.py",
+    "test_id": "T17",
+    "returncode": 0,
+    "seconds": 4.610974311828613,
+    "result_json": "out_v9_8\\T17.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test18_direct_detection_window_and_peak_audit.py",
+    "test_id": "T18",
+    "returncode": 0,
+    "seconds": 20.680970191955566,
+    "result_json": "out_v9_8\\T18.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test19_geometric_peak_ratio_audit.py",
+    "test_id": "T19",
+    "returncode": 0,
+    "seconds": 16.8065505027771,
+    "result_json": "out_v9_8\\T19.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test20_phase_space_drift_proxy.py",
+    "test_id": "T20",
+    "returncode": 0,
+    "seconds": 15.863462448120117,
+    "result_json": "out_v9_8\\T20.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test21_cmb_mu_y_staged_distortion_bound.py",
+    "test_id": "T21",
+    "returncode": 0,
+    "seconds": 3.61614990234375,
+    "result_json": "out_v9_8\\T21.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test22_cmb_large_angle_no_map_proxy.py",
+    "test_id": "T22",
+    "returncode": 0,
+    "seconds": 83.81543231010437,
+    "result_json": "out_v9_8\\T22.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test23_bulk_weyl_bmode_bandpower.py",
+    "test_id": "T23",
+    "returncode": 0,
+    "seconds": 2.5353763103485107,
+    "result_json": "out_v9_8\\T23.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test24_gwosc_ringdown_overtone_residual.py",
+    "test_id": "T24",
+    "returncode": 0,
+    "seconds": 6.982701778411865,
+    "result_json": "out_v9_8\\T24.json",
+    "crash_json": null
+  },
+  {
+    "script": "tests/test25_qgp_kss_meta_analysis.py",
+    "test_id": "T25",
+    "returncode": 0,
+    "seconds": 29.783250093460083,
+    "result_json": "out_v9_8\\T25.json",
+    "crash_json": null
+  }
+]

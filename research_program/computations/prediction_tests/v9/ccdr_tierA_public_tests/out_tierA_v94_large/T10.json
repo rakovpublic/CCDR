@@ -1,0 +1,41 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_primary_v3.2.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_primary_v3.2.fits.tgz"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_cosmology_v1.1.fits.tgz"
+    }
+  ],
+  "description": "Fit single-vs-mixture models to public eROSITA cluster proxy residuals after redshift control.",
+  "falsification_logic": {
+    "confirm_like": "two-component mixture preferred in mass/richness/X-ray residuals after redshift control",
+    "falsify_like": "single Gaussian/lognormal explains residuals within redshift bins"
+  },
+  "generated_utc": "2026-04-28T22:28:44Z",
+  "metrics": {
+    "best_residual_mixture": null,
+    "tables_tried": [
+      {
+        "n_proxy_candidates": 0,
+        "reason": "missing_redshift_or_physical_proxy",
+        "source": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits_extract\\erass1cl_cosmology_v1.1.fits",
+        "z_col": "Z_LAMBDA"
+      }
+    ]
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P34"
+  ],
+  "prediction_names": [
+    "P34 \u2014 multi-component cluster \u03c3v"
+  ],
+  "status": "data_limited",
+  "test_id": "T10",
+  "warnings": []
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "script": "tests/test01_rvm_nu_audit_planck_pantheon_desi.py",
+    "returncode": 0,
+    "seconds": 59.44668960571289
+  },
+  {
+    "script": "tests/test02_p39_wz_drift_desi_dr2_proxy.py",
+    "returncode": 0,
+    "seconds": 11.910829782485962
+  },
+  {
+    "script": "tests/test03_pantheon_lowz_systematic_isolation.py",
+    "returncode": 1,
+    "seconds": 5.883964538574219
+  },
+  {
+    "script": "tests/test04_p30_euclid_q1_act_dr6_density_kappa.py",
+    "returncode": 0,
+    "seconds": 1913.5911378860474
+  },
+  {
+    "script": "tests/test05_p30_planck_crosscheck_density_kappa.py",
+    "returncode": 0,
+    "seconds": 57.21302366256714
+  },
+  {
+    "script": "tests/test06_euclid_q1_patch_spread_audit.py",
+    "returncode": 0,
+    "seconds": 16.906402587890625
+  },
+  {
+    "script": "tests/test07_p3_euclid_filament_orientation_density_split.py",
+    "returncode": 0,
+    "seconds": 2548.7215101718903
+  },
+  {
+    "script": "tests/test08_public_cosmic_web_filament_replication.py",
+    "returncode": 0,
+    "seconds": 748.0480763912201
+  },
+  {
+    "script": "tests/test09_p38_vast_void_wall_kurtosis.py",
+    "returncode": 0,
+    "seconds": 97.33104801177979
+  },
+  {
+    "script": "tests/test10_erosita_desi_cluster_sigma_mixture.py",
+    "returncode": 0,
+    "seconds": 8.66724944114685
+  },
+  {
+    "script": "tests/test11_sparc_local_a0_anchor.py",
+    "returncode": 0,
+    "seconds": 5.313971281051636
+  },
+  {
+    "script": "tests/test12_kmos3d_highz_a0_trend.py",
+    "returncode": 0,
+    "seconds": 21.01892375946045
+  },
+  {
+    "script": "tests/test13_p36_three_point_nu_extractor.py",
+    "returncode": 0,
+    "seconds": 17.641669034957886
+  },
+  {
+    "script": "tests/test14_standalone_vs_joint_nu_diagnostic.py",
+    "returncode": 0,
+    "seconds": 17.684677600860596
+  },
+  {
+    "script": "tests/test15_nanograv_beat_recheck.py",
+    "returncode": 0,
+    "seconds": 102.65862107276917
+  },
+  {
+    "script": "tests/test16_pta_kappa_crosslink.py",
+    "returncode": 0,
+    "seconds": 7.815851211547852
+  },
+  {
+    "script": "tests/test17_gw_spectral_index_proxy.py",
+    "returncode": 0,
+    "seconds": 3.581860303878784
+  },
+  {
+    "script": "tests/test18_direct_detection_window_and_peak_audit.py",
+    "returncode": 0,
+    "seconds": 20.39800500869751
+  },
+  {
+    "script": "tests/test19_geometric_peak_ratio_audit.py",
+    "returncode": 0,
+    "seconds": 16.436729907989502
+  },
+  {
+    "script": "tests/test20_phase_space_drift_proxy.py",
+    "returncode": 0,
+    "seconds": 15.618455171585083
+  },
+  {
+    "script": "tests/test21_cmb_mu_y_staged_distortion_bound.py",
+    "returncode": 0,
+    "seconds": 2.4960734844207764
+  },
+  {
+    "script": "tests/test22_cmb_large_angle_no_map_proxy.py",
+    "returncode": 0,
+    "seconds": 77.41596102714539
+  },
+  {
+    "script": "tests/test23_bulk_weyl_bmode_bandpower.py",
+    "returncode": 0,
+    "seconds": 2.5155632495880127
+  },
+  {
+    "script": "tests/test24_gwosc_ringdown_overtone_residual.py",
+    "returncode": 0,
+    "seconds": 5.883322715759277
+  },
+  {
+    "script": "tests/test25_qgp_kss_meta_analysis.py",
+    "returncode": 0,
+    "seconds": 11.810075283050537
+  }
+]

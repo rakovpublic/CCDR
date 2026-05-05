@@ -1,0 +1,181 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_primary_v3.2.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_primary_v3.2.fits.tgz"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_cosmology_v1.1.fits.tgz"
+    }
+  ],
+  "description": "Fit single-vs-mixture models to public eROSITA cluster proxy residuals after redshift control.",
+  "falsification_logic": {
+    "confirm_like": "two-component mixture preferred in mass/richness/X-ray residuals after redshift control",
+    "falsify_like": "single Gaussian/lognormal explains residuals within redshift bins"
+  },
+  "generated_utc": "2026-05-03T01:55:51Z",
+  "metrics": {
+    "best_residual_mixture": {
+      "delta_bic_single_minus_mix": 232.283918672425,
+      "n": 5196,
+      "note": "v9.6 residualizes physical proxy against redshift plus available selection/sky proxies; redshift itself is never used as the mixture observable.",
+      "proxy_col": "L500_H",
+      "redshift_col": "Z_LAMBDA",
+      "selection_controls": {
+        "controls_used": [
+          "RA",
+          "DEC"
+        ],
+        "design_cols": 5,
+        "n_controls": 2
+      },
+      "selection_residual_mixture": {
+        "bic_single": 3581.181536897396,
+        "bic_two_component": 3348.897618224971,
+        "components": {
+          "mu1": -0.03608526845100495,
+          "mu2": 0.12248130634654451,
+          "s1": 0.26817684498231664,
+          "s2": 0.4973222490307331,
+          "w1": 0.7724282781722567
+        },
+        "delta_bic_single_minus_mix": 232.283918672425,
+        "n": 5196
+      },
+      "shuffle_null": {
+        "mean_delta_bic": 232.28391867242456,
+        "n": 60,
+        "p95_delta_bic": 232.28391867242502
+      },
+      "sky_region_checks": [
+        {
+          "bic_single": 1349.7901898487612,
+          "bic_two_component": 1283.055075265866,
+          "components": {
+            "mu1": -0.05225457236099835,
+            "mu2": 0.14367932805318195,
+            "s1": 0.29386530214050677,
+            "s2": 0.5521806428911179,
+            "w1": 0.7993220976200548
+          },
+          "delta_bic_single_minus_mix": 66.73511458289522,
+          "n": 1579,
+          "region": 0
+        },
+        {
+          "bic_single": 811.0447125605737,
+          "bic_two_component": 810.8120393864895,
+          "components": {
+            "mu1": -0.033405217084849906,
+            "mu2": 0.07835052465644138,
+            "s1": 0.29548549830012705,
+            "s2": 0.47467618735640693,
+            "w1": 0.7231260792289482
+          },
+          "delta_bic_single_minus_mix": 0.23267317408419785,
+          "n": 1019,
+          "region": 1
+        },
+        {
+          "bic_single": 554.4660654004888,
+          "bic_two_component": 532.6269402230289,
+          "components": {
+            "mu1": -0.042646562888190666,
+            "mu2": 0.14652874280892425,
+            "s1": 0.22927045311690572,
+            "s2": 0.3886968113216723,
+            "w1": 0.6097784637579243
+          },
+          "delta_bic_single_minus_mix": 21.83912517745989,
+          "n": 1019,
+          "region": 2
+        },
+        {
+          "bic_single": 836.3681704232646,
+          "bic_two_component": 741.845271181089,
+          "components": {
+            "mu1": -0.03244875059322694,
+            "mu2": 0.13969348692033903,
+            "s1": 0.248698725387981,
+            "s2": 0.5214122738196265,
+            "w1": 0.8439931039005144
+          },
+          "delta_bic_single_minus_mix": 94.52289924217564,
+          "n": 1579,
+          "region": 3
+        }
+      ],
+      "source": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits_extract\\erass1cl_cosmology_v1.1.fits",
+      "within_redshift_bin_checks": [
+        {
+          "bic_single": 1597.0521603237776,
+          "bic_two_component": 1570.8238078709567,
+          "components": {
+            "mu1": -0.06553744127787645,
+            "mu2": 0.0917934985200505,
+            "s1": 0.29125235792454207,
+            "s2": 0.48596353121786545,
+            "w1": 0.6255511983457198
+          },
+          "delta_bic_single_minus_mix": 26.2283524528209,
+          "n": 1715,
+          "z_bin": [
+            0.10000000149011612,
+            0.21976999491453172
+          ]
+        },
+        {
+          "bic_single": 1080.7332675079178,
+          "bic_two_component": 1052.1985610159536,
+          "components": {
+            "mu1": -0.021983490649244215,
+            "mu2": 0.1072025056261723,
+            "s1": 0.25991961774754463,
+            "s2": 0.43367495752612867,
+            "w1": 0.6856390572873147
+          },
+          "delta_bic_single_minus_mix": 28.534706491964243,
+          "n": 1714,
+          "z_bin": [
+            0.21976999491453172,
+            0.364669993519783
+          ]
+        },
+        {
+          "bic_single": 825.3550327728158,
+          "bic_two_component": 674.3020605197172,
+          "components": {
+            "mu1": -0.032932071523658825,
+            "mu2": 0.2583316141290476,
+            "s1": 0.25425865647830576,
+            "s2": 0.6071621837001698,
+            "w1": 0.9268932348907352
+          },
+          "delta_bic_single_minus_mix": 151.05297225309857,
+          "n": 1767,
+          "z_bin": [
+            0.364669993519783,
+            0.7978000044822693
+          ]
+        }
+      ]
+    },
+    "parser_upgrade_note": "v9.6 expands eROSITA proxy aliases and records numeric column profiles on failures.",
+    "tables_tried": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P34"
+  ],
+  "prediction_names": [
+    "P34 \u2014 multi-component cluster \u03c3v"
+  ],
+  "status": "selection_residual_suggestive_but_controls_unconfirmed",
+  "test_id": "T10",
+  "warnings": [
+    "Mixture is strong after selection residualization but failed at least one redshift-bin/sky/null control."
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "analysis_note": "v2 implements the requested baseline: efficiency_pct ~ year + material_class fixed effects. The residual is then correlated with a deterministic mass-contrast/symmetry proxy inferred from public NREL material text. This is still a proxy, not a Materials Project phonon calculation.",
+  "candidate_rows_count": 0,
+  "data_source": "NREL public PV efficiency tables; baseline efficiency model by material class and year; residuals tested against public-text acoustic-optical proxy",
+  "falsification_logic": {
+    "caveat": "The proxy is heuristic and should later be replaced by a Materials Project phonon/symmetry join when an API key is available.",
+    "confirm_like": "After baseline removal by material class and year, PV efficiency residuals positively correlate with the acoustic-optical/mass-contrast proxy.",
+    "falsify_like": "Adequate NREL rows show no positive residual trend or the opposite trend."
+  },
+  "generated_utc": "2026-04-29T21:24:38Z",
+  "metrics": {},
+  "nrel_downloads": [
+    {
+      "meta": {
+        "bytes": 34405,
+        "cache_path": "tierb_cache_v2\\nrel_pv\\89a3f704e8a0_cell-efficiency.html",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/cell-efficiency",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+      },
+      "url": "https://www.nrel.gov/pv/cell-efficiency.html"
+    },
+    {
+      "meta": {
+        "bytes": 126205,
+        "cache_path": "tierb_cache_v2\\nrel_pv\\8c3a7b7ee3a0_interactive-cell-efficiency.html",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/interactive-cell-efficiency",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+      },
+      "url": "https://www.nrel.gov/pv/interactive-cell-efficiency.html"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v2\\nrel_pv\\eefca5c193bc_best-research-cell-efficiencies.xlsx",
+        "content_type": "text/html; charset=utf-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.nlr.gov/pv/assets/pdfs/best-research-cell-efficiencies.xlsx",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.xlsx"
+      },
+      "url": "https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.xlsx"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v2\\nrel_pv\\9ce9e77bb3b9_best-research-cell-efficiencies.csv",
+        "content_type": "text/html; charset=utf-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.nlr.gov/pv/assets/pdfs/best-research-cell-efficiencies.csv",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.csv"
+      },
+      "url": "https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.csv"
+    },
+    {
+      "kind": "discovered",
+      "meta": {
+        "bytes": 26232,
+        "cache_path": "tierb_cache_v2\\nrel_pv\\5545642ce662_data-tools.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.nlr.gov/pv/data-tools",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nrel.gov/pv/data-tools"
+      },
+      "url": "https://www.nrel.gov/pv/data-tools"
+    },
+    {
+      "kind": "discovered",
+      "meta": {
+        "bytes": 131848,
+        "cache_path": "tierb_cache_v2\\nrel_pv\\d8bbf06e687a_cell-efficiency-data-table.xlsx",
+        "cached": false,
+        "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "error": null,
+        "final_url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+      },
+      "url": "https://www.nlr.gov/media/docs/libraries/pv/cell-efficiency-data-table.xlsx"
+    },
+    {
+      "kind": "discovered",
+      "meta": {
+        "bytes": 191986,
+        "cache_path": "tierb_cache_v2\\nrel_pv\\9222115e8a44_nrel-record-cell-efficiency-data-table-guide.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+      },
+      "url": "https://www.nlr.gov/media/docs/libraries/pv/nrel-record-cell-efficiency-data-table-guide.pdf"
+    }
+  ],
+  "prediction_ids": [
+    "EN?"
+  ],
+  "prediction_names": [
+    "material symmetry/mass-contrast residual proxy for PV efficiency"
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "support_like": null,
+  "table_summaries": [
+    {
+      "columns": [
+        " <!DOCTYPE html> <html lang=\"en\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]",
+        "w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})",
+        "var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''",
+        "j.async=true",
+        "j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl",
+        "f.parentNode.insertBefore(j,f)",
+        " })(window,document,'script','dataLayer','GTM-KG7PVKB')",
+        "</script> <!-- End Google Tag Manager --> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">  <title>"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        341,
+        8
+      ]
+    },
+    {
+      "columns": [
+        "  margin-right: 0",
+        "Unnamed: 1"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        336,
+        2
+      ]
+    },
+    {
+      "columns": [
+        "  margin-right: 0",
+        "Unnamed: 1"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        336,
+        2
+      ]
+    },
+    {
+      "columns": [
+        "</script><script type=\"text/javascript\" src=\"/WebResource.axd?d=HtQyXelCu6mzSPcVcvK_BjykPDToej-LFGyQsm-N8BbLjg4wqt3TLM6utk15Ex8EbS0bUgTJRZ_3vHQ60kzHEseebs5B7RNbkWk9fQSC_3-Mb4YXAUtSZNZ13O2u6paKG_Ff4UoMNNKRdD-Osbk5FG8WPycT7wA79QOiS6sMmMO3ogxM7wS0D7jDR6MtTzMW5w1aqTpEzWn8DypUeJ3d6WXHnMQKLDOXOht83U0YmkM1&amp",
+        "t=638875725340000000\">"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        331,
+        2
+      ]
+    },
+    {
+      "columns": [
+        "</script><script type=\"text/javascript\" src=\"/WebResource.axd?d=HtQyXelCu6mzSPcVcvK_BjykPDToej-LFGyQsm-N8BbLjg4wqt3TLM6utk15Ex8EbS0bUgTJRZ_3vHQ60kzHEseebs5B7RNbkWk9fQSC_3-Mb4YXAUtSZNZ13O2u6paKG_Ff4UoMNNKRdD-Osbk5FG8WPycT7wA79QOiS6sMmMO3ogxM7wS0D7jDR6MtTzMW5w1aqTpEzWn8DypUeJ3d6WXHnMQKLDOXOht83U0YmkM1&amp",
+        "t=638875725340000000\">"
+      ],
+      "numeric_columns": [],
+      "shape": [
+        331,
+        2
+      ]
+    },
+    {
+      "columns": [
+        "Record Identifier",
+        "Measurement Date",
+        "Month",
+        "Year",
+        "First PIP",
+        "PIP Table #",
+        "Eff. Chart Material Class",
+        "Eff. Chart Cell Type",
+        "Detailed description",
+        "Group(s)",
+        "Efficiency (%)",
+        "Revised/New Efficiency (%)",
+        "Combined efficiency (%)",
+        "Uncertainty (%)",
+        "Area (cm2)",
+        "Type of Area",
+        "VOC (V)",
+        "Jsc (mA/cm2)",
+        "Revised/ New Jsc (mA/cm2) (PIP #33 ->)",
+        "FF (%)",
+        "  Suns",
+        "Accredited Testing Centers",
+        "Column1"
+      ],
+      "numeric_columns": [
+        "Record Identifier",
+        "Measurement Date",
+        "Month",
+        "Year",
+        "First PIP",
+        "PIP Table #",
+        "Efficiency (%)",
+        "Revised/New Efficiency (%)",
+        "Combined efficiency (%)",
+        "Uncertainty (%)",
+        "Area (cm2)",
+        "VOC (V)"
+      ],
+      "shape": [
+        558,
+        23
+      ]
+    }
+  ],
+  "tables_count": 6,
+  "test_id": "T48",
+  "test_name": "photovoltaic acoustic-optical proxy"
+}

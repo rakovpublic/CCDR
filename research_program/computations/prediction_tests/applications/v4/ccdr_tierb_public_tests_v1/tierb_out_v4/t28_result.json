@@ -1,0 +1,102 @@
+{
+  "data_source_policy": "v3 structured-source fusion gate: article HTML/PDF text is never evidence; only direct CSV/XLS/JSON/Dat tables with named physical columns count.",
+  "discovered_structured_links_count": 1,
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If no direct structured physical table is found, the result is data_limited, not null.",
+    "confirm_like": "A structured public fusion table with required physical columns gives the predicted sign/scaling under controls.",
+    "falsify_like": "Adequate structured public fusion rows exist and the predicted scaling/sign is absent or reversed."
+  },
+  "generated_utc": "2026-04-30T15:50:17Z",
+  "manifest_records": [
+    {
+      "discovered_links": [
+        "https://osf.io/download/593q6/"
+      ],
+      "discovery_diagnostics": [
+        {
+          "json_type": "dict",
+          "links_found": 1
+        }
+      ],
+      "label": "OSF International Global H-mode database file API",
+      "meta": {
+        "bytes": 2267,
+        "cache_path": "tierb_cache_v4\\T28_structured_manifest\\013d7407f17c_osfstorage.bin",
+        "cached": false,
+        "content_type": "application/vnd.api+json; charset=utf-8",
+        "error": null,
+        "final_url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+      },
+      "tables": [],
+      "url": "https://api.osf.io/v2/nodes/drwcq/files/osfstorage/"
+    },
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [
+        {
+          "json_type": "dict",
+          "links_found": 0
+        }
+      ],
+      "label": "Zenodo H-mode confinement database discovery",
+      "meta": {
+        "bytes": 154699,
+        "cache_path": "tierb_cache_v4\\T28_structured_manifest\\1813c837530e_records.bin",
+        "cached": false,
+        "content_type": "application/json",
+        "error": null,
+        "final_url": "https://zenodo.org/api/records?q=H-mode%20confinement%20database%20tau_E&size=25",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://zenodo.org/api/records?q=H-mode%20confinement%20database%20tau_E&size=25"
+      },
+      "tables": [],
+      "url": "https://zenodo.org/api/records?q=H-mode%20confinement%20database%20tau_E&size=25"
+    },
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [],
+      "label": "discovered_link",
+      "meta": {
+        "bytes": 2072955,
+        "cache_path": "tierb_cache_v4\\T28_structured_manifest\\565045965a15_593q6.bin",
+        "cached": false,
+        "content_type": "application/octet-stream",
+        "error": null,
+        "final_url": "https://storage.googleapis.com/cos-osf-prod-files-de-1/195c394635ea182dafdb736b84fb817b6a4e508b700686c9b9fe4f15794b7307?response-content-disposition=attachment%3B%20filename%3D%22DB5.2.3_variables.pdf%22%3B%20filename%2A%3DUTF-8%27%27DB5.2.3_variables.pdf&GoogleAccessId=files-de-1%40cos-osf-prod.iam.gserviceaccount.com&Expires=1777564276&Signature=Nm1U5PsBrWdkW6JWlkZhDJXOsWQOjH%2BgYAyAhcnWrfLWqHc6NP1HnYaCUCeAXlINqfp%2F1NYgWcZXzxWAYMaW4vNCUdRjGseW23qhQYIgaWadoUPWYtWWtKnSelUneDzpebnQDePoJiKKElFyXSLGPgUWIFcJ6qj%2F9nKDTi%2B%2BwKaiCmAhkD9eHOyLtdSaN51HtoXXjKdEW1%2B5IPqa%2BIjtICGxcLekQg75k7UXd2iFKZxtWk%2FzGTkP3Gcb2UWucd1EknQFHVXHWHGzQ9OV%2F2C14ZMUzZXw8LFgkngYqDdHWolJxmMihMKBuDM5IZDbwOVLe1iMU6rdgmkvkkm%2FIzhZtg%3D%3D",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://osf.io/download/593q6/"
+      },
+      "tables": [],
+      "url": "https://osf.io/download/593q6/"
+    }
+  ],
+  "prediction_ids": [
+    "FR7",
+    "FR10"
+  ],
+  "prediction_names": [
+    "M_KSS correlates with energy confinement time",
+    "density plus curvature residual coupling in confinement scalings"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v4_result_quality_5_improvements",
+  "readiness_status": "source_found_no_usable_table",
+  "required_physical_columns": "\u03c4_E/H-factor, density, temperature/stored energy, transport/diffusivity proxy, machine/device",
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T28",
+  "test_name": "global H-mode confinement/KSS margin"
+}

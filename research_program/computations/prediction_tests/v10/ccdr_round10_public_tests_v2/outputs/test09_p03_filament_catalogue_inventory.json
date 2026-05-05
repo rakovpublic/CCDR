@@ -1,0 +1,76 @@
+{
+  "attempts": [
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "error": "HTTP Error 404: Not Found",
+      "error_type": "HTTPError",
+      "path": ".ccdr_round10_cache\\R10-T09_p3_stream__ReadMe",
+      "url": "https://cdsarc.cds.unistra.fr/ftp/J/A+A/530/A122/ReadMe"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "path": ".ccdr_round10_cache\\R10-T09_p3_stream__asu-tsv_ace0ba6161",
+      "size_bytes": 13379791297,
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A%2BA/530/A122"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\R10-T09_p3_stream__asu-tsv_6e480e562e",
+      "size_bytes": 13387934234,
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122"
+    }
+  ],
+  "data_sources": [
+    {
+      "url": "https://www2.mpia-hd.mpg.de/homes/tempel/filaments/"
+    },
+    {
+      "url": "https://cosmicweb.kimalbrecht.com/"
+    }
+  ],
+  "downloads": [
+    {
+      "numeric_rows": 20121,
+      "path": ".ccdr_round10_cache\\R10-T09_p3_stream__asu-tsv_ace0ba6161",
+      "preview": "#\n#   VizieR Astronomical Server vizier.cds.unistra.fr\n#    Date: 2026-05-05T12:56:54 [V7.5.6]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-05-05T12:56:54\t  Query execution date\n#INFO\trequest=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A%2BA/530/A122\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.5.6\t  Software version\n#INFO\tpublisher=CDS\t  Dat",
+      "size_bytes": 13379791297,
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A%2BA/530/A122"
+    },
+    {
+      "numeric_rows": 20121,
+      "path": ".ccdr_round10_cache\\R10-T09_p3_stream__asu-tsv_6e480e562e",
+      "preview": "#\n#   VizieR Astronomical Server vizier.cds.unistra.fr\n#    Date: 2026-05-05T10:26:06 [V7.5.6]\n#   In case of problem, please report to:\tcds-question@unistra.fr\n#\n#\n#Coosys\tJ2000:\teq_FK5 J2000\n#INFO\tservice_protocol=ASU\t  IVOID of the protocol through which the data was retrieved\n#INFO\trequest_date=2026-05-05T10:26:06\t  Query execution date\n#INFO\trequest=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122\t  Full request URL\n#INFO\tcontact=cds-question@unistra.fr\t  Email or URL to contact publisher\n#INFO\tserver_software=VizieR/7.5.6\t  Software version\n#INFO\tpublisher=CDS\t  Data ",
+      "size_bytes": 13387934234,
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/530/A122"
+    }
+  ],
+  "endpoint_column_guard_v12": {
+    "claim_guard": "Orientation evidence requires explicit endpoint coordinate columns; generic numeric rows are proxy-ready only.",
+    "n_endpoint_like_rows": 0
+  },
+  "endpoint_file_downloads_v13": [],
+  "endpoint_like_rows_v13": 0,
+  "endpoint_shuffle_p_high": 1.0,
+  "falsification_logic": {
+    "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
+    "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
+    "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
+  },
+  "generated_utc": "2026-05-05T13:50:29Z",
+  "group": "cosmic_web",
+  "interpretation": "P3 v13: parses the CDS ReadMe file list and downloads candidate data files, but only accepts rows as endpoint evidence if explicit endpoint/coordinate headers are present.",
+  "n_orientation_vectors": 9020,
+  "orientation_correlation_proxy": -0.23597128820018037,
+  "prediction_id": "P3",
+  "prediction_name": "P3 CDS ReadMe endpoint-table resolver",
+  "readme_file_candidates_v13": [],
+  "redshift_shuffle_null": "not_run_until_redshift_column_identified",
+  "round": 10,
+  "runner_elapsed_s": 3400.299,
+  "runner_returncode": 0,
+  "status": "filament_orientation_proxy_ready_no_evidence",
+  "test_id": "R10-T09",
+  "tier": "public-current"
+}

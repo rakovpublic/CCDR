@@ -1,0 +1,321 @@
+{
+  "n_tests": 35,
+  "schema": "ccdr-tierb-batch-summary-v1",
+  "summary": [
+    {
+      "name": "fusion ELM energy scaling",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test26_fusion_elm_energy_scaling.py",
+      "stderr_tail": "",
+      "stdout_tail": "\n        ],\n        [\n          \"dP/P\",\n          \"deltaP\"\n        ],\n        [\n          \"device\",\n          \"shot\",\n          \"machine\"\n        ]\n      ],\n      \"source_kind\": \"pdf_or_supplement\",\n      \"tables\": [],\n      \"url\": \"https://www.diva-portal.org/smash/get/diva2%3A1879723/FULLTEXT01.pdf\"\n    }\n  ],\n  \"prediction_ids\": [\n    \"FR3\"\n  ],\n  \"prediction_names\": [\n    \"ELM energy scaling E_ELM \\u2248 P_ped \\u00b7 V \\u00b7 (\\u0394P/P)^2\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_manifest_diagnostics_curated_fusion_supplements\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t26_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_funnel_policy\": \"v8 curated-source-only with manifest diagnostics; article/PDF prose is not evidence; only structured CSV/XLS/JSON/DAT tables count\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T26\",\n  \"test_name\": \"fusion ELM energy scaling\"\n}\n",
+      "test_id": "T26"
+    },
+    {
+      "name": "ELM helicity proxy",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test27_elm_helicity_proxy.py",
+      "stderr_tail": "",
+      "stdout_tail": "  [\n          \"RMP\",\n          \"coil\",\n          \"phasing\",\n          \"n=2\",\n          \"n=3\"\n        ],\n        [\n          \"shot\",\n          \"device\",\n          \"machine\"\n        ]\n      ],\n      \"source_kind\": \"html_or_supplement\",\n      \"tables\": [],\n      \"url\": \"https://arxiv.org/html/2403.03693v1\"\n    }\n  ],\n  \"prediction_ids\": [\n    \"FR6\"\n  ],\n  \"prediction_names\": [\n    \"ELM frequency proportional to separatrix magnetic helicity proxy |H_mag|\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_manifest_diagnostics_curated_fusion_supplements\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t27_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_funnel_policy\": \"v8 curated-source-only with manifest diagnostics; article/PDF prose is not evidence; only structured CSV/XLS/JSON/DAT tables count\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T27\",\n  \"test_name\": \"ELM helicity proxy\"\n}\n",
+      "test_id": "T27"
+    },
+    {
+      "name": "global H-mode confinement/KSS margin",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test28_global_h_mode_confinement_kss_margin.py",
+      "stderr_tail": "",
+      "stdout_tail": "    \"related_parent_folder_url\": \"https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/\",\n      \"size\": 2072955,\n      \"structured_extension\": false,\n      \"type\": \"files\",\n      \"variables_dictionary_like\": true\n    }\n  ],\n  \"prediction_ids\": [\n    \"FR7\",\n    \"FR10\"\n  ],\n  \"prediction_names\": [\n    \"M_KSS correlates with energy confinement time\",\n    \"density plus curvature residual coupling in confinement scalings\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_osf_manifest_diagnostics_and_itpa_model\",\n  \"readiness_status\": \"no_source_found\",\n  \"result_path\": \"tierb_out_v9\\\\t28_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_manifest\": \"F:\\\\git\\\\upd\\\\go_on\\\\CCDR\\\\research_program\\\\computations\\\\prediction_tests\\\\applications\\\\v4\\\\ccdr_tierb_public_tests_v1\\\\data\\\\fusion_manifest.csv\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"table_summaries\": [],\n  \"test_id\": \"T28\",\n  \"test_name\": \"global H-mode confinement/KSS margin\"\n}\n",
+      "test_id": "T28"
+    },
+    {
+      "name": "stellarator vs tokamak edge transport",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test29_stellarator_vs_tokamak_edge_transport.py",
+      "stderr_tail": "",
+      "stdout_tail": "on_names\": [\n    \"stellarator edge transport closer to KSS than tokamak edge transport\"\n  ],\n  \"profile_proxy_protocol\": {\n    \"interpretation\": \"profile_only_proxy_available is readiness, not confirmation; full evidence needs stellarator and tokamak rows in comparable units.\",\n    \"minimum_columns\": \"device/device_type, radius or normalized flux coordinate, Te/Ti or ne profile, and heat-flux/diffusivity/transport normalization\"\n  },\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_manifest_diagnostics_profile_only_w7x_tokamak_proxy\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t29_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_funnel_policy\": \"v8 curated-source-only with manifest diagnostics; article/PDF prose is not evidence; only structured CSV/XLS/JSON/DAT tables count\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T29\",\n  \"test_name\": \"stellarator vs tokamak edge transport\"\n}\n",
+      "test_id": "T29"
+    },
+    {
+      "name": "fusion residual curvature coupling",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test30_fusion_residual_curvature_coupling.py",
+      "stderr_tail": "",
+      "stdout_tail": "615cae\",\n      \"related_files_url\": null,\n      \"related_parent_folder_url\": \"https://api.osf.io/v2/files/60412d1fad052d02c8b5efec/\",\n      \"size\": 2072955,\n      \"structured_extension\": false,\n      \"type\": \"files\",\n      \"variables_dictionary_like\": true\n    }\n  ],\n  \"prediction_ids\": [\n    \"FR10\"\n  ],\n  \"prediction_names\": [\n    \"combined density plus shaping/curvature reduces confinement residuals by 10-20 percent\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_osf_manifest_diagnostics_and_itpa_model\",\n  \"readiness_status\": \"no_source_found\",\n  \"result_path\": \"tierb_out_v9\\\\t30_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_manifest\": \"F:\\\\git\\\\upd\\\\go_on\\\\CCDR\\\\research_program\\\\computations\\\\prediction_tests\\\\applications\\\\v4\\\\ccdr_tierb_public_tests_v1\\\\data\\\\fusion_manifest.csv\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"table_summaries\": [],\n  \"test_id\": \"T30\",\n  \"test_name\": \"fusion residual curvature coupling\"\n}\n",
+      "test_id": "T30"
+    },
+    {
+      "name": "cryogenic kappa CCDR vs Casimir",
+      "process_status": "ok",
+      "result_status": "partial",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test31_cryogenic_kappa_ccdr_vs_casimir.py",
+      "stderr_tail": "",
+      "stdout_tail": "ter_by_aic2\": 0.4523809523809524,\n      \"fraction_powerlaw_better_by_aic2\": 0.38095238095238093,\n      \"median_delta_aic_ccdr_minus_power\": 0.27210158953907637,\n      \"n_delta_aic\": 42,\n      \"tables\": 44,\n      \"usable_fits\": 42\n    },\n    \"composite_or_polymer\": {\n      \"fraction_ccdr_better_by_aic2\": 0.38095238095238093,\n      \"fraction_powerlaw_better_by_aic2\": 0.3333333333333333,\n      \"median_delta_aic_ccdr_minus_power\": 1.4437988922470026,\n      \"n_delta_aic\": 21,\n      \"tables\": 23,\n      \"usable_fits\": 21\n    },\n    \"crystalline_or_metal\": {\n      \"fraction_ccdr_better_by_aic2\": 0.3469387755102041,\n      \"fraction_powerlaw_better_by_aic2\": 0.5510204081632653,\n      \"median_delta_aic_ccdr_minus_power\": 2.0000129381087746,\n      \"n_delta_aic\": 49,\n      \"tables\": 50,\n      \"usable_fits\": 49\n    },\n    \"grain_or_nano_known\": {\n      \"fraction_ccdr_better_by_aic2\": 0.6,\n      \"fraction_powerlaw_better_by_aic2\": 0.4,\n      \"median_delta_aic_ccdr_minus_power\": -24.111750783632175,\n      \"n_delta_aic\": 5,\n      \"tables\": 5,\n      \"usable_fits\": 5\n    }\n  },\n  \"support_like\": false,\n  \"tables_used_total\": 132,\n  \"test_id\": \"T31\",\n  \"test_name\": \"cryogenic kappa CCDR vs Casimir\"\n}\n",
+      "test_id": "T31"
+    },
+    {
+      "name": "low-T kappa exponent",
+      "process_status": "ok",
+      "result_status": "partial",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test32_low_t_kappa_exponent.py",
+      "stderr_tail": "",
+      "stdout_tail": "\"median_lowT_free_exponent\": 1.1068721907871677,\n      \"tables\": 44,\n      \"usable_exponents\": 42\n    },\n    \"composite_or_polymer\": {\n      \"fraction_fixed_T_half_best_among_0p5_1_2_3\": 0.19047619047619047,\n      \"fraction_free_exponent_near_T_half_window_0p35\": 0.0,\n      \"mean_lowT_free_exponent\": 0.940726786686115,\n      \"median_lowT_free_exponent\": 1.2134356964554538,\n      \"tables\": 23,\n      \"usable_exponents\": 21\n    },\n    \"crystalline_or_metal\": {\n      \"fraction_fixed_T_half_best_among_0p5_1_2_3\": 0.46938775510204084,\n      \"fraction_free_exponent_near_T_half_window_0p35\": 0.46938775510204084,\n      \"mean_lowT_free_exponent\": 0.7538448170398154,\n      \"median_lowT_free_exponent\": 0.9223342467421445,\n      \"tables\": 50,\n      \"usable_exponents\": 49\n    },\n    \"grain_or_nano_known\": {\n      \"fraction_fixed_T_half_best_among_0p5_1_2_3\": 0.4,\n      \"fraction_free_exponent_near_T_half_window_0p35\": 0.4,\n      \"mean_lowT_free_exponent\": 0.865043049504032,\n      \"median_lowT_free_exponent\": 1.111736767372656,\n      \"tables\": 5,\n      \"usable_exponents\": 5\n    }\n  },\n  \"support_like\": false,\n  \"tables_used_total\": 132,\n  \"test_id\": \"T32\",\n  \"test_name\": \"low-T kappa exponent\"\n}\n",
+      "test_id": "T32"
+    },
+    {
+      "name": "diamond/hBN thermal ceiling audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test33_diamond_hbn_thermal_ceiling_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": "ables_count\": 0,\n  \"prediction_ids\": [\n    \"MAT6\",\n    \"MAT7\"\n  ],\n  \"prediction_names\": [\n    \"acoustic-optical orthogonality maximizes thermal conductivity\",\n    \"thermoelectric/grain-boundary optimization trend\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"isotopically pure diamond thermal conductivity hBN mass ratio acoustic optical gap table\",\n    \"diamond boron nitride thermal conductivity isotope purity literature table\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"thermal.*conduct|kappa|\\u03ba\"\n    ],\n    [\n      \"isotope|purity|mass|gap|phonon|diamond|hBN|BN|boron\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t33_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T33\",\n  \"test_name\": \"diamond/hBN thermal ceiling audit\"\n}\n",
+      "test_id": "T33"
+    },
+    {
+      "name": "Bi2Te3 ZT angle meta-analysis",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test34_bi2te3_zt_angle_meta_analysis.py",
+      "stderr_tail": "",
+      "stdout_tail": "50:12Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"MAT4\"\n  ],\n  \"prediction_names\": [\n    \"hexagonal grain-boundary cos(6 theta) fingerprint and \\u03b8\\u224830\\u00b0 ZT improvement\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"Bi2Te3 grain boundary angle EBSD thermoelectric ZT table\",\n    \"bismuth telluride nanocomposite grain boundary misorientation angle ZT supplementary\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"ZT|zT|figure.*merit\"\n    ],\n    [\n      \"angle|misorientation|EBSD|grain.*boundary|theta|\\u03b8\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t34_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T34\",\n  \"test_name\": \"Bi2Te3 ZT angle meta-analysis\"\n}\n",
+      "test_id": "T34"
+    },
+    {
+      "name": "Kibble-Zurek grain-size exponent",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test35_kibble_zurek_grain_size_exponent.py",
+      "stderr_tail": "",
+      "stdout_tail": "bled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"MAT5\",\n    \"MAT10\"\n  ],\n  \"prediction_names\": [\n    \"grain size scales with cooling/quench rate by Kibble-Zurek exponent\",\n    \"KZ processing profile improves materials\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"grain size cooling rate additive manufacturing Kibble Zurek exponent dataset\",\n    \"annealing cooling rate grain size public csv\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"grain.*size|grain.*diam|cell.*size|domain.*size\"\n    ],\n    [\n      \"cooling.*rate|quench|scan.*speed|solidification|dT/dt\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t35_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T35\",\n  \"test_name\": \"Kibble-Zurek grain-size exponent\"\n}\n",
+      "test_id": "T35"
+    },
+    {
+      "name": "density-stratified grain scattering",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test36_density_stratified_grain_scattering.py",
+      "stderr_tail": "",
+      "stdout_tail": "iction_ids\": [\n    \"MAT11\",\n    \"CL4\"\n  ],\n  \"prediction_names\": [\n    \"dislocation-density stratification changes grain-boundary scattering\",\n    \"CL4 density-stratified texture analogue\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"friction stir welding dislocation density thermal conductivity hardness local EBSD dataset\",\n    \"laser shock peening dislocation density hardness thermal conductivity public data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"dislocation|hardness|thermal.*conduct|kappa|\\u03ba\"\n    ],\n    [\n      \"position|distance|local|region|density|strain\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t36_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T36\",\n  \"test_name\": \"density-stratified grain scattering\"\n}\n",
+      "test_id": "T36"
+    },
+    {
+      "name": "auxetic phonon transport",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test37_auxetic_phonon_transport.py",
+      "stderr_tail": "",
+      "stdout_tail": "://hess.copernicus.org/articles/26/4301/2022/hess-26-4301-2022-t04.xlsx\",\n      \"title\": null\n    },\n    {\n      \"columns\": [\n        \"0\",\n        \"1\",\n        \"2\",\n        \"3\",\n        \"4\",\n        \"5\",\n        \"6\",\n        \"7\",\n        \"8\",\n        \"9\",\n        \"10\"\n      ],\n      \"numeric_columns\": [\n        \"1\",\n        \"2\",\n        \"3\",\n        \"4\",\n        \"5\",\n        \"6\",\n        \"8\",\n        \"9\",\n        \"10\"\n      ],\n      \"physical_column_match\": {\n        \"columns\": [\n          \"0\",\n          \"1\",\n          \"2\",\n          \"3\",\n          \"4\",\n          \"5\",\n          \"6\",\n          \"7\",\n          \"8\",\n          \"9\",\n          \"10\"\n        ],\n        \"matched_groups\": [],\n        \"missing_groups\": [\n          [\n            \"thermal.*conduct|kappa|\\u03ba\"\n          ],\n          [\n            \"Poisson|auxetic|negative.*Poisson|anisotropy\"\n          ]\n        ],\n        \"ok\": false\n      },\n      \"shape\": [\n        7,\n        11\n      ],\n      \"source_kind\": \"discovered_structured\",\n      \"source_url\": \"https://hess.copernicus.org/articles/26/4301/2022/hess-26-4301-2022-t04.xlsx\",\n      \"title\": null\n    }\n  ],\n  \"test_id\": \"T37\",\n  \"test_name\": \"auxetic phonon transport\"\n}\n",
+      "test_id": "T37"
+    },
+    {
+      "name": "skyrmion lifetime literature audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test38_skyrmion_lifetime_literature_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": ": \"2026-05-01T19:02:07Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"MAT8\"\n  ],\n  \"prediction_names\": [\n    \"room-temperature/topologically protected skyrmion lifetime exceeds 1e-6 s envelope\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"skyrmion lifetime temperature helicity material table\",\n    \"room temperature skyrmion lifetime nanoseconds microseconds supplementary data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"lifetime|time|duration|decay\"\n    ],\n    [\n      \"skyrmion|helicity|DMI|temperature|field\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t38_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T38\",\n  \"test_name\": \"skyrmion lifetime literature audit\"\n}\n",
+      "test_id": "T38"
+    },
+    {
+      "name": "moire phononic bandgap twist scaling",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test39_moire_phononic_bandgap_twist_scaling.py",
+      "stderr_tail": "",
+      "stdout_tail": "utc\": \"2026-05-01T19:05:07Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"MAT9\",\n    \"QC10\"\n  ],\n  \"prediction_names\": [\n    \"moir\\u00e9 twist angle tunes phononic bandgap\",\n    \"twist-angle tunable phononic qubit substrate\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"moire phononic crystal twist angle bandgap table\",\n    \"twisted bilayer phononic bandgap twist angle supplementary data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"twist|angle|\\u03b8|theta\"\n    ],\n    [\n      \"bandgap|gap|phononic|frequency\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t39_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T39\",\n  \"test_name\": \"moire phononic bandgap twist scaling\"\n}\n",
+      "test_id": "T39"
+    },
+    {
+      "name": "transmon phononic-substrate T1 audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test40_transmon_phononic_substrate_t1_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": "3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx\",\n      \"title\": null\n    },\n    {\n      \"columns\": [\n        \"c168097_c0\",\n        \"108.14\",\n        \"18\",\n        \"3.32\",\n        \"13.9\",\n        \"down\",\n        \"down.1\",\n        \"down.2\",\n        \"Cuticle protein 7 [Zootermopsis nevadensis]\"\n      ],\n      \"numeric_columns\": [\n        \"108.14\",\n        \"18\",\n        \"3.32\",\n        \"13.9\"\n      ],\n      \"physical_column_match\": {\n        \"columns\": [\n          \"c168097_c0\",\n          \"108.14\",\n          \"18\",\n          \"3.32\",\n          \"13.9\",\n          \"down\",\n          \"down.1\",\n          \"down.2\",\n          \"Cuticle protein 7 [Zootermopsis nevadensis]\"\n        ],\n        \"matched_groups\": [],\n        \"missing_groups\": [\n          [\n            \"T1|lifetime|relaxation\"\n          ],\n          [\n            \"phononic|bandgap|substrate|transmon|qubit\"\n          ]\n        ],\n        \"ok\": false\n      },\n      \"shape\": [\n        3,\n        9\n      ],\n      \"source_kind\": \"discovered_structured\",\n      \"source_url\": \"https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx\",\n      \"title\": null\n    }\n  ],\n  \"test_id\": \"T40\",\n  \"test_name\": \"transmon phononic-substrate T1 audit\"\n}\n",
+      "test_id": "T40"
+    },
+    {
+      "name": "qubit T2 plateau meta-analysis",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test41_qubit_t2_plateau_meta_analysis.py",
+      "stderr_tail": "",
+      "stdout_tail": " under controls.\"\n  },\n  \"generated_utc\": \"2026-05-01T19:09:37Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"QC11\"\n  ],\n  \"prediction_names\": [\n    \"\\u03bd_bulk noise floor creates asymptotic transmon T2 cap near 1 s\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"superconducting qubit T2 best coherence time year transmon table\",\n    \"IBM Google superconducting qubit T2 coherence time public data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"T2|coherence\"\n    ],\n    [\n      \"year|date|channel|device|qubit|transmon\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t41_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T41\",\n  \"test_name\": \"qubit T2 plateau meta-analysis\"\n}\n",
+      "test_id": "T41"
+    },
+    {
+      "name": "spin-qubit T2 in isotopically pure Si",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test42_spin_qubit_t2_in_isotopically_pure_si.py",
+      "stderr_tail": "",
+      "stdout_tail": " or reversed under controls.\"\n  },\n  \"generated_utc\": \"2026-05-01T19:12:36Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"QC8\"\n  ],\n  \"prediction_names\": [\n    \"isotopically pure silicon spin qubits reach T2 > 10 s envelope\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"isotopically enriched silicon spin qubit T2 seconds table\",\n    \"Si-28 spin qubit coherence time T2 isotope fraction data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"T2|coherence\"\n    ],\n    [\n      \"Si|silicon|isotope|28Si|enrich|fraction\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t42_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T42\",\n  \"test_name\": \"spin-qubit T2 in isotopically pure Si\"\n}\n",
+      "test_id": "T42"
+    },
+    {
+      "name": "DTC qubit error-per-cycle trend",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test43_dtc_qubit_error_per_cycle_trend.py",
+      "stderr_tail": "",
+      "stdout_tail": "\n  },\n  \"generated_utc\": \"2026-05-01T19:16:30Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"QC7\"\n  ],\n  \"prediction_names\": [\n    \"discrete time-crystal qubit error per cycle falls exponentially with N\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"discrete time crystal qubit number cycles error per cycle table\",\n    \"time crystal experiment qubits cycles fidelity supplementary data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"cycle|cycles|N|qubits|system.*size\"\n    ],\n    [\n      \"error|fidelity|decay|lifetime\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t43_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T43\",\n  \"test_name\": \"DTC qubit error-per-cycle trend\"\n}\n",
+      "test_id": "T43"
+    },
+    {
+      "name": "3D NAND area vs volume scaling",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test44_3d_nand_area_vs_volume_scaling.py",
+      "stderr_tail": "",
+      "stdout_tail": "      \"die area\"\n        ],\n        [\n          \"year\"\n        ],\n        [\n          \"company\"\n        ]\n      ],\n      \"source_kind\": \"html_table\",\n      \"tables\": [],\n      \"url\": \"https://en.wikipedia.org/wiki/Solid-state_drive\"\n    }\n  ],\n  \"prediction_ids\": [\n    \"EL1\",\n    \"EL3\"\n  ],\n  \"prediction_names\": [\n    \"inter-layer area rather than volume controls scaling\",\n    \"3D electronics vertical volume crossover\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_manifest_diagnostics_and_data_limited_fixes\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t44_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_manifest\": \"F:\\\\git\\\\upd\\\\go_on\\\\CCDR\\\\research_program\\\\computations\\\\prediction_tests\\\\applications\\\\v4\\\\ccdr_tierb_public_tests_v1\\\\data\\\\electronics_source_manifest.csv\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T44\",\n  \"test_name\": \"3D NAND area vs volume scaling\"\n}\n",
+      "test_id": "T44"
+    },
+    {
+      "name": "optical interconnect trend",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test45_optical_interconnect_trend.py",
+      "stderr_tail": "",
+      "stdout_tail": "nergy per bit\"\n        ],\n        [\n          \"bandwidth per mm\"\n        ],\n        [\n          \"node\"\n        ],\n        [\n          \"link length\"\n        ]\n      ],\n      \"source_kind\": \"html_table\",\n      \"tables\": [],\n      \"url\": \"https://irds.ieee.org/editions\"\n    }\n  ],\n  \"prediction_ids\": [\n    \"EL8\"\n  ],\n  \"prediction_names\": [\n    \"optical surface links improve energy/bit and bandwidth/mm versus electronic vias\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_manifest_diagnostics_and_data_limited_fixes\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t45_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_manifest\": \"F:\\\\git\\\\upd\\\\go_on\\\\CCDR\\\\research_program\\\\computations\\\\prediction_tests\\\\applications\\\\v4\\\\ccdr_tierb_public_tests_v1\\\\data\\\\electronics_source_manifest.csv\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T45\",\n  \"test_name\": \"optical interconnect trend\"\n}\n",
+      "test_id": "T45"
+    },
+    {
+      "name": "LDPC burst-channel benchmark",
+      "process_status": "ok",
+      "result_status": "ok",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test46_ldpc_burst_channel_benchmark.py",
+      "stderr_tail": "",
+      "stdout_tail": "null\",\n  \"falsification_logic\": {\n    \"caveat\": \"This is a benchmark/prototype only, not observational evidence.\",\n    \"confirm_like\": \"CDT-like irregular/nonlocal parity graph beats local, surface-like, protograph-like, spatially-coupled, and interleaved parity proxies at matched n/checks/weight.\",\n    \"falsify_like\": \"Any realistic matched baseline equals or beats the CDT-like graph across burst lengths.\"\n  },\n  \"generated_utc\": \"2026-05-01T19:16:45Z\",\n  \"median_best_non_cdt_over_cdt_ratio\": 0.0,\n  \"n_bits\": 512,\n  \"n_checks\": 128,\n  \"prediction_ids\": [\n    \"EL6\"\n  ],\n  \"prediction_names\": [\n    \"CDT-like/random graph code improves burst-channel LDPC capacity proxy\"\n  ],\n  \"quality_patch_version\": \"v8_stronger_ecc_baselines\",\n  \"readiness_status\": \"model_fit_done\",\n  \"result_path\": \"tierb_out_v9\\\\t46_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"ok\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": false,\n  \"test_id\": \"T46\",\n  \"test_name\": \"LDPC burst-channel benchmark\",\n  \"trials_per_burst_length\": 1200\n}\n",
+      "test_id": "T46"
+    },
+    {
+      "name": "neuromorphic graph energy audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test47_neuromorphic_graph_energy_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": "     \"inference\"\n        ],\n        [\n          \"benchmark\"\n        ],\n        [\n          \"topology\"\n        ],\n        [\n          \"accuracy\"\n        ]\n      ],\n      \"source_kind\": \"html_table\",\n      \"tables\": [],\n      \"url\": \"https://en.wikichip.org/wiki/ibm/truenorth\"\n    }\n  ],\n  \"prediction_ids\": [\n    \"EL7\"\n  ],\n  \"prediction_names\": [\n    \"graph topology metrics correlate with neuromorphic inference energy\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v8_manifest_diagnostics_and_data_limited_fixes\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t47_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_manifest\": \"F:\\\\git\\\\upd\\\\go_on\\\\CCDR\\\\research_program\\\\computations\\\\prediction_tests\\\\applications\\\\v4\\\\ccdr_tierb_public_tests_v1\\\\data\\\\electronics_source_manifest.csv\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T47\",\n  \"test_name\": \"neuromorphic graph energy audit\"\n}\n",
+      "test_id": "T47"
+    },
+    {
+      "name": "photovoltaic acoustic-optical proxy",
+      "process_status": "ok",
+      "result_status": "ok",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test48_photovoltaic_acoustic_optical_proxy.py",
+      "stderr_tail": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_common.py:576: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.\n  rho, p = stats.spearmanr(arr[\"x\"], arr[\"y\"])\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_common.py:576: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.\n  rho, p = stats.spearmanr(arr[\"x\"], arr[\"y\"])\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_common.py:576: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.\n  rho, p = stats.spearmanr(arr[\"x\"], arr[\"y\"])\n",
+      "stdout_tail": "eet\": null\n    },\n    {\n      \"columns\": [\n        \" <!DOCTYPE html> <html lang=\\\"en\\\" > <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[]\",\n        \"w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'})\",\n        \"var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''\",\n        \"j.async=true\",\n        \"j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl\",\n        \"f.parentNode.insertBefore(j,f)\",\n        \" })(window,document,'script','dataLayer','GTM-KG7PVKB')\",\n        \"</script> <!-- End Google Tag Manager --> <meta charset=\\\"utf-8\\\" /> <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1, shrink-to-fit=no\\\">  <title>\"\n      ],\n      \"header_row\": null,\n      \"numeric_columns\": [],\n      \"shape\": [\n        347,\n        8\n      ],\n      \"source_sheet\": null\n    },\n    {\n      \"columns\": [\n        \" \\tdisplay:none !important\",\n        \"Unnamed: 1\"\n      ],\n      \"header_row\": null,\n      \"numeric_columns\": [],\n      \"shape\": [\n        344,\n        2\n      ],\n      \"source_sheet\": null\n    }\n  ],\n  \"tables_count\": 314,\n  \"test_id\": \"T48\",\n  \"test_name\": \"photovoltaic acoustic-optical proxy\"\n}\n",
+      "test_id": "T48"
+    },
+    {
+      "name": "battery/thermoelectric materials symmetry audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test49_battery_thermoelectric_materials_symmetry_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": "c_columns\": [\n        \"95\",\n        \"0\",\n        \"0.1\",\n        \"5\",\n        \"100\",\n        \"0.2\",\n        \"0.3\",\n        \"0.4\",\n        \"9649.75\",\n        \"0.589247312\",\n        \"0.26\",\n        \"3.453826603\"\n      ],\n      \"physical_column_match\": {\n        \"columns\": [\n          \"95\",\n          \"0\",\n          \"0.1\",\n          \"5\",\n          \"100\",\n          \"0.2\",\n          \"0.3\",\n          \"0.4\",\n          \"9649.75\",\n          \"0.589247312\",\n          \"0.26\",\n          \"3.453826603\",\n          \"5558950\",\n          \"0.5\",\n          \"0.6\",\n          \"0.12\",\n          \"Unnamed: 16\"\n        ],\n        \"matched_groups\": [],\n        \"missing_groups\": [\n          [\n            \"ZT|zT|thermal.*conduct|Seebeck\"\n          ],\n          [\n            \"band.*gap|symmetry|space.*group|material\"\n          ]\n        ],\n        \"ok\": false\n      },\n      \"shape\": [\n        87,\n        17\n      ],\n      \"source_kind\": \"discovered_structured\",\n      \"source_url\": \"https://static-content.springer.com/esm/art%3A10.1038%2Fs41524-019-0153-8/MediaObjects/41524_2019_153_MOESM2_ESM.csv\",\n      \"title\": null\n    }\n  ],\n  \"test_id\": \"T49\",\n  \"test_name\": \"battery/thermoelectric materials symmetry audit\"\n}\n",
+      "test_id": "T49"
+    },
+    {
+      "name": "Casimir residual public-table audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test50_casimir_residual_public_table_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": "eriment\",\n    \"Casimir force residuals public data torsion oscillator table\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"residual|force|pressure|gradient\"\n    ],\n    [\n      \"Casimir|separation|distance\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t50_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"table_summaries\": [],\n  \"test_id\": \"T50\",\n  \"test_name\": \"Casimir residual public-table audit\",\n  \"upper_limit_only\": true,\n  \"upper_limit_protocol\": {\n    \"confirmation_forbidden\": true,\n    \"observable\": \"Casimir residual force/pressure floor\",\n    \"predicted_target\": \"\\u03bd_bulk-like residual amplitude; model-dependent, report as bound only\",\n    \"primary_output\": \"sensitivity_over_predicted_target and bound_on_nu_bulk_like_amplitude\",\n    \"required_rows\": \"residual/noise/drift value, uncertainty/systematic floor, integration time/baseline, units\"\n  }\n}\n",
+      "test_id": "T50"
+    },
+    {
+      "name": "optical-clock drift literature bound",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test51_optical_clock_drift_literature_bound.py",
+      "stderr_tail": "",
+      "stdout_tail": "ift long baseline public data\",\n    \"atomic clock comparison frequency ratio drift table year\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"drift|frequency.*ratio|fractional\"\n    ],\n    [\n      \"year|date|baseline|clock\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t51_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"table_summaries\": [],\n  \"test_id\": \"T51\",\n  \"test_name\": \"optical-clock drift literature bound\",\n  \"upper_limit_only\": true,\n  \"upper_limit_protocol\": {\n    \"confirmation_forbidden\": true,\n    \"observable\": \"fractional optical-clock ratio drift\",\n    \"predicted_target\": \"\\u03bd_bulk-like secular drift; report as upper bound only\",\n    \"primary_output\": \"sensitivity_over_predicted_target and bound_on_nu_bulk_like_amplitude\",\n    \"required_rows\": \"residual/noise/drift value, uncertainty/systematic floor, integration time/baseline, units\"\n  }\n}\n",
+      "test_id": "T51"
+    },
+    {
+      "name": "atom-interferometer noise-floor audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test52_atom_interferometer_noise_floor_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": " \"cold atom interferometer acceleration noise floor public data\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"noise|sensitivity|residual|Allan\"\n    ],\n    [\n      \"atom|interferometer|acceleration|strain\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t52_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"table_summaries\": [],\n  \"test_id\": \"T52\",\n  \"test_name\": \"atom-interferometer noise-floor audit\",\n  \"upper_limit_only\": true,\n  \"upper_limit_protocol\": {\n    \"confirmation_forbidden\": true,\n    \"observable\": \"atom-interferometer residual/noise floor\",\n    \"predicted_target\": \"\\u03bd_bulk-like acceleration/noise floor; report as upper bound only\",\n    \"primary_output\": \"sensitivity_over_predicted_target and bound_on_nu_bulk_like_amplitude\",\n    \"required_rows\": \"residual/noise/drift value, uncertainty/systematic floor, integration time/baseline, units\"\n  }\n}\n",
+      "test_id": "T52"
+    },
+    {
+      "name": "biological symmetry/protein-folding proxy",
+      "process_status": "ok",
+      "result_status": "ok",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test53_biological_symmetry_protein_folding_proxy.py",
+      "stderr_tail": "",
+      "stdout_tail": "RDFILIATRTVELLGHSSLKGLRLGWESLKYLGNLLVYWGRELKISAINLCDTIAIAVAGWTDRVIELGQRLCRAILHIPRRIRQGFERALL\"\n          ],\n          [\n            \"A0A192B1T2_9HIV1.pdb\",\n            \"Mapping mutational effects along the evolutionary landscape of HIV envelope\",\n            \"OrganismalFitness\"\n          ]\n        ],\n        \"missing_groups\": [],\n        \"ok\": true\n      },\n      \"shape\": [\n        215,\n        46\n      ],\n      \"source_url\": \"https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv\"\n    }\n  ],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"readiness_status\": \"physical_columns_found\",\n  \"result_path\": \"tierb_out_v9\\\\t53_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_funnel_policy\": \"v5 source\\u2192record\\u2192file; discovery APIs are metadata only; full parse only after header physical-column gate\",\n  \"status\": \"ok\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T53\",\n  \"test_name\": \"biological symmetry/protein-folding proxy\"\n}\n",
+      "test_id": "T53"
+    },
+    {
+      "name": "photosynthetic coherence meta-analysis",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test54_photosynthetic_coherence_meta_analysis.py",
+      "stderr_tail": "",
+      "stdout_tail": " \"ok\": true,\n        \"status_code\": 200,\n        \"url\": \"https://zenodo.org/api/records?q=photosynthetic%20coherence%20FMO%20lifetime%20data&size=10\"\n      },\n      \"stage\": \"source\",\n      \"tables\": [],\n      \"url\": \"https://zenodo.org/api/records?q=photosynthetic%20coherence%20FMO%20lifetime%20data&size=10\"\n    }\n  ],\n  \"prediction_ids\": [\n    \"BI?\"\n  ],\n  \"prediction_names\": [\n    \"photosynthetic coherence lifetime tracks symmetry/excitonic coupling protection\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t54_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"source_funnel_policy\": \"v5 source\\u2192record\\u2192file; discovery APIs are metadata only; full parse only after header physical-column gate\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T54\",\n  \"test_name\": \"photosynthetic coherence meta-analysis\"\n}\n",
+      "test_id": "T54"
+    },
+    {
+      "name": "radiation/spacecraft anomaly audit",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test55_radiation_spacecraft_anomaly_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": "utc\": \"2026-05-01T19:34:27Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"AE5\"\n  ],\n  \"prediction_names\": [\n    \"spacecraft residual acceleration bounds after radiothermal/solar controls\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"Pioneer 10 11 trajectory residual acceleration data public PDS\",\n    \"Cassini radiometric residual acceleration public data anomaly\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"residual.*accel|acceleration|doppler|range\"\n    ],\n    [\n      \"Pioneer|Cassini|trajectory|radiothermal\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t55_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T55\",\n  \"test_name\": \"radiation/spacecraft anomaly audit\"\n}\n",
+      "test_id": "T55"
+    },
+    {
+      "name": "solar-sail residual proxy",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test56_solar_sail_residual_proxy.py",
+      "stderr_tail": "",
+      "stdout_tail": "_utc\": \"2026-05-01T19:36:47Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"AE4\"\n  ],\n  \"prediction_names\": [\n    \"solar-sail residual acceleration vs sail normal and galactic-DM-wind proxy\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"LightSail telemetry residual acceleration public data sail normal\",\n    \"IKAROS solar sail trajectory telemetry acceleration residual dataset\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"residual|acceleration|delta.*v|trajectory\"\n    ],\n    [\n      \"sail|normal|attitude|LightSail|IKAROS\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t56_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T56\",\n  \"test_name\": \"solar-sail residual proxy\"\n}\n",
+      "test_id": "T56"
+    },
+    {
+      "name": "cosmic-ray cross-section enhancement",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test57_cosmic_ray_cross_section_enhancement.py",
+      "stderr_tail": "",
+      "stdout_tail": "%201/json\"\n        },\n        \"ok\": true,\n        \"status_code\": 200,\n        \"url\": \"https://www.hepdata.net/download/table/ins1411328/Table%201/json\"\n      },\n      \"tables\": [],\n      \"url\": \"https://www.hepdata.net/download/table/ins1411328/Table%201/json\"\n    }\n  ],\n  \"evidence_status\": \"data_limited\",\n  \"generated_utc\": \"2026-05-01T19:36:54Z\",\n  \"ledger_categories\": {\n    \"cosmic-ray TeV spectrum\": {\n      \"attempts\": 8,\n      \"qualifying\": 0,\n      \"tables\": 0\n    }\n  },\n  \"prediction_ids\": [\n    \"AE1\"\n  ],\n  \"prediction_names\": [\n    \">1 TeV cosmic-ray residual at ~1e-6 level relative to standard spectra\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v6_data_limited_group_fixes\",\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"result_path\": \"tierb_out_v9\\\\t57_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"support_like\": null,\n  \"test_id\": \"T57\",\n  \"test_name\": \"cosmic-ray cross-section enhancement\"\n}\n",
+      "test_id": "T57"
+    },
+    {
+      "name": "exoplanet/stellar chronometry null",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test58_exoplanet_stellar_chronometry_null.py",
+      "stderr_tail": "",
+      "stdout_tail": "   \"falsify_like\": \"Adequate public tables exist and the predicted sign/trend is absent or reversed under controls.\"\n  },\n  \"generated_utc\": \"2026-05-01T19:39:04Z\",\n  \"generic_text_value_extraction\": \"disabled_in_v2\",\n  \"parsed_tables_count\": 0,\n  \"prediction_ids\": [\n    \"AE3 analogue\"\n  ],\n  \"prediction_names\": [\n    \"decade-scale timing drift after astrophysical controls\"\n  ],\n  \"qualifying_physical_tables_count\": 0,\n  \"qualifying_tables_sample\": [],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"queries\": [\n    \"exoplanet/stellar chronometry null\"\n  ],\n  \"readiness_status\": \"source_found_no_usable_table\",\n  \"rejected_tables_sample\": [],\n  \"required_column_groups\": [\n    [\n      \"residual acceleration\",\n      \"telemetry\",\n      \"trajectory\",\n      \"drift\"\n    ]\n  ],\n  \"result_path\": \"tierb_out_v9\\\\t58_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"table_summaries\": [],\n  \"test_id\": \"T58\",\n  \"test_name\": \"exoplanet/stellar chronometry null\"\n}\n",
+      "test_id": "T58"
+    },
+    {
+      "name": "public HEP anomaly ledger",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test59_public_hep_anomaly_ledger.py",
+      "stderr_tail": "",
+      "stdout_tail": "mpts\": 4,\n      \"qualifying\": 0,\n      \"tables\": 0\n    }\n  },\n  \"prediction_ids\": [\n    \"P9b\",\n    \"P9e\",\n    \"P9f\"\n  ],\n  \"prediction_names\": [\n    \"MET near EW threshold, Drell-Yan ~1 TeV, di-Higgs threshold audit\"\n  ],\n  \"qualifying_table_count\": 0,\n  \"qualifying_tables\": [],\n  \"quality_patch_version\": \"v6_data_limited_group_fixes\",\n  \"readiness_status\": \"model_fit_done\",\n  \"result_path\": \"tierb_out_v9\\\\t59_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"subtests\": {\n    \"T59a MET near EW threshold\": {\n      \"attempts\": 4,\n      \"qualifying\": 0,\n      \"status\": \"data_limited\",\n      \"tables\": 0\n    },\n    \"T59b Drell-Yan around 1 TeV\": {\n      \"attempts\": 4,\n      \"qualifying\": 0,\n      \"status\": \"data_limited\",\n      \"tables\": 0\n    },\n    \"T59c di-Higgs threshold\": {\n      \"attempts\": 4,\n      \"qualifying\": 0,\n      \"status\": \"data_limited\",\n      \"tables\": 0\n    }\n  },\n  \"support_like\": null,\n  \"test_id\": \"T59\",\n  \"test_name\": \"public HEP anomaly ledger\"\n}\n",
+      "test_id": "T59"
+    },
+    {
+      "name": "Koide sector-distance audit",
+      "process_status": "ok",
+      "result_status": "ok",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test60_koide_sector_distance_audit.py",
+      "stderr_tail": "",
+      "stdout_tail": ": [\n    \"\\u00a76.3\"\n  ],\n  \"prediction_names\": [\n    \"sector-dependent Koide distance/scales persist with public PDG/FLAG values\"\n  ],\n  \"quality_patch_version\": \"v5_manifest_only_source_quality\",\n  \"readiness_status\": \"model_fit_done\",\n  \"result_path\": \"tierb_out_v9\\\\t60_result.json\",\n  \"schema\": \"ccdr-tierb-result-v1\",\n  \"status\": \"ok\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"subtests\": {\n    \"T60a_charged_leptons\": {\n      \"Q\": 0.6666819730184289,\n      \"deviation_from_2_over_3\": 1.530635176227868e-05,\n      \"masses_MeV\": {\n        \"electron_MeV\": 0.51,\n        \"muon_MeV\": 105.658,\n        \"tau_MeV\": 1776.9299999999998\n      },\n      \"status\": \"ok\",\n      \"support_like\": true\n    },\n    \"T60b_quark_lattice_sector\": {\n      \"reason\": \"FLAG/PDG quark masses with correlated uncertainties were not parsed as machine-readable rows; kept separate from charged-lepton success.\",\n      \"status\": \"data_limited\",\n      \"support_like\": null\n    }\n  },\n  \"support_like\": true,\n  \"test_id\": \"T60\",\n  \"test_name\": \"Koide sector-distance audit\"\n}\n",
+      "test_id": "T60"
+    }
+  ]
+}

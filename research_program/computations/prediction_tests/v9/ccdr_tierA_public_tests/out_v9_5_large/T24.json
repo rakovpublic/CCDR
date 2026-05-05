@@ -1,0 +1,70 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\gwosc\\H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "size": 1040781,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5"
+    }
+  ],
+  "description": "Download public GWOSC event data and run a simple damped-sinusoid ringdown residual screen without LALSuite/Bilby.",
+  "falsification_logic": {
+    "confirm_like": "two-mode damped fit leaves systematic overtone-like residual at predicted scale",
+    "falsify_like": "Kerr-like one/two-mode residuals are noise-like in public strain"
+  },
+  "generated_utc": "2026-05-02T20:41:44Z",
+  "metrics": {
+    "file": ".cache\\gwosc\\H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "fs_Hz": 4096.0,
+    "gwosc_file_candidates": [
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf"
+    ],
+    "note": "Simple damped-sinusoid screen only; not a LALSuite/Bilby ringdown posterior.",
+    "one_mode_params": [
+      7.938752487711792e-19,
+      7.0374460124067815,
+      -0.3074478344001118,
+      1.3194150099160182,
+      -5.352633948326149e-20
+    ],
+    "one_mode_residual_over_signal": 0.030480085993194364,
+    "one_mode_residual_rms": 1.407100845549552e-20,
+    "signal_rms": 4.616459565972785e-19,
+    "two_mode_screen": {
+      "improvement_fraction": 0.24111376195352585,
+      "two_mode_params": [
+        7.939293206425261e-19,
+        7.036786125634117,
+        -0.30743768246283737,
+        1.319717317660923,
+        -2.1875969511402567e-20,
+        999.3435318512667,
+        0.11680568983736571,
+        -0.47666691578468373,
+        -5.3464267572126986e-20
+      ],
+      "two_mode_residual_rms": 1.0678294672311125e-20
+    },
+    "window_samples": 634
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P32"
+  ],
+  "status": "diagnostic_only",
+  "test_id": "T24",
+  "warnings": []
+}

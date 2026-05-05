@@ -1,0 +1,108 @@
+{
+  "data_sources": [
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_primary_v3.2.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_primary_v3.2.fits.tgz"
+    },
+    {
+      "ok": true,
+      "path": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits.tgz",
+      "url": "https://erosita.mpe.mpg.de/dr1/AllSkySurveyData_dr1/Catalogues_dr1/BulbulE_DR1/erass1cl_cosmology_v1.1.fits.tgz"
+    }
+  ],
+  "description": "Fit single-vs-mixture models to public eROSITA cluster proxy residuals after redshift control.",
+  "falsification_logic": {
+    "confirm_like": "two-component mixture preferred in mass/richness/X-ray residuals after redshift control",
+    "falsify_like": "single Gaussian/lognormal explains residuals within redshift bins"
+  },
+  "generated_utc": "2026-05-02T20:36:25Z",
+  "metrics": {
+    "best_residual_mixture": {
+      "delta_bic_single_minus_mix": 108.63866667182538,
+      "n": 5204,
+      "note": "v9.5 residualizes the physical proxy against redshift; redshift itself is never used as the mixture observable.",
+      "proxy_col": "CR500_L",
+      "redshift_col": "Z_LAMBDA",
+      "redshift_residual_mixture": {
+        "bic_single": 6416.2783377336,
+        "bic_two_component": 6307.639671061775,
+        "components": {
+          "mu1": -0.09772219910978017,
+          "mu2": 0.050126989613105834,
+          "s1": 0.5789187320393672,
+          "s2": 0.3516177559039182,
+          "w1": 0.33904135725126816
+        },
+        "delta_bic_single_minus_mix": 108.63866667182538,
+        "n": 5204
+      },
+      "source": ".cache\\erosita\\erass1cl_cosmology_v1.1.fits_extract\\erass1cl_cosmology_v1.1.fits",
+      "within_redshift_bin_checks": [
+        {
+          "bic_single": 2458.33964828037,
+          "bic_two_component": 2440.2450359715767,
+          "components": {
+            "mu1": -0.06938414371138293,
+            "mu2": 0.036529207372515644,
+            "s1": 0.642381828224246,
+            "s2": 0.3853781975191241,
+            "w1": 0.3464790699923177
+          },
+          "delta_bic_single_minus_mix": 18.09461230879333,
+          "n": 1719,
+          "z_bin": [
+            0.10000000149011612,
+            0.21899999678134918
+          ]
+        },
+        {
+          "bic_single": 2122.8841525897037,
+          "bic_two_component": 2120.025037899861,
+          "components": {
+            "mu1": -0.08333626248936256,
+            "mu2": 0.08481529745126558,
+            "s1": 0.5178071798654045,
+            "s2": 0.32512732321411913,
+            "w1": 0.5354844058943096
+          },
+          "delta_bic_single_minus_mix": 2.8591146898424995,
+          "n": 1718,
+          "z_bin": [
+            0.21899999678134918,
+            0.36239599525928495
+          ]
+        },
+        {
+          "bic_single": 1799.7260545232411,
+          "bic_two_component": 1752.2692248805934,
+          "components": {
+            "mu1": -0.21561846544849408,
+            "mu2": 0.0490889877006876,
+            "s1": 0.5684581576856742,
+            "s2": 0.3415996276783263,
+            "w1": 0.16531290985185343
+          },
+          "delta_bic_single_minus_mix": 47.45682964264779,
+          "n": 1770,
+          "z_bin": [
+            0.36239599525928495,
+            0.7978000044822693
+          ]
+        }
+      ]
+    },
+    "parser_upgrade_note": "v9.5 expands eROSITA proxy aliases and records numeric column profiles on failures.",
+    "tables_tried": []
+  },
+  "notes": [],
+  "prediction_ids": [
+    "P34"
+  ],
+  "prediction_names": [
+    "P34 \u2014 multi-component cluster \u03c3v"
+  ],
+  "status": "suggestive",
+  "test_id": "T10",
+  "warnings": []
+}

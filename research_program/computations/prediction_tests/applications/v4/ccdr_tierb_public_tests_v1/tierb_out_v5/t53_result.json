@@ -1,0 +1,131 @@
+{
+  "data_source_policy": "v5 direct FireProtDB/ProteinGym stability table gate. PDB metadata alone is never evidence.",
+  "discovered_structured_links_count": 0,
+  "evidence_status": "data_limited",
+  "falsification_logic": {
+    "caveat": "If only metadata is available, result is data_limited.",
+    "confirm_like": "Public Tm/\u0394G/stability datasets show positive stability residual for symmetry/order proxies after controls.",
+    "falsify_like": "Adequate stability datasets show no advantage or opposite trend."
+  },
+  "generated_utc": "2026-04-30T21:10:35Z",
+  "manifest_only_mode": true,
+  "manifest_records": [
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [],
+      "label": "FireProtDB download page",
+      "meta": {
+        "cache_path": "tierb_cache_v5\\T53_v5_funnel\\files\\04f834e5d37f_download.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='loschmidt.chemi.muni.cz', port=443): Max retries exceeded with url: /fireprotdb/download/ (Caused by NameResolutionError(\"HTTPSConnection(host='loschmidt.chemi.muni.cz', port=443): Failed to resolve 'loschmidt.chemi.muni.cz' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='loschmidt.chemi.muni.cz', port=443): Max retries exceeded with url: /fireprotdb/download/ (Caused by NameResolutionError(\"HTTPSConnection(host='loschmidt.chemi.muni.cz', port=443): Failed to resolve 'loschmidt.chemi.muni.cz' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://loschmidt.chemi.muni.cz/fireprotdb/download/"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://loschmidt.chemi.muni.cz/fireprotdb/download/"
+      },
+      "stage": "source",
+      "tables": [],
+      "url": "https://loschmidt.chemi.muni.cz/fireprotdb/download/"
+    },
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [],
+      "label": "FireProtDB API docs",
+      "meta": {
+        "cache_path": "tierb_cache_v5\\T53_v5_funnel\\files\\d1219db9c57d_api-docs.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='loschmidt.chemi.muni.cz', port=443): Max retries exceeded with url: /fireprotdb/api-docs/ (Caused by NameResolutionError(\"HTTPSConnection(host='loschmidt.chemi.muni.cz', port=443): Failed to resolve 'loschmidt.chemi.muni.cz' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='loschmidt.chemi.muni.cz', port=443): Max retries exceeded with url: /fireprotdb/api-docs/ (Caused by NameResolutionError(\"HTTPSConnection(host='loschmidt.chemi.muni.cz', port=443): Failed to resolve 'loschmidt.chemi.muni.cz' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://loschmidt.chemi.muni.cz/fireprotdb/api-docs/"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://loschmidt.chemi.muni.cz/fireprotdb/api-docs/"
+      },
+      "stage": "source",
+      "tables": [],
+      "url": "https://loschmidt.chemi.muni.cz/fireprotdb/api-docs/"
+    },
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [],
+      "label": "FireProtDB legacy dataset page",
+      "meta": {
+        "cache_path": "tierb_cache_v5\\T53_v5_funnel\\files\\f8c3bb8f3714_1.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='loschmidt.chemi.muni.cz', port=443): Max retries exceeded with url: /fireprotdb1/dataset/1 (Caused by NameResolutionError(\"HTTPSConnection(host='loschmidt.chemi.muni.cz', port=443): Failed to resolve 'loschmidt.chemi.muni.cz' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='loschmidt.chemi.muni.cz', port=443): Max retries exceeded with url: /fireprotdb1/dataset/1 (Caused by NameResolutionError(\"HTTPSConnection(host='loschmidt.chemi.muni.cz', port=443): Failed to resolve 'loschmidt.chemi.muni.cz' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://loschmidt.chemi.muni.cz/fireprotdb1/dataset/1"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://loschmidt.chemi.muni.cz/fireprotdb1/dataset/1"
+      },
+      "stage": "source",
+      "tables": [],
+      "url": "https://loschmidt.chemi.muni.cz/fireprotdb1/dataset/1"
+    },
+    {
+      "discovered_links": [],
+      "discovery_diagnostics": [],
+      "label": "ProteinGym DMS substitutions manifest",
+      "meta": {
+        "cache_path": "tierb_cache_v5\\T53_v5_funnel\\files\\5d8a65a72ca6_DMS_substitutions.csv",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "head": {
+          "content_length": null,
+          "content_type": null,
+          "error": "head_failed: ConnectionError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno 11001] getaddrinfo failed)\"))",
+          "ok": false,
+          "status_code": null,
+          "url": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+        },
+        "ok": false,
+        "status_code": null,
+        "url": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+      },
+      "stage": "file",
+      "tables": [],
+      "url": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+    }
+  ],
+  "prediction_ids": [
+    "BI?"
+  ],
+  "prediction_names": [
+    "high-symmetry biomolecular assemblies show anomalous stability/folding proxies"
+  ],
+  "qualifying_table_count": 0,
+  "qualifying_tables": [],
+  "quality_patch_version": "v5_manifest_only_source_quality",
+  "readiness_status": "source_found_no_usable_table",
+  "schema": "ccdr-tierb-result-v1",
+  "source_funnel_policy": "v5 source\u2192record\u2192file; discovery APIs are metadata only; full parse only after header physical-column gate",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "support_like": null,
+  "test_id": "T53",
+  "test_name": "biological symmetry/protein-folding proxy"
+}
