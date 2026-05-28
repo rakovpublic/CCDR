@@ -1,0 +1,211 @@
+{
+  "basic": {
+    "curl_abs_delta": 0.04445120171365154,
+    "curl_delta": 0.04445120171365154,
+    "curl_density_shuffle_p_high": 0.0,
+    "curl_non_significant_5_95": false,
+    "curl_sign_relation": "same_as_science_majority",
+    "curl_to_science_abs_ratio": 0.5042515929440744,
+    "curl_weaker_by_ratio_0p50": false,
+    "curl_weaker_by_ratio_0p60": true,
+    "median_abs_science_delta": 0.08815282358182167,
+    "science_negative_delta_count": 0,
+    "science_positive_delta_count": 5,
+    "science_variant_count": 5
+  },
+  "curl_subtracted_science": {
+    "available": true,
+    "claim_note": "curl-subtraction is diagnostic only; it cannot by itself create a confirmation.",
+    "n_positive_after_abs_subtraction": 3,
+    "n_positive_after_signed_subtraction": 3,
+    "n_variants": 5,
+    "pass_suggestive_not_confirmatory": true,
+    "variant_rows": [
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.0,
+        "jackknife_same_sign": true,
+        "remains_positive_after_abs_subtraction": true,
+        "remains_positive_after_signed_subtraction": true,
+        "science_delta": 0.08815282358182167,
+        "science_minus_abs_curl": 0.04370162186817012,
+        "science_minus_curl": 0.04370162186817012,
+        "variant": "baseline"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.1484375,
+        "jackknife_same_sign": true,
+        "remains_positive_after_abs_subtraction": false,
+        "remains_positive_after_signed_subtraction": false,
+        "science_delta": 0.04191234028127793,
+        "science_minus_abs_curl": -0.0025388614323736125,
+        "science_minus_curl": -0.0025388614323736125,
+        "variant": "f090"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.0,
+        "jackknife_same_sign": true,
+        "remains_positive_after_abs_subtraction": true,
+        "remains_positive_after_signed_subtraction": true,
+        "science_delta": 0.17316898098989575,
+        "science_minus_abs_curl": 0.1287177792762442,
+        "science_minus_curl": 0.1287177792762442,
+        "variant": "f150"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.0,
+        "jackknife_same_sign": true,
+        "remains_positive_after_abs_subtraction": true,
+        "remains_positive_after_signed_subtraction": true,
+        "science_delta": 0.11502262596726337,
+        "science_minus_abs_curl": 0.07057142425361182,
+        "science_minus_curl": 0.07057142425361182,
+        "variant": "tonly"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.046875,
+        "jackknife_same_sign": true,
+        "remains_positive_after_abs_subtraction": false,
+        "remains_positive_after_signed_subtraction": false,
+        "science_delta": 0.04293005855960019,
+        "science_minus_abs_curl": -0.0015211431540513506,
+        "science_minus_curl": -0.0015211431540513506,
+        "variant": "cibdeproj"
+      }
+    ]
+  },
+  "frequency_systematic_split": {
+    "available": true,
+    "families": [
+      {
+        "all_positive_delta": true,
+        "family": "frequency",
+        "mean_delta": 0.10754066063558684,
+        "mean_delta_minus_curl": 0.06308945892193529,
+        "n_available": 2,
+        "n_positive_pass": 1,
+        "variants": [
+          "f090",
+          "f150"
+        ]
+      },
+      {
+        "all_positive_delta": true,
+        "family": "temperature_or_baseline",
+        "mean_delta": 0.10158772477454252,
+        "mean_delta_minus_curl": 0.057136523060890974,
+        "n_available": 2,
+        "n_positive_pass": 2,
+        "variants": [
+          "baseline",
+          "tonly"
+        ]
+      },
+      {
+        "all_positive_delta": true,
+        "family": "foreground_deprojection",
+        "mean_delta": 0.04293005855960019,
+        "mean_delta_minus_curl": -0.0015211431540513506,
+        "n_available": 1,
+        "n_positive_pass": 1,
+        "variants": [
+          "cibdeproj"
+        ]
+      }
+    ],
+    "interpretation": "Checks whether signal is broad across frequency/systematic families or concentrated in one map family.",
+    "n_families_positive": 3
+  },
+  "permutation_rotation_controls": {
+    "available": true,
+    "coord_source": "v13_sdss_fallback_coords",
+    "curl_delta": 0.04445120171365154,
+    "curl_weakened_by_label_shuffle": false,
+    "curl_weakened_by_rotation": false,
+    "label_shuffle_abs_percentile": 0.99609375,
+    "label_shuffle_n": 256,
+    "label_shuffle_p_high": 0.00390625,
+    "map_info": {
+      "extract": {
+        "member": "./maps/curl/kappa_alm_data_act_dr6_lensing_v1_curl.fits",
+        "path": ".ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits"
+      },
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 5.707635692547907,
+          "mean": -0.0002351720737029843,
+          "median": 0.00022762540177569124,
+          "min": -3.9091411502558597,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.25622722946657794
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8006000,
+          "nside": 256
+        }
+      },
+      "variant": "curl_control"
+    },
+    "rotation_abs_percentile": 0.9375,
+    "rotation_null_n": 64,
+    "rotation_p_high": 0.03125
+  },
+  "promotion_rule": "P30-SDSS route may promote only if random route, same-split variants, bootstrap, and curl remediation pass; global P30 still needs a second route.",
+  "ratio_uncertainty": {
+    "available": true,
+    "curl_abs_delta": 0.04445120171365154,
+    "method": "curl fixed, science route bootstrap CI from p30_sdss_bootstrap_ci_v30",
+    "ratio_at_median": 0.5071060252877521,
+    "ratio_ci_high_below_0p50": false,
+    "ratio_ci_high_below_0p60": false,
+    "ratio_ci_high_conservative": 0.8056296537794809,
+    "ratio_ci_low_conservative": 0.3683357532706041,
+    "science_bootstrap_median": 0.08765662306699702,
+    "science_ci16": 0.05517572684311698,
+    "science_ci84": 0.12068120273134256
+  },
+  "remediation_pass": false,
+  "same_split_artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_sdss_same_split_variant_rerun_v29.json"
+}

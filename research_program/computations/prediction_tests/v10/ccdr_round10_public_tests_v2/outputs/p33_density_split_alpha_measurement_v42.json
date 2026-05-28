@@ -1,0 +1,34 @@
+{
+  "alpha_rows": [],
+  "best_measurement": null,
+  "measurement_present": false,
+  "n_alpha_rows": 0,
+  "p33_publication_confirm_gate_v42": {
+    "alpha_high_low_measured": false,
+    "covariance_ready": false,
+    "delta_alpha_nonzero": false,
+    "density_label_shuffle_pass": false,
+    "eligible_for_confirm_like": false,
+    "measured_not_contract": true,
+    "missing": [
+      "alpha_high_low_measured",
+      "covariance_ready",
+      "density_label_shuffle_pass",
+      "sky_shuffle_pass",
+      "redshift_jackknife_stable",
+      "delta_alpha_nonzero"
+    ],
+    "redshift_jackknife_stable": false,
+    "sky_shuffle_pass": false
+  },
+  "required_fields": [
+    "alpha_high",
+    "alpha_low",
+    "delta_alpha",
+    "covariance",
+    "density_label_shuffle_p",
+    "sky_shuffle_p",
+    "redshift_jackknife_stable"
+  ],
+  "version": "v42"
+}

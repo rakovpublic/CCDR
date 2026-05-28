@@ -11,9 +11,9 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "flavour",
-  "kind": "p41_pdf_cds_table_guard_v14",
+  "kind": "p41_structured_cp_v22",
   "prediction_id": "P41",
-  "prediction_name": "P41 CDS/PDF table-sign guarded confirmation path",
+  "prediction_name": "P41 supplementary archive structured-table parser",
   "sources": [
     {
       "url": "https://cds.cern.ch/record/2951844/export/xm"

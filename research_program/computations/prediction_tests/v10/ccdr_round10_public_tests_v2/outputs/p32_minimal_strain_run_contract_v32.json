@@ -1,0 +1,17 @@
+{
+  "minimal_events": [
+    "GW150914",
+    "GW190521"
+  ],
+  "promotion_rule": "delta_chi2_gr_minus_ccdr > 0, injection_null_p <= 0.05, detector split and leave-one-event-out pass",
+  "recommended_command": "python run_all.py --only P32 --allow-large --max-mb 5000 --script-timeout 2400",
+  "required_products": [
+    "strain_hdf5_or_gwf",
+    "psd_estimate_json",
+    "gr_ringdown_fit_json",
+    "ccdr_residual_fit_json",
+    "injection_null_json",
+    "detector_split_json",
+    "leave_one_event_out_json"
+  ]
+}

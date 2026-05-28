@@ -1,0 +1,27 @@
+{
+  "act_kappa_map_available": true,
+  "artifact_version": "v68",
+  "claim_policy_v68": "v68 records coordinate audits, ACT kappa availability, and the residual-kappa join scan. It promotes only with actual residual-kappa pairs, p<=0.05 shuffle, top-weight stability, and predeclared sign.",
+  "coordinate_audit": [
+    {
+      "n_coords": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p8_nanograv_par_coordinate_audit_v50.json",
+      "sha256": "b0371eccbf9d09e6a2b0dbcf2885dd74c99e154dae2d50c4ba2602fb6897c8d6"
+    },
+    {
+      "n_coords": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\pta_par_coordinate_audit_v53.json",
+      "sha256": "f14d60425166bc479f94f57b0b1e6fc84a81faca2ebe12afbc39289c3b75f31f"
+    }
+  ],
+  "manual_fill_required": false,
+  "n_join_like_rows": 0,
+  "n_residual_kappa_pairs": 0,
+  "predeclared_sign": false,
+  "residual_kappa_join_rows_preview": [],
+  "scan_audit": [],
+  "sky_shuffle_p": null,
+  "status": "pta_residual_kappa_pairs_absent_after_v68_scan",
+  "top_weight_removal_stable": false,
+  "weighted_statistic": null
+}

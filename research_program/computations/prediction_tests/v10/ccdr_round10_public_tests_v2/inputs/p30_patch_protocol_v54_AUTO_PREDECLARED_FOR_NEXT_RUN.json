@@ -1,0 +1,15 @@
+{
+  "accepted_empirical_mask_name": "ACT_DR6_finite_support_mask_v54",
+  "activate_by_renaming_to": "p30_patch_protocol_v54.json",
+  "artifact_version": "v54",
+  "created_utc": "2026-05-14T15:22:50Z",
+  "edge_exclusion_deg": 1.0,
+  "min_high_per_patch": 10,
+  "min_low_per_patch": 10,
+  "no_posthoc_patch_quarantine": true,
+  "notes": "Generated for the next run. Rename to p30_patch_protocol_v54.json before running; current run cannot use a protocol created after sampling.",
+  "patch_nside": 8,
+  "predeclared_before_run": true,
+  "same_density_labels_for_science_curl_variants": true,
+  "same_mask_for_science_curl_nulls": true
+}

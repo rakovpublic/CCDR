@@ -1,0 +1,337 @@
+{
+  "packs": [
+    {
+      "affected_tests_v64": [
+        "T31",
+        "T32"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_families": 5,
+        "min_sources": 5,
+        "min_temperature_bins": 3,
+        "min_usable_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "materials",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\t31_t32_materials_exact_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T31",
+        "T32"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_families": 5,
+        "min_sources": 5,
+        "min_temperature_bins": 3,
+        "min_usable_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "materials_family_packs",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\family_pack_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T44"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_companies": 3,
+        "min_usable_rows": 8
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "nand",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\t44_nand_tier_a_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T53"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_assays": 3,
+        "min_families": 3,
+        "min_sequence_clusters": 10,
+        "min_usable_join_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "proteingym",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\proteingym_assays_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T53"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_structure_rows": 50
+      },
+      "n_files_v64": 1,
+      "n_rows_v64": 152,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "protein_structures",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\protein_structure_features_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "validator_passes_nonempty_pack",
+      "validator_usable_rows_v64": 152
+    },
+    {
+      "affected_tests_v64": [
+        "T34"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_usable_rows": 30
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "thermoelectric",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\t34_thermoelectric_angle_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T57",
+        "T59"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_records": 3,
+        "min_residual_rows": 20,
+        "min_tables": 3
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "hepdata",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T45"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "optical_interconnect",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\t45_optical_interconnect_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T47"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "neuromorphic",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\t47_neuromorphic_benchmark_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_exact_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "fusion",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T46"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 336,
+      "minimum_gate_v64": {
+        "min_baseline_comparisons": 5,
+        "min_sources": 2,
+        "min_usable_rows": 5
+      },
+      "n_files_v64": 1,
+      "n_rows_v64": 336,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "ldpc_external_benchmark",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\t46_external_public_benchmark_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "validator_passes_nonempty_pack",
+      "validator_usable_rows_v64": 336
+    }
+  ],
+  "schema": "ccdr-tierb-source-pack-status-v64"
+}

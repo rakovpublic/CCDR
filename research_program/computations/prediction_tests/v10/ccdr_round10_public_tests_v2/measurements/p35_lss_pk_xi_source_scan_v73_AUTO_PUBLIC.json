@@ -1,0 +1,124 @@
+{
+  "artifact_version": "v73",
+  "best_lss_power_or_xi_candidate": null,
+  "claim_policy_v73": "v73 expands the P(k)/xi source scan but only claim-grades public LSS-scoped power-spectrum/correlation tables with >=4 harmonic peaks and a phase-randomized p<=0.05.",
+  "compressed_bao_harmonic_control": {
+    "comb_score": 0.588136929414945,
+    "n_redshift_bins": 7,
+    "phase_null_p": 0.7002843215350546,
+    "redshift_bins": [
+      0.295,
+      0.51,
+      0.706,
+      0.934,
+      1.321,
+      1.484,
+      2.33
+    ],
+    "spacing_cv": 0.7002843215350546
+  },
+  "lss_power_or_xi_audit": [
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+      "score": null,
+      "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+      "size_bytes": 205647
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+      "score": null,
+      "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+      "size_bytes": 8842
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+      "score": null,
+      "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+      "size_bytes": 205647
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+      "score": null,
+      "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+      "size_bytes": 8842
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-binned_R3.02.txt",
+      "score": null,
+      "sha256": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2",
+      "size_bytes": 5698
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-full_R3.01.txt",
+      "score": null,
+      "sha256": "c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f",
+      "size_bytes": 135731
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-low-ell-BB-full_R3.01.txt",
+      "score": null,
+      "sha256": "0778f7ee5f8bad7702dad5b0abe1f365ea7d8f53ea720d421e0e94072daddb1e",
+      "size_bytes": 2167
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-binned_R3.02.txt",
+      "score": null,
+      "sha256": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137",
+      "size_bytes": 5698
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-full_R3.01.txt",
+      "score": null,
+      "sha256": "8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425",
+      "size_bytes": 135731
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-binned_R3.01.txt",
+      "score": null,
+      "sha256": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd",
+      "size_bytes": 7143
+    },
+    {
+      "exists": true,
+      "lss_scoped": false,
+      "n_numeric_rows": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-full_R3.01.txt",
+      "score": null,
+      "sha256": "ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522",
+      "size_bytes": 170547
+    }
+  ],
+  "manual_fill_required": false,
+  "n_compressed_bao_products": 40,
+  "status": "p35_lss_pk_or_xi_table_absent_v73"
+}

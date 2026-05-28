@@ -1,0 +1,26 @@
+{
+  "ccdr_residual_template_fit": true,
+  "delta_chi2_gr_minus_ccdr": 2.238805339721939e-05,
+  "detector_split_passed": false,
+  "diagnostic_class": "minimal_one_event_likelihood_not_publication_grade",
+  "gr_ringdown_fit": true,
+  "injection_null_passed": false,
+  "leave_one_event_out_stable": false,
+  "likelihoods": [
+    {
+      "best_ringdown": {
+        "freq_hz": 150,
+        "sse": 7.48053116787299e-33,
+        "tau_s": 0.02
+      },
+      "delta_chi2_gr_minus_ccdr": 2.238805339721939e-05,
+      "path": ".ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "85898801039db110fb8ccb1ec5862076a4cbe59710b1d08540c2f49be4285c1e"
+    }
+  ],
+  "manual_fill_required": false,
+  "psd_estimated": true,
+  "source_hashes_present": true,
+  "status": "p32_minimal_ringdown_likelihood_built",
+  "strain_files_loaded": true
+}

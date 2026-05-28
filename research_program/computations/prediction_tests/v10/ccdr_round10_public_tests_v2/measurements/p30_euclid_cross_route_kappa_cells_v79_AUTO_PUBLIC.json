@@ -1,0 +1,68 @@
+{
+  "artifact_version": "v79",
+  "claim_policy_v79": "v79 builds a MER-coordinate kappa-cell fallback by sampling the public lensing map. This is cross-route readiness only; Euclid-native kappa is still required for Euclid route confirmation.",
+  "coordinate_source": "outputs/test06_preview",
+  "density_kappa_split_stat": {
+    "delta_high_minus_low": null,
+    "density_shuffle_p_high": null,
+    "n_rows_with_density_and_kappa": 0
+  },
+  "manual_fill_required": false,
+  "map_sample_info": {
+    "attempts": [
+      {
+        "finite_fraction": 1.0,
+        "hdu": 1,
+        "lmax": 4000,
+        "mode": "row_order_full_alm",
+        "n_finite_pixels": 49152
+      }
+    ],
+    "hdu": 1,
+    "hdu_info": [
+      {
+        "class": "PrimaryHDU",
+        "columns": [],
+        "hdu": 0,
+        "name": "PRIMARY",
+        "shape": null
+      },
+      {
+        "class": "BinTableHDU",
+        "columns": [
+          "index",
+          "real",
+          "imag"
+        ],
+        "hdu": 1,
+        "name": "",
+        "shape": [
+          8006001
+        ]
+      }
+    ],
+    "lmax": 4000,
+    "load_mode": "alm_to_map_or_healpy_read_alm",
+    "map_sanity": {
+      "available": true,
+      "finite_fraction": 1.0,
+      "max": 4.636254876378636,
+      "mean": 0.0003382175867158218,
+      "median": 0.0001731658883620834,
+      "min": -4.536126854694174,
+      "n_finite_pixels": 49152,
+      "n_total_pixels": 49152,
+      "std": 0.45482407405626935
+    },
+    "method": "row_order_full_alm",
+    "n_finite_alm_input": 8005998,
+    "nside": 64,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+    "source_scope": "act"
+  },
+  "n_cross_route_kappa_cell_rows": 0,
+  "n_native_euclid_kappa_cell_rows": 0,
+  "native_euclid_status_v78": "p30_euclid_kappa_cells_absent_v78",
+  "rows_preview": [],
+  "status": "p30_euclid_kappa_cells_absent_v79"
+}

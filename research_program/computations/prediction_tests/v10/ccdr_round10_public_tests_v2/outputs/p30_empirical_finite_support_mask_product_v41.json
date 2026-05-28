@@ -1,0 +1,11 @@
+{
+  "available": true,
+  "claim_scope": "empirical finite-support mask product; diagnostic/equivalent only unless official ACT mask is provided",
+  "finite_fraction": 1.0,
+  "n_finite_pixels": 786432,
+  "n_total_pixels": 786432,
+  "official_mask_found": false,
+  "required_for_publication": true,
+  "rule": "All P30 variants/randoms must be run through the same persisted mask product before any route claim is publishable.",
+  "version": "v41"
+}

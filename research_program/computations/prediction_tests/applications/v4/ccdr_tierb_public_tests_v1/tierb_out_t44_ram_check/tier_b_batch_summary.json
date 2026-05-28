@@ -1,0 +1,15 @@
+{
+  "n_tests": 1,
+  "schema": "ccdr-tierb-batch-summary-v1",
+  "summary": [
+    {
+      "name": "3D NAND area vs volume scaling",
+      "process_status": "ok",
+      "result_status": "data_limited",
+      "script": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test44_3d_nand_area_vs_volume_scaling.py",
+      "stderr_tail": "",
+      "stdout_tail": "9\": {\n    \"claimable_only_if_listed_in\": \"positive_dashboard.json:v59_confirm_status.confirmed_now\",\n    \"confirmed_now_v59\": false,\n    \"legacy_confirm_fields_are_not_public_claims\": true\n  },\n  \"qualifying_table_count\": 0,\n  \"quality_patch_version\": \"+v65_fast_t44\",\n  \"readiness_status\": \"no_source_found\",\n  \"required_columns\": [\n    \"company\",\n    \"year\",\n    \"layers\",\n    \"capacity_Gb\",\n    \"die_area_mm2\",\n    \"bits_per_cell\",\n    \"source_url\"\n  ],\n  \"required_exact_source_pack\": \"data/exact_sources/nand\",\n  \"result_path\": \"tierb_out_t44_ram_check\\\\t44_result.json\",\n  \"schema\": \"ccdr-tierb-result-v65-fast-t44\",\n  \"status\": \"data_limited\",\n  \"status_semantics\": {\n    \"evidence_status\": \"scientific interpretation bucket\",\n    \"readiness_status\": \"data-pipeline stage reached\",\n    \"status\": \"legacy execution/result bucket\"\n  },\n  \"status_split_v59\": {\n    \"confirmation_status_v59\": \"not_confirmed_audit_repair_required\",\n    \"data_status_v59\": \"true_tier_a_nand_rows_required\",\n    \"evidence_status_v59\": \"audit_repair_route\",\n    \"execution_status_v59\": \"ok\"\n  },\n  \"support_like\": null,\n  \"table_diagnostics\": [],\n  \"test_id\": \"T44\",\n  \"test_name\": \"3D NAND area vs volume scaling\"\n}\n",
+      "test_id": "T44"
+    }
+  ]
+}

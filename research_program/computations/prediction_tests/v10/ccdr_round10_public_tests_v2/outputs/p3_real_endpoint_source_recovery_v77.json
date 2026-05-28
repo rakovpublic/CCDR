@@ -1,0 +1,15 @@
+{
+  "artifact_version": "v77",
+  "claim_policy_v77": "v77 only accepts explicit endpoint/node-pair columns from endpoint-scoped sources; unrelated random catalogues and loose numeric rows are excluded.",
+  "endpoint_rows_preview": [],
+  "manual_fill_required": false,
+  "n_endpoint_rows_with_redshift": 0,
+  "n_strict_endpoint_rows": 0,
+  "orientation_statistic": {
+    "anisotropy_score": null,
+    "n_angles": 0,
+    "orientation_shuffle_p": null
+  },
+  "source_audit": [],
+  "status": "p3_real_endpoint_source_absent_v77"
+}

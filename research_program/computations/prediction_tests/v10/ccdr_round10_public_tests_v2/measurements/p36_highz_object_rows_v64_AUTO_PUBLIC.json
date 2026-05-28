@@ -1,0 +1,972 @@
+{
+  "artifact_version": "v64",
+  "claim_radius_policy": "physical_radius_whitelist_only",
+  "diagnostic_class": "claim_rows_parsed_but_gate_failed",
+  "discovery_sample_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p36_highz_discovery_rows_sample_v64.json",
+  "fetch_audit": [
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2Fkross_release_v2.fits.fits",
+      "size_bytes": 184320,
+      "skipped": false,
+      "source_group": "KROSS",
+      "url": "https://astro.dur.ac.uk/KROSS/data/kross_release_v2.fits"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2FTILEY_18_SAMIKROSS_TFR_V1.fits.fits",
+      "size_bytes": 63360,
+      "skipped": false,
+      "source_group": "KROSS",
+      "url": "https://astro.dur.ac.uk/KROSS/data/TILEY_18_SAMIKROSS_TFR_V1.fits"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KGES__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323.tsv",
+      "size_bytes": 47180,
+      "skipped": false,
+      "source_group": "KGES",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/506/323"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KGES__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323_2Ftable1.tsv",
+      "size_bytes": 712,
+      "skipped": false,
+      "source_group": "KGES",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/506/323/table1"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KGES__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323_2Ftable2.tsv",
+      "size_bytes": 712,
+      "skipped": false,
+      "source_group": "KGES",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/506/323/table2"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F886_2F124.tsv",
+      "size_bytes": 186694,
+      "skipped": false,
+      "source_group": "KMOS3D",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/886/124"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F886_2F124_2Ftable1.tsv",
+      "size_bytes": 708,
+      "skipped": false,
+      "source_group": "KMOS3D",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/886/124/table1"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F886_2F124_2Ftable2.tsv",
+      "size_bytes": 708,
+      "skipped": false,
+      "source_group": "KMOS3D",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/886/124/table2"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F902_2F77.tsv",
+      "size_bytes": 685,
+      "skipped": false,
+      "source_group": "KMOS3D",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/902/77"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\SAMI__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323.tsv",
+      "size_bytes": 47180,
+      "skipped": false,
+      "source_group": "SAMI",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/506/323"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\MOSDEF__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F801_2F97.tsv",
+      "size_bytes": 9350053,
+      "skipped": false,
+      "source_group": "MOSDEF",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/801/97"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\MOSDEF__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F801_2F97_2Ftable1.tsv",
+      "size_bytes": 706,
+      "skipped": false,
+      "source_group": "MOSDEF",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/801/97/table1"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\PHIBSS__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F833_2F122.tsv",
+      "size_bytes": 687,
+      "skipped": false,
+      "source_group": "PHIBSS",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/833/122"
+    },
+    {
+      "cached": true,
+      "downloaded": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\PHIBSS__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F833_2F122_2Ftable1.tsv",
+      "size_bytes": 701,
+      "skipped": false,
+      "source_group": "PHIBSS",
+      "url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/833/122/table1"
+    }
+  ],
+  "manual_fill_required": false,
+  "median_large_radius_acceleration_m_s2": 4.671964950292572e-10,
+  "n_claim_large_radius_rows": 2605,
+  "n_discovery_only_rows": 1120,
+  "n_large_radius_rows": 2605,
+  "n_rows": 3801,
+  "parse_audit": [
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2Fkross_release_v2.fits.fits",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2FTILEY_18_SAMIKROSS_TFR_V1.fits.fits",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_5076_5be2a297fc__5076_5be2a297fc",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_5076__5076",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_kges.tar.gz__kges.tar.gz",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_cubes.tar.gz__KROSS_cubes.tar.gz",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_Halpha_maps.tar.gz__KROSS_Halpha_maps.tar.gz",
+      "sha256": null,
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 560,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_kross_release_v2.fits__kross_release_v2.fits",
+      "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_sigma_maps.tar.gz__KROSS_sigma_maps.tar.gz",
+      "sha256": "6f45427119a45e708d8a65255a4ed39705ff11f0e87dde61b94f9dbc0842f6e7",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_velocity_maps.tar.gz__KROSS_velocity_maps.tar.gz",
+      "sha256": "087c2325229c5eced2bc405bba3a33eafb92837f1303ef8d983a0ddec9fbf755",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_TILEY_18_SAMIKROSS_TFR_V1.fits__TILEY_18_SAMIKROSS_TFR_V1.fits",
+      "sha256": "49627e4e36dda34c1390e5a6693e130cb5c5ce0ff422ec2c55a33cfb6ead7302",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 152,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_VizieR_b3b1e89277__VizieR_b3b1e89277",
+      "sha256": "a7989eac3f562e1ef403fc3c6e0195221ca4f2c9b2a8abbaaaf1364a45daafc8",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 264,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_VizieR__VizieR",
+      "sha256": "6313c739ff9bd4c3be97559d5bad8e66ccd4957b20cb51be770ddd1b51036a55",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__also_0__{{also[0]}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__doi_ori__{{doi_ori}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__doi_pub__{{doi_pub}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__footprintImage__{{footprintImage()}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.policies.ref__{{model.policies.ref}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.urlBib_encode_code__{{model.urlBib}}{{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.urlBib_encode_mainbib__{{model.urlBib}}{{encode(mainbibcode)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.urlDoi_encode_code__{{model.urlDoi}}{{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.urlSimbad_bibcode_enc__{{model.urlSimbad}}bibcode={{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.urlSimbad_bibcode_enc__{{model.urlSimbad}}bibcode={{encode(mainbibcode)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__model.urlSimbad_querymethod_b__{{model.urlSimbad}}querymethod=bib&simbo=on&submit=submit+bibcode&bibcode={{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_page_5076__5076",
+      "sha256": "d15e101450099cbfbe2f19f7d54346d5748f9377e498c5e3d45941d8075d4c60",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 80,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_page_data.html__data.html",
+      "sha256": "82660a72283b567c8d706c191164569fadc894768f4492cfb0c12cb600ff2857",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 560,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__830daf22cb0292__kross_release_v2.fits",
+      "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8",
+      "source_group": "KROSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 290,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KGES__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323.tsv",
+      "sha256": "6ec0e4c900ca877a1496d303947dd5611946733357ab4225d5a839e4649b1fdf",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KGES__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323_2Ftable1.tsv",
+      "sha256": "3467cbd7fdc995ad73030370a85169e4e697ea843ce898d4e8e183a81631c5fd",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KGES__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323_2Ftable2.tsv",
+      "sha256": "fb806c6b00d16422aa363ca78c41fba750cd774f63f4b33617a8f82a0eb501e7",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data_323_5c9aa3a225__323_5c9aa3a225",
+      "sha256": "6a2f890a5ea543ed3219ebabb531afe3f592196d8b5bdfb0defa6e58e9a0d8e3",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data_323__323",
+      "sha256": "1721ffeebce3407925f76e15f506771ee8e665de38dd884a0464ba44e9187a11",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 290,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data_asu-tsv_21bb9057ad__asu-tsv_21bb9057ad",
+      "sha256": "1c6a4c01256794b92a3fc8d8b766722ed0beac3fc183294a10fc71623f633165",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 160,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data_VizieR_42b761fb4b__VizieR_42b761fb4b",
+      "sha256": "01f4a3a1dee177606cfb1efb6e7a957bee25366d1cfddba9a7d27dad7e4af988",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 264,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data_VizieR__VizieR",
+      "sha256": "fdef6d28b268e2aa8ab834f113ef9da36536ad6235b9c819fff97c835655100a",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__also_0__{{also[0]}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__doi_ori__{{doi_ori}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__doi_pub__{{doi_pub}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__footprintImage__{{footprintImage()}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.policies.ref__{{model.policies.ref}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlBib_encode_code__{{model.urlBib}}{{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlBib_encode_mainbib__{{model.urlBib}}{{encode(mainbibcode)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlDoi_encode_code__{{model.urlDoi}}{{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlorcid_orcid__{{model.urlorcid}}{{orcid}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlSimbad_bibcode_enc__{{model.urlSimbad}}bibcode={{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlSimbad_bibcode_enc__{{model.urlSimbad}}bibcode={{encode(mainbibcode)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlSimbad_querymethod_b__{{model.urlSimbad}}querymethod=bib&simbo=on&submit=submit+bibcode&bibcode={{encode(code)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__model.urlSimbad_querymethod_b__{{model.urlSimbad}}querymethod=bib&simbo=on&submit=submit+bibcode&bibcode={{encode(mainbibcode)}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__urldoi__{{urldoi}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_page_323__323",
+      "sha256": "1721ffeebce3407925f76e15f506771ee8e665de38dd884a0464ba44e9187a11",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 64,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_page_kges__kges",
+      "sha256": "d42b315c6790901b79fe5b1f63d78fd32feece5dbc5eace41eacafc04aa3f6a6",
+      "source_group": "KGES"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F886_2F124.tsv",
+      "sha256": "6639d665b299dc9d98863a9770b9d01b0b1cf198f0d0f66f23bbe12d4d0a068e",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F886_2F124_2Ftable1.tsv",
+      "sha256": "f278654f1f6094378894cbd1fddaa5efd42f1c531e87cbfdf7caff69f96dcda6",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F886_2F124_2Ftable2.tsv",
+      "sha256": "24ffd16696a0bbc04d483cb7a1dda71e8d2ca6d8e5e37fe507b0e3d0f53b31ec",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KMOS3D__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F902_2F77.tsv",
+      "sha256": "470bd91b3d5e8ad0647f19b3a770924e6c4a14e2fd4bdf98520866a5f9c5f2f6",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 43,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_compose_cf21e4e2d2__compose_cf21e4e2d2",
+      "sha256": "4ed38355202ccbc2736dc0f172639709f2f56b2943e2acc050f55840787d9178",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_hafits_v3.fits.t__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+      "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes.tar.gz__KMOS3D_cubes.tar.gz",
+      "sha256": "48b63aefcff8f01a15f3aa965eb1d70ffa6cf9dd91c1a293e72ca7b02c9f629b",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_COSMOS.tar.gz__KMOS3D_cubes_COSMOS.tar.gz",
+      "sha256": "88f763f1929b99e67cc99d40b7b07178ba56e58ad0571735ae9b00ac4c45ba37",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_GOODSS.tar.gz__KMOS3D_cubes_GOODSS.tar.gz",
+      "sha256": "1140d68dbea7533ae170e9a65b6a9b941c90a1171d0bfc4e6577539bed3acc84",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_UDS.tar.gz__KMOS3D_cubes_UDS.tar.gz",
+      "sha256": "b27b50e5268b97fcce4f73bbfd5a063adaa17c5f3053e13ff3ea3576165773f0",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 162,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_VizieR_a76127336d__VizieR_a76127336d",
+      "sha256": "000989d63f4485595eac9f6b3e8aa82eee98f76ee4ea51cd987bc189b484d6ef",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 186,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_page_data__data",
+      "sha256": "7d5e79621d298cd2ac0a8fabbc0b2d07f514f276ac06b6e9883f8ea8c10cc580",
+      "source_group": "KMOS3D"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 290,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\SAMI__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FMNRAS_2F506_2F323.tsv",
+      "sha256": "88bb48b719756746bb9d782c36f58fe5d3eb8516efe01f5222e86772fc05b523",
+      "source_group": "SAMI"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 148,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_SAMI_page_index__index",
+      "sha256": "4338fa494748d2968e76bb88b59bfc85fd15495f864342ac1c9a4ede4f6070ce",
+      "source_group": "SAMI"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 300,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\MOSDEF__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F801_2F97.tsv",
+      "sha256": "897e9addc3bbe691973c4989e689e13c6de15a773be1dddaf5dba38ffb8e09e9",
+      "source_group": "MOSDEF"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\MOSDEF__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F801_2F97_2Ftable1.tsv",
+      "sha256": "667bbc9343aa8945bb77f79cf1a9274af60876bc23bfe5315f744f57a1081b65",
+      "source_group": "MOSDEF"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\PHIBSS__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F833_2F122.tsv",
+      "sha256": "34c5631ddb6c32308a29ae10ef466a7709c1a4811bca34f4b2b6c4405d717ada",
+      "source_group": "PHIBSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\PHIBSS__https_3A_2F_2Fvizier.cds.unistra.fr_2Fviz-bin_2Fasu-tsv_3F-source_3DJ_2FApJ_2F833_2F122_2Ftable1.tsv",
+      "sha256": "73da14673d7f7991efa9e9eff5e0ad63b836c62608daf54f703a6bcdfff22c1a",
+      "source_group": "PHIBSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 64,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_PHIBSS_data_Data_Release.html__Data_Release.html",
+      "sha256": "dcb849291b2e0f6a6f8abf67104237026494806fe3a567c70f7b0adae639ec0a",
+      "source_group": "PHIBSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 64,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_PHIBSS_page_Data_Release.html__Data_Release.html",
+      "sha256": "dcb849291b2e0f6a6f8abf67104237026494806fe3a567c70f7b0adae639ec0a",
+      "source_group": "PHIBSS"
+    },
+    {
+      "n_claim_or_discovery_rows": 896,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v54_auto.csv",
+      "sha256": "791ea2822e31618a3aad16fd52bb47e8cf136a074c73f6356fb199fca9fdbf2c",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 448,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v57_AUTO.csv",
+      "sha256": "28171f271d1b7ab3091302dfdb2c4d9c2fa415fcd8b9d2b9c521f6dff6405b87",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v57_AUTO.json",
+      "sha256": "92b5c1b8f163e7bdac54b61b3e710ae6e62203477eaf75e182c083f5f186459c",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 448,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v58_AUTO.csv",
+      "sha256": "a84ddc2b468f88378e7610e0faebde23b3020a081506eaa41d3aeba111ce2aa3",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v59_AUTO.json",
+      "sha256": "22fde87b9d3487fdc58d609394d9aa23af7b473f677dfeb13690d99fc9a2023b",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v60_AUTO_PUBLIC.json",
+      "sha256": "e26b67fbff1c0c8eb191ad6e84f8ae205794f0d89d946e2cf6cb416ddc5c1e40",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v61_AUTO_PUBLIC.json",
+      "sha256": "ffcc36f64ec07d24083b536671b92170d373450ac95a2aec154b320fd34dbd07",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 2600,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v62_AUTO_PUBLIC.csv",
+      "sha256": "82a5626abc330a47efc16c47ab874941a18d8123ab64f1769db12e832089ec58",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v62_AUTO_PUBLIC.json",
+      "sha256": "37cccc3bf0fe051f08db17998d01cfc5d8aa9ef03ee8cce1d4f8fd9496d1eddb",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 2600,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v62_AUTO_PUBLIC.jsonl",
+      "sha256": "f519cd01aef920d661d681f5e234fa5756c1a06d956124f1e6827a732edadb79",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 2600,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v63_AUTO_PUBLIC.csv",
+      "sha256": "7e0bf439a3accf79179581caefed5c81258c6bb3130a0fd7cfff4a8e8c7bbba7",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v63_AUTO_PUBLIC.json",
+      "sha256": "a91a83d7ae8308357de86e00fbc9b8f822f7ba0cefa45f9d3d04438d14bd7d27",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 2600,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v63_AUTO_PUBLIC.jsonl",
+      "sha256": "35f052d4fc4c0214be49ab59c647e04b8d280c115301df81842b5eb717b2d150",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 3801,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.csv",
+      "sha256": "f64b345f1fbb551e49bc56fd4b2b609435ffa0a2c9be446c5ab641da3c8a9573",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.json",
+      "sha256": "59d7f9c866fc35aaabce8bfc4840b15072ccf18f67e7644e05589e0b9bd3e313",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 3801,
+      "n_discovery_only": 0,
+      "n_reject_sample": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.jsonl",
+      "sha256": "0f66764f3bec4a28d432c9ba1cb82ae73b2f5f87658fee8e7e3eacccb9db3336",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 2712,
+      "n_discovery_only": 0,
+      "n_reject_sample": 29,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v65_AUTO_PUBLIC.csv",
+      "sha256": "ae287305cbfdd21bb20632abbb21fa4086e0b54cd4948d21192765e072666b4e",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 0,
+      "n_discovery_only": 0,
+      "n_reject_sample": 196,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v65_AUTO_PUBLIC.json",
+      "sha256": "2181cc61a45edb520797c26629149b52a99d4ff1e797d9e8964cb47ac6ca9c28",
+      "source_group": "UNKNOWN_HIGHZ"
+    },
+    {
+      "n_claim_or_discovery_rows": 2712,
+      "n_discovery_only": 0,
+      "n_reject_sample": 29,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v65_AUTO_PUBLIC.jsonl",
+      "sha256": "79d7b3b70cb2cfbfe1752af9064cbb024ff2d538892b9c824971b50471b774cc",
+      "source_group": "UNKNOWN_HIGHZ"
+    }
+  ],
+  "prior_auto_rows_audit": [
+    {
+      "n_rows": 896,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v54_auto.csv",
+      "sha256": "791ea2822e31618a3aad16fd52bb47e8cf136a074c73f6356fb199fca9fdbf2c"
+    },
+    {
+      "n_rows": 448,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v57_AUTO.csv",
+      "sha256": "28171f271d1b7ab3091302dfdb2c4d9c2fa415fcd8b9d2b9c521f6dff6405b87"
+    },
+    {
+      "n_rows": 448,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\inputs\\p36_highz_object_rows_raw_v58_AUTO.csv",
+      "sha256": "a84ddc2b468f88378e7610e0faebde23b3020a081506eaa41d3aeba111ce2aa3"
+    },
+    {
+      "n_rows": 2600,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v62_AUTO_PUBLIC.csv",
+      "sha256": "82a5626abc330a47efc16c47ab874941a18d8123ab64f1769db12e832089ec58"
+    },
+    {
+      "n_rows": 2600,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v63_AUTO_PUBLIC.csv",
+      "sha256": "7e0bf439a3accf79179581caefed5c81258c6bb3130a0fd7cfff4a8e8c7bbba7"
+    },
+    {
+      "n_rows": 3801,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.csv",
+      "sha256": "f64b345f1fbb551e49bc56fd4b2b609435ffa0a2c9be446c5ab641da3c8a9573"
+    },
+    {
+      "n_rows": 2741,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v65_AUTO_PUBLIC.csv",
+      "sha256": "ae287305cbfdd21bb20632abbb21fa4086e0b54cd4948d21192765e072666b4e"
+    },
+    {
+      "n_rows": 2600,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v62_AUTO_PUBLIC.jsonl",
+      "sha256": "f519cd01aef920d661d681f5e234fa5756c1a06d956124f1e6827a732edadb79"
+    },
+    {
+      "n_rows": 2600,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v63_AUTO_PUBLIC.jsonl",
+      "sha256": "35f052d4fc4c0214be49ab59c647e04b8d280c115301df81842b5eb717b2d150"
+    },
+    {
+      "n_rows": 3801,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.jsonl",
+      "sha256": "0f66764f3bec4a28d432c9ba1cb82ae73b2f5f87658fee8e7e3eacccb9db3336"
+    },
+    {
+      "n_rows": 2741,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v65_AUTO_PUBLIC.jsonl",
+      "sha256": "79d7b3b70cb2cfbfe1752af9064cbb024ff2d538892b9c824971b50471b774cc"
+    }
+  ],
+  "reject_sample_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p36_highz_reject_sample_v64.json",
+  "rows_csv_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.csv",
+  "rows_csv_sha256": "e5ef8f6bfe87e4b6a81c1de5c8e4da47080bb18b87cf94f89eac102fa688ed76",
+  "rows_jsonl_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_object_rows_v64_AUTO_PUBLIC.jsonl",
+  "rows_jsonl_sha256": "5e6ab6412ece0f6de8212db74440c4a9a2a113605c4c984d3543c37aa4f22e52",
+  "source_bootstrap_v64": {
+    "bootstrap_all_above_local_a0": true,
+    "bootstrap_ci95_m_s2": [
+      4.465372838941339e-10,
+      4.882053487586068e-10
+    ],
+    "bootstrap_n": 512,
+    "leave_one_source_out_median_acceleration_m_s2": {
+      "KGES": 4.753188748492576e-10,
+      "KROSS": 4.5087931420244527e-10,
+      "SAMI": 4.753188748492576e-10,
+      "UNKNOWN_HIGHZ": 4.6057382129047894e-10
+    },
+    "source_counts_large_radius": {
+      "KGES": 315,
+      "KROSS": 830,
+      "SAMI": 315,
+      "UNKNOWN_HIGHZ": 1145
+    },
+    "source_groups": [
+      "KROSS",
+      "UNKNOWN_HIGHZ",
+      "KGES",
+      "SAMI"
+    ]
+  },
+  "source_group_counts": {
+    "KGES": 421,
+    "KROSS": 1322,
+    "SAMI": 315,
+    "UNKNOWN_HIGHZ": 1743
+  },
+  "source_group_counts_large_radius": {
+    "KGES": 315,
+    "KROSS": 830,
+    "SAMI": 315,
+    "UNKNOWN_HIGHZ": 1145
+  },
+  "status": "auto_rows_built",
+  "tiny_radius_fraction": 0.31465403841094447
+}

@@ -11,9 +11,9 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "lensing",
-  "kind": "planck_recursive_lensing_v12",
+  "kind": "planck_route_guard_v20",
   "prediction_id": "P30",
-  "prediction_name": "P30 Planck recursive lensing resolver",
+  "prediction_name": "P30 Planck exact-kappa route guard",
   "sources": [
     {
       "url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/"

@@ -11,9 +11,9 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "cosmic_web",
-  "kind": "p3_readme_byte_parser_v14",
+  "kind": "p3_exact_metadata_v21",
   "prediction_id": "P3",
-  "prediction_name": "P3 CDS ReadMe byte-parser endpoint guard",
+  "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
   "sources": [
     {
       "url": "https://www2.mpia-hd.mpg.de/homes/tempel/filaments/"

@@ -1,0 +1,31 @@
+{
+  "accepted": null,
+  "artifact_policy_v59": "auto_public_or_cache_only_no_manual_fill",
+  "candidate_files": [
+    "/mnt/data/v61work/ccdr_round10_public_tests_v2/outputs/p41_q2_cp_rows_v27.json",
+    "/mnt/data/v61work/ccdr_round10_public_tests_v2/outputs/p41_wilson_sm_likelihood_v28.json"
+  ],
+  "counts": {
+    "cp_control_rows": 0,
+    "noncp_rows": 0,
+    "uncertainty_rows": 0
+  },
+  "current_run_id_v56": "unknown",
+  "current_run_id_v57": "unknown",
+  "current_run_id_v58": "unknown",
+  "current_run_id_v59": "20260519T062955Z_8f8cb618",
+  "delta_chi2_sm_minus_wilson": null,
+  "generated_utc": "2026-05-14T17:28:12Z",
+  "likelihood_present": false,
+  "normalized_from": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p41_q2_wilson_likelihood_v58_AUTO.json",
+  "normalized_from_v58": "measurements\\p41_q2_wilson_likelihood_v57_AUTO.json",
+  "normalized_from_v59": "measurements\\p41_q2_wilson_likelihood_v57_AUTO.json",
+  "source_file_hashes": [
+    {
+      "path": "measurements\\p41_q2_wilson_likelihood_v57_AUTO.json",
+      "sha256": "bb7eefbd0a0e7b83bf1c78582bef708b4ac5258a52cb1dcc738f2fdb2f35e928"
+    }
+  ],
+  "source_hashes_present": true,
+  "version": "v57"
+}

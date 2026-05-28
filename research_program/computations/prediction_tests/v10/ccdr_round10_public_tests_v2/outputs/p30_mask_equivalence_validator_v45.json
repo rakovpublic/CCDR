@@ -1,0 +1,43 @@
+{
+  "accepted_appendix": null,
+  "accepted_appendix_present": false,
+  "claim_policy": "P30 publication promotion needs an official ACT mask or a manually accepted equivalence appendix. v45 will not auto-accept a diagnostic empirical mask.",
+  "empirical_mask_available": true,
+  "mask_equivalence_gate_v45": {
+    "edge_exclusion_rule": false,
+    "eligible_for_confirm_like": false,
+    "empirical_mask_available": true,
+    "finite_support_definition": false,
+    "mask_validator_v45": true,
+    "missing": [
+      "official_or_equivalence_mask",
+      "same_mask_all_variants",
+      "nulls_use_same_mask",
+      "edge_exclusion_rule",
+      "finite_support_definition",
+      "variant_consistency_table"
+    ],
+    "nulls_use_same_mask": false,
+    "official_or_equivalence_mask": false,
+    "same_mask_all_variants": false,
+    "variant_consistency_table": false
+  },
+  "missing_or_false_fields": [
+    "mask_equivalence_accepted",
+    "same_mask_all_variants",
+    "nulls_use_same_mask",
+    "edge_exclusion_rule",
+    "finite_support_definition",
+    "variant_consistency_table"
+  ],
+  "official_mask_found": false,
+  "template_to_accept_manually": {
+    "edge_exclusion_rule": "PREDECLARE: exclude patches within N pixels/degrees of empirical finite-support boundary",
+    "finite_support_definition": "finite map pixels from ACT row_order_full_alm map products, identical for science/curl variants",
+    "mask_equivalence_accepted": false,
+    "nulls_use_same_mask": true,
+    "same_mask_all_variants": true,
+    "variant_consistency_table": "provide per-variant finite_fraction/n_finite/pixel_hash/jackknife summary"
+  },
+  "version": "v45"
+}

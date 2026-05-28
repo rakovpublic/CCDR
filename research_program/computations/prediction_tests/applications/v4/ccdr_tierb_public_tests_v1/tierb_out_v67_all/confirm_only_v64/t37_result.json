@@ -1,0 +1,38 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "data_limited",
+    "confirmation_status_v64": "not_confirmed_data_limited",
+    "confirmed_now_v64": false,
+    "next_data_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+    "rank_score_0_10_v64": 1,
+    "test_id": "T37",
+    "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+  },
+  "prediction_ids": [
+    "MAT12"
+  ],
+  "prediction_names": [
+    "auxetic/Weyl-inspired phonon transport \u03ba enhancement near 12 percent"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": false,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T37",
+  "test_name": "auxetic phonon transport",
+  "v64_behavioral_confirm_result": {
+    "confirmation_status_v64": "not_confirmed_data_limited",
+    "rank_score_0_10_v64": 1,
+    "schema": "ccdr-safety-classification-v64",
+    "strict_confirm_ready_v64": false,
+    "test_id": "T37"
+  },
+  "v64_claim_bucket": "data_limited",
+  "v64_confirm_ready": false,
+  "v64_confirm_status": "not_confirmed_data_limited",
+  "v64_next_data_source": "Exact public structured materials rows with the named physical columns required by this test.",
+  "v64_why_not_confirmed": "Required public structured physical rows are missing or insufficient for a confirm claim."
+}

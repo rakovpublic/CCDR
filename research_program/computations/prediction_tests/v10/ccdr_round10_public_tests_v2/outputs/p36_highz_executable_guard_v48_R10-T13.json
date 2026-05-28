@@ -1,0 +1,64 @@
+{
+  "claim_policy": "P36 high-z confirm requires current executable output, source-file hashes, row hashes, no self-ingestion from older guard/test summaries, >=30 rows, >=2 source groups, unit visibility, source leave-one stability, and source-bootstrap lower CI > local a0.",
+  "generated_utc": "2026-05-14T17:27:47Z",
+  "highz_publication_gate_v48": {
+    "eligible_for_confirm_like": false,
+    "leave_one_source_stable": false,
+    "median_above_local": false,
+    "missing": [
+      "row_hashes_recorded",
+      "object_rows_ge_30",
+      "two_source_groups",
+      "units_visible",
+      "median_above_local",
+      "leave_one_source_stable",
+      "source_bootstrap_ratio_ci16_above_1"
+    ],
+    "no_executable_guard_self_ingestion": true,
+    "object_rows_ge_30": false,
+    "produced_by_current_runner_v48": true,
+    "row_hashes_recorded": false,
+    "source_bootstrap_ratio_ci16_above_1": false,
+    "source_file_hashes_recorded": true,
+    "two_source_groups": false,
+    "units_visible": false,
+    "version": "v48_confirm_hardening"
+  },
+  "leave_one_source": [],
+  "median_a_m_s2": null,
+  "median_ratio_to_local_a0": null,
+  "n_rows": 0,
+  "n_source_groups": 0,
+  "row_hashes_preview": [],
+  "rows": [],
+  "rows_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "self_ingested_disallowed_files": [],
+  "source_bootstrap_ratio_ci16": null,
+  "source_bootstrap_ratio_ci50": null,
+  "source_bootstrap_ratio_ci84": null,
+  "source_files": [
+    {
+      "mtime_utc": "2026-05-14T17:27:47Z",
+      "path": "inputs/p36_highz_object_rows_raw_v57_AUTO.json",
+      "sha256": "92b5c1b8f163e7bdac54b61b3e710ae6e62203477eaf75e182c083f5f186459c",
+      "size_bytes": 654
+    },
+    {
+      "mtime_utc": "2026-05-14T17:27:47Z",
+      "path": "inputs/p36_highz_object_rows_raw_TEMPLATE.json",
+      "sha256": "919a52a8af3d9835c61251c749d9a29e905687dfaee7cfe97dac7ca20e3ce3f4",
+      "size_bytes": 681
+    },
+    {
+      "mtime_utc": "2026-05-14T17:27:47Z",
+      "path": "inputs/p36_highz_object_rows_raw_template_v51.csv",
+      "sha256": "081b0d0d9eddd1f269c0f8ac3bfdc5a7ec83544522ece6d715e1d48040fa8168",
+      "size_bytes": 98
+    }
+  ],
+  "source_groups": [],
+  "source_summaries": [],
+  "status_recommendation": "highz_object_catalogue_data_limited_v48",
+  "test_id": "R10-T13",
+  "version": "v48_confirm_hardening"
+}

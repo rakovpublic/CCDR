@@ -1,0 +1,67 @@
+{
+  "candidate_inputs": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_cp_rows_v27.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_likelihood_table_v45.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_likelihood_template_v45.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_wilson_likelihood_template_v46.csv",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_wilson_likelihood_template_v50.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_wilson_likelihood_v46.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_coefficient_fit_v43.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_coefficient_fit_v44.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_delta_chi2_contract_v33.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_contract_v34.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_contract_v35.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_rows_v41.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v28.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v29.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v30.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v31.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v42.json"
+  ],
+  "current_counts": {
+    "cp_control_rows": 24,
+    "noncp_rows": 585,
+    "uncertainty_rows": 470
+  },
+  "likelihood": {
+    "chi2_best_wilson": null,
+    "chi2_sm": null,
+    "claim_policy": "P41 major claim needs measured q2/value/error rows, SM and Wilson predictions, Δχ²>=9, and CP controls null/weak.",
+    "cp_control_null_p_proxy": null,
+    "delta_chi2_sm_minus_wilson": null,
+    "n_cp_control_rows": 0,
+    "n_non_cp_rows": 0,
+    "n_rows": 0,
+    "p41_major_claim_gate_v45": {
+      "cp_control_rows": false,
+      "cp_controls_null_or_weak": false,
+      "eligible_for_confirm_like": false,
+      "likelihood_values": false,
+      "missing": [
+        "q2_numeric_rows",
+        "cp_control_rows",
+        "likelihood_values",
+        "wilson_sm_delta_chi2",
+        "cp_controls_null_or_weak"
+      ],
+      "q2_likelihood_table_v45": true,
+      "q2_numeric_rows": false,
+      "wilson_sm_delta_chi2": false
+    },
+    "rows": [],
+    "template_csv_path": "outputs\\p41_q2_likelihood_template_v45.csv",
+    "version": "v45"
+  },
+  "likelihood_present": true,
+  "required": [
+    "q2_low",
+    "q2_high",
+    "observable",
+    "value",
+    "error",
+    "cp_label",
+    "sm_prediction",
+    "wilson_prediction",
+    "loglike"
+  ]
+}

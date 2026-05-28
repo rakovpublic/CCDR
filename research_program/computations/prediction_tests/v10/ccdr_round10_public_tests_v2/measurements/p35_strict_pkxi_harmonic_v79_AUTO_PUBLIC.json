@@ -1,0 +1,26 @@
+{
+  "artifact_version": "v79",
+  "best_lss_power_or_xi_candidate": null,
+  "claim_policy_v79": "v79 rejects random catalogues and compressed BAO controls from P35, then adds bootstrap stability on exact P(k)/xi-like files.",
+  "manual_fill_required": false,
+  "rejected_v78_like_candidates": [],
+  "source_audit": [],
+  "status": "p35_strict_pkxi_source_absent_v79",
+  "v78_best_candidate": {
+    "archive_member": null,
+    "archive_path": null,
+    "exact_lss_pkxi_candidate": true,
+    "exists": true,
+    "n_numeric_rows": 10000,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_sdss_random_catalogue_v28.csv",
+    "score": {
+      "comb_spacing_cv": 0.7180248503161087,
+      "median_spacing": 64.60597429,
+      "n_peaks": 2023,
+      "n_rows": 10000,
+      "phase_randomized_p": 0.7180248503161087
+    },
+    "sha256": "b6e793653d45560adcded884f771adc35617bd818c10a608e9feea88a4d7fd72",
+    "size_bytes": 514808
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "anchor_artifacts": {
+    "p40": {
+      "exists": true,
+      "manual_fill_required": false,
+      "missing_required_fields": [],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p40_bb_likelihood_v67_AUTO_PUBLIC.json",
+      "required_fields": [
+        "bb_bandpowers_loaded",
+        "covariance_loaded",
+        "template_amplitude",
+        "template_amplitude_sigma"
+      ],
+      "sha256": "a533c7750ca782a1b135304ad7f3918c2267964df8825dd1c87ed111b33891d9",
+      "size_bytes": 6000,
+      "status": "bk18_cl_hat_covariance_loaded",
+      "usable": true
+    },
+    "p41": {
+      "exists": true,
+      "manual_fill_required": false,
+      "missing_required_fields": [],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p41_q2_wilson_likelihood_v68_AUTO_PUBLIC.json",
+      "required_fields": [
+        "sign_basis",
+        "cp_null_passed",
+        "observable_bin_jackknife_stable",
+        "delta_chi2_sm_minus_wilson_proxy"
+      ],
+      "sha256": "bf159ae08ca45aecd7c9e461c9a61894a2be250fb27311f0f73be168938f243a",
+      "size_bytes": 25573,
+      "status": "lhcb_supplementary_q2_tables_fit_built",
+      "usable": true
+    }
+  },
+  "artifact_version": "v69",
+  "bridge_policy": "CL6 is a cross-link confirm only when both public P40 tests and both public P41 tests are already confirm-like and their auto-public likelihood artifacts are usable. It is not counted as independent new observational evidence.",
+  "manual_fill_required": false,
+  "status": "cl6_p41_p40_bridge_confirmed_from_confirmed_anchors",
+  "upstream_statuses": {
+    "R10-T21": "p40_bb_likelihood_confirm_like_v67",
+    "R10-T22": "p40_bb_likelihood_confirm_like_v67",
+    "R10-T31": "p41_q2_wilson_likelihood_confirm_like_v68",
+    "R10-T32": "p41_q2_wilson_likelihood_confirm_like_v68"
+  }
+}

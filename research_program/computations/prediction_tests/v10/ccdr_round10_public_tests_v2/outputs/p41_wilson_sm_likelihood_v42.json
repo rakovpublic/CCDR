@@ -1,0 +1,31 @@
+{
+  "best_single_wilson_shift_proxy": null,
+  "chi2_best_wilson": null,
+  "chi2_sm": null,
+  "cp_control_chi2": null,
+  "cp_controls_null_or_weak": false,
+  "delta_chi2_sm_minus_wilson": null,
+  "minimum_delta_chi2_for_confirm_like": 9.0,
+  "n_cp_control_rows": 0,
+  "n_fit_rows": 0,
+  "n_rows": 0,
+  "p41_major_claim_gate_v42": {
+    "cp_control_rows": false,
+    "cp_controls_null_or_weak": false,
+    "eligible_for_confirm_like": false,
+    "likelihood_values": false,
+    "missing": [
+      "q2_numeric_rows",
+      "cp_control_rows",
+      "likelihood_values",
+      "wilson_sm_delta_chi2",
+      "cp_controls_null_or_weak"
+    ],
+    "numerical_likelihood_v42": true,
+    "q2_numeric_rows": false,
+    "wilson_sm_delta_chi2": false
+  },
+  "rows": [],
+  "used_single_shift_fallback": false,
+  "version": "v42"
+}

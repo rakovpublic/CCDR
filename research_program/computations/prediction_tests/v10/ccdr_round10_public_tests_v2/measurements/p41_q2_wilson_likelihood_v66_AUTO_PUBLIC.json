@@ -1,0 +1,61 @@
+{
+  "artifact_version": "v66",
+  "candidate_rows_preview": [
+    {
+      "hits": [
+        "A6",
+        "q2",
+        "S7",
+        "a2",
+        "S6"
+      ],
+      "numbers": [
+        -1.7,
+        595.28,
+        841.89,
+        707.9,
+        576.8,
+        508.3,
+        682.4,
+        611.8,
+        685.9,
+        520.8,
+        630.6,
+        712.5
+      ],
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053v1.pdf"
+    },
+    {
+      "hits": [
+        "Wilson",
+        "c9",
+        "c9",
+        "a82",
+        "a3"
+      ],
+      "numbers": [
+        -1.7,
+        10.4855,
+        2512.18053,
+        4.0,
+        3.141592653,
+        -2.6,
+        -1.4,
+        6.4,
+        8.15,
+        2512.18053,
+        1.3,
+        1.0
+      ],
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf"
+    }
+  ],
+  "claim_policy_v66": "Structured q2-like candidates are persisted, but confirm requires numeric q2/value/error rows, SM-vs-Wilson delta chi2, CP null, and observable jackknife.",
+  "cp_null_passed": false,
+  "delta_chi2_sm_minus_wilson": null,
+  "manual_fill_required": false,
+  "n_q2_candidate_rows": 2,
+  "observable_bin_jackknife_stable": false,
+  "q2_rows_loaded": true,
+  "status": "structured_q2_candidates_extracted"
+}

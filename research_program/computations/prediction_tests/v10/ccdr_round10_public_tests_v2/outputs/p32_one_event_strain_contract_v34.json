@@ -1,0 +1,30 @@
+{
+  "current_gate": {
+    "ccdr_residual_template_fit": false,
+    "detector_split": false,
+    "eligible_for_confirm_like": false,
+    "gr_ringdown_fit": false,
+    "injection_nulls": false,
+    "missing": [
+      "psd_estimated",
+      "gr_ringdown_fit",
+      "ccdr_residual_template_fit",
+      "residual_improves_gr",
+      "injection_nulls",
+      "detector_split"
+    ],
+    "psd_estimated": false,
+    "residual_improves_gr": false,
+    "strain_downloaded": true
+  },
+  "promotion_policy": "single event can become suggestive only; confirm-like needs injection null + detector split + leave-one-event-out over multiple events.",
+  "required_pipeline_steps": [
+    "download GWOSC strain",
+    "estimate PSD",
+    "fit GR ringdown",
+    "fit CCDR residual template",
+    "run injection null",
+    "H/L detector split"
+  ],
+  "v34_minimal_run": "GW150914 single-event diagnostic first; >=2 events for claim strengthening"
+}

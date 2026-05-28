@@ -1,0 +1,74 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "confirmed_public_now",
+    "confirmation_status_v64": "compatible_positive_confirm_allowed",
+    "confirmed_now_v64": true,
+    "next_data_source_v64": null,
+    "rank_score_0_10_v64": 10,
+    "test_id": "T48",
+    "why_not_confirmed_v64": null
+  },
+  "prediction_ids": [
+    "EN?"
+  ],
+  "prediction_names": [
+    "material symmetry/mass-contrast residual proxy for PV efficiency"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": true,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T48",
+  "test_name": "photovoltaic acoustic-optical proxy",
+  "v64_behavioral_confirm_result": {
+    "confirmation_status_v61": "compatible_positive_confirm_allowed",
+    "confirmation_status_v62": "compatible_positive_confirm_allowed",
+    "confirmation_status_v63": "compatible_positive_confirm_allowed",
+    "confirmation_status_v64": "compatible_positive_confirm_allowed",
+    "n_candidate_rows_v61": 63069,
+    "note_v61": "T48 remains frozen current public confirm; v61 does not move its gate.",
+    "note_v62": "T48 remains frozen current public confirm; v62 does not move its gate.",
+    "note_v63": "T48 remains frozen current public confirm; v63 does not move the gate.",
+    "note_v64": "T48 remains frozen current public confirm; v64 only adds exact-source behavior for other tests.",
+    "provenance_appendix_v64": {
+      "baseline_model_v64": null,
+      "confirm_gate_source_v64": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+      "family_buckets_v64": null,
+      "frozen_confirm_artifact_v64": "tierb_out_v65_improvements_check\\confirm_only_v64\\data\\generated\\t48_frozen_confirm_v64.json",
+      "full_run_candidate_rows_count_v64": null,
+      "full_run_result_candidates_v64": [
+        "tierb_out_v65_improvements_check\\t48_result.json",
+        "tierb_out_v65_improvements_check\\confirm_only_v64\\t48_result.json"
+      ],
+      "full_run_result_source_v64": null,
+      "full_run_tables_count_v64": null,
+      "n_candidate_rows_v61": 63069,
+      "robustness_context_v64": [],
+      "status_reconciliation_v64": {
+        "batch_process_status_v64": null,
+        "batch_result_status_v64": null,
+        "confirm_overlay_status_v64": "compatible_positive_confirm_allowed",
+        "full_run_result_status_v64": null,
+        "public_claim_decision_v64": "T48 is claimable only because it appears in confirmed_public_now; batch/result status is subprocess and diagnostic context."
+      }
+    },
+    "rank_score_0_10_v61": 10,
+    "rank_score_0_10_v62": 10,
+    "rank_score_0_10_v63": 10,
+    "rank_score_0_10_v64": 10,
+    "schema": "ccdr-t48-frozen-confirm-v64",
+    "strict_confirm_ready_v61": true,
+    "strict_confirm_ready_v62": true,
+    "strict_confirm_ready_v63": true,
+    "strict_confirm_ready_v64": true,
+    "test_id": "T48"
+  },
+  "v64_claim_bucket": "confirmed_public_now",
+  "v64_confirm_ready": true,
+  "v64_confirm_status": "compatible_positive_confirm_allowed",
+  "v64_next_data_source": null,
+  "v64_why_not_confirmed": null
+}

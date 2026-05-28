@@ -1,0 +1,621 @@
+{
+  "artifact_version": "v79",
+  "claim_policy_v79": "v79 parses NANOGrav .res files directly, joins median post-fit residuals to .par coordinates, and samples the public lensing map. Confirmation still requires positive signed statistic, shuffle p<=0.05, and top-weight stability.",
+  "manual_fill_required": false,
+  "map_info": {
+    "attempts": [
+      {
+        "finite_fraction": 1.0,
+        "hdu": 1,
+        "lmax": 4000,
+        "mode": "row_order_full_alm",
+        "n_finite_pixels": 49152
+      }
+    ],
+    "hdu": 1,
+    "hdu_info": [
+      {
+        "class": "PrimaryHDU",
+        "columns": [],
+        "hdu": 0,
+        "name": "PRIMARY",
+        "shape": null
+      },
+      {
+        "class": "BinTableHDU",
+        "columns": [
+          "index",
+          "real",
+          "imag"
+        ],
+        "hdu": 1,
+        "name": "",
+        "shape": [
+          8006001
+        ]
+      }
+    ],
+    "lmax": 4000,
+    "load_mode": "alm_to_map_or_healpy_read_alm",
+    "map_sanity": {
+      "available": true,
+      "finite_fraction": 1.0,
+      "max": 4.636254876378636,
+      "mean": 0.0003382175867158218,
+      "median": 0.0001731658883620834,
+      "min": -4.536126854694174,
+      "n_finite_pixels": 49152,
+      "n_total_pixels": 49152,
+      "std": 0.45482407405626935
+    },
+    "method": "row_order_full_alm",
+    "n_finite_alm_input": 8005998,
+    "nside": 64,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+    "source_scope": "act"
+  },
+  "n_joined_residual_kappa_pairs": 68,
+  "n_par_coordinates_v79": 76,
+  "n_residual_members_v79": 68,
+  "n_residual_rows_v79": 603140,
+  "pairs_preview": [
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1911+1347_PINT_20230131.wb.par",
+      "kappa": 0.01936429884724931,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3915,
+      "pulsar_id": "J1911+1347",
+      "residual": 0.9290115969241142,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1012+5307_PINT_20230131.wb.par",
+      "kappa": -0.009720732139485657,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18977,
+      "pulsar_id": "J1012+5307",
+      "residual": -0.002396617829092096,
+      "weight": 0.08945114108952237
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0636+5128_PINT_20230131.wb.par",
+      "kappa": -0.00949355305624255,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 21196,
+      "pulsar_id": "J0636+5128",
+      "residual": 5.164585634245176,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1024-0719_PINT_20230131.wb.par",
+      "kappa": -0.02113967213776602,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 12925,
+      "pulsar_id": "J1024-0719",
+      "residual": 4.003205853030818,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2124-3358_PINT_20230131.wb.par",
+      "kappa": 0.3332429650740478,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 5084,
+      "pulsar_id": "J2124-3358",
+      "residual": 6.684344819365415,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1600-3053_PINT_20230202.wb.par",
+      "kappa": 0.030927192536213788,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18610,
+      "pulsar_id": "J1600-3053",
+      "residual": 0.04070024629052551,
+      "weight": 0.5231471395505888
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1953+29_PINT_20230131.wb.par",
+      "kappa": -0.008520908687737179,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 5307,
+      "pulsar_id": "B1953+29",
+      "residual": 0.05859912802568573,
+      "weight": 0.0718875893918289
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1453+1902_PINT_20230131.wb.par",
+      "kappa": -0.008613743444995124,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 2672,
+      "pulsar_id": "J1453+1902",
+      "residual": 9.679440941454999,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1843-1113_PINT_20230131.wb.par",
+      "kappa": 0.017608509819264095,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 4698,
+      "pulsar_id": "J1843-1113",
+      "residual": 2.9329597727318584,
+      "weight": 0.9245562130177514
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1751-2857_PINT_20230131.wb.par",
+      "kappa": -0.0017992482226260043,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 2093,
+      "pulsar_id": "J1751-2857",
+      "residual": 6.743253529860071,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1745+1017_PINT_20230131.wb.par",
+      "kappa": 0.0035431102342141207,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3111,
+      "pulsar_id": "J1745+1017",
+      "residual": -0.060608799566530154,
+      "weight": 0.07685815821355445
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1910+1256_PINT_20230131.wb.par",
+      "kappa": 0.013430776922246312,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 6698,
+      "pulsar_id": "J1910+1256",
+      "residual": 1.858278275928639,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1713+0747_PINT_20230131.wb.par",
+      "kappa": 0.005829443413240527,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 19475,
+      "pulsar_id": "J1713+0747",
+      "residual": -0.11283820787071841,
+      "weight": 32.49027421340468
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1643-1224_PINT_20230131.wb.par",
+      "kappa": -0.3224553091842823,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18795,
+      "pulsar_id": "J1643-1224",
+      "residual": -0.010222222135670225,
+      "weight": 0.1627952733109303
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0340+4130_PINT_20230131.wb.par",
+      "kappa": 0.0004474411134651225,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 11319,
+      "pulsar_id": "J0340+4130",
+      "residual": 6.324506382998498,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0509+0856_PINT_20230131.wb.par",
+      "kappa": -0.08485530485523696,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 2235,
+      "pulsar_id": "J0509+0856",
+      "residual": 6.430750505518124,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1909-3744_PINT_20230131.wb.par",
+      "kappa": 0.018481385576484044,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18755,
+      "pulsar_id": "J1909-3744",
+      "residual": 0.00032695615821275935,
+      "weight": 4.784677724602292
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2010-1323_PINT_20230131.wb.par",
+      "kappa": 0.0013928276778693571,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 17431,
+      "pulsar_id": "J2010-1323",
+      "residual": 3.1501896631930886,
+      "weight": 0.9245562130177514
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2229+2643_PINT_20230223.wb.par",
+      "kappa": 0.006652729402011528,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3866,
+      "pulsar_id": "J2229+2643",
+      "residual": 3.9597095320777522,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0709+0458_PINT_20230131.wb.par",
+      "kappa": -0.020068050857619674,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3123,
+      "pulsar_id": "J0709+0458",
+      "residual": 12.473814996937989,
+      "weight": 0.9425959091337544
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1741+1351_PINT_20230131.wb.par",
+      "kappa": -0.0042984091167825944,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 5812,
+      "pulsar_id": "J1741+1351",
+      "residual": 1.30531819150501,
+      "weight": 0.8734387282732116
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2322+2057_PINT_20230131.wb.par",
+      "kappa": 0.019121203961157712,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3216,
+      "pulsar_id": "J2322+2057",
+      "residual": 3.7653589838341937,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0614-3329_PINT_20230131.wb.par",
+      "kappa": 0.039697021458342814,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 1769,
+      "pulsar_id": "J0614-3329",
+      "residual": 3.47267014292909,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1918-0642_PINT_20230131.wb.par",
+      "kappa": -0.014104025914528036,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 19352,
+      "pulsar_id": "J1918-0642",
+      "residual": 3.490011745851781,
+      "weight": 0.9425959091337544
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0610-2100_PINT_20230131.wb.par",
+      "kappa": -0.8524736131359036,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 5096,
+      "pulsar_id": "J0610-2100",
+      "residual": -0.07802175706011336,
+      "weight": 0.013998478857727951
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1903+0327_PINT_20230131.wb.par",
+      "kappa": 0.014362877901636246,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 7081,
+      "pulsar_id": "J1903+0327",
+      "residual": 0.0915975529368783,
+      "weight": 0.17320814702403503
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2317+1439_PINT_20230131.wb.par",
+      "kappa": 0.020005397017604773,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 14639,
+      "pulsar_id": "J2317+1439",
+      "residual": 1.599134677412752,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0557+1551_PINT_20230131.wb.par",
+      "kappa": -0.011644353101938468,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 575,
+      "pulsar_id": "J0557+1551",
+      "residual": 4.5820583837159266,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2214+3000_PINT_20230131.wb.par",
+      "kappa": -0.009994142249002675,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 7710,
+      "pulsar_id": "J2214+3000",
+      "residual": 4.623848534368058,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1744-1134_PINT_20230131.wb.par",
+      "kappa": -0.0011187064030090815,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18182,
+      "pulsar_id": "J1744-1134",
+      "residual": 0.0059073625610338775,
+      "weight": 0.9141037174667004
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1730-2304_PINT_20230131.wb.par",
+      "kappa": -0.01223493571988079,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 4964,
+      "pulsar_id": "J1730-2304",
+      "residual": 3.9141165293722566,
+      "weight": 0.9245562130177514
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1738+0333_PINT_20230131.wb.par",
+      "kappa": 0.02136940680632583,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 9134,
+      "pulsar_id": "J1738+0333",
+      "residual": 3.0557973471419215,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1802-2124_PINT_20230209.wb.par",
+      "kappa": -0.013084359956102715,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 6921,
+      "pulsar_id": "J1802-2124",
+      "residual": 0.07389129516424323,
+      "weight": 0.02377266003326805
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1640+2224_PINT_20230131.wb.par",
+      "kappa": -0.0062491466017119595,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 14677,
+      "pulsar_id": "J1640+2224",
+      "residual": 1.2221200980648772,
+      "weight": 0.8734387282732116
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1853+1303_PINT_20230131.wb.par",
+      "kappa": -0.005123152887180421,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 4758,
+      "pulsar_id": "J1853+1303",
+      "residual": 0.012219671457582374,
+      "weight": 0.12867544778191414
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1747-4036_PINT_20230131.wb.par",
+      "kappa": 0.013258210858777153,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 11274,
+      "pulsar_id": "J1747-4036",
+      "residual": -0.07512203473536991,
+      "weight": 0.029719216878209772
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2043+1711_PINT_20230131.wb.par",
+      "kappa": 0.0051664845142838645,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 7866,
+      "pulsar_id": "J2043+1711",
+      "residual": 0.9900841590979889,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0645+5158_PINT_20230131.wb.par",
+      "kappa": 0.009232708385160682,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 10685,
+      "pulsar_id": "J0645+5158",
+      "residual": 2.560757680758324,
+      "weight": 0.9425959091337544
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1946+3417_PINT_20230131.wb.par",
+      "kappa": -0.003966644846770456,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 4875,
+      "pulsar_id": "J1946+3417",
+      "residual": 0.019210545829171487,
+      "weight": 0.24958063920457368
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0613-0200_PINT_20230131.wb.par",
+      "kappa": -0.027080444177180488,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 17546,
+      "pulsar_id": "J0613-0200",
+      "residual": 0.048212708489785816,
+      "weight": 0.617659191749201
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0740+6620_PINT_20230131.wb.par",
+      "kappa": -0.02096715287511247,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 13754,
+      "pulsar_id": "J0740+6620",
+      "residual": 2.9404314154466253,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1012-4235_PINT_20230131.wb.par",
+      "kappa": -0.007624809748428399,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 843,
+      "pulsar_id": "J1012-4235",
+      "residual": 6.939977750735406,
+      "weight": 0.8899964400142398
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1832-0836_PINT_20230131.wb.par",
+      "kappa": 0.009569457613797239,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 7940,
+      "pulsar_id": "J1832-0836",
+      "residual": 2.713929345249195,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1125+7819_PINT_20230131.wb.par",
+      "kappa": -0.008015540234254047,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 8928,
+      "pulsar_id": "J1125+7819",
+      "residual": 7.669836900405887,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1022+1001_PINT_20230131.wb.par",
+      "kappa": -0.19081916602602744,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 4091,
+      "pulsar_id": "J1022+1001",
+      "residual": 2.0720717323072915,
+      "weight": 0.6609822195782934
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1855+09_PINT_20230131.wb.par",
+      "kappa": -0.020019144476264773,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 8118,
+      "pulsar_id": "B1855+09",
+      "residual": 0.0011741970960611197,
+      "weight": 0.5769368148965001
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2017+0603_PINT_20230131.wb.par",
+      "kappa": 0.02608608296716602,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3669,
+      "pulsar_id": "J2017+0603",
+      "residual": 1.6863746405656381,
+      "weight": 0.8734387282732116
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1455-3330_PINT_20230131.wb.par",
+      "kappa": 0.00625186095816492,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 11176,
+      "pulsar_id": "J1455-3330",
+      "residual": 7.338929116371404,
+      "weight": 0.9425959091337544
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1705-1903_PINT_20230131.wb.par",
+      "kappa": 0.02414184247875549,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 10105,
+      "pulsar_id": "J1705-1903",
+      "residual": 0.011575921824098941,
+      "weight": 0.30595155328191953
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2033+1734_PINT_20230131.wb.par",
+      "kappa": -0.0021798393323690284,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3979,
+      "pulsar_id": "J2033+1734",
+      "residual": 4.335542991996836,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0931-1902_PINT_20230131.wb.par",
+      "kappa": 0.020865615368389934,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 5663,
+      "pulsar_id": "J0931-1902",
+      "residual": 6.2718992600641705,
+      "weight": 0.9245562130177514
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1937+21_PINT_20230131.wb.par",
+      "kappa": 0.002600905208816992,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18720,
+      "pulsar_id": "B1937+21",
+      "residual": 0.002508758452203164,
+      "weight": 67.84297926493821
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1630+3734_PINT_20230131.wb.par",
+      "kappa": 0.006838341349497184,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 1879,
+      "pulsar_id": "J1630+3734",
+      "residual": 3.710106698143491,
+      "weight": 0.9070294784580498
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2145-0750_PINT_20230222.wb.par",
+      "kappa": -0.4553192279144531,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 18621,
+      "pulsar_id": "J2145-0750",
+      "residual": -0.016596708554450865,
+      "weight": 0.181627792921009
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0437-4715_PINT_20230131.wb.par",
+      "kappa": 0.049048412866359685,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 5939,
+      "pulsar_id": "J0437-4715",
+      "residual": 0.016682425851378458,
+      "weight": 2.216776428968294
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2234+0611_PINT_20230131.wb.par",
+      "kappa": 0.36509876528444185,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 3703,
+      "pulsar_id": "J2234+0611",
+      "residual": -0.010164127127579399,
+      "weight": 0.5857554804045346
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1923+2515_PINT_20230131.wb.par",
+      "kappa": -0.004224118720086844,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 4170,
+      "pulsar_id": "J1923+2515",
+      "residual": 3.417842697090954,
+      "weight": 0.8734387282732116
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0030+0451_PINT_20230131.wb.par",
+      "kappa": -0.5261898978937829,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 19262,
+      "pulsar_id": "J0030+0451",
+      "residual": 0.0032303076083969626,
+      "weight": 0.21828605140835533
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1719-1438_PINT_20230131.wb.par",
+      "kappa": -0.017180155673990893,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 6811,
+      "pulsar_id": "J1719-1438",
+      "residual": 12.91008734301159,
+      "weight": 0.9245562130177514
+    },
+    {
+      "coord_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2302+4442_PINT_20230131.wb.par",
+      "kappa": 0.014913804326290456,
+      "map_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "n_residual_rows": 10450,
+      "pulsar_id": "J2302+4442",
+      "residual": 7.841373573128894,
+      "weight": 0.9245562130177514
+    }
+  ],
+  "source_audit": [
+    {
+      "exists": true,
+      "n_par_members_parsed": 318,
+      "n_residual_members_parsed": 136,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_ng_full_tar__content",
+      "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+      "size_bytes": 638719668
+    }
+  ],
+  "statistic": {
+    "n_pairs": 68,
+    "public_one_sided_signed_sky_shuffle_p": 0.0390625,
+    "top_weight_removal_stable": true,
+    "weighted_statistic": 0.034624750692205206
+  },
+  "status": "pta_residual_kappa_pairs_joined_v79",
+  "v78_status": "pta_residual_named_members_unparsed_v78"
+}

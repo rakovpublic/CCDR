@@ -1,0 +1,14 @@
+{
+  "claim_policy": "pattern/sign counts remain proxy; major claim requires numerical likelihood.",
+  "current_delta_chi2_sm_minus_wilson": 405.51388292786487,
+  "current_n_numeric_rows": 2205,
+  "likelihood_required": true,
+  "minimum_delta_chi2_for_attention": 4.0,
+  "minimum_delta_chi2_for_confirm_like": 9.0,
+  "required_controls": [
+    "CP-asymmetric rows null/weak",
+    "q2 bins with values/errors",
+    "SM likelihood",
+    "Wilson-shift likelihood"
+  ]
+}

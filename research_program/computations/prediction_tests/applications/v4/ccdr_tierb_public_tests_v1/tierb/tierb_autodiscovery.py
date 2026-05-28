@@ -5027,3 +5027,837 @@ def additional_seed_sources_v11(test_id: str) -> List[Dict[str, Any]]:  # type: 
             {'url':'https://zenodo.org/api/records/?q=%22DIII-D%22%20%22Wped%22%20%22ELM%22%20%22shot%22&size=10', 'label':'v24 DIII-D Wped ELM shot exact query', 'reason':'v24_fusion_numeric_line_query', 'tier':'metadata_only'},
         ]
     return _dedupe_link_dicts(base+extra)
+
+
+# ---------------------------------------------------------------------------
+# v25 extractor improvements: stronger text layer, exact NAND/optical/neuro
+# rows, and fusion secondary numeric-line context extraction.
+# ---------------------------------------------------------------------------
+
+def _v25_text(data: bytes, url: str, max_pages: int = 120) -> str:
+    # Prefer PyMuPDF text extraction for PDFs; fall back to v24/pypdf/raw.
+    try:
+        import fitz  # type: ignore
+        if (url or '').lower().endswith('.pdf') or data[:4] == b'%PDF':
+            doc = fitz.open(stream=data, filetype='pdf')
+            parts=[]
+            for p in range(min(len(doc), max_pages)):
+                try: parts.append(doc[p].get_text('text') or '')
+                except Exception: pass
+            txt='\n'.join(parts)
+            if len(txt.strip())>100: return txt
+    except Exception:
+        pass
+    try:
+        return _v24_text(data,url,max_pages=max_pages)
+    except Exception:
+        try: return data.decode('utf-8', errors='ignore')
+        except Exception: return ''
+
+
+def _v25_float_from_text(x):
+    try:
+        if x is None: return None
+        s=str(x).replace(',',' ').replace('−','-')
+        m=re.search(r'[-+]?\d+(?:\.\d+)?', s)
+        return float(m.group(0)) if m else None
+    except Exception: return None
+
+
+def _v25_nand_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]
+    # Structured HTML tables with columns like Layers of Cells / Bits per Cell.
+    try: tables=pd.read_html(io.BytesIO(data))
+    except Exception: tables=[]
+    for tab in tables[:30]:
+        cols=[str(c) for c in tab.columns]
+        low=[c.lower() for c in cols]
+        def pick(*pats):
+            for i,c in enumerate(low):
+                if any(p in c for p in pats): return cols[i]
+            return None
+        c_layers=pick('layers','layer count','layers of cells')
+        c_bits=pick('bits per cell','bpc','cell type','cell level')
+        c_cap=pick('capacity','die capacity','gb','gbit','tbit')
+        c_area=pick('die area','area','mm2','mm^2')
+        c_year=pick('year','date','introduced','announced')
+        c_manu=pick('manufacturer','company','vendor','maker')
+        c_prod=pick('product','generation','technology','part','name')
+        if c_layers or c_bits or c_cap or c_area:
+            for _,r in tab.iterrows():
+                line=' '.join(str(v) for v in r.tolist() if str(v)!='nan')
+                layers=_v25_float_from_text(r.get(c_layers)) if c_layers else None
+                bits=None
+                if c_bits:
+                    btxt=str(r.get(c_bits)).lower()
+                    if 'qlc' in btxt: bits=4.0
+                    elif 'tlc' in btxt: bits=3.0
+                    elif 'mlc' in btxt: bits=2.0
+                    elif 'slc' in btxt: bits=1.0
+                    else: bits=_v25_float_from_text(r.get(c_bits))
+                cap=_v25_float_from_text(r.get(c_cap)) if c_cap else None
+                area=_v25_float_from_text(r.get(c_area)) if c_area else None
+                year=_v25_float_from_text(r.get(c_year)) if c_year else None
+                manu=str(r.get(c_manu))[:80] if c_manu else None
+                prod=str(r.get(c_prod))[:160] if c_prod else line[:160]
+                if layers or (cap and area) or (layers and bits):
+                    rows.append({'manufacturer':manu,'year':year,'generation_or_product':prod,'layers':layers,'die_capacity_Gb':cap,'die_area_mm2':area,'bits_per_cell':bits,'density_Gb_per_mm2':(cap/area if cap and area else None),'line_text':line[:800],'source_url':url})
+    # Reuse v24 line parser if available.
+    try:
+        for df in _v24_nand_frames(data,url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception: pass
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['line_text','source_url'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_spec_text_or_html_table','parser':'v25_nand_exact_parser','v25_nand_rows':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v25_optical_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]; text=_v25_text(data,url,max_pages=100)
+    for line in text.splitlines():
+        l=re.sub(r'\s+',' ',line.strip()); low=l.lower()
+        if len(l)<8 or len(l)>1400: continue
+        if not re.search(r'optical|photonic|silicon photonics|interconnect|link|i/o|serdes|modulator|transceiver|wireline',low): continue
+        if not re.search(r'fj\s*/\s*bit|pj\s*/\s*bit|gb/s|gbps|tb/s|tbps|reach|bandwidth|mm|cm|\bm\b',low): continue
+        epb=bw=reach=year=None
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(fJ|pJ)\s*/\s*bit',l,re.I)
+        if m: epb=float(m.group(1))*(0.001 if m.group(2).lower()=='fj' else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(Gb/s|Gbps|Tb/s|Tbps)',l,re.I)
+        if m: bw=float(m.group(1))*(1000.0 if m.group(2).lower().startswith('t') else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(mm|cm|m)\b',l,re.I)
+        if m: reach=float(m.group(1))*({'mm':1,'cm':10,'m':1000}[m.group(2).lower()])
+        m=re.search(r'\b(20\d{2}|19\d{2})\b',l)
+        if m: year=float(m.group(1))
+        rows.append({'technology':'optical' if re.search(r'optical|photonic',low) else None,'year':year,'energy_pJ_per_bit':epb,'bandwidth_Gbps':bw,'reach_mm':reach,'line_text':l[:900],'source_url':url})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['line_text','source_url'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_pdf_unit_text_table','parser':'v25_optical_unit_line_parser','v25_optical_rows':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v25_neuro_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]; text=_v25_text(data,url,max_pages=100)
+    for line in text.splitlines():
+        l=re.sub(r'\s+',' ',line.strip()); low=l.lower()
+        if len(l)<8 or len(l)>1400: continue
+        if not re.search(r'loihi|truenorth|spinnaker|brainscales|neuromorphic',low): continue
+        if not re.search(r'energy|power|pj|nj|uj|µj|spike|inference|accuracy|benchmark|core|neuron|synapse|mnist|imagenet|dvs',low): continue
+        rows.append({'line_text':l[:900],'source_url':url})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['line_text','source_url'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_benchmark_text_table','parser':'v25_neuromorphic_benchmark_parser','v25_neuro_rows':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v25_fusion_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    text=_v25_text(data,url,max_pages=140)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    rows=[]; figs=[]
+    terms=r'ELM|pedestal|W_ELM|E_ELM|dW|ΔW|Wped|Pped|energy loss|DIII-D|JET|ITER|W7-X|ASDEX|AUG|tokamak|H-mode|RMP|q95|tau[_\s-]?E|H98'
+    units=r'MJ|kJ|\bJ\b|MW|kPa|Pa|ms|Hz|kHz|%|MA|keV|eV|10\^19|m\^-?3'
+    for i,l in enumerate(lines):
+        if len(l)<6 or len(l)>1200: continue
+        ctx=' '.join(lines[max(0,i-2):min(len(lines),i+3)])[:1800]
+        if re.search(terms,ctx,re.I) and re.search(units,ctx,re.I) and re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx):
+            nums=re.findall(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx)
+            us=re.findall(units,ctx,re.I)
+            rows.append({'line_index':i,'context_text':ctx,'numeric_values':';'.join(nums[:30]),'units_found':';'.join(us[:30]),'source_url':url})
+        if re.search(r'fig\.?|figure|table',l,re.I) and re.search(r'ELM|pedestal|energy loss|Wped|Pped|dW|ΔW',ctx,re.I):
+            figs.append({'line_index':i,'figure_candidate_text':ctx,'source_url':url})
+    out=[]
+    if rows:
+        df=pd.DataFrame(rows).drop_duplicates(subset=['context_text','source_url'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_auto_pdf_text_table','parser':'v25_fusion_numeric_context_extractor','v25_fusion_unit_rows':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    if figs:
+        df=pd.DataFrame(figs).drop_duplicates(subset=['figure_candidate_text','source_url'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_figure_page_candidate','parser':'v25_fusion_figure_context_detector','v25_fusion_figure_candidate_pages':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    return out
+
+try:
+    _v25_extract_ref = extract_frames_from_artifact  # type: ignore[name-defined]
+    def extract_frames_from_artifact(data: bytes, url: str, meta: Dict[str,Any], cache_dir: Path):  # type: ignore[override]
+        frames, diag = _v25_extract_ref(data,url,meta,cache_dir)
+        us=str(url).lower()
+        try:
+            if any(x in us for x in ['nand','flash','wikichip','techinsights','samsung','micron','hynix','kioxia']):
+                xs=_v25_nand_frames(data,url); frames.extend(xs); diag['v25_nand_rows']=sum(int(x.attrs.get('v25_nand_rows',len(x))) for x in xs); diag.setdefault('extractors_tried',[]).append('v25_nand_exact_parser')
+        except Exception as e: diag['v25_nand_error']=repr(e)
+        try:
+            if any(x in us for x in ['optical','photonic','irds','interconnect','silicon-photonics','pj','fj']):
+                xs=_v25_optical_frames(data,url); frames.extend(xs); diag['v25_optical_rows']=sum(int(x.attrs.get('v25_optical_rows',len(x))) for x in xs); diag.setdefault('extractors_tried',[]).append('v25_optical_unit_parser')
+        except Exception as e: diag['v25_optical_error']=repr(e)
+        try:
+            if any(x in us for x in ['loihi','truenorth','spinnaker','brainscales','neuromorphic']):
+                xs=_v25_neuro_frames(data,url); frames.extend(xs); diag['v25_neuro_rows']=sum(int(x.attrs.get('v25_neuro_rows',len(x))) for x in xs); diag.setdefault('extractors_tried',[]).append('v25_neuro_benchmark_parser')
+        except Exception as e: diag['v25_neuro_error']=repr(e)
+        try:
+            if any(x in us for x in ['elm','pedestal','fusion','tokamak','diii','jet','iter','w7-x','asdex','rmp']):
+                xs=_v25_fusion_frames(data,url); frames.extend(xs); diag['v25_fusion_unit_rows']=sum(int(x.attrs.get('v25_fusion_unit_rows',0)) for x in xs); diag['v25_fusion_figure_candidate_pages']=sum(int(x.attrs.get('v25_fusion_figure_candidate_pages',0)) for x in xs); diag.setdefault('extractors_tried',[]).append('v25_fusion_numeric_context_parser')
+        except Exception as e: diag['v25_fusion_error']=repr(e)
+        return frames, diag
+except Exception:
+    pass
+
+try:
+    _v25_seed_ref=additional_seed_sources_v11
+    def additional_seed_sources_v11(test_id: str) -> List[Dict[str,Any]]:  # type: ignore[override]
+        base=list(_v25_seed_ref(test_id))
+        if test_id=='T44':
+            base += [
+                {'url':'https://en.wikichip.org/wiki/3d_nand','label':'v25 WikiChip 3D NAND exact parser target','reason':'v25_t44_exact_parser','tier':'html_table_candidate'},
+                {'url':'https://en.wikichip.org/wiki/flash_memory','label':'v25 WikiChip flash memory exact parser target','reason':'v25_t44_exact_parser','tier':'html_table_candidate'},
+                {'url':'https://zenodo.org/api/records/?q=%223D%20NAND%22%20%22die%20area%22%20%22layers%22%20%22bits%20per%20cell%22&size=10','label':'v25 3D NAND die/layer/cell exact query','reason':'v25_t44_query','tier':'metadata_only'},
+            ]
+        if test_id=='T45':
+            base += [
+                {'url':'https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22Gb%2Fs%22%20%22optical%20interconnect%22%20reach&size=10','label':'v25 optical interconnect pJ-bit reach exact query','reason':'v25_t45_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22fJ%2Fbit%22%20%22silicon%20photonics%22%20%22Gb%2Fs%22&size=10','label':'v25 silicon photonics fJ-bit exact query','reason':'v25_t45_query','tier':'metadata_only'},
+            ]
+        if test_id=='T47':
+            base += [
+                {'url':'https://zenodo.org/api/records/?q=%22Loihi%202%22%20energy%20benchmark%20accuracy&size=10','label':'v25 Loihi 2 benchmark exact query','reason':'v25_t47_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=TrueNorth%20energy%20inference%20benchmark%20accuracy&size=10','label':'v25 TrueNorth benchmark exact query','reason':'v25_t47_query','tier':'metadata_only'},
+            ]
+        if test_id in {'T26','T27','T28','T29','T30'}:
+            base += [
+                {'url':'https://zenodo.org/api/records/?q=%22W_ELM%22%20%22Pped%22%20shot%20tokamak&size=10','label':'v25 W_ELM Pped shot exact query','reason':'v25_fusion_context_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22%CE%94W%22%20%22Wped%22%20ELM%20JET&size=10','label':'v25 ΔW Wped JET exact query','reason':'v25_fusion_context_query','tier':'metadata_only'},
+            ]
+        return base
+except Exception:
+    pass
+
+
+# ---------------------------------------------------------------------------
+# v26 exact-row / confirm-focused extractors and seeds.
+# ---------------------------------------------------------------------------
+
+def _v26_text(data: bytes, url: str, max_pages: int = 160) -> str:
+    try:
+        import fitz  # type: ignore
+        if (url or '').lower().endswith('.pdf') or data[:4] == b'%PDF':
+            doc=fitz.open(stream=data, filetype='pdf')
+            parts=[]
+            for i in range(min(len(doc), max_pages)):
+                try: parts.append(doc[i].get_text('text') or '')
+                except Exception: pass
+            txt='\n'.join(parts)
+            if len(txt.strip())>100: return txt
+    except Exception:
+        pass
+    try:
+        from pdfminer.high_level import extract_text  # type: ignore
+        import tempfile
+        if (url or '').lower().endswith('.pdf') or data[:4] == b'%PDF':
+            with tempfile.NamedTemporaryFile(suffix='.pdf') as tmp:
+                tmp.write(data); tmp.flush()
+                txt=extract_text(tmp.name) or ''
+                if len(txt.strip())>100: return txt
+    except Exception:
+        pass
+    try: return _v25_text(data,url,max_pages=max_pages)
+    except Exception:
+        try: return data.decode('utf-8',errors='ignore')
+        except Exception: return ''
+
+
+def _v26_num(x):
+    try:
+        m=re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?', str(x).replace(',',''))
+        return float(m.group(0)) if m else None
+    except Exception: return None
+
+
+def _v26_nand_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    # Strengthen v25 by adding schema-specific normalization aliases and row provenance.
+    rows=[]
+    try:
+        tables=pd.read_html(io.BytesIO(data))
+    except Exception:
+        tables=[]
+    for tab in tables[:60]:
+        cols=[str(c) for c in tab.columns]
+        low=[c.lower() for c in cols]
+        def pick(*pats):
+            for i,c in enumerate(low):
+                if any(p in c for p in pats): return cols[i]
+            return None
+        c_layers=pick('layers','layer count','layers of cells','layer')
+        c_bits=pick('bits per cell','bpc','cell type','cell level','slc','mlc','tlc','qlc')
+        c_cap=pick('die capacity','capacity','gbit','gb','tbit','tb')
+        c_area=pick('die area','area mm','mm2','mm^2','area')
+        c_year=pick('year','introduced','announced','date')
+        c_manu=pick('manufacturer','company','vendor','maker')
+        c_prod=pick('product','generation','technology','node','name')
+        score=sum(bool(x) for x in [c_layers,c_bits,c_cap,c_area,c_year,c_manu,c_prod])
+        if score<2: continue
+        for _,r in tab.iterrows():
+            line=' | '.join(str(v) for v in r.tolist() if str(v)!='nan')
+            lowline=line.lower()
+            layers=_v26_num(r.get(c_layers)) if c_layers else None
+            bits=None
+            if c_bits:
+                btxt=str(r.get(c_bits)).lower()
+                bits=4.0 if 'qlc' in btxt else 3.0 if 'tlc' in btxt else 2.0 if 'mlc' in btxt else 1.0 if 'slc' in btxt else _v26_num(r.get(c_bits))
+            cap=_v26_num(r.get(c_cap)) if c_cap else None
+            area=_v26_num(r.get(c_area)) if c_area else None
+            year=_v26_num(r.get(c_year)) if c_year else None
+            manu=str(r.get(c_manu))[:100] if c_manu else None
+            prod=str(r.get(c_prod))[:180] if c_prod else line[:180]
+            if not (layers or (cap and area) or 'nand' in lowline or 'v-nand' in lowline or 'layers of cells' in lowline): continue
+            rows.append({'manufacturer':manu,'year':year,'generation_or_product':prod,'layers':layers,'die_capacity_Gb':cap,'die_area_mm2':area,'bits_per_cell':bits,'density_Gb_per_mm2':(cap/area if cap and area else None),'source_url':url,'provenance_line':line[:1000]})
+    try:
+        for df in _v25_nand_frames(data,url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception: pass
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_spec_table','parser':'v26_nand_exact_rows','v26_nand_rows':len(df),'generated_csv':'data/generated/t44_nand_exact_rows_v26.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v26_optical_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    text=_v26_text(data,url,max_pages=140); rows=[]
+    for line in text.splitlines():
+        l=re.sub(r'\s+',' ',line.strip()); low=l.lower()
+        if len(l)<10 or len(l)>1600: continue
+        if not re.search(r'optical|photonic|silicon photonics|interconnect|i/o|link|modulator|transceiver|wireline|serdes',low): continue
+        if not re.search(r'fj\s*/\s*bit|pj\s*/\s*bit|gb/s|gbps|tb/s|tbps|reach|bandwidth|\bmm\b|\bcm\b|\bm\b',low): continue
+        epb=bw=reach=year=None
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(fJ|pJ)\s*/\s*bit',l,re.I)
+        if m: epb=float(m.group(1))*(0.001 if m.group(2).lower()=='fj' else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(Gb/s|Gbps|Tb/s|Tbps)',l,re.I)
+        if m: bw=float(m.group(1))*(1000.0 if m.group(2).lower().startswith('t') else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(mm|cm|m)\b',l,re.I)
+        if m: reach=float(m.group(1))*({'mm':1.0,'cm':10.0,'m':1000.0}[m.group(2).lower()])
+        m=re.search(r'\b(19\d{2}|20\d{2})\b',l)
+        if m: year=float(m.group(1))
+        rows.append({'technology':'optical' if re.search(r'optical|photonic',low) else 'electrical_or_mixed','year':year,'energy_pJ_per_bit':epb,'bandwidth_Gbps':bw,'reach_mm':reach,'source_url':url,'provenance_line':l[:1000]})
+    try:
+        for df in _v25_optical_frames(data,url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception: pass
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_pdf_unit_text_table','parser':'v26_optical_unit_rows','v26_optical_rows':len(df),'generated_csv':'data/generated/t45_optical_interconnect_rows_v26.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v26_neuro_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    text=_v26_text(data,url,max_pages=140); rows=[]
+    for line in text.splitlines():
+        l=re.sub(r'\s+',' ',line.strip()); low=l.lower()
+        if len(l)<10 or len(l)>1600: continue
+        if not re.search(r'loihi|truenorth|spinnaker|brainscales|neuromorphic',low): continue
+        if not re.search(r'energy|power|pj|nj|uj|µj|spike|inference|accuracy|benchmark|core|neuron|synapse|mnist|imagenet|dvs',low): continue
+        rows.append({'source_url':url,'provenance_line':l[:1000]})
+    try:
+        for df in _v25_neuro_frames(data,url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception: pass
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_benchmark_text_table','parser':'v26_neuromorphic_rows','v26_neuro_rows':len(df),'generated_csv':'data/generated/t47_neuromorphic_rows_v26.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v26_fusion_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    text=_v26_text(data,url,max_pages=180)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    rows=[]; figs=[]
+    terms=r'ELM energy|W_ELM|E_ELM|dW|ΔW|delta W|Wped|Pped|pedestal|energy loss|DIII-D|JET|ITER|W7-X|ASDEX|AUG|tokamak|RMP|H98|q95|tau[_\s-]?E'
+    units=r'MJ|kJ|\bJ\b|MW|kPa|Pa|ms|Hz|kHz|%|MA|keV|eV|10\^19|m\^-?3'
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-2):min(len(lines),i+3)])[:2200]
+        if re.search(terms,ctx,re.I) and re.search(units,ctx,re.I) and re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx):
+            rows.append({'source_url':url,'line_index':i,'context_text':ctx,'numeric_values':';'.join(re.findall(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx)[:40]),'units_found':';'.join(re.findall(units,ctx,re.I)[:40])})
+        if re.search(r'fig\.?|figure|table',l,re.I) and re.search(r'ELM|pedestal|energy loss|Wped|Pped|dW|ΔW',ctx,re.I):
+            figs.append({'source_url':url,'line_index':i,'figure_candidate_text':ctx})
+    try:
+        for df in _v25_fusion_frames(data,url):
+            for _,r in df.iterrows():
+                if 'context_text' in r or 'figure_candidate_text' in r: rows.append(dict(r))
+    except Exception: pass
+    out=[]
+    if rows:
+        df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','context_text'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_auto_pdf_text_table','parser':'v26_fusion_numeric_context','v26_fusion_unit_rows':len(df),'generated_csv':'data/generated/fusion_secondary_rows_v26.csv','confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    if figs:
+        df=pd.DataFrame(figs).drop_duplicates(subset=['source_url','figure_candidate_text'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_figure_page_candidate','parser':'v26_fusion_figure_context','v26_fusion_figure_candidate_pages':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    return out
+
+try:
+    _v26_extract_ref=extract_frames_from_artifact  # type: ignore[name-defined]
+    def extract_frames_from_artifact(data: bytes, url: str, meta: Dict[str,Any], cache_dir: Path):  # type: ignore[override]
+        frames, diag=_v26_extract_ref(data,url,meta,cache_dir)
+        us=str(url).lower()
+        def add(key, xs, parser):
+            frames.extend(xs); diag[key]=sum(int(x.attrs.get(key,len(x))) for x in xs); diag.setdefault('extractors_tried',[]).append(parser)
+        try:
+            if any(x in us for x in ['nand','flash','wikichip','techinsights','samsung','micron','hynix','kioxia']): add('v26_nand_rows', _v26_nand_frames(data,url), 'v26_nand_exact_rows')
+        except Exception as e: diag['v26_nand_error']=repr(e)
+        try:
+            if any(x in us for x in ['optical','photonic','irds','interconnect','pj','fj','silicon-photonics']): add('v26_optical_rows', _v26_optical_frames(data,url), 'v26_optical_unit_rows')
+        except Exception as e: diag['v26_optical_error']=repr(e)
+        try:
+            if any(x in us for x in ['loihi','truenorth','spinnaker','brainscales','neuromorphic']): add('v26_neuro_rows', _v26_neuro_frames(data,url), 'v26_neuro_rows')
+        except Exception as e: diag['v26_neuro_error']=repr(e)
+        try:
+            if any(x in us for x in ['elm','pedestal','fusion','tokamak','diii','jet','iter','w7-x','asdex','rmp']):
+                xs=_v26_fusion_frames(data,url); frames.extend(xs); diag['v26_fusion_unit_rows']=sum(int(x.attrs.get('v26_fusion_unit_rows',0)) for x in xs); diag['v26_fusion_figure_candidate_pages']=sum(int(x.attrs.get('v26_fusion_figure_candidate_pages',0)) for x in xs); diag.setdefault('extractors_tried',[]).append('v26_fusion_numeric_context')
+        except Exception as e: diag['v26_fusion_error']=repr(e)
+        return frames, diag
+except Exception:
+    pass
+
+try:
+    _v26_seed_ref=additional_seed_sources_v11
+    def additional_seed_sources_v11(test_id: str) -> List[Dict[str,Any]]:  # type: ignore[override]
+        base=list(_v26_seed_ref(test_id))
+        if test_id=='T44':
+            base += [
+                {'url':'https://en.wikichip.org/wiki/3d_nand','label':'v26 WikiChip 3D NAND exact rows','reason':'v26_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://en.wikichip.org/wiki/flash_memory','label':'v26 WikiChip flash memory exact rows','reason':'v26_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://zenodo.org/api/records/?q=%223D%20NAND%22%20%22die%20area%22%20%22layers%22%20%22bits%20per%20cell%22%20manufacturer&size=10','label':'v26 3D NAND die/layer/bpc manufacturer exact query','reason':'v26_t44_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id=='T45':
+            base += [
+                {'url':'https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22Gb%2Fs%22%20reach%20%22optical%20interconnect%22&size=10','label':'v26 optical interconnect pJ-bit reach exact query','reason':'v26_t45_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22fJ%2Fbit%22%20%22silicon%20photonics%22%20%22Tb%2Fs%22&size=10','label':'v26 silicon photonics fJ-bit Tb/s query','reason':'v26_t45_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id=='T47':
+            base += [
+                {'url':'https://zenodo.org/api/records/?q=%22Loihi%202%22%20%22energy%20per%20inference%22%20accuracy%20benchmark&size=10','label':'v26 Loihi2 energy accuracy benchmark query','reason':'v26_t47_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=SpiNNaker%20TrueNorth%20Loihi%20energy%20benchmark%20accuracy&size=10','label':'v26 neuromorphic energy benchmark query','reason':'v26_t47_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id in {'T26','T27','T28','T29','T30'}:
+            base += [
+                {'url':'https://zenodo.org/api/records/?q=%22W_ELM%22%20%22Pped%22%20%22shot%22%20tokamak&size=10','label':'v26 W_ELM Pped shot exact query','reason':'v26_fusion_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22ELM%20energy%22%20%22Wped%22%20%22dW%22%20JET&size=10','label':'v26 ELM Wped dW JET query','reason':'v26_fusion_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id in {'T57','T59'}:
+            base += [
+                {'url':'https://www.hepdata.net/search/?q=MET%20Drell-Yan%20di-Higgs%20csv','label':'v26 HEPData exact table search only','reason':'v26_hepdata_manifest_query','tier':'metadata_only'},
+            ]
+        return base
+except Exception:
+    pass
+
+
+# ---------------------------------------------------------------------------
+# v27 exact-row extraction: stronger EL/NAND, optical, neuro, fusion routes.
+# These extract secondary/diagnostic normalized rows; confirmation remains gated
+# in tierb_runner and requires sufficient rows + controls.
+# ---------------------------------------------------------------------------
+
+def _v27_text(data: bytes, url: str, max_pages: int = 220) -> str:
+    try:
+        return _v26_text(data, url, max_pages=max_pages)
+    except Exception:
+        try:
+            return data.decode('utf-8', errors='ignore')
+        except Exception:
+            return ''
+
+
+def _v27_num(x):
+    try:
+        m=re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?', str(x).replace(',',''))
+        return float(m.group(0)) if m else None
+    except Exception:
+        return None
+
+
+def _v27_nand_text_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]
+    # Start with v26 table parser.
+    try:
+        for df in _v26_nand_frames(data, url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception:
+        pass
+    text=_v27_text(data, url, max_pages=80)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    vendors=r'Samsung|Micron|SK\s*Hynix|Hynix|Kioxia|Toshiba|Intel|Western Digital|WD|YMTC|SanDisk'
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-1):min(len(lines),i+2)])[:1600]
+        low=ctx.lower()
+        if not re.search(r'3d|v-nand|vertical|nand|flash', low):
+            continue
+        if not re.search(r'layer|\b\d{2,3}\s*L\b|Gb|Gbit|Tbit|bits? per cell|TLC|QLC|MLC|die area|mm\s*(?:2|\^2|²)', ctx, re.I):
+            continue
+        layers=None
+        m=re.search(r'(\d{2,3})\s*(?:layers?|L)\b', ctx, re.I)
+        if m: layers=float(m.group(1))
+        cap=None
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(Tb|Tbit|Gb|Gbit)\b', ctx, re.I)
+        if m: cap=float(m.group(1))*(1000.0 if m.group(2).lower().startswith('t') else 1.0)
+        area=None
+        m=re.search(r'(\d+(?:\.\d+)?)\s*mm\s*(?:2|\^2|²)', ctx, re.I)
+        if m: area=float(m.group(1))
+        bits=None
+        if re.search(r'QLC', ctx, re.I): bits=4.0
+        elif re.search(r'TLC', ctx, re.I): bits=3.0
+        elif re.search(r'MLC', ctx, re.I): bits=2.0
+        elif re.search(r'SLC', ctx, re.I): bits=1.0
+        else:
+            m=re.search(r'(\d+(?:\.\d+)?)\s*bits?\s*per\s*cell', ctx, re.I)
+            if m: bits=float(m.group(1))
+        year=None
+        m=re.search(r'\b(20\d{2}|19\d{2})\b', ctx)
+        if m: year=float(m.group(1))
+        manu=None
+        m=re.search(vendors, ctx, re.I)
+        if m: manu=m.group(0)
+        if layers or (cap and area) or bits:
+            rows.append({'manufacturer':manu,'year':year,'generation_or_product':ctx[:180],'layers':layers,'die_capacity_Gb':cap,'die_area_mm2':area,'bits_per_cell':bits,'density_Gb_per_mm2':(cap/area if cap and area else None),'source_url':url,'provenance_line':ctx})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_spec_table','parser':'v27_nand_exact_rows','v27_nand_rows':len(df),'generated_csv':'data/generated/t44_nand_exact_rows_v27.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v27_optical_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]
+    try:
+        for df in _v26_optical_frames(data, url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception:
+        pass
+    text=_v27_text(data, url, max_pages=180)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-1):min(len(lines),i+2)])[:1800]
+        low=ctx.lower()
+        if not re.search(r'optical|photon|silicon photonics|interconnect|link|i/o|transceiver|serdes|modulator', low):
+            continue
+        if not re.search(r'fJ\s*/\s*bit|pJ\s*/\s*bit|Gb/s|Gbps|Tb/s|Tbps|reach|bandwidth|\bmm\b|\bcm\b|\bm\b', ctx, re.I):
+            continue
+        epb=bw=reach=year=None
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(fJ|pJ)\s*/\s*bit',ctx,re.I)
+        if m: epb=float(m.group(1))*(0.001 if m.group(2).lower()=='fj' else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(Gb/s|Gbps|Tb/s|Tbps)',ctx,re.I)
+        if m: bw=float(m.group(1))*(1000.0 if m.group(2).lower().startswith('t') else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(mm|cm|m)\b',ctx,re.I)
+        if m: reach=float(m.group(1))*({'mm':1.0,'cm':10.0,'m':1000.0}[m.group(2).lower()])
+        m=re.search(r'\b(20\d{2}|19\d{2})\b',ctx)
+        if m: year=float(m.group(1))
+        rows.append({'technology':'optical' if re.search(r'optical|photon',low) else 'electrical_or_mixed','year':year,'energy_pJ_per_bit':epb,'bandwidth_Gbps':bw,'reach_mm':reach,'source_url':url,'provenance_line':ctx})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_pdf_unit_text_table','parser':'v27_optical_unit_rows','v27_optical_rows':len(df),'generated_csv':'data/generated/t45_optical_interconnect_rows_v27.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v27_neuro_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]
+    try:
+        for df in _v26_neuro_frames(data, url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception:
+        pass
+    text=_v27_text(data, url, max_pages=180)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-1):min(len(lines),i+2)])[:1800]
+        low=ctx.lower()
+        if not re.search(r'loihi|loihi\s*2|truenorth|spinnaker|brainscales|neuromorphic', low):
+            continue
+        if not re.search(r'energy|power|pJ|nJ|uJ|µJ|spike|inference|accuracy|benchmark|core|neuron|synapse|MNIST|DVS|imagenet', ctx, re.I):
+            continue
+        rows.append({'source_url':url,'chip_hint':re.search(r'Loihi\s*2|Loihi|TrueNorth|SpiNNaker|BrainScaleS',ctx,re.I).group(0) if re.search(r'Loihi\s*2|Loihi|TrueNorth|SpiNNaker|BrainScaleS',ctx,re.I) else None,'provenance_line':ctx})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_benchmark_text_table','parser':'v27_neuromorphic_rows','v27_neuro_rows':len(df),'generated_csv':'data/generated/t47_neuromorphic_rows_v27.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v27_fusion_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]; figs=[]
+    try:
+        for df in _v26_fusion_frames(data, url):
+            if 'v26_fusion_unit_rows' in df.attrs:
+                for _,r in df.iterrows(): rows.append(dict(r))
+            elif 'v26_fusion_figure_candidate_pages' in df.attrs:
+                for _,r in df.iterrows(): figs.append(dict(r))
+    except Exception:
+        pass
+    text=_v27_text(data, url, max_pages=240)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    terms=r'ELM energy|W_ELM|E_ELM|Wped|Pped|dW|ΔW|delta W|pedestal energy|pedestal pressure|energy loss|DIII-D|JET|ITER|W7-X|ASDEX|AUG|tokamak|RMP|H98|q95|tau[_\s-]?E'
+    units=r'MJ|kJ|\bJ\b|MW|kPa|Pa|ms|Hz|kHz|%|MA|keV|eV|10\^19|m\^-?3'
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-2):min(len(lines),i+3)])[:2400]
+        if re.search(terms,ctx,re.I) and re.search(units,ctx,re.I) and re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx):
+            rows.append({'source_url':url,'line_index':i,'context_text':ctx,'numeric_values':';'.join(re.findall(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx)[:60]),'units_found':';'.join(re.findall(units,ctx,re.I)[:60])})
+        if re.search(r'fig\.?|figure|table', l, re.I) and re.search(r'ELM|pedestal|energy loss|Wped|Pped|dW|ΔW', ctx, re.I):
+            figs.append({'source_url':url,'line_index':i,'figure_candidate_text':ctx})
+    out=[]
+    if rows:
+        df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','context_text'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_auto_pdf_text_table','parser':'v27_fusion_numeric_context','v27_fusion_unit_rows':len(df),'generated_csv':'data/generated/fusion_secondary_rows_v27.csv','confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    if figs:
+        df=pd.DataFrame(figs).drop_duplicates(subset=['source_url','figure_candidate_text'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_figure_page_candidate','parser':'v27_fusion_figure_context','v27_fusion_figure_candidate_pages':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    return out
+
+try:
+    _v27_extract_ref=extract_frames_from_artifact  # type: ignore[name-defined]
+    def extract_frames_from_artifact(data: bytes, url: str, meta: Dict[str,Any], cache_dir: Path):  # type: ignore[override]
+        frames, diag=_v27_extract_ref(data,url,meta,cache_dir)
+        us=str(url).lower()
+        def add(key, xs, parser):
+            if not xs: return
+            frames.extend(xs)
+            diag[key]=sum(int(x.attrs.get(key,len(x))) for x in xs)
+            diag.setdefault('extractors_tried',[]).append(parser)
+        try:
+            if any(x in us for x in ['nand','flash','wikichip','techinsights','samsung','micron','hynix','kioxia']):
+                add('v27_nand_rows', _v27_nand_text_frames(data,url), 'v27_nand_exact_rows')
+        except Exception as e: diag['v27_nand_error']=repr(e)
+        try:
+            if any(x in us for x in ['optical','photonic','irds','interconnect','pj','fj','silicon-photonics','transceiver','serdes']):
+                add('v27_optical_rows', _v27_optical_frames(data,url), 'v27_optical_unit_rows')
+        except Exception as e: diag['v27_optical_error']=repr(e)
+        try:
+            if any(x in us for x in ['loihi','truenorth','spinnaker','brainscales','neuromorphic']):
+                add('v27_neuro_rows', _v27_neuro_frames(data,url), 'v27_neuromorphic_rows')
+        except Exception as e: diag['v27_neuro_error']=repr(e)
+        try:
+            if any(x in us for x in ['elm','pedestal','fusion','tokamak','diii','jet','iter','w7-x','asdex','rmp','h-mode']):
+                xs=_v27_fusion_frames(data,url)
+                frames.extend(xs)
+                diag['v27_fusion_unit_rows']=sum(int(x.attrs.get('v27_fusion_unit_rows',0)) for x in xs)
+                diag['v27_fusion_figure_candidate_pages']=sum(int(x.attrs.get('v27_fusion_figure_candidate_pages',0)) for x in xs)
+                if xs: diag.setdefault('extractors_tried',[]).append('v27_fusion_numeric_context')
+        except Exception as e: diag['v27_fusion_error']=repr(e)
+        return frames, diag
+except Exception:
+    pass
+
+try:
+    _v27_seed_ref=additional_seed_sources_v11
+    def additional_seed_sources_v11(test_id: str):  # type: ignore[override]
+        base=list(_v27_seed_ref(test_id))
+        extra=[]
+        if test_id=='T44':
+            extra += [
+                {'url':'https://en.wikichip.org/wiki/3d_nand','label':'v27 WikiChip 3D NAND exact normalized rows','reason':'v27_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://en.wikichip.org/wiki/flash_memory','label':'v27 WikiChip flash memory exact normalized rows','reason':'v27_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://en.wikichip.org/wiki/list_of_flash_memory_cells','label':'v27 WikiChip flash memory cell list','reason':'v27_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://zenodo.org/api/records/?q=%223D%20NAND%22%20%22die%20area%22%20%22layers%22%20%22bits%20per%20cell%22%20manufacturer&size=10','label':'v27 3D NAND exact repository query','reason':'v27_t44_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id=='T45':
+            extra += [
+                {'url':'https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22Gb%2Fs%22%20reach%20%22optical%20interconnect%22&size=10','label':'v27 optical interconnect pJ/bit reach query','reason':'v27_t45_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22fJ%2Fbit%22%20%22silicon%20photonics%22%20%22Tb%2Fs%22&size=10','label':'v27 silicon photonics fJ/bit Tb/s query','reason':'v27_t45_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id=='T47':
+            extra += [
+                {'url':'https://zenodo.org/api/records/?q=%22Loihi%202%22%20%22energy%20per%20inference%22%20accuracy%20benchmark&size=10','label':'v27 Loihi2 energy accuracy benchmark query','reason':'v27_t47_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=SpiNNaker%20TrueNorth%20Loihi%20energy%20benchmark%20accuracy&size=10','label':'v27 neuromorphic energy benchmark query','reason':'v27_t47_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id in {'T26','T27','T28','T29','T30'}:
+            extra += [
+                {'url':'https://zenodo.org/api/records/?q=%22W_ELM%22%20%22Pped%22%20%22shot%22%20tokamak&size=10','label':'v27 W_ELM Pped shot exact query','reason':'v27_fusion_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22ELM%20energy%22%20%22Wped%22%20%22dW%22%20JET&size=10','label':'v27 ELM Wped dW JET query','reason':'v27_fusion_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22tau_E%22%20%22H98%22%20%22q95%22%20tokamak%20database&size=10','label':'v27 H98 tauE q95 database query','reason':'v27_fusion_confirm_query','tier':'metadata_only'},
+            ]
+        return base+extra
+except Exception:
+    pass
+
+
+# ---------------------------------------------------------------------------
+# v28 source-specific extraction layer: stronger exact parsers for confirm rows.
+# This does not relax evidence gates; generated rows are diagnostic until runner
+# sees enough rows and controls pass.
+# ---------------------------------------------------------------------------
+
+def _v28_text(data: bytes, url: str, max_pages: int = 260) -> str:
+    try:
+        return _v27_text(data, url, max_pages=max_pages)
+    except Exception:
+        try: return data.decode('utf-8', errors='ignore')
+        except Exception: return ''
+
+
+def _v28_firstnum(s):
+    try:
+        m=re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?', str(s).replace(',',''))
+        return float(m.group(0)) if m else None
+    except Exception: return None
+
+
+def _v28_nand_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]
+    try:
+        for df in _v27_nand_text_frames(data,url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception: pass
+    try:
+        tables=pd.read_html(io.BytesIO(data))
+    except Exception:
+        tables=[]
+    for tab in tables[:100]:
+        if tab.empty: continue
+        tab=tab.copy()
+        # Flatten multiindex columns.
+        tab.columns=[' '.join([str(x) for x in c if str(x)!='nan']) if isinstance(c, tuple) else str(c) for c in tab.columns]
+        low=[c.lower() for c in tab.columns]
+        def findcol(*patterns):
+            for i,c in enumerate(low):
+                if any(re.search(p,c,re.I) for p in patterns): return tab.columns[i]
+            return None
+        c_layers=findcol(r'\blayers?\b', r'layer count', r'layers of cells')
+        c_cap=findcol(r'die capacity', r'capacity', r'\bgb\b', r'gbit', r'tbit', r'\btb\b')
+        c_area=findcol(r'die area', r'area.*mm', r'mm\s*(?:2|\^2|²)')
+        c_bits=findcol(r'bits? per cell', r'cell type', r'tlc|qlc|mlc|slc', r'level')
+        c_year=findcol(r'year', r'announced', r'introduced', r'date')
+        c_manu=findcol(r'manufacturer', r'company', r'vendor', r'maker')
+        c_prod=findcol(r'product', r'generation', r'technology', r'node', r'name')
+        score=sum(bool(x) for x in [c_layers,c_cap,c_area,c_bits,c_year,c_manu,c_prod])
+        if score < 3: continue
+        for _,r in tab.iterrows():
+            line=' | '.join(str(v) for v in r.tolist() if str(v)!='nan')
+            if not re.search(r'nand|v-nand|flash|layer|tlc|qlc|mlc|slc|gb|tb|mm', line, re.I): continue
+            layers=_v28_firstnum(r.get(c_layers)) if c_layers else None
+            cap=_v28_firstnum(r.get(c_cap)) if c_cap else None
+            if c_cap and re.search(r'\bTb|Tbit\b', str(r.get(c_cap)), re.I) and cap is not None: cap*=1000.0
+            area=_v28_firstnum(r.get(c_area)) if c_area else None
+            bits=None
+            if c_bits:
+                b=str(r.get(c_bits))
+                bits=4.0 if re.search('QLC',b,re.I) else 3.0 if re.search('TLC',b,re.I) else 2.0 if re.search('MLC',b,re.I) else 1.0 if re.search('SLC',b,re.I) else _v28_firstnum(b)
+            year=_v28_firstnum(r.get(c_year)) if c_year else None
+            manu=str(r.get(c_manu))[:100] if c_manu else None
+            prod=str(r.get(c_prod))[:180] if c_prod else line[:180]
+            if layers or (cap and area) or bits:
+                rows.append({'manufacturer':manu,'year':year,'generation_or_product':prod,'layers':layers,'die_capacity_Gb':cap,'die_area_mm2':area,'bits_per_cell':bits,'density_Gb_per_mm2':(cap/area if cap and area else None),'source_url':url,'provenance_line':line[:1200]})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_spec_table','parser':'v28_nand_exact_rows','v28_nand_rows':len(df),'generated_csv':'data/generated/t44_nand_exact_rows_v28.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v28_optical_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]
+    try:
+        for df in _v27_optical_frames(data,url):
+            for _,r in df.iterrows(): rows.append(dict(r))
+    except Exception: pass
+    text=_v28_text(data,url,max_pages=240)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-2):min(len(lines),i+3)])[:2200]
+        if not re.search(r'optical|photonic|silicon photonics|interconnect|link|i/o|transceiver|modulator|serdes', ctx, re.I): continue
+        if not re.search(r'fJ\s*/\s*bit|pJ\s*/\s*bit|Gb/s|Gbps|Tb/s|Tbps|reach|bandwidth|\bmm\b|\bcm\b|\bm\b', ctx, re.I): continue
+        epb=bw=reach=year=node=None
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(fJ|pJ)\s*/\s*bit',ctx,re.I)
+        if m: epb=float(m.group(1))*(0.001 if m.group(2).lower()=='fj' else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(Gb/s|Gbps|Tb/s|Tbps)',ctx,re.I)
+        if m: bw=float(m.group(1))*(1000.0 if m.group(2).lower().startswith('t') else 1.0)
+        m=re.search(r'(\d+(?:\.\d+)?)\s*(mm|cm|m)\b',ctx,re.I)
+        if m: reach=float(m.group(1))*({'mm':1.0,'cm':10.0,'m':1000.0}[m.group(2).lower()])
+        m=re.search(r'\b(20\d{2}|19\d{2})\b',ctx)
+        if m: year=float(m.group(1))
+        m=re.search(r'(\d+(?:\.\d+)?)\s*nm\b',ctx,re.I)
+        if m: node=float(m.group(1))
+        rows.append({'technology':'optical' if re.search(r'optical|photonic',ctx,re.I) else 'electrical_or_mixed','year':year,'energy_pJ_per_bit':epb,'bandwidth_Gbps':bw,'reach_mm':reach,'process_node_nm':node,'optical_vs_electrical':'optical' if re.search(r'optical|photonic',ctx,re.I) else 'electrical_or_mixed','source_url':url,'provenance_line':ctx})
+    if not rows: return []
+    df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','provenance_line'])
+    df.attrs.update({'source_url':url,'evidence_tier':'secondary_exact_pdf_unit_text_table','parser':'v28_optical_interconnect_rows','v28_optical_rows':len(df),'generated_csv':'data/generated/t45_optical_interconnect_rows_v28.csv','confirmation_allowed':False,'falsification_allowed':False})
+    return [df]
+
+
+def _v28_fusion_frames(data: bytes, url: str) -> List[pd.DataFrame]:
+    rows=[]; figs=[]
+    try:
+        for df in _v27_fusion_frames(data,url):
+            if 'v27_fusion_unit_rows' in df.attrs:
+                for _,r in df.iterrows(): rows.append(dict(r))
+            elif 'v27_fusion_figure_candidate_pages' in df.attrs:
+                for _,r in df.iterrows(): figs.append(dict(r))
+    except Exception: pass
+    text=_v28_text(data,url,max_pages=320)
+    lines=[re.sub(r'\s+',' ',x.strip()) for x in text.splitlines()]
+    terms=r'ELM energy|W_ELM|E_ELM|Wped|Pped|dW|ΔW|delta W|pedestal energy|pedestal pressure|energy loss|DIII-D|JET|ITER|W7-X|ASDEX|AUG|tokamak|RMP|H98|q95|tau[_\s-]?E'
+    units=r'MJ|kJ|\bJ\b|MW|kPa|Pa|ms|Hz|kHz|%|MA|keV|eV|10\^19|m\^-?3'
+    for i,l in enumerate(lines):
+        ctx=' '.join(lines[max(0,i-2):min(len(lines),i+3)])[:2600]
+        if re.search(terms,ctx,re.I) and re.search(units,ctx,re.I) and re.search(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx):
+            rows.append({'source_url':url,'line_index':i,'context_text':ctx,'numeric_values':';'.join(re.findall(r'[-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?',ctx)[:80]),'units_found':';'.join(re.findall(units,ctx,re.I)[:80])})
+        if re.search(r'fig\.?|figure|table',l,re.I) and re.search(r'ELM|pedestal|energy loss|Wped|Pped|dW|ΔW',ctx,re.I):
+            figs.append({'source_url':url,'line_index':i,'figure_candidate_text':ctx})
+    out=[]
+    if rows:
+        df=pd.DataFrame(rows).drop_duplicates(subset=['source_url','context_text'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_auto_pdf_text_table','parser':'v28_fusion_numeric_context','v28_fusion_unit_rows':len(df),'generated_csv':'data/generated/fusion_secondary_rows_v28.csv','confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    if figs:
+        df=pd.DataFrame(figs).drop_duplicates(subset=['source_url','figure_candidate_text'])
+        df.attrs.update({'source_url':url,'evidence_tier':'secondary_figure_page_candidate','parser':'v28_fusion_figure_context','v28_fusion_figure_candidate_pages':len(df),'confirmation_allowed':False,'falsification_allowed':False})
+        out.append(df)
+    return out
+
+try:
+    _v28_extract_ref=extract_frames_from_artifact  # type: ignore[name-defined]
+    def extract_frames_from_artifact(data: bytes, url: str, meta: Dict[str,Any], cache_dir: Path):  # type: ignore[override]
+        frames, diag=_v28_extract_ref(data,url,meta,cache_dir)
+        us=str(url).lower()
+        def add(key, xs, parser):
+            if not xs: return
+            frames.extend(xs)
+            diag[key]=sum(int(x.attrs.get(key,len(x))) for x in xs)
+            diag.setdefault('extractors_tried',[]).append(parser)
+        try:
+            if any(x in us for x in ['nand','flash','wikichip','techinsights','samsung','micron','hynix','kioxia','toshiba','western-digital']):
+                add('v28_nand_rows', _v28_nand_frames(data,url), 'v28_nand_exact_rows')
+        except Exception as e: diag['v28_nand_error']=repr(e)
+        try:
+            if any(x in us for x in ['optical','photonic','irds','interconnect','pj','fj','silicon-photonics','transceiver','serdes']):
+                add('v28_optical_rows', _v28_optical_frames(data,url), 'v28_optical_interconnect_rows')
+        except Exception as e: diag['v28_optical_error']=repr(e)
+        try:
+            if any(x in us for x in ['elm','pedestal','fusion','tokamak','diii','jet','iter','w7-x','asdex','rmp','h-mode']):
+                xs=_v28_fusion_frames(data,url)
+                frames.extend(xs)
+                diag['v28_fusion_unit_rows']=sum(int(x.attrs.get('v28_fusion_unit_rows',0)) for x in xs)
+                diag['v28_fusion_figure_candidate_pages']=sum(int(x.attrs.get('v28_fusion_figure_candidate_pages',0)) for x in xs)
+                if xs: diag.setdefault('extractors_tried',[]).append('v28_fusion_numeric_context')
+        except Exception as e: diag['v28_fusion_error']=repr(e)
+        return frames, diag
+except Exception:
+    pass
+
+try:
+    _v28_seed_ref=additional_seed_sources_v11
+    def additional_seed_sources_v11(test_id: str):  # type: ignore[override]
+        base=list(_v28_seed_ref(test_id)); extra=[]
+        if test_id=='T44':
+            extra += [
+                {'url':'https://en.wikichip.org/wiki/3d_nand','label':'v28 WikiChip 3D NAND exact parser','reason':'v28_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://en.wikichip.org/wiki/flash_memory','label':'v28 WikiChip flash memory exact parser','reason':'v28_t44_confirm_parser','tier':'html_table_candidate'},
+                {'url':'https://zenodo.org/api/records/?q=%223D%20NAND%22%20%22die%20area%22%20%22layers%22%20%22bits%20per%20cell%22&size=25','label':'v28 3D NAND die-area layers query','reason':'v28_t44_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id=='T45':
+            extra += [
+                {'url':'https://zenodo.org/api/records/?q=%22pJ%2Fbit%22%20%22Gb%2Fs%22%20%22optical%20interconnect%22%20reach&size=25','label':'v28 optical interconnect pJ/bit Gb/s reach query','reason':'v28_t45_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22fJ%2Fbit%22%20%22silicon%20photonics%22%20%22Tb%2Fs%22&size=25','label':'v28 silicon photonics fJ/bit Tb/s query','reason':'v28_t45_confirm_query','tier':'metadata_only'},
+            ]
+        if test_id in {'T26','T27','T28','T29','T30'}:
+            extra += [
+                {'url':'https://zenodo.org/api/records/?q=%22W_ELM%22%20%22Pped%22%20%22shot%22%20tokamak&size=25','label':'v28 fusion W_ELM Pped shot query','reason':'v28_fusion_confirm_query','tier':'metadata_only'},
+                {'url':'https://zenodo.org/api/records/?q=%22ELM%20energy%22%20%22Wped%22%20%22dW%22%20JET&size=25','label':'v28 fusion ELM Wped dW JET query','reason':'v28_fusion_confirm_query','tier':'metadata_only'},
+            ]
+        return base+extra
+except Exception:
+    pass

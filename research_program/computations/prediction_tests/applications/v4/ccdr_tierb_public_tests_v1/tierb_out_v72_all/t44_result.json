@@ -1,0 +1,134 @@
+{
+  "analysis_note": "T44 is intentionally data-limited in the default full run until true Tier-A NAND rows are supplied in the exact source pack. Use --allow-broad-discovery only for an explicit slow source hunt.",
+  "auto_data_improvements_v59": {
+    "t44_fast_exact_source_gate_v65": {
+      "enable_legacy_stack_with": "--allow-broad-discovery",
+      "legacy_robustness_stack_skipped_v65": true,
+      "status": "exact_nand_source_pack_required",
+      "strict_confirm_ready_v65": false
+    }
+  },
+  "candidate_table_count": 0,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v59": {
+    "blocker_type_v59": "true_tier_a_nand_rows_required",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_audit_repair_required",
+    "expected_effort_v59": "medium",
+    "next_data_source_v59": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+    "rank_score_0_10_v59": 8,
+    "schema": "ccdr-tierb-confirm-target-v65-fast-t44",
+    "test_id": "T44"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "true_tier_a_nand_rows_required",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "true_tier_a_nand_rows_required"
+  },
+  "confirmation_label_v59": "not_confirmed_audit_repair_required",
+  "confirmation_status_v59": "not_confirmed_audit_repair_required",
+  "data_source_policy": "v65 fast manifest-only T44 gate: do not run broad online discovery or re-read generated NAND artifacts as evidence.",
+  "data_status_v59": "true_tier_a_nand_rows_required",
+  "derived_metrics_if_tables_available": [
+    "capacity_per_area",
+    "capacity_per_layer",
+    "capacity_per_area_layer_proxy"
+  ],
+  "downloaded_sources": [],
+  "evidence_status": "data_limited",
+  "evidence_status_v59": "audit_repair_route",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "Without layer+capacity+die-area rows, result is data_limited.",
+    "confirm_like": "Structured product/spec rows show area/interface scaling explains capacity/throughput better than vertical-volume proxy.",
+    "falsify_like": "Adequate rows show no area/interface advantage or the opposite trend."
+  },
+  "generated_utc": "2026-05-18T17:11:08Z",
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 8,
+    "strict_gate_remaining": [
+      "true_tier_a_nand_rows_required"
+    ]
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "true_tier_a_nand_rows_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_audit_repair_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+      "rank_score_0_10_v59": 8,
+      "schema": "ccdr-tierb-confirm-target-v65-fast-t44",
+      "test_id": "T44"
+    },
+    "confirmation_label": "not_confirmed_audit_repair_required",
+    "near_confirm_score": {
+      "score_0_10": 8,
+      "strict_gate_remaining": [
+        "true_tier_a_nand_rows_required"
+      ]
+    },
+    "single_next_blocker": "true_tier_a_nand_rows_required",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_audit_repair_required",
+      "data_status_v59": "true_tier_a_nand_rows_required",
+      "evidence_status_v59": "audit_repair_route",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "verdict": "data_limited_exact_nand_rows_required",
+    "why_not_confirmed": "true_tier_a_nand_rows_required"
+  },
+  "prediction_ids": [
+    "EL1",
+    "EL3"
+  ],
+  "prediction_names": [
+    "inter-layer area rather than volume controls scaling",
+    "3D electronics vertical volume crossover"
+  ],
+  "programmatic_verdict": "data_limited_exact_nand_rows_required",
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_status.confirmed_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "qualifying_table_count": 0,
+  "quality_patch_version": "+v65_fast_t44",
+  "readiness_status": "no_source_found",
+  "required_columns": [
+    "company",
+    "year",
+    "layers",
+    "capacity_Gb",
+    "die_area_mm2",
+    "bits_per_cell",
+    "source_url"
+  ],
+  "required_exact_source_pack": "data/exact_sources/nand",
+  "schema": "ccdr-tierb-result-v65-fast-t44",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_audit_repair_required",
+    "data_status_v59": "true_tier_a_nand_rows_required",
+    "evidence_status_v59": "audit_repair_route",
+    "execution_status_v59": "ok"
+  },
+  "support_like": null,
+  "table_diagnostics": [],
+  "test_id": "T44",
+  "test_name": "3D NAND area vs volume scaling"
+}

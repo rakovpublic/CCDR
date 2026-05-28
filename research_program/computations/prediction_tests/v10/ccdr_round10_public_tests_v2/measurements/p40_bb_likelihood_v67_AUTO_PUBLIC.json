@@ -1,0 +1,134 @@
+{
+  "artifact_version": "v67",
+  "audit": {
+    "cl_audit": [
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust/BK18lf_cl_hat.dat",
+        "n_rows": 9,
+        "score": 10,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust/BK18lf_cl_hat.dat",
+        "n_rows": 9,
+        "score": 10,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust_incEE/BK18lf_cl_hat.dat",
+        "n_rows": 9,
+        "score": 5,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust_incEE/BK18lf_cl_hat.dat",
+        "n_rows": 9,
+        "score": 5,
+        "truncated": false
+      }
+    ],
+    "cov_audit": [
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust/BK18lf_covmat_dust.dat",
+        "n_rows": 594,
+        "score": 10,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust/BK18lf_covmat_dust.dat",
+        "n_rows": 594,
+        "score": 10,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust_incEE/BK18lf_covmat_dust.dat",
+        "n_rows": 358,
+        "score": 5,
+        "truncated": true
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/data/BK18lf_dust_incEE/BK18lf_covmat_dust.dat",
+        "n_rows": 358,
+        "score": 5,
+        "truncated": true
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/planck_covmats/BK18_BK18lf_freebdust_incP2018.covmat",
+        "n_rows": 35,
+        "score": 5,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/planck_covmats/BK18_BK18lf_freebdust_incP2018.covmat",
+        "n_rows": 35,
+        "score": 5,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/planck_covmats/BK18_BK18lf_freebdust_freeAl.covmat",
+        "n_rows": 9,
+        "score": 5,
+        "truncated": false
+      },
+      {
+        "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+        "member_name": "BK18_cosmomc/planck_covmats/BK18_BK18lf_freebdust_freeAl.covmat",
+        "n_rows": 9,
+        "score": 5,
+        "truncated": false
+      }
+    ],
+    "n_cl_products": 4,
+    "n_cov_products": 8
+  },
+  "bandpower_source": {
+    "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+    "member_name": "BK18_cosmomc/data/BK18lf_dust/BK18lf_cl_hat.dat",
+    "n_rows": 9,
+    "score": 10,
+    "truncated": false
+  },
+  "bb_bandpowers_loaded": true,
+  "claim_policy_v67": "Confirm-like only after public BK18 bandpower rows and covariance rows are both parsed; v67 replaces the v66 archive-byte scan with member-level parsing.",
+  "covariance_diag_preview": [
+    7.69321e-08,
+    5.14987e-07,
+    4.89916e-05,
+    2.09628e-08,
+    0.0528264,
+    0.0116386,
+    0.0384786,
+    0.0175782,
+    2.19514e-05,
+    0.00018859,
+    0.248688,
+    1.32598e-07
+  ],
+  "covariance_loaded": true,
+  "covariance_source": {
+    "archive_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+    "member_name": "BK18_cosmomc/data/BK18lf_dust/BK18lf_covmat_dust.dat",
+    "n_rows": 594,
+    "score": 10,
+    "truncated": false
+  },
+  "covariance_type": "bk18_public_covmat_dust",
+  "manual_fill_required": false,
+  "n_bandpower_rows": 9,
+  "n_covariance_diag_terms": 12,
+  "n_covariance_rows": 594,
+  "status": "bk18_cl_hat_covariance_loaded",
+  "template_amplitude": 0.9724082088888889,
+  "template_amplitude_sigma": 1.4342825518748303
+}

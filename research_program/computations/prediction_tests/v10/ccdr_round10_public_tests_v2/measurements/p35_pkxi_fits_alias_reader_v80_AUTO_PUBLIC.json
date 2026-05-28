@@ -1,0 +1,193 @@
+{
+  "artifact_version": "v80",
+  "best_lss_power_or_xi_candidate": {
+    "archive_member": null,
+    "archive_path": null,
+    "bootstrap": {
+      "median_comb_spacing_cv": 4.0311063753754866,
+      "n_bootstrap": 64,
+      "stable_cv_lt_0p2_fraction": 0.0
+    },
+    "error": null,
+    "fits_error": null,
+    "n_power_rows": 2526,
+    "n_rows": null,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T31_arxiv_source_v13__2512.18053",
+    "reason": null,
+    "reject_reason": null,
+    "score": {
+      "comb_spacing_cv": 4.340699249347791,
+      "median_spacing": 3.0,
+      "n_peaks": 502,
+      "n_rows": 2526,
+      "phase_randomized_p": 1.0
+    },
+    "sha256": "bd18473ffda6bd93e3e0a21a6a90ee5ca8fa724216743bbe015b33a3aaf0615f"
+  },
+  "claim_policy_v80": "v80 adds FITS/table column aliases for k/s/r and P(k)/xi/monopole products while retaining the v79 rejection of random catalogues and compressed controls.",
+  "manual_fill_required": false,
+  "rejected_candidates": [],
+  "source_audit": [
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": {
+        "median_comb_spacing_cv": 4.0311063753754866,
+        "n_bootstrap": 64,
+        "stable_cv_lt_0p2_fraction": 0.0
+      },
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 2526,
+      "n_rows": null,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T31_arxiv_source_v13__2512.18053",
+      "reason": null,
+      "reject_reason": null,
+      "score": {
+        "comb_spacing_cv": 4.340699249347791,
+        "median_spacing": 3.0,
+        "n_peaks": 502,
+        "n_rows": 2526,
+        "phase_randomized_p": 1.0
+      },
+      "sha256": "bd18473ffda6bd93e3e0a21a6a90ee5ca8fa724216743bbe015b33a3aaf0615f"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": {
+        "median_comb_spacing_cv": 4.0311063753754866,
+        "n_bootstrap": 64,
+        "stable_cv_lt_0p2_fraction": 0.0
+      },
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 2526,
+      "n_rows": null,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T32_arxiv_source_v13__2512.18053",
+      "reason": null,
+      "reject_reason": null,
+      "score": {
+        "comb_spacing_cv": 4.340699249347791,
+        "median_spacing": 3.0,
+        "n_peaks": 502,
+        "n_rows": 2526,
+        "phase_randomized_p": 1.0
+      },
+      "sha256": "bd18473ffda6bd93e3e0a21a6a90ee5ca8fa724216743bbe015b33a3aaf0615f"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": null,
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 42,
+      "n_rows": 42,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T23__firas_monopole_spec_v1.txt",
+      "reason": null,
+      "reject_reason": null,
+      "score": null,
+      "sha256": "df793c3dca09ebfa7dbc5aa0ec1951daa8884431bc30eff28a710d7516cf50fa"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": {
+        "median_comb_spacing_cv": 1.7458699345259396,
+        "n_bootstrap": 64,
+        "stable_cv_lt_0p2_fraction": 0.0
+      },
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 284,
+      "n_rows": null,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_hafits_v3.fits.t__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "reason": null,
+      "reject_reason": null,
+      "score": {
+        "comb_spacing_cv": 2.3732942357922817,
+        "median_spacing": 3.0,
+        "n_peaks": 51,
+        "n_rows": 284,
+        "phase_randomized_p": 1.0
+      },
+      "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": {
+        "median_comb_spacing_cv": 1.9093361014206627,
+        "n_bootstrap": 64,
+        "stable_cv_lt_0p2_fraction": 0.0
+      },
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 559,
+      "n_rows": null,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+      "reason": null,
+      "reject_reason": null,
+      "score": {
+        "comb_spacing_cv": 2.2066109729019456,
+        "median_spacing": 3.0,
+        "n_peaks": 106,
+        "n_rows": 559,
+        "phase_randomized_p": 1.0
+      },
+      "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": {
+        "median_comb_spacing_cv": 1.7458699345259396,
+        "n_bootstrap": 64,
+        "stable_cv_lt_0p2_fraction": 0.0
+      },
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 284,
+      "n_rows": null,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__57a66b5b9730e9__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "reason": null,
+      "reject_reason": null,
+      "score": {
+        "comb_spacing_cv": 2.3732942357922817,
+        "median_spacing": 3.0,
+        "n_peaks": 51,
+        "n_rows": 284,
+        "phase_randomized_p": 1.0
+      },
+      "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "bootstrap": {
+        "median_comb_spacing_cv": 1.9093361014206627,
+        "n_bootstrap": 64,
+        "stable_cv_lt_0p2_fraction": 0.0
+      },
+      "error": null,
+      "fits_error": null,
+      "n_power_rows": 559,
+      "n_rows": null,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__f8be59e969efd5__k3d_fnlsp_table_v3.fits.tgz",
+      "reason": null,
+      "reject_reason": null,
+      "score": {
+        "comb_spacing_cv": 2.2066109729019456,
+        "median_spacing": 3.0,
+        "n_peaks": 106,
+        "n_rows": 559,
+        "phase_randomized_p": 1.0
+      },
+      "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d"
+    }
+  ],
+  "status": "p35_pkxi_alias_candidate_built_v80",
+  "v79_best_candidate": null,
+  "v79_status": "p35_strict_pkxi_source_absent_v79"
+}

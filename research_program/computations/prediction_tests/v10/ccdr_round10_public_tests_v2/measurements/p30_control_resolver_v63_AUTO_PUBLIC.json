@@ -1,0 +1,59 @@
+{
+  "curl_abs_over_science_abs": 0.9632026858888424,
+  "diagnostic_class": "control_tension",
+  "eligible_for_route_confirm_like": false,
+  "gate_version": "v63",
+  "missing": [
+    "curl_abs_le_half_science_abs_after_patch_reject",
+    "redshift_density_residualization_required"
+  ],
+  "n_kept_patches": 3,
+  "patch_rejection_policy": "predeclared_by_curl_patch_magnitude_and_missingness_before_route_promotion",
+  "patch_table": [
+    {
+      "curl_delta": -0.11011642159669852,
+      "patch_index": 0,
+      "predeclared_reject": true,
+      "reject_reason": [
+        "curl_patch_too_large"
+      ],
+      "science_delta": 0.026242154995834557
+    },
+    {
+      "curl_delta": 0.041604876670123275,
+      "patch_index": 1,
+      "predeclared_reject": false,
+      "reject_reason": [],
+      "science_delta": 0.11400665025132184
+    },
+    {
+      "curl_delta": -0.029884736425205335,
+      "patch_index": 2,
+      "predeclared_reject": false,
+      "reject_reason": [],
+      "science_delta": 0.16917209541720887
+    },
+    {
+      "curl_delta": -0.026824230626393754,
+      "patch_index": 3,
+      "predeclared_reject": false,
+      "reject_reason": [],
+      "science_delta": 0.03334206975965103
+    }
+  ],
+  "redshift_density_residualization_proxy": {
+    "available": true,
+    "field_cv_abs": 1.7164461567363545,
+    "field_mean": -0.03130512799454358,
+    "field_sign_flip_count": 1,
+    "field_std": 0.053733566634090436,
+    "residualization_required": true
+  },
+  "variant_delta_values": [
+    0.026242154995834557,
+    0.11400665025132184,
+    0.16917209541720887,
+    0.03334206975965103
+  ],
+  "variant_same_sign_positive_count": 4
+}

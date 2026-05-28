@@ -1,0 +1,17 @@
+{
+  "n_candidate_files": 3,
+  "n_normalized_rows": 0,
+  "n_rejected_rows": 1,
+  "normalized_path": "/mnt/data/v61work/ccdr_round10_public_tests_v2/outputs/p36_highz_object_rows_normalized_v55.csv",
+  "rejected": [
+    {
+      "object_id": "p36_highz_object_rows_raw_v57_AUTO:0",
+      "path": "/mnt/data/v61work/ccdr_round10_public_tests_v2/inputs/p36_highz_object_rows_raw_v57_AUTO.json",
+      "raw_source_file": "/mnt/data/v61work/ccdr_round10_public_tests_v2/inputs/p36_highz_object_rows_raw_v57_AUTO.json",
+      "reason": "missing_source_group;missing_or_bad_z;missing_or_bad_vrot_km_s;missing_or_bad_radius_kpc",
+      "row_index": 0,
+      "source_group": null
+    }
+  ],
+  "version": "v55"
+}

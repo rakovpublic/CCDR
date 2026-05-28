@@ -12,9 +12,9 @@ META = {
   },
   "group": "voids",
   "interpretation": "Correct VAST VoidFinder/V2 Zenodo record.",
-  "kind": "p38_jackknife_v9",
+  "kind": "p38_catalogue_nulls_v22",
   "prediction_id": "P38",
-  "prediction_name": "P38 jackknife-hardened void morphology positive-compatible",
+  "prediction_name": "P38 void morphology robust-confirm null hardening",
   "sources": [
     {
       "label": "VAST void catalogs for SDSS DR7",

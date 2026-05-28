@@ -1,0 +1,24 @@
+{
+  "artifact_version": "v74",
+  "best_lss_power_or_xi_candidate": null,
+  "candidate_audit": [],
+  "claim_policy_v74": "v74 adds a broader source audit for P(k)/xi products but keeps compressed BAO as a non-claim-grade control.",
+  "compressed_bao_harmonic_control": {
+    "comb_score": 0.588136929414945,
+    "n_redshift_bins": 7,
+    "phase_null_p": 0.7002843215350546,
+    "redshift_bins": [
+      0.295,
+      0.51,
+      0.706,
+      0.934,
+      1.321,
+      1.484,
+      2.33
+    ],
+    "spacing_cv": 0.7002843215350546
+  },
+  "manual_fill_required": false,
+  "status": "p35_lss_pk_xi_table_absent_v74",
+  "v73_status": "p35_lss_pk_or_xi_table_absent_v73"
+}

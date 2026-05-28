@@ -1,0 +1,48 @@
+{
+  "candidate_audit": [],
+  "diagnostic_class": "no_exact_desi_lss_catalogue_loaded_with_enough_rdz_for_v65_alpha_proxy",
+  "download_audit": [
+    {
+      "cached": false,
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "max_bytes": 250000000,
+      "ok": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__55faa1ce65992c__LRG_clustering.dat.fits",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/LRG_clustering.dat.fits"
+    },
+    {
+      "cached": false,
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "max_bytes": 250000000,
+      "ok": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__1a881325e2b76b__ELG_LOPnotqso_clustering.dat.fits",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/ELG_LOPnotqso_clustering.dat.fits"
+    },
+    {
+      "cached": false,
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "max_bytes": 250000000,
+      "ok": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__555fccd470f402__QSO_clustering.dat.fits",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/QSO_clustering.dat.fits"
+    },
+    {
+      "cached": false,
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "max_bytes": 250000000,
+      "ok": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__34205c622de41f__LRG_0_full.ran.fits",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/LRG_0_full.ran.fits"
+    },
+    {
+      "cached": false,
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "max_bytes": 250000000,
+      "ok": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__4b3c37f3116409__ELG_LOPnotqso_0_full.ran.fits",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/ELG_LOPnotqso_0_full.ran.fits"
+    }
+  ],
+  "manual_fill_required": false,
+  "status": "alpha_measurement_not_autobuilt"
+}

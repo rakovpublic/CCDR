@@ -1,0 +1,985 @@
+{
+  "artifact_version": "v80",
+  "claim_policy_v80": "v80 inspects archive member names for second GWOSC strain products, but metadata-only event ids still do not satisfy the two-local-strain-event gate.",
+  "local_strain_event_ids": [
+    "GW150914"
+  ],
+  "manual_fill_required": false,
+  "metadata_event_ids_seen": [
+    "GW150914",
+    "GW151012",
+    "GW151226",
+    "GW170104",
+    "GW170608",
+    "GW170729",
+    "GW170809",
+    "GW170814",
+    "GW170817",
+    "GW170818",
+    "GW170823",
+    "GW191103",
+    "GW191105",
+    "GW191109",
+    "GW191113",
+    "GW191126",
+    "GW191127",
+    "GW191129",
+    "GW191204",
+    "GW191215",
+    "GW191216",
+    "GW191219",
+    "GW191222",
+    "GW191230",
+    "GW200112",
+    "GW200115",
+    "GW200128",
+    "GW200129",
+    "GW200202",
+    "GW200208",
+    "GW200209",
+    "GW200210",
+    "GW200216",
+    "GW200219",
+    "GW200220",
+    "GW200224",
+    "GW200225",
+    "GW200302",
+    "GW200306",
+    "GW200308",
+    "GW200311",
+    "GW200316",
+    "GW200322"
+  ],
+  "n_local_strain_events": 1,
+  "n_metadata_event_ids_seen": 43,
+  "source_audit": [
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "sha256": "f28d439508973469363095faa35a1a06c84fc02ae3ecafc6e2dfbe7aadb7f1dd",
+      "size_bytes": 517009994
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "85898801039db110fb8ccb1ec5862076a4cbe59710b1d08540c2f49be4285c1e",
+      "size_bytes": 517084465
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "004061864d37f29d40a90b84a04666dac09e3f97c9c091e4014629b917a9ba7b",
+      "size_bytes": 651842973
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "sha256": "0f2c15529089562ab8b5dfe449d988386c64d8cfc144ed556b06c2da60992baa",
+      "size_bytes": 4050875
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "sha256": "81040e1ecfaf40ffe15a5efc59dbc3a888653162f1613425f1e68d0828dd1b97",
+      "size_bytes": 4068797
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "b3f1a61bc25d30142e7f0896bbc98c75357c5e3315e303fc0f5684ea06dcb258",
+      "size_bytes": 5094711
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "sha256": "d0843628e1355872e058d6885592ac1c469079de8faf653acac90bd1b9aafb3b",
+      "size_bytes": 130069555
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "8ef8b762cff53b422429c474b1e35a6d9bfa86f3ed0c0d3e855f599781390a27",
+      "size_bytes": 130158262
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "5097fe337fbf7fb2ce4873689981b34e4e6c5bdd91dfa728f9a6c3b858396a6b",
+      "size_bytes": 164479356
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "sha256": "452f5728ada6b23f0cca3d6c92ce1d72fab2d667ec49e4191931ca7bd1bd50ef",
+      "size_bytes": 1029536
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "sha256": "c5ea87beced5094b56b4d694f3a36e6d59f74d3a46e546b980a6a199d1f252a9",
+      "size_bytes": 1040781
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc",
+      "size_bytes": 1286320
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "sha256": "d2df0f8cfa11dd9601c8792bb72d86f83b1b923fc1eb917d5d53f311aadc68b3",
+      "size_bytes": 497621542
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "480a4773a487ab70bf0b5ff5c5b11e66401c5c30c9ef10c81afe1075eca76405",
+      "size_bytes": 497809407
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "07db8dc9dc7401cb7c7dd90be69ee8f14e18f43d0fc2ada7d0479f5983461556",
+      "size_bytes": 615981090
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "sha256": "ac9da8014c8a34f026ddae6e66812878f13bfe9cd4678ac1c35bdaf7bb531d11",
+      "size_bytes": 3900380
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "sha256": "23a207023ef8b49cf0b70b78d7ba80635881799324e50bfb2165c60039e41b1f",
+      "size_bytes": 3919118
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "e0fdd485ac7c83b93f04c3d17d684832b6e8c4252de57234253322eb3d221bd1",
+      "size_bytes": 4814211
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "sha256": "53e8cfcb40d210538fd3fc7da8d8cbd2e22667317613331b005b036ff33eb1a8",
+      "size_bytes": 125704995
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "bdd2dca270ad5205355b35d1a0da764c3927650917d971a10ecc6113efe4ebf4",
+      "size_bytes": 125865927
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "30d3359c856b8d2a54b2fa75912d8a274bc0da46ff0be1ef9f4929feeedb9e23",
+      "size_bytes": 155863181
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "sha256": "20aede5ca7eb158589aebcd923b155158612258d6a05205ed5b6042cbfaabf1b",
+      "size_bytes": 995323
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "sha256": "9d65bde82f7ec035bea4c02228bce4acb3dcaae774c047edce71ef2ad64f1cc4",
+      "size_bytes": 1007262
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c",
+      "size_bytes": 1219514
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "sha256": "f28d439508973469363095faa35a1a06c84fc02ae3ecafc6e2dfbe7aadb7f1dd",
+      "size_bytes": 517009994
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "85898801039db110fb8ccb1ec5862076a4cbe59710b1d08540c2f49be4285c1e",
+      "size_bytes": 517084465
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "004061864d37f29d40a90b84a04666dac09e3f97c9c091e4014629b917a9ba7b",
+      "size_bytes": 651842973
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "sha256": "0f2c15529089562ab8b5dfe449d988386c64d8cfc144ed556b06c2da60992baa",
+      "size_bytes": 4050875
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "sha256": "81040e1ecfaf40ffe15a5efc59dbc3a888653162f1613425f1e68d0828dd1b97",
+      "size_bytes": 4068797
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "b3f1a61bc25d30142e7f0896bbc98c75357c5e3315e303fc0f5684ea06dcb258",
+      "size_bytes": 5094711
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "sha256": "d0843628e1355872e058d6885592ac1c469079de8faf653acac90bd1b9aafb3b",
+      "size_bytes": 130069555
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "8ef8b762cff53b422429c474b1e35a6d9bfa86f3ed0c0d3e855f599781390a27",
+      "size_bytes": 130158262
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "5097fe337fbf7fb2ce4873689981b34e4e6c5bdd91dfa728f9a6c3b858396a6b",
+      "size_bytes": 164479356
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "sha256": "452f5728ada6b23f0cca3d6c92ce1d72fab2d667ec49e4191931ca7bd1bd50ef",
+      "size_bytes": 1029536
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "sha256": "c5ea87beced5094b56b4d694f3a36e6d59f74d3a46e546b980a6a199d1f252a9",
+      "size_bytes": 1040781
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc",
+      "size_bytes": 1286320
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "sha256": "d2df0f8cfa11dd9601c8792bb72d86f83b1b923fc1eb917d5d53f311aadc68b3",
+      "size_bytes": 497621542
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "480a4773a487ab70bf0b5ff5c5b11e66401c5c30c9ef10c81afe1075eca76405",
+      "size_bytes": 497809407
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "07db8dc9dc7401cb7c7dd90be69ee8f14e18f43d0fc2ada7d0479f5983461556",
+      "size_bytes": 615981090
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "sha256": "ac9da8014c8a34f026ddae6e66812878f13bfe9cd4678ac1c35bdaf7bb531d11",
+      "size_bytes": 3900380
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "sha256": "23a207023ef8b49cf0b70b78d7ba80635881799324e50bfb2165c60039e41b1f",
+      "size_bytes": 3919118
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "e0fdd485ac7c83b93f04c3d17d684832b6e8c4252de57234253322eb3d221bd1",
+      "size_bytes": 4814211
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "sha256": "53e8cfcb40d210538fd3fc7da8d8cbd2e22667317613331b005b036ff33eb1a8",
+      "size_bytes": 125704995
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "bdd2dca270ad5205355b35d1a0da764c3927650917d971a10ecc6113efe4ebf4",
+      "size_bytes": 125865927
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "30d3359c856b8d2a54b2fa75912d8a274bc0da46ff0be1ef9f4929feeedb9e23",
+      "size_bytes": 155863181
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "sha256": "20aede5ca7eb158589aebcd923b155158612258d6a05205ed5b6042cbfaabf1b",
+      "size_bytes": 995323
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "sha256": "9d65bde82f7ec035bea4c02228bce4acb3dcaae774c047edce71ef2ad64f1cc4",
+      "size_bytes": 1007262
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c",
+      "size_bytes": 1219514
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "sha256": "f28d439508973469363095faa35a1a06c84fc02ae3ecafc6e2dfbe7aadb7f1dd",
+      "size_bytes": 517009994
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "85898801039db110fb8ccb1ec5862076a4cbe59710b1d08540c2f49be4285c1e",
+      "size_bytes": 517084465
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "004061864d37f29d40a90b84a04666dac09e3f97c9c091e4014629b917a9ba7b",
+      "size_bytes": 651842973
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "sha256": "0f2c15529089562ab8b5dfe449d988386c64d8cfc144ed556b06c2da60992baa",
+      "size_bytes": 4050875
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "sha256": "81040e1ecfaf40ffe15a5efc59dbc3a888653162f1613425f1e68d0828dd1b97",
+      "size_bytes": 4068797
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "b3f1a61bc25d30142e7f0896bbc98c75357c5e3315e303fc0f5684ea06dcb258",
+      "size_bytes": 5094711
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "sha256": "d0843628e1355872e058d6885592ac1c469079de8faf653acac90bd1b9aafb3b",
+      "size_bytes": 130069555
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "8ef8b762cff53b422429c474b1e35a6d9bfa86f3ed0c0d3e855f599781390a27",
+      "size_bytes": 130158262
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "5097fe337fbf7fb2ce4873689981b34e4e6c5bdd91dfa728f9a6c3b858396a6b",
+      "size_bytes": 164479356
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "sha256": "452f5728ada6b23f0cca3d6c92ce1d72fab2d667ec49e4191931ca7bd1bd50ef",
+      "size_bytes": 1029536
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "sha256": "c5ea87beced5094b56b4d694f3a36e6d59f74d3a46e546b980a6a199d1f252a9",
+      "size_bytes": 1040781
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc",
+      "size_bytes": 1286320
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "sha256": "d2df0f8cfa11dd9601c8792bb72d86f83b1b923fc1eb917d5d53f311aadc68b3",
+      "size_bytes": 497621542
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "480a4773a487ab70bf0b5ff5c5b11e66401c5c30c9ef10c81afe1075eca76405",
+      "size_bytes": 497809407
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "07db8dc9dc7401cb7c7dd90be69ee8f14e18f43d0fc2ada7d0479f5983461556",
+      "size_bytes": 615981090
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "sha256": "ac9da8014c8a34f026ddae6e66812878f13bfe9cd4678ac1c35bdaf7bb531d11",
+      "size_bytes": 3900380
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "sha256": "23a207023ef8b49cf0b70b78d7ba80635881799324e50bfb2165c60039e41b1f",
+      "size_bytes": 3919118
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "e0fdd485ac7c83b93f04c3d17d684832b6e8c4252de57234253322eb3d221bd1",
+      "size_bytes": 4814211
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "sha256": "53e8cfcb40d210538fd3fc7da8d8cbd2e22667317613331b005b036ff33eb1a8",
+      "size_bytes": 125704995
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "sha256": "bdd2dca270ad5205355b35d1a0da764c3927650917d971a10ecc6113efe4ebf4",
+      "size_bytes": 125865927
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "sha256": "30d3359c856b8d2a54b2fa75912d8a274bc0da46ff0be1ef9f4929feeedb9e23",
+      "size_bytes": 155863181
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "sha256": "20aede5ca7eb158589aebcd923b155158612258d6a05205ed5b6042cbfaabf1b",
+      "size_bytes": 995323
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "sha256": "9d65bde82f7ec035bea4c02228bce4acb3dcaae774c047edce71ef2ad64f1cc4",
+      "size_bytes": 1007262
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c",
+      "size_bytes": 1219514
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__GW150914_GWTC-1.hdf5",
+      "sha256": "21fc54453e73df01340fcfe11fa69972699e68f4196a04fbb04e5e8907e874cb",
+      "size_bytes": 7026464
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__GW150914_GWTC-1.hdf5",
+      "sha256": "21fc54453e73df01340fcfe11fa69972699e68f4196a04fbb04e5e8907e874cb",
+      "size_bytes": 7026464
+    },
+    {
+      "event_ids_in_name": [
+        "GW150914"
+      ],
+      "exists": true,
+      "local_strain_name": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__GW150914_GWTC-1.hdf5",
+      "sha256": "21fc54453e73df01340fcfe11fa69972699e68f4196a04fbb04e5e8907e874cb",
+      "size_bytes": 7026464
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T31_supp_v15__LHCb-PAPER-2025-041-supplementary.zip",
+      "sha256": "21747f04315db4013f74fbf4bf986984aaee947620711bd17b82171b222f46ee",
+      "size_bytes": 16583698
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T31_v21_supp__LHCb-PAPER-2025-041-supplementary.zip",
+      "sha256": "21747f04315db4013f74fbf4bf986984aaee947620711bd17b82171b222f46ee",
+      "size_bytes": 16583698
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T32_supp_v15__LHCb-PAPER-2025-041-supplementary.zip",
+      "sha256": "21747f04315db4013f74fbf4bf986984aaee947620711bd17b82171b222f46ee",
+      "size_bytes": 16583698
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T32_v21_supp__LHCb-PAPER-2025-041-supplementary.zip",
+      "sha256": "21747f04315db4013f74fbf4bf986984aaee947620711bd17b82171b222f46ee",
+      "size_bytes": 16583698
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v15__dr6_lensing_release.tar.gz",
+      "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+      "size_bytes": 1371472486
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v16__dr6_lensing_release.tar.gz",
+      "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+      "size_bytes": 1371472486
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_act_release_v16__dr6_lensing_release.tar.gz",
+      "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+      "size_bytes": 1371472486
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes.tar.gz__KMOS3D_cubes.tar.gz",
+      "sha256": "48b63aefcff8f01a15f3aa965eb1d70ffa6cf9dd91c1a293e72ca7b02c9f629b",
+      "size_bytes": 3152906479
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_COSMOS.tar.gz__KMOS3D_cubes_COSMOS.tar.gz",
+      "sha256": "88f763f1929b99e67cc99d40b7b07178ba56e58ad0571735ae9b00ac4c45ba37",
+      "size_bytes": 1154934387
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_GOODSS.tar.gz__KMOS3D_cubes_GOODSS.tar.gz",
+      "sha256": "1140d68dbea7533ae170e9a65b6a9b941c90a1171d0bfc4e6577539bed3acc84",
+      "size_bytes": 996771994
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_UDS.tar.gz__KMOS3D_cubes_UDS.tar.gz",
+      "sha256": "b27b50e5268b97fcce4f73bbfd5a063adaa17c5f3053e13ff3ea3576165773f0",
+      "size_bytes": 996315607
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_kges.tar.gz__kges.tar.gz",
+      "sha256": "c63955eee19c0a01e1ea5b753a52bac41736d6cb890974fb19cc027af3a5a58f",
+      "size_bytes": 24267333938
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_cubes.tar.gz__KROSS_cubes.tar.gz",
+      "sha256": "4a30d0b4aa3fc1381aea7b4a81befd069632f2a363fb2335c7756909811b846d",
+      "size_bytes": 1195356689
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_Halpha_maps.tar.gz__KROSS_Halpha_maps.tar.gz",
+      "sha256": "c8ddbf29a3d6c6b96cececec7cc32619da99640a44c2ba3ad1a35900a1818af1",
+      "size_bytes": 2789061
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_sigma_maps.tar.gz__KROSS_sigma_maps.tar.gz",
+      "sha256": "6f45427119a45e708d8a65255a4ed39705ff11f0e87dde61b94f9dbc0842f6e7",
+      "size_bytes": 1301939
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_KROSS_velocity_maps.tar.gz__KROSS_velocity_maps.tar.gz",
+      "sha256": "087c2325229c5eced2bc405bba3a33eafb92837f1303ef8d983a0ddec9fbf755",
+      "size_bytes": 877552
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+      "sha256": "8322e22d8d7f825f331821262eeafd2724df5bc725f90111782eb8c24d6c6032",
+      "size_bytes": 10403582
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+      "sha256": "8322e22d8d7f825f331821262eeafd2724df5bc725f90111782eb8c24d6c6032",
+      "size_bytes": 10403582
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_hafits_v3.fits.t__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe",
+      "size_bytes": 26378
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+      "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d",
+      "size_bytes": 57365
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__57a66b5b9730e9__k3d_fnlsp_table_hafits_v3.fits.tgz",
+      "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe",
+      "size_bytes": 26378
+    },
+    {
+      "archive_member_event_ids": [],
+      "archive_member_strain_event_ids": [],
+      "exists": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__f8be59e969efd5__k3d_fnlsp_table_v3.fits.tgz",
+      "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d",
+      "size_bytes": 57365
+    }
+  ],
+  "status": "p32_second_local_strain_still_absent_v80",
+  "v79_status": "p32_second_local_strain_still_absent_v79"
+}

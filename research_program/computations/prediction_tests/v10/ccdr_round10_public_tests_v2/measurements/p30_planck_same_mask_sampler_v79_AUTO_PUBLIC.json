@@ -1,0 +1,183 @@
+{
+  "act_route_statistic_ready": true,
+  "artifact_version": "v79",
+  "catalogue_n": 2000,
+  "catalogue_source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_sdss_coords__SqlSearch_30a6fa84f9",
+  "chosen_map_source": {
+    "attempts": [
+      {
+        "finite_fraction": 1.0,
+        "hdu": 1,
+        "lmax": 4000,
+        "mode": "row_order_full_alm",
+        "n_finite_pixels": 49152
+      }
+    ],
+    "hdu": 1,
+    "hdu_info": [
+      {
+        "class": "PrimaryHDU",
+        "columns": [],
+        "hdu": 0,
+        "name": "PRIMARY",
+        "shape": null
+      },
+      {
+        "class": "BinTableHDU",
+        "columns": [
+          "index",
+          "real",
+          "imag"
+        ],
+        "hdu": 1,
+        "name": "",
+        "shape": [
+          8006001
+        ]
+      }
+    ],
+    "lmax": 4000,
+    "load_mode": "alm_to_map_or_healpy_read_alm",
+    "map_sanity": {
+      "available": true,
+      "finite_fraction": 1.0,
+      "max": 4.636254876378636,
+      "mean": 0.0003382175867158218,
+      "median": 0.0001731658883620834,
+      "min": -4.536126854694174,
+      "n_finite_pixels": 49152,
+      "n_total_pixels": 49152,
+      "std": 0.45482407405626935
+    },
+    "method": "row_order_full_alm",
+    "n_finite_alm_input": 8005998,
+    "nside": 64,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+    "sdss_same_mask_statistic": {
+      "delta_high_minus_low": 0.13025955653789206,
+      "density_bin_shuffle_n": 128,
+      "density_bin_shuffle_p_high": 0.0,
+      "field_split_jackknife": [
+        0.11013503371236034,
+        0.1960082199200619,
+        0.12822535709796554,
+        0.1681983014435003
+      ],
+      "footprint_note": "catalogue intersects finite map footprint",
+      "high_density_n": 574,
+      "jackknife_same_sign": true,
+      "low_density_n": 618,
+      "mask_aware_null": "finite-map-pixel footprint used; explicit ACT mask not extracted",
+      "mean_kappa_high_density": 0.0643244879409497,
+      "mean_kappa_low_density": -0.06593506859694237,
+      "n": 2000,
+      "sky_shuffle_n": 128,
+      "sky_shuffle_p_high": 0.0
+    },
+    "source_scope": "act"
+  },
+  "claim_policy_v79": "v79 actually reconstructs a low-nside map and samples cached SDSS coordinates. ACT-map statistics are reported as measured readiness, not as a Planck-independent route.",
+  "manual_fill_required": false,
+  "n_act_scoped_sources": 11,
+  "n_planck_scoped_sources": 0,
+  "n_usable_map_sources_v78": 11,
+  "planck_route_confirm_like": false,
+  "same_mask_density_kappa_statistic": {
+    "delta_high_minus_low": 0.13025955653789206,
+    "density_bin_shuffle_n": 128,
+    "density_bin_shuffle_p_high": 0.0,
+    "field_split_jackknife": [
+      0.11013503371236034,
+      0.1960082199200619,
+      0.12822535709796554,
+      0.1681983014435003
+    ],
+    "footprint_note": "catalogue intersects finite map footprint",
+    "high_density_n": 574,
+    "jackknife_same_sign": true,
+    "low_density_n": 618,
+    "mask_aware_null": "finite-map-pixel footprint used; explicit ACT mask not extracted",
+    "mean_kappa_high_density": 0.0643244879409497,
+    "mean_kappa_low_density": -0.06593506859694237,
+    "n": 2000,
+    "sky_shuffle_n": 128,
+    "sky_shuffle_p_high": 0.0
+  },
+  "same_mask_statistic_confirm_like": true,
+  "source_audit": [
+    {
+      "attempts": [
+        {
+          "finite_fraction": 1.0,
+          "hdu": 1,
+          "lmax": 4000,
+          "mode": "row_order_full_alm",
+          "n_finite_pixels": 49152
+        }
+      ],
+      "hdu": 1,
+      "hdu_info": [
+        {
+          "class": "PrimaryHDU",
+          "columns": [],
+          "hdu": 0,
+          "name": "PRIMARY",
+          "shape": null
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "lmax": 4000,
+      "load_mode": "alm_to_map_or_healpy_read_alm",
+      "map_sanity": {
+        "available": true,
+        "finite_fraction": 1.0,
+        "max": 4.636254876378636,
+        "mean": 0.0003382175867158218,
+        "median": 0.0001731658883620834,
+        "min": -4.536126854694174,
+        "n_finite_pixels": 49152,
+        "n_total_pixels": 49152,
+        "std": 0.45482407405626935
+      },
+      "method": "row_order_full_alm",
+      "n_finite_alm_input": 8005998,
+      "nside": 64,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "sdss_same_mask_statistic": {
+        "delta_high_minus_low": 0.13025955653789206,
+        "density_bin_shuffle_n": 128,
+        "density_bin_shuffle_p_high": 0.0,
+        "field_split_jackknife": [
+          0.11013503371236034,
+          0.1960082199200619,
+          0.12822535709796554,
+          0.1681983014435003
+        ],
+        "footprint_note": "catalogue intersects finite map footprint",
+        "high_density_n": 574,
+        "jackknife_same_sign": true,
+        "low_density_n": 618,
+        "mask_aware_null": "finite-map-pixel footprint used; explicit ACT mask not extracted",
+        "mean_kappa_high_density": 0.0643244879409497,
+        "mean_kappa_low_density": -0.06593506859694237,
+        "n": 2000,
+        "sky_shuffle_n": 128,
+        "sky_shuffle_p_high": 0.0
+      },
+      "source_scope": "act"
+    }
+  ],
+  "status": "p30_act_map_same_mask_statistic_built_v79"
+}

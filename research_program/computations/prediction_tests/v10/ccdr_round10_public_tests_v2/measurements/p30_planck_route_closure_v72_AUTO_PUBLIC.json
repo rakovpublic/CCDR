@@ -1,0 +1,36 @@
+{
+  "artifact_version": "v72",
+  "claim_policy_v72": "v72 promotes global P30 only when at least two independent routes pass same-mask/null controls. SDSS remains scoped confirm-like by itself.",
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "route_matrix": {
+    "euclid": {
+      "confirm_like": false,
+      "status": null
+    },
+    "planck": {
+      "confirm_like": false,
+      "status": null
+    },
+    "sdss": {
+      "confirm_like": true,
+      "status": "density_kappa_sdss_route_confirm_like_v79"
+    }
+  },
+  "same_mask_curl_audit": {
+    "accepted_empirical_mask_for_diagnostics": true,
+    "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+    "n_unrejected_control_subtracted_patches": 0,
+    "official_mask_found": false,
+    "redshift_density_residualization": {
+      "available": true,
+      "euclid_delta": -0.18983175996764104,
+      "residualization_required": true,
+      "route_sign_disagreement": true,
+      "sdss_delta": 0.07886573620406669,
+      "sdss_jackknife_std": 0.02916987451348493
+    }
+  },
+  "status": "p30_global_route_still_single_route_v72",
+  "v71_global_route_status": "p30_global_route_still_scoped_to_sdss"
+}

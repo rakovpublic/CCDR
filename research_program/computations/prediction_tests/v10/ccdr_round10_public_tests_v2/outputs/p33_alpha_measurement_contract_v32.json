@@ -1,0 +1,15 @@
+{
+  "accepted_source_file": null,
+  "current_delta_alpha_high_minus_low": null,
+  "current_measurement_present": false,
+  "minimum_claim_rule": "nonzero sign-stable delta_alpha with covariance and density-label/sky/redshift nulls",
+  "required_measurement_outputs": [
+    "alpha_high_density",
+    "alpha_low_density",
+    "delta_alpha_high_minus_low",
+    "covariance_method",
+    "density_label_shuffle_p",
+    "sky_shuffle_p",
+    "redshift_jackknife_stable"
+  ]
+}

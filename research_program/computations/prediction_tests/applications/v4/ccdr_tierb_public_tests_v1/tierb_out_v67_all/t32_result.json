@@ -1,0 +1,1191 @@
+{
+  "auto_data_improvements_v57": {
+    "materials_confirm_v57": {
+      "artifacts": {
+        "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+        "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+        "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+        "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+        "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+      },
+      "failed_subgates": [
+        ">=5_independent_source_groups",
+        ">=5_material_families",
+        ">=3_temperature_bins"
+      ],
+      "model": {
+        "failed_subgates_v57": [
+          ">=5_independent_source_groups",
+          ">=5_material_families",
+          ">=3_temperature_bins"
+        ],
+        "n_dedup_rows_v57": 53521,
+        "n_material_families_v57": 1,
+        "n_normalized_rows_v57": 103270,
+        "n_raw_rows_v57": 103270,
+        "n_source_groups_v57": 1,
+        "n_temperature_bins_v57": 1,
+        "n_usable_rows_v57": 36,
+        "schema": "ccdr-materials-confirm-v57",
+        "score_0_10_v57": 9,
+        "strict_confirm_ready_v57": false,
+        "test_id": "T32"
+      },
+      "score_0_10_v57": 9,
+      "status": "microstructure_confirm_gates_pending_v57",
+      "strict_confirm_ready_v57": false
+    }
+  },
+  "auto_data_improvements_v58": {
+    "materials_confirm_v57": {
+      "artifacts": {
+        "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+        "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+        "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+        "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+        "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+      },
+      "failed_subgates": [
+        ">=5_independent_source_groups",
+        ">=5_material_families",
+        ">=3_temperature_bins"
+      ],
+      "model": {
+        "failed_subgates_v57": [
+          ">=5_independent_source_groups",
+          ">=5_material_families",
+          ">=3_temperature_bins"
+        ],
+        "n_dedup_rows_v57": 53521,
+        "n_material_families_v57": 1,
+        "n_normalized_rows_v57": 103270,
+        "n_raw_rows_v57": 103270,
+        "n_source_groups_v57": 1,
+        "n_temperature_bins_v57": 1,
+        "n_usable_rows_v57": 36,
+        "schema": "ccdr-materials-confirm-v57",
+        "score_0_10_v57": 9,
+        "strict_confirm_ready_v57": false,
+        "test_id": "T32"
+      },
+      "score_0_10_v57": 9,
+      "status": "microstructure_confirm_gates_pending_v57",
+      "strict_confirm_ready_v57": false
+    },
+    "materials_confirm_v58": {
+      "artifacts": {
+        "strict_contract_csv": "data/generated/t32_materials_strict_contract_v58.csv",
+        "strict_contract_json": "data/generated/t32_materials_strict_contract_v58.json",
+        "v57_dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+        "v57_jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+        "v57_rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+      },
+      "base_v57": {
+        "artifacts": {
+          "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+          "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+          "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+          "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+          "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+        },
+        "failed_subgates": [
+          ">=5_independent_source_groups",
+          ">=5_material_families",
+          ">=3_temperature_bins"
+        ],
+        "model": {
+          "failed_subgates_v57": [
+            ">=5_independent_source_groups",
+            ">=5_material_families",
+            ">=3_temperature_bins"
+          ],
+          "n_dedup_rows_v57": 53521,
+          "n_material_families_v57": 1,
+          "n_normalized_rows_v57": 103270,
+          "n_raw_rows_v57": 103270,
+          "n_source_groups_v57": 1,
+          "n_temperature_bins_v57": 1,
+          "n_usable_rows_v57": 36,
+          "schema": "ccdr-materials-confirm-v57",
+          "score_0_10_v57": 9,
+          "strict_confirm_ready_v57": false,
+          "test_id": "T32"
+        },
+        "score_0_10_v57": 9,
+        "status": "microstructure_confirm_gates_pending_v57",
+        "strict_confirm_ready_v57": false
+      },
+      "contract": {
+        "failed_subgates_v58": ">=5_independent_source_groups|>=5_material_families|>=3_temperature_bins",
+        "n_dedup_rows_v58": 53521,
+        "n_material_families_v58": 1,
+        "n_raw_rows_v58": 103270,
+        "n_source_groups_v58": 1,
+        "n_temperature_bins_v58": 1,
+        "n_usable_rows_v58": 36,
+        "public_claim_policy_v58": "near-confirm until strict gates pass and dashboard lists it under confirmed_public_now",
+        "required_columns_v58": [
+          "source_url",
+          "sample_id",
+          "material",
+          "material_family",
+          "temperature_K",
+          "kappa_W_mK",
+          "grain_size_nm_or_um",
+          "microstructure_method",
+          "nanocrystalline_yes_no",
+          "boundary_density_proxy"
+        ],
+        "schema": "ccdr-materials-strict-contract-v58",
+        "score_0_10_v58": 9,
+        "strict_confirm_ready_v58": false,
+        "test_id": "T32"
+      },
+      "failed_subgates_v58": [
+        ">=5_independent_source_groups",
+        ">=5_material_families",
+        ">=3_temperature_bins"
+      ],
+      "schema": "ccdr-materials-confirm-v58",
+      "score_0_10_v58": 9,
+      "status": "materials_confirm_gates_pending_v58",
+      "strict_confirm_ready_v58": false,
+      "test_id": "T32"
+    }
+  },
+  "auto_data_improvements_v59": {
+    "materials_confirm_v59": {
+      "artifacts": {
+        "dedup": "data/generated/t32_microstructure_dedup_rows_v59.csv",
+        "gates": "data/generated/t32_microstructure_confirm_gates_v59.json",
+        "jackknife": "data/generated/t32_microstructure_grouped_jackknife_v59.csv",
+        "normalized": "data/generated/t32_microstructure_normalized_rows_v59.csv",
+        "rejections": "data/generated/t32_microstructure_rejection_diagnostics_v59.csv"
+      },
+      "base_v58": {
+        "artifacts": {
+          "strict_contract_csv": "data/generated/t32_materials_strict_contract_v58.csv",
+          "strict_contract_json": "data/generated/t32_materials_strict_contract_v58.json",
+          "v57_dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+          "v57_jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+          "v57_rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+        },
+        "base_v57": {
+          "artifacts": {
+            "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+            "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+            "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+            "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+            "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+          },
+          "failed_subgates": [
+            ">=5_independent_source_groups",
+            ">=5_material_families",
+            ">=3_temperature_bins"
+          ],
+          "model": {
+            "failed_subgates_v57": [
+              ">=5_independent_source_groups",
+              ">=5_material_families",
+              ">=3_temperature_bins"
+            ],
+            "n_dedup_rows_v57": 53521,
+            "n_material_families_v57": 1,
+            "n_normalized_rows_v57": 103270,
+            "n_raw_rows_v57": 103270,
+            "n_source_groups_v57": 1,
+            "n_temperature_bins_v57": 1,
+            "n_usable_rows_v57": 36,
+            "schema": "ccdr-materials-confirm-v57",
+            "score_0_10_v57": 9,
+            "strict_confirm_ready_v57": false,
+            "test_id": "T32"
+          },
+          "score_0_10_v57": 9,
+          "status": "microstructure_confirm_gates_pending_v57",
+          "strict_confirm_ready_v57": false
+        },
+        "contract": {
+          "failed_subgates_v58": ">=5_independent_source_groups|>=5_material_families|>=3_temperature_bins",
+          "n_dedup_rows_v58": 53521,
+          "n_material_families_v58": 1,
+          "n_raw_rows_v58": 103270,
+          "n_source_groups_v58": 1,
+          "n_temperature_bins_v58": 1,
+          "n_usable_rows_v58": 36,
+          "public_claim_policy_v58": "near-confirm until strict gates pass and dashboard lists it under confirmed_public_now",
+          "required_columns_v58": [
+            "source_url",
+            "sample_id",
+            "material",
+            "material_family",
+            "temperature_K",
+            "kappa_W_mK",
+            "grain_size_nm_or_um",
+            "microstructure_method",
+            "nanocrystalline_yes_no",
+            "boundary_density_proxy"
+          ],
+          "schema": "ccdr-materials-strict-contract-v58",
+          "score_0_10_v58": 9,
+          "strict_confirm_ready_v58": false,
+          "test_id": "T32"
+        },
+        "failed_subgates_v58": [
+          ">=5_independent_source_groups",
+          ">=5_material_families",
+          ">=3_temperature_bins"
+        ],
+        "schema": "ccdr-materials-confirm-v58",
+        "score_0_10_v58": 9,
+        "status": "materials_confirm_gates_pending_v58",
+        "strict_confirm_ready_v58": false,
+        "test_id": "T32"
+      },
+      "failed_subgates_v59": [
+        ">=5_material_families",
+        ">=3_temperature_bins",
+        "microstructure_model_beats_temperature_only_AIC_BIC",
+        "bootstrap_grain_sign_fraction_ge_0p80",
+        "source_jackknife_pass_fraction_ge_0p80"
+      ],
+      "gate": {
+        "bootstrap_v59": {
+          "available": true,
+          "grain_sign_positive_fraction": 0.0,
+          "model_win_fraction": 0.0,
+          "n_boot": 200
+        },
+        "delta_aic_micro_minus_temp_v59": 4.000000000001819,
+        "delta_bic_micro_minus_temp_v59": 15.502090235945616,
+        "failed_subgates_v59": [
+          ">=5_material_families",
+          ">=3_temperature_bins",
+          "microstructure_model_beats_temperature_only_AIC_BIC",
+          "bootstrap_grain_sign_fraction_ge_0p80",
+          "source_jackknife_pass_fraction_ge_0p80"
+        ],
+        "material_jackknife_pass_fraction_v59": 0.0,
+        "microstructure_fit_v59": {
+          "aic": -4622.662083648999,
+          "available": true,
+          "beta": [
+            1.8062918705007174,
+            5.536493815043538e-14,
+            0.0,
+            1.8062918705008102
+          ],
+          "bic": -4599.657903177112,
+          "n": 2324,
+          "p": 4,
+          "rss": 316.8744045017144
+        },
+        "n_dedup_rows_v59": 200657,
+        "n_material_families_v59": 2,
+        "n_normalized_rows_v59": 250672,
+        "n_raw_rows_v59": 250672,
+        "n_sources_v59": 6,
+        "n_temperature_bins_v59": 1,
+        "n_usable_rows_v59": 2324,
+        "schema": "ccdr-materials-confirm-gates-v59",
+        "source_jackknife_pass_fraction_v59": 0.0,
+        "strict_confirm_ready_v59": false,
+        "temperature_bin_jackknife_pass_fraction_v59": 0.0,
+        "temperature_only_fit_v59": {
+          "aic": -4626.662083649001,
+          "available": true,
+          "beta": [
+            3.61258374100193,
+            -5.69081804589521e-14
+          ],
+          "bic": -4615.159993413057,
+          "n": 2324,
+          "p": 2,
+          "rss": 316.8744045017143
+        },
+        "test_id": "T32"
+      },
+      "schema": "ccdr-materials-confirm-v59",
+      "score_0_10_v59": 9,
+      "status": "materials_confirm_gates_pending_v59",
+      "strict_confirm_ready_v59": false,
+      "test_id": "T32"
+    }
+  },
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v56": {
+    "blocker_type_v56": "restore_measured_microstructure_model_output",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_runtime_output_missing",
+    "expected_effort_v56": "medium",
+    "next_data_source_v56": "measured \u03ba(T)+SEM/TEM/XRD grain-size rows; rerun strict dedup/bin/jackknife model",
+    "rank_score_0_10_v56": 9,
+    "test_id": "T32"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "measured_microstructure_confirm_gates_pending",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_next_gate_required",
+    "expected_effort_v57": "medium",
+    "next_data_source_v57": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+    "rank_score_0_10_v57": 9,
+    "test_id": "T32"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "measured_microstructure_confirm_gates_pending",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_next_gate_required",
+    "expected_effort_v58": "medium",
+    "next_data_source_v58": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+    "rank_score_0_10_v58": 9,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T32"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "measured_microstructure_confirm_gates_pending",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_next_gate_required",
+    "expected_effort_v59": "medium",
+    "next_data_source_v59": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+    "rank_score_0_10_v59": 9,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T32"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "measured \u03ba(T)+SEM/TEM/XRD grain-size rows; rerun strict dedup/bin/jackknife model",
+    "single_next_blocker": "restore_measured_microstructure_model_output",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "restore_measured_microstructure_model_output"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+    "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+  },
+  "confirmation_label_v56": "not_confirmed_runtime_output_missing",
+  "confirmation_label_v57": "not_confirmed_next_gate_required",
+  "confirmation_label_v58": "not_confirmed_next_gate_required",
+  "confirmation_label_v59": "not_confirmed_next_gate_required",
+  "confirmation_status_v56": "not_confirmed_runtime_output_missing",
+  "confirmation_status_v57": "not_confirmed_next_gate_required",
+  "confirmation_status_v58": "not_confirmed_next_gate_required",
+  "confirmation_status_v59": "not_confirmed_next_gate_required",
+  "data_status_v56": "measured_microstructure_rows_required",
+  "data_status_v57": "measured_microstructure_rows_available_or_required",
+  "data_status_v58": "measured_microstructure_rows_available_or_required",
+  "data_status_v59": "measured_microstructure_rows_required",
+  "evidence_status_v56": "near_confirm_route_not_evaluated_this_run",
+  "evidence_status_v57": "near_confirm_or_confirm_ready",
+  "evidence_status_v58": "near_confirm_or_confirm_ready",
+  "evidence_status_v59": "near_confirm_or_model_gate",
+  "execution_status_v56": "missing_output_repaired_v56",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "fallback_repaired_v56": true,
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 9,
+    "strict_gate_remaining": [
+      "restore_measured_microstructure_model_output"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": true,
+    "model_rows_available": true,
+    "primary_table_available": true,
+    "score_0_10": 9,
+    "strict_gate_remaining": [
+      "measured_microstructure_confirm_gates_pending"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": true,
+    "model_rows_available": true,
+    "primary_table_available": true,
+    "score_0_10": 9,
+    "strict_gate_remaining": [
+      "measured_microstructure_confirm_gates_pending"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": true,
+    "model_rows_available": true,
+    "primary_table_available": true,
+    "score_0_10": 9,
+    "strict_gate_remaining": [
+      "measured_microstructure_confirm_gates_pending"
+    ]
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v35": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v36": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v37": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v38": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "measured \u03ba(T)+SEM/TEM/XRD grain-size rows; rerun strict dedup/bin/jackknife model",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "restore_measured_microstructure_model_output",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_runtime_output_missing",
+      "expected_effort_v56": "medium",
+      "next_data_source_v56": "measured \u03ba(T)+SEM/TEM/XRD grain-size rows; rerun strict dedup/bin/jackknife model",
+      "rank_score_0_10_v56": 9,
+      "test_id": "T32"
+    },
+    "confirmation_label": "not_confirmed_runtime_output_missing",
+    "near_confirm_score": {
+      "fallback_repaired_v56": true,
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 9,
+      "strict_gate_remaining": [
+        "restore_measured_microstructure_model_output"
+      ]
+    },
+    "single_next_blocker": "restore_measured_microstructure_model_output",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_runtime_output_missing",
+      "data_status_v56": "measured_microstructure_rows_required",
+      "evidence_status_v56": "near_confirm_route_not_evaluated_this_run",
+      "execution_status_v56": "missing_output_repaired_v56"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v56": {
+      "fallback_repaired_v56": true,
+      "process_status": "process_timeout",
+      "stderr_tail": "pd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: strict_usable_v47, 1: material_v48, 2: microstructure_class_v48, 3: source_reference_v48, 4: strict_usable_v48, 5: material_v49, 6: microstructure_class_v49, 7: source_reference_v49, 8: strict_usable_v49, 9: material_v50, 10: source_reference_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: measurement_method) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\n",
+      "stdout_tail": ""
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "restore_measured_microstructure_model_output"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_next_gate_required",
+      "expected_effort_v57": "medium",
+      "next_data_source_v57": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+      "rank_score_0_10_v57": 9,
+      "test_id": "T32"
+    },
+    "confirmation_label": "not_confirmed_next_gate_required",
+    "near_confirm_score": {
+      "model_gate_attempted": true,
+      "model_rows_available": true,
+      "primary_table_available": true,
+      "score_0_10": 9,
+      "strict_gate_remaining": [
+        "measured_microstructure_confirm_gates_pending"
+      ]
+    },
+    "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_next_gate_required",
+      "data_status_v57": "measured_microstructure_rows_available_or_required",
+      "evidence_status_v57": "near_confirm_or_confirm_ready",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v57": {
+      "auto_data_improvements_v57": {
+        "materials_confirm_v57": {
+          "artifacts": {
+            "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+            "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+            "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+            "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+            "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+          },
+          "failed_subgates": [
+            ">=5_independent_source_groups",
+            ">=5_material_families",
+            ">=3_temperature_bins"
+          ],
+          "model": {
+            "failed_subgates_v57": [
+              ">=5_independent_source_groups",
+              ">=5_material_families",
+              ">=3_temperature_bins"
+            ],
+            "n_dedup_rows_v57": 53521,
+            "n_material_families_v57": 1,
+            "n_normalized_rows_v57": 103270,
+            "n_raw_rows_v57": 103270,
+            "n_source_groups_v57": 1,
+            "n_temperature_bins_v57": 1,
+            "n_usable_rows_v57": 36,
+            "schema": "ccdr-materials-confirm-v57",
+            "score_0_10_v57": 9,
+            "strict_confirm_ready_v57": false,
+            "test_id": "T32"
+          },
+          "score_0_10_v57": 9,
+          "status": "microstructure_confirm_gates_pending_v57",
+          "strict_confirm_ready_v57": false
+        }
+      },
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+        "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": true,
+        "model_rows_available": true,
+        "primary_table_available": true,
+        "score_0_10": 9,
+        "strict_gate_remaining": [
+          "measured_microstructure_confirm_gates_pending"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_next_gate_required",
+        "data_status_v57": "measured_microstructure_rows_available_or_required",
+        "evidence_status_v57": "near_confirm_or_confirm_ready",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_next_gate_required",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+      "rank_score_0_10_v58": 9,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T32"
+    },
+    "confirmation_label": "not_confirmed_next_gate_required",
+    "near_confirm_score": {
+      "model_gate_attempted": true,
+      "model_rows_available": true,
+      "primary_table_available": true,
+      "score_0_10": 9,
+      "strict_gate_remaining": [
+        "measured_microstructure_confirm_gates_pending"
+      ]
+    },
+    "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_next_gate_required",
+      "data_status_v58": "measured_microstructure_rows_available_or_required",
+      "evidence_status_v58": "near_confirm_or_confirm_ready",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v58": {
+      "auto_data_improvements_v58": {
+        "materials_confirm_v57": {
+          "artifacts": {
+            "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+            "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+            "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+            "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+            "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+          },
+          "failed_subgates": [
+            ">=5_independent_source_groups",
+            ">=5_material_families",
+            ">=3_temperature_bins"
+          ],
+          "model": {
+            "failed_subgates_v57": [
+              ">=5_independent_source_groups",
+              ">=5_material_families",
+              ">=3_temperature_bins"
+            ],
+            "n_dedup_rows_v57": 53521,
+            "n_material_families_v57": 1,
+            "n_normalized_rows_v57": 103270,
+            "n_raw_rows_v57": 103270,
+            "n_source_groups_v57": 1,
+            "n_temperature_bins_v57": 1,
+            "n_usable_rows_v57": 36,
+            "schema": "ccdr-materials-confirm-v57",
+            "score_0_10_v57": 9,
+            "strict_confirm_ready_v57": false,
+            "test_id": "T32"
+          },
+          "score_0_10_v57": 9,
+          "status": "microstructure_confirm_gates_pending_v57",
+          "strict_confirm_ready_v57": false
+        },
+        "materials_confirm_v58": {
+          "artifacts": {
+            "strict_contract_csv": "data/generated/t32_materials_strict_contract_v58.csv",
+            "strict_contract_json": "data/generated/t32_materials_strict_contract_v58.json",
+            "v57_dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+            "v57_jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+            "v57_rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+          },
+          "base_v57": {
+            "artifacts": {
+              "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+              "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+              "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+              "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+              "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+            },
+            "failed_subgates": [
+              ">=5_independent_source_groups",
+              ">=5_material_families",
+              ">=3_temperature_bins"
+            ],
+            "model": {
+              "failed_subgates_v57": [
+                ">=5_independent_source_groups",
+                ">=5_material_families",
+                ">=3_temperature_bins"
+              ],
+              "n_dedup_rows_v57": 53521,
+              "n_material_families_v57": 1,
+              "n_normalized_rows_v57": 103270,
+              "n_raw_rows_v57": 103270,
+              "n_source_groups_v57": 1,
+              "n_temperature_bins_v57": 1,
+              "n_usable_rows_v57": 36,
+              "schema": "ccdr-materials-confirm-v57",
+              "score_0_10_v57": 9,
+              "strict_confirm_ready_v57": false,
+              "test_id": "T32"
+            },
+            "score_0_10_v57": 9,
+            "status": "microstructure_confirm_gates_pending_v57",
+            "strict_confirm_ready_v57": false
+          },
+          "contract": {
+            "failed_subgates_v58": ">=5_independent_source_groups|>=5_material_families|>=3_temperature_bins",
+            "n_dedup_rows_v58": 53521,
+            "n_material_families_v58": 1,
+            "n_raw_rows_v58": 103270,
+            "n_source_groups_v58": 1,
+            "n_temperature_bins_v58": 1,
+            "n_usable_rows_v58": 36,
+            "public_claim_policy_v58": "near-confirm until strict gates pass and dashboard lists it under confirmed_public_now",
+            "required_columns_v58": [
+              "source_url",
+              "sample_id",
+              "material",
+              "material_family",
+              "temperature_K",
+              "kappa_W_mK",
+              "grain_size_nm_or_um",
+              "microstructure_method",
+              "nanocrystalline_yes_no",
+              "boundary_density_proxy"
+            ],
+            "schema": "ccdr-materials-strict-contract-v58",
+            "score_0_10_v58": 9,
+            "strict_confirm_ready_v58": false,
+            "test_id": "T32"
+          },
+          "failed_subgates_v58": [
+            ">=5_independent_source_groups",
+            ">=5_material_families",
+            ">=3_temperature_bins"
+          ],
+          "schema": "ccdr-materials-confirm-v58",
+          "score_0_10_v58": 9,
+          "status": "materials_confirm_gates_pending_v58",
+          "strict_confirm_ready_v58": false,
+          "test_id": "T32"
+        }
+      },
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": true,
+        "model_rows_available": true,
+        "primary_table_available": true,
+        "score_0_10": 9,
+        "strict_gate_remaining": [
+          "measured_microstructure_confirm_gates_pending"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_next_gate_required",
+        "data_status_v58": "measured_microstructure_rows_available_or_required",
+        "evidence_status_v58": "near_confirm_or_confirm_ready",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_next_gate_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+      "rank_score_0_10_v59": 9,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T32"
+    },
+    "confirmation_label": "not_confirmed_next_gate_required",
+    "near_confirm_score": {
+      "model_gate_attempted": true,
+      "model_rows_available": true,
+      "primary_table_available": true,
+      "score_0_10": 9,
+      "strict_gate_remaining": [
+        "measured_microstructure_confirm_gates_pending"
+      ]
+    },
+    "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_next_gate_required",
+      "data_status_v59": "measured_microstructure_rows_required",
+      "evidence_status_v59": "near_confirm_or_model_gate",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T32",
+    "v59": {
+      "auto_data_improvements_v59": {
+        "materials_confirm_v59": {
+          "artifacts": {
+            "dedup": "data/generated/t32_microstructure_dedup_rows_v59.csv",
+            "gates": "data/generated/t32_microstructure_confirm_gates_v59.json",
+            "jackknife": "data/generated/t32_microstructure_grouped_jackknife_v59.csv",
+            "normalized": "data/generated/t32_microstructure_normalized_rows_v59.csv",
+            "rejections": "data/generated/t32_microstructure_rejection_diagnostics_v59.csv"
+          },
+          "base_v58": {
+            "artifacts": {
+              "strict_contract_csv": "data/generated/t32_materials_strict_contract_v58.csv",
+              "strict_contract_json": "data/generated/t32_materials_strict_contract_v58.json",
+              "v57_dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+              "v57_jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+              "v57_rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+            },
+            "base_v57": {
+              "artifacts": {
+                "dedup_rows": "data/generated/t32_microstructure_dedup_rows_v57.csv",
+                "gates": "data/generated/t32_microstructure_confirm_gates_v57.csv",
+                "jackknife": "data/generated/t32_microstructure_jackknife_v57.csv",
+                "normalized_rows": "data/generated/t32_microstructure_normalized_rows_v57.csv",
+                "rejection_diagnostics": "data/generated/t32_microstructure_rejection_diagnostics_v57.csv"
+              },
+              "failed_subgates": [
+                ">=5_independent_source_groups",
+                ">=5_material_families",
+                ">=3_temperature_bins"
+              ],
+              "model": {
+                "failed_subgates_v57": [
+                  ">=5_independent_source_groups",
+                  ">=5_material_families",
+                  ">=3_temperature_bins"
+                ],
+                "n_dedup_rows_v57": 53521,
+                "n_material_families_v57": 1,
+                "n_normalized_rows_v57": 103270,
+                "n_raw_rows_v57": 103270,
+                "n_source_groups_v57": 1,
+                "n_temperature_bins_v57": 1,
+                "n_usable_rows_v57": 36,
+                "schema": "ccdr-materials-confirm-v57",
+                "score_0_10_v57": 9,
+                "strict_confirm_ready_v57": false,
+                "test_id": "T32"
+              },
+              "score_0_10_v57": 9,
+              "status": "microstructure_confirm_gates_pending_v57",
+              "strict_confirm_ready_v57": false
+            },
+            "contract": {
+              "failed_subgates_v58": ">=5_independent_source_groups|>=5_material_families|>=3_temperature_bins",
+              "n_dedup_rows_v58": 53521,
+              "n_material_families_v58": 1,
+              "n_raw_rows_v58": 103270,
+              "n_source_groups_v58": 1,
+              "n_temperature_bins_v58": 1,
+              "n_usable_rows_v58": 36,
+              "public_claim_policy_v58": "near-confirm until strict gates pass and dashboard lists it under confirmed_public_now",
+              "required_columns_v58": [
+                "source_url",
+                "sample_id",
+                "material",
+                "material_family",
+                "temperature_K",
+                "kappa_W_mK",
+                "grain_size_nm_or_um",
+                "microstructure_method",
+                "nanocrystalline_yes_no",
+                "boundary_density_proxy"
+              ],
+              "schema": "ccdr-materials-strict-contract-v58",
+              "score_0_10_v58": 9,
+              "strict_confirm_ready_v58": false,
+              "test_id": "T32"
+            },
+            "failed_subgates_v58": [
+              ">=5_independent_source_groups",
+              ">=5_material_families",
+              ">=3_temperature_bins"
+            ],
+            "schema": "ccdr-materials-confirm-v58",
+            "score_0_10_v58": 9,
+            "status": "materials_confirm_gates_pending_v58",
+            "strict_confirm_ready_v58": false,
+            "test_id": "T32"
+          },
+          "failed_subgates_v59": [
+            ">=5_material_families",
+            ">=3_temperature_bins",
+            "microstructure_model_beats_temperature_only_AIC_BIC",
+            "bootstrap_grain_sign_fraction_ge_0p80",
+            "source_jackknife_pass_fraction_ge_0p80"
+          ],
+          "gate": {
+            "bootstrap_v59": {
+              "available": true,
+              "grain_sign_positive_fraction": 0.0,
+              "model_win_fraction": 0.0,
+              "n_boot": 200
+            },
+            "delta_aic_micro_minus_temp_v59": 4.000000000001819,
+            "delta_bic_micro_minus_temp_v59": 15.502090235945616,
+            "failed_subgates_v59": [
+              ">=5_material_families",
+              ">=3_temperature_bins",
+              "microstructure_model_beats_temperature_only_AIC_BIC",
+              "bootstrap_grain_sign_fraction_ge_0p80",
+              "source_jackknife_pass_fraction_ge_0p80"
+            ],
+            "material_jackknife_pass_fraction_v59": 0.0,
+            "microstructure_fit_v59": {
+              "aic": -4622.662083648999,
+              "available": true,
+              "beta": [
+                1.8062918705007174,
+                5.536493815043538e-14,
+                0.0,
+                1.8062918705008102
+              ],
+              "bic": -4599.657903177112,
+              "n": 2324,
+              "p": 4,
+              "rss": 316.8744045017144
+            },
+            "n_dedup_rows_v59": 200657,
+            "n_material_families_v59": 2,
+            "n_normalized_rows_v59": 250672,
+            "n_raw_rows_v59": 250672,
+            "n_sources_v59": 6,
+            "n_temperature_bins_v59": 1,
+            "n_usable_rows_v59": 2324,
+            "schema": "ccdr-materials-confirm-gates-v59",
+            "source_jackknife_pass_fraction_v59": 0.0,
+            "strict_confirm_ready_v59": false,
+            "temperature_bin_jackknife_pass_fraction_v59": 0.0,
+            "temperature_only_fit_v59": {
+              "aic": -4626.662083649001,
+              "available": true,
+              "beta": [
+                3.61258374100193,
+                -5.69081804589521e-14
+              ],
+              "bic": -4615.159993413057,
+              "n": 2324,
+              "p": 2,
+              "rss": 316.8744045017143
+            },
+            "test_id": "T32"
+          },
+          "schema": "ccdr-materials-confirm-v59",
+          "score_0_10_v59": 9,
+          "status": "materials_confirm_gates_pending_v59",
+          "strict_confirm_ready_v59": false,
+          "test_id": "T32"
+        }
+      },
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "measured_microstructure_confirm_gates_pending",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "measured_microstructure_confirm_gates_pending"
+  },
+  "prediction_ids": [
+    "MAT3"
+  ],
+  "prediction_names": [
+    "CCDR low-temperature nanocrystalline \u03ba exponent near T^1/2"
+  ],
+  "process_status": "process_timeout",
+  "programmatic_verdict": "data_limited_runtime_output_repaired_v56",
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "fallback_rows_are_not_confirmations_v56": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "quality_patch_version": "+v56_missing_output_repair+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "schema": "ccdr-tierb-result-v59-fallback-repaired",
+  "status": "data_limited_runtime_output_repaired_v57",
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_runtime_output_missing",
+    "data_status_v56": "measured_microstructure_rows_required",
+    "evidence_status_v56": "near_confirm_route_not_evaluated_this_run",
+    "execution_status_v56": "missing_output_repaired_v56"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_next_gate_required",
+    "data_status_v57": "measured_microstructure_rows_available_or_required",
+    "evidence_status_v57": "near_confirm_or_confirm_ready",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_next_gate_required",
+    "data_status_v58": "measured_microstructure_rows_available_or_required",
+    "evidence_status_v58": "near_confirm_or_confirm_ready",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_next_gate_required",
+    "data_status_v59": "measured_microstructure_rows_required",
+    "evidence_status_v59": "near_confirm_or_model_gate",
+    "execution_status_v59": "ok"
+  },
+  "stderr_tail": "e.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: material_v48, 1: microstructure_class_v48, 2: source_reference_v48, 3: strict_usable_v48) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: strict_usable_v47, 1: material_v48, 2: microstructure_class_v48, 3: source_reference_v48, 4: strict_usable_v48, 5: material_v49, 6: microstructure_class_v49, 7: source_reference_v49, 8: strict_usable_v49, 9: material_v50, 10: source_reference_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: measurement_method) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\n",
+  "stdout_tail": "",
+  "test_id": "T32",
+  "test_name": "low-T kappa exponent",
+  "v57_fallback_context": {
+    "process_status": "process_timeout",
+    "stderr_tail": "pd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: strict_usable_v47, 1: material_v48, 2: microstructure_class_v48, 3: source_reference_v48, 4: strict_usable_v48, 5: material_v49, 6: microstructure_class_v49, 7: source_reference_v49, 8: strict_usable_v49, 9: material_v50, 10: source_reference_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: measurement_method) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\n",
+    "stdout_tail": ""
+  },
+  "v58_fallback_context": {
+    "process_status": "process_timeout",
+    "stderr_tail": "pd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: strict_usable_v47, 1: material_v48, 2: microstructure_class_v48, 3: source_reference_v48, 4: strict_usable_v48, 5: material_v49, 6: microstructure_class_v49, 7: source_reference_v49, 8: strict_usable_v49, 9: material_v50, 10: source_reference_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: measurement_method) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\n",
+    "stdout_tail": ""
+  },
+  "v59_fallback_context": {
+    "process_status": "process_timeout",
+    "stderr_tail": "pd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: strict_usable_v47, 1: material_v48, 2: microstructure_class_v48, 3: source_reference_v48, 4: strict_usable_v48, 5: material_v49, 6: microstructure_class_v49, 7: source_reference_v49, 8: strict_usable_v49, 9: material_v50, 10: source_reference_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:19939: DtypeWarning: Columns (0: measurement_method) have mixed types. Specify dtype option on import or set low_memory=False.\n  df=pd.read_csv(f, sep=sep)\n",
+    "stdout_tail": ""
+  }
+}

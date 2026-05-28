@@ -1,0 +1,27 @@
+{
+  "accepted_alpha_row": null,
+  "alpha_rows": [],
+  "claim_policy": "P33 confirmation requires measured alpha_high/alpha_low with covariance and density/sky/redshift nulls. Template rows do not promote.",
+  "measurement_present": false,
+  "n_alpha_rows": 0,
+  "p33_publication_confirm_gate_v46": {
+    "alpha_high_low_measured": false,
+    "covariance_ready": null,
+    "delta_alpha_nonzero": false,
+    "density_label_shuffle_pass": null,
+    "eligible_for_confirm_like": false,
+    "measured_alpha_split_v46": true,
+    "missing": [
+      "alpha_high_low_measured",
+      "covariance_ready",
+      "density_label_shuffle_pass",
+      "sky_shuffle_pass",
+      "redshift_jackknife_stable",
+      "delta_alpha_nonzero"
+    ],
+    "redshift_jackknife_stable": null,
+    "sky_shuffle_pass": null
+  },
+  "template_csv_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_template_v46.csv",
+  "version": "v46"
+}

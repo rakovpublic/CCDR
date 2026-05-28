@@ -1,0 +1,29 @@
+{
+  "chi2_best_wilson": null,
+  "chi2_sm": null,
+  "claim_policy": "P41 confirmation requires measured q2/value/error rows, SM and Wilson predictions, Δχ²>=9, and CP controls null/weak. Templates/readiness rows do not promote.",
+  "cp_control_null_p_proxy": null,
+  "delta_chi2_sm_minus_wilson": null,
+  "n_cp_control_rows": 0,
+  "n_non_cp_rows": 0,
+  "n_rows": 0,
+  "p41_major_claim_gate_v46": {
+    "cp_control_rows": false,
+    "cp_controls_null_or_weak": false,
+    "eligible_for_confirm_like": false,
+    "likelihood_values": false,
+    "measured_q2_table_v46": true,
+    "missing": [
+      "q2_numeric_rows",
+      "cp_control_rows",
+      "likelihood_values",
+      "wilson_sm_delta_chi2",
+      "cp_controls_null_or_weak"
+    ],
+    "q2_numeric_rows": false,
+    "wilson_sm_delta_chi2": false
+  },
+  "rows": [],
+  "template_csv_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_q2_wilson_likelihood_template_v46.csv",
+  "version": "v46"
+}

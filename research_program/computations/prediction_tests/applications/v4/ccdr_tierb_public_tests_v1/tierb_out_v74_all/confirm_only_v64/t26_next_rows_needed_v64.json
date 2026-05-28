@@ -1,0 +1,40 @@
+{
+  "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+  "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+  "current_next_source_v64": "Certified fusion per-shot ELM energy rows with pedestal pressure/volume/drop columns.",
+  "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+  "required_packs_v64": [
+    {
+      "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md",
+      "dedup_key_v64": [
+        "test_id",
+        "device",
+        "shot",
+        "time_or_slice",
+        "quantity",
+        "source_url"
+      ],
+      "minimum_gate_v64": {
+        "min_exact_rows": 20
+      },
+      "pack": "fusion",
+      "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion",
+      "required_columns_v64": [
+        "test_id",
+        "certified_raw_row",
+        "device",
+        "shot",
+        "time_or_slice",
+        "quantity",
+        "value",
+        "unit",
+        "source_url"
+      ],
+      "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json",
+      "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+    }
+  ],
+  "schema": "ccdr-v64-next-rows-needed",
+  "test_id": "T26",
+  "test_name": "fusion ELM energy scaling"
+}

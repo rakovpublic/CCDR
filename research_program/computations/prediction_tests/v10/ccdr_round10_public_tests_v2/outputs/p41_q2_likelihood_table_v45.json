@@ -1,0 +1,29 @@
+{
+  "chi2_best_wilson": null,
+  "chi2_sm": null,
+  "claim_policy": "P41 major claim needs measured q2/value/error rows, SM and Wilson predictions, \u0394\u03c7\u00b2>=9, and CP controls null/weak.",
+  "cp_control_null_p_proxy": null,
+  "delta_chi2_sm_minus_wilson": null,
+  "n_cp_control_rows": 0,
+  "n_non_cp_rows": 0,
+  "n_rows": 0,
+  "p41_major_claim_gate_v45": {
+    "cp_control_rows": false,
+    "cp_controls_null_or_weak": false,
+    "eligible_for_confirm_like": false,
+    "likelihood_values": false,
+    "missing": [
+      "q2_numeric_rows",
+      "cp_control_rows",
+      "likelihood_values",
+      "wilson_sm_delta_chi2",
+      "cp_controls_null_or_weak"
+    ],
+    "q2_likelihood_table_v45": true,
+    "q2_numeric_rows": false,
+    "wilson_sm_delta_chi2": false
+  },
+  "rows": [],
+  "template_csv_path": "outputs\\p41_q2_likelihood_template_v45.csv",
+  "version": "v45"
+}

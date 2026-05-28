@@ -1,0 +1,428 @@
+{
+  "available": true,
+  "claim_scope": "checksum/sanity diagnostics; abort claim if checksums/sign convention drift",
+  "map_sign_convention": "ACT_row_order_full_alm_v1",
+  "variants": [
+    {
+      "available": true,
+      "checksum16_first4096": "19cd7da421bf1da5",
+      "finite_fraction": 1.0,
+      "map_info": {
+        "available": true,
+        "info": {
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 4.636254876378636,
+              "mean": 0.0003382175867158218,
+              "median": 0.0001731658883620834,
+              "min": -4.536126854694174,
+              "n_finite_pixels": 49152,
+              "n_total_pixels": 49152,
+              "std": 0.45482407405626935
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 49152
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8005998,
+              "nside": 64
+            }
+          },
+          "variant": "baseline"
+        },
+        "nside": 64,
+        "variant": "baseline"
+      },
+      "max": 4.636254876378636,
+      "mean": 0.0003382175867158218,
+      "median": 0.0001731658883620834,
+      "min": -4.536126854694174,
+      "nside": 64,
+      "sample_pixels": [
+        {
+          "pix": 0,
+          "value": -0.0010722790991460902
+        },
+        {
+          "pix": 1,
+          "value": 0.01704549857658741
+        },
+        {
+          "pix": 2,
+          "value": 0.0024384986145674237
+        },
+        {
+          "pix": 64,
+          "value": 0.02065370022409859
+        },
+        {
+          "pix": 128,
+          "value": 0.01911341848352683
+        },
+        {
+          "pix": 1024,
+          "value": -0.006836658426160944
+        },
+        {
+          "pix": 4096,
+          "value": 0.006279138256664266
+        }
+      ],
+      "std": 0.45482407405626935,
+      "variant": "baseline"
+    },
+    {
+      "available": true,
+      "checksum16_first4096": "9ff3412b1c58b8cb",
+      "finite_fraction": 1.0,
+      "map_info": {
+        "available": true,
+        "info": {
+          "extract": {
+            "member": "./maps/f150/kappa_alm_data_act_dr6_lensing_v1_f150.fits",
+            "path": ".ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits"
+          },
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 6.190237105757224,
+              "mean": -0.002042055817733743,
+              "median": -5.4211831291635544e-05,
+              "min": -5.938612908817721,
+              "n_finite_pixels": 49152,
+              "n_total_pixels": 49152,
+              "std": 0.5767789893521202
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 49152
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8005998,
+              "nside": 64
+            }
+          },
+          "variant": "f150"
+        },
+        "nside": 64,
+        "variant": "f150"
+      },
+      "max": 6.190237105757224,
+      "mean": -0.002042055817733743,
+      "median": -5.4211831291635544e-05,
+      "min": -5.938612908817721,
+      "nside": 64,
+      "sample_pixels": [
+        {
+          "pix": 0,
+          "value": -0.016089761244491053
+        },
+        {
+          "pix": 1,
+          "value": 0.01125928302062659
+        },
+        {
+          "pix": 2,
+          "value": -0.0061591115087521915
+        },
+        {
+          "pix": 64,
+          "value": 0.023163067822121526
+        },
+        {
+          "pix": 128,
+          "value": -0.004490521790815287
+        },
+        {
+          "pix": 1024,
+          "value": -0.023664638204945115
+        },
+        {
+          "pix": 4096,
+          "value": -0.001343701590955499
+        }
+      ],
+      "std": 0.5767789893521202,
+      "variant": "f150"
+    },
+    {
+      "available": true,
+      "checksum16_first4096": "5e4b837d2ade1bd1",
+      "finite_fraction": 1.0,
+      "map_info": {
+        "available": true,
+        "info": {
+          "extract": {
+            "member": "./maps/tonly/kappa_alm_data_act_dr6_lensing_v1_tonly.fits",
+            "path": ".ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits"
+          },
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 5.008668197152364,
+              "mean": -0.0010672859059859144,
+              "median": 5.1526115106457875e-05,
+              "min": -5.03587140026478,
+              "n_finite_pixels": 49152,
+              "n_total_pixels": 49152,
+              "std": 0.48406754157925486
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 49152
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8006000,
+              "nside": 64
+            }
+          },
+          "variant": "tonly"
+        },
+        "nside": 64,
+        "variant": "tonly"
+      },
+      "max": 5.008668197152364,
+      "mean": -0.0010672859059859144,
+      "median": 5.1526115106457875e-05,
+      "min": -5.03587140026478,
+      "nside": 64,
+      "sample_pixels": [
+        {
+          "pix": 0,
+          "value": -0.009234595267984348
+        },
+        {
+          "pix": 1,
+          "value": 0.02816707547566434
+        },
+        {
+          "pix": 2,
+          "value": 0.0003881874736497799
+        },
+        {
+          "pix": 64,
+          "value": 0.011516774425424163
+        },
+        {
+          "pix": 128,
+          "value": 0.027284566535740053
+        },
+        {
+          "pix": 1024,
+          "value": -0.003447668806876942
+        },
+        {
+          "pix": 4096,
+          "value": -0.0010987368860799064
+        }
+      ],
+      "std": 0.48406754157925486,
+      "variant": "tonly"
+    },
+    {
+      "available": true,
+      "checksum16_first4096": "075aed9b3c40c47b",
+      "finite_fraction": 1.0,
+      "map_info": {
+        "available": true,
+        "info": {
+          "extract": {
+            "member": "./maps/curl/kappa_alm_data_act_dr6_lensing_v1_curl.fits",
+            "path": ".ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits"
+          },
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 3.4517554626213545,
+              "mean": 0.00010261567445145885,
+              "median": 0.0002759533111899911,
+              "min": -2.6180728866951206,
+              "n_finite_pixels": 49152,
+              "n_total_pixels": 49152,
+              "std": 0.25799270309995764
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 49152
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8006000,
+              "nside": 64
+            }
+          },
+          "variant": "curl_control"
+        },
+        "nside": 64,
+        "variant": "curl_control"
+      },
+      "max": 3.4517554626213545,
+      "mean": 0.00010261567445145885,
+      "median": 0.0002759533111899911,
+      "min": -2.6180728866951206,
+      "nside": 64,
+      "sample_pixels": [
+        {
+          "pix": 0,
+          "value": 0.0030477367182936625
+        },
+        {
+          "pix": 1,
+          "value": 0.001360629961485001
+        },
+        {
+          "pix": 2,
+          "value": -0.0072644023685428626
+        },
+        {
+          "pix": 64,
+          "value": -0.011592048116917593
+        },
+        {
+          "pix": 128,
+          "value": -0.006055987323609481
+        },
+        {
+          "pix": 1024,
+          "value": -0.0023987899800154734
+        },
+        {
+          "pix": 4096,
+          "value": -0.004121829358603114
+        }
+      ],
+      "std": 0.25799270309995764,
+      "variant": "curl_control"
+    }
+  ],
+  "version": "v37"
+}

@@ -1,0 +1,133 @@
+{
+  "artifact_policy_v60": "auto_public_or_cache_only_no_manual_fill",
+  "current_run_id_v60": "20260519T062955Z_8f8cb618",
+  "generated_utc": "2026-05-19T07:03:43Z",
+  "moved": [
+    {
+      "from": "inputs\\p30_patch_protocol_v51_template.json",
+      "sha256": "f164d4173da8c92a668574a06855f57b76c0b6eabf1958e9c367daa964d71b61",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\inputs__p30_patch_protocol_v51_template_63585.json"
+    },
+    {
+      "from": "inputs\\p30_patch_protocol_v52_TEMPLATE.json",
+      "sha256": "c1f26c6eb687f82d31d6bb5efe8e9ee1938cbb0650b16cc526b6586de81999e5",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\inputs__p30_patch_protocol_v52_TEMPLATE_2563.json"
+    },
+    {
+      "from": "inputs\\p36_highz_object_rows_raw_TEMPLATE.json",
+      "sha256": "85d8d9f783c104042ebfe5cf6b0c3332ed90c084a5dc4338abaeeb487e4cbd61",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\inputs__p36_highz_object_rows_raw_TEMPLATE_29271.json"
+    },
+    {
+      "from": "inputs\\p36_highz_object_rows_raw_template_v51.csv",
+      "sha256": "081b0d0d9eddd1f269c0f8ac3bfdc5a7ec83544522ece6d715e1d48040fa8168",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\inputs__p36_highz_object_rows_raw_template_v51_43648.csv"
+    },
+    {
+      "from": "measurements\\p30_independent_route_measurement_template_v51.json",
+      "sha256": "1053ba0ec4ce2bde1e63607ce43497ee15c2869190c701eda8dc3b0d465a5923",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p30_independent_route_measurement_template_v51_92210.json"
+    },
+    {
+      "from": "measurements\\p30_independent_route_v52_TEMPLATE.json",
+      "sha256": "faf8d2cb2ab7709047d526818b50de26e986357a348d3854da2f1b2a0d96af3d",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p30_independent_route_v52_TEMPLATE_93918.json"
+    },
+    {
+      "from": "measurements\\p32_strain_likelihood_template_v51.json",
+      "sha256": "0b51e76509df20dfe987207fc04dfc3a4a25a127435eed326ef3fe8cc9d2f7d7",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p32_strain_likelihood_template_v51_1511.json"
+    },
+    {
+      "from": "measurements\\p32_strain_likelihood_v52_TEMPLATE.json",
+      "sha256": "e4a582ba1520ae9ba8ab5595d8be0cb1cb0668e833aba730a41c447209c00e20",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p32_strain_likelihood_v52_TEMPLATE_68318.json"
+    },
+    {
+      "from": "measurements\\p33_alpha_measurement_template_v51.json",
+      "sha256": "e60abd0098cd7999c2fd593b92ff6d9c356c87c5e3f60d010f042b71658d0731",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p33_alpha_measurement_template_v51_73394.json"
+    },
+    {
+      "from": "measurements\\p33_alpha_measurement_v52_TEMPLATE.json",
+      "sha256": "70f1e4be897fc97768d92b272d178ac99cd72b84b35e8d7c791aaef9a0589d8a",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p33_alpha_measurement_v52_TEMPLATE_94617.json"
+    },
+    {
+      "from": "measurements\\p33_alpha_measurement_v53_FILL.json",
+      "sha256": "038397228f0d55961d8fa216318671ccd0d439562187e4d25dcc42a9ea3d98ea",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p33_alpha_measurement_v53_FILL_13541.json"
+    },
+    {
+      "from": "measurements\\p33_alpha_measurement_v54_FILL.json",
+      "sha256": "f4a46e39b9fd373ddcc862f02cccd3b090645d60ff1f2368ec9c3e45b545a46f",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p33_alpha_measurement_v54_FILL_79718.json"
+    },
+    {
+      "from": "measurements\\p33_alpha_measurement_v55_FILL.json",
+      "sha256": "b23b3094a7ba27bf5cc5e1b8ff1d865701fa8f24b1fe59aa0e54b6addbd4b311",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p33_alpha_measurement_v55_FILL_30745.json"
+    },
+    {
+      "from": "measurements\\p38_void_measurement_template_v51.json",
+      "sha256": "047a224e46d9771993d1c95fb12c92289add68388da6ed470ccb98a31607d322",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p38_void_measurement_template_v51_54062.json"
+    },
+    {
+      "from": "measurements\\p38_void_measurement_v52_TEMPLATE.json",
+      "sha256": "a8cb27ab24b2653a2f6d9e60ae0b2bea6ba810ae6f405f7544a6c35d26491318",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p38_void_measurement_v52_TEMPLATE_25567.json"
+    },
+    {
+      "from": "measurements\\p40_bb_likelihood_template_v51.json",
+      "sha256": "6360add13395712fbd60375ecfbcf58a9e8747a28f2490480747b1624d1046a1",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p40_bb_likelihood_template_v51_70130.json"
+    },
+    {
+      "from": "measurements\\p40_bb_likelihood_v52_TEMPLATE.json",
+      "sha256": "b500d1856ba13e18cf4597731bc0988966e1041624432428c4fc5bb168564a87",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p40_bb_likelihood_v52_TEMPLATE_20120.json"
+    },
+    {
+      "from": "measurements\\p41_q2_wilson_likelihood_template_v51.json",
+      "sha256": "d583e331ea7b734443718723acca332a1335122b1471afc156bf0bda7d390b60",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p41_q2_wilson_likelihood_template_v51_15573.json"
+    },
+    {
+      "from": "measurements\\p41_q2_wilson_likelihood_v52_TEMPLATE.json",
+      "sha256": "bf57e02f344a84bd24b637168bf27a893aefe02ee7282386cada78e78049201f",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__p41_q2_wilson_likelihood_v52_TEMPLATE_54136.json"
+    },
+    {
+      "from": "measurements\\pta_weighted_kappa_residual_template_v51.json",
+      "sha256": "b1be0d17d738c72d4ecc802cea5203d3e744d32a9ad133c31529b40509765a7b",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__pta_weighted_kappa_residual_template_v51_72427.json"
+    },
+    {
+      "from": "measurements\\pta_weighted_kappa_residual_v52_TEMPLATE.json",
+      "sha256": "ba4e4664ed0f18df3424dc110ef48957ec13704fdf473a6fc3019ca817d4ebe0",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__pta_weighted_kappa_residual_v52_TEMPLATE_4501.json"
+    },
+    {
+      "from": "measurements\\pta_weighted_kappa_residual_v55_FILL.json",
+      "sha256": "b3b571bb0b50f5fdd6e71d63c1520c4ecfc1b3497d1f543cb5c4de6bc267e046",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__pta_weighted_kappa_residual_v55_FILL_28010.json"
+    },
+    {
+      "from": "measurements\\pta_weighted_kappa_residual_v56_FILL.json",
+      "sha256": "b4fb9e59c4c897f2e540c41441e161bdc6051b8da162dce0422356238311dae2",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__pta_weighted_kappa_residual_v56_FILL_61519.json"
+    },
+    {
+      "from": "measurements\\smd_derivation_predictions_template_v51.json",
+      "sha256": "9c3243e77224216ef690dabd52196ec7ff52f23cc182ab138113d110ac3cee3a",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__smd_derivation_predictions_template_v51_14931.json"
+    },
+    {
+      "from": "measurements\\smd_derivation_predictions_v52_TEMPLATE.json",
+      "sha256": "ebc234cca198dd23f649ace69f5d3c8654459e26708819fe80e53cdb360114a5",
+      "to": "docs\\examples\\legacy_manual_fill_artifacts_quarantined_v60\\measurements__smd_derivation_predictions_v52_TEMPLATE_62142.json"
+    }
+  ],
+  "n_moved": 25
+}

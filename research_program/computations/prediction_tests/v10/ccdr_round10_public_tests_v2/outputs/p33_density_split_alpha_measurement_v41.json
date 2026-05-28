@@ -1,0 +1,98 @@
+{
+  "best_measurement": null,
+  "candidate_reports": [
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_alpha_measurement_contract_v32.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_alpha_measurement_template_v50.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_measurement_v41.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_measurement_v42.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_measurement_v43.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_measurement_v44.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_measurement_v45.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_measurement_v46.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_result_v27.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_result_v28.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_result_v29.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_result_v30.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_result_v31.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_template_v45.csv",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_density_split_alpha_template_v46.csv",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_desi_lss_fetch_audit_v63.json",
+      "rows_seen": 6
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_desi_lss_fetch_audit_v64.json",
+      "rows_seen": 8
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_first_alpha_split_contract_v33.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_first_alpha_split_contract_v34.json",
+      "rows_seen": 1
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p33_first_alpha_split_contract_v35.json",
+      "rows_seen": 1
+    }
+  ],
+  "claim_policy": "P33 confirm requires a real density-split BAO alpha measurement with covariance and nulls, not a contract.",
+  "measurement_present": false,
+  "n_alpha_rows": 0,
+  "required_fields": [
+    "alpha_high",
+    "alpha_low",
+    "delta_alpha",
+    "covariance",
+    "density_label_shuffle_p",
+    "sky_shuffle_p",
+    "redshift_jackknife_stable"
+  ],
+  "version": "v41"
+}

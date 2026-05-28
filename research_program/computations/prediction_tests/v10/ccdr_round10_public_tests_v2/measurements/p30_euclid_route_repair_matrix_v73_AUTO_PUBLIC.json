@@ -1,0 +1,74 @@
+{
+  "artifact_version": "v73",
+  "claim_policy_v73": "v73 repairs the scoped SDSS route read-through from the v70 gate, while keeping global P30 blocked until a second independent route passes same-mask/null controls.",
+  "global_blockers": {
+    "v70_global_blockers": {
+      "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+      "n_unrejected_control_subtracted_patches": 0,
+      "redshift_density_residualization": {
+        "available": true,
+        "euclid_delta": -0.18983175996764104,
+        "residualization_required": true,
+        "route_sign_disagreement": true,
+        "sdss_delta": 0.07886573620406669,
+        "sdss_jackknife_std": 0.02916987451348493
+      }
+    },
+    "v71_same_mask_curl_audit": {
+      "accepted_empirical_mask_for_diagnostics": true,
+      "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+      "n_unrejected_control_subtracted_patches": 0,
+      "official_mask_found": false,
+      "redshift_density_residualization": {
+        "available": true,
+        "euclid_delta": -0.18983175996764104,
+        "residualization_required": true,
+        "route_sign_disagreement": true,
+        "sdss_delta": 0.07886573620406669,
+        "sdss_jackknife_std": 0.02916987451348493
+      }
+    },
+    "v72_same_mask_curl_audit": {
+      "accepted_empirical_mask_for_diagnostics": true,
+      "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+      "n_unrejected_control_subtracted_patches": 0,
+      "official_mask_found": false,
+      "redshift_density_residualization": {
+        "available": true,
+        "euclid_delta": -0.18983175996764104,
+        "residualization_required": true,
+        "route_sign_disagreement": true,
+        "sdss_delta": 0.07886573620406669,
+        "sdss_jackknife_std": 0.02916987451348493
+      }
+    }
+  },
+  "global_confirm_like": false,
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "route_matrix": {
+    "euclid": {
+      "confirm_like": false,
+      "status": null
+    },
+    "planck": {
+      "confirm_like": false,
+      "status": "density_kappa_planck_route_ready_v79"
+    },
+    "sdss": {
+      "confirm_like": true,
+      "evidence": {
+        "base_sdss_gates": [],
+        "route_gate_v54_eligible": true,
+        "same_split_science_variants_pass": true,
+        "v70_gate_eligible": false,
+        "v70_status": "sdss_route_confirm_gate_passed"
+      },
+      "status": "sdss_route_confirm_gate_passed_v73_repaired"
+    }
+  },
+  "sdss_scoped_confirm_like": true,
+  "status": "p30_sdss_route_repaired_confirm_like_v73",
+  "v71_global_route_status": "p30_global_route_still_scoped_to_sdss",
+  "v72_route_matrix_status": "p30_global_route_still_single_route_v72"
+}

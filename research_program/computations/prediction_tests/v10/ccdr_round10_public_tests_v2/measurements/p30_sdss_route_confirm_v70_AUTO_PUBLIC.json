@@ -1,0 +1,40 @@
+{
+  "artifact_version": "v70",
+  "claim_scope": "P30 SDSS route only; global P30 remains blocked until independent Euclid/Planck route and redshift-density residualization close.",
+  "manual_fill_required": false,
+  "route_gate_v54": {
+    "curl_weaker_than_sdss_signal": true,
+    "eligible_for_confirm_like": true,
+    "gate_version": "v54",
+    "max_abs_curl_delta": 0.07596368893635795,
+    "missing": [],
+    "sdss_delta": 0.07886573620406669,
+    "sdss_delta_positive": true,
+    "sdss_density_p_le_005": true,
+    "sdss_density_shuffle_p": 0.015625,
+    "sdss_jackknife_same_sign": true,
+    "sdss_route_signal": true,
+    "sdss_sky_p_le_005": true,
+    "sdss_sky_shuffle_p": 0.0078125
+  },
+  "same_split_variant_rerun_v29": {
+    "abs_curl_delta": 0.04445120171365154,
+    "median_abs_science_delta": 0.08815282358182167,
+    "n_coords": 2000,
+    "n_positive_science_variants": 4,
+    "same_split_science_variants_pass": true
+  },
+  "status": "sdss_route_confirm_gate_passed",
+  "v69_global_blockers": {
+    "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+    "n_unrejected_control_subtracted_patches": 0,
+    "redshift_density_residualization": {
+      "available": true,
+      "euclid_delta": -0.18983175996764104,
+      "residualization_required": true,
+      "route_sign_disagreement": true,
+      "sdss_delta": 0.07886573620406669,
+      "sdss_jackknife_std": 0.02916987451348493
+    }
+  }
+}

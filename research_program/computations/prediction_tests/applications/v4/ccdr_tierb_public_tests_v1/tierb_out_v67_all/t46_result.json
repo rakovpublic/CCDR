@@ -1,0 +1,3231 @@
+{
+  "auto_data_improvements_v34": {},
+  "auto_data_improvements_v35": {},
+  "auto_data_improvements_v37": {},
+  "auto_data_improvements_v38": {},
+  "auto_data_improvements_v39": {},
+  "auto_data_improvements_v40": {},
+  "auto_data_improvements_v41": {},
+  "auto_data_improvements_v42": {},
+  "auto_data_improvements_v43": {},
+  "auto_data_improvements_v44": {},
+  "auto_data_improvements_v45": {},
+  "auto_data_improvements_v46": {},
+  "auto_data_improvements_v47": {},
+  "auto_data_improvements_v48": {},
+  "auto_data_improvements_v49": {},
+  "auto_data_improvements_v50": {},
+  "auto_data_improvements_v51": {},
+  "auto_data_improvements_v52": {},
+  "auto_data_improvements_v53": {},
+  "auto_data_improvements_v56": {},
+  "auto_data_improvements_v57": {},
+  "auto_data_improvements_v58": {},
+  "auto_data_improvements_v59": {},
+  "auto_generated_inputs_v33": {
+    "generated_files": [],
+    "manual_or_user_csv_required": false,
+    "status": "auto_generation_attempted"
+  },
+  "auto_input_policy_v33": {
+    "all_tests_run_together": true,
+    "commit_generated_csv_required": false,
+    "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+    "manual_or_user_filled_csv_required": false,
+    "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+  },
+  "baselines": [
+    "local_ldpc",
+    "surface_like_rows_cols",
+    "protograph_qc_proxy",
+    "spatially_coupled_ldpc_proxy",
+    "interleaved_rs_like_parity_proxy",
+    "random_regular_ldpc_proxy",
+    "cdt_like_irregular_nonlocal"
+  ],
+  "benchmark_type": "A contiguous burst is counted correctable only when the restricted parity-check submatrix H[:, burst_support] has full GF(2) column rank.",
+  "bound_only_gate_v34": null,
+  "burst_results": [
+    {
+      "best_non_cdt_correctable_fraction": 1.0,
+      "burst_length": 2,
+      "cdt_like_irregular_nonlocal": {
+        "correctable_fraction": 0.6875,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      },
+      "cdt_margin_vs_best_non_cdt": -0.3125,
+      "interleaved_rs_like_parity_proxy": {
+        "correctable_fraction": 0.625,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      },
+      "local_ldpc": {
+        "correctable_fraction": 1.0,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      },
+      "protograph_qc_proxy": {
+        "correctable_fraction": 0.75,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      },
+      "random_regular_ldpc_proxy": {
+        "correctable_fraction": 0.53125,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      },
+      "spatially_coupled_ldpc_proxy": {
+        "correctable_fraction": 0.71875,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      },
+      "surface_like_rows_cols": {
+        "correctable_fraction": 1.0,
+        "median_rank": 2.0,
+        "n_trials": 32,
+        "required_rank": 2
+      }
+    },
+    {
+      "best_non_cdt_correctable_fraction": 0.4375,
+      "burst_length": 4,
+      "cdt_like_irregular_nonlocal": {
+        "correctable_fraction": 0.5,
+        "median_rank": 3.5,
+        "n_trials": 32,
+        "required_rank": 4
+      },
+      "cdt_margin_vs_best_non_cdt": 0.0625,
+      "interleaved_rs_like_parity_proxy": {
+        "correctable_fraction": 0.40625,
+        "median_rank": 3.0,
+        "n_trials": 32,
+        "required_rank": 4
+      },
+      "local_ldpc": {
+        "correctable_fraction": 0.0,
+        "median_rank": 3.0,
+        "n_trials": 32,
+        "required_rank": 4
+      },
+      "protograph_qc_proxy": {
+        "correctable_fraction": 0.4375,
+        "median_rank": 3.0,
+        "n_trials": 32,
+        "required_rank": 4
+      },
+      "random_regular_ldpc_proxy": {
+        "correctable_fraction": 0.3125,
+        "median_rank": 3.0,
+        "n_trials": 32,
+        "required_rank": 4
+      },
+      "spatially_coupled_ldpc_proxy": {
+        "correctable_fraction": 0.34375,
+        "median_rank": 3.0,
+        "n_trials": 32,
+        "required_rank": 4
+      },
+      "surface_like_rows_cols": {
+        "correctable_fraction": 0.0,
+        "median_rank": 3.0,
+        "n_trials": 32,
+        "required_rank": 4
+      }
+    },
+    {
+      "best_non_cdt_correctable_fraction": 0.28125,
+      "burst_length": 6,
+      "cdt_like_irregular_nonlocal": {
+        "correctable_fraction": 0.25,
+        "median_rank": 5.0,
+        "n_trials": 32,
+        "required_rank": 6
+      },
+      "cdt_margin_vs_best_non_cdt": -0.03125,
+      "interleaved_rs_like_parity_proxy": {
+        "correctable_fraction": 0.28125,
+        "median_rank": 5.0,
+        "n_trials": 32,
+        "required_rank": 6
+      },
+      "local_ldpc": {
+        "correctable_fraction": 0.0,
+        "median_rank": 4.0,
+        "n_trials": 32,
+        "required_rank": 6
+      },
+      "protograph_qc_proxy": {
+        "correctable_fraction": 0.1875,
+        "median_rank": 5.0,
+        "n_trials": 32,
+        "required_rank": 6
+      },
+      "random_regular_ldpc_proxy": {
+        "correctable_fraction": 0.1875,
+        "median_rank": 4.0,
+        "n_trials": 32,
+        "required_rank": 6
+      },
+      "spatially_coupled_ldpc_proxy": {
+        "correctable_fraction": 0.03125,
+        "median_rank": 5.0,
+        "n_trials": 32,
+        "required_rank": 6
+      },
+      "surface_like_rows_cols": {
+        "correctable_fraction": 0.0,
+        "median_rank": 4.0,
+        "n_trials": 32,
+        "required_rank": 6
+      }
+    }
+  ],
+  "cdt_wins_all_burst_lengths": false,
+  "check_weight": 3,
+  "confirm_allowed_now_v30": false,
+  "confirm_allowed_now_v32": false,
+  "confirm_allowed_now_v33": false,
+  "confirm_allowed_now_v34": false,
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "not_prioritized_for_confirm",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed",
+    "expected_effort_v52": "high",
+    "next_data_source_v52": "not a current confirm target",
+    "rank_score_0_10_v52": 1,
+    "test_id": "T46"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "not_prioritized_for_confirm",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed",
+    "expected_effort_v53": "high",
+    "next_data_source_v53": "not a current confirm target",
+    "rank_score_0_10_v53": 1,
+    "test_id": "T46"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "not_prioritized_for_confirm",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "high",
+    "next_data_source_v56": "not a current confirm target",
+    "rank_score_0_10_v56": 1,
+    "test_id": "T46"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "not_prioritized_for_confirm",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "high",
+    "next_data_source_v57": "not a current confirm target",
+    "rank_score_0_10_v57": 1,
+    "test_id": "T46"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "not_prioritized_for_confirm",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "high",
+    "next_data_source_v58": "not a current confirm target",
+    "rank_score_0_10_v58": 1,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T46"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "data_limited",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "high",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 1,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T46"
+  },
+  "confirmation_blocker_v34": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "not_prioritized_for_confirm",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not_prioritized_for_confirm"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "not_prioritized_for_confirm",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not_prioritized_for_confirm"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "not_prioritized_for_confirm",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not_prioritized_for_confirm"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed",
+  "confirmation_status_v53": "not_confirmed",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_source": "synthetic code-theoretic GF(2) erasure/burst correctability benchmark generated by script",
+  "data_status_v52": "not_prioritized_for_confirm",
+  "data_status_v53": "not_prioritized_for_confirm",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "decoder_benchmark_v16": {
+    "cdt_wins_all_burst_lengths": false,
+    "evidence_level": "synthetic engineering only; not CCDR physics",
+    "rows": [
+      {
+        "best_non_cdt_peeling_fraction": 1.0,
+        "burst_length": 2,
+        "cdt_like_irregular_nonlocal": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.53125
+        },
+        "cdt_margin_vs_best_non_cdt": -0.46875,
+        "interleaved_rs_like_parity_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.8125
+        },
+        "local_ldpc": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 1.0
+        },
+        "protograph_qc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.75
+        },
+        "random_regular_ldpc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.5625
+        },
+        "spatially_coupled_ldpc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.71875
+        },
+        "surface_like_rows_cols": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 1.0
+        }
+      },
+      {
+        "best_non_cdt_peeling_fraction": 0.6875,
+        "burst_length": 4,
+        "cdt_like_irregular_nonlocal": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.21875
+        },
+        "cdt_margin_vs_best_non_cdt": -0.46875,
+        "interleaved_rs_like_parity_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.6875
+        },
+        "local_ldpc": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.0
+        },
+        "protograph_qc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.4375
+        },
+        "random_regular_ldpc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.3125
+        },
+        "spatially_coupled_ldpc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.4375
+        },
+        "surface_like_rows_cols": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.0
+        }
+      },
+      {
+        "best_non_cdt_peeling_fraction": 0.5625,
+        "burst_length": 6,
+        "cdt_like_irregular_nonlocal": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.09375
+        },
+        "cdt_margin_vs_best_non_cdt": -0.46875,
+        "interleaved_rs_like_parity_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.5625
+        },
+        "local_ldpc": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.0
+        },
+        "protograph_qc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.1875
+        },
+        "random_regular_ldpc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.125
+        },
+        "spatially_coupled_ldpc_proxy": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.1875
+        },
+        "surface_like_rows_cols": {
+          "decoder": "BEC peeling / BP-erasure proxy",
+          "n_trials": 32,
+          "peeling_correctable_fraction": 0.0
+        }
+      }
+    ],
+    "support_like": false,
+    "type": "automated decoder-level BEC peeling benchmark"
+  },
+  "el6_t46b_engineering_positive_v21": {
+    "T46a_current_benchmark": "null_baseline_audit",
+    "T46b_positive_search": "optimize CDT-hybrid ensembles, not current fixed CDT-like graph",
+    "must_include": [
+      "50+ seeds",
+      "matched code rate",
+      "matched check density",
+      "BP/min-sum/BEC peeling",
+      "spatially-coupled LDPC/protograph baselines"
+    ],
+    "positive_success_rule": "CDT-hybrid beats best matched non-CDT baseline with CI across seeds"
+  },
+  "evidence_level": "synthetic_engineering_benchmark_not_observational_confirmation",
+  "evidence_status": "null",
+  "evidence_status_v52": "not_confirmed",
+  "evidence_status_v53": "not_confirmed",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "This is engineering-only synthetic evidence. It cannot confirm CCDR physics.",
+    "confirm_like": "CDT-like irregular/nonlocal construction has higher burst-erasure correctability than all matched synthetic baselines across burst lengths.",
+    "falsify_like": "Matched synthetic baselines equal or beat CDT-like graph under GF(2) rank correctability."
+  },
+  "generated_utc": "2026-05-17T23:31:13Z",
+  "median_cdt_over_best_non_cdt_correctable_fraction_ratio": 0.8888888892839506,
+  "n_bits": 32,
+  "n_checks": 16,
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "not_prioritized_for_confirm"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "not_prioritized_for_confirm"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "not_prioritized_for_confirm"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "positive_dashboard_fragment_v20": {
+    "positive_fields": [
+      "programmatic_verdict",
+      "programmatic_verdict_v19",
+      "t46b_search_plan_v20"
+    ],
+    "support_like": false,
+    "test_id": "T46",
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v21": {
+    "el_branch": {
+      "T46a_current_benchmark": "null_baseline_audit",
+      "T46b_positive_search": "optimize CDT-hybrid ensembles, not current fixed CDT-like graph",
+      "must_include": [
+        "50+ seeds",
+        "matched code rate",
+        "matched check density",
+        "BP/min-sum/BEC peeling",
+        "spatially-coupled LDPC/protograph baselines"
+      ],
+      "positive_success_rule": "CDT-hybrid beats best matched non-CDT baseline with CI across seeds"
+    },
+    "fusion": null,
+    "materials": null,
+    "positive_label": null,
+    "t48b": null,
+    "t53_model": null,
+    "t60": null,
+    "test_id": "T46",
+    "v22": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t46b_search": {
+        "best_family_proxy": {
+          "ci95_half_width_proxy": 0.007060232222979829,
+          "family": "spatially_coupled_CDT_hybrid",
+          "mean_correctable_fraction_proxy": 0.914608437870868,
+          "n_seeds": 50
+        },
+        "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+        "next_required": [
+          "real BP/min-sum decoder",
+          "matched code rate/check density",
+          "logical error rate",
+          "burst+random sweeps",
+          ">=50 seeds retained"
+        ],
+        "rows": [
+          {
+            "ci95_half_width_proxy": 0.007604154102238184,
+            "family": "fixed_CDT_like",
+            "mean_correctable_fraction_proxy": 0.8612453448942838,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.007060232222979829,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.914608437870868,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.00640274248924337,
+            "family": "protograph_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.8995748903998048,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.007645449946794451,
+            "family": "interleaved_CDT_burst_hybrid",
+            "mean_correctable_fraction_proxy": 0.897976965426786,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.006980129357706403,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.9124392223029427,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.006561799716592217,
+            "family": "matched_protograph_LDPC",
+            "mean_correctable_fraction_proxy": 0.8987611825406858,
+            "n_seeds": 50
+          }
+        ],
+        "status": "synthetic_design_search_executed_proxy_only"
+      },
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_enrichment": null
+    },
+    "v23": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t46b_search": {
+        "best_cdt_variant_proxy": {
+          "ci95_half_width_proxy": 0.0044901168217945245,
+          "family": "spatially_coupled_CDT_hybrid",
+          "mean_correctable_fraction_proxy": 0.915812486567649,
+          "median_correctable_fraction_proxy": 0.9183643462875346,
+          "n_seeds": 100
+        },
+        "best_family_proxy": {
+          "ci95_half_width_proxy": 0.0044090170965163395,
+          "family": "matched_spatially_coupled_LDPC",
+          "mean_correctable_fraction_proxy": 0.918769012781049,
+          "median_correctable_fraction_proxy": 0.9198657829431767,
+          "n_seeds": 100
+        },
+        "best_non_cdt_baseline_proxy": {
+          "ci95_half_width_proxy": 0.0044090170965163395,
+          "family": "matched_spatially_coupled_LDPC",
+          "mean_correctable_fraction_proxy": 0.918769012781049,
+          "median_correctable_fraction_proxy": 0.9198657829431767,
+          "n_seeds": 100
+        },
+        "cdt_over_best_baseline_ratio_proxy": 0.9967820788769847,
+        "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+        "next_required": [
+          "real BP/min-sum decoder",
+          "matched code rate/check density",
+          "logical error rate",
+          "burst+random sweeps",
+          ">=100 seeds retained"
+        ],
+        "rows": [
+          {
+            "ci95_half_width_proxy": 0.0048722635483166125,
+            "family": "fixed_CDT_like",
+            "mean_correctable_fraction_proxy": 0.8587095852516708,
+            "median_correctable_fraction_proxy": 0.8577798125413121,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.0044901168217945245,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.915812486567649,
+            "median_correctable_fraction_proxy": 0.9183643462875346,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004603661364805026,
+            "family": "protograph_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.9018348876937817,
+            "median_correctable_fraction_proxy": 0.9002185517097098,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.00512982674106952,
+            "family": "interleaved_CDT_burst_hybrid",
+            "mean_correctable_fraction_proxy": 0.908405381170911,
+            "median_correctable_fraction_proxy": 0.9062487924592619,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.0044090170965163395,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.918769012781049,
+            "median_correctable_fraction_proxy": 0.9198657829431767,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004287707309786655,
+            "family": "matched_protograph_LDPC",
+            "mean_correctable_fraction_proxy": 0.8992461579926306,
+            "median_correctable_fraction_proxy": 0.9000642523738673,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004775820362659294,
+            "family": "matched_interleaved_burst_baseline",
+            "mean_correctable_fraction_proxy": 0.8996274164979137,
+            "median_correctable_fraction_proxy": 0.9009712639289797,
+            "n_seeds": 100
+          }
+        ],
+        "status": "synthetic_100_seed_optimizer_proxy_only"
+      },
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60_nulls": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v22": {
+    "el_branch": {
+      "T46a_current_benchmark": "null_baseline_audit",
+      "T46b_positive_search": "optimize CDT-hybrid ensembles, not current fixed CDT-like graph",
+      "must_include": [
+        "50+ seeds",
+        "matched code rate",
+        "matched check density",
+        "BP/min-sum/BEC peeling",
+        "spatially-coupled LDPC/protograph baselines"
+      ],
+      "positive_success_rule": "CDT-hybrid beats best matched non-CDT baseline with CI across seeds"
+    },
+    "fusion": null,
+    "materials": null,
+    "positive_label": null,
+    "t48b": null,
+    "t53_model": null,
+    "t60": null,
+    "test_id": "T46",
+    "v22": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t46b_search": {
+        "best_family_proxy": {
+          "ci95_half_width_proxy": 0.007060232222979829,
+          "family": "spatially_coupled_CDT_hybrid",
+          "mean_correctable_fraction_proxy": 0.914608437870868,
+          "n_seeds": 50
+        },
+        "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+        "next_required": [
+          "real BP/min-sum decoder",
+          "matched code rate/check density",
+          "logical error rate",
+          "burst+random sweeps",
+          ">=50 seeds retained"
+        ],
+        "rows": [
+          {
+            "ci95_half_width_proxy": 0.007604154102238184,
+            "family": "fixed_CDT_like",
+            "mean_correctable_fraction_proxy": 0.8612453448942838,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.007060232222979829,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.914608437870868,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.00640274248924337,
+            "family": "protograph_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.8995748903998048,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.007645449946794451,
+            "family": "interleaved_CDT_burst_hybrid",
+            "mean_correctable_fraction_proxy": 0.897976965426786,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.006980129357706403,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.9124392223029427,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.006561799716592217,
+            "family": "matched_protograph_LDPC",
+            "mean_correctable_fraction_proxy": 0.8987611825406858,
+            "n_seeds": 50
+          }
+        ],
+        "status": "synthetic_design_search_executed_proxy_only"
+      },
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_enrichment": null
+    },
+    "v23": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t46b_search": {
+        "best_cdt_variant_proxy": {
+          "ci95_half_width_proxy": 0.0044901168217945245,
+          "family": "spatially_coupled_CDT_hybrid",
+          "mean_correctable_fraction_proxy": 0.915812486567649,
+          "median_correctable_fraction_proxy": 0.9183643462875346,
+          "n_seeds": 100
+        },
+        "best_family_proxy": {
+          "ci95_half_width_proxy": 0.0044090170965163395,
+          "family": "matched_spatially_coupled_LDPC",
+          "mean_correctable_fraction_proxy": 0.918769012781049,
+          "median_correctable_fraction_proxy": 0.9198657829431767,
+          "n_seeds": 100
+        },
+        "best_non_cdt_baseline_proxy": {
+          "ci95_half_width_proxy": 0.0044090170965163395,
+          "family": "matched_spatially_coupled_LDPC",
+          "mean_correctable_fraction_proxy": 0.918769012781049,
+          "median_correctable_fraction_proxy": 0.9198657829431767,
+          "n_seeds": 100
+        },
+        "cdt_over_best_baseline_ratio_proxy": 0.9967820788769847,
+        "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+        "next_required": [
+          "real BP/min-sum decoder",
+          "matched code rate/check density",
+          "logical error rate",
+          "burst+random sweeps",
+          ">=100 seeds retained"
+        ],
+        "rows": [
+          {
+            "ci95_half_width_proxy": 0.0048722635483166125,
+            "family": "fixed_CDT_like",
+            "mean_correctable_fraction_proxy": 0.8587095852516708,
+            "median_correctable_fraction_proxy": 0.8577798125413121,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.0044901168217945245,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.915812486567649,
+            "median_correctable_fraction_proxy": 0.9183643462875346,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004603661364805026,
+            "family": "protograph_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.9018348876937817,
+            "median_correctable_fraction_proxy": 0.9002185517097098,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.00512982674106952,
+            "family": "interleaved_CDT_burst_hybrid",
+            "mean_correctable_fraction_proxy": 0.908405381170911,
+            "median_correctable_fraction_proxy": 0.9062487924592619,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.0044090170965163395,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.918769012781049,
+            "median_correctable_fraction_proxy": 0.9198657829431767,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004287707309786655,
+            "family": "matched_protograph_LDPC",
+            "mean_correctable_fraction_proxy": 0.8992461579926306,
+            "median_correctable_fraction_proxy": 0.9000642523738673,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004775820362659294,
+            "family": "matched_interleaved_burst_baseline",
+            "mean_correctable_fraction_proxy": 0.8996274164979137,
+            "median_correctable_fraction_proxy": 0.9009712639289797,
+            "n_seeds": 100
+          }
+        ],
+        "status": "synthetic_100_seed_optimizer_proxy_only"
+      },
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60_nulls": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v23": {
+    "el_branch": {
+      "T46a_current_benchmark": "null_baseline_audit",
+      "T46b_positive_search": "optimize CDT-hybrid ensembles, not current fixed CDT-like graph",
+      "must_include": [
+        "50+ seeds",
+        "matched code rate",
+        "matched check density",
+        "BP/min-sum/BEC peeling",
+        "spatially-coupled LDPC/protograph baselines"
+      ],
+      "positive_success_rule": "CDT-hybrid beats best matched non-CDT baseline with CI across seeds"
+    },
+    "fusion": null,
+    "materials": null,
+    "positive_label": null,
+    "t48b": null,
+    "t53_model": null,
+    "t60": null,
+    "test_id": "T46",
+    "v22": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t46b_search": {
+        "best_family_proxy": {
+          "ci95_half_width_proxy": 0.007060232222979829,
+          "family": "spatially_coupled_CDT_hybrid",
+          "mean_correctable_fraction_proxy": 0.914608437870868,
+          "n_seeds": 50
+        },
+        "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+        "next_required": [
+          "real BP/min-sum decoder",
+          "matched code rate/check density",
+          "logical error rate",
+          "burst+random sweeps",
+          ">=50 seeds retained"
+        ],
+        "rows": [
+          {
+            "ci95_half_width_proxy": 0.007604154102238184,
+            "family": "fixed_CDT_like",
+            "mean_correctable_fraction_proxy": 0.8612453448942838,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.007060232222979829,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.914608437870868,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.00640274248924337,
+            "family": "protograph_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.8995748903998048,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.007645449946794451,
+            "family": "interleaved_CDT_burst_hybrid",
+            "mean_correctable_fraction_proxy": 0.897976965426786,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.006980129357706403,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.9124392223029427,
+            "n_seeds": 50
+          },
+          {
+            "ci95_half_width_proxy": 0.006561799716592217,
+            "family": "matched_protograph_LDPC",
+            "mean_correctable_fraction_proxy": 0.8987611825406858,
+            "n_seeds": 50
+          }
+        ],
+        "status": "synthetic_design_search_executed_proxy_only"
+      },
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_enrichment": null
+    },
+    "v23": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t46b_search": {
+        "best_cdt_variant_proxy": {
+          "ci95_half_width_proxy": 0.0044901168217945245,
+          "family": "spatially_coupled_CDT_hybrid",
+          "mean_correctable_fraction_proxy": 0.915812486567649,
+          "median_correctable_fraction_proxy": 0.9183643462875346,
+          "n_seeds": 100
+        },
+        "best_family_proxy": {
+          "ci95_half_width_proxy": 0.0044090170965163395,
+          "family": "matched_spatially_coupled_LDPC",
+          "mean_correctable_fraction_proxy": 0.918769012781049,
+          "median_correctable_fraction_proxy": 0.9198657829431767,
+          "n_seeds": 100
+        },
+        "best_non_cdt_baseline_proxy": {
+          "ci95_half_width_proxy": 0.0044090170965163395,
+          "family": "matched_spatially_coupled_LDPC",
+          "mean_correctable_fraction_proxy": 0.918769012781049,
+          "median_correctable_fraction_proxy": 0.9198657829431767,
+          "n_seeds": 100
+        },
+        "cdt_over_best_baseline_ratio_proxy": 0.9967820788769847,
+        "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+        "next_required": [
+          "real BP/min-sum decoder",
+          "matched code rate/check density",
+          "logical error rate",
+          "burst+random sweeps",
+          ">=100 seeds retained"
+        ],
+        "rows": [
+          {
+            "ci95_half_width_proxy": 0.0048722635483166125,
+            "family": "fixed_CDT_like",
+            "mean_correctable_fraction_proxy": 0.8587095852516708,
+            "median_correctable_fraction_proxy": 0.8577798125413121,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.0044901168217945245,
+            "family": "spatially_coupled_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.915812486567649,
+            "median_correctable_fraction_proxy": 0.9183643462875346,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004603661364805026,
+            "family": "protograph_CDT_hybrid",
+            "mean_correctable_fraction_proxy": 0.9018348876937817,
+            "median_correctable_fraction_proxy": 0.9002185517097098,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.00512982674106952,
+            "family": "interleaved_CDT_burst_hybrid",
+            "mean_correctable_fraction_proxy": 0.908405381170911,
+            "median_correctable_fraction_proxy": 0.9062487924592619,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.0044090170965163395,
+            "family": "matched_spatially_coupled_LDPC",
+            "mean_correctable_fraction_proxy": 0.918769012781049,
+            "median_correctable_fraction_proxy": 0.9198657829431767,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004287707309786655,
+            "family": "matched_protograph_LDPC",
+            "mean_correctable_fraction_proxy": 0.8992461579926306,
+            "median_correctable_fraction_proxy": 0.9000642523738673,
+            "n_seeds": 100
+          },
+          {
+            "ci95_half_width_proxy": 0.004775820362659294,
+            "family": "matched_interleaved_burst_baseline",
+            "mean_correctable_fraction_proxy": 0.8996274164979137,
+            "median_correctable_fraction_proxy": 0.9009712639289797,
+            "n_seeds": 100
+          }
+        ],
+        "status": "synthetic_100_seed_optimizer_proxy_only"
+      },
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60_nulls": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v24": {
+    "test_id": "T46",
+    "v24": {
+      "fusion_diag": null,
+      "materials_score": null,
+      "t44_nand": null,
+      "t45_optical": null,
+      "t47_neuro": null,
+      "t48b": null,
+      "t53_model": null,
+      "t60_null": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v25": {
+    "test_id": "T46",
+    "v25": {
+      "fusion": null,
+      "materials": null,
+      "t44": null,
+      "t45": null,
+      "t47": null,
+      "t48b": null,
+      "t53": null,
+      "t60": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v26": {
+    "test_id": "T46",
+    "v26": {
+      "bounds": null,
+      "coherence": null,
+      "fusion": null,
+      "hep": null,
+      "materials_confirm": null,
+      "t44_confirm": null,
+      "t45_confirm": null,
+      "t46_optimizer": {
+        "T46a": "current strong-baseline benchmark remains null",
+        "T46b_status": "open_optimizer_not_confirmed",
+        "beats_best_non_CDT_baseline": false,
+        "required_for_confirm": [
+          "real graph optimizer",
+          "BP/min-sum decoder",
+          "matched rate/check density",
+          "bootstrap CI excludes zero",
+          "not one-seed driven"
+        ],
+        "scope": "engineering search only; not CCDR physics evidence",
+        "simulated_optimizer_proxy": {
+          "cdt_hybrid_optimized": {
+            "ci95": [
+              0.879039220252624,
+              0.9482553949356785
+            ],
+            "mean_correctable_fraction": 0.9146656446514724,
+            "n_seeds": 500
+          },
+          "matched_interleaved_burst_baseline": {
+            "ci95": [
+              0.8525942996864636,
+              0.9365388609713278
+            ],
+            "mean_correctable_fraction": 0.8959762888128984,
+            "n_seeds": 500
+          },
+          "matched_protograph_LDPC": {
+            "ci95": [
+              0.8654919390747017,
+              0.9339895863618973
+            ],
+            "mean_correctable_fraction": 0.9013160154354027,
+            "n_seeds": 500
+          },
+          "matched_spatially_coupled_LDPC": {
+            "ci95": [
+              0.8930147657566484,
+              0.9456367431288591
+            ],
+            "mean_correctable_fraction": 0.9200882093239267,
+            "n_seeds": 500
+          }
+        }
+      },
+      "t47_confirm": null,
+      "t48b_confirm": null,
+      "t53_confirm": null,
+      "t60_confirm": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v27": {
+    "test_id": "T46",
+    "v27": {
+      "bounds": null,
+      "coherence": null,
+      "fusion": null,
+      "hep": null,
+      "mat3b": null,
+      "materials": null,
+      "t44": null,
+      "t45": null,
+      "t46": {
+        "T46a_status": "null_under_strong_matched_baselines",
+        "T46b_status": "not_confirmed",
+        "beats_best_non_CDT_proxy": false,
+        "proxy_500_seed_summary": {
+          "interleaved_burst_baseline": {
+            "ci95": [
+              0.8622096025012558,
+              0.9300438488586298
+            ],
+            "mean": 0.8969583349241902,
+            "n_seeds": 500
+          },
+          "optimized_CDT_hybrid_candidate": {
+            "ci95": [
+              0.8976046990895064,
+              0.935685724527685
+            ],
+            "mean": 0.9156144159963205,
+            "n_seeds": 500
+          },
+          "protograph_LDPC_best": {
+            "ci95": [
+              0.8757198525532421,
+              0.9356876183344122
+            ],
+            "mean": 0.9054067427639618,
+            "n_seeds": 500
+          },
+          "spatially_coupled_LDPC_best": {
+            "ci95": [
+              0.8994163553873399,
+              0.9381443209492337
+            ],
+            "mean": 0.9202370892303812,
+            "n_seeds": 500
+          }
+        },
+        "required_real_confirm": [
+          "real graph optimizer",
+          "BP/min-sum decoder",
+          "matched rate/check density",
+          "bootstrap CI excludes zero",
+          "not one-seed driven"
+        ],
+        "scope": "engineering benchmark only; not CCDR physics evidence"
+      },
+      "t47": null,
+      "t48b": null,
+      "t53": null,
+      "t60": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v28": {
+    "test_id": "T46",
+    "v28": {
+      "bounds": null,
+      "coherence": null,
+      "fusion": null,
+      "hep": null,
+      "mat3b": null,
+      "materials": null,
+      "t44": null,
+      "t45": null,
+      "t46": {
+        "T46a_status": "null_under_strong_matched_baselines",
+        "T46b_status": "not_confirmed",
+        "beats_best_non_CDT_proxy": false,
+        "proxy_750_seed_summary": {
+          "cdt_hybrid_optimizer_candidate": {
+            "ci95": [
+              0.8971146645121657,
+              0.9337805795408752
+            ],
+            "mean": 0.9165591079117513,
+            "n_seeds": 750
+          },
+          "interleaved_burst_baseline": {
+            "ci95": [
+              0.8671394645818135,
+              0.9331094825483586
+            ],
+            "mean": 0.8982201954184711,
+            "n_seeds": 750
+          },
+          "protograph_LDPC_best": {
+            "ci95": [
+              0.880213252095336,
+              0.9353548483126828
+            ],
+            "mean": 0.9072780875660088,
+            "n_seeds": 750
+          },
+          "spatially_coupled_LDPC_best": {
+            "ci95": [
+              0.9009858146920973,
+              0.9388843598554857
+            ],
+            "mean": 0.9209755719612607,
+            "n_seeds": 750
+          }
+        },
+        "required_real_confirm": [
+          "real graph optimizer",
+          "BP/min-sum decoder",
+          "matched rate/check density",
+          "bootstrap CI excludes zero",
+          "not one-seed driven"
+        ],
+        "scope": "engineering benchmark only; not CCDR physics evidence"
+      },
+      "t47": null,
+      "t48b": null,
+      "t53": null,
+      "t60": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v29": {
+    "test_id": "T46",
+    "v29": {
+      "bounds": null,
+      "coherence": null,
+      "fusion": null,
+      "hep": null,
+      "mat3b": null,
+      "materials": null,
+      "t44": null,
+      "t45": null,
+      "t46": {
+        "T46a_status": "null_under_strong_matched_baselines",
+        "beats_best_non_CDT_proxy": false,
+        "confirm_allowed_now": false,
+        "next_required": "real graph optimizer + BP/min-sum decoder + bootstrap CI excluding zero",
+        "proxy_1000_seed_summary": {
+          "best_interleaved_burst": {
+            "ci95": [
+              0.8718182623309746,
+              0.9308033189186199
+            ],
+            "mean": 0.9015319389730869,
+            "n_seeds": 1000
+          },
+          "best_protograph_LDPC": {
+            "ci95": [
+              0.8824421985833584,
+              0.9329944971768775
+            ],
+            "mean": 0.9084154118849178,
+            "n_seeds": 1000
+          },
+          "best_spatially_coupled_LDPC": {
+            "ci95": [
+              0.9042798249666985,
+              0.939738129771174
+            ],
+            "mean": 0.9220579808278578,
+            "n_seeds": 1000
+          },
+          "cdt_optimizer_candidate": {
+            "ci95": [
+              0.897640869675452,
+              0.9378470633352136
+            ],
+            "mean": 0.9177332695684451,
+            "n_seeds": 1000
+          }
+        },
+        "scope": "engineering only"
+      },
+      "t47": null,
+      "t48b": null,
+      "t53": null,
+      "t60": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v30": {
+    "confirm_allowed_now": false,
+    "test_id": "T46",
+    "v30": {},
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v32": {
+    "confirm_allowed_now": false,
+    "test_id": "T46",
+    "v32": {},
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v33": {
+    "confirm_allowed_now": false,
+    "test_id": "T46",
+    "v33": {
+      "auto_generated_inputs_v33": {
+        "generated_files": [],
+        "manual_or_user_csv_required": false,
+        "status": "auto_generation_attempted"
+      },
+      "auto_input_policy_v33": {
+        "all_tests_run_together": true,
+        "commit_generated_csv_required": false,
+        "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+        "manual_or_user_filled_csv_required": false,
+        "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "positive_dashboard_fragment_v34": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v34": {
+      "auto_data_improvements_v34": {},
+      "confirmation_blocker_v34": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "qualifying primary data and robust model gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict confirmation gate not passed"
+      },
+      "split_branch_policy_v34": null
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v35": {
+      "auto_data_improvements_v35": {},
+      "confirmation_blocker_v35": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "qualifying primary data and robust model gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict confirmation gate not passed"
+      },
+      "near_confirm_score_v35": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v36": {
+      "carried_forward_v35_improvements": true,
+      "confirmation_blocker_v36": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "qualifying primary data and robust model gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict confirmation gate not passed"
+      },
+      "near_confirm_score_v36": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      },
+      "t34_real_runner_active": false
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v37": {
+      "auto_data_improvements_v37": {},
+      "confirmation_blocker_v37": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "qualifying primary data and robust model gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict confirmation gate not passed"
+      },
+      "near_confirm_score_v37": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "qualifying primary data and robust model gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v38": {
+      "auto_data_improvements_v38": {},
+      "confirmation_blocker_v38": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "qualifying primary data and robust model gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict confirmation gate not passed"
+      },
+      "near_confirm_score_v38": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict confirmation gate not passed"
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v39": {
+      "auto_data_improvements_v39": {},
+      "confirmation_blocker_v39": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v39 gate not passed"
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v40": {
+      "auto_data_improvements_v40": {},
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v40 gate not passed"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v41": {
+      "auto_data_improvements_v41": {},
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v42": {
+      "auto_data_improvements_v42": {},
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v43": {
+      "auto_data_improvements_v43": {},
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v44": {
+      "auto_data_improvements_v44": {},
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v45": {
+      "auto_data_improvements_v45": {},
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v46": {
+      "auto_data_improvements_v46": {},
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v47": {
+      "auto_data_improvements_v47": {},
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v48": {
+      "auto_data_improvements_v48": {},
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v49": {
+      "auto_data_improvements_v49": {},
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v50": {
+      "auto_data_improvements_v50": {},
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v51": {
+      "auto_data_improvements_v51": {},
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T46"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed",
+      "data_status_v52": "not_prioritized_for_confirm",
+      "evidence_status_v52": "not_confirmed",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v52": {
+      "auto_data_improvements_v52": {},
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed",
+        "data_status_v52": "not_prioritized_for_confirm",
+        "evidence_status_v52": "not_confirmed",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T46"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed",
+      "data_status_v53": "not_prioritized_for_confirm",
+      "evidence_status_v53": "not_confirmed",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v53": {
+      "auto_data_improvements_v53": {},
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed",
+        "data_status_v53": "not_prioritized_for_confirm",
+        "evidence_status_v53": "not_confirmed",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "high",
+      "next_data_source_v56": "not a current confirm target",
+      "rank_score_0_10_v56": 1,
+      "test_id": "T46"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "not_prioritized_for_confirm"
+      ]
+    },
+    "single_next_blocker": "not_prioritized_for_confirm",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v56": {
+      "auto_data_improvements_v56": {},
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "not_prioritized_for_confirm",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not_prioritized_for_confirm"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "not_prioritized_for_confirm"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "not_prioritized_for_confirm"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "high",
+      "next_data_source_v57": "not a current confirm target",
+      "rank_score_0_10_v57": 1,
+      "test_id": "T46"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "not_prioritized_for_confirm"
+      ]
+    },
+    "single_next_blocker": "not_prioritized_for_confirm",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v57": {
+      "auto_data_improvements_v57": {},
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "not_prioritized_for_confirm",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not_prioritized_for_confirm"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "not_prioritized_for_confirm"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "not_prioritized_for_confirm"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T46"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "not_prioritized_for_confirm"
+      ]
+    },
+    "single_next_blocker": "not_prioritized_for_confirm",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v58": {
+      "auto_data_improvements_v58": {},
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "not_prioritized_for_confirm",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not_prioritized_for_confirm"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "not_prioritized_for_confirm"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "not_prioritized_for_confirm"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T46"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T46",
+    "v59": {
+      "auto_data_improvements_v59": {},
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "null_current_benchmark_design_search_ready",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_engineering_search_v18": {
+    "current_result_interpretation": "The present CDT-like graph does not beat all matched baselines; treat it as a design-search seed, not a physics result.",
+    "decoders_to_run": [
+      "BEC peeling",
+      "BP/min-sum",
+      "rank erasure oracle"
+    ],
+    "evidence_scope": "engineering_only; cannot confirm CCDR physics",
+    "positive_success_rule": "optimized CDT/hybrid ensemble beats spatially-coupled/protograph/interleaved baselines at matched rate/check density with confidence intervals over >=50 seeds.",
+    "search_matrix": [
+      {
+        "check_degrees": [
+          4,
+          6,
+          8
+        ],
+        "ensemble": "cdt_like_irregular_nonlocal",
+        "rate_targets": [
+          0.33,
+          0.5,
+          0.67
+        ],
+        "rewire_fraction": [
+          0.05,
+          0.1,
+          0.2
+        ]
+      },
+      {
+        "boundary_smoothing": [
+          true,
+          false
+        ],
+        "coupling_width": [
+          3,
+          5,
+          7
+        ],
+        "ensemble": "spatially_coupled_cdt_hybrid",
+        "rate_targets": [
+          0.33,
+          0.5
+        ]
+      },
+      {
+        "burst_interleaver": [
+          true,
+          false
+        ],
+        "ensemble": "protograph_cdt_hybrid",
+        "lift_sizes": [
+          64,
+          128,
+          256
+        ],
+        "rate_targets": [
+          0.5
+        ]
+      }
+    ],
+    "status": "null_current_benchmark_but_design_search_ready"
+  },
+  "prediction_ids": [
+    "EL6"
+  ],
+  "prediction_names": [
+    "CDT-like/random graph code improves burst-channel LDPC capacity proxy"
+  ],
+  "programmatic_verdict": "null_current_benchmark_design_search_ready",
+  "programmatic_verdict_v19": {
+    "candidate_table_count": 0,
+    "positive_path_present": true,
+    "qualifying_table_count": 0,
+    "reporting_language": "Diagnostic or neutral result.",
+    "strict_confirmation_allowed": false,
+    "strict_falsification_allowed": true,
+    "support_like": false,
+    "verdict": "null_current_benchmark_design_search_ready"
+  },
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "quality_patch_version": "v9_gf2_erasure_burst_correctability_benchmark+v10_reporting_only+v16_peeling_decoder_benchmark+v18_t46_design_search+v19_programmatic_verdict+v19_programmatic_verdict+v20_positive_dashboard_fragment+v21_el6_design_path+v22_t46b_optimization_proxy+v23_t46b_100_seed_optimizer+v24_t46b_real_optimizer_plan+v25_t46b_optimizer_required+v26_t46b_optimizer+v27_t46b_optimizer_execution+v28_t46b_optimizer+v29_t46_optimizer_proxy+v33_no_manual_all_tests_auto_primary_hunt+v34_auto_confirm_loaders_blocker_dashboard+v35_near_confirm_models_endpoint_fixes+v36_t34_real_runner_and_near_confirm_hardening+v37_confirm_hardening+v38_final_confirm_gate_hardening+v39_confirm_freeze_and_next_targets+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "readiness_status": "model_fit_done",
+  "schema": "ccdr-tierb-result-v1",
+  "script_quality_note_v10": "T46 already uses the v9 GF(2) burst-erasure correctability benchmark; no manual data route is relevant. Next automated step would add real decoders if optional packages are available.",
+  "status": "ok",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed",
+    "data_status_v52": "not_prioritized_for_confirm",
+    "evidence_status_v52": "not_confirmed",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed",
+    "data_status_v53": "not_prioritized_for_confirm",
+    "evidence_status_v53": "not_confirmed",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "support_like": false,
+  "t46b_confirm_optimizer_execution_v27": {
+    "T46a_status": "null_under_strong_matched_baselines",
+    "T46b_status": "not_confirmed",
+    "beats_best_non_CDT_proxy": false,
+    "proxy_500_seed_summary": {
+      "interleaved_burst_baseline": {
+        "ci95": [
+          0.8622096025012558,
+          0.9300438488586298
+        ],
+        "mean": 0.8969583349241902,
+        "n_seeds": 500
+      },
+      "optimized_CDT_hybrid_candidate": {
+        "ci95": [
+          0.8976046990895064,
+          0.935685724527685
+        ],
+        "mean": 0.9156144159963205,
+        "n_seeds": 500
+      },
+      "protograph_LDPC_best": {
+        "ci95": [
+          0.8757198525532421,
+          0.9356876183344122
+        ],
+        "mean": 0.9054067427639618,
+        "n_seeds": 500
+      },
+      "spatially_coupled_LDPC_best": {
+        "ci95": [
+          0.8994163553873399,
+          0.9381443209492337
+        ],
+        "mean": 0.9202370892303812,
+        "n_seeds": 500
+      }
+    },
+    "required_real_confirm": [
+      "real graph optimizer",
+      "BP/min-sum decoder",
+      "matched rate/check density",
+      "bootstrap CI excludes zero",
+      "not one-seed driven"
+    ],
+    "scope": "engineering benchmark only; not CCDR physics evidence"
+  },
+  "t46b_confirm_optimizer_execution_v28": {
+    "T46a_status": "null_under_strong_matched_baselines",
+    "T46b_status": "not_confirmed",
+    "beats_best_non_CDT_proxy": false,
+    "proxy_750_seed_summary": {
+      "cdt_hybrid_optimizer_candidate": {
+        "ci95": [
+          0.8971146645121657,
+          0.9337805795408752
+        ],
+        "mean": 0.9165591079117513,
+        "n_seeds": 750
+      },
+      "interleaved_burst_baseline": {
+        "ci95": [
+          0.8671394645818135,
+          0.9331094825483586
+        ],
+        "mean": 0.8982201954184711,
+        "n_seeds": 750
+      },
+      "protograph_LDPC_best": {
+        "ci95": [
+          0.880213252095336,
+          0.9353548483126828
+        ],
+        "mean": 0.9072780875660088,
+        "n_seeds": 750
+      },
+      "spatially_coupled_LDPC_best": {
+        "ci95": [
+          0.9009858146920973,
+          0.9388843598554857
+        ],
+        "mean": 0.9209755719612607,
+        "n_seeds": 750
+      }
+    },
+    "required_real_confirm": [
+      "real graph optimizer",
+      "BP/min-sum decoder",
+      "matched rate/check density",
+      "bootstrap CI excludes zero",
+      "not one-seed driven"
+    ],
+    "scope": "engineering benchmark only; not CCDR physics evidence"
+  },
+  "t46b_confirm_optimizer_execution_v29": {
+    "T46a_status": "null_under_strong_matched_baselines",
+    "beats_best_non_CDT_proxy": false,
+    "confirm_allowed_now": false,
+    "next_required": "real graph optimizer + BP/min-sum decoder + bootstrap CI excluding zero",
+    "proxy_1000_seed_summary": {
+      "best_interleaved_burst": {
+        "ci95": [
+          0.8718182623309746,
+          0.9308033189186199
+        ],
+        "mean": 0.9015319389730869,
+        "n_seeds": 1000
+      },
+      "best_protograph_LDPC": {
+        "ci95": [
+          0.8824421985833584,
+          0.9329944971768775
+        ],
+        "mean": 0.9084154118849178,
+        "n_seeds": 1000
+      },
+      "best_spatially_coupled_LDPC": {
+        "ci95": [
+          0.9042798249666985,
+          0.939738129771174
+        ],
+        "mean": 0.9220579808278578,
+        "n_seeds": 1000
+      },
+      "cdt_optimizer_candidate": {
+        "ci95": [
+          0.897640869675452,
+          0.9378470633352136
+        ],
+        "mean": 0.9177332695684451,
+        "n_seeds": 1000
+      }
+    },
+    "scope": "engineering only"
+  },
+  "t46b_confirm_optimizer_v26": {
+    "T46a": "current strong-baseline benchmark remains null",
+    "T46b_status": "open_optimizer_not_confirmed",
+    "beats_best_non_CDT_baseline": false,
+    "required_for_confirm": [
+      "real graph optimizer",
+      "BP/min-sum decoder",
+      "matched rate/check density",
+      "bootstrap CI excludes zero",
+      "not one-seed driven"
+    ],
+    "scope": "engineering search only; not CCDR physics evidence",
+    "simulated_optimizer_proxy": {
+      "cdt_hybrid_optimized": {
+        "ci95": [
+          0.879039220252624,
+          0.9482553949356785
+        ],
+        "mean_correctable_fraction": 0.9146656446514724,
+        "n_seeds": 500
+      },
+      "matched_interleaved_burst_baseline": {
+        "ci95": [
+          0.8525942996864636,
+          0.9365388609713278
+        ],
+        "mean_correctable_fraction": 0.8959762888128984,
+        "n_seeds": 500
+      },
+      "matched_protograph_LDPC": {
+        "ci95": [
+          0.8654919390747017,
+          0.9339895863618973
+        ],
+        "mean_correctable_fraction": 0.9013160154354027,
+        "n_seeds": 500
+      },
+      "matched_spatially_coupled_LDPC": {
+        "ci95": [
+          0.8930147657566484,
+          0.9456367431288591
+        ],
+        "mean_correctable_fraction": 0.9200882093239267,
+        "n_seeds": 500
+      }
+    }
+  },
+  "t46b_optimization_run_v22": {
+    "best_family_proxy": {
+      "ci95_half_width_proxy": 0.007060232222979829,
+      "family": "spatially_coupled_CDT_hybrid",
+      "mean_correctable_fraction_proxy": 0.914608437870868,
+      "n_seeds": 50
+    },
+    "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+    "next_required": [
+      "real BP/min-sum decoder",
+      "matched code rate/check density",
+      "logical error rate",
+      "burst+random sweeps",
+      ">=50 seeds retained"
+    ],
+    "rows": [
+      {
+        "ci95_half_width_proxy": 0.007604154102238184,
+        "family": "fixed_CDT_like",
+        "mean_correctable_fraction_proxy": 0.8612453448942838,
+        "n_seeds": 50
+      },
+      {
+        "ci95_half_width_proxy": 0.007060232222979829,
+        "family": "spatially_coupled_CDT_hybrid",
+        "mean_correctable_fraction_proxy": 0.914608437870868,
+        "n_seeds": 50
+      },
+      {
+        "ci95_half_width_proxy": 0.00640274248924337,
+        "family": "protograph_CDT_hybrid",
+        "mean_correctable_fraction_proxy": 0.8995748903998048,
+        "n_seeds": 50
+      },
+      {
+        "ci95_half_width_proxy": 0.007645449946794451,
+        "family": "interleaved_CDT_burst_hybrid",
+        "mean_correctable_fraction_proxy": 0.897976965426786,
+        "n_seeds": 50
+      },
+      {
+        "ci95_half_width_proxy": 0.006980129357706403,
+        "family": "matched_spatially_coupled_LDPC",
+        "mean_correctable_fraction_proxy": 0.9124392223029427,
+        "n_seeds": 50
+      },
+      {
+        "ci95_half_width_proxy": 0.006561799716592217,
+        "family": "matched_protograph_LDPC",
+        "mean_correctable_fraction_proxy": 0.8987611825406858,
+        "n_seeds": 50
+      }
+    ],
+    "status": "synthetic_design_search_executed_proxy_only"
+  },
+  "t46b_optimization_run_v23": {
+    "best_cdt_variant_proxy": {
+      "ci95_half_width_proxy": 0.0044901168217945245,
+      "family": "spatially_coupled_CDT_hybrid",
+      "mean_correctable_fraction_proxy": 0.915812486567649,
+      "median_correctable_fraction_proxy": 0.9183643462875346,
+      "n_seeds": 100
+    },
+    "best_family_proxy": {
+      "ci95_half_width_proxy": 0.0044090170965163395,
+      "family": "matched_spatially_coupled_LDPC",
+      "mean_correctable_fraction_proxy": 0.918769012781049,
+      "median_correctable_fraction_proxy": 0.9198657829431767,
+      "n_seeds": 100
+    },
+    "best_non_cdt_baseline_proxy": {
+      "ci95_half_width_proxy": 0.0044090170965163395,
+      "family": "matched_spatially_coupled_LDPC",
+      "mean_correctable_fraction_proxy": 0.918769012781049,
+      "median_correctable_fraction_proxy": 0.9198657829431767,
+      "n_seeds": 100
+    },
+    "cdt_over_best_baseline_ratio_proxy": 0.9967820788769847,
+    "evidence_scope": "engineering design-search only; not CCDR physics evidence",
+    "next_required": [
+      "real BP/min-sum decoder",
+      "matched code rate/check density",
+      "logical error rate",
+      "burst+random sweeps",
+      ">=100 seeds retained"
+    ],
+    "rows": [
+      {
+        "ci95_half_width_proxy": 0.0048722635483166125,
+        "family": "fixed_CDT_like",
+        "mean_correctable_fraction_proxy": 0.8587095852516708,
+        "median_correctable_fraction_proxy": 0.8577798125413121,
+        "n_seeds": 100
+      },
+      {
+        "ci95_half_width_proxy": 0.0044901168217945245,
+        "family": "spatially_coupled_CDT_hybrid",
+        "mean_correctable_fraction_proxy": 0.915812486567649,
+        "median_correctable_fraction_proxy": 0.9183643462875346,
+        "n_seeds": 100
+      },
+      {
+        "ci95_half_width_proxy": 0.004603661364805026,
+        "family": "protograph_CDT_hybrid",
+        "mean_correctable_fraction_proxy": 0.9018348876937817,
+        "median_correctable_fraction_proxy": 0.9002185517097098,
+        "n_seeds": 100
+      },
+      {
+        "ci95_half_width_proxy": 0.00512982674106952,
+        "family": "interleaved_CDT_burst_hybrid",
+        "mean_correctable_fraction_proxy": 0.908405381170911,
+        "median_correctable_fraction_proxy": 0.9062487924592619,
+        "n_seeds": 100
+      },
+      {
+        "ci95_half_width_proxy": 0.0044090170965163395,
+        "family": "matched_spatially_coupled_LDPC",
+        "mean_correctable_fraction_proxy": 0.918769012781049,
+        "median_correctable_fraction_proxy": 0.9198657829431767,
+        "n_seeds": 100
+      },
+      {
+        "ci95_half_width_proxy": 0.004287707309786655,
+        "family": "matched_protograph_LDPC",
+        "mean_correctable_fraction_proxy": 0.8992461579926306,
+        "median_correctable_fraction_proxy": 0.9000642523738673,
+        "n_seeds": 100
+      },
+      {
+        "ci95_half_width_proxy": 0.004775820362659294,
+        "family": "matched_interleaved_burst_baseline",
+        "mean_correctable_fraction_proxy": 0.8996274164979137,
+        "median_correctable_fraction_proxy": 0.9009712639289797,
+        "n_seeds": 100
+      }
+    ],
+    "status": "synthetic_100_seed_optimizer_proxy_only"
+  },
+  "t46b_optimized_design_search_v19": {
+    "T46a_current_benchmark_status": "null_current_benchmark",
+    "T46b_design_search_status": "ready_to_generate_engineering_positives",
+    "decoders": [
+      "BEC peeling",
+      "BP/min-sum",
+      "rank erasure oracle"
+    ],
+    "ensembles": [
+      "cdt_like_irregular_nonlocal",
+      "spatially_coupled_cdt_hybrid",
+      "protograph_cdt_hybrid",
+      "interleaved_cdt_burst_hybrid"
+    ],
+    "matched_controls": [
+      "code rate",
+      "check density",
+      "block length",
+      "burst length distribution",
+      "random-error admixture"
+    ],
+    "scope": "engineering positive only; not CCDR physics confirmation",
+    "success_rule": "optimized CDT/hybrid family beats spatially-coupled/protograph/interleaved baselines over >=50 seeds with confidence intervals."
+  },
+  "t46b_optimizer_required_v25": {
+    "T46a": "null_current_benchmark",
+    "T46b": "open_engineering_positive_path",
+    "positive_rule": "beat best non-CDT baseline, not only local LDPC toy",
+    "required_next_run": [
+      "100-500 seeds",
+      "matched rate/check density",
+      "spatially-coupled LDPC baseline",
+      "protograph LDPC baseline",
+      "interleaved burst baseline",
+      "CDT-hybrid variants",
+      "BP/min-sum decoder",
+      "bootstrap confidence intervals"
+    ]
+  },
+  "t46b_search_plan_v20": {
+    "T46a_current_benchmark": "keep as null baseline audit",
+    "T46b_optimized_design_search": "primary engineering-positive path",
+    "decoders": [
+      "BEC peeling",
+      "BP",
+      "min-sum",
+      "rank erasure oracle"
+    ],
+    "ensembles": [
+      "CDT-like irregular nonlocal",
+      "spatially-coupled CDT hybrid",
+      "protograph CDT hybrid",
+      "interleaved CDT burst hybrid",
+      "spatially-coupled LDPC baseline",
+      "protograph LDPC baseline"
+    ],
+    "positive_success_rule": "optimized CDT-hybrid beats best matched non-CDT baseline with CI across seeds",
+    "required_controls": [
+      "matched rate",
+      "matched check density",
+      "same block length",
+      "same burst length grid",
+      "50+ seeds"
+    ]
+  },
+  "t46b_v24_real_optimizer_required": {
+    "required": [
+      "100+ seeds",
+      "matched rate/check density",
+      "spatially-coupled LDPC baseline",
+      "protograph LDPC baseline",
+      "interleaved burst baseline",
+      "BP/min-sum decoder",
+      "bootstrap CI"
+    ],
+    "status": "v23_proxy_present; v24_requires_real_decoder_next",
+    "verdict": "current T46a null; T46b engineering search open"
+  },
+  "test_id": "T46",
+  "test_name": "LDPC burst-channel benchmark"
+}

@@ -1,0 +1,15 @@
+{
+  "artifact_version": "v70",
+  "bao_full_covariance_used": true,
+  "manual_fill_required": false,
+  "model_penalty_supports_new_model": false,
+  "pantheon_covariance_candidate_count": 0,
+  "pantheon_full_covariance_used": false,
+  "required_next": [
+    "ingest Pantheon+SH0ES covariance/systematic matrix",
+    "fit combined SN+BAO covariance with nuisance parameters",
+    "require delta chi2 >= 9 and AIC/BIC support"
+  ],
+  "status": "full_covariance_chain_still_penalty_limited",
+  "v69_delta_chi2_lcdm_minus_best": 1.2117649731708635
+}

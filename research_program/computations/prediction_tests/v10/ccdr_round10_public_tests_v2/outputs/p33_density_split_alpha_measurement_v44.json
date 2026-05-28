@@ -1,0 +1,26 @@
+{
+  "alpha_rows": [],
+  "best_measurement": null,
+  "claim_policy": "A diagnostic xi-peak alpha estimate is not enough for promotion. P33 needs covariance, density/sky nulls and redshift jackknife.",
+  "measurement_present": false,
+  "n_alpha_rows": 0,
+  "p33_publication_confirm_gate_v44": {
+    "alpha_high_low_measured": false,
+    "covariance_ready": false,
+    "delta_alpha_nonzero": false,
+    "density_label_shuffle_pass": false,
+    "eligible_for_confirm_like": false,
+    "first_measured_alpha_split_v44": true,
+    "missing": [
+      "alpha_high_low_measured",
+      "covariance_ready",
+      "density_label_shuffle_pass",
+      "sky_shuffle_pass",
+      "redshift_jackknife_stable",
+      "delta_alpha_nonzero"
+    ],
+    "redshift_jackknife_stable": false,
+    "sky_shuffle_pass": false
+  },
+  "version": "v44"
+}

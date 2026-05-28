@@ -1,0 +1,18 @@
+{
+  "artifact_version": "v69",
+  "assumed_extra_params": 1,
+  "bao_full_covariance_used": true,
+  "claim_policy_v69": "v69 audits Pantheon covariance/systematics candidates and DESI BAO covariance in the same model-penalty chain. Confirmation requires full covariance, systematics splits, and AIC/BIC support.",
+  "delta_AIC_new_minus_LCDM": 0.7882350268291365,
+  "delta_BIC_new_minus_LCDM": 1.3531843842906732,
+  "delta_chi2_lcdm_minus_best": 1.2117649731708635,
+  "manual_fill_required": false,
+  "model_penalty_supports_new_model": false,
+  "n_bao_observables": 13,
+  "n_pantheon_rows": 0,
+  "pantheon_covariance_audit": [],
+  "pantheon_covariance_usable_paths": [],
+  "pantheon_full_covariance_used": false,
+  "status": "full_covariance_model_chain_audit_built",
+  "systematics_splits_done": false
+}

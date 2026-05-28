@@ -1,0 +1,587 @@
+{
+  "auto_data_improvements_v57": {
+    "v57_overlay_error": "MemoryError: "
+  },
+  "auto_data_improvements_v58": {
+    "v57_overlay_error": "MemoryError: ",
+    "v58_overlay_error": "MemoryError: "
+  },
+  "auto_data_improvements_v59": {
+    "v59_overlay_error": "MemoryError: "
+  },
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v56": {
+    "blocker_type_v56": "true_tier_a_nand_rows_missing_or_not_evaluated",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_audit_repair_required",
+    "expected_effort_v56": "medium",
+    "next_data_source_v56": "company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url NAND rows",
+    "rank_score_0_10_v56": 8,
+    "test_id": "T44"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "v57_runtime_overlay_exception",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_runtime_output_missing",
+    "expected_effort_v57": "medium",
+    "next_data_source_v57": "test-specific exact structured source",
+    "rank_score_0_10_v57": 8,
+    "test_id": "T44"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "v58_overlay_exception",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_runtime_output_missing",
+    "expected_effort_v58": "medium",
+    "next_data_source_v58": "test-specific exact structured source",
+    "rank_score_0_10_v58": 8,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T44"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "v59_overlay_exception",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_runtime_output_missing",
+    "expected_effort_v59": "medium",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 8,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T44"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url NAND rows",
+    "single_next_blocker": "true_tier_a_nand_rows_missing_or_not_evaluated",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "true_tier_a_nand_rows_missing_or_not_evaluated"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "single_next_blocker": "v57_runtime_overlay_exception",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "v57_runtime_overlay_exception"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "v58_overlay_exception",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "v58_overlay_exception"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "v59_overlay_exception",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "v59_overlay_exception"
+  },
+  "confirmation_label_v56": "not_confirmed_audit_repair_required",
+  "confirmation_label_v57": "not_confirmed_runtime_output_missing",
+  "confirmation_label_v58": "not_confirmed_runtime_output_missing",
+  "confirmation_label_v59": "not_confirmed_runtime_output_missing",
+  "confirmation_status_v56": "not_confirmed_audit_repair_required",
+  "confirmation_status_v57": "not_confirmed_runtime_output_missing",
+  "confirmation_status_v58": "not_confirmed_runtime_output_missing",
+  "confirmation_status_v59": "not_confirmed_runtime_output_missing",
+  "data_status_v56": "true_tier_a_nand_rows_required",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "evidence_status_v56": "audit_repair_route_not_evaluated_this_run",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v56": "missing_output_repaired_v56",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "missing_result_json"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "fallback_repaired_v56": true,
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 8,
+    "strict_gate_remaining": [
+      "true_tier_a_nand_rows_missing_or_not_evaluated"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": true,
+    "model_rows_available": true,
+    "primary_table_available": true,
+    "score_0_10": 8,
+    "strict_gate_remaining": [
+      "v57_runtime_overlay_exception"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": true,
+    "model_rows_available": true,
+    "primary_table_available": true,
+    "score_0_10": 8,
+    "strict_gate_remaining": [
+      "v58_overlay_exception"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": true,
+    "model_rows_available": true,
+    "primary_table_available": true,
+    "score_0_10": 8,
+    "strict_gate_remaining": [
+      "v59_overlay_exception"
+    ]
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v35": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v36": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v37": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "test-specific structured public table source",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "missing_result_json"
+      ]
+    },
+    "single_next_blocker": "debug script runtime/parser and ensure emit_result() is called on all paths",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v38": {
+      "fallback_restored_output": true
+    },
+    "verdict": "data_limited_missing_output_fallback",
+    "why_not_confirmed": "test did not produce a result JSON in this all-tests run"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url NAND rows",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "true_tier_a_nand_rows_missing_or_not_evaluated",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_audit_repair_required",
+      "expected_effort_v56": "medium",
+      "next_data_source_v56": "company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url NAND rows",
+      "rank_score_0_10_v56": 8,
+      "test_id": "T44"
+    },
+    "confirmation_label": "not_confirmed_audit_repair_required",
+    "near_confirm_score": {
+      "fallback_repaired_v56": true,
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 8,
+      "strict_gate_remaining": [
+        "true_tier_a_nand_rows_missing_or_not_evaluated"
+      ]
+    },
+    "single_next_blocker": "true_tier_a_nand_rows_missing_or_not_evaluated",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_audit_repair_required",
+      "data_status_v56": "true_tier_a_nand_rows_required",
+      "evidence_status_v56": "audit_repair_route_not_evaluated_this_run",
+      "execution_status_v56": "missing_output_repaired_v56"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v56": {
+      "fallback_repaired_v56": true,
+      "process_status": "process_timeout",
+      "stderr_tail": "rm_eligible_v47, 1: company_v48, 2: source_url_v48, 3: source_domain_v48, 4: tier_v48, 5: tier_a_missing_v48, 6: confirm_eligible_v48, 7: company_v49, 8: source_url_v49, 9: source_domain_v49, 10: tier_v49, 11: tier_a_missing_v49, 12: confirm_eligible_v49, 13: company_v50, 14: source_url_v50, 15: source_domain_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:12791: DtypeWarning: Columns (0: company_v48, 1: source_url_v48, 2: source_domain_v48, 3: tier_v48, 4: tier_a_missing_v48, 5: confirm_eligible_v48) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\n",
+      "stdout_tail": ""
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "true_tier_a_nand_rows_missing_or_not_evaluated"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "v57_runtime_overlay_exception",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_runtime_output_missing",
+      "expected_effort_v57": "medium",
+      "next_data_source_v57": "test-specific exact structured source",
+      "rank_score_0_10_v57": 8,
+      "test_id": "T44"
+    },
+    "confirmation_label": "not_confirmed_runtime_output_missing",
+    "near_confirm_score": {
+      "model_gate_attempted": true,
+      "model_rows_available": true,
+      "primary_table_available": true,
+      "score_0_10": 8,
+      "strict_gate_remaining": [
+        "v57_runtime_overlay_exception"
+      ]
+    },
+    "single_next_blocker": "v57_runtime_overlay_exception",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_runtime_output_missing",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v57": {
+      "auto_data_improvements_v57": {
+        "v57_overlay_error": "MemoryError: "
+      },
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "single_next_blocker": "v57_runtime_overlay_exception",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "v57_runtime_overlay_exception"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": true,
+        "model_rows_available": true,
+        "primary_table_available": true,
+        "score_0_10": 8,
+        "strict_gate_remaining": [
+          "v57_runtime_overlay_exception"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_runtime_output_missing",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "v57_runtime_overlay_exception"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "v58_overlay_exception",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_runtime_output_missing",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "test-specific exact structured source",
+      "rank_score_0_10_v58": 8,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T44"
+    },
+    "confirmation_label": "not_confirmed_runtime_output_missing",
+    "near_confirm_score": {
+      "model_gate_attempted": true,
+      "model_rows_available": true,
+      "primary_table_available": true,
+      "score_0_10": 8,
+      "strict_gate_remaining": [
+        "v58_overlay_exception"
+      ]
+    },
+    "single_next_blocker": "v58_overlay_exception",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_runtime_output_missing",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v58": {
+      "auto_data_improvements_v58": {
+        "v57_overlay_error": "MemoryError: ",
+        "v58_overlay_error": "MemoryError: "
+      },
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "v58_overlay_exception",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "v58_overlay_exception"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": true,
+        "model_rows_available": true,
+        "primary_table_available": true,
+        "score_0_10": 8,
+        "strict_gate_remaining": [
+          "v58_overlay_exception"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_runtime_output_missing",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "v58_overlay_exception"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "v59_overlay_exception",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_runtime_output_missing",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 8,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T44"
+    },
+    "confirmation_label": "not_confirmed_runtime_output_missing",
+    "near_confirm_score": {
+      "model_gate_attempted": true,
+      "model_rows_available": true,
+      "primary_table_available": true,
+      "score_0_10": 8,
+      "strict_gate_remaining": [
+        "v59_overlay_exception"
+      ]
+    },
+    "single_next_blocker": "v59_overlay_exception",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_runtime_output_missing",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T44",
+    "v59": {
+      "auto_data_improvements_v59": {
+        "v59_overlay_error": "MemoryError: "
+      },
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "v59_overlay_exception",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "v59_overlay_exception"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "data_limited_runtime_output_repaired_v56",
+    "why_not_confirmed": "v59_overlay_exception"
+  },
+  "prediction_ids": [
+    "EL1",
+    "EL3"
+  ],
+  "prediction_names": [
+    "inter-layer area rather than volume controls scaling",
+    "3D electronics vertical volume crossover"
+  ],
+  "process_status": "process_timeout",
+  "programmatic_verdict": "data_limited_runtime_output_repaired_v56",
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "fallback_rows_are_not_confirmations_v56": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "quality_patch_version": "+v56_missing_output_repair+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "schema": "ccdr-tierb-result-v59-fallback-repaired",
+  "status": "data_limited_runtime_output_repaired_v57",
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_audit_repair_required",
+    "data_status_v56": "true_tier_a_nand_rows_required",
+    "evidence_status_v56": "audit_repair_route_not_evaluated_this_run",
+    "execution_status_v56": "missing_output_repaired_v56"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_runtime_output_missing",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_runtime_output_missing",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_runtime_output_missing",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "stderr_tail": "791: DtypeWarning: Columns (0: company_v47, 1: source_domain_v47, 2: tier_v47, 3: tier_a_missing_v47, 4: confirm_eligible_v47) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:12791: DtypeWarning: Columns (0: confirm_eligible_v47, 1: company_v48, 2: source_url_v48, 3: source_domain_v48, 4: tier_v48, 5: tier_a_missing_v48, 6: confirm_eligible_v48, 7: company_v49, 8: source_url_v49, 9: source_domain_v49, 10: tier_v49, 11: tier_a_missing_v49, 12: confirm_eligible_v49, 13: company_v50, 14: source_url_v50, 15: source_domain_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:12791: DtypeWarning: Columns (0: company_v48, 1: source_url_v48, 2: source_domain_v48, 3: tier_v48, 4: tier_a_missing_v48, 5: confirm_eligible_v48) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\n",
+  "stdout_tail": "",
+  "test_id": "T44",
+  "test_name": "3D NAND area vs volume scaling",
+  "v57_fallback_context": {
+    "process_status": "process_timeout",
+    "stderr_tail": "rm_eligible_v47, 1: company_v48, 2: source_url_v48, 3: source_domain_v48, 4: tier_v48, 5: tier_a_missing_v48, 6: confirm_eligible_v48, 7: company_v49, 8: source_url_v49, 9: source_domain_v49, 10: tier_v49, 11: tier_a_missing_v49, 12: confirm_eligible_v49, 13: company_v50, 14: source_url_v50, 15: source_domain_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:12791: DtypeWarning: Columns (0: company_v48, 1: source_url_v48, 2: source_domain_v48, 3: tier_v48, 4: tier_a_missing_v48, 5: confirm_eligible_v48) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\n",
+    "stdout_tail": ""
+  },
+  "v58_fallback_context": {
+    "process_status": "process_timeout",
+    "stderr_tail": "rm_eligible_v47, 1: company_v48, 2: source_url_v48, 3: source_domain_v48, 4: tier_v48, 5: tier_a_missing_v48, 6: confirm_eligible_v48, 7: company_v49, 8: source_url_v49, 9: source_domain_v49, 10: tier_v49, 11: tier_a_missing_v49, 12: confirm_eligible_v49, 13: company_v50, 14: source_url_v50, 15: source_domain_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:12791: DtypeWarning: Columns (0: company_v48, 1: source_url_v48, 2: source_domain_v48, 3: tier_v48, 4: tier_a_missing_v48, 5: confirm_eligible_v48) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\n",
+    "stdout_tail": ""
+  },
+  "v59_fallback_context": {
+    "process_status": "process_timeout",
+    "stderr_tail": "rm_eligible_v47, 1: company_v48, 2: source_url_v48, 3: source_domain_v48, 4: tier_v48, 5: tier_a_missing_v48, 6: confirm_eligible_v48, 7: company_v49, 8: source_url_v49, 9: source_domain_v49, 10: tier_v49, 11: tier_a_missing_v49, 12: confirm_eligible_v49, 13: company_v50, 14: source_url_v50, 15: source_domain_v50) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\nF:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py:12791: DtypeWarning: Columns (0: company_v48, 1: source_url_v48, 2: source_domain_v48, 3: tier_v48, 4: tier_a_missing_v48, 5: confirm_eligible_v48) have mixed types. Specify dtype option on import or set low_memory=False.\n  return pd.read_csv(path)\n",
+    "stdout_tail": ""
+  }
+}

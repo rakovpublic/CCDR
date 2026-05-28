@@ -1,0 +1,22 @@
+{
+  "available": false,
+  "canonical_route": "P30-SDSS random-normalized split v28/v29-compatible",
+  "claim_scope": "diagnostic manifest; required before interpreting P30 projection as physics",
+  "coord_source": "v13_sdss_fallback_coords",
+  "error": "ValueError('The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()')",
+  "error_type": "ValueError",
+  "n_coords": 2000,
+  "n_random": 10000,
+  "random_path": ".ccdr_round10_cache\\p30_sdss_random_catalogue_v28.csv",
+  "required_consistency": "projection raw deltas must match canonical same-split raw deltas before residual tests are claim-usable",
+  "split": {
+    "available": true,
+    "density_definition": "delta=N_data/N_random_scaled-1",
+    "density_nside": 64,
+    "high_threshold": 16.857142857142858,
+    "low_threshold": 6.222222222222222,
+    "n_data": 2000,
+    "n_random": 10000
+  },
+  "version": "v36"
+}

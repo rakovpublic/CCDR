@@ -11,7 +11,7 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "cosmology",
-  "kind": "pantheon_bao_likelihood_joint",
+  "kind": "p39_likelihood_gate_v22",
   "prediction_id": "P39",
   "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
   "sources": [

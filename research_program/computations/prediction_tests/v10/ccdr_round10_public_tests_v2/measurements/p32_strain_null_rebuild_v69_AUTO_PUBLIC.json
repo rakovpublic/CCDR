@@ -1,0 +1,119 @@
+{
+  "artifact_version": "v69",
+  "audit": [
+    {
+      "detector": "H1",
+      "fit_built": true,
+      "n_samples_read": 98304,
+      "n_whitened_samples": 98303,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc"
+    },
+    {
+      "detector": "L1",
+      "fit_built": true,
+      "n_samples_read": 98304,
+      "n_whitened_samples": 98303,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c"
+    }
+  ],
+  "claim_policy_v69": "v69 adds robust whitening/PSD proxy, off-source/time-slide nulls, and software-injection recovery. Public confirmation still requires multi-event leave-one-event-out stability.",
+  "delta_chi2_gr_minus_ccdr": 5.3030541482511095,
+  "detector_fits": {
+    "H1": {
+      "best_ringdown": {
+        "cos_coef": 0.25919977504081515,
+        "freq_hz": 420,
+        "sin_coef": -0.2108572256441354,
+        "sse": 433.11031399256285,
+        "tau_s": 0.006
+      },
+      "delta_chi2_gr_minus_ccdr": 0.19245570165192502,
+      "detector": "H1",
+      "fit_built": true,
+      "max_offsource_null_delta_chi2": 0.4507157321553559,
+      "n_samples": 122,
+      "n_samples_read": 98304,
+      "n_whitened_samples": 98303,
+      "offsource_null_delta_chi2": [
+        0.13196706414898673,
+        0.3997596873362431,
+        0.05213208413777741,
+        0.08775682638703883,
+        0.11282606657926059,
+        0.14193428799490101,
+        0.04711761874314587,
+        0.044385370257325155,
+        0.262109420345235,
+        0.4507157321553559,
+        0.21692907739659964,
+        0.19608041416351424,
+        0.12208662518521833,
+        0.16551756733490106,
+        0.05212561655486579,
+        0.020723370018355173
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "psd_proxy_variance_after_whitening": 0.9058811126328925,
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc",
+      "software_injection_delta_chi2": 3.015472279940653,
+      "software_injection_recovery_passed": true,
+      "sse_null": 433.79462751232285,
+      "start_index": 87002,
+      "time_slide_p": 0.3125,
+      "whitening_policy": "median-center, first-difference, robust MAD scale"
+    },
+    "L1": {
+      "best_ringdown": {
+        "cos_coef": 0.5047323931587321,
+        "freq_hz": 420,
+        "sin_coef": -1.4050760773049125,
+        "sse": 292.91725382577584,
+        "tau_s": 0.006
+      },
+      "delta_chi2_gr_minus_ccdr": 5.3030541482511095,
+      "detector": "L1",
+      "fit_built": true,
+      "max_offsource_null_delta_chi2": 6.136200453515525,
+      "n_samples": 122,
+      "n_samples_read": 98304,
+      "n_whitened_samples": 98303,
+      "offsource_null_delta_chi2": [
+        1.5774716475812167,
+        0.4973950142024798,
+        0.3980085993719943,
+        2.380025494934858,
+        1.281003474900857,
+        0.9682859933400028,
+        1.8721346315584513,
+        1.8481001619131865,
+        0.7368693199688611,
+        6.136200453515525,
+        2.5898725667261164,
+        4.4093555325329294,
+        2.5204316039921792
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "psd_proxy_variance_after_whitening": 0.8555855660041964,
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c",
+      "software_injection_delta_chi2": 6.8266205583476856,
+      "software_injection_recovery_passed": true,
+      "sse_null": 306.22827963418456,
+      "start_index": 248,
+      "time_slide_p": 0.07692307692307693,
+      "whitening_policy": "median-center, first-difference, robust MAD scale"
+    }
+  },
+  "detector_split_passed": false,
+  "event_ids_seen": [],
+  "leave_one_detector_out_stable": false,
+  "leave_one_event_out_stable": false,
+  "manual_fill_required": false,
+  "max_offsource_null_delta_chi2": 6.136200453515525,
+  "max_time_slide_p": 0.3125,
+  "min_detector_delta_chi2": 0.19245570165192502,
+  "offsource_time_slide_null_passed": false,
+  "software_injection_recovery_passed": true,
+  "status": "whitened_psd_timeslide_ringdown_rebuilt"
+}

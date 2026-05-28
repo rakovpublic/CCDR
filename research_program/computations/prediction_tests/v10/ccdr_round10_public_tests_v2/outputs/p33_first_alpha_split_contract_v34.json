@@ -1,0 +1,31 @@
+{
+  "current_gate": {
+    "alpha_high_low_measured": false,
+    "covariance_ready": false,
+    "delta_alpha_nonzero": false,
+    "density_label_shuffle_pass": false,
+    "eligible_for_confirm_like": false,
+    "missing": [
+      "alpha_high_low_measured",
+      "covariance_ready",
+      "density_label_shuffle_pass",
+      "sky_shuffle_pass",
+      "redshift_jackknife_stable",
+      "delta_alpha_nonzero"
+    ],
+    "redshift_jackknife_stable": false,
+    "sky_shuffle_pass": false
+  },
+  "minimal_viable_outputs": [
+    "alpha_high_density",
+    "alpha_low_density",
+    "sigma_alpha_high",
+    "sigma_alpha_low",
+    "delta_alpha_high_minus_low",
+    "covariance_method",
+    "density_label_shuffle_p",
+    "sky_shuffle_p"
+  ],
+  "redshift_jackknife_required_for_confirm": true,
+  "v34_required_measurement": "first measured density-split BAO alpha"
+}

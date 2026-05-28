@@ -14,9 +14,9 @@ META = {
   "implementation_notes": [
     "Selects high-SNR BBH events from GWOSC; strain download/pycbc analysis should be enabled separately."
   ],
-  "kind": "ringdown_ready_bound",
+  "kind": "ringdown_strain_plan_v22",
   "prediction_id": "P32",
-  "prediction_name": "P32 ringdown targeted-ready positive bound",
+  "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
   "sources": [],
   "test_id": "R10-T19",
   "tier": "public-current"

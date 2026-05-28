@@ -1,0 +1,18 @@
+{
+  "accepted_appendix": null,
+  "claim_policy": "Empirical finite-support mask supports diagnostics. P30 publication promotion requires official ACT mask or accepted equivalence appendix.",
+  "diagnostic_equivalent_mask": true,
+  "empirical_mask_available": true,
+  "mask_equivalence_appendix_accepted": false,
+  "official_mask_found": false,
+  "publication_equivalent_mask": false,
+  "required_appendix_fields": [
+    "mask_equivalence_accepted",
+    "same_mask_all_variants",
+    "nulls_use_same_mask",
+    "edge_exclusion_rule",
+    "finite_support_definition",
+    "variant_consistency_table"
+  ],
+  "version": "v44"
+}

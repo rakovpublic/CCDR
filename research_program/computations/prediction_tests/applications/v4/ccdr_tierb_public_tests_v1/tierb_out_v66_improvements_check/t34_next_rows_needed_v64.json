@@ -1,0 +1,39 @@
+{
+  "accepted_rows_v64": "Non-template exact public/source rows with required physical columns and source URL/label.",
+  "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+  "current_next_source_v64": "Exact Bi2Te3/Sb2Te3 ZT plus orientation/grain-boundary angle rows.",
+  "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, and derived/inferred rows.",
+  "required_packs_v64": [
+    {
+      "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\CHECKLIST_v64.md",
+      "dedup_key_v64": [
+        "material",
+        "composition",
+        "temperature_K",
+        "orientation_angle_deg",
+        "grain_boundary_angle_deg",
+        "source_url"
+      ],
+      "minimum_gate_v64": {
+        "min_usable_rows": 30
+      },
+      "pack": "thermoelectric",
+      "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric",
+      "required_columns_v64": [
+        "material",
+        "composition",
+        "ZT",
+        "temperature_K",
+        "orientation_angle_deg",
+        "grain_boundary_angle_deg",
+        "source_url",
+        "source_label"
+      ],
+      "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\SCHEMA_v64.json",
+      "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\t34_thermoelectric_angle_template.csv"
+    }
+  ],
+  "schema": "ccdr-v64-next-rows-needed",
+  "test_id": "T34",
+  "test_name": "Bi2Te3 ZT angle meta-analysis"
+}

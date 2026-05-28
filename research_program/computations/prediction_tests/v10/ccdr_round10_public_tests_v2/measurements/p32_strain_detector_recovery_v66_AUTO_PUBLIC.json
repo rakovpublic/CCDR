@@ -1,0 +1,29 @@
+{
+  "artifact_version": "v66",
+  "detectors_seen": [
+    "H1"
+  ],
+  "implemented_v66": "Make detector coverage explicit before claiming the strain likelihood gate.",
+  "n_likelihood_rows": 1,
+  "required_for_confirm": [
+    "at least two detectors",
+    "injection_null_passed",
+    "leave_one_event_out_stable",
+    "delta_chi2_gr_minus_ccdr_ge_4"
+  ],
+  "source_gate_v65": {
+    "artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p32_strain_likelihood_v61_AUTO_PUBLIC.json",
+    "behavior_change": "v65 focuses P32 detector split/injection-null path before P40/P41",
+    "detector_split_stable_v65": false,
+    "diagnostic_class": "minimal_one_event_likelihood_not_publication_grade",
+    "eligible_for_confirm_like": false,
+    "gate_version": "v65",
+    "missing": [
+      "injection_null_passed",
+      "detector_split_passed",
+      "leave_one_event_out_stable",
+      "delta_chi2_gr_minus_ccdr_ge_4"
+    ]
+  },
+  "status": "detector_split_input_incomplete"
+}

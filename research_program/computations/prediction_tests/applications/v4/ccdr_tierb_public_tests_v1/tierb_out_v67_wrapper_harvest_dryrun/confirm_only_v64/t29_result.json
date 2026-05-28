@@ -1,0 +1,41 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "diagnostic_only",
+    "confirmation_status_v64": "not_confirmed_diagnostic_only",
+    "confirmed_now_v64": false,
+    "next_data_source_v64": "Exact stellarator/tokamak edge transport rows with device and diffusivity/heat-flux columns.",
+    "rank_score_0_10_v64": 2,
+    "test_id": "T29",
+    "why_not_confirmed_v64": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+  },
+  "prediction_ids": [
+    "FR8"
+  ],
+  "prediction_names": [
+    "stellarator edge transport closer to KSS than tokamak edge transport"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": false,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T29",
+  "test_name": "stellarator vs tokamak edge transport",
+  "v64_behavioral_confirm_result": {
+    "behavioral_delta_v64": "fusion uses v64 exact source pack rows only; no PDF/metadata/generated confirmation",
+    "confirmation_status_v64": "not_confirmed_diagnostic_only",
+    "n_exact_rows_v64": 0,
+    "n_scanned_rows_v64": 0,
+    "rank_score_0_10_v64": 2,
+    "schema": "ccdr-fusion-exact-row-v64",
+    "strict_confirm_ready_v64": false,
+    "test_id": "T29"
+  },
+  "v64_claim_bucket": "diagnostic_only",
+  "v64_confirm_ready": false,
+  "v64_confirm_status": "not_confirmed_diagnostic_only",
+  "v64_next_data_source": "Exact stellarator/tokamak edge transport rows with device and diffusivity/heat-flux columns.",
+  "v64_why_not_confirmed": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+}

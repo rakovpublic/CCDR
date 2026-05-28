@@ -1,0 +1,38 @@
+{
+  "claim_policy": "P41 remains structured proxy until delta_chi2_sm_minus_wilson and CP controls are numeric and pass.",
+  "current_likelihood": {
+    "best_wilson_shift_proxy": -0.053181169626060704,
+    "candidate_files": [
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_rows_v41.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v29.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v30.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v31.json",
+      "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\test31_p41_lhcb_bsll_inventory.json"
+    ],
+    "chi2_sm": 8178.467850481137,
+    "chi2_wilson_proxy": 7772.953967553272,
+    "cp_controls_null_or_weak": true,
+    "delta_chi2_sm_minus_wilson": 405.51388292786487,
+    "likelihood_present": true,
+    "n_cp_rows": 0,
+    "n_extracted_numeric_rows": 2205,
+    "n_rows": 2205,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v31.json"
+  },
+  "required_columns": [
+    "observable",
+    "q2_low",
+    "q2_high",
+    "value",
+    "stat_error",
+    "syst_error_or_total_error",
+    "cp_label"
+  ],
+  "required_outputs": [
+    "chi2_sm",
+    "chi2_best_wilson",
+    "delta_chi2_sm_minus_wilson",
+    "cp_control_null"
+  ],
+  "v34_required_measurement": "real q2-binned Wilson/SM likelihood"
+}

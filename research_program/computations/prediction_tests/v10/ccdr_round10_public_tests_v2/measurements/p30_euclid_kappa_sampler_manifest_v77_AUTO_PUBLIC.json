@@ -1,0 +1,105 @@
+{
+  "artifact_version": "v77",
+  "claim_policy_v77": "v77 inventories claim-grade map/alm sources. A filename-level candidate is not enough; promotion requires a sampler producing same-mask density-kappa cells and nulls.",
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "sdss_scoped_confirm_like": true,
+  "second_independent_route_confirm_like": false,
+  "source_audit": [
+    {
+      "exists": true,
+      "fits_magic": false,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16__actadv_dr6_lensing_maps_info.html",
+      "sha256": "a55988f75d09a446303677330cfe9c66b4e071c83ace306d16af3bef80881a55",
+      "size_bytes": 19600,
+      "text_numeric_shape": {
+        "max_numeric_cols": 5,
+        "n_numeric_rows": 59,
+        "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16__actadv_dr6_lensing_maps_info.html",
+        "sha256": "a55988f75d09a446303677330cfe9c66b4e071c83ace306d16af3bef80881a55"
+      }
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "sha256": "caf923c0c4ef74f8e498309a948f7291ed62c5e4071756d98caaf82c58498797",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_cibdeproj_kappa_alm.fits",
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_curl_control_kappa_alm.fits",
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f090_kappa_alm.fits",
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f150_kappa_alm.fits",
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_tonly_kappa_alm.fits",
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits",
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits",
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits",
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits",
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "map_or_alm_candidate": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits",
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+      "size_bytes": 96079680
+    }
+  ],
+  "status": "p30_claim_grade_map_sources_absent_v77",
+  "usable_fits_map_candidates": 0,
+  "v76_euclid_kappa_cell_rows": 0,
+  "v76_planck_map_level_candidates": 15
+}

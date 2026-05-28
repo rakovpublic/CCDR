@@ -1,0 +1,17 @@
+{
+  "candidate_audit": [
+    {
+      "n_usable_ra_dec_z": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_euclid_random_catalogue_v27.csv",
+      "sha256": "db86aadb5faa702c3652b25ac0f265a954c34ead0af4b1a6edc3e77c37f9f53e"
+    },
+    {
+      "n_usable_ra_dec_z": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_sdss_random_catalogue_v28.csv",
+      "sha256": "b6e793653d45560adcded884f771adc35617bd818c10a608e9feea88a4d7fd72"
+    }
+  ],
+  "diagnostic_class": "no_public_catalogue_with_enough_ra_dec_z_for_alpha_proxy",
+  "manual_fill_required": false,
+  "status": "alpha_measurement_not_autobuilt"
+}

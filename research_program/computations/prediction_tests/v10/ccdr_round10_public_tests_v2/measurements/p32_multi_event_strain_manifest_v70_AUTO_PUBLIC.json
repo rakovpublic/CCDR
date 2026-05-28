@@ -1,0 +1,15 @@
+{
+  "artifact_version": "v70",
+  "event_ids_seen": [],
+  "manual_fill_required": false,
+  "required_next": [
+    "cache at least two GWOSC strain events with H1/L1 text or HDF5 strain",
+    "run detector-calibrated PSD whitening per event",
+    "perform software injections in off-source windows",
+    "leave-one-event-out stability"
+  ],
+  "status": "multi_event_strain_inputs_absent",
+  "v69_leave_one_event_out_stable": false,
+  "v69_max_time_slide_p": 0.3125,
+  "v69_min_detector_delta_chi2": 0.19245570165192502
+}

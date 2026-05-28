@@ -1,0 +1,27 @@
+{
+  "accepted_product_patterns": [
+    "p41*wilson*.json/csv",
+    "lhcb*bsll*q2*.json/csv",
+    "b_anomaly*likelihood*.json/csv"
+  ],
+  "candidate_files": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_rows_v41.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v29.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v30.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p41_wilson_sm_likelihood_v31.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\test31_p41_lhcb_bsll_inventory.json"
+  ],
+  "current_delta_chi2_sm_minus_wilson": 405.51388292786487,
+  "current_likelihood_present": true,
+  "current_rows": 2205,
+  "required_columns": [
+    "q2_low_or_q2",
+    "q2_high_optional",
+    "observable",
+    "value",
+    "error_or_total_error",
+    "cp_label",
+    "sm_prediction_or_loglike_sm",
+    "wilson_prediction_or_loglike_wilson"
+  ]
+}

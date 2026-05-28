@@ -1,0 +1,224 @@
+{
+  "accepted_product": {
+    "checks": {
+      "ccdr_residual_template_fit": false,
+      "detector_split": false,
+      "gr_ringdown_fit": false,
+      "injection_nulls": false,
+      "leave_one_event_out": false,
+      "psd_estimated": false,
+      "residual_improves_gr": false,
+      "strain_downloaded": false
+    },
+    "path": null
+  },
+  "candidate_reports": [
+    {
+      "keys": [
+        "accepted_product",
+        "candidate_reports",
+        "claim_policy",
+        "n_candidate_products",
+        "required_event",
+        "version"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_gw150914_one_event_strain_result_v41.json"
+    },
+    {
+      "keys": [
+        "accepted_product",
+        "candidate_products",
+        "claim_policy",
+        "gw150914_measurement_manifest",
+        "n_candidate_products",
+        "ringdown_strain_confirm_gate_v42",
+        "version"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_gw150914_one_event_strain_result_v42.json"
+    },
+    {
+      "keys": [
+        "accepted_product",
+        "candidate_products",
+        "claim_policy",
+        "gwosc_download",
+        "n_candidate_products",
+        "required_outputs",
+        "ringdown_strain_confirm_gate_v43",
+        "version"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_gw150914_one_event_strain_result_v43.json"
+    },
+    {
+      "keys": [
+        "accepted_product",
+        "candidate_products",
+        "claim_policy",
+        "gwosc_endpoint_resolution",
+        "n_candidate_products",
+        "required_outputs",
+        "ringdown_strain_confirm_gate_v44",
+        "version"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_gw150914_one_event_strain_result_v44.json"
+    },
+    {
+      "keys": [
+        "api_urls",
+        "attempts",
+        "claim_policy",
+        "downloaded_products",
+        "endpoint_resolved",
+        "resolved_urls",
+        "version"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_gwosc_endpoint_resolution_v45.json"
+    },
+    {
+      "keys": [
+        "api_urls",
+        "attempts",
+        "claim_policy",
+        "downloaded_products",
+        "endpoint_resolved",
+        "h1_l1_available",
+        "resolved_urls",
+        "version"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_gwosc_endpoint_resolution_v46.json"
+    },
+    {
+      "keys": [
+        "minimal_events",
+        "promotion_rule",
+        "recommended_command",
+        "required_products"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_minimal_strain_run_contract_v32.json"
+    },
+    {
+      "keys": [
+        "accepted_fit",
+        "fit_jsons",
+        "found_candidate_files",
+        "minimal_events",
+        "minimal_run_required_outputs"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_minimal_strain_run_manifest_v30.json"
+    },
+    {
+      "keys": [
+        "accepted_fit",
+        "fit_json_count",
+        "found_candidate_files",
+        "minimal_events",
+        "missing_if_not_confirmed"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_minimal_strain_run_manifest_v31.json"
+    },
+    {
+      "keys": [
+        "claim_policy",
+        "current_gate",
+        "leave_one_event_out_required_for_multi_event_claim",
+        "minimal_one_event_run",
+        "required_products"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_one_event_strain_contract_v33.json"
+    },
+    {
+      "keys": [
+        "current_gate",
+        "promotion_policy",
+        "required_pipeline_steps",
+        "v34_minimal_run"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_one_event_strain_contract_v34.json"
+    },
+    {
+      "keys": [
+        "claim_policy",
+        "current_gate",
+        "required_outputs",
+        "v35_minimal_run"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_one_event_strain_contract_v35.json"
+    },
+    {
+      "keys": [
+        "commands",
+        "events",
+        "required_files_per_event"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_ringdown_strain_execution_manifest_v27.json"
+    },
+    {
+      "keys": [
+        "executable_steps",
+        "found_candidate_files",
+        "implemented_consumption_policy"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_ringdown_strain_execution_manifest_v28.json"
+    },
+    {
+      "keys": [
+        "fit_jsons",
+        "found_candidate_files",
+        "next_command"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_ringdown_strain_execution_manifest_v29.json"
+    },
+    {
+      "keys": [
+        "ccdr_residual_template_fit",
+        "delta_chi2_gr_minus_ccdr",
+        "detector_split_pass",
+        "event",
+        "gr_ringdown_fit",
+        "injection_nulls_pass",
+        "leave_one_event_out_pass",
+        "psd_estimated"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p32_strain_likelihood_template_v50.json"
+    },
+    {
+      "keys": [
+        "current_run_id_v49",
+        "current_run_id_v50",
+        "current_run_id_v51",
+        "current_run_id_v52",
+        "current_run_id_v53",
+        "current_run_id_v54",
+        "current_run_id_v55",
+        "current_run_id_v56",
+        "current_run_id_v57",
+        "current_run_id_v58",
+        "current_run_id_v59",
+        "current_run_id_v60",
+        "current_run_id_v61",
+        "current_run_id_v62",
+        "current_run_id_v63",
+        "current_run_id_v64",
+        "current_run_id_v65",
+        "current_run_id_v66",
+        "current_run_id_v67",
+        "current_run_id_v68",
+        "current_run_id_v69",
+        "current_run_id_v70",
+        "current_run_id_v71",
+        "current_run_id_v72",
+        "current_run_id_v73",
+        "current_run_id_v74",
+        "current_run_id_v75",
+        "current_run_id_v76",
+        "current_run_id_v77",
+        "current_run_id_v78"
+      ],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\test18_p32_gwosc_gwtc3_inventory.json"
+    }
+  ],
+  "claim_policy": "One-event result is diagnostic unless injection nulls, detector split, residual improves GR, and leave-one-event/leave-detector robustness pass.",
+  "n_candidate_products": 17,
+  "required_event": "GW150914",
+  "version": "v41"
+}

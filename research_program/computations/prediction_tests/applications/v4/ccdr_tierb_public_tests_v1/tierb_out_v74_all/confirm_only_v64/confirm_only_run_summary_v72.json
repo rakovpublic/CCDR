@@ -1,0 +1,378 @@
+{
+  "last_stage_v72": "dashboard_written",
+  "last_utc_v72": "2026-05-19T12:39:03Z",
+  "schema": "ccdr-v72-confirm-only-checkpoint",
+  "stages_v72": [
+    {
+      "cache": "tierb_cache_v74_all",
+      "harvest_public_sources_v67": false,
+      "outdir_v72": "tierb_out_v74_all\\confirm_only_v64",
+      "stage_v72": "start",
+      "tests_requested_v72": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30",
+        "T31",
+        "T32",
+        "T33",
+        "T34",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49",
+        "T50",
+        "T51",
+        "T52",
+        "T53",
+        "T54",
+        "T55",
+        "T56",
+        "T57",
+        "T58",
+        "T59",
+        "T60"
+      ],
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "quarantine_reports_v72": [
+        {
+          "pack": "materials",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "materials_family_packs",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "nand",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "proteingym",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "protein_structures",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false,
+          "sample_rows_checked_v72": 152,
+          "sample_rows_valid_v72": 152,
+          "top_missing_required_v72": {},
+          "top_row_problems_v72": {}
+        },
+        {
+          "pack": "thermoelectric",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "hepdata",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "optical_interconnect",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "neuromorphic",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "fusion",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false
+        },
+        {
+          "pack": "ldpc_external_benchmark",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false,
+          "sample_rows_checked_v72": 336,
+          "sample_rows_valid_v72": 336,
+          "top_missing_required_v72": {},
+          "top_row_problems_v72": {}
+        }
+      ],
+      "stage_v72": "after_stale_auto_row_quarantine",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "all_existing_rows_valid_v64": true,
+      "n_invalid_rows_v64": 0,
+      "stage_v72": "after_preconfirm_validation",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T26",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T27",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T28",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T29",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T30",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T31",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T32",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T33",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T34",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T35",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T36",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T37",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T38",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T39",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T40",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T41",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T42",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T43",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T44",
+      "utc_v72": "2026-05-19T12:38:19Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T45",
+      "utc_v72": "2026-05-19T12:38:20Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T46",
+      "utc_v72": "2026-05-19T12:38:20Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T47",
+      "utc_v72": "2026-05-19T12:38:20Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T48",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T49",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T50",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T51",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T52",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T53",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T54",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T55",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T56",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T57",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T58",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T59",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T60",
+      "utc_v72": "2026-05-19T12:38:41Z"
+    },
+    {
+      "confirmed_public_now": [
+        "T48"
+      ],
+      "stage_v72": "dashboard_written",
+      "utc_v72": "2026-05-19T12:39:03Z"
+    }
+  ]
+}

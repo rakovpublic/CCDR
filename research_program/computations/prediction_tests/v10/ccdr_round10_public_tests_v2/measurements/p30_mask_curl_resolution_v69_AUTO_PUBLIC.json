@@ -1,0 +1,65 @@
+{
+  "accepted_empirical_mask_for_diagnostics": true,
+  "artifact_version": "v69",
+  "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+  "manual_fill_required": false,
+  "mask_candidates": [
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_empirical_finite_support_mask_v27.json",
+      "sha256": "9ddea072e8aa3ac69ced46359c2efa4fd73192ba44f5bfb9d116eec0502006e9",
+      "size_bytes": 485
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_empirical_finite_support_mask_product_v41.json",
+      "sha256": "5df99347e5954e5360c7cca782595123a7328e2022702faa514167b300b0fe0d",
+      "size_bytes": 456
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_empirical_act_mask_product_v42.json",
+      "sha256": "df95e9b53caa48e6af4efd594e98bcb6f4c4ea4a4030e01e815b7bde54dd9e46",
+      "size_bytes": 815
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_empirical_mask_manifest_v50.json",
+      "sha256": "9b01017e5d9a7647de8221d6f9fbd4f3a7c530bed605cefbdad40f7b8ce7e892",
+      "size_bytes": 820
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_mask_consistency_v43.json",
+      "sha256": "e05eb964d969907f2421852a6955e6e68ab225fa528b9ac85840a162ca827b94",
+      "size_bytes": 1336
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_mask_equivalence_acceptance_v46.json",
+      "sha256": "93dc70e25251145fa19756c4efe11b15fe0d041346e22dd21ceaf11df50da209",
+      "size_bytes": 1809
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_mask_equivalence_appendix_candidate_v46.json",
+      "sha256": "ae7f889b4292231f4c8734d9fa179162a0c03f24b6288cb119d7265567c00552",
+      "size_bytes": 346
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_mask_equivalence_appendix_v44.json",
+      "sha256": "817ab1d5c1cf1945a238bc5bf30749e8e41a6a59c44f9f859f4ee7c84ac87916",
+      "size_bytes": 640
+    },
+    {
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_mask_equivalence_validator_v45.json",
+      "sha256": "fb05dc9c668a2519e562929d013f062f2299617111b697c2f40a310bf500bc37",
+      "size_bytes": 1695
+    }
+  ],
+  "mask_policy": "Official ACT mask or an explicitly accepted same-mask product is required for route confirmation. Empirical finite-support masks are diagnostic unless the route gate records acceptance.",
+  "n_unrejected_control_subtracted_patches": 0,
+  "official_mask_found": false,
+  "redshift_density_residualization": {
+    "available": true,
+    "euclid_delta": -0.18983175996764104,
+    "residualization_required": true,
+    "route_sign_disagreement": true,
+    "sdss_delta": 0.07886573620406669,
+    "sdss_jackknife_std": 0.02916987451348493
+  },
+  "status": "official_mask_or_accepted_empirical_control_audit_built"
+}

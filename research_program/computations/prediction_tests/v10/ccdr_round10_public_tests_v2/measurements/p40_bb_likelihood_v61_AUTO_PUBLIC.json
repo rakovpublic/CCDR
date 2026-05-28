@@ -1,0 +1,31 @@
+{
+  "candidate_audit": [
+    {
+      "n_rows": 0,
+      "n_usable_bb": 0,
+      "path": ".ccdr_round10_cache\\R10-T21__BK18_cosmomc.tgz",
+      "sha256": "8322e22d8d7f825f331821262eeafd2724df5bc725f90111782eb8c24d6c6032"
+    },
+    {
+      "n_rows": 0,
+      "n_usable_bb": 0,
+      "path": ".ccdr_round10_cache\\R10-T22__BK18_cosmomc.tgz",
+      "sha256": "8322e22d8d7f825f331821262eeafd2724df5bc725f90111782eb8c24d6c6032"
+    },
+    {
+      "n_rows": 27,
+      "n_usable_bb": 0,
+      "path": ".ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-low-ell-BB-full_R3.01.txt",
+      "sha256": "0778f7ee5f8bad7702dad5b0abe1f365ea7d8f53ea720d421e0e94072daddb1e"
+    },
+    {
+      "n_rows": 0,
+      "n_usable_bb": 0,
+      "path": "outputs\\test21_p40_bk18_bmode_inventory.json",
+      "sha256": "335477b36a10972b4c70df3b870a3d60bdc155caf227060568ec95b906314f32"
+    }
+  ],
+  "diagnostic_class": "bb_bandpower_rows_not_found",
+  "manual_fill_required": false,
+  "status": "p40_likelihood_not_autobuilt"
+}

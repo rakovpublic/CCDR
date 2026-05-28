@@ -1,0 +1,42 @@
+{
+  "claim_scope": "route_specific_candidate_only_until_same_split_variants_and_curl_pass",
+  "coord_source": "v13_sdss_fallback_coords",
+  "kappa_stat": {
+    "available": true,
+    "delta_high_minus_low": 0.08815282358182167,
+    "density_definition": "delta=N_data/N_random_scaled-1",
+    "density_nside": 64,
+    "density_shuffle_n": 128,
+    "density_shuffle_p_high": 0.0,
+    "field_split_jackknife": [
+      0.06351416495244977,
+      0.13393298903822645,
+      0.10053167499099774,
+      0.07991482340412523
+    ],
+    "high_density_n": 507,
+    "jackknife_same_sign": true,
+    "label": "P30-SDSS-v28",
+    "low_density_n": 504,
+    "mean_kappa_high_density": 0.05278235788911566,
+    "mean_kappa_low_density": -0.03537046569270601,
+    "n_data_in_mask": 2000,
+    "n_random_in_mask": 10000,
+    "passes_route_positive": true
+  },
+  "n_sdss_coords": 2000,
+  "random_catalogue": {
+    "created": true,
+    "dec_range": [
+      -11.161901,
+      69.823821
+    ],
+    "n_data": 2000,
+    "n_random": 10000,
+    "path": ".ccdr_round10_cache\\p30_sdss_random_catalogue_v28.csv",
+    "ra_range": [
+      12.1346,
+      239.05722
+    ]
+  }
+}

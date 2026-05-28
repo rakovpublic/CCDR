@@ -1,0 +1,66 @@
+{
+  "artifact_version": "v61",
+  "candidate_audit": [],
+  "diagnostic_class": "source_targeted_public_rows_absent",
+  "download_attempts": [],
+  "manual_fill_required": false,
+  "median_large_radius_acceleration_m_s2": null,
+  "n_candidate_files": 0,
+  "n_large_radius_rows": 0,
+  "n_rows": 0,
+  "rejected_rows_sample": [],
+  "rows": [],
+  "source_group_counts_large_radius": {},
+  "source_registry": {
+    "KGES": {
+      "direct": [
+        "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/506/323&-out.max=unlimited"
+      ],
+      "pages": [
+        "https://astro.dur.ac.uk/kmos/kges/",
+        "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/506/323"
+      ]
+    },
+    "KMOS3D": {
+      "direct": [
+        "https://www.mpe.mpg.de/resources/IR/KMOS3D/data/k3d_fnlsp_table_hafits_v3.fits",
+        "https://www.mpe.mpg.de/resources/IR/KMOS3D/data/README"
+      ],
+      "pages": [
+        "https://www.mpe.mpg.de/ir/KMOS3D/data",
+        "https://www.mpe.mpg.de/resources/IR/KMOS3D/data/README"
+      ]
+    },
+    "KROSS": {
+      "direct": [
+        "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/474/5076&-out.max=unlimited"
+      ],
+      "pages": [
+        "https://astro.dur.ac.uk/KROSS/data.html",
+        "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/474/5076"
+      ]
+    },
+    "MOSDEF": {
+      "direct": [],
+      "pages": [
+        "https://mosdef.astro.berkeley.edu/for-scientists/data-releases/"
+      ]
+    },
+    "PHIBSS": {
+      "direct": [
+        "https://www.iram.fr/~phibss2/Data_Release.html"
+      ],
+      "pages": [
+        "https://www.iram.fr/~phibss2/Data_Release.html"
+      ]
+    },
+    "SAMI": {
+      "direct": [],
+      "pages": [
+        "https://sami-survey.org/",
+        "https://datacentral.org.au/services/schema/"
+      ]
+    }
+  },
+  "status": "auto_rows_absent"
+}

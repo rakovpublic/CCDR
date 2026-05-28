@@ -1,0 +1,241 @@
+{
+  "bad_patch_followup": [
+    {
+      "curl_delta": -0.006942463810815001,
+      "diagnostic_reasons": [
+        "negative_science_delta",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 12.0,
+      "n_low": 21.0,
+      "patch_id": 102,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.012518206276280315,
+      "science_minus_abs_curl": -0.019460670087095316
+    },
+    {
+      "curl_delta": -0.0061631475230681625,
+      "diagnostic_reasons": [
+        "negative_science_delta",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 12.0,
+      "n_low": 30.0,
+      "patch_id": 156,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.009039987953283958,
+      "science_minus_abs_curl": -0.01520313547635212
+    },
+    {
+      "curl_delta": 0.0027938369907475726,
+      "diagnostic_reasons": [
+        "negative_science_delta",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 21.0,
+      "n_low": 15.0,
+      "patch_id": 225,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.008883243982543212,
+      "science_minus_abs_curl": -0.011677080973290784
+    },
+    {
+      "curl_delta": -0.20190622655377596,
+      "diagnostic_reasons": [
+        "curl_dominates_or_matches_science",
+        "large_curl_amplitude",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 15.0,
+      "n_low": 18.0,
+      "patch_id": 273,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": 0.055439739187947125,
+      "science_minus_abs_curl": -0.14646648736582885
+    },
+    {
+      "curl_delta": -0.09834770947670246,
+      "diagnostic_reasons": [
+        "negative_science_delta",
+        "large_curl_amplitude",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 18.0,
+      "n_low": 22.0,
+      "patch_id": 284,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.3198912269009409,
+      "science_minus_abs_curl": -0.41823893637764337
+    },
+    {
+      "curl_delta": 0.20108190638985637,
+      "diagnostic_reasons": [
+        "large_curl_amplitude"
+      ],
+      "n_high": 17.0,
+      "n_low": 12.0,
+      "patch_id": 289,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": 0.258313240403692,
+      "science_minus_abs_curl": 0.05723133401383565
+    },
+    {
+      "curl_delta": 0.585468743155539,
+      "diagnostic_reasons": [
+        "large_curl_amplitude"
+      ],
+      "n_high": 11.0,
+      "n_low": 38.0,
+      "patch_id": 337,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": 1.0115298454388248,
+      "science_minus_abs_curl": 0.42606110228328586
+    },
+    {
+      "curl_delta": 0.09890016084776812,
+      "diagnostic_reasons": [
+        "large_curl_amplitude"
+      ],
+      "n_high": 8.0,
+      "n_low": 29.0,
+      "patch_id": 401,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": 1.3891955799141145,
+      "science_minus_abs_curl": 1.2902954190663463
+    },
+    {
+      "curl_delta": -0.004724452191618425,
+      "diagnostic_reasons": [
+        "low_patch_counts"
+      ],
+      "n_high": 5.0,
+      "n_low": 22.0,
+      "patch_id": 125,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": 0.012691275127667677,
+      "science_minus_abs_curl": 0.007966822936049252
+    },
+    {
+      "curl_delta": 0.003205056173535289,
+      "diagnostic_reasons": [
+        "low_patch_counts"
+      ],
+      "n_high": 4.0,
+      "n_low": 11.0,
+      "patch_id": 133,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": 0.02516239123156862,
+      "science_minus_abs_curl": 0.021957335058033333
+    },
+    {
+      "curl_delta": 0.001760305012329615,
+      "diagnostic_reasons": [
+        "low_patch_counts",
+        "negative_science_delta",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 3.0,
+      "n_low": 13.0,
+      "patch_id": 221,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.004120088586771171,
+      "science_minus_abs_curl": -0.005880393599100786
+    },
+    {
+      "curl_delta": 0.017941769453088473,
+      "diagnostic_reasons": [
+        "low_patch_counts",
+        "negative_science_delta",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 5.0,
+      "n_low": 11.0,
+      "patch_id": 253,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.05427655759816432,
+      "science_minus_abs_curl": -0.07221832705125279
+    },
+    {
+      "curl_delta": -0.04583257626095874,
+      "diagnostic_reasons": [
+        "negative_science_delta",
+        "curl_dominates_or_matches_science",
+        "negative_after_abs_curl_subtraction"
+      ],
+      "n_high": 10.0,
+      "n_low": 9.0,
+      "patch_id": 381,
+      "required_followup": [
+        "edge/mask proximity",
+        "coordinate/density split audit",
+        "variant/curl family comparison",
+        "rerun under predeclared v45 patch protocol"
+      ],
+      "science_delta": -0.03523288322594727,
+      "science_minus_abs_curl": -0.08106545948690601
+    }
+  ],
+  "claim_policy": "Follow-up table is diagnostic. It identifies failure modes; it does not authorize removing patches for confirmation in the same run.",
+  "n_bad_or_low_quality_patches": 13,
+  "version": "v45"
+}

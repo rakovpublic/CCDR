@@ -1,0 +1,292 @@
+{
+  "claim_policy": "This is a predeclared patch protocol layer. It cannot rescue P30 by post-hoc bad-patch removal.",
+  "leave_one_patch_out": [
+    {
+      "held_out_patch": 94,
+      "mean_science_minus_abs_curl": 0.11049052849377863,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 102,
+      "mean_science_minus_abs_curl": 0.11384899282219427,
+      "n_positive_after_holdout": 7,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 156,
+      "mean_science_minus_abs_curl": 0.11346194422121761,
+      "n_positive_after_holdout": 7,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 161,
+      "mean_science_minus_abs_curl": 0.11056777211556514,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 189,
+      "mean_science_minus_abs_curl": 0.10948713046331973,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 209,
+      "mean_science_minus_abs_curl": 0.11137968692318939,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 225,
+      "mean_science_minus_abs_curl": 0.1131413938118484,
+      "n_positive_after_holdout": 7,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 273,
+      "mean_science_minus_abs_curl": 0.12539497621117004,
+      "n_positive_after_holdout": 7,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 284,
+      "mean_science_minus_abs_curl": 0.15010156248497136,
+      "n_positive_after_holdout": 7,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 289,
+      "mean_science_minus_abs_curl": 0.10687699244938237,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 337,
+      "mean_science_minus_abs_curl": 0.07334701351579598,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    },
+    {
+      "held_out_patch": 401,
+      "mean_science_minus_abs_curl": -0.005219742555391336,
+      "n_positive_after_holdout": 6,
+      "pass": false,
+      "remaining_n": 11
+    }
+  ],
+  "mean_science_delta_quality": 0.2045462403798205,
+  "mean_science_minus_abs_curl_quality": 0.10273985424642013,
+  "n_bad_quality_patches": 5,
+  "n_patch_rows_total": 17,
+  "n_quality_patch_rows": 12,
+  "n_rejected_low_count_patch_rows": 5,
+  "patch_protocol_gate_v44": {
+    "all_quality_patches_science_minus_abs_curl_positive": false,
+    "eligible_for_confirm_like": false,
+    "explicit_patch_rows_ge_6": true,
+    "leave_one_patch_out_stable": false,
+    "missing": [
+      "all_quality_patches_science_minus_abs_curl_positive",
+      "leave_one_patch_out_stable",
+      "no_posthoc_quarantine_required"
+    ],
+    "no_posthoc_quarantine_required": false,
+    "predeclared_patch_protocol": true
+  },
+  "protocol": {
+    "bad_patch_quarantine_policy": "No post-hoc quarantine is claim-usable. Bad patches are diagnostic unless a future run pre-registers exclusion criteria before computing science sign.",
+    "curl_contamination_rule": "Patch-level curl is control information; publication promotion requires science-minus-abs(curl)>0 for all quality patches and leave-one-patch-out stability.",
+    "mask_policy": "Publication-level P30 requires official ACT mask or a written mask-equivalence appendix accepted by the run.",
+    "min_n_high": 8,
+    "min_n_low": 8,
+    "min_total_per_patch": 20,
+    "patch_scheme": "HEALPix or RA/Dec patch rows already emitted by v42/v43; v44 freezes the row set before sign interpretation."
+  },
+  "quality_patch_rows": [
+    {
+      "bad_patch": false,
+      "curl_delta": -0.00445391277301003,
+      "n_high": 22,
+      "n_low": 20,
+      "patch_id": 94,
+      "quality_patch": true,
+      "science_delta": 0.0219363502984866,
+      "science_minus_abs_curl": 0.01748243752547657
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.006942463810815001,
+      "n_high": 12,
+      "n_low": 21,
+      "patch_id": 102,
+      "quality_patch": true,
+      "science_delta": -0.012518206276280315,
+      "science_minus_abs_curl": -0.019460670087095316
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.0061631475230681625,
+      "n_high": 12,
+      "n_low": 30,
+      "patch_id": 156,
+      "quality_patch": true,
+      "science_delta": -0.009039987953283958,
+      "science_minus_abs_curl": -0.01520313547635212
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.009024341189539712,
+      "n_high": 9,
+      "n_low": 12,
+      "patch_id": 161,
+      "quality_patch": true,
+      "science_delta": 0.0256570988753648,
+      "science_minus_abs_curl": 0.01663275768582509
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.0023377489468459226,
+      "n_high": 8,
+      "n_low": 13,
+      "patch_id": 189,
+      "quality_patch": true,
+      "science_delta": 0.030857564807370317,
+      "science_minus_abs_curl": 0.028519815860524395
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.004256435943136231,
+      "n_high": 13,
+      "n_low": 12,
+      "patch_id": 209,
+      "quality_patch": true,
+      "science_delta": 0.011958130745094407,
+      "science_minus_abs_curl": 0.007701694801958176
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": 0.0027938369907475726,
+      "n_high": 21,
+      "n_low": 15,
+      "patch_id": 225,
+      "quality_patch": true,
+      "science_delta": -0.008883243982543212,
+      "science_minus_abs_curl": -0.011677080973290784
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.20190622655377596,
+      "n_high": 15,
+      "n_low": 18,
+      "patch_id": 273,
+      "quality_patch": true,
+      "science_delta": 0.055439739187947125,
+      "science_minus_abs_curl": -0.14646648736582885
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.09834770947670246,
+      "n_high": 18,
+      "n_low": 22,
+      "patch_id": 284,
+      "quality_patch": true,
+      "science_delta": -0.3198912269009409,
+      "science_minus_abs_curl": -0.41823893637764337
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.20108190638985637,
+      "n_high": 17,
+      "n_low": 12,
+      "patch_id": 289,
+      "quality_patch": true,
+      "science_delta": 0.258313240403692,
+      "science_minus_abs_curl": 0.05723133401383565
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.585468743155539,
+      "n_high": 11,
+      "n_low": 38,
+      "patch_id": 337,
+      "quality_patch": true,
+      "science_delta": 1.0115298454388248,
+      "science_minus_abs_curl": 0.42606110228328586
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.09890016084776812,
+      "n_high": 8,
+      "n_low": 29,
+      "patch_id": 401,
+      "quality_patch": true,
+      "science_delta": 1.3891955799141145,
+      "science_minus_abs_curl": 1.2902954190663463
+    }
+  ],
+  "rejected_low_count_rows": [
+    {
+      "bad_patch": false,
+      "curl_delta": -0.004724452191618425,
+      "n_high": 5,
+      "n_low": 22,
+      "patch_id": 125,
+      "quality_patch": false,
+      "science_delta": 0.012691275127667677,
+      "science_minus_abs_curl": 0.007966822936049252
+    },
+    {
+      "bad_patch": false,
+      "curl_delta": 0.003205056173535289,
+      "n_high": 4,
+      "n_low": 11,
+      "patch_id": 133,
+      "quality_patch": false,
+      "science_delta": 0.02516239123156862,
+      "science_minus_abs_curl": 0.021957335058033333
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": 0.001760305012329615,
+      "n_high": 3,
+      "n_low": 13,
+      "patch_id": 221,
+      "quality_patch": false,
+      "science_delta": -0.004120088586771171,
+      "science_minus_abs_curl": -0.005880393599100786
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": 0.017941769453088473,
+      "n_high": 5,
+      "n_low": 11,
+      "patch_id": 253,
+      "quality_patch": false,
+      "science_delta": -0.05427655759816432,
+      "science_minus_abs_curl": -0.07221832705125279
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.04583257626095874,
+      "n_high": 10,
+      "n_low": 9,
+      "patch_id": 381,
+      "quality_patch": false,
+      "science_delta": -0.03523288322594727,
+      "science_minus_abs_curl": -0.08106545948690601
+    }
+  ],
+  "version": "v44"
+}

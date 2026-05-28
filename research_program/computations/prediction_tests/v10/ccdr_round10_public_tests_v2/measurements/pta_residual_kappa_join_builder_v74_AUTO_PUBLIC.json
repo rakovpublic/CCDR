@@ -1,0 +1,33 @@
+{
+  "artifact_version": "v74",
+  "claim_policy_v74": "v74 joins the public coordinate audit with existing kappa sampling readiness. It does not fabricate residual-kappa pairs from timing metadata; confirm-like still requires public per-pulsar residual/TOA residual weights joined to kappa samples.",
+  "manual_fill_required": false,
+  "mean_kappa_at_pulsars": 0.02215786520902409,
+  "member_source_audit": [
+    {
+      "exists": true,
+      "n_par_members": 318,
+      "n_residual_members": 205,
+      "n_tim_members": 836,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_ng_full_tar__content",
+      "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+      "size_bytes": 638719668
+    },
+    {
+      "exists": true,
+      "n_par_members": 318,
+      "n_residual_members": 205,
+      "n_tim_members": 836,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T16_tar__content",
+      "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+      "size_bytes": 638719668
+    }
+  ],
+  "n_kappa_sampled_pulsars_from_existing_map": 318,
+  "n_public_par_coordinates": 98,
+  "n_public_par_members": 636,
+  "n_public_residual_kappa_pairs": 0,
+  "n_public_tim_members": 1672,
+  "status": "pta_coordinates_and_kappa_ready_residuals_missing_v74",
+  "v73_public_scan_status": "pta_public_residual_kappa_pairs_still_absent_v73"
+}

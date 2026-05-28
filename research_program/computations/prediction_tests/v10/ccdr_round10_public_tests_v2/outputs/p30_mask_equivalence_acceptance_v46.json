@@ -1,0 +1,46 @@
+{
+  "accepted_appendix": null,
+  "accepted_appendix_present": false,
+  "candidate_or_prior_validator": {
+    "accepted_by": "",
+    "accepted_utc": "",
+    "edge_exclusion_rule": "",
+    "finite_support_definition": "",
+    "notes": "Fill true/text fields only after verifying all ACT variants and nulls use identical empirical/official mask.",
+    "nulls_use_same_mask": false,
+    "same_mask_all_variants": false,
+    "variant_consistency_table": false
+  },
+  "candidate_template_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_mask_equivalence_appendix_candidate_v46.json",
+  "claim_policy": "P30 cannot promote until an official ACT mask is found or p30_mask_equivalence_appendix_accepted.json is supplied with all required fields true/non-empty. v46 refuses auto-acceptance.",
+  "missing_or_false_fields": [
+    "accepted_appendix_missing",
+    "same_mask_all_variants",
+    "nulls_use_same_mask",
+    "edge_exclusion_rule",
+    "finite_support_definition",
+    "variant_consistency_table"
+  ],
+  "official_mask_found": false,
+  "p30_mask_acceptance_gate_v46": {
+    "accepted_equivalence_appendix": false,
+    "edge_exclusion_rule": false,
+    "eligible_for_confirm_like": false,
+    "finite_support_definition": false,
+    "mask_acceptance_v46": true,
+    "missing": [
+      "official_mask_found",
+      "accepted_equivalence_appendix",
+      "same_mask_all_variants",
+      "nulls_use_same_mask",
+      "edge_exclusion_rule",
+      "finite_support_definition",
+      "variant_consistency_table"
+    ],
+    "nulls_use_same_mask": false,
+    "official_mask_found": false,
+    "same_mask_all_variants": false,
+    "variant_consistency_table": false
+  },
+  "version": "v46"
+}

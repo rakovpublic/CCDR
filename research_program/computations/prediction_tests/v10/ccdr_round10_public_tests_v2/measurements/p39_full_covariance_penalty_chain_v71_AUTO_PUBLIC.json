@@ -1,0 +1,44 @@
+{
+  "artifact_version": "v71",
+  "bao_full_covariance_used": true,
+  "claim_policy_v71": "Diagonal SN errors are audited but do not replace the full Pantheon covariance/systematics matrix. Confirmation requires full covariance, splits, delta chi2>=9, and AIC/BIC support.",
+  "delta_AIC_new_minus_LCDM": 0.7882350268291365,
+  "delta_BIC_new_minus_LCDM": 6.2354033864291765,
+  "delta_chi2_lcdm_minus_best": 1.2117649731708635,
+  "manual_fill_required": false,
+  "model_penalty_supports_new_model": false,
+  "pantheon_data_audit": [
+    {
+      "error_or_covariance_tokens": [
+        "err",
+        "cov",
+        "m_b_corr_err",
+        "diag"
+      ],
+      "n_numeric_rows": 1702,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01__Pantheon%2BSH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "error_or_covariance_tokens": [
+        "err",
+        "cov",
+        "m_b_corr_err",
+        "diag"
+      ],
+      "n_numeric_rows": 1702,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02__Pantheon%2BSH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    }
+  ],
+  "pantheon_diag_rows": 1702,
+  "pantheon_diagonal_errors_seen": true,
+  "pantheon_error_tokens": [
+    "cov",
+    "diag",
+    "err",
+    "m_b_corr_err"
+  ],
+  "pantheon_full_covariance_used": false,
+  "status": "pantheon_diag_plus_bao_penalty_chain_built"
+}

@@ -1,0 +1,39 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "bound_only",
+    "confirmation_status_v64": "not_confirmable_by_design",
+    "confirmed_now_v64": false,
+    "next_data_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+    "rank_score_0_10_v64": 0,
+    "test_id": "T50",
+    "why_not_confirmed_v64": "Bound/constraint audit; useful for limits but not confirmable by design."
+  },
+  "prediction_ids": [
+    "SE2",
+    "SE6"
+  ],
+  "prediction_names": [
+    "\u03bd_bulk-like constant floor in precision Casimir residuals"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": false,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T50",
+  "test_name": "Casimir residual public-table audit",
+  "v64_behavioral_confirm_result": {
+    "confirmation_status_v64": "not_confirmable_by_design",
+    "rank_score_0_10_v64": 0,
+    "schema": "ccdr-safety-classification-v64",
+    "strict_confirm_ready_v64": false,
+    "test_id": "T50"
+  },
+  "v64_claim_bucket": "bound_only",
+  "v64_confirm_ready": false,
+  "v64_confirm_status": "not_confirmable_by_design",
+  "v64_next_data_source": "Bound-table evidence only; this test is not confirmable by design.",
+  "v64_why_not_confirmed": "Bound/constraint audit; useful for limits but not confirmable by design."
+}

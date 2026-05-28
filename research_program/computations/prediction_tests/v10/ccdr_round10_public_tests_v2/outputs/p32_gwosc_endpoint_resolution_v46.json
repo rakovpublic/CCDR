@@ -1,0 +1,430 @@
+{
+  "api_urls": [
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/",
+    "https://www.gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v2/",
+    "https://www.gw-openscience.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+  ],
+  "attempts": [
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gwosc_eventapi_v46__v3",
+      "size_bytes": 13903,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gwosc_eventapi_v46__v3",
+      "size_bytes": 13903,
+      "url": "https://www.gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "error": "HTTP Error 404: Not Found",
+      "error_type": "HTTPError",
+      "path": ".ccdr_round10_cache\\p32_gwosc_eventapi_v46__v2",
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v2/"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gwosc_eventapi_v46__v3",
+      "size_bytes": 13903,
+      "url": "https://www.gw-openscience.org/eventapi/json/GWTC-1-confident/GW150914/v3/"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 4050875,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 4068797,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 5094711,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 1029536,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 1040781,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 1286320,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 517009994,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 517084465,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 651842973,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 130069555,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 130158262,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 164479356,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 3900380,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 3919118,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 4814211,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 995323,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 1007262,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 1219514,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 497621542,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 497809407,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 615981090,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 125704995,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 125865927,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 155863181,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "cached": true,
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__GW150914_GWTC-1.hdf5",
+      "size_bytes": 7026464,
+      "url": "https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "error": "HTTP Error 404: Not Found",
+      "error_type": "HTTPError",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_LOSC_4_V2-1126259446-32.hdf5",
+      "url": "https://gwosc.org/archive/data/GW150914/H-H1_LOSC_4_V2-1126259446-32.hdf5"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "error": "HTTP Error 404: Not Found",
+      "error_type": "HTTPError",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_LOSC_4_V2-1126259446-32.hdf5",
+      "url": "https://gwosc.org/archive/data/GW150914/L-L1_LOSC_4_V2-1126259446-32.hdf5"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "error": "HTTP Error 404: Not Found",
+      "error_type": "HTTPError",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_LOSC_4_V2-1126259446-32.hdf5",
+      "url": "https://www.gwosc.org/archive/data/GW150914/H-H1_LOSC_4_V2-1126259446-32.hdf5"
+    },
+    {
+      "cached": false,
+      "content_length_bytes": null,
+      "error": "HTTP Error 404: Not Found",
+      "error_type": "HTTPError",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_LOSC_4_V2-1126259446-32.hdf5",
+      "url": "https://www.gwosc.org/archive/data/GW150914/L-L1_LOSC_4_V2-1126259446-32.hdf5"
+    }
+  ],
+  "claim_policy": "Endpoint/strain download is not confirmation; PSD, GR fit, CCDR residual improvement, injection nulls, and detector split remain required.",
+  "downloaded_products": [
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 4050875,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 4068797,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 5094711,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 1029536,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 1040781,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 1286320,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 517009994,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 517084465,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 651842973,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 130069555,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 130158262,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "detector": "H1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 164479356,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 3900380,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 3919118,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 4814211,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+      "size_bytes": 995323,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+      "size_bytes": 1007262,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "size_bytes": 1219514,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 497621542,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 497809407,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 615981090,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+      "size_bytes": 125704995,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+      "size_bytes": 125865927,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5"
+    },
+    {
+      "detector": "L1",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+      "size_bytes": 155863181,
+      "strain_downloaded": true,
+      "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz"
+    },
+    {
+      "detector": "unknown",
+      "path": ".ccdr_round10_cache\\p32_gw150914_v46__GW150914_GWTC-1.hdf5",
+      "size_bytes": 7026464,
+      "strain_downloaded": true,
+      "url": "https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5"
+    }
+  ],
+  "endpoint_resolved": true,
+  "h1_l1_available": true,
+  "resolved_urls": [
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126259447-32.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.gwf",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5",
+    "https://gwosc.org/archive/data/GW150914/H-H1_LOSC_4_V2-1126259446-32.hdf5",
+    "https://gwosc.org/archive/data/GW150914/L-L1_LOSC_4_V2-1126259446-32.hdf5",
+    "https://www.gwosc.org/archive/data/GW150914/H-H1_LOSC_4_V2-1126259446-32.hdf5",
+    "https://www.gwosc.org/archive/data/GW150914/L-L1_LOSC_4_V2-1126259446-32.hdf5"
+  ],
+  "version": "v46"
+}

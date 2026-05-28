@@ -1,0 +1,355 @@
+{
+  "schema": "ccdr-tierb-confirm-targets-v59",
+  "targets": [
+    {
+      "blocker_type_v59": "robustness_only_audit_not_gate_change",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "compatible_positive_confirm_allowed",
+      "expected_effort_v59": "low",
+      "next_data_source_v59": "frozen PV descriptor rows + family/source/year/permutation robustness artifacts",
+      "rank_score_0_10_v59": 10,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T48"
+    },
+    {
+      "blocker_type_v59": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_next_gate_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+      "rank_score_0_10_v59": 9,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T31"
+    },
+    {
+      "blocker_type_v59": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_next_gate_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "dedup measured \u03ba(T)+SEM/TEM/XRD rows; pass grouped bootstrap and source/material/temp-bin jackknives",
+      "rank_score_0_10_v59": 9,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T32"
+    },
+    {
+      "blocker_type_v59": "true_tier_a_nand_rows_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_audit_repair_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+      "rank_score_0_10_v59": 8,
+      "schema": "ccdr-tierb-confirm-target-v65-fast-t44",
+      "test_id": "T44"
+    },
+    {
+      "blocker_type_v59": "ProteinGym_structure_join_model_FDR_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_next_gate_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "ProteinGym CSV joined to UniProt/PDB/AlphaFold structural features + family/assay/sequence jackknife",
+      "rank_score_0_10_v59": 6,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T53"
+    },
+    {
+      "blocker_type_v59": "T60b_T60c_T60d_required",
+      "confirmation_legally_possible_v59": false,
+      "confirmation_status_v59": "anchor_only_not_full_confirm",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "quark/lattice uncertainty + sector reshuffle + look-elsewhere registry",
+      "rank_score_0_10_v59": 5,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T60"
+    },
+    {
+      "blocker_type_v59": "exact_te_rows_missing_or_model_pending",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 3,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T34"
+    },
+    {
+      "blocker_type_v59": "exact_HEPData_manifest_and_model_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 3,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T57"
+    },
+    {
+      "blocker_type_v59": "exact_HEPData_manifest_and_model_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 3,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T59"
+    },
+    {
+      "blocker_type_v59": "exact_benchmark_table_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 3,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T45"
+    },
+    {
+      "blocker_type_v59": "exact_benchmark_table_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 3,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T47"
+    },
+    {
+      "blocker_type_v59": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_diagnostic_only",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 2,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T29"
+    },
+    {
+      "blocker_type_v59": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_diagnostic_only",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 2,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T28"
+    },
+    {
+      "blocker_type_v59": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_diagnostic_only",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T26"
+    },
+    {
+      "blocker_type_v59": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_diagnostic_only",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T27"
+    },
+    {
+      "blocker_type_v59": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_diagnostic_only",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T30"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T33"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T35"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T36"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T37"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T38"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T39"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T40"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T41"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T42"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T43"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T46"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T49"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T54"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T55"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T56"
+    },
+    {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T58"
+    },
+    {
+      "blocker_type_v59": "bound_only_by_design",
+      "confirmation_legally_possible_v59": false,
+      "confirmation_status_v59": "not_confirmable_by_design",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "constraint/upper-limit table only; no positive-confirm route",
+      "rank_score_0_10_v59": 0,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T50"
+    },
+    {
+      "blocker_type_v59": "bound_only_by_design",
+      "confirmation_legally_possible_v59": false,
+      "confirmation_status_v59": "not_confirmable_by_design",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "constraint/upper-limit table only; no positive-confirm route",
+      "rank_score_0_10_v59": 0,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T51"
+    },
+    {
+      "blocker_type_v59": "bound_only_by_design",
+      "confirmation_legally_possible_v59": false,
+      "confirmation_status_v59": "not_confirmable_by_design",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "constraint/upper-limit table only; no positive-confirm route",
+      "rank_score_0_10_v59": 0,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T52"
+    }
+  ]
+}

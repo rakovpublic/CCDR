@@ -1,0 +1,353 @@
+{
+  "artifact_version": "v74",
+  "bao_full_covariance_used": true,
+  "claim_policy_v74": "v74 reruns Pantheon/Pantheon+SH0ES covariance/systematics discovery and keeps the publication gate at full covariance, systematics splits, Delta chi2>=9, and AIC/BIC support.",
+  "delta_AIC_new_minus_LCDM": 0.7882350268291365,
+  "delta_BIC_new_minus_LCDM": 6.301398572063212,
+  "delta_chi2_lcdm_minus_best": 1.2117649731708635,
+  "manual_fill_required": false,
+  "model_penalty_supports_new_model": false,
+  "pantheon_audit": [
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 48,
+      "n_numeric_rows": 1702,
+      "pantheon_scoped": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01__Pantheon%2BSH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 48,
+      "n_numeric_rows": 1702,
+      "pantheon_scoped": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02__Pantheon%2BSH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 13,
+      "n_numeric_rows": 13,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 1,
+      "n_numeric_rows": 1,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 13,
+      "n_numeric_rows": 13,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 1,
+      "n_numeric_rows": 1,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 13,
+      "n_numeric_rows": 13,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 1,
+      "n_numeric_rows": 1,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 13,
+      "n_numeric_rows": 13,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 1,
+      "n_numeric_rows": 1,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 13,
+      "n_numeric_rows": 13,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 1,
+      "n_numeric_rows": 1,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357"
+    },
+    {
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 2,
+      "n_numeric_rows": 2,
+      "pantheon_scoped": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da"
+    }
+  ],
+  "pantheon_covariance_usable_paths": [],
+  "pantheon_diag_rows": 1702,
+  "pantheon_full_covariance_used": false,
+  "status": "p39_full_covariance_still_absent_v74",
+  "systematics_splits_done": false
+}

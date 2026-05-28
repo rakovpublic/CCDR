@@ -1,0 +1,309 @@
+{
+  "schema": "ccdr-tierb-confirm-targets-v55",
+  "targets": [
+    {
+      "blocker_type_v53": "audit_conflict",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "demoted_audit_conflict_needs_fix",
+      "expected_effort_v53": "low",
+      "next_data_source_v53": "recovered PV descriptor rows + absorber/source/year robustness artifacts",
+      "rank_score_0_10_v53": 10,
+      "test_id": "T48"
+    },
+    {
+      "blocker_type_v55": "raw_profile_or_transport_rows_required_for_confirm",
+      "confirmation_legally_possible_v55": true,
+      "confirmation_status_v55": "not_confirmed_preliminary_only_v55",
+      "expected_effort_v55": "low-medium",
+      "n_normalized_rows_v55": 0,
+      "n_rows_v55": 0,
+      "next_data_source_v55": "Use parsed Stroth comparison rows for preliminary model; seek raw W7-X/AUG profile/transport row tables for strict confirmation.",
+      "parser_status_v55": "source_anchor_only_no_pdf_rows_v56",
+      "preliminary_public_test_ready_v55": false,
+      "rank_score_0_10_v55": 6,
+      "strict_confirm_ready_v55": false,
+      "test_id": "T29"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "anchor_only_not_full_confirm",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 5,
+      "test_id": "T60"
+    },
+    {
+      "blocker_type_v55": "full_db5_timeslice_rows_not_public",
+      "confirmation_legally_possible_v55": true,
+      "confirmation_status_v55": "not_confirmed_summary_anchor_only_v55",
+      "expected_effort_v55": "medium-high",
+      "n_normalized_rows_v55": 0,
+      "n_rows_v55": 0,
+      "next_data_source_v55": "Use Verdoolaege DB5.2.3 summary/regression parser as anchor; strict confirm requires full per-timeslice DB5 row release.",
+      "parser_status_v55": "source_anchor_only_no_public_rows_extracted_v56",
+      "preliminary_public_test_ready_v55": false,
+      "rank_score_0_10_v55": 4,
+      "strict_confirm_ready_v55": false,
+      "test_id": "T28"
+    },
+    {
+      "blocker_type_v53": "exact_te_rows_missing_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "expected_effort_v53": "medium",
+      "next_data_source_v53": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T34"
+    },
+    {
+      "blocker_type_v55": "raw_per_discharge_rmp_elm_rows_required",
+      "confirmation_legally_possible_v55": true,
+      "confirmation_status_v55": "not_confirmed_suggestive_only_v55",
+      "expected_effort_v55": "high",
+      "n_normalized_rows_v55": 0,
+      "n_rows_v55": 0,
+      "next_data_source_v55": "Use Paz-Soldan RMP-ELM extracted summary rows as suggestive; strict confirm requires per-discharge RMP/ELM-frequency rows.",
+      "parser_status_v55": "source_anchor_only_no_public_rows_extracted_v56",
+      "preliminary_public_test_ready_v55": false,
+      "rank_score_0_10_v55": 3,
+      "strict_confirm_ready_v55": false,
+      "test_id": "T27"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact optical interconnect benchmark supplement/table",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T45"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact neuromorphic benchmark supplement/table",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T47"
+    },
+    {
+      "blocker_type_v53": "hepdata_exact_registry_missing_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact HEPData record/table/column manifest with observed/model/uncertainty columns",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T57"
+    },
+    {
+      "blocker_type_v53": "hepdata_exact_registry_available_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact HEPData record/table/column manifest with observed/model/uncertainty columns",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T59"
+    },
+    {
+      "blocker_type_v55": "raw_per_shot_elm_pedestal_rows_required",
+      "confirmation_legally_possible_v55": true,
+      "confirmation_status_v55": "not_confirmed_figures_or_summary_only_v55",
+      "expected_effort_v55": "high",
+      "n_normalized_rows_v55": 0,
+      "n_rows_v55": 0,
+      "next_data_source_v55": "Use ELM-loss summary extraction as partial trend; strict confirm requires per-shot E_ELM/W_ELM+Pped/Wped+volume/proxy rows.",
+      "parser_status_v55": "source_anchor_only_no_public_rows_extracted_v56",
+      "preliminary_public_test_ready_v55": false,
+      "rank_score_0_10_v55": 2,
+      "strict_confirm_ready_v55": false,
+      "test_id": "T26"
+    },
+    {
+      "blocker_type_v55": "no_independent_public_residual_curvature_rows",
+      "confirmation_legally_possible_v55": true,
+      "confirmation_status_v55": "not_confirmed_secondary_diagnostic_only_v55",
+      "expected_effort_v55": "high",
+      "n_normalized_rows_v55": 0,
+      "n_rows_v55": 0,
+      "next_data_source_v55": "Reuse exact T28/T29 rows if public row-level residual/curvature inputs appear.",
+      "parser_status_v55": "no_independent_public_parser",
+      "preliminary_public_test_ready_v55": false,
+      "rank_score_0_10_v55": 2,
+      "strict_confirm_ready_v55": false,
+      "test_id": "T30"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T33"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T35"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T36"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T37"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T38"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T39"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T40"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T41"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T42"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T43"
+    },
+    {
+      "blocker_type_v53": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T46"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T49"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T54"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T55"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T56"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T58"
+    },
+    {
+      "blocker_type_v53": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "not_confirmable_by_design",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 0,
+      "test_id": "T50"
+    },
+    {
+      "blocker_type_v53": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "not_confirmable_by_design",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 0,
+      "test_id": "T51"
+    },
+    {
+      "blocker_type_v53": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "not_confirmable_by_design",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 0,
+      "test_id": "T52"
+    }
+  ]
+}

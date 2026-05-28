@@ -1,0 +1,1420 @@
+{
+  "anchor_only": [],
+  "behavioral_note_v64": "v64 exact-data-pack parsers count only filled physical rows from exact source packs; templates and generated artifacts are excluded.",
+  "bound_only": [],
+  "claim_buckets_v64": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_public_now": [
+      "T48"
+    ],
+    "data_limited": [],
+    "diagnostic_only": [],
+    "near_confirm_requires_exact_rows": [],
+    "no_confirm": [],
+    "synthetic_or_engineering": [
+      "T46"
+    ]
+  },
+  "claim_summary_file_v64": "claim_summary_v64.json",
+  "confirmed_public_now": [
+    "T48"
+  ],
+  "data_limited": [],
+  "diagnostic_only": [],
+  "do_not_claim": [
+    "T46"
+  ],
+  "near_confirm_next": [],
+  "near_confirm_requires_exact_rows": [],
+  "next_rows_needed_v64": {
+    "file_v64": "next_rows_needed_v64.json",
+    "n_tests_v64": 2
+  },
+  "no_confirm": [],
+  "process_summary_v64": {
+    "n_tests_with_process_rows_v64": 0,
+    "note_v64": "process_status reports subprocess health; confirmation_status_v64 reports public-claim eligibility.",
+    "process_errors_v64": [],
+    "process_timeouts_v64": [],
+    "schema": "ccdr-v64-process-vs-confirm-summary",
+    "summary_available_v64": false
+  },
+  "public_claim_rule_v64": "Only tests listed in confirmed_public_now may be described as current public confirms.",
+  "public_source_harvest_v67": {
+    "adapter_quality_warnings_v71": null,
+    "allow_network_v67": null,
+    "candidate_quality_v71": null,
+    "dry_run_v67": null,
+    "enabled_v67": false,
+    "file_v67": null,
+    "n_rows_written_v67": null,
+    "n_structured_sources_parsed_v67": null,
+    "pack_quality_v71": null
+  },
+  "schema": "ccdr-tierb-confirm-only-dashboard-v64",
+  "source_pack_status_v64": [
+    {
+      "affected_tests_v64": [
+        "T31",
+        "T32"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_families": 5,
+        "min_sources": 5,
+        "min_temperature_bins": 3,
+        "min_usable_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "materials",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\SCHEMA_v64.json",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\t31_t32_materials_exact_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T31",
+        "T32"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_families": 5,
+        "min_sources": 5,
+        "min_temperature_bins": 3,
+        "min_usable_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "materials_family_packs",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\family_pack_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T44"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_companies": 3,
+        "min_usable_rows": 8
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "nand",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\t44_nand_tier_a_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T53"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_assays": 3,
+        "min_families": 3,
+        "min_sequence_clusters": 10,
+        "min_usable_join_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "proteingym",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\proteingym_assays_template.csv"
+      ],
+      "validator_problem_count_v64": 100,
+      "validator_status_v64": "validator_found_row_problems",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T53"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_structure_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "protein_structures",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\protein_structure_features_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T34"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_usable_rows": 30
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "thermoelectric",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\t34_thermoelectric_angle_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T57",
+        "T59"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_records": 3,
+        "min_residual_rows": 20,
+        "min_tables": 3
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "hepdata",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T45"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "optical_interconnect",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\t45_optical_interconnect_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T47"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "neuromorphic",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\t47_neuromorphic_benchmark_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_exact_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "fusion",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "empty_pack_needs_exact_public_rows",
+      "validator_usable_rows_v64": 0
+    },
+    {
+      "affected_tests_v64": [
+        "T46"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 250,
+      "minimum_gate_v64": {
+        "min_baseline_comparisons": 5,
+        "min_sources": 2,
+        "min_usable_rows": 5
+      },
+      "n_files_v64": 1,
+      "n_rows_v64": 250,
+      "next_action_v64": "Run the v67 public-source harvester to discover, download, parse, and write AUTO_PUBLIC_ROWS_V67.csv rows; templates, generated artifacts, and manual placeholder rows do not count.",
+      "pack": "ldpc_external_benchmark",
+      "schema_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\SCHEMA_v64.json"
+      ],
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\t46_external_public_benchmark_template.csv"
+      ],
+      "validator_problem_count_v64": 0,
+      "validator_status_v64": "validator_passes_nonempty_pack",
+      "validator_usable_rows_v64": 250
+    }
+  ],
+  "source_pack_validation_v64": {
+    "all_existing_rows_valid_v64": false,
+    "n_invalid_rows_v64": 283,
+    "n_packs_v64": 11,
+    "n_problem_files_v64": 1,
+    "note_v64": "Empty packs are expected blockers, not validation errors. Generated, template, synthetic, estimated, inferred, and derived rows never count as evidence.",
+    "pack_results": [
+      {
+        "affected_tests_v64": [
+          "T31",
+          "T32"
+        ],
+        "dedup_key_v64": [
+          "source_url",
+          "sample_id",
+          "material",
+          "temperature_K"
+        ],
+        "minimum_gate_v64": {
+          "min_families": 5,
+          "min_sources": 5,
+          "min_temperature_bins": 3,
+          "min_usable_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "materials",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "source_url",
+          "source_label",
+          "sample_id",
+          "material",
+          "material_family",
+          "temperature_K",
+          "kappa_W_mK",
+          "grain_size_nm",
+          "microstructure_method",
+          "nanocrystalline_yes_no",
+          "boundary_density_proxy",
+          "measurement_method",
+          "notes"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T31",
+          "T32"
+        ],
+        "dedup_key_v64": [
+          "family_name",
+          "source_url",
+          "sample_id",
+          "temperature_K"
+        ],
+        "minimum_gate_v64": {
+          "min_families": 5,
+          "min_sources": 5,
+          "min_temperature_bins": 3,
+          "min_usable_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "materials_family_packs",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "family_name",
+          "source_url",
+          "sample_id",
+          "material",
+          "temperature_K",
+          "kappa_W_mK",
+          "grain_size_nm",
+          "microstructure_method"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T44"
+        ],
+        "dedup_key_v64": [
+          "company",
+          "year",
+          "layers",
+          "capacity_Gb",
+          "die_area_mm2",
+          "bits_per_cell",
+          "source_url"
+        ],
+        "minimum_gate_v64": {
+          "min_companies": 3,
+          "min_usable_rows": 8
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "nand",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "company",
+          "year",
+          "layers",
+          "capacity_Gb",
+          "die_area_mm2",
+          "bits_per_cell",
+          "source_url",
+          "product_or_paper",
+          "notes"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T53"
+        ],
+        "dedup_key_v64": [
+          "assay_id",
+          "uniprot",
+          "variant"
+        ],
+        "minimum_gate_v64": {
+          "min_assays": 3,
+          "min_families": 3,
+          "min_sequence_clusters": 10,
+          "min_usable_join_rows": 50
+        },
+        "n_files_v64": 1,
+        "n_rows_v64": 283,
+        "pack": "proteingym",
+        "pack_specific_diagnostics_v64": {
+          "n_assays_v64": 0,
+          "n_families_v64": 0,
+          "n_rows_seen_v64": 283,
+          "n_schema_complete_rows_v64": 0,
+          "n_sequence_clusters_v64": 0,
+          "n_uniprots_v64": 0,
+          "note_v64": "T53 needs these assay rows joined to protein_structures rows before confirmation.",
+          "schema": "ccdr-v64-proteingym-pack-diagnostics",
+          "stale_row_guard_v72": {
+            "cleanup_action_v72": "quarantine generated proteingym/AUTO_PUBLIC_ROWS_V67.csv and rerun raw DMS parser",
+            "n_bad_variant_identifier_rows_v72": 283,
+            "n_nonnumeric_score_rows_v72": 258,
+            "n_reference_manifest_rows_v72": 283
+          }
+        },
+        "problems_v64": [
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 0,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 1,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 2,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 3,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 4,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 5,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 6,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 7,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 8,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 9,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 10,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 11,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 12,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 13,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 14,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 15,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 16,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 17,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 18,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 19,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 20,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 21,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 22,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 23,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 24,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 25,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 26,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 27,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 28,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 29,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 30,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 31,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 32,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 33,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 34,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 35,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 36,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 37,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 38,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 39,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 40,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 41,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 42,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 43,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 44,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 45,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 46,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 47,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 48,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 49,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 50,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 51,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 52,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 53,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 54,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 55,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 56,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 57,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 58,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 59,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 60,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 61,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 62,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 63,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 64,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 65,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 66,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 67,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 68,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 69,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 70,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 71,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 72,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 73,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 74,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 75,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 76,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 77,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 78,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 79,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 80,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 81,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 82,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 83,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 84,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 85,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 86,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 87,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 88,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 89,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 90,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 91,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 92,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 93,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 94,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 95,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 96,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 97,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier",
+            "row_index_v64": 98,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          },
+          {
+            "missing_columns_v64": [],
+            "problem_v64": "proteingym_reference_manifest_is_metadata_not_variant_scores|proteingym_variant_column_not_mutation_identifier|proteingym_score_not_numeric",
+            "row_index_v64": 99,
+            "source_file_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\AUTO_PUBLIC_ROWS_V67.csv"
+          }
+        ],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "assay_id",
+          "uniprot",
+          "protein_name",
+          "family",
+          "assay_type",
+          "sequence_cluster",
+          "variant",
+          "dms_score",
+          "fitness_residual",
+          "source_url"
+        ],
+        "status_v64": "validator_found_row_problems",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T53"
+        ],
+        "dedup_key_v64": [
+          "uniprot",
+          "pdb_id",
+          "alphafold_id"
+        ],
+        "minimum_gate_v64": {
+          "min_structure_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "protein_structures",
+        "pack_specific_diagnostics_v64": {
+          "n_alphafold_rows_v64": 0,
+          "n_pdb_rows_v64": 0,
+          "n_rows_seen_v64": 0,
+          "n_schema_complete_rows_v64": 0,
+          "n_uniprots_v64": 0,
+          "note_v64": "PDB id is optional when a public AlphaFold id and structure-derived feature proxies are present.",
+          "schema": "ccdr-v64-protein-structures-pack-diagnostics"
+        },
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "uniprot",
+          "pdb_id",
+          "alphafold_id",
+          "oligomeric_state",
+          "symmetry_proxy",
+          "contact_network_proxy",
+          "fold_class",
+          "source_url"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T34"
+        ],
+        "dedup_key_v64": [
+          "material",
+          "composition",
+          "temperature_K",
+          "orientation_angle_deg",
+          "grain_boundary_angle_deg",
+          "source_url"
+        ],
+        "minimum_gate_v64": {
+          "min_usable_rows": 30
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "thermoelectric",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "material",
+          "composition",
+          "ZT",
+          "temperature_K",
+          "orientation_angle_deg",
+          "grain_boundary_angle_deg",
+          "source_url",
+          "source_label"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T57",
+          "T59"
+        ],
+        "dedup_key_v64": [
+          "record_id",
+          "table_id",
+          "observed_column",
+          "model_column",
+          "uncertainty_column"
+        ],
+        "minimum_gate_v64": {
+          "min_records": 3,
+          "min_residual_rows": 20,
+          "min_tables": 3
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "hepdata",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "record_id",
+          "table_id",
+          "x_column",
+          "observed_column",
+          "model_column",
+          "uncertainty_column",
+          "observable_name",
+          "local_table",
+          "source_url"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T45"
+        ],
+        "dedup_key_v64": [
+          "platform",
+          "year",
+          "benchmark",
+          "source_url"
+        ],
+        "minimum_gate_v64": {
+          "min_sources": 3,
+          "min_usable_rows": 20
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "optical_interconnect",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "platform",
+          "year",
+          "energy_per_bit_pJ",
+          "bandwidth_Gbps",
+          "reach_m",
+          "source_url",
+          "benchmark"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T47"
+        ],
+        "dedup_key_v64": [
+          "chip",
+          "benchmark",
+          "year",
+          "source_url"
+        ],
+        "minimum_gate_v64": {
+          "min_sources": 3,
+          "min_usable_rows": 20
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "neuromorphic",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "chip",
+          "benchmark",
+          "energy_per_inference_or_spike_pJ",
+          "accuracy",
+          "topology",
+          "year",
+          "source_url"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T26",
+          "T27",
+          "T28",
+          "T29",
+          "T30"
+        ],
+        "dedup_key_v64": [
+          "test_id",
+          "device",
+          "shot",
+          "time_or_slice",
+          "quantity",
+          "source_url"
+        ],
+        "minimum_gate_v64": {
+          "min_exact_rows": 20
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "pack": "fusion",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": false,
+        "required_columns_v64": [
+          "test_id",
+          "certified_raw_row",
+          "device",
+          "shot",
+          "time_or_slice",
+          "quantity",
+          "value",
+          "unit",
+          "source_url"
+        ],
+        "status_v64": "empty_pack_needs_exact_public_rows",
+        "validator_usable_rows_v64": 0
+      },
+      {
+        "affected_tests_v64": [
+          "T46"
+        ],
+        "dedup_key_v64": [
+          "task_id",
+          "benchmark",
+          "metric_name",
+          "heldout_split",
+          "source_url"
+        ],
+        "minimum_gate_v64": {
+          "min_baseline_comparisons": 5,
+          "min_sources": 2,
+          "min_usable_rows": 5
+        },
+        "n_files_v64": 1,
+        "n_rows_v64": 250,
+        "pack": "ldpc_external_benchmark",
+        "pack_specific_diagnostics_v64": {},
+        "problems_v64": [],
+        "ready_to_attempt_confirm_gate_v64": true,
+        "required_columns_v64": [
+          "task_id",
+          "benchmark",
+          "metric_name",
+          "model_score",
+          "baseline_score",
+          "uncertainty",
+          "heldout_split",
+          "source_url",
+          "source_label",
+          "external_public_yes_no",
+          "notes"
+        ],
+        "status_v64": "validator_passes_nonempty_pack",
+        "validator_usable_rows_v64": 250
+      }
+    ],
+    "schema": "ccdr-v64-source-pack-validation"
+  },
+  "synthetic_or_engineering": [
+    "T46"
+  ]
+}

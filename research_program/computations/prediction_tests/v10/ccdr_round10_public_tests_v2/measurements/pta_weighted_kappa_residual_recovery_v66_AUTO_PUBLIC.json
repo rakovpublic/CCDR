@@ -1,0 +1,25 @@
+{
+  "artifact_version": "v66",
+  "implemented_v66": "Durable schema and gate artifact for the residual/TOA-weighted kappa join; no confirm without weighted statistic and sky shuffle.",
+  "required_columns": [
+    "pulsar_id",
+    "ra",
+    "dec",
+    "residual_or_toa_weight",
+    "kappa_sample",
+    "source_hash"
+  ],
+  "source_gate_v65": {
+    "artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v65_AUTO_PUBLIC.json",
+    "diagnostic_class": "residual_kappa_join_rows_absent",
+    "eligible_for_confirm_like": false,
+    "gate_version": "v65",
+    "missing": [
+      "weighted_statistic",
+      "sky_shuffle_p_le_0p05",
+      "predeclared_sign",
+      "top_weight_removal_stable"
+    ]
+  },
+  "status": "residual_kappa_join_required"
+}

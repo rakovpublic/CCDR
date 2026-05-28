@@ -1,0 +1,19 @@
+{
+  "claim_policy": "structured rows remain proxy until Wilson/SM likelihood and CP-control null both pass",
+  "current_gate": {
+    "cp_control_rows": false,
+    "cp_controls_null_or_weak": true,
+    "eligible_for_confirm_like": false,
+    "missing": [
+      "cp_control_rows"
+    ],
+    "q2_numeric_rows": true,
+    "wilson_sm_delta_chi2": true
+  },
+  "minimum_for_major_claim": {
+    "cp_control_rows": 3,
+    "delta_chi2_sm_minus_wilson": 9.0,
+    "q2_numeric_rows": 20
+  },
+  "v35_required_measurement": "numeric q2/value/error likelihood with Wilson-vs-SM delta chi2"
+}

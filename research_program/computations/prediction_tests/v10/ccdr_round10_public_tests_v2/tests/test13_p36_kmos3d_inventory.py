@@ -11,9 +11,9 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "galaxy",
-  "kind": "kross_vrot_parser_v14",
+  "kind": "highz_unit_field_table_v22",
   "prediction_id": "P36/high-z a0",
-  "prediction_name": "P36 high-z a0 Vrot^2/R confirmation squeeze",
+  "prediction_name": "P36 high-z a0 Vrot unit+field confirmation guard",
   "sources": [
     {
       "url": "https://www.mpe.mpg.de/ir/KMOS3D/data"

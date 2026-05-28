@@ -1,0 +1,3530 @@
+{
+  "analysis_note": "Strict v3 public-data probe. Generic article/PDF/HTML term-number extraction is disabled. A result becomes partial/ok only if a direct public structured table has named physical columns required by the test; otherwise data_limited.",
+  "auto_data_improvements_v34": {},
+  "auto_data_improvements_v35": {},
+  "auto_data_improvements_v37": {},
+  "auto_data_improvements_v38": {},
+  "auto_data_improvements_v39": {},
+  "auto_data_improvements_v40": {},
+  "auto_data_improvements_v41": {},
+  "auto_data_improvements_v42": {},
+  "auto_data_improvements_v43": {},
+  "auto_data_improvements_v44": {},
+  "auto_data_improvements_v45": {},
+  "auto_data_improvements_v46": {},
+  "auto_data_improvements_v47": {},
+  "auto_data_improvements_v48": {},
+  "auto_data_improvements_v49": {},
+  "auto_data_improvements_v50": {},
+  "auto_data_improvements_v51": {},
+  "auto_data_improvements_v52": {},
+  "auto_data_improvements_v53": {},
+  "auto_data_improvements_v56": {},
+  "auto_data_improvements_v57": {},
+  "auto_data_improvements_v58": {},
+  "auto_data_improvements_v59": {},
+  "auto_generated_inputs_v33": {
+    "generated_files": [],
+    "manual_or_user_csv_required": false,
+    "status": "auto_generation_attempted"
+  },
+  "auto_input_policy_v33": {
+    "all_tests_run_together": true,
+    "commit_generated_csv_required": false,
+    "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+    "manual_or_user_filled_csv_required": false,
+    "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+  },
+  "auto_primary_source_hunt_v33": {
+    "audit_csv": null,
+    "child_urls_extracted": 0,
+    "manifest": "data/primary_table_candidate_manifest_v33.csv",
+    "manifest_rows": 1,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "Floquet time crystal arXiv source search",
+        "meta": {
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://arxiv.org/search/?query=%22time+crystal%22+%22data%22+%22fidelity%22+%22cycle%22&searchtype=all",
+          "ok": true,
+          "status_code": 200
+        },
+        "notes": "look for source/supplement cycle-error rows",
+        "source_kind": "manual_candidate",
+        "status": "downloaded_no_tabular_frames",
+        "tables": [],
+        "url": "https://arxiv.org/search/?query=%22time+crystal%22+%22data%22+%22fidelity%22+%22cycle%22&searchtype=all"
+      }
+    ]
+  },
+  "bound_only_gate_v34": null,
+  "candidate_works_count": 50,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 1373,
+      "doi": "https://doi.org/10.1146/annurev-conmatphys-031119-050605",
+      "id": "https://openalex.org/W2947902637",
+      "landing_page_url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605"
+      },
+      "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605",
+      "primary_location": {
+        "id": "doi:10.1146/annurev-conmatphys-031119-050605",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605",
+        "raw_source_name": "Annual Review of Condensed Matter Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Annual Review of Condensed Matter Physics",
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "host_organization_name": "Annual Reviews",
+          "id": "https://openalex.org/S185750702",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1947-5454",
+            "1947-5462"
+          ],
+          "issn_l": "1947-5454",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Superconducting Qubits: Current State of Play",
+      "type": "article",
+      "year": 2019
+    },
+    {
+      "cited_by_count": 1412,
+      "doi": "https://doi.org/10.1103/revmodphys.84.777",
+      "id": "https://openalex.org/W2015275764",
+      "landing_page_url": "https://doi.org/10.1103/revmodphys.84.777",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/0805.2853"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1103/revmodphys.84.777",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1103/revmodphys.84.777",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Reviews of Modern Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Reviews of Modern Physics",
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "host_organization_name": "American Physical Society",
+          "id": "https://openalex.org/S73260565",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0034-6861",
+            "1538-4527",
+            "1539-0756"
+          ],
+          "issn_l": "0034-6861",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Multiphoton entanglement and interferometry",
+      "type": "article",
+      "year": 2012
+    },
+    {
+      "cited_by_count": 1018,
+      "doi": "https://doi.org/10.1103/revmodphys.91.045001",
+      "id": "https://openalex.org/W2937049145",
+      "landing_page_url": "https://doi.org/10.1103/revmodphys.91.045001",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "http://link.aps.org/pdf/10.1103/RevModPhys.91.045001"
+      },
+      "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.91.045001",
+      "primary_location": {
+        "id": "doi:10.1103/revmodphys.91.045001",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1103/revmodphys.91.045001",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "http://link.aps.org/pdf/10.1103/RevModPhys.91.045001",
+        "raw_source_name": "Reviews of Modern Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Reviews of Modern Physics",
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "host_organization_name": "American Physical Society",
+          "id": "https://openalex.org/S73260565",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0034-6861",
+            "1538-4527",
+            "1539-0756"
+          ],
+          "issn_l": "0034-6861",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Shortcuts to adiabaticity: Concepts, methods, and applications",
+      "type": "article",
+      "year": 2019
+    },
+    {
+      "cited_by_count": 307,
+      "doi": "https://doi.org/10.1103/physrevx.11.041058",
+      "id": "https://openalex.org/W3181660950",
+      "landing_page_url": "https://doi.org/10.1103/physrevx.11.041058",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevX.11.041058"
+      },
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevX.11.041058",
+      "primary_location": {
+        "id": "doi:10.1103/physrevx.11.041058",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1103/physrevx.11.041058",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevX.11.041058",
+        "raw_source_name": "Physical Review X",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physical Review X",
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "host_organization_name": "American Physical Society",
+          "id": "https://openalex.org/S137042341",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2160-3308"
+          ],
+          "issn_l": "2160-3308",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Realization of Real-Time Fault-Tolerant Quantum Error Correction",
+      "type": "article",
+      "year": 2021
+    },
+    {
+      "cited_by_count": 457,
+      "doi": "https://doi.org/10.1103/revmodphys.95.045006",
+      "id": "https://openalex.org/W4389990376",
+      "landing_page_url": "https://doi.org/10.1103/revmodphys.95.045006",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://oist.repo.nii.ac.jp/record/2000531/files/Azuma-2023-Quantum repeaters_ From quantum net.pdf"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1103/revmodphys.95.045006",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1103/revmodphys.95.045006",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Reviews of Modern Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Reviews of Modern Physics",
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "host_organization_name": "American Physical Society",
+          "id": "https://openalex.org/S73260565",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0034-6861",
+            "1538-4527",
+            "1539-0756"
+          ],
+          "issn_l": "0034-6861",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Quantum repeaters: From quantum networks to the quantum internet",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 305,
+      "doi": "https://doi.org/10.1103/physrevx.13.041052",
+      "id": "https://openalex.org/W4389892080",
+      "landing_page_url": "https://doi.org/10.1103/physrevx.13.041052",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevX.13.041052"
+      },
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevX.13.041052",
+      "primary_location": {
+        "id": "doi:10.1103/physrevx.13.041052",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1103/physrevx.13.041052",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevX.13.041052",
+        "raw_source_name": "Physical Review X",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physical Review X",
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "host_organization_name": "American Physical Society",
+          "id": "https://openalex.org/S137042341",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2160-3308"
+          ],
+          "issn_l": "2160-3308",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "A Race-Track Trapped-Ion Quantum Processor",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 362,
+      "doi": "https://doi.org/10.6028/nist.ir.8413",
+      "id": "https://openalex.org/W4226075590",
+      "landing_page_url": "https://doi.org/10.6028/nist.ir.8413",
+      "open_access": {
+        "any_repository_has_fulltext": null,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.6028/nist.ir.8413"
+      },
+      "pdf_url": "https://doi.org/10.6028/nist.ir.8413",
+      "primary_location": {
+        "id": "doi:10.6028/nist.ir.8413",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.6028/nist.ir.8413",
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "pdf_url": "https://doi.org/10.6028/nist.ir.8413",
+        "raw_source_name": "National Institute of Standards and Technology",
+        "raw_type": "report",
+        "source": null,
+        "version": "publishedVersion"
+      },
+      "title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardization process",
+      "type": "report",
+      "year": 2022
+    },
+    {
+      "cited_by_count": 403,
+      "doi": "https://doi.org/10.1038/ncomms2854",
+      "id": "https://openalex.org/W2120609771",
+      "landing_page_url": "https://doi.org/10.1038/ncomms2854",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://www.nature.com/articles/ncomms2854.pdf"
+      },
+      "pdf_url": "https://www.nature.com/articles/ncomms2854.pdf",
+      "primary_location": {
+        "id": "doi:10.1038/ncomms2854",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1038/ncomms2854",
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "pdf_url": "https://www.nature.com/articles/ncomms2854.pdf",
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nature Communications",
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Nature Portfolio",
+          "id": "https://openalex.org/S64187185",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": false,
+          "issn": [
+            "2041-1723"
+          ],
+          "issn_l": "2041-1723",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Polytype control of spin qubits in silicon carbide",
+      "type": "article",
+      "year": 2013
+    },
+    {
+      "cited_by_count": 312,
+      "doi": "https://doi.org/10.1038/nphoton.2016.234",
+      "id": "https://openalex.org/W2435068743",
+      "landing_page_url": "https://doi.org/10.1038/nphoton.2016.234",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://www.nature.com/articles/nphoton.2016.234.pdf"
+      },
+      "pdf_url": "https://www.nature.com/articles/nphoton.2016.234.pdf",
+      "primary_location": {
+        "id": "doi:10.1038/nphoton.2016.234",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1038/nphoton.2016.234",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://www.nature.com/articles/nphoton.2016.234.pdf",
+        "raw_source_name": "Nature Photonics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nature Photonics",
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Nature Portfolio",
+          "id": "https://openalex.org/S120392215",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1749-4885",
+            "1749-4893"
+          ],
+          "issn_l": "1749-4885",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Laser writing of coherent colour centres in diamond",
+      "type": "article",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 552,
+      "doi": "https://doi.org/10.1109/access.2020.2968985",
+      "id": "https://openalex.org/W3000833961",
+      "landing_page_url": "https://doi.org/10.1109/access.2020.2968985",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08967098.pdf"
+      },
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08967098.pdf",
+      "primary_location": {
+        "id": "doi:10.1109/access.2020.2968985",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2020.2968985",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08967098.pdf",
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "IEEE Access",
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "id": "https://openalex.org/S2485537415",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2169-3536"
+          ],
+          "issn_l": "2169-3536",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks",
+      "type": "review",
+      "year": 2020
+    },
+    {
+      "cited_by_count": 261,
+      "doi": "https://doi.org/10.1038/ncomms11526",
+      "id": "https://openalex.org/W1912528535",
+      "landing_page_url": "https://doi.org/10.1038/ncomms11526",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.nature.com/articles/ncomms11526.pdf"
+      },
+      "pdf_url": "https://www.nature.com/articles/ncomms11526.pdf",
+      "primary_location": {
+        "id": "doi:10.1038/ncomms11526",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1038/ncomms11526",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://www.nature.com/articles/ncomms11526.pdf",
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nature Communications",
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Nature Portfolio",
+          "id": "https://openalex.org/S64187185",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2041-1723"
+          ],
+          "issn_l": "2041-1723",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Repeated quantum error correction on a continuously encoded qubit by real-time feedback",
+      "type": "article",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 250,
+      "doi": "https://doi.org/10.1038/ncomms11377",
+      "id": "https://openalex.org/W2344889042",
+      "landing_page_url": "https://doi.org/10.1038/ncomms11377",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.nature.com/articles/ncomms11377.pdf"
+      },
+      "pdf_url": "https://www.nature.com/articles/ncomms11377.pdf",
+      "primary_location": {
+        "id": "doi:10.1038/ncomms11377",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1038/ncomms11377",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://www.nature.com/articles/ncomms11377.pdf",
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nature Communications",
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Nature Portfolio",
+          "id": "https://openalex.org/S64187185",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2041-1723"
+          ],
+          "issn_l": "2041-1723",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "A modular design of molecular qubits to implement universal quantum gates",
+      "type": "article",
+      "year": 2016
+    }
+  ],
+  "confirm_allowed_now_v30": false,
+  "confirm_allowed_now_v32": false,
+  "confirm_allowed_now_v33": false,
+  "confirm_allowed_now_v34": false,
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "data_limited",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "expected_effort_v52": "high",
+    "next_data_source_v52": "not a current confirm target",
+    "rank_score_0_10_v52": 1,
+    "test_id": "T43"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "data_limited",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "expected_effort_v53": "high",
+    "next_data_source_v53": "not a current confirm target",
+    "rank_score_0_10_v53": 1,
+    "test_id": "T43"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "data_limited",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "high",
+    "next_data_source_v56": "not a current confirm target",
+    "rank_score_0_10_v56": 1,
+    "test_id": "T43"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "data_limited",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "high",
+    "next_data_source_v57": "not a current confirm target",
+    "rank_score_0_10_v57": 1,
+    "test_id": "T43"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "data_limited",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "high",
+    "next_data_source_v58": "not a current confirm target",
+    "rank_score_0_10_v58": 1,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T43"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "data_limited",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "high",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 1,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T43"
+  },
+  "confirmation_blocker_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed_data_limited",
+  "confirmation_status_v53": "not_confirmed_data_limited",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_status_v52": "data_limited",
+  "data_status_v53": "data_limited",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "discovered_data_links_sample": [
+    "https://doi.org/page/authors/general-information",
+    "https://doi.org/page/about/metadata",
+    "https://doi.org/page/librarians/librarian-resource-page",
+    "https://doi.org/content/journals/biodatasci",
+    "https://doi.org/content/journals/energy",
+    "https://doi.org/content/journals/resource",
+    "https://doi.org/10.1146/annurev-conmatphys-031119-050605#dataandmedia",
+    "https://doi.org/10.1146/annurev-conmatphys-031119-050605#supplementary_data",
+    "https://doi.org/page/climateresources",
+    "https://doi.org/db/suppl",
+    "https://doi.org/articles/ncomms2854#MOESM54",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhRvL..92g6401J",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PNAS..107.8513W",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Natur.479...84K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012PhRvL.108v6402S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006Sci...312.1191B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995JAP....78.5136Z",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001ApPhL..78..162Y",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvL..96e5501S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PSSBR.245.1298I",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PSSBR.248.1337G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvB..74w5201C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003PhyB..340..151C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PhyB..404.4739B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2005JETPL..82..441B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhRvB..83l5203B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001PhRvB..64x5212L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999SeScT..14.1141S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhRvB..55.2863S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1996JAP....79.3784S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1962PhRv..125..912K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006NJPh....8..184L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PhRvB..77x5212D",
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fncomms2854/MediaObjects/41467_2013_BFncomms2854_MOESM54_ESM.pdf",
+    "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022",
+    "https://www.springernature.com/gp/authors/research-data",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Natur.479...47D",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008NaPho...2..219G",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012PhRvL.109v6402R",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014NatCo...5.3328M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014PhRvL.113z3602R",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NatMa..14..160C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NatMa..14..164W",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015PhRvB..92f4104V",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NatSR...512882I",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2005PhRvA..71f0310B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009LPRv....3..556B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PhRvL.100g7401B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010Natur.466..730T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015Natur.526..682H"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "bytes": 1333812,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\05073c68b51c_annurev-conmatphys-031119-050605.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.annualreviews.org/docserver/fulltext/conmatphys/11/1/annurev-conmatphys-031119-050605.pdf?expires=1779098481&id=id&accname=guest&checksum=3D5C89A66EF23C075B99D0348C7C56C7",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605"
+      },
+      "title": "Superconducting Qubits: Current State of Play",
+      "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-conmatphys-031119-050605"
+    },
+    {
+      "meta": {
+        "bytes": 625408,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\868e3b9b32ca_annurev-conmatphys-031119-050605.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-031119-050605",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605"
+      },
+      "title": "Superconducting Qubits: Current State of Play",
+      "url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\fe72b66da7a3_revmodphys.84.777",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/RevModPhys.84.777",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/revmodphys.84.777"
+      },
+      "title": "Multiphoton entanglement and interferometry",
+      "url": "https://doi.org/10.1103/revmodphys.84.777"
+    },
+    {
+      "meta": {
+        "bytes": 2779159,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\166b306c5a05_0805.2853",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/0805.2853",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/0805.2853"
+      },
+      "title": "Multiphoton entanglement and interferometry",
+      "url": "https://arxiv.org/pdf/0805.2853"
+    },
+    {
+      "meta": {
+        "bytes": 88636,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\c1adcb2c2f84_RevModPhys.91.045001",
+        "cached": false,
+        "content_type": "text/html;charset=utf-8",
+        "error": null,
+        "final_url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.91.045001",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/RevModPhys.91.045001"
+      },
+      "title": "Shortcuts to adiabaticity: Concepts, methods, and applications",
+      "url": "http://link.aps.org/pdf/10.1103/RevModPhys.91.045001"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\4564bffea3ea_revmodphys.91.045001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/RevModPhys.91.045001",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/revmodphys.91.045001"
+      },
+      "title": "Shortcuts to adiabaticity: Concepts, methods, and applications",
+      "url": "https://doi.org/10.1103/revmodphys.91.045001"
+    },
+    {
+      "meta": {
+        "bytes": 4328961,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\1907a2f808bb_PhysRevX.11.041058",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.11.041058",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevX.11.041058"
+      },
+      "title": "Realization of Real-Time Fault-Tolerant Quantum Error Correction",
+      "url": "http://link.aps.org/pdf/10.1103/PhysRevX.11.041058"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\4b02c212907a_physrevx.11.041058",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PhysRevX.11.041058",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/physrevx.11.041058"
+      },
+      "title": "Realization of Real-Time Fault-Tolerant Quantum Error Correction",
+      "url": "https://doi.org/10.1103/physrevx.11.041058"
+    },
+    {
+      "meta": {
+        "bytes": 102520,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\ba15eb21fe76_revmodphys.95.045006",
+        "cached": false,
+        "content_type": "text/html;charset=utf-8",
+        "error": null,
+        "final_url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.95.045006",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1103/revmodphys.95.045006"
+      },
+      "title": "Quantum repeaters: From quantum networks to the quantum internet",
+      "url": "https://doi.org/10.1103/revmodphys.95.045006"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\abd61844a035_Azuma-2023-Quantum_repeaters__From_quantum_net.pdf",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://oist.repo.nii.ac.jp/record/2000531/files/Azuma-2023-Quantum%20repeaters_%20From%20quantum%20net.pdf",
+        "ok": false,
+        "status_code": 503,
+        "url": "https://oist.repo.nii.ac.jp/record/2000531/files/Azuma-2023-Quantum repeaters_ From quantum net.pdf"
+      },
+      "title": "Quantum repeaters: From quantum networks to the quantum internet",
+      "url": "https://oist.repo.nii.ac.jp/record/2000531/files/Azuma-2023-Quantum repeaters_ From quantum net.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 2813152,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\1e16003fa37f_PhysRevX.13.041052",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.13.041052",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevX.13.041052"
+      },
+      "title": "A Race-Track Trapped-Ion Quantum Processor",
+      "url": "http://link.aps.org/pdf/10.1103/PhysRevX.13.041052"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\e2e636a52d6b_physrevx.13.041052",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PhysRevX.13.041052",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/physrevx.13.041052"
+      },
+      "title": "A Race-Track Trapped-Ion Quantum Processor",
+      "url": "https://doi.org/10.1103/physrevx.13.041052"
+    },
+    {
+      "meta": {
+        "bytes": 1508856,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\92c1f03d681a_nist.ir.8413",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8413.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.6028/nist.ir.8413"
+      },
+      "title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardization process",
+      "url": "https://doi.org/10.6028/nist.ir.8413"
+    },
+    {
+      "meta": {
+        "bytes": 1511975,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\4649251641b9_ncomms2854.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms2854.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/ncomms2854.pdf"
+      },
+      "title": "Polytype control of spin qubits in silicon carbide",
+      "url": "https://www.nature.com/articles/ncomms2854.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 341189,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\66241169a7d5_ncomms2854.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms2854",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/ncomms2854"
+      },
+      "title": "Polytype control of spin qubits in silicon carbide",
+      "url": "https://doi.org/10.1038/ncomms2854"
+    },
+    {
+      "meta": {
+        "bytes": 340597,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\20f55e1e49d9_nphoton.2016.234.pdf",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/nphoton.2016.234",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/nphoton.2016.234.pdf"
+      },
+      "title": "Laser writing of coherent colour centres in diamond",
+      "url": "https://www.nature.com/articles/nphoton.2016.234.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 340593,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\f32c599eff6c_nphoton.2016.234",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/nphoton.2016.234",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/nphoton.2016.234"
+      },
+      "title": "Laser writing of coherent colour centres in diamond",
+      "url": "https://doi.org/10.1038/nphoton.2016.234"
+    },
+    {
+      "meta": {
+        "bytes": 4435567,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\4295480528f7_08967098.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08967098.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08967098.pdf"
+      },
+      "title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks",
+      "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08967098.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 55448,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\e4f0d27c6350_access.2020.2968985",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/8967098/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/access.2020.2968985"
+      },
+      "title": "Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks",
+      "url": "https://doi.org/10.1109/access.2020.2968985"
+    },
+    {
+      "meta": {
+        "bytes": 754873,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\040289369008_ncomms11526.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms11526.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/ncomms11526.pdf"
+      },
+      "title": "Repeated quantum error correction on a continuously encoded qubit by real-time feedback",
+      "url": "https://www.nature.com/articles/ncomms11526.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 384734,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\c08b3fec1980_ncomms11526.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms11526",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/ncomms11526"
+      },
+      "title": "Repeated quantum error correction on a continuously encoded qubit by real-time feedback",
+      "url": "https://doi.org/10.1038/ncomms11526"
+    },
+    {
+      "meta": {
+        "bytes": 1343040,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\3b627bddb231_ncomms11377.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms11377.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/ncomms11377.pdf"
+      },
+      "title": "A modular design of molecular qubits to implement universal quantum gates",
+      "url": "https://www.nature.com/articles/ncomms11377.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 444683,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\64fe5d29cf4a_ncomms11377.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms11377",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/ncomms11377"
+      },
+      "title": "A modular design of molecular qubits to implement universal quantum gates",
+      "url": "https://doi.org/10.1038/ncomms11377"
+    },
+    {
+      "meta": {
+        "bytes": 1993114,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\edd5550aa6cd_npjqi201634.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/npjqi201634.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/npjqi201634.pdf"
+      },
+      "title": "Co-designing a scalable quantum computer with trapped atomic ions",
+      "url": "https://www.nature.com/articles/npjqi201634.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 496505,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\96e856e0e5b1_npjqi.2016.34",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/npjqi201634",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/npjqi.2016.34"
+      },
+      "title": "Co-designing a scalable quantum computer with trapped atomic ions",
+      "url": "https://doi.org/10.1038/npjqi.2016.34"
+    },
+    {
+      "meta": {
+        "bytes": 670124,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\e9d1cd9788ff_ncomms6836.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms6836.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/ncomms6836.pdf"
+      },
+      "title": "Measurement and control of quasiparticle dynamics in a superconducting qubit",
+      "url": "https://www.nature.com/articles/ncomms6836.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 404702,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\73c6698c031c_ncomms6836.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/ncomms6836",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/ncomms6836"
+      },
+      "title": "Measurement and control of quasiparticle dynamics in a superconducting qubit",
+      "url": "https://doi.org/10.1038/ncomms6836"
+    },
+    {
+      "meta": {
+        "bytes": 54088,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\59411d0d0d87_jiot.2019.2958788",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/8932459/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/jiot.2019.2958788"
+      },
+      "title": "From Pre-Quantum to Post-Quantum IoT Security: A Survey on Quantum-Resistant Cryptosystems for the Internet of Things",
+      "url": "https://doi.org/10.1109/jiot.2019.2958788"
+    },
+    {
+      "meta": {
+        "bytes": 3430219,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\41596b2aad24_2402.00790",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2402.00790",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2402.00790"
+      },
+      "title": "From Pre-Quantum to Post-Quantum IoT Security: A Survey on Quantum-Resistant Cryptosystems for the Internet of Things",
+      "url": "https://arxiv.org/pdf/2402.00790"
+    },
+    {
+      "meta": {
+        "bytes": 866741,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\e8cd0463912c_PRXQuantum.2.017002",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://journals.aps.org/prxquantum/pdf/10.1103/PRXQuantum.2.017002",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/PRXQuantum.2.017002"
+      },
+      "title": "Development of Quantum Interconnects (QuICs) for Next-Generation Information Technologies",
+      "url": "http://link.aps.org/pdf/10.1103/PRXQuantum.2.017002"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\a76c17d89756_prxquantum.2.017002",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PRXQuantum.2.017002",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/prxquantum.2.017002"
+      },
+      "title": "Development of Quantum Interconnects (QuICs) for Next-Generation Information Technologies",
+      "url": "https://doi.org/10.1103/prxquantum.2.017002"
+    },
+    {
+      "meta": {
+        "bytes": 2697256,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\083284792791_107.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://ledger.pitt.edu/ojs/ledger/article/download/127/107",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://ledger.pitt.edu/ojs/ledger/article/download/127/107"
+      },
+      "title": "Quantum Attacks on Bitcoin, and How to Protect Against Them",
+      "url": "http://ledger.pitt.edu/ojs/ledger/article/download/127/107"
+    },
+    {
+      "meta": {
+        "bytes": 67416,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\12c5688326d8_ledger.2018.127",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://ledger.pitt.edu/ojs/ledger/article/view/127",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.5195/ledger.2018.127"
+      },
+      "title": "Quantum Attacks on Bitcoin, and How to Protect Against Them",
+      "url": "https://doi.org/10.5195/ledger.2018.127"
+    },
+    {
+      "meta": {
+        "bytes": 1737907,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\fb62b1afa716_PhysRevX.2.031007",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.2.031007",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/PhysRevX.2.031007"
+      },
+      "title": "Layered Architecture for Quantum Computing",
+      "url": "http://link.aps.org/pdf/10.1103/PhysRevX.2.031007"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\12a91aa6b4b5_physrevx.2.031007",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PhysRevX.2.031007",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/physrevx.2.031007"
+      },
+      "title": "Layered Architecture for Quantum Computing",
+      "url": "https://doi.org/10.1103/physrevx.2.031007"
+    },
+    {
+      "meta": {
+        "bytes": 9265419,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\038de8ea41f3_PRXQuantum.3.010329",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://journals.aps.org/prxquantum/pdf/10.1103/PRXQuantum.3.010329",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://link.aps.org/pdf/10.1103/PRXQuantum.3.010329"
+      },
+      "title": "Building a Fault-Tolerant Quantum Computer Using Concatenated Cat Codes",
+      "url": "http://link.aps.org/pdf/10.1103/PRXQuantum.3.010329"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\feb9c3d59cfb_prxquantum.3.010329",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PRXQuantum.3.010329",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/prxquantum.3.010329"
+      },
+      "title": "Building a Fault-Tolerant Quantum Computer Using Concatenated Cat Codes",
+      "url": "https://doi.org/10.1103/prxquantum.3.010329"
+    },
+    {
+      "meta": {
+        "bytes": 779559,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\73d6b04a1ab7_s41467-018-08090-0.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-018-08090-0.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41467-018-08090-0.pdf"
+      },
+      "title": "Quantum absorption refrigerator with trapped ions",
+      "url": "https://www.nature.com/articles/s41467-018-08090-0.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 423919,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\1f367fc49978_s41467-018-08090-0.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41467-018-08090-0",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41467-018-08090-0"
+      },
+      "title": "Quantum absorption refrigerator with trapped ions",
+      "url": "https://doi.org/10.1038/s41467-018-08090-0"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\8be1231a7513_pdf.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/article/S0092867420313106/pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "http://www.cell.com/article/S0092867420313106/pdf"
+      },
+      "title": "SARS-CoV-2 Disrupts Splicing, Translation, and Protein Trafficking to Suppress Host Defenses",
+      "url": "http://www.cell.com/article/S0092867420313106/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 2978,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\f72e84af6acb_j.cell.2020.10.004",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867420313106",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.cell.2020.10.004"
+      },
+      "title": "SARS-CoV-2 Disrupts Splicing, Translation, and Protein Trafficking to Suppress Host Defenses",
+      "url": "https://doi.org/10.1016/j.cell.2020.10.004"
+    },
+    {
+      "meta": {
+        "bytes": 884808,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\e24638dbf349_nist.ir.8413-upd1",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8413-upd1.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.6028/nist.ir.8413-upd1"
+      },
+      "title": "Status report on the third round of the NIST Post-Quantum Cryptography Standardization process",
+      "url": "https://doi.org/10.6028/nist.ir.8413-upd1"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\b7113b7a6023_11_875_aid-prop875_3.0.co",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/10.1002/1521-3978(200009)48:9/11%3C875::AID-PROP875%3E3.0.CO;2-V",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1002/1521-3978(200009)48:9/11<875::aid-prop875>3.0.co;2-v"
+      },
+      "title": "NMR Based Quantum Information Processing: Achievements and Prospects",
+      "url": "https://doi.org/10.1002/1521-3978(200009)48:9/11<875::aid-prop875>3.0.co;2-v"
+    },
+    {
+      "meta": {
+        "bytes": 422794,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\d234e13a52ce_0004104.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/quant-ph/0004104",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/quant-ph/0004104"
+      },
+      "title": "NMR Based Quantum Information Processing: Achievements and Prospects",
+      "url": "https://arxiv.org/pdf/quant-ph/0004104"
+    },
+    {
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\72691a9f1d5f_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.degruyterbrill.com:443/document/doi/10.1515/nanoph-2019-0209/pdf",
+        "ok": true,
+        "status_code": 202,
+        "url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0209/pdf"
+      },
+      "title": "Principles and techniques of the quantum diamond microscope",
+      "url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0209/pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\6f18cfaeab2a_nanoph-2019-0209.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/10.1515/nanoph-2019-0209",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1515/nanoph-2019-0209"
+      },
+      "title": "Principles and techniques of the quantum diamond microscope",
+      "url": "https://doi.org/10.1515/nanoph-2019-0209"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\6385624a5a4c_physreva.70.024302",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://link.aps.org/doi/10.1103/PhysRevA.70.024302",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1103/physreva.70.024302"
+      },
+      "title": "Quantum error correction for continuously detected errors with any number of error channels per qubit",
+      "url": "https://doi.org/10.1103/physreva.70.024302"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\9131771b9058_PhysRevA.70.024302",
+        "content_type": "application/json",
+        "error": "download_failed: HTTPError: 401 Client Error: Unauthorized for url: https://harvest.aps.org:443/v2/journals/articles/10.1103/PhysRevA.70.024302",
+        "ok": false,
+        "status_code": 401,
+        "url": "http://link.aps.org/article/10.1103/PhysRevA.70.024302"
+      },
+      "title": "Quantum error correction for continuously detected errors with any number of error channels per qubit",
+      "url": "http://link.aps.org/article/10.1103/PhysRevA.70.024302"
+    },
+    {
+      "meta": {
+        "bytes": 35689,
+        "cache_path": "tierb_cache_v71_all\\T43\\papers\\72bb098eb349_fulltext.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://harvest.aps.org:443/v2/journals/articles/10.1103/PhysRevA.70.024302/fulltext",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevA.70.024302/fulltext"
+      },
+      "title": "Quantum error correction for continuously detected errors with any number of error channels per qubit",
+      "url": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevA.70.024302/fulltext"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\e4b1590bac44_general-information.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/page/authors/general-information",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/page/authors/general-information"
+      },
+      "url": "https://doi.org/page/authors/general-information"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\c0c102b2f293_metadata.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/page/about/metadata",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/page/about/metadata"
+      },
+      "url": "https://doi.org/page/about/metadata"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\69b645160a62_librarian-resource-page.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/page/librarians/librarian-resource-page",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/page/librarians/librarian-resource-page"
+      },
+      "url": "https://doi.org/page/librarians/librarian-resource-page"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\7ca71d6b2e4d_biodatasci.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/content/journals/biodatasci",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/content/journals/biodatasci"
+      },
+      "url": "https://doi.org/content/journals/biodatasci"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\105186061ef8_energy.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/content/journals/energy",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/content/journals/energy"
+      },
+      "url": "https://doi.org/content/journals/energy"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\eae7e63a9e04_resource.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/content/journals/resource",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/content/journals/resource"
+      },
+      "url": "https://doi.org/content/journals/resource"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 625408,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\fb288102b7fe_annurev-conmatphys-031119-050605.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-031119-050605#dataandmedia",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605#dataandmedia"
+      },
+      "url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605#dataandmedia"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 625408,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\39cf93e6762c_annurev-conmatphys-031119-050605.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-031119-050605#supplementary_data",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605#supplementary_data"
+      },
+      "url": "https://doi.org/10.1146/annurev-conmatphys-031119-050605#supplementary_data"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\62ba9f380203_climateresources.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/page/climateresources",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/page/climateresources"
+      },
+      "url": "https://doi.org/page/climateresources"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\fff545d429f5_suppl.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/db/suppl",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/db/suppl"
+      },
+      "url": "https://doi.org/db/suppl"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\d626b197a1da_ncomms2854.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/articles/ncomms2854#MOESM54",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/articles/ncomms2854#MOESM54"
+      },
+      "url": "https://doi.org/articles/ncomms2854#MOESM54"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\14eaae69e84d_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2004PhRvL..92g6401J/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhRvL..92g6401J"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhRvL..92g6401J"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\854677d36506_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2010PNAS..107.8513W/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PNAS..107.8513W"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PNAS..107.8513W"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\d2ec59257cad_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2011Natur.479...84K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Natur.479...84K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011Natur.479...84K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\f83a3a89ca0f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2012PhRvL.108v6402S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012PhRvL.108v6402S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012PhRvL.108v6402S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\76d568b43a8f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2006Sci...312.1191B/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006Sci...312.1191B"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006Sci...312.1191B"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\177b4107352c_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/1995JAP....78.5136Z/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995JAP....78.5136Z"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1995JAP....78.5136Z"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\a49a7f34e4fa_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2001ApPhL..78..162Y/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001ApPhL..78..162Y"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001ApPhL..78..162Y"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\0d05ffbb489e_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2006PhRvL..96e5501S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvL..96e5501S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvL..96e5501S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\85ef65b796ad_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2008PSSBR.245.1298I/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PSSBR.245.1298I"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PSSBR.245.1298I"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\045a303c37ea_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2011PSSBR.248.1337G/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PSSBR.248.1337G"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PSSBR.248.1337G"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\a68338b7848b_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2006PhRvB..74w5201C/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvB..74w5201C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvB..74w5201C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\ccdb02ff9fb9_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2003PhyB..340..151C/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003PhyB..340..151C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003PhyB..340..151C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\8df806678c13_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2009PhyB..404.4739B/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PhyB..404.4739B"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009PhyB..404.4739B"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\c3d0305bbe00_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2005JETPL..82..441B/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2005JETPL..82..441B"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2005JETPL..82..441B"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\6c3ad800d48e_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2011PhRvB..83l5203B/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhRvB..83l5203B"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhRvB..83l5203B"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\89c4e5f0afb2_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2001PhRvB..64x5212L/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001PhRvB..64x5212L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001PhRvB..64x5212L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\cb7a1c1519bc_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/1999SeScT..14.1141S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999SeScT..14.1141S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999SeScT..14.1141S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\af07b86bb5c2_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/1997PhRvB..55.2863S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhRvB..55.2863S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1997PhRvB..55.2863S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\4f2e68e2304c_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/1996JAP....79.3784S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1996JAP....79.3784S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1996JAP....79.3784S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T43\\data_links\\b13c71180f3a_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/1962PhRv..125..912K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1962PhRv..125..912K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1962PhRv..125..912K"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "evidence_status_v52": "data_limited",
+  "evidence_status_v53": "data_limited",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-05-18T09:54:12Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "low_priority_demote_v30": {
+    "confirm_allowed_now": false,
+    "priority_rank": 7,
+    "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+    "status": "demoted_until_exact_primary_tables_exist",
+    "test_id": "T43"
+  },
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "parsed_tables_count": 0,
+  "positive_dashboard_fragment_v30": {
+    "confirm_allowed_now": false,
+    "test_id": "T43",
+    "v30": {
+      "low_priority_demote_v30": {
+        "confirm_allowed_now": false,
+        "priority_rank": 7,
+        "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+        "status": "demoted_until_exact_primary_tables_exist",
+        "test_id": "T43"
+      }
+    },
+    "verdict": "data_limited_exact_table_needed"
+  },
+  "positive_dashboard_fragment_v32": {
+    "confirm_allowed_now": false,
+    "test_id": "T43",
+    "v32": {
+      "primary_table_hunt_v32": {
+        "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+        "child_urls_extracted": 0,
+        "confirm_allowed_now": false,
+        "manifest_rows": 1,
+        "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+        "prior_v30_demote_overridden": true,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "Floquet time crystal arXiv source search",
+            "notes": "look for source/supplement cycle-error rows",
+            "source_kind": "manual_candidate",
+            "status": "candidate_not_auto_scored",
+            "url": "https://arxiv.org/search/?query=%22time+crystal%22+%22data%22+%22fidelity%22+%22cycle%22&searchtype=all"
+          }
+        ],
+        "status": "primary_table_hunt_active_no_qualifying_table_yet",
+        "test_id": "T43"
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v33": {
+    "confirm_allowed_now": false,
+    "test_id": "T43",
+    "v33": {
+      "auto_generated_inputs_v33": {
+        "generated_files": [],
+        "manual_or_user_csv_required": false,
+        "status": "auto_generation_attempted"
+      },
+      "auto_input_policy_v33": {
+        "all_tests_run_together": true,
+        "commit_generated_csv_required": false,
+        "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+        "manual_or_user_filled_csv_required": false,
+        "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+      },
+      "auto_primary_source_hunt_v33": {
+        "audit_csv": null,
+        "child_urls_extracted": 0,
+        "manifest": "data/primary_table_candidate_manifest_v33.csv",
+        "manifest_rows": 1,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "Floquet time crystal arXiv source search",
+            "meta": {
+              "content_type": "text/html; charset=utf-8",
+              "error": null,
+              "final_url": "https://arxiv.org/search/?query=%22time+crystal%22+%22data%22+%22fidelity%22+%22cycle%22&searchtype=all",
+              "ok": true,
+              "status_code": 200
+            },
+            "notes": "look for source/supplement cycle-error rows",
+            "source_kind": "manual_candidate",
+            "status": "downloaded_no_tabular_frames",
+            "tables": [],
+            "url": "https://arxiv.org/search/?query=%22time+crystal%22+%22data%22+%22fidelity%22+%22cycle%22&searchtype=all"
+          }
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v34": {
+      "auto_data_improvements_v34": {},
+      "confirmation_blocker_v34": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "split_branch_policy_v34": null
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v35": {
+      "auto_data_improvements_v35": {},
+      "confirmation_blocker_v35": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v35": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v36": {
+      "carried_forward_v35_improvements": true,
+      "confirmation_blocker_v36": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v36": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      },
+      "t34_real_runner_active": false
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v37": {
+      "auto_data_improvements_v37": {},
+      "confirmation_blocker_v37": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v37": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v38": {
+      "auto_data_improvements_v38": {},
+      "confirmation_blocker_v38": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v38": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v39": {
+      "auto_data_improvements_v39": {},
+      "confirmation_blocker_v39": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v39 gate not passed"
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v40": {
+      "auto_data_improvements_v40": {},
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v40 gate not passed"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v41": {
+      "auto_data_improvements_v41": {},
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v42": {
+      "auto_data_improvements_v42": {},
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v43": {
+      "auto_data_improvements_v43": {},
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v44": {
+      "auto_data_improvements_v44": {},
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v45": {
+      "auto_data_improvements_v45": {},
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v46": {
+      "auto_data_improvements_v46": {},
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v47": {
+      "auto_data_improvements_v47": {},
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v48": {
+      "auto_data_improvements_v48": {},
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v49": {
+      "auto_data_improvements_v49": {},
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v50": {
+      "auto_data_improvements_v50": {},
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v51": {
+      "auto_data_improvements_v51": {},
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T43"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "data_status_v52": "data_limited",
+      "evidence_status_v52": "data_limited",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v52": {
+      "auto_data_improvements_v52": {},
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed_data_limited",
+        "data_status_v52": "data_limited",
+        "evidence_status_v52": "data_limited",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T43"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "data_status_v53": "data_limited",
+      "evidence_status_v53": "data_limited",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v53": {
+      "auto_data_improvements_v53": {},
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed_data_limited",
+        "data_status_v53": "data_limited",
+        "evidence_status_v53": "data_limited",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "data_limited",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "high",
+      "next_data_source_v56": "not a current confirm target",
+      "rank_score_0_10_v56": 1,
+      "test_id": "T43"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v56": {
+      "auto_data_improvements_v56": {},
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "data_limited",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "high",
+      "next_data_source_v57": "not a current confirm target",
+      "rank_score_0_10_v57": 1,
+      "test_id": "T43"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v57": {
+      "auto_data_improvements_v57": {},
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T43"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v58": {
+      "auto_data_improvements_v58": {},
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T43"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T43",
+    "v59": {
+      "auto_data_improvements_v59": {},
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "prediction_ids": [
+    "QC7"
+  ],
+  "prediction_names": [
+    "discrete time-crystal qubit error per cycle falls exponentially with N"
+  ],
+  "primary_table_hunt_v32": {
+    "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+    "child_urls_extracted": 0,
+    "confirm_allowed_now": false,
+    "manifest_rows": 1,
+    "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+    "prior_v30_demote_overridden": true,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "Floquet time crystal arXiv source search",
+        "notes": "look for source/supplement cycle-error rows",
+        "source_kind": "manual_candidate",
+        "status": "candidate_not_auto_scored",
+        "url": "https://arxiv.org/search/?query=%22time+crystal%22+%22data%22+%22fidelity%22+%22cycle%22&searchtype=all"
+      }
+    ],
+    "status": "primary_table_hunt_active_no_qualifying_table_yet",
+    "test_id": "T43"
+  },
+  "programmatic_verdict": "primary_table_hunt_active",
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "+v30_demote_exact_missing+v32_primary_table_hunt_not_demoted+v33_no_manual_all_tests_auto_primary_hunt+v34_auto_confirm_loaders_blocker_dashboard+v35_near_confirm_models_endpoint_fixes+v36_t34_real_runner_and_near_confirm_hardening+v37_confirm_hardening+v38_final_confirm_gate_hardening+v39_confirm_freeze_and_next_targets+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "queries": [
+    "discrete time crystal qubit number cycles error per cycle table",
+    "time crystal experiment qubits cycles fidelity supplementary data"
+  ],
+  "readiness_status": "source_found_no_usable_table",
+  "rejected_tables_sample": [],
+  "required_column_groups": [
+    [
+      "cycle|cycles|N|qubits|system.*size"
+    ],
+    [
+      "error|fidelity|decay|lifetime"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "data_status_v52": "data_limited",
+    "evidence_status_v52": "data_limited",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "data_status_v53": "data_limited",
+    "evidence_status_v53": "data_limited",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "table_summaries": [],
+  "test_id": "T43",
+  "test_name": "DTC qubit error-per-cycle trend"
+}

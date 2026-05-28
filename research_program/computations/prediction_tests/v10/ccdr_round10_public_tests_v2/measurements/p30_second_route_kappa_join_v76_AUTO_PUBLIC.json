@@ -1,0 +1,18 @@
+{
+  "artifact_version": "v76",
+  "claim_policy_v76": "v76 searches for RA/Dec/kappa cell tables and numeric Planck map candidates. It does not promote from map filenames or density geometry alone.",
+  "euclid_delta_after_residualization": -0.18983175996764104,
+  "euclid_kappa_cell_rows": 0,
+  "euclid_random_rows": 100000,
+  "euclid_same_mask_geometry_status": "euclid_same_mask_geometry_built_v75",
+  "euclid_sample_rows": 20000,
+  "kappa_cell_audit": [],
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "planck_map_level_candidates": 15,
+  "planck_numeric_map_candidates": 1,
+  "planck_same_mask_statistic_available": false,
+  "sdss_scoped_confirm_like": true,
+  "second_independent_route_confirm_like": false,
+  "status": "p30_second_route_still_not_confirmed_v76"
+}

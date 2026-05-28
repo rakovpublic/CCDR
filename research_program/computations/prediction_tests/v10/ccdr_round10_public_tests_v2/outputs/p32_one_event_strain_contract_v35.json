@@ -1,0 +1,31 @@
+{
+  "claim_policy": "single event is suggestive only; multi-event leave-one-event-out required for confirm-like.",
+  "current_gate": {
+    "ccdr_residual_template_fit": false,
+    "detector_split": false,
+    "eligible_for_confirm_like": false,
+    "gr_ringdown_fit": false,
+    "injection_nulls": false,
+    "missing": [
+      "psd_estimated",
+      "gr_ringdown_fit",
+      "ccdr_residual_template_fit",
+      "residual_improves_gr",
+      "injection_nulls",
+      "detector_split"
+    ],
+    "psd_estimated": false,
+    "residual_improves_gr": false,
+    "strain_downloaded": true
+  },
+  "required_outputs": [
+    "strain_file",
+    "psd_method",
+    "gr_ringdown_chi2",
+    "ccdr_residual_chi2",
+    "delta_chi2_gr_minus_ccdr",
+    "injection_null_p",
+    "detector_split_pass"
+  ],
+  "v35_minimal_run": "one-event GW150914 diagnostic, then >=2-event claim run"
+}

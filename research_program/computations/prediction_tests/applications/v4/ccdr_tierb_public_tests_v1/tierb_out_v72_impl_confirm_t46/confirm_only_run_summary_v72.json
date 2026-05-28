@@ -1,0 +1,54 @@
+{
+  "last_stage_v72": "dashboard_written",
+  "last_utc_v72": "2026-05-18T21:04:00Z",
+  "schema": "ccdr-v72-confirm-only-checkpoint",
+  "stages_v72": [
+    {
+      "cache": "tierb_cache_v72_all",
+      "harvest_public_sources_v67": false,
+      "outdir_v72": "tierb_out_v72_impl_confirm_t46",
+      "stage_v72": "start",
+      "tests_requested_v72": [
+        "T46",
+        "T48"
+      ],
+      "utc_v72": "2026-05-18T21:03:18Z"
+    },
+    {
+      "quarantine_reports_v72": [
+        {
+          "pack": "ldpc_external_benchmark",
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\AUTO_PUBLIC_ROWS_V67.csv",
+          "quarantined_v72": false,
+          "sample_rows_checked_v72": 250,
+          "sample_rows_valid_v72": 250,
+          "top_missing_required_v72": {},
+          "top_row_problems_v72": {}
+        }
+      ],
+      "stage_v72": "after_stale_auto_row_quarantine",
+      "utc_v72": "2026-05-18T21:03:18Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T46",
+      "utc_v72": "2026-05-18T21:03:18Z"
+    },
+    {
+      "confirm_allowed_now_v64": null,
+      "confirmation_status_v64": null,
+      "stage_v72": "test_overlay_written",
+      "test_id": "T48",
+      "utc_v72": "2026-05-18T21:03:39Z"
+    },
+    {
+      "confirmed_public_now": [
+        "T48"
+      ],
+      "stage_v72": "dashboard_written",
+      "utc_v72": "2026-05-18T21:04:00Z"
+    }
+  ]
+}

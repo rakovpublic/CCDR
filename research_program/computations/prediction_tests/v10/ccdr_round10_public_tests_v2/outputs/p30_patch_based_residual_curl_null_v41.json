@@ -1,0 +1,13 @@
+{
+  "available": true,
+  "leave_one_patch_out": [],
+  "leave_one_patch_out_reason": "not enough patch rows in v40 report; rerun P30 --allow-large with v41 for full leave-one-patch-out diagnostics",
+  "leave_one_patch_out_stable": false,
+  "n_patch_rows": 0,
+  "object_level_overcounting_guard": true,
+  "patch_level_bootstrap_pass": true,
+  "policy": "curl null must be evaluated at sky-patch level, not object level, to avoid correlated-pixel overcounting",
+  "residual_curl_null_pass": false,
+  "source": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_patch_level_curl_residual_separation_v40.json",
+  "version": "v41"
+}

@@ -1,0 +1,31 @@
+{
+  "gate": {
+    "eligible_for_confirm_like": false,
+    "gate_version": "v51",
+    "large_radius_each_source_ge_20": false,
+    "large_radius_median_above_local": false,
+    "large_radius_rows_ge_30": false,
+    "large_radius_two_source_groups": false,
+    "missing": [
+      "raw_input_rows_present",
+      "non_output_raw_sources",
+      "large_radius_rows_ge_30",
+      "large_radius_median_above_local",
+      "large_radius_two_source_groups",
+      "large_radius_each_source_ge_20",
+      "tiny_radius_fraction_le_20pct"
+    ],
+    "non_output_raw_sources": false,
+    "raw_input_rows_present": false,
+    "tiny_radius_fraction_le_20pct": false
+  },
+  "large_radius_median_a_m_s2": null,
+  "large_radius_per_source": {},
+  "large_radius_source_groups": [],
+  "n_large_radius": 0,
+  "n_rows": 0,
+  "raw_paths": [],
+  "rows_preview": [],
+  "template_path": "/mnt/data/v61work/ccdr_round10_public_tests_v2/inputs/p36_highz_object_rows_raw_template_v51.csv",
+  "version": "v51"
+}

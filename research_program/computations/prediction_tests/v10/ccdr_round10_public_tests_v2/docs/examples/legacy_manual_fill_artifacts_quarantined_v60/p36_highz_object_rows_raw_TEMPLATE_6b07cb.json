@@ -1,0 +1,29 @@
+{
+  "example_row": {
+    "object_id": "KGES-0001",
+    "r_kpc": 2.2,
+    "source_file_sha256": "...",
+    "source_group": "KGES",
+    "vrot_km_s": 180.0,
+    "z": 1.35
+  },
+  "promotion_gate": "radius_kpc>=0.5, >=30 rows, >=2 sources, >=20 rows/source, tiny-radius fraction<=20%, all rows from non-output raw/source files",
+  "recommended_columns": [
+    "vrot_err_km_s",
+    "r_err_kpc",
+    "quality_flag",
+    "field",
+    "catalogue",
+    "source_url",
+    "source_file_sha256",
+    "unit_provenance"
+  ],
+  "required_columns": [
+    "object_id",
+    "source_group",
+    "z",
+    "vrot_km_s",
+    "r_kpc"
+  ],
+  "schema": "array of object rows or CSV with equivalent columns"
+}

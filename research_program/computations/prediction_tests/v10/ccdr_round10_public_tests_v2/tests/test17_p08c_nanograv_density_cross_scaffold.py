@@ -15,9 +15,9 @@ META = {
   "implementation_notes": [
     "Requires NANOGrav pulsar positions plus ACT/Planck map sampling; map products are gated by --allow-large."
   ],
-  "kind": "cl2_fullcoords_fixed_v14",
+  "kind": "cl2_weighted_parse_v21",
   "prediction_id": "P8c/CL2",
-  "prediction_name": "CL2 fixed full NANOGrav kappa confirmation squeeze",
+  "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
   "sources": [],
   "test_id": "R10-T17",
   "tier": "public-current"

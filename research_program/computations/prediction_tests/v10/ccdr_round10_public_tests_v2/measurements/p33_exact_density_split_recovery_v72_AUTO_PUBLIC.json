@@ -1,0 +1,16 @@
+{
+  "artifact_version": "v72",
+  "claim_policy_v72": "v72 keeps compressed BAO separate from exact density-split confirmation. Confirm-like requires exact LSS rows, exact random rows, random-normalized density split, alpha high/low fit, sky/label nulls, and redshift jackknife.",
+  "exact_density_split_alpha": null,
+  "manual_fill_required": false,
+  "n_compressed_bao_products": 40,
+  "n_exact_catalog_rows": 0,
+  "n_exact_random_rows": 0,
+  "source_manifest": [
+    "DESI DR2 LSScats clustering catalogues: LRG, ELG_LOPnotqso, QSO",
+    "DESI DR2 LSScats random catalogues: matching *_0_full.ran.fits products",
+    "SDSS/eBOSS public clustering/random catalogues if DESI exact rows remain unavailable"
+  ],
+  "status": "p33_exact_lss_random_inputs_still_absent",
+  "v71_status": "exact_density_split_inputs_absent_or_insufficient"
+}

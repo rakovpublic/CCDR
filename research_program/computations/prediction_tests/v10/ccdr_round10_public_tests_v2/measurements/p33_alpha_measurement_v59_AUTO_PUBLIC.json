@@ -1,0 +1,10 @@
+{
+  "artifact_policy_v59": "auto_public_or_cache_only_no_manual_fill",
+  "current_run_id_v59": "20260519T062955Z_8f8cb618",
+  "diagnostic_class": "no_public_density_split_bao_alpha_fit_found",
+  "generated_utc": "2026-05-19T06:31:24Z",
+  "manual_fill_required": false,
+  "next_code_path": "implement automated DESI randoms + density split + BAO alpha fitter",
+  "reason": "No public/cache density-split BAO alpha fit artifact found. v59 refuses hand-filled alpha fields and does not derive density-split alpha from non-density compressed BAO alone.",
+  "status": "alpha_measurement_not_autobuilt"
+}

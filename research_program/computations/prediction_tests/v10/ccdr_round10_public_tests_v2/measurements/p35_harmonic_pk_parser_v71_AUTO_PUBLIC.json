@@ -1,0 +1,18 @@
+{
+  "artifact_version": "v71",
+  "bao_redshift_bins": [
+    0.295,
+    0.51,
+    0.706,
+    0.934,
+    1.321,
+    1.484,
+    2.33
+  ],
+  "best_power_spectrum_candidate": null,
+  "claim_policy_v71": "Confirm-like requires a real public P(k) or harmonic power-spectrum table, a stable comb statistic, and a phase-randomized null p<=0.05. BAO coverage alone remains positive-ready.",
+  "manual_fill_required": false,
+  "n_compressed_bao_products": 40,
+  "power_spectrum_audit": [],
+  "status": "harmonic_pk_exact_spectrum_absent"
+}

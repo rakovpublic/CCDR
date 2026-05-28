@@ -11,7 +11,7 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "collider",
-  "kind": "hepdata_units_columns_v10",
+  "kind": "hepdata_schema_hardened_v22",
   "prediction_id": "P5",
   "prediction_name": "P5 QGP/KSS units-column bound-positive",
   "sources": [

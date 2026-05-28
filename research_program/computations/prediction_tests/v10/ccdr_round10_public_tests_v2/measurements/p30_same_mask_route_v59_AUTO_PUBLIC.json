@@ -1,0 +1,22 @@
+{
+  "artifact_policy_v59": "auto_public_or_cache_only_no_manual_fill",
+  "artifact_version": "v59",
+  "claim_policy": "No manual protocol file accepted; route is judged from same-run ACT/SDSS/curl/variant statistics.",
+  "curl_abs_over_science_abs": 0.9632026858888424,
+  "curl_delta": -0.07596368893635795,
+  "current_run_id_v59": "20260518T012156Z_25bb1c0d",
+  "eligible_for_route_confirm_like": false,
+  "failfast_reasons": [
+    "curl_dominates_or_too_large"
+  ],
+  "generated_utc": "2026-05-18T02:39:18Z",
+  "manual_protocol_required": false,
+  "n_opposite_sign_variants": 0,
+  "n_positive_same_sign_variants": 3,
+  "route": "sdss_act_dr6_same_mask_autorecompute_diagnostic",
+  "same_mask_recompute_engine": true,
+  "sdss_delta": 0.07886573620406669,
+  "sdss_density_shuffle_p": 0.015625,
+  "sdss_jackknife_same_sign": true,
+  "sdss_sky_shuffle_p": 0.0078125
+}

@@ -1,0 +1,1219 @@
+{
+  "artifact_version": "v75",
+  "claim_policy_v75": "v75 builds actual Euclid sample-vs-random same-mask geometry and Planck product classification. It promotes global P30 only with a second route containing public kappa/map values and same-mask null statistics.",
+  "euclid_delta_after_residualization": -0.18983175996764104,
+  "global_blockers_from_v70": {
+    "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+    "n_unrejected_control_subtracted_patches": 0,
+    "redshift_density_residualization": {
+      "available": true,
+      "euclid_delta": -0.18983175996764104,
+      "residualization_required": true,
+      "route_sign_disagreement": true,
+      "sdss_delta": 0.07886573620406669,
+      "sdss_jackknife_std": 0.02916987451348493
+    }
+  },
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "route_matrix": {
+    "euclid": {
+      "confirm_like": false,
+      "status": null,
+      "v74_route": {
+        "delta_after_redshift_density_residualization": -0.18983175996764104,
+        "delta_positive": false,
+        "density_shuffle_p": null,
+        "n_random_rows": 100000,
+        "n_sample_rows": 27001,
+        "random_paths": [
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_euclid_random_catalogue_v27.csv",
+            "sha256": "db86aadb5faa702c3652b25ac0f265a954c34ead0af4b1a6edc3e77c37f9f53e",
+            "size_bytes": 8203259
+          }
+        ],
+        "same_mask_candidate": true,
+        "sample_paths": [
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T06_v13_mer_sample__sync_529d278caa",
+            "sha256": "14454efd1ab25f913d23bcaadbab7c9bf18822d5cc50706c0b3edba46a639272",
+            "size_bytes": 73993
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v13_mer_sample__sync_529d278caa",
+            "sha256": "bbaa4c260942114603ab4455efdc38d8027651a134ae78fa251697ddd3c46c5b",
+            "size_bytes": 74361
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_v17_mer_sample__sync_de2c6a82bc",
+            "sha256": "386e7d4f61832ca989d594edcb3d89c30245a91d8c1848b9edab756fec554cca",
+            "size_bytes": 765535
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_0__sync_80b61015b8",
+            "sha256": "9c244f5b6baf8251792d8697bce85b10215983044e5305c305e2628a996f8c04",
+            "size_bytes": 37821
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_0__sync_ec228c6114",
+            "sha256": "78ab0e10b460aa71dc73eaaa9019e85569efa08ada8730fc650f1ed44e2be3bc",
+            "size_bytes": 4015
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_1__sync_1ecab28554",
+            "sha256": "46c07d98d4205baf7e785bd291622acc21842306b292e4c65dfa88caa8ea5b9f",
+            "size_bytes": 2761
+          }
+        ],
+        "sky_shuffle_p": null
+      },
+      "v75_same_mask_geometry": {
+        "cell_preview": [
+          {
+            "dec_bin": 2,
+            "expected_sample_n": 58.199999999999996,
+            "ra_bin": 4,
+            "random_n": 291,
+            "sample_n": 6897,
+            "z": 896.4341869576326
+          },
+          {
+            "dec_bin": 10,
+            "expected_sample_n": 20.799999999999997,
+            "ra_bin": 18,
+            "random_n": 104,
+            "sample_n": 3790,
+            "z": 826.4517715930137
+          },
+          {
+            "dec_bin": 2,
+            "expected_sample_n": 31.0,
+            "ra_bin": 3,
+            "random_n": 155,
+            "sample_n": 3892,
+            "z": 693.4560711253779
+          },
+          {
+            "dec_bin": 10,
+            "expected_sample_n": 47.2,
+            "ra_bin": 17,
+            "random_n": 236,
+            "sample_n": 3129,
+            "z": 448.57333262886095
+          },
+          {
+            "dec_bin": 4,
+            "expected_sample_n": 121.8,
+            "ra_bin": 3,
+            "random_n": 609,
+            "sample_n": 2282,
+            "z": 195.73582360844975
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 214.79999999999998,
+            "ra_bin": 6,
+            "random_n": 1074,
+            "sample_n": 0,
+            "z": -14.656056768449007
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 214.6,
+            "ra_bin": 8,
+            "random_n": 1073,
+            "sample_n": 0,
+            "z": -14.649232061783989
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 211.8,
+            "ra_bin": 6,
+            "random_n": 1059,
+            "sample_n": 0,
+            "z": -14.553350129781116
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 211.2,
+            "ra_bin": 4,
+            "random_n": 1056,
+            "sample_n": 0,
+            "z": -14.53272169966796
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 208.0,
+            "ra_bin": 15,
+            "random_n": 1040,
+            "sample_n": 0,
+            "z": -14.422205101855958
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 207.4,
+            "ra_bin": 7,
+            "random_n": 1037,
+            "sample_n": 0,
+            "z": -14.401388821915752
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 207.0,
+            "ra_bin": 16,
+            "random_n": 1035,
+            "sample_n": 0,
+            "z": -14.387494569938157
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 206.8,
+            "ra_bin": 14,
+            "random_n": 1034,
+            "sample_n": 0,
+            "z": -14.380542409798041
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 206.60000000000002,
+            "ra_bin": 15,
+            "random_n": 1033,
+            "sample_n": 0,
+            "z": -14.373586887064759
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 206.0,
+            "ra_bin": 13,
+            "random_n": 1030,
+            "sample_n": 0,
+            "z": -14.352700094407323
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 205.6,
+            "ra_bin": 16,
+            "random_n": 1028,
+            "sample_n": 0,
+            "z": -14.338758663147935
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 204.20000000000002,
+            "ra_bin": 17,
+            "random_n": 1021,
+            "sample_n": 0,
+            "z": -14.289856542317
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 204.00000000000003,
+            "ra_bin": 11,
+            "random_n": 1020,
+            "sample_n": 0,
+            "z": -14.2828568570857
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 203.20000000000002,
+            "ra_bin": 14,
+            "random_n": 1016,
+            "sample_n": 0,
+            "z": -14.25482374496437
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 202.6,
+            "ra_bin": 7,
+            "random_n": 1013,
+            "sample_n": 0,
+            "z": -14.23376267892647
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 201.8,
+            "ra_bin": 12,
+            "random_n": 1009,
+            "sample_n": 0,
+            "z": -14.20563268566381
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 201.0,
+            "ra_bin": 5,
+            "random_n": 1005,
+            "sample_n": 0,
+            "z": -14.177446878757825
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 201.0,
+            "ra_bin": 12,
+            "random_n": 1005,
+            "sample_n": 0,
+            "z": -14.177446878757825
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 200.2,
+            "ra_bin": 9,
+            "random_n": 1001,
+            "sample_n": 0,
+            "z": -14.149204924659193
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 200.0,
+            "ra_bin": 8,
+            "random_n": 1000,
+            "sample_n": 0,
+            "z": -14.14213562373095
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 199.6,
+            "ra_bin": 10,
+            "random_n": 998,
+            "sample_n": 0,
+            "z": -14.127986409959489
+          },
+          {
+            "dec_bin": 6,
+            "expected_sample_n": 198.4,
+            "ra_bin": 10,
+            "random_n": 992,
+            "sample_n": 0,
+            "z": -14.085453489327207
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 198.20000000000002,
+            "ra_bin": 11,
+            "random_n": 991,
+            "sample_n": 0,
+            "z": -14.078352176302454
+          },
+          {
+            "dec_bin": 5,
+            "expected_sample_n": 198.00000000000003,
+            "ra_bin": 13,
+            "random_n": 990,
+            "sample_n": 0,
+            "z": -14.07124727947029
+          },
+          {
+            "dec_bin": 7,
+            "expected_sample_n": 197.79999999999998,
+            "ra_bin": 10,
+            "random_n": 989,
+            "sample_n": 0,
+            "z": -14.064138793399332
+          }
+        ],
+        "chi2_random_normalized_density_geometry": 2226730.729871916,
+        "max_abs_cell_z": 896.4341869576326,
+        "n_grid_cells_with_random_support": 144,
+        "n_random_rows": 100000,
+        "n_sample_rows": 20000,
+        "public_kappa_values_available_for_cells": false,
+        "random_has_redshift_or_photoz": true,
+        "random_source": {
+          "dict_reader_error": "NameError(\"name '_v65_norm' is not defined\")",
+          "has_z": true,
+          "n_rows": 100000,
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_euclid_random_catalogue_v27.csv",
+          "sha256": "db86aadb5faa702c3652b25ac0f265a954c34ead0af4b1a6edc3e77c37f9f53e",
+          "size_bytes": 8203259
+        },
+        "rms_cell_z": 124.35195151799086,
+        "same_mask_geometry_available": true,
+        "sample_has_redshift_or_photoz": false,
+        "sample_source": {
+          "dict_reader_error": "NameError(\"name '_v65_norm' is not defined\")",
+          "has_z": false,
+          "n_rows": 20000,
+          "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_v17_mer_sample__sync_de2c6a82bc",
+          "sha256": "386e7d4f61832ca989d594edcb3d89c30245a91d8c1848b9edab756fec554cca",
+          "size_bytes": 765535
+        },
+        "status": "euclid_same_mask_geometry_built_v75"
+      }
+    },
+    "planck": {
+      "confirm_like": false,
+      "status": null,
+      "v74_route": {
+        "density_shuffle_p": null,
+        "n_planck_products": 16,
+        "product_paths": [
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+            "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+            "size_bytes": 205647
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+            "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+            "size_bytes": 8842
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+            "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+            "size_bytes": 205647
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+            "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+            "size_bytes": 8842
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-binned_R3.02.txt",
+            "sha256": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2",
+            "size_bytes": 5698
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-full_R3.01.txt",
+            "sha256": "c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f",
+            "size_bytes": 135731
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-low-ell-BB-full_R3.01.txt",
+            "sha256": "0778f7ee5f8bad7702dad5b0abe1f365ea7d8f53ea720d421e0e94072daddb1e",
+            "size_bytes": 2167
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-binned_R3.02.txt",
+            "sha256": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137",
+            "size_bytes": 5698
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-full_R3.01.txt",
+            "sha256": "8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425",
+            "size_bytes": 135731
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-binned_R3.01.txt",
+            "sha256": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd",
+            "size_bytes": 7143
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-full_R3.01.txt",
+            "sha256": "ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522",
+            "size_bytes": 170547
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__result_table_2018_68pcp120.pdf",
+            "sha256": "b6b4f55a1f6de7021981b3c5ade3008de1efe2c5ec534be0af4850c9c2e9170c",
+            "size_bytes": 294468
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__style_maps.css",
+            "sha256": "faa61a97c61133b3f061309f63faad7f0bd6b8dd3023cb69282420825ce5fd46",
+            "size_bytes": 2220
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__all-sky-maps",
+            "sha256": "ed38620e4efcda81f404b884e7042043343d4333b5e3544fe6b8e03928cc1b00",
+            "size_bytes": 35917
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__ancillary-data",
+            "sha256": "6e31676eb6c93cb4540ecae7d34eaf20d8a4329adf311bc5d69269d3b8bf2586",
+            "size_bytes": 77059
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__release_3",
+            "sha256": "c2b315f442e20c7ed8340b7c6dfa59747233ee971b305c2b8f444441ec2b2b96",
+            "size_bytes": 1099
+          }
+        ],
+        "same_mask_statistic_available": false,
+        "sky_shuffle_p": null
+      },
+      "v75_map_product_audit": {
+        "map_level_candidates": [
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": {
+              "max_numeric_cols": 10,
+              "n_numeric_rows": 367,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__all-sky-maps",
+              "sha256": "ed38620e4efcda81f404b884e7042043343d4333b5e3544fe6b8e03928cc1b00"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__all-sky-maps",
+            "sha256": "ed38620e4efcda81f404b884e7042043343d4333b5e3544fe6b8e03928cc1b00",
+            "size_bytes": 35917,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+            "sha256": "caf923c0c4ef74f8e498309a948f7291ed62c5e4071756d98caaf82c58498797",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_cibdeproj_kappa_alm.fits",
+            "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_curl_control_kappa_alm.fits",
+            "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f090_kappa_alm.fits",
+            "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f150_kappa_alm.fits",
+            "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_tonly_kappa_alm.fits",
+            "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits",
+            "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits",
+            "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits",
+            "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits",
+            "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits",
+            "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v15__dr6_lensing_release.tar.gz",
+            "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+            "size_bytes": 1371472486,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v16__dr6_lensing_release.tar.gz",
+            "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+            "size_bytes": 1371472486,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_act_release_v16__dr6_lensing_release.tar.gz",
+            "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+            "size_bytes": 1371472486,
+            "spectrum_only_product": false
+          }
+        ],
+        "n_map_level_candidates": 15,
+        "n_planck_products_scanned": 47,
+        "n_power_spectrum_products": 11,
+        "product_audit": [
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 6,
+              "n_numeric_rows": 2000,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+              "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+            "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+            "size_bytes": 205647,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 6,
+              "n_numeric_rows": 144,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+              "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+            "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+            "size_bytes": 8842,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 6,
+              "n_numeric_rows": 2000,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+              "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+            "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+            "size_bytes": 205647,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 6,
+              "n_numeric_rows": 144,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+              "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+            "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+            "size_bytes": 8842,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 66,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-binned_R3.02.txt",
+              "sha256": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-binned_R3.02.txt",
+            "sha256": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2",
+            "size_bytes": 5698,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 4,
+              "n_numeric_rows": 1995,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-full_R3.01.txt",
+              "sha256": "c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-full_R3.01.txt",
+            "sha256": "c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f",
+            "size_bytes": 135731,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 3,
+              "n_numeric_rows": 28,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-low-ell-BB-full_R3.01.txt",
+              "sha256": "0778f7ee5f8bad7702dad5b0abe1f365ea7d8f53ea720d421e0e94072daddb1e"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-low-ell-BB-full_R3.01.txt",
+            "sha256": "0778f7ee5f8bad7702dad5b0abe1f365ea7d8f53ea720d421e0e94072daddb1e",
+            "size_bytes": 2167,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 66,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-binned_R3.02.txt",
+              "sha256": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-binned_R3.02.txt",
+            "sha256": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137",
+            "size_bytes": 5698,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 4,
+              "n_numeric_rows": 1995,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-full_R3.01.txt",
+              "sha256": "8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-full_R3.01.txt",
+            "sha256": "8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425",
+            "size_bytes": 135731,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 83,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-binned_R3.01.txt",
+              "sha256": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-binned_R3.01.txt",
+            "sha256": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd",
+            "size_bytes": 7143,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 4,
+              "n_numeric_rows": 2000,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-full_R3.01.txt",
+              "sha256": "ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-full_R3.01.txt",
+            "sha256": "ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522",
+            "size_bytes": 170547,
+            "spectrum_only_product": true
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 36,
+              "n_numeric_rows": 2000,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__result_table_2018_68pcp120.pdf",
+              "sha256": "b6b4f55a1f6de7021981b3c5ade3008de1efe2c5ec534be0af4850c9c2e9170c"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__result_table_2018_68pcp120.pdf",
+            "sha256": "b6b4f55a1f6de7021981b3c5ade3008de1efe2c5ec534be0af4850c9c2e9170c",
+            "size_bytes": 294468,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 4,
+              "n_numeric_rows": 24,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__style_maps.css",
+              "sha256": "faa61a97c61133b3f061309f63faad7f0bd6b8dd3023cb69282420825ce5fd46"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__style_maps.css",
+            "sha256": "faa61a97c61133b3f061309f63faad7f0bd6b8dd3023cb69282420825ce5fd46",
+            "size_bytes": 2220,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": {
+              "max_numeric_cols": 10,
+              "n_numeric_rows": 367,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__all-sky-maps",
+              "sha256": "ed38620e4efcda81f404b884e7042043343d4333b5e3544fe6b8e03928cc1b00"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__all-sky-maps",
+            "sha256": "ed38620e4efcda81f404b884e7042043343d4333b5e3544fe6b8e03928cc1b00",
+            "size_bytes": 35917,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 12,
+              "n_numeric_rows": 674,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__ancillary-data",
+              "sha256": "6e31676eb6c93cb4540ecae7d34eaf20d8a4329adf311bc5d69269d3b8bf2586"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__ancillary-data",
+            "sha256": "6e31676eb6c93cb4540ecae7d34eaf20d8a4329adf311bc5d69269d3b8bf2586",
+            "size_bytes": 77059,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 9,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__release_3",
+              "sha256": "c2b315f442e20c7ed8340b7c6dfa59747233ee971b305c2b8f444441ec2b2b96"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__release_3",
+            "sha256": "c2b315f442e20c7ed8340b7c6dfa59747233ee971b305c2b8f444441ec2b2b96",
+            "size_bytes": 1099,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 12,
+              "n_numeric_rows": 674,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05__ancillary-data",
+              "sha256": "6e31676eb6c93cb4540ecae7d34eaf20d8a4329adf311bc5d69269d3b8bf2586"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05__ancillary-data",
+            "sha256": "6e31676eb6c93cb4540ecae7d34eaf20d8a4329adf311bc5d69269d3b8bf2586",
+            "size_bytes": 77059,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 18,
+              "n_numeric_rows": 518,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_v23_voidnull_V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+              "sha256": "c5d4637892ad568dc6ecec24c6c329b21025f9eef81301390c521b5f65e42faf"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_v23_voidnull_V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+            "sha256": "c5d4637892ad568dc6ecec24c6c329b21025f9eef81301390c521b5f65e42faf",
+            "size_bytes": 173069,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 18,
+              "n_numeric_rows": 531,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_v23_voidnull_V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+              "sha256": "486a3cc057db2c6229dbc26a080e84f8bba8810ab3ab2eceaeb1b4e73a02f3e0"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_v23_voidnull_V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+            "sha256": "486a3cc057db2c6229dbc26a080e84f8bba8810ab3ab2eceaeb1b4e73a02f3e0",
+            "size_bytes": 177270,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 2000,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_v23_voidnull_VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt__content",
+              "sha256": "9465f913d9efd0c7df88ad0ec039339e021b1ce2f3ca9aad3702dfbeefa98e21"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_v23_voidnull_VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt__content",
+            "sha256": "9465f913d9efd0c7df88ad0ec039339e021b1ce2f3ca9aad3702dfbeefa98e21",
+            "size_bytes": 3150288,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 18,
+              "n_numeric_rows": 518,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+              "sha256": "c5d4637892ad568dc6ecec24c6c329b21025f9eef81301390c521b5f65e42faf"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_V2_REVOLVER-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+            "sha256": "c5d4637892ad568dc6ecec24c6c329b21025f9eef81301390c521b5f65e42faf",
+            "size_bytes": 173069,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 18,
+              "n_numeric_rows": 531,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+              "sha256": "486a3cc057db2c6229dbc26a080e84f8bba8810ab3ab2eceaeb1b4e73a02f3e0"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_V2_VIDE-nsa_v1_0_1_Planck2018_zobovoids.dat__content",
+            "sha256": "486a3cc057db2c6229dbc26a080e84f8bba8810ab3ab2eceaeb1b4e73a02f3e0",
+            "size_bytes": 177270,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 2000,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt__content",
+              "sha256": "9465f913d9efd0c7df88ad0ec039339e021b1ce2f3ca9aad3702dfbeefa98e21"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T10_VoidFinder-nsa_v1_0_1_Planck2018_comoving_holes.txt__content",
+            "sha256": "9465f913d9efd0c7df88ad0ec039339e021b1ce2f3ca9aad3702dfbeefa98e21",
+            "size_bytes": 3150288,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+            "sha256": "caf923c0c4ef74f8e498309a948f7291ed62c5e4071756d98caaf82c58498797",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_cibdeproj_kappa_alm.fits",
+            "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_curl_control_kappa_alm.fits",
+            "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f090_kappa_alm.fits",
+            "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f150_kappa_alm.fits",
+            "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_tonly_kappa_alm.fits",
+            "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits",
+            "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits",
+            "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits",
+            "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits",
+            "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits",
+            "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+            "size_bytes": 96079680,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v15__dr6_lensing_release.tar.gz",
+            "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+            "size_bytes": 1371472486,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v16__dr6_lensing_release.tar.gz",
+            "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+            "size_bytes": 1371472486,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 5,
+              "n_numeric_rows": 59,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16__actadv_dr6_lensing_maps_info.html",
+              "sha256": "a55988f75d09a446303677330cfe9c66b4e071c83ace306d16af3bef80881a55"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16__actadv_dr6_lensing_maps_info.html",
+            "sha256": "a55988f75d09a446303677330cfe9c66b4e071c83ace306d16af3bef80881a55",
+            "size_bytes": 19600,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": true,
+            "numeric_shape": null,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_act_release_v16__dr6_lensing_release.tar.gz",
+            "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+            "size_bytes": 1371472486,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 80,
+              "n_numeric_rows": 1550,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2Fkross_release_v2.fits.fits",
+              "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2Fkross_release_v2.fits.fits",
+            "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8",
+            "size_bytes": 184320,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 64,
+              "n_numeric_rows": 488,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2FTILEY_18_SAMIKROSS_TFR_V1.fits.fits",
+              "sha256": "49627e4e36dda34c1390e5a6693e130cb5c5ce0ff422ec2c55a33cfb6ead7302"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\KROSS__https_3A_2F_2Fastro.dur.ac.uk_2FKROSS_2Fdata_2FTILEY_18_SAMIKROSS_TFR_V1.fits.fits",
+            "sha256": "49627e4e36dda34c1390e5a6693e130cb5c5ce0ff422ec2c55a33cfb6ead7302",
+            "size_bytes": 63360,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 12,
+              "n_numeric_rows": 466,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_hafits_v3.fits.t__k3d_fnlsp_table_hafits_v3.fits.tgz",
+              "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_hafits_v3.fits.t__k3d_fnlsp_table_hafits_v3.fits.tgz",
+            "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe",
+            "size_bytes": 26378,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 18,
+              "n_numeric_rows": 955,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+              "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_k3d_fnlsp_table_v3.fits.tgz__k3d_fnlsp_table_v3.fits.tgz",
+            "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d",
+            "size_bytes": 57365,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 80,
+              "n_numeric_rows": 1550,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_kross_release_v2.fits__kross_release_v2.fits",
+              "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_kross_release_v2.fits__kross_release_v2.fits",
+            "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8",
+            "size_bytes": 184320,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 64,
+              "n_numeric_rows": 488,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_TILEY_18_SAMIKROSS_TFR_V1.fits__TILEY_18_SAMIKROSS_TFR_V1.fits",
+              "sha256": "49627e4e36dda34c1390e5a6693e130cb5c5ce0ff422ec2c55a33cfb6ead7302"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data_TILEY_18_SAMIKROSS_TFR_V1.fits__TILEY_18_SAMIKROSS_TFR_V1.fits",
+            "sha256": "49627e4e36dda34c1390e5a6693e130cb5c5ce0ff422ec2c55a33cfb6ead7302",
+            "size_bytes": 63360,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 12,
+              "n_numeric_rows": 466,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__57a66b5b9730e9__k3d_fnlsp_table_hafits_v3.fits.tgz",
+              "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__57a66b5b9730e9__k3d_fnlsp_table_hafits_v3.fits.tgz",
+            "sha256": "1ad6dac05138c013b9ef89d1ee014b9bb6f21e59de107e350cbf922799b707fe",
+            "size_bytes": 26378,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 80,
+              "n_numeric_rows": 1550,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__830daf22cb0292__kross_release_v2.fits",
+              "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__830daf22cb0292__kross_release_v2.fits",
+            "sha256": "18c1f558a4056070e222b85c53642f3033069705aac61a05a2947a91114653d8",
+            "size_bytes": 184320,
+            "spectrum_only_product": false
+          },
+          {
+            "exists": true,
+            "map_level_candidate": false,
+            "numeric_shape": {
+              "max_numeric_cols": 18,
+              "n_numeric_rows": 955,
+              "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__f8be59e969efd5__k3d_fnlsp_table_v3.fits.tgz",
+              "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d"
+            },
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v65__f8be59e969efd5__k3d_fnlsp_table_v3.fits.tgz",
+            "sha256": "5cd593ac8d3b709a61ad00403de24d18c389175862a5e6a432659e0bc81c897d",
+            "size_bytes": 57365,
+            "spectrum_only_product": false
+          }
+        ],
+        "same_mask_statistic_available": false,
+        "status": "planck_map_level_candidates_ready_v75"
+      }
+    },
+    "sdss": {
+      "confirm_like": true,
+      "evidence": {
+        "base_sdss_gates": [
+          {
+            "diagnostic_class": "p30_sdss_route_repaired_confirm_like_v73",
+            "eligible_for_confirm_like": true,
+            "key": "p30_sdss_route_repair_gate_v73",
+            "missing": []
+          }
+        ],
+        "route_gate_v54_eligible": true,
+        "same_split_science_variants_pass": true,
+        "v70_gate_eligible": false,
+        "v70_status": "sdss_route_confirm_gate_passed"
+      },
+      "status": "sdss_route_confirm_gate_passed_v73_repaired"
+    }
+  },
+  "sdss_scoped_confirm_like": true,
+  "second_independent_route_confirm_like": false,
+  "status": "p30_second_route_still_not_confirmed_v75"
+}

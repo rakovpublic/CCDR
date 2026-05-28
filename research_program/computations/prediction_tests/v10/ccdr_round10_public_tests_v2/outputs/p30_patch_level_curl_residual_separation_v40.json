@@ -1,0 +1,488 @@
+{
+  "available": true,
+  "cache_policy": "Cache sampled ACT values in .ccdr_round10_cache/p30_v40_sampled_*; do not cache huge maps in the bundle.",
+  "claim_policy": "Only P30-SDSS-core may promote; global P30 still needs an independent route. If v40 fails, preserve positive route as candidate only.",
+  "claim_scope": "P30-SDSS-core route only; global P30 remains blocked until a second independent route passes.",
+  "curl_delta": 0.06939961791354053,
+  "curl_family_specificity": {
+    "n_family_pass": 2,
+    "n_family_quarantine_suggested": 0,
+    "quarantine_policy": "If one variant drives curl coupling, quarantine it; need >=2 core variants with residual significant positive for route promotion.",
+    "rows": [
+      {
+        "beta_vs_curl": -0.05044056342453478,
+        "quarantine_suggested": false,
+        "residual_delta_after_curl_regression": 0.09176270471828488,
+        "residual_p_high": 0.0,
+        "residual_positive": true,
+        "residual_significant_positive": true,
+        "variant": "baseline"
+      },
+      {
+        "beta_vs_curl": -0.18492592685428727,
+        "quarantine_suggested": false,
+        "residual_delta_after_curl_regression": 0.17492575809034377,
+        "residual_p_high": 0.0,
+        "residual_positive": true,
+        "residual_significant_positive": true,
+        "variant": "f150"
+      },
+      {
+        "beta_vs_curl": 0.03749933273447262,
+        "quarantine_suggested": false,
+        "residual_delta_after_curl_regression": 0.048391845579956655,
+        "residual_p_high": 0.05859375,
+        "residual_positive": true,
+        "residual_significant_positive": false,
+        "variant": "tonly"
+      }
+    ]
+  },
+  "manifest_rows": 2000,
+  "n_high": 504,
+  "n_low": 507,
+  "object_level_curl_residual_model": {
+    "alpha": -0.028914484111983343,
+    "available": true,
+    "beta_science_vs_curl": -0.06595571918144978,
+    "residual_ci_positive_by_shuffle": true,
+    "residual_delta": 0.10502676946286177,
+    "residual_shuffle_n": 512,
+    "residual_shuffle_p_high": 0.001953125
+  },
+  "orientation_applied": "swapped_HL_masks_to_match_canonical",
+  "patch_level_gate_v40": {
+    "pass": true,
+    "rule": "patch-level residual science-minus-abs-curl CI16 > 0 with >=4 usable patches"
+  },
+  "patch_level_paired_bootstrap_raw": {
+    "available": true,
+    "bootstrap_n": 2000,
+    "curl_ci16": -0.00431071056383541,
+    "curl_ci84": 0.07119984117766504,
+    "n_patches": 17,
+    "p_science_minus_abs_curl_le_0": 0.0855,
+    "patch_bootstrap_pass": true,
+    "science_ci16": 0.046102364822360326,
+    "science_ci84": 0.2354795437590905,
+    "science_minus_abs_curl_ci16": 0.021593373321746902,
+    "science_minus_abs_curl_ci84": 0.17891980752934358
+  },
+  "patch_level_paired_bootstrap_residual": {
+    "available": true,
+    "bootstrap_n": 2000,
+    "curl_ci16": -0.006592113652177474,
+    "curl_ci84": 0.0712742512436617,
+    "n_patches": 17,
+    "p_science_minus_abs_curl_le_0": 0.087,
+    "patch_bootstrap_pass": true,
+    "science_ci16": 0.04699212668883252,
+    "science_ci84": 0.24259648334531447,
+    "science_minus_abs_curl_ci16": 0.020552624587440095,
+    "science_minus_abs_curl_ci84": 0.18648004702244683
+  },
+  "patch_level_raw_rows": [
+    {
+      "curl_delta": -0.00445391277301003,
+      "n_high": 22,
+      "n_low": 20,
+      "patch_id": 94,
+      "science_delta": 0.022230111318601923,
+      "science_minus_abs_curl": 0.01777619854559189,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": -0.006942463810815001,
+      "n_high": 12,
+      "n_low": 21,
+      "patch_id": 102,
+      "science_delta": -0.012060311082746826,
+      "science_minus_abs_curl": -0.01900277489356183,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": -0.004724452191618425,
+      "n_high": 5,
+      "n_low": 22,
+      "patch_id": 125,
+      "science_delta": 0.013002879769704247,
+      "science_minus_abs_curl": 0.008278427578085822,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.003205056173535289,
+      "n_high": 4,
+      "n_low": 11,
+      "patch_id": 133,
+      "science_delta": 0.024950999446626154,
+      "science_minus_abs_curl": 0.021745943273090866,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": -0.0061631475230681625,
+      "n_high": 12,
+      "n_low": 30,
+      "patch_id": 156,
+      "science_delta": -0.008633493125978624,
+      "science_minus_abs_curl": -0.014796640649046787,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.009024341189539712,
+      "n_high": 9,
+      "n_low": 12,
+      "patch_id": 161,
+      "science_delta": 0.02506189196206994,
+      "science_minus_abs_curl": 0.01603755077253023,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.0023377489468459226,
+      "n_high": 8,
+      "n_low": 13,
+      "patch_id": 189,
+      "science_delta": 0.03070337689431541,
+      "science_minus_abs_curl": 0.02836562794746949,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.004256435943136231,
+      "n_high": 13,
+      "n_low": 12,
+      "patch_id": 209,
+      "science_delta": 0.011677394451315087,
+      "science_minus_abs_curl": 0.007420958508178856,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.001760305012329615,
+      "n_high": 3,
+      "n_low": 13,
+      "patch_id": 221,
+      "science_delta": -0.004236190769838078,
+      "science_minus_abs_curl": -0.005996495782167693,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.0027938369907475726,
+      "n_high": 21,
+      "n_low": 15,
+      "patch_id": 225,
+      "science_delta": -0.009067513510543702,
+      "science_minus_abs_curl": -0.011861350501291276,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.017941769453088473,
+      "n_high": 5,
+      "n_low": 11,
+      "patch_id": 253,
+      "science_delta": -0.05545991990583052,
+      "science_minus_abs_curl": -0.073401689358919,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": -0.20190622655377596,
+      "n_high": 15,
+      "n_low": 18,
+      "patch_id": 273,
+      "science_delta": 0.06875660956751416,
+      "science_minus_abs_curl": -0.13314961698626182,
+      "science_positive": true,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": -0.09834770947670246,
+      "n_high": 18,
+      "n_low": 22,
+      "patch_id": 284,
+      "science_delta": -0.31340463299255666,
+      "science_minus_abs_curl": -0.4117523424692591,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.20108190638985637,
+      "n_high": 17,
+      "n_low": 12,
+      "patch_id": 289,
+      "science_delta": 0.2450507386533721,
+      "science_minus_abs_curl": 0.04396883226351572,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.585468743155539,
+      "n_high": 11,
+      "n_low": 38,
+      "patch_id": 337,
+      "science_delta": 0.9729148334257416,
+      "science_minus_abs_curl": 0.3874460902702026,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": -0.04583257626095874,
+      "n_high": 10,
+      "n_low": 9,
+      "patch_id": 381,
+      "science_delta": -0.032209962696717095,
+      "science_minus_abs_curl": -0.07804253895767584,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.09890016084776812,
+      "n_high": 8,
+      "n_low": 29,
+      "patch_id": 401,
+      "science_delta": 1.382672548678239,
+      "science_minus_abs_curl": 1.2837723878304708,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    }
+  ],
+  "patch_level_residual_rows": [
+    {
+      "curl_delta": -0.00445391277301003,
+      "n_high": 22,
+      "n_low": 20,
+      "patch_id": 94,
+      "science_delta": 0.0219363502984866,
+      "science_minus_abs_curl": 0.01748243752547657,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": -0.006942463810815001,
+      "n_high": 12,
+      "n_low": 21,
+      "patch_id": 102,
+      "science_delta": -0.012518206276280315,
+      "science_minus_abs_curl": -0.019460670087095316,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": -0.004724452191618425,
+      "n_high": 5,
+      "n_low": 22,
+      "patch_id": 125,
+      "science_delta": 0.012691275127667677,
+      "science_minus_abs_curl": 0.007966822936049252,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.003205056173535289,
+      "n_high": 4,
+      "n_low": 11,
+      "patch_id": 133,
+      "science_delta": 0.02516239123156862,
+      "science_minus_abs_curl": 0.021957335058033333,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": -0.0061631475230681625,
+      "n_high": 12,
+      "n_low": 30,
+      "patch_id": 156,
+      "science_delta": -0.009039987953283958,
+      "science_minus_abs_curl": -0.01520313547635212,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.009024341189539712,
+      "n_high": 9,
+      "n_low": 12,
+      "patch_id": 161,
+      "science_delta": 0.0256570988753648,
+      "science_minus_abs_curl": 0.01663275768582509,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.0023377489468459226,
+      "n_high": 8,
+      "n_low": 13,
+      "patch_id": 189,
+      "science_delta": 0.030857564807370317,
+      "science_minus_abs_curl": 0.028519815860524395,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.004256435943136231,
+      "n_high": 13,
+      "n_low": 12,
+      "patch_id": 209,
+      "science_delta": 0.011958130745094407,
+      "science_minus_abs_curl": 0.007701694801958176,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.001760305012329615,
+      "n_high": 3,
+      "n_low": 13,
+      "patch_id": 221,
+      "science_delta": -0.004120088586771171,
+      "science_minus_abs_curl": -0.005880393599100786,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.0027938369907475726,
+      "n_high": 21,
+      "n_low": 15,
+      "patch_id": 225,
+      "science_delta": -0.008883243982543212,
+      "science_minus_abs_curl": -0.011677080973290784,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.017941769453088473,
+      "n_high": 5,
+      "n_low": 11,
+      "patch_id": 253,
+      "science_delta": -0.05427655759816432,
+      "science_minus_abs_curl": -0.07221832705125279,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": -0.20190622655377596,
+      "n_high": 15,
+      "n_low": 18,
+      "patch_id": 273,
+      "science_delta": 0.055439739187947125,
+      "science_minus_abs_curl": -0.14646648736582885,
+      "science_positive": true,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": -0.09834770947670246,
+      "n_high": 18,
+      "n_low": 22,
+      "patch_id": 284,
+      "science_delta": -0.3198912269009409,
+      "science_minus_abs_curl": -0.41823893637764337,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.20108190638985637,
+      "n_high": 17,
+      "n_low": 12,
+      "patch_id": 289,
+      "science_delta": 0.258313240403692,
+      "science_minus_abs_curl": 0.05723133401383565,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": 0.585468743155539,
+      "n_high": 11,
+      "n_low": 38,
+      "patch_id": 337,
+      "science_delta": 1.0115298454388248,
+      "science_minus_abs_curl": 0.42606110228328586,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    },
+    {
+      "curl_delta": -0.04583257626095874,
+      "n_high": 10,
+      "n_low": 9,
+      "patch_id": 381,
+      "science_delta": -0.03523288322594727,
+      "science_minus_abs_curl": -0.08106545948690601,
+      "science_positive": false,
+      "science_stronger_than_curl": false
+    },
+    {
+      "curl_delta": 0.09890016084776812,
+      "n_high": 8,
+      "n_low": 29,
+      "patch_id": 401,
+      "science_delta": 1.3891955799141145,
+      "science_minus_abs_curl": 1.2902954190663463,
+      "science_positive": true,
+      "science_stronger_than_curl": true
+    }
+  ],
+  "purpose": "Separate science signal from curl leakage using manifest-aligned samples and patch-level bootstrap.",
+  "residual_curl_null_gate_v40": {
+    "pass": false,
+    "rule": "after science~curl regression, residual_delta positive/significant and curl residual non-extreme; strict gate blocks route if curl remains coherent"
+  },
+  "route_specific_confirm_like_pass_v40": false,
+  "science_core_delta": 0.10044946775245636,
+  "science_minus_abs_curl": 0.03104984983891583,
+  "selected_nside": 128,
+  "variant_rows": [
+    {
+      "available": true,
+      "curl_delta": 0.06939961791354053,
+      "map_info": {
+        "available": true,
+        "cache_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_v40_sampled_baseline_nside128_37a9b83b1bfbd0ef.npz",
+        "cached_sample_values": true,
+        "n_values": 2000,
+        "nside": 128,
+        "variant": "baseline"
+      },
+      "raw_delta": 0.08826214888927847,
+      "science_minus_abs_curl": 0.018862530975737937,
+      "science_stronger_than_curl": true,
+      "variant": "baseline"
+    },
+    {
+      "available": true,
+      "curl_delta": 0.06939961791354053,
+      "map_info": {
+        "available": true,
+        "cache_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_v40_sampled_f150_nside128_75f3373855d8696a.npz",
+        "cached_sample_values": true,
+        "n_values": 2000,
+        "nside": 128,
+        "variant": "f150"
+      },
+      "raw_delta": 0.16209196942434892,
+      "science_minus_abs_curl": 0.09269235151080839,
+      "science_stronger_than_curl": true,
+      "variant": "f150"
+    },
+    {
+      "available": true,
+      "curl_delta": 0.06939961791354053,
+      "map_info": {
+        "available": true,
+        "cache_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_v40_sampled_tonly_nside128_70fec6a246961cb9.npz",
+        "cached_sample_values": true,
+        "n_values": 2000,
+        "nside": 128,
+        "variant": "tonly"
+      },
+      "raw_delta": 0.050994284943741794,
+      "science_minus_abs_curl": -0.018405332969798738,
+      "science_stronger_than_curl": false,
+      "variant": "tonly"
+    }
+  ],
+  "version": "v40"
+}

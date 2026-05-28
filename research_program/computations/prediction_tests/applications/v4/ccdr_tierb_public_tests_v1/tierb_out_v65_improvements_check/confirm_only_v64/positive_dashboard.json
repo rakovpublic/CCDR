@@ -1,0 +1,974 @@
+{
+  "process_summary_v64": {
+    "n_tests_with_process_rows_v64": 0,
+    "note_v64": "process_status reports subprocess health; confirmation_status_v64 reports public-claim eligibility.",
+    "process_errors_v64": [],
+    "process_timeouts_v64": [],
+    "schema": "ccdr-v64-process-vs-confirm-summary",
+    "summary_available_v64": false
+  },
+  "schema": "ccdr-tierb-positive-dashboard-v64-confirm-only-seed",
+  "source_pack_status_v64": [
+    {
+      "affected_tests_v64": [
+        "T31",
+        "T32"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\CHECKLIST_v64.md",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_families": 5,
+        "min_sources": 5,
+        "min_temperature_bins": 3,
+        "min_usable_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "materials",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\t31_t32_materials_exact_template.csv",
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\t31_t32_materials_exact_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T31",
+        "T32"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_families": 5,
+        "min_sources": 5,
+        "min_temperature_bins": 3,
+        "min_usable_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "materials_family_packs",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\family_pack_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T44"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_companies": 3,
+        "min_usable_rows": 8
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "nand",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\t44_nand_tier_a_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T53"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_assays": 3,
+        "min_families": 3,
+        "min_sequence_clusters": 10,
+        "min_usable_join_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "proteingym",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\proteingym_assays_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T53"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_structure_rows": 50
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "protein_structures",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\protein_structure_features_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T34"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_usable_rows": 30
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "thermoelectric",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\t34_thermoelectric_angle_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T57",
+        "T59"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_records": 3,
+        "min_residual_rows": 20,
+        "min_tables": 3
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "hepdata",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T45"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "optical_interconnect",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\t45_optical_interconnect_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T47"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "neuromorphic",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\t47_neuromorphic_benchmark_template.csv"
+      ]
+    },
+    {
+      "affected_tests_v64": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30"
+      ],
+      "checklist_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md"
+      ],
+      "max_usable_rows_v64": 0,
+      "minimum_gate_v64": {
+        "min_exact_rows": 20
+      },
+      "n_files_v64": 0,
+      "n_rows_v64": 0,
+      "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+      "pack": "fusion",
+      "status_v64": "needs_filled_exact_public_rows",
+      "strict_ready_any_test_v64": false,
+      "template_paths_v64": [
+        "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "claim_bucket_v64": "diagnostic_only",
+      "confirmation_status_v64": "not_confirmed_diagnostic_only",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Certified fusion per-shot ELM energy rows with pedestal pressure/volume/drop columns.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T26",
+      "why_not_confirmed_v64": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+    },
+    {
+      "claim_bucket_v64": "diagnostic_only",
+      "confirmation_status_v64": "not_confirmed_diagnostic_only",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Certified fusion RMP/helicity rows with ELM frequency and coil/phasing columns.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T27",
+      "why_not_confirmed_v64": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+    },
+    {
+      "claim_bucket_v64": "diagnostic_only",
+      "confirmation_status_v64": "not_confirmed_diagnostic_only",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact ITPA/H-mode rows with tau_E, density, and transport columns.",
+      "rank_score_0_10_v64": 2,
+      "test_id": "T28",
+      "why_not_confirmed_v64": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+    },
+    {
+      "claim_bucket_v64": "diagnostic_only",
+      "confirmation_status_v64": "not_confirmed_diagnostic_only",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact stellarator/tokamak edge transport rows with device and diffusivity/heat-flux columns.",
+      "rank_score_0_10_v64": 2,
+      "test_id": "T29",
+      "why_not_confirmed_v64": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+    },
+    {
+      "claim_bucket_v64": "diagnostic_only",
+      "confirmation_status_v64": "not_confirmed_diagnostic_only",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact confinement residual rows with density plus shaping/curvature columns.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T30",
+      "why_not_confirmed_v64": "Fusion route is diagnostic until certified exact public per-shot/per-timeslice physical rows pass the gate."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_source_gates_pending_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Filled exact materials packs with measured kappa(T), grain size, source URL, and SEM/TEM/XRD/EBSD microstructure method.",
+      "rank_score_0_10_v64": 7,
+      "test_id": "T31",
+      "why_not_confirmed_v64": "Exact measured materials rows with kappa(T), grain size, source URL, and measured microstructure method are still required."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_source_gates_pending_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Filled exact materials packs with measured low-temperature kappa(T), grain size, source URL, and microstructure method.",
+      "rank_score_0_10_v64": 7,
+      "test_id": "T32",
+      "why_not_confirmed_v64": "Exact measured materials rows with kappa(T), grain size, source URL, and measured microstructure method are still required."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T33",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_te_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact Bi2Te3/Sb2Te3 ZT plus orientation/grain-boundary angle rows.",
+      "rank_score_0_10_v64": 3,
+      "test_id": "T34",
+      "why_not_confirmed_v64": "Exact thermoelectric ZT plus orientation/grain-boundary angle rows are still required."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T35",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T36",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T37",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T38",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured materials_quantum rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T39",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T40",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T41",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T42",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T43",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_true_tier_a_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "True Tier-A NAND rows: company, year, layers, capacity, die area, bits/cell, source URL.",
+      "rank_score_0_10_v64": 5,
+      "test_id": "T44",
+      "why_not_confirmed_v64": "True Tier-A NAND rows with complete die-area, capacity, layers, and bits/cell fields are still required."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_benchmark_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact optical-interconnect benchmark rows with energy/bit, bandwidth, reach, platform, year, and source URL.",
+      "rank_score_0_10_v64": 3,
+      "test_id": "T45",
+      "why_not_confirmed_v64": "Exact benchmark rows are still required; metadata and generated diagnostics do not count."
+    },
+    {
+      "claim_bucket_v64": "synthetic_or_engineering",
+      "confirmation_status_v64": "synthetic_or_engineering_not_public_confirm",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured electronics rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T46",
+      "why_not_confirmed_v64": "The current ok result is synthetic/engineering only; no external public benchmark confirm gate passes."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_benchmark_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact neuromorphic benchmark rows with chip, task, energy, accuracy, topology, year, and source URL.",
+      "rank_score_0_10_v64": 3,
+      "test_id": "T47",
+      "why_not_confirmed_v64": "Exact benchmark rows are still required; metadata and generated diagnostics do not count."
+    },
+    {
+      "claim_bucket_v64": "confirmed_public_now",
+      "confirmation_status_v64": "compatible_positive_confirm_allowed",
+      "confirmed_now_v64": true,
+      "next_data_source_v64": null,
+      "rank_score_0_10_v64": 10,
+      "test_id": "T48",
+      "why_not_confirmed_v64": null
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured energy_materials rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T49",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "bound_only",
+      "confirmation_status_v64": "not_confirmable_by_design",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+      "rank_score_0_10_v64": 0,
+      "test_id": "T50",
+      "why_not_confirmed_v64": "Bound/constraint audit; useful for limits but not confirmable by design."
+    },
+    {
+      "claim_bucket_v64": "bound_only",
+      "confirmation_status_v64": "not_confirmable_by_design",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+      "rank_score_0_10_v64": 0,
+      "test_id": "T51",
+      "why_not_confirmed_v64": "Bound/constraint audit; useful for limits but not confirmable by design."
+    },
+    {
+      "claim_bucket_v64": "bound_only",
+      "confirmation_status_v64": "not_confirmable_by_design",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+      "rank_score_0_10_v64": 0,
+      "test_id": "T52",
+      "why_not_confirmed_v64": "Bound/constraint audit; useful for limits but not confirmable by design."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_structure_join_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "ProteinGym assay rows joined to UniProt/PDB/AlphaFold structure-feature rows.",
+      "rank_score_0_10_v64": 6,
+      "test_id": "T53",
+      "why_not_confirmed_v64": "ProteinGym assay rows must be joined to UniProt/PDB/AlphaFold structure features before a model confirm is allowed."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured biotech rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T54",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured aerospace rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T55",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured aerospace rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T56",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_hepdata_manifest_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Frozen HEPData manifest plus local tables with observed/model/uncertainty residual columns.",
+      "rank_score_0_10_v64": 3,
+      "test_id": "T57",
+      "why_not_confirmed_v64": "Frozen HEPData manifests and residual rows with observed/model/uncertainty columns are still required."
+    },
+    {
+      "claim_bucket_v64": "data_limited",
+      "confirmation_status_v64": "not_confirmed_data_limited",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Exact public structured aerospace rows with the named physical columns required by this test.",
+      "rank_score_0_10_v64": 1,
+      "test_id": "T58",
+      "why_not_confirmed_v64": "Required public structured physical rows are missing or insufficient for a confirm claim."
+    },
+    {
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_hepdata_manifest_rows_required_v64",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Frozen HEPData manifest plus local tables with observed/model/uncertainty residual columns.",
+      "rank_score_0_10_v64": 3,
+      "test_id": "T59",
+      "why_not_confirmed_v64": "Frozen HEPData manifests and residual rows with observed/model/uncertainty columns are still required."
+    },
+    {
+      "claim_bucket_v64": "anchor_only",
+      "confirmation_status_v64": "anchor_only_not_full_confirm",
+      "confirmed_now_v64": false,
+      "next_data_source_v64": "Separate charged-lepton/public-constant anchor from any quark/lattice sector claim.",
+      "rank_score_0_10_v64": 5,
+      "test_id": "T60",
+      "why_not_confirmed_v64": "Anchor-only consistency result; full sector confirmation requires separate quark/lattice and sensitivity gates."
+    }
+  ],
+  "v64_confirm_only_dashboard": {
+    "anchor_only": [
+      "T60"
+    ],
+    "behavioral_note_v64": "v64 exact-data-pack parsers count only filled physical rows from exact source packs; templates and generated artifacts are excluded.",
+    "bound_only": [
+      "T50",
+      "T51",
+      "T52"
+    ],
+    "claim_buckets_v64": {
+      "anchor_only": [
+        "T60"
+      ],
+      "bound_only": [
+        "T50",
+        "T51",
+        "T52"
+      ],
+      "confirmed_public_now": [
+        "T48"
+      ],
+      "data_limited": [
+        "T33",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T49",
+        "T54",
+        "T55",
+        "T56",
+        "T58"
+      ],
+      "diagnostic_only": [
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30"
+      ],
+      "near_confirm_requires_exact_rows": [
+        "T31",
+        "T32",
+        "T34",
+        "T44",
+        "T45",
+        "T47",
+        "T53",
+        "T57",
+        "T59"
+      ],
+      "no_confirm": [],
+      "synthetic_or_engineering": [
+        "T46"
+      ]
+    },
+    "claim_summary_file_v64": "claim_summary_v64.json",
+    "confirmed_public_now": [
+      "T48"
+    ],
+    "data_limited": [
+      "T33",
+      "T35",
+      "T36",
+      "T37",
+      "T38",
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T49",
+      "T54",
+      "T55",
+      "T56",
+      "T58"
+    ],
+    "diagnostic_only": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30"
+    ],
+    "do_not_claim": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30",
+      "T31",
+      "T32",
+      "T33",
+      "T34",
+      "T35",
+      "T36",
+      "T37",
+      "T38",
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T49",
+      "T50",
+      "T51",
+      "T52",
+      "T53",
+      "T54",
+      "T55",
+      "T56",
+      "T57",
+      "T58",
+      "T59",
+      "T60"
+    ],
+    "near_confirm_next": [
+      "T31",
+      "T32",
+      "T34",
+      "T44",
+      "T45",
+      "T47",
+      "T53",
+      "T57",
+      "T59"
+    ],
+    "near_confirm_requires_exact_rows": [
+      "T31",
+      "T32",
+      "T34",
+      "T44",
+      "T45",
+      "T47",
+      "T53",
+      "T57",
+      "T59"
+    ],
+    "no_confirm": [],
+    "process_summary_v64": {
+      "n_tests_with_process_rows_v64": 0,
+      "note_v64": "process_status reports subprocess health; confirmation_status_v64 reports public-claim eligibility.",
+      "process_errors_v64": [],
+      "process_timeouts_v64": [],
+      "schema": "ccdr-v64-process-vs-confirm-summary",
+      "summary_available_v64": false
+    },
+    "public_claim_rule_v64": "Only tests listed in confirmed_public_now may be described as current public confirms.",
+    "schema": "ccdr-tierb-confirm-only-dashboard-v64",
+    "source_pack_status_v64": [
+      {
+        "affected_tests_v64": [
+          "T31",
+          "T32"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\CHECKLIST_v64.md",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\CHECKLIST_v64.md",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\CHECKLIST_v64.md",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\CHECKLIST_v64.md",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_families": 5,
+          "min_sources": 5,
+          "min_temperature_bins": 3,
+          "min_usable_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "materials",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\t31_t32_materials_exact_template.csv",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\materials_sources\\t31_t32_materials_exact_template.csv",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\external\\materials\\t31_t32_materials_exact_template.csv",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\downloaded_supplements\\materials\\t31_t32_materials_exact_template.csv",
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\cache\\materials_exact\\t31_t32_materials_exact_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T31",
+          "T32"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_families": 5,
+          "min_sources": 5,
+          "min_temperature_bins": 3,
+          "min_usable_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "materials_family_packs",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\family_pack_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T44"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_companies": 3,
+          "min_usable_rows": 8
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "nand",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\t44_nand_tier_a_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T53"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_assays": 3,
+          "min_families": 3,
+          "min_sequence_clusters": 10,
+          "min_usable_join_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "proteingym",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\proteingym_assays_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T53"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_structure_rows": 50
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "protein_structures",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\protein_structure_features_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T34"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_usable_rows": 30
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "thermoelectric",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\t34_thermoelectric_angle_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T57",
+          "T59"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_records": 3,
+          "min_residual_rows": 20,
+          "min_tables": 3
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "hepdata",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T45"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_sources": 3,
+          "min_usable_rows": 20
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "optical_interconnect",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\t45_optical_interconnect_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T47"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_sources": 3,
+          "min_usable_rows": 20
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "neuromorphic",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\t47_neuromorphic_benchmark_template.csv"
+        ]
+      },
+      {
+        "affected_tests_v64": [
+          "T26",
+          "T27",
+          "T28",
+          "T29",
+          "T30"
+        ],
+        "checklist_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md"
+        ],
+        "max_usable_rows_v64": 0,
+        "minimum_gate_v64": {
+          "min_exact_rows": 20
+        },
+        "n_files_v64": 0,
+        "n_rows_v64": 0,
+        "next_action_v64": "Fill a non-template CSV/TSV/JSON/XLSX in this exact source pack with public physical rows; templates and generated artifacts do not count.",
+        "pack": "fusion",
+        "status_v64": "needs_filled_exact_public_rows",
+        "strict_ready_any_test_v64": false,
+        "template_paths_v64": [
+          "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+        ]
+      }
+    ],
+    "synthetic_or_engineering": [
+      "T46"
+    ]
+  },
+  "v64_public_claim_rule": "Only tests listed in confirmed_public_now may be described as current public confirms."
+}

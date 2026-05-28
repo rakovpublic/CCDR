@@ -1,0 +1,17 @@
+{
+  "commands": [
+    "python tests/test19_p32_ringdown_high_snr_scaffold.py --allow-large --strain --events GW150914,GW190521 --detectors H1,L1,V1 --sample-rate 4096 --window-s 32",
+    "python run_all.py --only P32 --allow-large --max-mb 5000 --script-timeout 2400"
+  ],
+  "events": [],
+  "required_files_per_event": [
+    "GWOSC event metadata JSON",
+    "H1 strain",
+    "L1 strain",
+    "V1 strain when available",
+    "PSD estimate",
+    "GR ringdown fit JSON",
+    "CCDR residual fit JSON",
+    "injection null JSON"
+  ]
+}

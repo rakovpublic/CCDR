@@ -1,0 +1,3037 @@
+{
+  "A_claim_grade_nonSM_confirm_like_current_run": {
+    "items": [
+      {
+        "prediction_id": "P36/local a0",
+        "prediction_name": "P36 SPARC robust local RAR/a0 bootstrap test",
+        "status": "robust_confirm_like",
+        "test_id": "R10-T12"
+      }
+    ],
+    "n": 1
+  },
+  "B_SM_constant_consistency_current_run": {
+    "items": [
+      {
+        "prediction_id": "SM-D1",
+        "prediction_name": "SM-D1 α inverse constant check",
+        "status": "smd_constant_consistency_confirm_like",
+        "test_id": "R10-SMD01"
+      },
+      {
+        "prediction_id": "SM-D2",
+        "prediction_name": "SM-D2 αs(mZ) constant check",
+        "status": "smd_constant_consistency_confirm_like",
+        "test_id": "R10-SMD02"
+      },
+      {
+        "prediction_id": "SM-D3",
+        "prediction_name": "SM-D3 weak mixing angle constant check",
+        "status": "smd_constant_consistency_confirm_like",
+        "test_id": "R10-SMD03"
+      },
+      {
+        "prediction_id": "SM-D4",
+        "prediction_name": "SM-D4 Higgs mass constant check",
+        "status": "smd_constant_consistency_confirm_like",
+        "test_id": "R10-SMD04"
+      },
+      {
+        "prediction_id": "SM-D5",
+        "prediction_name": "SM-D5 charged-lepton Koide constant-level check",
+        "status": "smd_constant_consistency_confirm_like",
+        "test_id": "R10-SMD05"
+      }
+    ],
+    "n": 5
+  },
+  "C_coverage_confirmed_not_detection": {
+    "items": [
+      {
+        "prediction_id": "P10/P25/P31",
+        "prediction_name": "LZ explicit-unit coverage parser",
+        "status": "mass_window_coverage_confirmed",
+        "test_id": "R10-T26"
+      }
+    ],
+    "n": 1
+  },
+  "D_ready_compatible_not_confirm": {
+    "items": [
+      {
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "prediction_id": "CL4",
+        "prediction_name": "CL4 P3+P38 whitelist-updated bridge-positive",
+        "status": "partial_positive_bridge",
+        "test_id": "R10-T11"
+      },
+      {
+        "prediction_id": "P29",
+        "prediction_name": "P29 growth fσ8 live/frozen compatible-bound proxy",
+        "status": "consistent_bound_only",
+        "test_id": "R10-T15"
+      },
+      {
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC metadata ringdown positive-ready",
+        "status": "ringdown_metadata_positive_ready",
+        "test_id": "R10-T18"
+      },
+      {
+        "prediction_id": "No-FTL",
+        "prediction_name": "GW170817 luminal multimessenger inventory",
+        "status": "consistent_bound_only",
+        "test_id": "R10-T20"
+      },
+      {
+        "prediction_id": "P28",
+        "prediction_name": "FIRAS standard μ/y 95%-bound proxy",
+        "status": "consistent_bound_only",
+        "test_id": "R10-T23"
+      },
+      {
+        "prediction_id": "P28",
+        "prediction_name": "P28 Planck y-map plus FIRAS bound cross-check",
+        "status": "consistent_bound_only",
+        "test_id": "R10-T24"
+      },
+      {
+        "prediction_id": "P10/P25/P31",
+        "prediction_name": "XENONnT explicit-unit coverage parser",
+        "status": "mass_window_quantified_coverage_positive_ready",
+        "test_id": "R10-T25"
+      },
+      {
+        "prediction_id": "P10/P25/P31",
+        "prediction_name": "PandaX quantified mass-window positive-ready",
+        "status": "mass_window_quantified_positive_ready",
+        "test_id": "R10-T27"
+      },
+      {
+        "prediction_id": "P27",
+        "prediction_name": "P27 direct-detection mass-window sensitivity dashboard",
+        "status": "sensitivity_positive_ready",
+        "test_id": "R10-T28"
+      },
+      {
+        "prediction_id": "P37",
+        "prediction_name": "P37 DM phase-space drift event-level readiness positive",
+        "status": "event_level_ready_not_detection_confirmed",
+        "test_id": "R10-T29"
+      },
+      {
+        "prediction_id": "P5",
+        "prediction_name": "P5 QGP/KSS units-column bound-positive",
+        "status": "kss_proxy_bound_positive_schema_backed",
+        "test_id": "R10-T30"
+      },
+      {
+        "prediction_id": "P9b/P9e/P9f",
+        "prediction_name": "P9 MET/DY/HH units-column bound-positive",
+        "status": "hepdata_schema_positive_ready",
+        "test_id": "R10-T33"
+      },
+      {
+        "prediction_id": "SM-D9",
+        "prediction_name": "SM-D9 structural gauge-group consistency positive",
+        "status": "structural_consistency_positive",
+        "test_id": "R10-SMD09"
+      },
+      {
+        "prediction_id": "Dark-Cone",
+        "prediction_name": "Dark-Cone lensing anticipation branch-survival positive",
+        "status": "branch_survival_positive",
+        "test_id": "R10-DC01"
+      },
+      {
+        "prediction_id": "Dark-Cone",
+        "prediction_name": "Dark-Cone cosmic-web whitelist-updated branch positive",
+        "status": "partial_positive_bridge",
+        "test_id": "R10-DC02"
+      },
+      {
+        "prediction_id": "Dark-Cone",
+        "prediction_name": "Dark-Cone halo-sharpness data-readiness positive",
+        "status": "branch_survival_positive",
+        "test_id": "R10-DC03"
+      },
+      {
+        "prediction_id": "CL5",
+        "prediction_name": "CL5 P39+P40 fixed joint positive-compatible bound",
+        "status": "partial_positive_bridge",
+        "test_id": "R10-CL05"
+      }
+    ],
+    "n": 23
+  },
+  "E_blocked_or_gate_failed": {
+    "items": [
+      {
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      }
+    ],
+    "n": 3
+  },
+  "F_failed_confirmation_gates": {
+    "items": [
+      {
+        "gate": "p39_covariance_source_gate_v77",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_covariance_systematics_gate_v75",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_full_covariance_chain_gate_v69",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_full_covariance_chain_gate_v70",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_full_covariance_likelihood_gate_v76",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_full_covariance_likelihood_gate_v80",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_full_covariance_penalty_gate_v71",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_full_covariance_source_gate_v73",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_likelihood_confirm_gate_v22",
+        "missing": [
+          "delta_chi2_large_enough",
+          "full_covariance",
+          "systematics_splits",
+          "model_penalty_reported"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_likelihood_gate_v68",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_pantheon_covariance_vector_gate_v78",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_pantheon_covmat_gate_v79",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_publication_likelihood_gate_v72",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_publication_likelihood_gate_v74",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T01"
+      },
+      {
+        "gate": "p39_covariance_source_gate_v77",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_covariance_systematics_gate_v75",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_full_covariance_chain_gate_v69",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_full_covariance_chain_gate_v70",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_full_covariance_likelihood_gate_v76",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_full_covariance_likelihood_gate_v80",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_full_covariance_penalty_gate_v71",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_full_covariance_source_gate_v73",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_likelihood_confirm_gate_v22",
+        "missing": [
+          "delta_chi2_large_enough",
+          "full_covariance",
+          "systematics_splits",
+          "model_penalty_reported"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_likelihood_gate_v68",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_pantheon_covariance_vector_gate_v78",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_pantheon_covmat_gate_v79",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_publication_likelihood_gate_v72",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_publication_likelihood_gate_v74",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P1/P39",
+        "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
+        "status": "positive_compatible",
+        "test_id": "R10-T02"
+      },
+      {
+        "gate": "p39_covariance_source_gate_v77",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_covariance_systematics_gate_v75",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_full_covariance_chain_gate_v69",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_full_covariance_chain_gate_v70",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_full_covariance_likelihood_gate_v76",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_full_covariance_likelihood_gate_v80",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_full_covariance_penalty_gate_v71",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_full_covariance_source_gate_v73",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_likelihood_confirm_gate_v22",
+        "missing": [
+          "delta_chi2_large_enough",
+          "full_covariance",
+          "systematics_splits",
+          "model_penalty_reported"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_likelihood_gate_v68",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_pantheon_covariance_vector_gate_v78",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_pantheon_covmat_gate_v79",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_publication_likelihood_gate_v72",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p39_publication_likelihood_gate_v74",
+        "missing": [
+          "delta_chi2_lcdm_minus_best_ge_9",
+          "pantheon_full_covariance_used",
+          "systematics_splits_done",
+          "model_penalty_supports_new_model"
+        ],
+        "prediction_id": "P39",
+        "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
+        "status": "positive_compatible",
+        "test_id": "R10-T03"
+      },
+      {
+        "gate": "p30_global_route_closure_gate_v73",
+        "missing": [
+          "second_independent_route_confirm_like"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v74",
+        "missing": [
+          "second_independent_route_confirm_like"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v75",
+        "missing": [
+          "second_independent_route_confirm_like_with_public_kappa_or_map_values"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v76",
+        "missing": [
+          "second_independent_route_confirm_like_with_public_kappa_or_map_values"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v77",
+        "missing": [
+          "second_independent_route_confirm_like_with_public_kappa_or_map_values"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v78",
+        "missing": [
+          "second_independent_route_confirm_like_with_public_kappa_or_map_values"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v79",
+        "missing": [
+          "second_independent_route_confirm_like_with_public_kappa_or_map_values"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_global_second_route_gate_v80",
+        "missing": [
+          "second_independent_route_confirm_like_with_true_planck_or_euclid_native_public_values"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 frozen diagnostic tension workflow",
+        "status": "density_kappa_sdss_route_confirm_like_v80",
+        "test_id": "R10-T04"
+      },
+      {
+        "gate": "p30_planck_archive_map_sampler_gate_v78",
+        "missing": [
+          "planck_same_mask_density_kappa_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_independent_route_gate_v71",
+        "missing": [
+          "planck_route_same_mask_statistic",
+          "planck_route_sky_shuffle_p_le_0p05",
+          "planck_route_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_independent_route_gate_v73",
+        "missing": [
+          "planck_same_mask_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_map_route_gate_v75",
+        "missing": [
+          "planck_same_mask_density_kappa_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_map_sampler_gate_v77",
+        "missing": [
+          "planck_same_mask_density_kappa_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_route_gate_v72",
+        "missing": [
+          "planck_same_mask_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_same_mask_sampler_gate_v79",
+        "missing": [
+          "planck_scoped_public_lensing_map_or_kappa_map",
+          "planck_same_mask_density_kappa_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_same_mask_stat_gate_v76",
+        "missing": [
+          "planck_same_mask_density_kappa_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_second_route_gate_v74",
+        "missing": [
+          "planck_same_mask_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_planck_true_source_gate_v80",
+        "missing": [
+          "planck_scoped_public_lensing_map_or_kappa_map",
+          "planck_same_mask_density_kappa_statistic",
+          "planck_sky_shuffle_p_le_0p05",
+          "planck_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "planck_p30_confirm_gate_v48",
+        "missing": [
+          "exact_planck_kappa_or_phi_product_loaded",
+          "healpy_reconstruction_if_harmonic",
+          "sky_mask_or_valid_pixel_mask",
+          "density_catalogue_overlap"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Planck exact-kappa route guard",
+        "status": "density_kappa_planck_route_ready_v80",
+        "test_id": "R10-T05"
+      },
+      {
+        "gate": "p30_euclid_independent_route_gate_v71",
+        "missing": [
+          "euclid_route_photoz_depth_randoms",
+          "euclid_route_same_mask_statistic",
+          "euclid_route_sky_shuffle_p_le_0p05",
+          "euclid_route_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_independent_route_gate_v73",
+        "missing": [
+          "euclid_photoz_depth_randoms",
+          "euclid_same_mask_statistic",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_kappa_cell_join_gate_v76",
+        "missing": [
+          "euclid_public_kappa_values_for_same_mask_cells_ge_800",
+          "euclid_positive_delta_after_residualization",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_kappa_cell_join_gate_v78",
+        "missing": [
+          "euclid_public_kappa_values_for_same_mask_cells_ge_800",
+          "euclid_positive_delta_after_residualization",
+          "euclid_density_shuffle_p_le_0p05",
+          "euclid_sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_kappa_sampler_gate_v77",
+        "missing": [
+          "euclid_public_kappa_values_for_same_mask_cells_ge_800",
+          "euclid_positive_delta_after_residualization",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_native_kappa_gate_v79",
+        "missing": [
+          "euclid_native_public_kappa_values_for_same_mask_cells_ge_800",
+          "euclid_positive_delta_after_residualization",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_native_kappa_gate_v80",
+        "missing": [
+          "euclid_native_public_kappa_values_for_same_mask_cells_ge_800",
+          "euclid_positive_delta_after_residualization",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_route_gate_v72",
+        "missing": [
+          "euclid_photoz_depth_randoms",
+          "euclid_same_mask_statistic",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_same_mask_geometry_gate_v75",
+        "missing": [
+          "euclid_photoz_or_redshift_column",
+          "euclid_public_kappa_values_for_same_mask_cells",
+          "euclid_positive_delta_after_residualization",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p30_euclid_second_route_gate_v74",
+        "missing": [
+          "euclid_positive_delta_after_residualization",
+          "euclid_sky_shuffle_p_le_0p05",
+          "euclid_density_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P30",
+        "prediction_name": "P30 Euclid mer_catalogue object-coordinate sample",
+        "status": "euclid_mer_catalogue_sample_positive_ready_v80",
+        "test_id": "R10-T06"
+      },
+      {
+        "gate": "p33_alpha_effect_confirm_gate_v49",
+        "missing": [
+          "alpha_high_low_numeric",
+          "desi_randoms_loaded",
+          "density_label_shuffle_p_recorded",
+          "sky_shuffle_p_recorded",
+          "redshift_jackknife_stable",
+          "predeclared_sign_recorded"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_confirm_gate_v50",
+        "missing": [
+          "measurement_file_present",
+          "alpha_high_low_numeric",
+          "desi_randoms_loaded",
+          "sky_shuffle_p_le_005",
+          "density_label_shuffle_p_le_005",
+          "redshift_jackknife_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_confirm_gate_v51",
+        "missing": [
+          "measurement_file_present",
+          "alpha_high_low_numeric",
+          "delta_alpha_nonzero",
+          "delta_alpha_significant",
+          "covariance_aware_fit",
+          "desi_randoms_loaded",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_confirm_gate_v52",
+        "missing": [
+          "measurement_file_present",
+          "alpha_high_low_numeric",
+          "delta_alpha_nonzero",
+          "covariance_aware_fit",
+          "desi_randoms_loaded",
+          "density_label_shuffle_p_le_005",
+          "sky_shuffle_p_le_005",
+          "redshift_jackknife_stable",
+          "predeclared_sign",
+          "delta_alpha_significant"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_confirm_gate_v53",
+        "missing": [
+          "measurement_file_present",
+          "alpha_high_low_numeric",
+          "delta_alpha_nonzero",
+          "covariance_aware_fit",
+          "desi_randoms_loaded",
+          "density_label_shuffle_p_le_005",
+          "sky_shuffle_p_le_005",
+          "redshift_jackknife_stable",
+          "predeclared_sign",
+          "delta_alpha_significant"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_confirm_gate_v54",
+        "missing": [
+          "measurement_file_present",
+          "alpha_high_low_numeric",
+          "delta_alpha_nonzero",
+          "covariance_aware_fit",
+          "desi_randoms_loaded",
+          "density_label_shuffle_p_le_005",
+          "sky_shuffle_p_le_005",
+          "redshift_jackknife_stable",
+          "predeclared_sign",
+          "delta_alpha_significant",
+          "source_file_hashes"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v55",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "nonzero_delta_alpha",
+          "covariance_aware_fit",
+          "desi_randoms_used",
+          "redshift_jackknife_stable",
+          "density_label_shuffle_p",
+          "sky_shuffle_p"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v56",
+        "missing": [
+          "covariance_aware_fit",
+          "desi_randoms_used",
+          "redshift_jackknife_stable",
+          "source_hashes_present",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "delta_alpha_sigma_positive",
+          "density_label_shuffle_p_le_0.05",
+          "sky_shuffle_p_le_0.05",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v57",
+        "missing": [
+          "covariance_used",
+          "desi_randoms_used",
+          "redshift_jackknife_stable",
+          "source_hashes_present",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "delta_alpha_sigma",
+          "density_label_shuffle_p_le_0.05",
+          "sky_shuffle_p_le_0.05",
+          "delta_alpha_sigma_ge_2",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v58",
+        "missing": [
+          "covariance_used",
+          "desi_randoms_used",
+          "redshift_jackknife_stable",
+          "source_hashes_present",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "delta_alpha_sigma",
+          "density_label_shuffle_p_le_0.05",
+          "sky_shuffle_p_le_0.05",
+          "delta_alpha_sigma_ge_2",
+          "autobuilt_real_alpha_measurement"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v59",
+        "missing": [
+          "covariance_used",
+          "desi_randoms_used",
+          "redshift_jackknife_stable",
+          "source_hashes_present",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "delta_alpha_sigma",
+          "density_label_shuffle_p_le_0.05",
+          "sky_shuffle_p_le_0.05",
+          "delta_alpha_sigma_ge_2",
+          "autobuilt_real_alpha_measurement"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v60",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "delta_alpha_sigma_ge_2",
+          "covariance_used",
+          "desi_randoms_used",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "source_hashes_present"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v61",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "source_hashes_present"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v62",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "source_hashes_present"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v63",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "source_hashes_present"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v64",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_or_bootstrap_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v65",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_or_bootstrap_fit",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v66",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_or_bootstrap_fit",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v67",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_or_bootstrap_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "exact_ra_dec_z_lss_catalogue_required_for_density_split"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_alpha_measurement_gate_v68",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_or_bootstrap_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "exact_ra_dec_z_lss_catalogue",
+          "exact_desi_random_catalogue"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_archive_exact_lss_alpha_gate_v78",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "random_normalized_density_split",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_archive_exact_lss_random_gate_v75",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_confirm_gate_v23",
+        "missing": [
+          "density_randoms_available",
+          "measured_density_split",
+          "nulls_done"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_density_bao_confirm_gate_v48",
+        "missing": [
+          "density_split_catalogue_loaded",
+          "alpha_high_low_measured",
+          "desi_randoms_loaded",
+          "sky_shuffle_null",
+          "density_label_shuffle_null",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_density_split_alpha_gate_v71",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "random_normalized_density_split",
+          "delta_alpha_sigma_ge_2",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_desi_lss_random_manifest_gate_v70",
+        "missing": [
+          "exact_desi_lss_clustering_catalogues_cached",
+          "exact_desi_random_catalogues_cached",
+          "random_normalized_density_split_alpha",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_alpha_fit_gate_v76",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "random_normalized_density_split",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_density_split_gate_v72",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_lss_alias_gate_v79",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "random_normalized_density_split",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_lss_classifier_gate_v80",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "random_normalized_density_split",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_lss_random_ingestion_gate_v69",
+        "missing": [
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "covariance_aware_or_bootstrap_fit",
+          "desi_randoms_used",
+          "delta_alpha_sigma_ge_2",
+          "density_label_shuffle_p_le_0p05",
+          "sky_shuffle_p_le_0p05",
+          "redshift_jackknife_stable",
+          "exact_ra_dec_z_lss_catalogue",
+          "exact_desi_random_catalogue"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_lss_random_ingestion_gate_v74",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_lss_random_source_gate_v73",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_exact_lss_source_gate_v77",
+        "missing": [
+          "exact_lss_clustering_rows_ge_800",
+          "exact_random_rows_ge_800",
+          "alpha_high_density",
+          "alpha_low_density",
+          "delta_alpha",
+          "sky_shuffle_p_le_0p05",
+          "density_label_shuffle_p_le_0p05",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_measured_confirm_gate_v22",
+        "missing": [
+          "density_split_measured",
+          "covariance_ready",
+          "nulls_done",
+          "sign_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v25",
+        "missing": [
+          "density_split_catalogues_loaded",
+          "random_catalogue_loaded",
+          "alpha_high_low_measured",
+          "nulls_pass",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v26",
+        "missing": [
+          "alpha_high_low_measured",
+          "nulls_pass",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v27",
+        "missing": [
+          "density_split_catalogues_loaded",
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "nulls_pass",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v28",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v29",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v30",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v31",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v32",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v33",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v34",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v35",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v36",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v37",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v38",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v39",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v40",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v41",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v42",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v43",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v44",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v45",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p33_publication_confirm_gate_v46",
+        "missing": [
+          "alpha_high_low_measured",
+          "covariance_ready",
+          "density_label_shuffle_pass",
+          "sky_shuffle_pass",
+          "redshift_jackknife_stable",
+          "delta_alpha_nonzero"
+        ],
+        "prediction_id": "P33",
+        "prediction_name": "P33 density-BAO covariance/null scaffold",
+        "status": "p33_density_bao_alpha_measurement_required_v80",
+        "test_id": "R10-T07"
+      },
+      {
+        "gate": "p35_archive_pkxi_harmonic_gate_v78",
+        "missing": [
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_exact_pkxi_harmonic_gate_v76",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_extended_pk_xi_harmonic_gate_v75",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_harmonic_pk_gate_v71",
+        "missing": [
+          "public_pk_or_power_spectrum_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_lss_pk_harmonic_gate_v72",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_lss_pk_xi_harmonic_gate_v74",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_lss_pk_xi_source_gate_v73",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_pkxi_fits_alias_gate_v80",
+        "missing": [
+          "phase_randomized_p_le_0p05",
+          "bootstrap_spacing_stability_fraction_ge_0p8"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_pkxi_source_gate_v77",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p35_strict_pkxi_harmonic_gate_v79",
+        "missing": [
+          "public_lss_pk_or_xi_table",
+          "harmonic_peaks_ge_4",
+          "phase_randomized_p_le_0p05",
+          "bootstrap_spacing_stability_fraction_ge_0p8"
+        ],
+        "prediction_id": "P35",
+        "prediction_name": "P35 BAO harmonic-comb proxy readiness-positive",
+        "status": "harmonic_proxy_positive_ready",
+        "test_id": "R10-T08"
+      },
+      {
+        "gate": "p3_endpoint_archive_parser_gate_v78",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows_ge_20",
+          "endpoint_redshift_rows_ge_20",
+          "orientation_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_catalogue_gate_v74",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows",
+          "endpoint_redshift_null",
+          "orientation_shuffle_null"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_edge_parser_gate_v75",
+        "missing": [
+          "endpoint_redshift_null",
+          "orientation_shuffle_null"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_graph_parser_gate_v80",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows_ge_20",
+          "endpoint_redshift_rows_ge_20",
+          "orientation_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_orientation_gate_v76",
+        "missing": [
+          "strict_endpoint_or_node_pair_rows_ge_20",
+          "endpoint_redshift_rows_ge_20",
+          "orientation_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_recovery_gate_v70",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows",
+          "endpoint_redshift_null",
+          "orientation_shuffle_null"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_recovery_gate_v71",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows",
+          "endpoint_redshift_null",
+          "orientation_shuffle_null"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_semantic_gate_v72",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows",
+          "endpoint_redshift_null",
+          "orientation_shuffle_null"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_endpoint_semantic_source_gate_v73",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows",
+          "endpoint_redshift_null",
+          "orientation_shuffle_null"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_fits_endpoint_parser_gate_v79",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows_ge_20",
+          "endpoint_redshift_rows_ge_20",
+          "orientation_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p3_real_endpoint_source_gate_v77",
+        "missing": [
+          "explicit_endpoint_or_node_pair_rows_ge_20",
+          "endpoint_redshift_rows_ge_20",
+          "orientation_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P3",
+        "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
+        "status": "endpoint_data_limited",
+        "test_id": "R10-T09"
+      },
+      {
+        "gate": "p38_measurement_ingest_gate_v51",
+        "missing": [
+          "void_catalogue_loaded",
+          "n_voids_ge_100"
+        ],
+        "prediction_id": "P38",
+        "prediction_name": "P38 void morphology robust-confirm null hardening",
+        "status": "void_morphology_artifact_backed_confirm_like_v54",
+        "test_id": "R10-T10"
+      },
+      {
+        "gate": "p38_void_measurement_gate_v52",
+        "missing": [
+          "n_voids_ge_100",
+          "radius_preserving_spatial_null",
+          "catalogue_file_hash"
+        ],
+        "prediction_id": "P38",
+        "prediction_name": "P38 void morphology robust-confirm null hardening",
+        "status": "void_morphology_artifact_backed_confirm_like_v54",
+        "test_id": "R10-T10"
+      },
+      {
+        "gate": "p38_void_measurement_gate_v53",
+        "missing": [
+          "void_catalogue_loaded",
+          "n_voids_ge_100",
+          "source_hashes_present",
+          "independent_positive_families",
+          "leave_one_catalogue_positive",
+          "radius_preserving_spatial_null",
+          "radius_statistic_positive"
+        ],
+        "prediction_id": "P38",
+        "prediction_name": "P38 void morphology robust-confirm null hardening",
+        "status": "void_morphology_artifact_backed_confirm_like_v54",
+        "test_id": "R10-T10"
+      },
+      {
+        "gate": "p8_par_coordinate_weighted_confirm_gate_v50",
+        "missing": [
+          "par_coordinates_with_hashes",
+          "residual_or_toa_weights_loaded",
+          "kappa_samples_at_pulsars",
+          "weighted_statistic",
+          "sky_shuffle_p_le_005"
+        ],
+        "prediction_id": "P8/P8c",
+        "prediction_name": "P8/P8c NANOGrav κ-sky positive-ready",
+        "status": "pta_density_cross_confirm_like_v80",
+        "test_id": "R10-T16"
+      },
+      {
+        "gate": "p8_pta_confirm_gate_v48",
+        "missing": [
+          "pulsar_coordinates_parsed",
+          "residual_or_toa_weights_loaded",
+          "kappa_map_sampled_at_pulsars",
+          "sky_shuffle_null"
+        ],
+        "prediction_id": "P8/P8c",
+        "prediction_name": "P8/P8c NANOGrav κ-sky positive-ready",
+        "status": "pta_density_cross_confirm_like_v80",
+        "test_id": "R10-T16"
+      },
+      {
+        "gate": "p8_weighted_statistic_confirm_gate_v49",
+        "missing": [
+          "pulsar_coordinates_parsed",
+          "par_file_source_hashes",
+          "residual_or_toa_weights_loaded",
+          "kappa_map_sampled_at_pulsars",
+          "weighted_statistic_reported",
+          "sky_shuffle_null"
+        ],
+        "prediction_id": "P8/P8c",
+        "prediction_name": "P8/P8c NANOGrav κ-sky positive-ready",
+        "status": "pta_density_cross_confirm_like_v80",
+        "test_id": "R10-T16"
+      },
+      {
+        "gate": "cl2_pta_density_confirm_gate_v48",
+        "missing": [
+          "finite_pulsar_kappa_samples",
+          "residual_or_toa_weights_loaded",
+          "weighted_kappa_residual_statistic",
+          "sky_shuffle_p_le_005"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "cl2_pta_weighted_confirm_gate_v49",
+        "missing": [
+          "finite_pulsar_kappa_samples",
+          "residual_or_toa_weights_loaded",
+          "weighted_kappa_residual_statistic",
+          "sky_shuffle_p_le_005",
+          "sign_predeclared"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "cl2_weighted_pta_confirm_gate_v51",
+        "missing": [
+          "pulsar_coordinates_hashed",
+          "residual_or_toa_weights_loaded",
+          "kappa_samples_at_pulsars",
+          "weighted_statistic_numeric",
+          "sky_shuffle_p_le_0p05",
+          "top_weight_removal_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "cl2_weighted_statistic_confirm_gate_v50",
+        "missing": [
+          "weighted_statistic_file",
+          "sky_shuffle_p_le_005",
+          "top_weight_removal_stable",
+          "sign_predeclared"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_public_residual_kappa_source_gate_v73",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_residual_kappa_join_builder_gate_v74",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_residual_kappa_join_gate_v69",
+        "missing": [
+          "pulsar_coordinates_ge_20",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_residual_kappa_join_gate_v78",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_residual_kappa_pair_recovery_gate_v76",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_residual_kappa_public_only_gate_v72",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_residual_source_manifest_gate_v77",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_toa_weighted_residual_recovery_gate_v75",
+        "missing": [
+          "public_residual_kappa_pairs_ge_20",
+          "positive_public_weighted_statistic",
+          "public_one_sided_signed_sky_shuffle_p_le_0p05",
+          "public_top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v52",
+        "missing": [
+          "pulsar_coordinates_hashed",
+          "residual_or_toa_weights_loaded",
+          "kappa_samples_at_pulsars",
+          "weighted_statistic_numeric",
+          "sky_shuffle_p_le_005",
+          "top_weight_removal_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v53",
+        "missing": [
+          "pulsar_coordinates_hashed",
+          "residual_or_toa_weights_loaded",
+          "kappa_samples_at_pulsars",
+          "weighted_statistic_numeric",
+          "sky_shuffle_p_le_005",
+          "top_weight_removal_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v54",
+        "missing": [
+          "pulsar_coordinates_hashed",
+          "residual_or_toa_weights_loaded",
+          "kappa_samples_at_pulsars",
+          "weighted_statistic_numeric",
+          "sky_shuffle_p_le_005",
+          "top_weight_removal_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v55",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0.05",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v56",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "source_hashes_present",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0.05",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v57",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0.05",
+          "predeclared_sign",
+          "autobuilt_weighted_kappa_residual_measurement"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v58",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "weighted_statistic",
+          "autobuilt_real_pta_weighted_kappa_residual_measurement"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v59",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "weighted_statistic",
+          "autobuilt_real_pta_weighted_kappa_residual_measurement"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v60",
+        "missing": [
+          "autobuilt_real_pta_weighted_kappa_residual",
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "weighted_statistic",
+          "sky_shuffle_p"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v61",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "source_hashes_present",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v62",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "source_hashes_present",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v63",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "top_weight_removal_stable",
+          "source_hashes_present",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v64",
+        "missing": [
+          "coordinate_hashes_present",
+          "residual_or_toa_weights_present",
+          "kappa_samples_present",
+          "source_hashes_present",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05",
+          "top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v65",
+        "missing": [
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05",
+          "predeclared_sign",
+          "top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v66",
+        "missing": [
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05",
+          "predeclared_sign",
+          "top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v67",
+        "missing": [
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05",
+          "predeclared_sign",
+          "top_weight_removal_stable"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "pta_weighted_kappa_residual_gate_v68",
+        "missing": [
+          "pulsar_coordinates_hashed",
+          "weighted_statistic",
+          "sky_shuffle_p_le_0p05",
+          "top_weight_removal_stable",
+          "predeclared_sign"
+        ],
+        "prediction_id": "P8c/CL2",
+        "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
+        "status": "pta_weighted_kappa_residual_confirm_like_v80",
+        "test_id": "R10-T17"
+      },
+      {
+        "gate": "p32_archive_strain_resolver_gate_v80",
+        "missing": [
+          "two_distinct_local_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_eventapi_strain_index_gate_v75",
+        "missing": [
+          "two_distinct_local_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_multi_event_strain_gate_v70",
+        "missing": [
+          "at_least_two_events_with_public_strain",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_multi_event_strain_gate_v71",
+        "missing": [
+          "at_least_two_events_with_public_strain",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_multi_event_strain_gate_v72",
+        "missing": [
+          "two_distinct_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_multi_event_strain_likelihood_gate_v74",
+        "missing": [
+          "two_distinct_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_multi_event_strain_source_gate_v73",
+        "missing": [
+          "two_distinct_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_ringdown_confirm_gate_v48",
+        "missing": [
+          "psd_estimated",
+          "gr_ringdown_fit",
+          "residual_improves_gr",
+          "injection_nulls",
+          "detector_split",
+          "leave_one_event_out"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_second_event_local_resolver_gate_v79",
+        "missing": [
+          "two_distinct_local_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_second_event_source_gate_v77",
+        "missing": [
+          "two_distinct_local_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_second_event_url_resolver_gate_v78",
+        "missing": [
+          "two_distinct_local_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_second_strain_event_gate_v76",
+        "missing": [
+          "two_distinct_local_public_strain_events",
+          "min_detector_delta_chi2_ge_4",
+          "time_slide_p_le_0p05",
+          "leave_one_event_out_stable"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_strain_likelihood_confirm_gate_v49",
+        "missing": [
+          "psd_estimated",
+          "gr_ringdown_fit",
+          "delta_chi2_or_aic_reported",
+          "residual_improves_gr",
+          "injection_nulls",
+          "detector_split",
+          "leave_one_event_out"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_strain_likelihood_gate_v53",
+        "missing": [
+          "source_files_present",
+          "psd_estimated",
+          "gr_ringdown_fit",
+          "injection_nulls_pass",
+          "detector_split_pass",
+          "leave_one_event_out_pass",
+          "delta_chi2_gr_minus_ccdr_gte_4p0"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_strain_likelihood_gate_v54",
+        "missing": [
+          "source_files_present",
+          "psd_estimated",
+          "gr_ringdown_fit",
+          "injection_nulls_pass",
+          "detector_split_pass",
+          "leave_one_event_out_pass",
+          "delta_chi2_gr_minus_ccdr_gte_4p0"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      },
+      {
+        "gate": "p32_strain_likelihood_gate_v57",
+        "missing": [
+          "injection_null_passed",
+          "detector_split_passed",
+          "leave_one_event_out_stable",
+          "delta_chi2_gr_minus_ccdr_ge_4"
+        ],
+        "prediction_id": "P32",
+        "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
+        "status": "ringdown_strain_analysis_required_v80",
+        "test_id": "R10-T19"
+      }
+    ],
+    "n": 467
+  },
+  "claim_policy": "Only claim-grade *_confirm_like statuses count as non-SM confirmations. Coverage-confirmed, readiness, compatibility, and not-confirmed statuses are separated and never counted as confirmations.",
+  "n_current_inputs": 50,
+  "version": "v50_confirm_recovery_measurement_schema"
+}

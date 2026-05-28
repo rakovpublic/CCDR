@@ -1,0 +1,201 @@
+{
+  "artifact_version": "v74",
+  "claim_policy_v74": "v74 adds a second-route executable audit. Global P30 promotes only when SDSS plus Planck or Euclid independently pass same-mask statistic and sky/density null gates.",
+  "global_blockers_from_v70": {
+    "curl_abs_over_science_abs_after_control_subtraction": 1.7468824528458224,
+    "n_unrejected_control_subtracted_patches": 0,
+    "redshift_density_residualization": {
+      "available": true,
+      "euclid_delta": -0.18983175996764104,
+      "residualization_required": true,
+      "route_sign_disagreement": true,
+      "sdss_delta": 0.07886573620406669,
+      "sdss_jackknife_std": 0.02916987451348493
+    }
+  },
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "route_matrix": {
+    "euclid": {
+      "confirm_like": false,
+      "status": null,
+      "v74_route": {
+        "delta_after_redshift_density_residualization": -0.18983175996764104,
+        "delta_positive": false,
+        "density_shuffle_p": null,
+        "n_random_rows": 100000,
+        "n_sample_rows": 27001,
+        "random_paths": [
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_euclid_random_catalogue_v27.csv",
+            "sha256": "db86aadb5faa702c3652b25ac0f265a954c34ead0af4b1a6edc3e77c37f9f53e",
+            "size_bytes": 8203259
+          }
+        ],
+        "same_mask_candidate": true,
+        "sample_paths": [
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T06_v13_mer_sample__sync_529d278caa",
+            "sha256": "14454efd1ab25f913d23bcaadbab7c9bf18822d5cc50706c0b3edba46a639272",
+            "size_bytes": 73993
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v13_mer_sample__sync_529d278caa",
+            "sha256": "bbaa4c260942114603ab4455efdc38d8027651a134ae78fa251697ddd3c46c5b",
+            "size_bytes": 74361
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_v17_mer_sample__sync_de2c6a82bc",
+            "sha256": "386e7d4f61832ca989d594edcb3d89c30245a91d8c1848b9edab756fec554cca",
+            "size_bytes": 765535
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_0__sync_80b61015b8",
+            "sha256": "9c244f5b6baf8251792d8697bce85b10215983044e5305c305e2628a996f8c04",
+            "size_bytes": 37821
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_0__sync_ec228c6114",
+            "sha256": "78ab0e10b460aa71dc73eaaa9019e85569efa08ada8730fc650f1ed44e2be3bc",
+            "size_bytes": 4015
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_1__sync_1ecab28554",
+            "sha256": "46c07d98d4205baf7e785bd291622acc21842306b292e4c65dfa88caa8ea5b9f",
+            "size_bytes": 2761
+          }
+        ],
+        "sky_shuffle_p": null
+      }
+    },
+    "planck": {
+      "confirm_like": false,
+      "status": "density_kappa_planck_route_ready_v79",
+      "v74_route": {
+        "density_shuffle_p": null,
+        "n_planck_products": 16,
+        "product_paths": [
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+            "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+            "size_bytes": 205647
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_candidate__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+            "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+            "size_bytes": 8842
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt",
+            "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+            "size_bytes": 205647
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum_R3.01.txt",
+            "sha256": "06b64f4c97484008052bbbdd52f18f205fbcf7defb5ab33d5af30ab72f782c55",
+            "size_bytes": 8842
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-binned_R3.02.txt",
+            "sha256": "bd30fc1121c0d1c2e1a6ac997b30ac14ea1fdd42bc91ecc40d594c00463ffdb2",
+            "size_bytes": 5698
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-EE-full_R3.01.txt",
+            "sha256": "c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f",
+            "size_bytes": 135731
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-low-ell-BB-full_R3.01.txt",
+            "sha256": "0778f7ee5f8bad7702dad5b0abe1f365ea7d8f53ea720d421e0e94072daddb1e",
+            "size_bytes": 2167
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-binned_R3.02.txt",
+            "sha256": "191a588f9000885e931739ddb4f88717c29f79a45abd337837dac8032aed0137",
+            "size_bytes": 5698
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TE-full_R3.01.txt",
+            "sha256": "8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425",
+            "size_bytes": 135731
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-binned_R3.01.txt",
+            "sha256": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd",
+            "size_bytes": 7143
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__COM_PowerSpect_CMB-TT-full_R3.01.txt",
+            "sha256": "ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522",
+            "size_bytes": 170547
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__result_table_2018_68pcp120.pdf",
+            "sha256": "b6b4f55a1f6de7021981b3c5ade3008de1efe2c5ec534be0af4850c9c2e9170c",
+            "size_bytes": 294468
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec2__style_maps.css",
+            "sha256": "faa61a97c61133b3f061309f63faad7f0bd6b8dd3023cb69282420825ce5fd46",
+            "size_bytes": 2220
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__all-sky-maps",
+            "sha256": "ed38620e4efcda81f404b884e7042043343d4333b5e3544fe6b8e03928cc1b00",
+            "size_bytes": 35917
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__ancillary-data",
+            "sha256": "6e31676eb6c93cb4540ecae7d34eaf20d8a4329adf311bc5d69269d3b8bf2586",
+            "size_bytes": 77059
+          },
+          {
+            "exists": true,
+            "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T05_planck_rec__release_3",
+            "sha256": "c2b315f442e20c7ed8340b7c6dfa59747233ee971b305c2b8f444441ec2b2b96",
+            "size_bytes": 1099
+          }
+        ],
+        "same_mask_statistic_available": false,
+        "sky_shuffle_p": null
+      }
+    },
+    "sdss": {
+      "confirm_like": true,
+      "evidence": {
+        "base_sdss_gates": [],
+        "route_gate_v54_eligible": true,
+        "same_split_science_variants_pass": true,
+        "v70_gate_eligible": false,
+        "v70_status": "sdss_route_confirm_gate_passed"
+      },
+      "status": "sdss_route_confirm_gate_passed_v73_repaired"
+    }
+  },
+  "sdss_scoped_confirm_like": true,
+  "second_independent_route_confirm_like": false,
+  "status": "p30_second_route_still_not_confirmed_v74"
+}

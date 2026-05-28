@@ -1,0 +1,1057 @@
+{
+  "EL_branch": {
+    "best_data_positive_path": [
+      "T44"
+    ],
+    "current_nulls": [],
+    "early_path": [],
+    "recommended_next": "T44 WikiChip/TechInsights NAND exact parser",
+    "second_best_data_path": [],
+    "synthetic_positive_or_open": []
+  },
+  "anchors": [],
+  "biology_model_ready": [],
+  "bound_only": [],
+  "broad_nulls_with_open_narrow_path": [],
+  "confirm_targets_v52": [],
+  "confirm_targets_v53": [],
+  "confirm_targets_v54": [],
+  "confirm_targets_v55": [],
+  "confirm_targets_v56": [],
+  "confirm_targets_v57": [],
+  "confirm_targets_v58": [],
+  "confirm_targets_v59": [
+    {
+      "blocker_type_v59": "true_tier_a_nand_rows_required",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_audit_repair_required",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+      "rank_score_0_10_v59": 8,
+      "schema": "ccdr-tierb-confirm-target-v65-fast-t44",
+      "test_id": "T44"
+    }
+  ],
+  "data_limited_positive_paths": [],
+  "descriptor_paths_ready": [],
+  "engineering_paths_ready": [],
+  "fusion_secondary_diagnostics": [],
+  "materials_flagship": [],
+  "physical_positive_leads": [],
+  "positive_path_priorities_v22": [
+    {
+      "path": "EL1/EL3 3D NAND exact parser",
+      "rank": 1,
+      "status": null,
+      "test_id": "T44"
+    }
+  ],
+  "positive_warnings": [],
+  "public_claim_check_v57": {
+    "allowed_confirm_source": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now": [],
+    "message_v57": "Public confirm claims must be copied only from v57_confirm_status.confirmed_now.",
+    "pass_v57": true,
+    "schema": "ccdr-public-claim-check-v57"
+  },
+  "public_claim_check_v58": {
+    "allowed_confirm_source": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_public_now": [],
+    "message_v58": "Only confirmed_public_now may be used for public confirm claims.",
+    "pass_v58": false,
+    "schema": "ccdr-public-claim-check-v58"
+  },
+  "public_claim_check_v59": {
+    "allowed_confirm_source": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_public_now": [],
+    "message_v59": "Only confirmed_public_now may be used for public confirm claims.",
+    "pass_v59": false,
+    "schema": "ccdr-public-claim-check-v59"
+  },
+  "readiness_positive": [],
+  "recommended_next": [
+    "T48b: use the v38 final gate; promote only if sign + AIC/BIC + family BH-FDR + tandem/concentrator exclusion pass.",
+    "T44: expand NAND normalized rows to at least 20 and require manufacturer jackknife stability.",
+    "T53: replace proxy-only structure flags with true PDB/AlphaFold symmetry/contact features and rerun jackknife.",
+    "T31/T32: join microstructure metadata to kappa(T) rows before any confirmation language.",
+    "T34: recover headers in teMatDb/Starrydata exports and require orientation/grain-angle ZT rows.",
+    "Fusion: only score downloaded structured measurement files, never OSF/Zenodo metadata wrappers.",
+    "T57/T59: use exact HEPData record/table/column registry and official YAML/JSON.",
+    "T45/T47: use exact benchmark tables; keep as lower priority than T44/T48/T53.",
+    "T60: keep T60a as anchor only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v39": [
+    "Freeze T48b as compatible_positive and run robustness-only checks rather than moving the goalpost.",
+    "T44: expand NAND normalized rows to >=20 and run manufacturer jackknife.",
+    "T31/T32: normalize temperature_K/kappa_W_mK in joined microstructure rows and run source/material jackknife.",
+    "T53: use PDB/AlphaFold/UniProt symmetry_order, oligomeric_state, contact_network_regularity, assay/family/sequence jackknife.",
+    "T34: recover teMatDb/Starrydata headers into orientation/grain-angle ZT rows.",
+    "T57/T59: fill exact HEPData record/table/column registry and parse official YAML/JSON.",
+    "T45/T47: exact optical and neuromorphic benchmark parsers; lower priority than T44/T48/T53.",
+    "Fusion: lower priority until exact public measurement attachments are available.",
+    "T60: keep anchor-only until T60b/T60c/T60d pass with uncertainty-aware inputs."
+  ],
+  "recommended_next_v40": [
+    "T48b: preserve compatible_positive and run robustness only: leave-one-family-out, certification-source jackknife, year-block jackknife.",
+    "T44: use Tier A/B NAND rows only; require positive layer coefficient and manufacturer jackknife.",
+    "T31/T32: normalize temperature_K/kappa_W_mK and run narrow grain/nano branch only.",
+    "T53: add real PDB/AlphaFold symmetry/contact proxies and DMS outcome jackknife.",
+    "T34: recover exact thermoelectric headers and map Bi2Te3/Sb2Te3 orientation/ZT rows.",
+    "T57/T59: fill exact HEPData record/table/column registry and parse official YAML/JSON.",
+    "T45/T47: exact benchmark tables only; lower priority than T44/T31/T53.",
+    "Fusion: exact public measurement attachments only; no metadata/PDF scoring.",
+    "T60: keep anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v41": [
+    "T48b/T44: preserve confirms and run robustness dashboards only; do not move gates.",
+    "T53: complete final DMS/PDB/AlphaFold structure-contact proxy model with family/assay/sequence jackknife.",
+    "T31/T32: normalize temperature_K/kappa_W_mK and test only the narrow grain/nano branch.",
+    "T34: map exact thermoelectric exports into Bi2Te3/Sb2Te3 orientation/ZT rows.",
+    "T57/T59: exact HEPData registry only, with record/table/column names and YAML/JSON parse.",
+    "T45/T47: exact public benchmark rows only; lower ROI than T53/T31/T34.",
+    "Fusion: exact structured public measurement attachments only; no metadata/PDF scoring.",
+    "T60: keep anchor-only until T60b/T60c/T60d pass with uncertainty-aware inputs."
+  ],
+  "recommended_next_v42": [
+    "T48b/T44: preserve frozen confirms; run robustness dashboards only, no moving gates.",
+    "T53: final DMS/PDB/AlphaFold proxy model with family/assay/sequence jackknife.",
+    "T31/T32: strict narrow grain/nano \u03ba(T)+microstructure model only.",
+    "T34: exact thermoelectric Bi2Te3/Sb2Te3 orientation/ZT mapping and cos(6\u03b8) model.",
+    "T57/T59: explicit HEPData record/table/column registry and official YAML/JSON fetch order.",
+    "T45: exact optical energy/bit + bandwidth + reach benchmark rows.",
+    "T47: exact neuromorphic energy/inference + accuracy benchmark rows.",
+    "Fusion: exact structured measurement attachments only; metadata/schema/PDF remain rejected.",
+    "T60: preserve anchor-only until T60b/T60c/T60d full null suite passes."
+  ],
+  "recommended_next_v43": [
+    "T48b/T44: preserve frozen confirms; run robustness dashboards only, no moving gates.",
+    "T53: final DMS/PDB/AlphaFold proxy model with family/assay/sequence jackknife.",
+    "T31/T32: strict narrow grain/nano \u03ba(T)+microstructure model only.",
+    "T34: exact thermoelectric Bi2Te3/Sb2Te3 orientation/ZT mapping and cos(6\u03b8) model.",
+    "T57/T59: explicit HEPData record/table/column registry and official YAML/JSON fetch order.",
+    "T45: exact optical energy/bit + bandwidth + reach benchmark rows.",
+    "T47: exact neuromorphic energy/inference + accuracy benchmark rows.",
+    "Fusion: exact structured measurement attachments only; metadata/schema/PDF remain rejected.",
+    "T60: preserve anchor-only until T60b/T60c/T60d full null suite passes."
+  ],
+  "recommended_next_v44": [
+    "T48b/T44: preserve frozen confirms; run robustness dashboards only, no moving gates.",
+    "T53: final DMS/PDB/AlphaFold proxy model with bootstrap or BH-FDR and family/assay/sequence jackknife.",
+    "T31/T32: strict narrow grain/nano \u03ba(T)+microstructure model only.",
+    "T34: exact thermoelectric Bi2Te3/Sb2Te3 orientation/ZT mapping and cos(6\u03b8) model.",
+    "T57/T59: explicit HEPData record/table/column registry and official YAML/JSON fetch order.",
+    "T45: exact optical energy/bit + bandwidth + reach benchmark rows.",
+    "T47: exact neuromorphic energy/inference + accuracy benchmark rows.",
+    "Fusion: exact structured measurement attachments only; metadata/schema/PDF remain rejected.",
+    "T60: preserve anchor-only until T60b/T60c/T60d full null suite passes."
+  ],
+  "recommended_next_v45": [
+    "Do robustness-only auditing for frozen confirms T48b and T44; do not move their gates.",
+    "Prioritize T53 final DMS/PDB/AlphaFold proxy model for the next independent confirmation.",
+    "Fix strict temperature_K/kappa_W_mK/grain-size normalization for T31/T32 measured grain/nano branch.",
+    "Fix T34 exact thermoelectric exports for Bi2Te3/Sb2Te3 orientation/ZT rows.",
+    "Keep fusion low priority until exact structured measurement attachments are known.",
+    "Use exact HEPData record/table/column registries for T57/T59; no broad search.",
+    "Run T45/T47 only on exact benchmark tables; keep T50-T52 bound-only and T60a anchor-only."
+  ],
+  "recommended_next_v46": [
+    "T48b/T44: robustness-only dashboards; frozen confirms, do not move gates.",
+    "T53: final DMS/PDB/AlphaFold model with bootstrap CI or BH-FDR and family/assay/sequence jackknife.",
+    "T31/T32: strict grain/nano kappa(T)+microstructure parser and model; broad T^0.5 remains pressure/control.",
+    "T34: exact thermoelectric Bi2Te3/Sb2Te3 export parser and cos(6theta) model.",
+    "T57/T59: exact HEPData record/table/column registry only.",
+    "T45/T47: exact public benchmark rows only, after T53/T31/T34.",
+    "Fusion: exact structured measurement attachments only; metadata/schema/PDF rejected.",
+    "T50-T52: bound-only forever; T60a anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v47": [
+    "T48b/T44: frozen confirms; robustness dashboards only, no moving gates.",
+    "T44: recover real Tier-A NAND rows and independent source-domain audit.",
+    "T53: final DMS/PDB/AlphaFold model with bootstrap CI/BH-FDR and family/assay/sequence jackknife.",
+    "T31/T32: strict grain/nano kappa(T)+microstructure parser; broad T^0.5 remains pressure/control.",
+    "T34: exact thermoelectric Bi2Te3/Sb2Te3 export parser and cos(6theta) model.",
+    "T57/T59: exact HEPData record/table/column registry only.",
+    "T45/T47: exact public benchmark rows only, after T53/T31/T34.",
+    "Fusion: exact structured measurement attachments only; metadata/schema/PDF rejected.",
+    "T50-T52: bound-only forever; T60a anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v48": [
+    "T48b/T44: frozen confirms; robustness dashboards only, no gate changes.",
+    "T44: recover real Tier-A NAND rows with complete company/year/layers/capacity/die_area/bits_per_cell/source_url fields.",
+    "T53: complete ProteinGym DMS outcome to UniProt/PDB/AlphaFold structural proxy join and run bootstrap/BH-FDR + family/assay/sequence jackknife.",
+    "T31/T32: strict measured grain/nano kappa(T)+microstructure parser; broad T^0.5 remains pressure/control.",
+    "T34: exact teMatDb/Starrydata Bi2Te3/Sb2Te3 export parser and cos(6theta) model.",
+    "T57/T59: exact HEPData record/table/column registry only; no broad discovery.",
+    "T45/T47: exact public benchmark tables only after T53/T31/T34.",
+    "Fusion: exact structured measurement attachments only; missing-output/timeouts are surfaced separately.",
+    "T50-T52: bound-only forever; T60a anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v49": [
+    "T31/T32: make the measured grain/nano kappa(T)+microstructure model pass temperature-baseline and material/source/temperature jackknife gates; this is the fastest Confirm #3 route.",
+    "T48b/T44: frozen confirms; robustness dashboards only, no gate changes.",
+    "T44: recover real Tier-A NAND rows with complete company/year/layers/capacity/die_area/bits_per_cell/source_url fields.",
+    "T53: complete ProteinGym DMS outcome to UniProt/PDB/AlphaFold structural proxy join and run bootstrap/BH-FDR plus family/assay/sequence jackknife.",
+    "T34: exact teMatDb/Starrydata Bi2Te3/Sb2Te3 export parser and cos(6theta) model.",
+    "T57/T59: exact HEPData record/table/column registry only; no broad discovery.",
+    "T45/T47: exact public benchmark tables only after T31/T32/T53/T34.",
+    "Fusion: exact structured measurement attachments only; missing-output/timeouts are surfaced separately.",
+    "T50-T52: bound-only forever; T60a anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v50": [
+    "T31/T32: adaptive grain-size and boundary-density kappa(T)+microstructure models; Confirm #3 only if AIC/BIC, sign, bootstrap, material/source/temperature jackknives all pass.",
+    "T48b/T44: frozen confirms; robustness dashboards only, no gate changes.",
+    "T44: recover real Tier-A NAND rows with company/year/layers/capacity/die_area/bits_per_cell/source_url; derived die-area rows are audit-only.",
+    "T53: complete ProteinGym DMS outcome to UniProt/PDB/AlphaFold structural proxy join and run bootstrap/BH-FDR plus family/assay/sequence jackknife.",
+    "T34: exact teMatDb/Starrydata Bi2Te3/Sb2Te3 export parser and cos(6theta) model.",
+    "T57/T59: exact HEPData record/table/column registry only; no broad discovery.",
+    "T45/T47: exact public benchmark tables only after T31/T32/T53/T34.",
+    "Fusion: exact structured measurement attachments only; missing-output/timeouts are surfaced separately.",
+    "T50-T52: bound-only forever; T60a anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v51": [
+    "T31/T32: measured microstructure only; proxy-only rows cannot confirm. Require grain/boundary-density model to beat temperature baseline with grouped bootstrap and material/source/temperature jackknife.",
+    "T44: frozen confirm; true Tier-A audit only with company/year/layers/capacity/die_area/bits_per_cell/source_url.",
+    "T48b: frozen compatible-positive; robustness-only leave-one-family/source/year descriptor audit.",
+    "T53: real ProteinGym DMS to UniProt/PDB/AlphaFold join; then bootstrap/BH-FDR and family/assay/sequence jackknife.",
+    "T34: exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle rows; no generic thermoelectric pages.",
+    "Fusion T26-T30: exact structured measurement attachments only; metadata/schema/search/PDF rejected.",
+    "T57/T59: exact HEPData record/table/column manifests only.",
+    "T45/T47: exact benchmark tables only; generic hardware pages do not score.",
+    "T50-T52: bound-only forever; T60a anchor-only until T60b/T60c/T60d pass."
+  ],
+  "recommended_next_v52": [
+    "Use only v52_confirm_status.confirmed_now for public confirm claims; v52 demotes audit conflicts such as T44 zero true Tier-A rows.",
+    "T48b remains the strongest compatible-positive, but publication-grade status requires descriptor model + absorber-family/source/year jackknife + permutation null artifacts.",
+    "T31/T32 remain the highest physical near-confirm path: measured \u03ba(T)+microstructure rows only, with grouped bootstrap and material/source/temperature jackknives.",
+    "T53 needs ProteinGym -> UniProt/PDB/AlphaFold joined rows and family/assay/sequence jackknives before confirm language.",
+    "T34/T45/T47/T57/T59 should run only from exact manifests; broad discovery is diagnostic only.",
+    "Fusion T26-T30 should report source-contract failures by missing required column group until exact measurement attachments exist.",
+    "T50-T52 are bound-only; T60a is an anchor only until quark/lattice, sector-reshuffle, and look-elsewhere gates pass."
+  ],
+  "recommended_next_v53": [
+    "Use only v53_confirm_status.confirmed_now for public confirm claims; legacy v51/v52 confirm fields are audit inputs, not claim gates.",
+    "T48b compatible-positive is preserved; publication-grade layer now separately recovers PV descriptor rows and audits absorber-family/source/year robustness.",
+    "T44 stays demoted until true Tier-A NAND rows include company/year/layers/capacity/die_area/bits_per_cell/source_url; derived die-area rows are audit-only.",
+    "T31/T32 confirmation now requires dedup measured microstructure rows, >=5 source groups, >=5 material families, >=3 temperature bins, and temperature-bin residual gates.",
+    "T53 confirmation now requires ProteinGym outcome joined to UniProt/PDB/AlphaFold features plus family/assay/sequence jackknives.",
+    "T34 requires exact Bi2Te3/Sb2Te3 ZT+temperature+orientation/grain-angle export rows; generic thermoelectric pages remain rejected.",
+    "T57/T59 require exact HEPData record/table/column manifests; broad HEP search URLs are discovery-only.",
+    "Fusion T26-T30 now writes missing required column-group diagnostics until exact public measurement attachments exist.",
+    "T50-T52 remain bound-only; T60a remains anchor-only until quark/lattice, sector-reshuffle, and look-elsewhere gates pass."
+  ],
+  "recommended_next_v54": [
+    "Fusion T29 is now the strongest preliminary public fusion path: extract Stroth 2021 W7-X/AUG/W7-AS comparison tables, but keep it preliminary until raw/structured rows pass controls.",
+    "Fusion T28 has the strongest public summary anchor through Verdoolaege 2021 DB5.2.3-STD5; use summary/regression tables as ingredient support only unless exact row files are downloaded.",
+    "Fusion T27 can use Paz-Soldan 2024 as suggestive RMP-ELM compilation; no raw per-discharge table means no confirm language.",
+    "Fusion T26 remains blocked for rigorous confirmation; digitized figures from Loarte/ITPA/JET/AUG/MAST papers are partial trend diagnostics only.",
+    "Fusion T30 stays low-priority and should inherit exact rows from T28/T29 if those become available.",
+    "Public confirm claims still use only v54_confirm_status.confirmed_now; fusion paper anchors are not confirmations."
+  ],
+  "recommended_next_v55": [
+    "Fusion T29 now has a real public-source parser for Stroth 2021 PDF text/tables; use it for a preliminary structured-public test only, not strict confirmation.",
+    "Fusion T28 now parses Verdoolaege/DB5.2.3 summary and regression rows plus probes OSF for structured attachments; full DB5 per-timeslice rows are still required for confirmation.",
+    "Fusion T27 now parses Paz-Soldan RMP-ELM text/table summaries; treat extracted rows as suggestive only until raw per-discharge rows exist.",
+    "Fusion T26 now parses ELM-loss/pedestal summary or figure-context rows; treat as partial trend support only until public per-shot ELM/pedestal rows exist.",
+    "Fusion T30 remains a derived secondary diagnostic depending on future exact T28/T29 row releases.",
+    "Public confirm claims still use only v55_confirm_status.confirmed_now; parsed PDF rows do not override the strict raw-row gate."
+  ],
+  "recommended_next_v56": [
+    "Use only v56_confirm_status.confirmed_now for public confirm claims; currently this should preserve T48 unless a later run adds another strict v56-confirmed test.",
+    "T31/T32: fix/monitor missing-output and require dedup measured \u03ba(T)+SEM/TEM/XRD rows, >=5 sources, >=5 material families, >=3 temperature bins, sign/bootstrap/jackknife gates.",
+    "T53: implement real ProteinGym -> UniProt/PDB/AlphaFold join rows and family/assay/sequence jackknife before confirmation language.",
+    "T44: no frozen strict claim; require true Tier-A NAND rows with company/year/layers/capacity/die_area/bits_per_cell/source_url.",
+    "T29: improve Stroth table extraction for preliminary evidence only; strict fusion confirmation still requires raw public profile/transport rows.",
+    "T50-T52: keep bound-only and never rank as positive confirm targets."
+  ],
+  "recommended_next_v57": [
+    "Use only v57_confirm_status.confirmed_now for public confirm claims.",
+    "T31/T32: standalone run_materials_confirm_v57.py now emits row rejection diagnostics and strict gate CSVs even when all-test discovery fails.",
+    "T44: exact Tier-A NAND rows are required; derived die-area rows remain audit-only.",
+    "T53: real ProteinGym -> UniProt/PDB/AlphaFold joined rows are required before model/FDR confirmation language.",
+    "T29: raw PDF text-block extraction is debug-only; strict fusion confirmation still requires public row tables.",
+    "T50-T52 remain bound-only by design."
+  ],
+  "recommended_next_v58": [
+    "Use only v58_confirm_only_dashboard.confirmed_public_now for public confirm claims; currently T48 only.",
+    "T31/T32: load strict measured \u03ba(T)+SEM/TEM/XRD rows and pass source/material/temp-bin jackknife gates.",
+    "T44: require true Tier-A NAND rows; derived die-area rows remain audit-only.",
+    "T53: complete ProteinGym -> UniProt/PDB/AlphaFold model with FDR/bootstrap and family/assay/sequence jackknives.",
+    "T34/T45/T47/T57/T59: exact manifests/tables only; broad discovery is diagnostic.",
+    "T26-T30: fusion PDFs/summaries are diagnostic only; strict confirm requires exact physical row tables.",
+    "T50-T52 bound-only and T60 anchor-only must not be promoted."
+  ],
+  "recommended_next_v59": [
+    "T31/T32: add real measured \u03ba(T)+SEM/TEM/XRD rows and pass grouped bootstrap/jackknife gates.",
+    "T44: fill exact NAND source manifest with true die_area_mm2 and bits_per_cell; derived rows stay audit-only.",
+    "T53: complete ProteinGym->UniProt/PDB/AlphaFold join plus FDR/bootstrap.",
+    "T34/T57/T59/T45/T47: use exact manifests only; broad discovery is not evidence.",
+    "T26-T30: keep fusion diagnostic until exact public physical row tables appear.",
+    "T50-T52 bound-only and T60 anchor-only must not be promoted."
+  ],
+  "schema": "ccdr-tierb-positive-dashboard-v59",
+  "status_split_counts_v52": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "status_split_counts_v53": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "status_split_counts_v54": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "status_split_counts_v55": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "status_split_counts_v56": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "status_split_counts_v57": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "status_split_counts_v58": {
+    "confirmation": {
+      "unknown": 1
+    },
+    "data": {
+      "unknown": 1
+    },
+    "evidence": {
+      "unknown": 1
+    },
+    "execution": {
+      "unknown": 1
+    }
+  },
+  "tests": [
+    {
+      "best_auto_data_source_next": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+      "confirm_allowed_now": false,
+      "confirm_target_v59": {
+        "blocker_type_v59": "true_tier_a_nand_rows_required",
+        "confirmation_legally_possible_v59": true,
+        "confirmation_status_v59": "not_confirmed_audit_repair_required",
+        "expected_effort_v59": "medium",
+        "next_data_source_v59": "data/exact_sources/nand rows with company/year/layers/capacity_Gb/die_area_mm2/bits_per_cell/source_url",
+        "rank_score_0_10_v59": 8,
+        "schema": "ccdr-tierb-confirm-target-v65-fast-t44",
+        "test_id": "T44"
+      },
+      "confirmation_label": "not_confirmed_audit_repair_required",
+      "near_confirm_score": {
+        "score_0_10": 8,
+        "strict_gate_remaining": [
+          "true_tier_a_nand_rows_required"
+        ]
+      },
+      "single_next_blocker": "true_tier_a_nand_rows_required",
+      "status_split_v59": {
+        "confirmation_status_v59": "not_confirmed_audit_repair_required",
+        "data_status_v59": "true_tier_a_nand_rows_required",
+        "evidence_status_v59": "audit_repair_route",
+        "execution_status_v59": "ok"
+      },
+      "strict_confirm_allowed_now": false,
+      "test_id": "T44",
+      "verdict": "data_limited_exact_nand_rows_required",
+      "why_not_confirmed": "true_tier_a_nand_rows_required"
+    }
+  ],
+  "v23_priority_paths": [
+    {
+      "path": "EL1/EL3 3D NAND exact parser",
+      "rank": 4,
+      "status": null,
+      "test_id": "T44"
+    }
+  ],
+  "v24_priority_paths": [
+    {
+      "path": "EL1/EL3 3D NAND exact parser and layer model",
+      "rank": 4,
+      "status": null,
+      "test_id": "T44"
+    }
+  ],
+  "v25_priority_order": [
+    "T60a Koide anchor with random-triplet null",
+    "T31 grain/nano materials flagship",
+    "T44 EL1/EL3 NAND exact parser/model",
+    "T53 OrganismalFitness residual model + PDB/UniProt enrichment",
+    "T48b PV descriptor model",
+    "T45 EL8 optical interconnect unit extractor",
+    "T46b optimized coding search",
+    "T47 neuromorphic exact benchmark rows",
+    "Fusion secondary numeric-line diagnostics"
+  ],
+  "v25_recommended_next": [
+    "Run T44 parser first and fit layer-vs-year baseline when N>=20.",
+    "Use OrganismalFitness outcome in T53 and add PDB/UniProt symmetry/contact proxy.",
+    "Grow T31 grain/nano rows to >=10 decisive rows and >=10-20 fits.",
+    "Run T48b descriptor model with BH-FDR family q-values.",
+    "Extract T45 pJ/bit + bandwidth + reach rows from exact PDFs.",
+    "Export fusion_secondary_rows.csv from exact PDF numeric context rows; keep non-decisive."
+  ],
+  "v26_confirm_status": {
+    "EL_confirm_candidates": [
+      {
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "bound_only": [],
+    "confirmed_consistency_anchors": [],
+    "data_limited_exact_table_needed": [],
+    "descriptor_model_confirm_candidates": [],
+    "fusion_secondary_only": [],
+    "near_confirm_physical_leads": [],
+    "readiness_to_confirm_candidates": []
+  },
+  "v26_priority_order": [
+    "T44 EL1/EL3 NAND exact rows/model",
+    "T31 grain/nano materials expansion",
+    "T48b PV descriptor confirm model",
+    "T53 OrganismalFitness + PDB/UniProt model",
+    "T45 EL8 optical unit rows",
+    "T60a Koide consistency anchor nulls",
+    "T46b optimizer engineering search",
+    "Fusion secondary rows only"
+  ],
+  "v26_recommended_next": [
+    "Run T44 exact NAND normalized-row parser first; confirm target is N>=20 and layer model beats year-only/manufacturer baseline.",
+    "Grow T31 grain/nano decisive rows to >=10 and rerun material-family/source jackknives.",
+    "Run T48b descriptor PV model with BH-FDR family q-values and tandem/concentrator exclusions.",
+    "Use OrganismalFitness in T53 and add PDB/UniProt symmetry/contact proxy before confirm language.",
+    "Extract T45 pJ/bit + bandwidth + reach rows from exact optical-interconnect PDFs.",
+    "Keep fusion as secondary diagnostic; export fusion_secondary_rows.csv and do not mark confirm without primary event/profile tables.",
+    "Surface T60 random-triplet + sector/look-elsewhere nulls in every T60 run."
+  ],
+  "v27_confirm_execution_status": {
+    "EL_confirm_execution_candidates": [
+      {
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "bound_only": [],
+    "confirmed_consistency_anchors": [],
+    "descriptor_model_confirm_candidates": [],
+    "exact_table_needed": [],
+    "fusion_secondary_only": [],
+    "near_confirm_physical_leads": [],
+    "readiness_to_confirm_candidates": []
+  },
+  "v27_priority_order": [
+    "T44 EL1/EL3: generate normalized NAND rows and run layer-vs-year model",
+    "T31/T32 materials: expand grain/nano rows and run jackknives",
+    "T48b PV: run descriptor model with family BH-FDR",
+    "T60: keep Koide anchor and run sector/look-elsewhere gates",
+    "T53: OrganismalFitness + PDB/UniProt symmetry/contact model",
+    "T45 EL8: extract optical pJ/bit + bandwidth + reach rows",
+    "T46b: real optimizer with BP/min-sum and matched baselines",
+    "Fusion: export secondary numeric context rows; primary confirm only from event/profile tables"
+  ],
+  "v27_recommended_next": [
+    "Implement/inspect data/generated/t44_nand_exact_rows_v27.csv first; confirm target N>=20 and layer model beats year-only/manufacturer baseline.",
+    "Grow grain_size_known_manifest_v27.csv and rerun T31/T32 with source/material-family and temperature-window jackknives.",
+    "Run T48b descriptor PV model now; emit family coefficients, q-values, and tandem/concentrator exclusion.",
+    "Run T60 sector-reshuffle/look-elsewhere gates plus quark/lattice parser.",
+    "Switch T53 to OrganismalFitness and join PDB/UniProt symmetry/contact proxy.",
+    "Extract T45 exact optical-interconnect pJ/bit + bandwidth + reach rows.",
+    "Keep fusion secondary-only until primary event/profile tables pass all contract groups."
+  ],
+  "v28_confirm_status": {
+    "EL_confirm_candidates": [
+      {
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "bound_only": [],
+    "confirmed_consistency_anchors": [],
+    "descriptor_model_confirm_candidates": [],
+    "exact_table_needed": [],
+    "fusion_secondary_only": [],
+    "near_confirm_physical_leads": [],
+    "readiness_to_confirm_candidates": []
+  },
+  "v28_priority_order": [
+    "T44 EL1/EL3: data/generated/t44_nand_exact_rows_v28.csv and layer-vs-year model",
+    "T48b PV: run descriptor model with family BH-FDR q-values",
+    "T31/T32: expand grain_size_known_manifest_v28.csv and run jackknives",
+    "T60: keep Koide anchor, random-triplet null, sector/look-elsewhere gates",
+    "T53: OrganismalFitness + PDB/UniProt symmetry/contact model",
+    "T45 EL8: data/generated/t45_optical_interconnect_rows_v28.csv",
+    "Fusion: data/generated/fusion_secondary_rows_v28.csv; primary confirm only from event/profile tables"
+  ],
+  "v28_recommended_next": [
+    "Implement/inspect T44 NAND exact rows first; confirmation requires N>=20 and layer model beating year-only/manufacturer baseline.",
+    "Run T48b descriptor model now; row base is the largest potential confirm path.",
+    "Expand T31 grain/nano manifest to >=10 decisive rows and rerun T32b fixed-exponent comparison.",
+    "Run T60 quark/lattice parser plus sector reshuffling and look-elsewhere gates.",
+    "Switch T53 to OrganismalFitness/DMS_score and join PDB/UniProt symmetry/contact proxy.",
+    "Extract T45 optical pJ/bit + bandwidth + reach rows from exact PDFs.",
+    "Keep fusion secondary-only until primary event/profile tables pass all FR contract groups."
+  ],
+  "v29_confirm_status": {
+    "EL_confirm_candidates": [
+      {
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "bound_only": [],
+    "confirmed_consistency_anchors": [],
+    "descriptor_model_confirm_candidates": [],
+    "exact_table_needed": [],
+    "fusion_secondary_only": [],
+    "near_confirm_physical_leads": [],
+    "readiness_to_confirm_candidates": []
+  },
+  "v29_priority_order": [
+    "T44 EL1/EL3: extract normalized NAND rows and run layer-vs-year/manufacturer model",
+    "T48b PV: execute descriptor model with family BH-FDR q-values",
+    "T31/T32: expand grain-size manifest and run nanostructure-only exponent/model gates",
+    "T60: charged-lepton anchor plus random-triplet, sector-reshuffle, look-elsewhere, and T60b quark/lattice gates",
+    "T53: OrganismalFitness/DMS outcome with PDB/UniProt symmetry-contact proxy",
+    "T45 EL8: extract optical pJ/bit + bandwidth + reach rows",
+    "Fusion: export secondary numeric context rows only; primary confirmation requires event/profile tables"
+  ],
+  "v29_recommended_next": [
+    "Inspect data/generated/t44_nand_exact_rows_v29.csv; confirmation target is N>=20 with positive layer coefficient and AIC/BIC improvement.",
+    "Inspect data/generated/t48b_pv_descriptor_rows_v29.csv; run family coefficients and BH-FDR q-values.",
+    "Grow data/generated/grain_size_known_manifest_v29.csv to >=10 decisive rows and rerun T31/T32.",
+    "Add data/generated/t60_quark_lattice_masses_v29.csv to unlock T60b sector gate.",
+    "Add data/generated/t53_proteingym_enriched_rows_v29.csv with OrganismalFitness and PDB/UniProt proxy columns.",
+    "Inspect data/generated/t45_optical_interconnect_rows_v29.csv; target 8-15 exact rows.",
+    "Inspect data/generated/fusion_secondary_rows_v29.csv; keep it non-decisive unless primary tables appear."
+  ],
+  "v30_confirm_status": {
+    "bound_only": [],
+    "confirmed_consistency_anchors": [],
+    "descriptor_model_candidates": [],
+    "exact_table_needed_or_demoted": [],
+    "fusion_priority_T28_T30": [],
+    "fusion_secondary_only": [],
+    "near_confirm_physical_leads": [],
+    "physical_or_engineering_confirm_candidates": [
+      {
+        "confirm_allowed_now": null,
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "readiness_positive": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v30_priority_order": [
+    "1. T53 ProteinGym/DMS outcome + PDB/UniProt symmetry-contact residual gate",
+    "2. T31/T32 measured grain/nanocrystalline-only material gates",
+    "3. T44 exact 3D-NAND layer/capacity/die-area/bits-cell model",
+    "4. T48b-only PV descriptor/FDR route; T48a remains null control",
+    "5. T57/T59 exact HEPData CSV/YAML manifests only",
+    "6. T50-T52 hard bound-only role",
+    "7. Demote exact-table-missing tests until primary tables exist",
+    "8. Fusion focus: T28/T30 H-mode DB first; T26/T27 secondary until ELM/RMP event rows exist",
+    "9. T60a anchor with blocking T60b/T60c/T60d gates",
+    "10. Global confirm_allowed_now dashboard gate"
+  ],
+  "v30_recommended_next": [
+    "v33 supersedes manual-fill workflow: generated CSV artifacts are cache/audit outputs written by scripts, not required user input.",
+    "Run all tests together; use --only only for debugging one failing test.",
+    "Treat T50-T52 as bounds only in reports; never promote them to confirmations.",
+    "For fusion, prioritize automatic T28/T30 OSF/ITPA/H-mode primary-data discovery before T26/T27 ELM/RMP PDF diagnostics.",
+    "For T60, keep T60a positive consistency-anchor language only until quark/lattice and look-elsewhere gates pass.",
+    "Use v33_confirm_status.strict_confirm_allowed_now as the only automated list allowed to use confirm language."
+  ],
+  "v32_confirm_status": {
+    "active_confirmation_candidates": [
+      {
+        "confirm_allowed_now": null,
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "anchors_consistency_only": [],
+    "bounds_only": [],
+    "fusion_T28_T30_priority": [],
+    "primary_table_hunts": [],
+    "restored_tests": [],
+    "source_hunts_with_qualifying_tables": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v32_priority_order": [
+    "1. T53 automatic ProteinGym/DMS source locator; no user-filled CSV required",
+    "2. T31/T32 automatic measured grain/nano material source hunt",
+    "3. T44 automatic exact 3D-NAND source hunt",
+    "4. T48b PV descriptor route only; T48a remains null control",
+    "5. T57/T59 HEPData record/table CSV/YAML download gates",
+    "6. Fusion T28/T30 H-mode DB first; T26/T27/T29 secondary until primary rows exist",
+    "7. Exact-table-missing tests get active primary-table hunts, not demotion",
+    "8. T50-T52 kept bound-only",
+    "9. T34 restored into dashboard/output expectations",
+    "10. v33 removes separated run modes; next/default run executes all tests"
+  ],
+  "v32_recommended_next": [
+    "v33 default: python run_all_tier_b.py --cache tierb_cache_v34 --outdir tierb_out_v34 --script-timeout 900",
+    "Do not use split confirm/primary runs except --only for debugging.",
+    "Inspect data/generated/*_primary_table_hunt_audit_v33.csv and *_auto_rows_v33.csv after the all-test run.",
+    "Do not call anything confirmed unless v33_confirm_status.strict_confirm_allowed_now is non-empty."
+  ],
+  "v33_confirm_status": {
+    "auto_source_hunts": [],
+    "bounds_only": [],
+    "consistency_anchors_not_full_confirms": [],
+    "fusion_primary_data_search": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v33_recommended_next": [
+    "Run all tests: python run_all_tier_b.py --cache tierb_cache_v34 --outdir tierb_out_v34 --script-timeout 900 --max-papers 40 --max-tables 120",
+    "Use --only only to debug a failing single test, not for the scientific run.",
+    "Generated CSVs in data/generated are auto-written cache/audit artifacts; do not hand-fill them.",
+    "For fusion, inspect fusion_primary_data_search_v33 and data/generated/t2*_primary_table_hunt_audit_v33.csv.",
+    "Only v33_confirm_status.strict_confirm_allowed_now may be described as confirmed."
+  ],
+  "v33_run_policy": {
+    "confirm_candidates_flag": "deprecated_no_op_selector",
+    "default_selection": "all_tests_T26_to_T60",
+    "manual_or_user_filled_csv_required": false,
+    "only_flag": "debug_only",
+    "primary_table_hunt_flag": "deprecated_no_op_selector"
+  },
+  "v34_confirm_status": {
+    "auto_loaders_present": [],
+    "bounds_only": [],
+    "consistency_anchors_not_full_confirms": [],
+    "fusion_primary_data_search": [],
+    "hepdata_fallbacks": [],
+    "not_confirmed_blockers": [
+      {
+        "best_auto_data_source_next": null,
+        "single_next_blocker": null,
+        "test_id": "T44",
+        "why_not_confirmed": null
+      }
+    ],
+    "split_branch_tests": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v34_implemented_improvements": [
+    "1. T53 ProteinGym/DMS + UniProt/PDB/RCSB auto-join audit rows",
+    "2. T31/T32 CMB-S4 reference/microstructure miner for grain/nano branch",
+    "3. T44 NAND fallback parser for Wikipedia/vendor/press-style public tables",
+    "4. T48b NREL/NLR loader fix with descriptor-model-only route; T48a remains null control",
+    "5. Fusion OSF/Zenodo recursive structured-file funnel with DB5.2.3 aliases",
+    "6. T57/T59 HEPData JSON/YAML/original fallback before browser CSV URLs",
+    "7. T50-T52 hard bound-only rule preserved",
+    "8. Split branch policies: T32a/T32b and T40a/T40b",
+    "9. Per-test why_not_confirmed/single_next_blocker/best_auto_data_source_next dashboard fields"
+  ],
+  "v34_recommended_next": [
+    "Run all tests: python run_all_tier_b.py --cache tierb_cache_v34 --outdir tierb_out_v34 --script-timeout 900 --max-papers 40 --max-tables 120",
+    "Inspect positive_dashboard.json -> v34_confirm_status.not_confirmed_blockers for one next blocker per test.",
+    "Inspect data/generated/*_v34.csv audit/cache artifacts. They are generated by scripts, not user-filled inputs.",
+    "Use --only only for debugging a failed test, not for scientific reporting."
+  ],
+  "v34_run_policy": {
+    "confirmation_rule": "Only v34_confirm_status.strict_confirm_allowed_now may be called confirmed.",
+    "default_selection": "all_tests_T26_to_T60",
+    "generated_csv_role": "auto-generated cache/audit outputs only",
+    "manual_or_user_filled_csv_required": false
+  },
+  "v35_confirm_status": {
+    "bound_only": [],
+    "missing_output_restored": [],
+    "near_confirm_ranked": [
+      {
+        "best_auto_data_source_next": null,
+        "score_0_10": 0,
+        "single_next_blocker": null,
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "recommended_next": [
+      "T44: normalize NAND rows and run layer-vs-year/manufacturer model to strict N>=20 gate",
+      "T48b: parse NREL/NLR XLSX rows and run PV descriptor residual model",
+      "T53: run ProteinGym residual model with symmetry/contact proxy and family/assay jackknife",
+      "T31/T32: increase measured microstructure rows and run narrow grain/nano exponent gate",
+      "T57/T59: use official HEPData record/submission/table YAML/JSON endpoints",
+      "T28/T30: keep fusion funnel structured-file-only and reject metadata/search API frames",
+      "T34: restored fallback JSON if script output is missing; debug T34 until real result JSON appears",
+      "T50-T52: keep bound-only; do not attempt positive confirmation",
+      "T60: implement quark/lattice, sector reshuffle, and look-elsewhere gates"
+    ],
+    "strict_confirm_allowed_now": []
+  },
+  "v36_confirm_status": {
+    "bound_only": [],
+    "near_confirm_ranked": [
+      {
+        "best_auto_data_source_next": null,
+        "score_0_10": 0,
+        "single_next_blocker": null,
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "recommended_next": [
+      "T34: use v36 structured thermoelectric runner; seek exact orientation/grain-angle ZT exports from teMatDb/Starrydata/Bi2Te3 supplements",
+      "T44: increase complete NAND rows to N>=20 and run manufacturer jackknife",
+      "T48b: ensure NREL/NLR XLSX rows write and run descriptor residual model",
+      "T53: strengthen symmetry/contact proxy and family/assay jackknife",
+      "T31/T32: increase measured microstructure rows; keep broad T32 as null/pressure control",
+      "T28/T30: keep fusion structured-file-only; reject OSF/Zenodo metadata frames",
+      "T57/T59: use official HEPData record/submission/table YAML/JSON, not browser CSV URLs",
+      "T50-T52: keep bound-only",
+      "T60: complete quark/lattice, sector reshuffle, and look-elsewhere gates"
+    ],
+    "strict_confirm_allowed_now": [],
+    "t34_status": []
+  },
+  "v37_confirm_status": {
+    "bound_only": [],
+    "near_confirm_ranked": [
+      {
+        "best_auto_data_source_next": null,
+        "score_0_10": 0,
+        "single_next_blocker": null,
+        "test_id": "T44",
+        "verdict": "data_limited_exact_nand_rows_required"
+      }
+    ],
+    "policy": "No confirmation language unless listed in strict_confirm_allowed_now; near-confirm scores are prioritization only.",
+    "recommended_next": [
+      "T48b: descriptor model hardening with family FDR and tandem/concentrator exclusion",
+      "T44: expand normalized NAND layer/year/capacity rows and manufacturer jackknife",
+      "T53: symmetry/contact proxy + family/assay jackknife on ProteinGym rows",
+      "T31/T32: mine decisive microstructure metadata and join to kappa(T)",
+      "T34: parse exact thermoelectric exports with orientation/grain-angle + ZT",
+      "T57/T59: fill exact HEPData registry rows and parse official YAML/JSON",
+      "T26-T30: reject metadata wrappers and resolve only structured fusion data files",
+      "T45/T47: exact benchmark table parsers for optical/neuromorphic rows",
+      "T60: complete quark/lattice, sector reshuffle, and look-elsewhere gates"
+    ],
+    "strict_confirm_allowed_now": []
+  },
+  "v38_confirm_status": {
+    "n_strict_confirmed": 0,
+    "strict_confirm_allowed_now": []
+  },
+  "v38_near_confirm_ranking": [
+    {
+      "score": 0,
+      "single_next_blocker": null,
+      "test_id": "T44",
+      "why_not_confirmed": null
+    }
+  ],
+  "v39_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_or_open_count": 1,
+    "near_confirm_next": [],
+    "policy": "T48b compatible_positive is frozen if v38 final gate remains pass; T50-T52 are never positive confirms; T60a remains anchor-only until full null suite passes.",
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v40_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_or_open_count": 1,
+    "near_confirm_next": [],
+    "policy": "T48b compatible_positive is preserved/frozen; T50-T52 are bound-only; T60a remains anchor-only until full null suite passes.",
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v41_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_or_open_count": 1,
+    "near_confirm_next": [],
+    "policy": "T48b and T44 are preserved when prior strict gates remain passed; T50-T52 are bound-only; T60a is anchor-only until the full null suite passes.",
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v42_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_or_open_count": 1,
+    "near_confirm_next": [],
+    "policy": "T48b and T44 stay frozen positives; v42 adds robustness dashboards plus final loaders for T53, T31/T32, T34, HEPData, T45/T47, fusion exact attachments, and T60 null suite.",
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v43_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_or_open_count": 1,
+    "near_confirm_next": [],
+    "policy": "T48b and T44 stay frozen positives; v43 adds robustness artifacts and stricter next-confirm loaders for T53, T31/T32, T34, HEPData, T45/T47, fusion exact attachments, and T60 null suite.",
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v44_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_or_open_count": 1,
+    "near_confirm_next": [],
+    "policy": "T48b and T44 stay frozen positives; v44 adds robustness-only dashboards plus stricter next-confirm loaders for T53, T31/T32, T34, HEPData, T45/T47, fusion exact attachments, and T60 null suite.",
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v45_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v46_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "robustness_only_confirmed": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v47_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "robustness_only_confirmed": [],
+    "strict_confirm_allowed_now": [],
+    "tier_a_audit_needed": []
+  },
+  "v48_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "missing_output_or_timeout": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "robustness_only_confirmed": [],
+    "strict_confirm_allowed_now": [],
+    "tier_a_audit_needed": []
+  },
+  "v49_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "missing_output_or_timeout": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "robustness_only_confirmed": [],
+    "strict_confirm_allowed_now": [],
+    "third_confirm_priority": [],
+    "tier_a_audit_needed": []
+  },
+  "v50_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "missing_output_or_timeout": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "robustness_only_confirmed": [],
+    "strict_confirm_allowed_now": [],
+    "third_confirm_priority": [],
+    "tier_a_audit_needed": []
+  },
+  "v51_confirm_status": {
+    "bound_only": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "measured_microstructure_priority": [],
+    "missing_output_or_timeout": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "robustness_only_confirmed": [],
+    "strict_confirm_allowed_now": [],
+    "tier_a_audit_needed": []
+  },
+  "v52_confirm_status": {
+    "audit_conflicts_demoted": [],
+    "bound_only": [],
+    "compatible_positive_now": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "measured_microstructure_priority": [],
+    "missing_output_or_timeout": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "source_contracts_needed": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v53_confirm_status": {
+    "audit_conflicts_demoted": [],
+    "bound_only": [],
+    "compatible_positive_now": [],
+    "confirmed_now": [],
+    "data_limited_positive_paths": [],
+    "measured_microstructure_priority": [],
+    "missing_output_or_timeout": [],
+    "near_confirm_next": [],
+    "positive_anchor_only": [],
+    "publication_grade_pending": [],
+    "source_contracts_needed": [],
+    "strict_confirm_allowed_now": []
+  },
+  "v54_confirm_status": {
+    "confirmed_now": [],
+    "fusion_blocked_figures_only": [],
+    "fusion_exact_attachment_still_required": [],
+    "fusion_preliminary_public_anchor": [],
+    "fusion_suggestive_only": [],
+    "fusion_summary_anchor_rows_blocked": [],
+    "source_contracts_needed": []
+  },
+  "v55_confirm_status": {
+    "confirmed_now": [],
+    "fusion_parser_rows_extracted_nonconfirm": [],
+    "fusion_preliminary_public_parser_ready": [],
+    "fusion_raw_rows_still_required": [],
+    "fusion_summary_or_suggestive_only": [],
+    "source_contracts_needed": []
+  },
+  "v56_confirm_status": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_now": [],
+    "fusion_preliminary_only": [],
+    "near_confirm_routes": [
+      "T44"
+    ],
+    "runtime_repaired": [],
+    "source_contracts_needed": []
+  },
+  "v57_confirm_status": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_now": [],
+    "fusion_debug_only": [],
+    "near_confirm_routes": [
+      "T44"
+    ],
+    "runtime_repaired": [],
+    "source_contracts_needed": []
+  },
+  "v58_confirm_only_dashboard": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_public_now": [],
+    "do_not_claim": [
+      "T44"
+    ],
+    "near_confirm_next": [
+      "T44"
+    ],
+    "public_claim_rule_v58": "Only tests listed in confirmed_public_now may be described as current public confirms.",
+    "schema": "ccdr-tierb-confirm-only-dashboard-v58"
+  },
+  "v58_confirm_status": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_public_now": [],
+    "do_not_claim": [
+      "T44"
+    ],
+    "exact_manifest_required": [],
+    "fusion_row_required": [],
+    "near_confirm_next": [
+      "T44"
+    ]
+  },
+  "v59_confirm_only_dashboard": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_public_now": [],
+    "do_not_claim": [
+      "T44"
+    ],
+    "near_confirm_next": [
+      "T44"
+    ],
+    "public_claim_rule_v59": "Only tests listed in confirmed_public_now may be described as current public confirms.",
+    "schema": "ccdr-tierb-confirm-only-dashboard-v59"
+  },
+  "v59_confirm_status": {
+    "anchor_only": [],
+    "bound_only": [],
+    "confirmed_public_now": [],
+    "do_not_claim": [
+      "T44"
+    ],
+    "near_confirm_next": [
+      "T44"
+    ]
+  }
+}

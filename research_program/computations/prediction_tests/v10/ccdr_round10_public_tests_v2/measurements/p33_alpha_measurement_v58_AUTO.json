@@ -1,0 +1,16 @@
+{
+  "autofit_requirements": [
+    "density split catalogue",
+    "DESI randoms",
+    "BAO covariance",
+    "alpha_high_density",
+    "alpha_low_density",
+    "sky and density-label shuffles",
+    "redshift jackknife"
+  ],
+  "current_run_id_v58": "20260519T062955Z_8f8cb618",
+  "diagnostic_class": "no_density_split_bao_alpha_fit_found",
+  "generated_utc": "2026-05-19T06:31:24Z",
+  "reason": "No existing density-split BAO alpha likelihood/fit artifact was found. v58 does not hand-fill or fake alpha_high/alpha_low.",
+  "status": "alpha_measurement_not_autobuilt"
+}

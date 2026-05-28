@@ -1,0 +1,31 @@
+{
+  "claim_policy": "P33 is measurement-ready only until alpha_high/alpha_low are measured from density-split LSS catalogues with randoms and covariance.",
+  "current_gate": {
+    "alpha_high_low_measured": false,
+    "covariance_ready": false,
+    "delta_alpha_nonzero": false,
+    "density_label_shuffle_pass": false,
+    "eligible_for_confirm_like": false,
+    "measurement_contract_present": true,
+    "missing": [
+      "alpha_high_low_measured",
+      "covariance_ready",
+      "density_label_shuffle_pass",
+      "sky_shuffle_pass",
+      "redshift_jackknife_stable",
+      "delta_alpha_nonzero"
+    ],
+    "redshift_jackknife_stable": false,
+    "sky_shuffle_pass": false
+  },
+  "first_real_alpha_split_required": true,
+  "required_outputs": [
+    "alpha_high_density",
+    "alpha_low_density",
+    "delta_alpha_high_minus_low",
+    "covariance_method",
+    "density_label_shuffle_p",
+    "sky_shuffle_p",
+    "redshift_jackknife_stable"
+  ]
+}

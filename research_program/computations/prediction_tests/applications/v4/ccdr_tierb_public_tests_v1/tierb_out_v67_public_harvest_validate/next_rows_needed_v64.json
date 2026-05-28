@@ -1,0 +1,900 @@
+{
+  "note_v64": "These manifests describe rows needed to push tests toward confirmation. They do not count as evidence.",
+  "schema": "ccdr-v64-next-rows-needed-bundle",
+  "tests": [
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Certified fusion per-shot ELM energy rows with pedestal pressure/volume/drop columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "test_id",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_exact_rows": 20
+          },
+          "pack": "fusion",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion",
+          "required_columns_v64": [
+            "test_id",
+            "certified_raw_row",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "value",
+            "unit",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T26",
+      "test_name": "fusion ELM energy scaling"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Certified fusion RMP/helicity rows with ELM frequency and coil/phasing columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "test_id",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_exact_rows": 20
+          },
+          "pack": "fusion",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion",
+          "required_columns_v64": [
+            "test_id",
+            "certified_raw_row",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "value",
+            "unit",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T27",
+      "test_name": "ELM helicity proxy"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact ITPA/H-mode rows with tau_E, density, and transport columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "test_id",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_exact_rows": 20
+          },
+          "pack": "fusion",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion",
+          "required_columns_v64": [
+            "test_id",
+            "certified_raw_row",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "value",
+            "unit",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T28",
+      "test_name": "global H-mode confinement/KSS margin"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact stellarator/tokamak edge transport rows with device and diffusivity/heat-flux columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "test_id",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_exact_rows": 20
+          },
+          "pack": "fusion",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion",
+          "required_columns_v64": [
+            "test_id",
+            "certified_raw_row",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "value",
+            "unit",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T29",
+      "test_name": "stellarator vs tokamak edge transport"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact confinement residual rows with density plus shaping/curvature columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "test_id",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_exact_rows": 20
+          },
+          "pack": "fusion",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion",
+          "required_columns_v64": [
+            "test_id",
+            "certified_raw_row",
+            "device",
+            "shot",
+            "time_or_slice",
+            "quantity",
+            "value",
+            "unit",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\fusion\\fusion_exact_rows_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T30",
+      "test_name": "fusion residual curvature coupling"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Filled exact materials packs with measured kappa(T), grain size, source URL, and SEM/TEM/XRD/EBSD microstructure method.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "source_url",
+            "sample_id",
+            "material",
+            "temperature_K"
+          ],
+          "minimum_gate_v64": {
+            "min_families": 5,
+            "min_sources": 5,
+            "min_temperature_bins": 3,
+            "min_usable_rows": 50
+          },
+          "pack": "materials",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials",
+          "required_columns_v64": [
+            "source_url",
+            "source_label",
+            "sample_id",
+            "material",
+            "material_family",
+            "temperature_K",
+            "kappa_W_mK",
+            "grain_size_nm",
+            "microstructure_method",
+            "nanocrystalline_yes_no",
+            "boundary_density_proxy",
+            "measurement_method",
+            "notes"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\t31_t32_materials_exact_template.csv"
+        },
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "family_name",
+            "source_url",
+            "sample_id",
+            "temperature_K"
+          ],
+          "minimum_gate_v64": {
+            "min_families": 5,
+            "min_sources": 5,
+            "min_temperature_bins": 3,
+            "min_usable_rows": 50
+          },
+          "pack": "materials_family_packs",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families",
+          "required_columns_v64": [
+            "family_name",
+            "source_url",
+            "sample_id",
+            "material",
+            "temperature_K",
+            "kappa_W_mK",
+            "grain_size_nm",
+            "microstructure_method"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\family_pack_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T31",
+      "test_name": "cryogenic kappa CCDR vs Casimir"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Filled exact materials packs with measured low-temperature kappa(T), grain size, source URL, and microstructure method.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "source_url",
+            "sample_id",
+            "material",
+            "temperature_K"
+          ],
+          "minimum_gate_v64": {
+            "min_families": 5,
+            "min_sources": 5,
+            "min_temperature_bins": 3,
+            "min_usable_rows": 50
+          },
+          "pack": "materials",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials",
+          "required_columns_v64": [
+            "source_url",
+            "source_label",
+            "sample_id",
+            "material",
+            "material_family",
+            "temperature_K",
+            "kappa_W_mK",
+            "grain_size_nm",
+            "microstructure_method",
+            "nanocrystalline_yes_no",
+            "boundary_density_proxy",
+            "measurement_method",
+            "notes"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\t31_t32_materials_exact_template.csv"
+        },
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "family_name",
+            "source_url",
+            "sample_id",
+            "temperature_K"
+          ],
+          "minimum_gate_v64": {
+            "min_families": 5,
+            "min_sources": 5,
+            "min_temperature_bins": 3,
+            "min_usable_rows": 50
+          },
+          "pack": "materials_family_packs",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families",
+          "required_columns_v64": [
+            "family_name",
+            "source_url",
+            "sample_id",
+            "material",
+            "temperature_K",
+            "kappa_W_mK",
+            "grain_size_nm",
+            "microstructure_method"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\materials\\families\\family_pack_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T32",
+      "test_name": "low-T kappa exponent"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T33",
+      "test_name": "diamond/hBN thermal ceiling audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact Bi2Te3/Sb2Te3 ZT plus orientation/grain-boundary angle rows.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "material",
+            "composition",
+            "temperature_K",
+            "orientation_angle_deg",
+            "grain_boundary_angle_deg",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_usable_rows": 30
+          },
+          "pack": "thermoelectric",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric",
+          "required_columns_v64": [
+            "material",
+            "composition",
+            "ZT",
+            "temperature_K",
+            "orientation_angle_deg",
+            "grain_boundary_angle_deg",
+            "source_url",
+            "source_label"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\thermoelectric\\t34_thermoelectric_angle_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T34",
+      "test_name": "Bi2Te3 ZT angle meta-analysis"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T35",
+      "test_name": "Kibble-Zurek grain-size exponent"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T36",
+      "test_name": "density-stratified grain scattering"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T37",
+      "test_name": "auxetic phonon transport"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured materials rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T38",
+      "test_name": "skyrmion lifetime literature audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured materials_quantum rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T39",
+      "test_name": "moire phononic bandgap twist scaling"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T40",
+      "test_name": "transmon phononic-substrate T1 audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T41",
+      "test_name": "qubit T2 plateau meta-analysis"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T42",
+      "test_name": "spin-qubit T2 in isotopically pure Si"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured quantum rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T43",
+      "test_name": "DTC qubit error-per-cycle trend"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "True Tier-A NAND rows: company, year, layers, capacity, die area, bits/cell, source URL.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "company",
+            "year",
+            "layers",
+            "capacity_Gb",
+            "die_area_mm2",
+            "bits_per_cell",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_companies": 3,
+            "min_usable_rows": 8
+          },
+          "pack": "nand",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand",
+          "required_columns_v64": [
+            "company",
+            "year",
+            "layers",
+            "capacity_Gb",
+            "die_area_mm2",
+            "bits_per_cell",
+            "source_url",
+            "product_or_paper",
+            "notes"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\nand\\t44_nand_tier_a_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T44",
+      "test_name": "3D NAND area vs volume scaling"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact optical-interconnect benchmark rows with energy/bit, bandwidth, reach, platform, year, and source URL.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "platform",
+            "year",
+            "benchmark",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_sources": 3,
+            "min_usable_rows": 20
+          },
+          "pack": "optical_interconnect",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect",
+          "required_columns_v64": [
+            "platform",
+            "year",
+            "energy_per_bit_pJ",
+            "bandwidth_Gbps",
+            "reach_m",
+            "source_url",
+            "benchmark"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\optical_interconnect\\t45_optical_interconnect_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T45",
+      "test_name": "optical interconnect trend"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "External public LDPC/burst-channel benchmark rows with task, metric, model score, baseline score, held-out split, and source URL.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "task_id",
+            "benchmark",
+            "metric_name",
+            "heldout_split",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_baseline_comparisons": 5,
+            "min_sources": 2,
+            "min_usable_rows": 5
+          },
+          "pack": "ldpc_external_benchmark",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark",
+          "required_columns_v64": [
+            "task_id",
+            "benchmark",
+            "metric_name",
+            "model_score",
+            "baseline_score",
+            "uncertainty",
+            "heldout_split",
+            "source_url",
+            "source_label",
+            "external_public_yes_no",
+            "notes"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\t46_external_public_benchmark_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T46",
+      "test_name": "LDPC burst-channel benchmark"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact neuromorphic benchmark rows with chip, task, energy, accuracy, topology, year, and source URL.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "chip",
+            "benchmark",
+            "year",
+            "source_url"
+          ],
+          "minimum_gate_v64": {
+            "min_sources": 3,
+            "min_usable_rows": 20
+          },
+          "pack": "neuromorphic",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic",
+          "required_columns_v64": [
+            "chip",
+            "benchmark",
+            "energy_per_inference_or_spike_pJ",
+            "accuracy",
+            "topology",
+            "year",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\t47_neuromorphic_benchmark_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T47",
+      "test_name": "neuromorphic graph energy audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Robustness/provenance audit only; current public confirm is already frozen by the v64 gate.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T48",
+      "test_name": "photovoltaic acoustic-optical proxy"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured energy_materials rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T49",
+      "test_name": "battery/thermoelectric materials symmetry audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T50",
+      "test_name": "Casimir residual public-table audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T51",
+      "test_name": "optical-clock drift literature bound"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Bound-table evidence only; this test is not confirmable by design.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T52",
+      "test_name": "atom-interferometer noise-floor audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "ProteinGym assay rows joined to UniProt/PDB/AlphaFold structure-feature rows.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "assay_id",
+            "uniprot",
+            "variant"
+          ],
+          "minimum_gate_v64": {
+            "min_assays": 3,
+            "min_families": 3,
+            "min_sequence_clusters": 10,
+            "min_usable_join_rows": 50
+          },
+          "pack": "proteingym",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym",
+          "required_columns_v64": [
+            "assay_id",
+            "uniprot",
+            "protein_name",
+            "family",
+            "assay_type",
+            "sequence_cluster",
+            "variant",
+            "dms_score",
+            "fitness_residual",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\proteingym\\proteingym_assays_template.csv"
+        },
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "uniprot",
+            "pdb_id",
+            "alphafold_id"
+          ],
+          "minimum_gate_v64": {
+            "min_structure_rows": 50
+          },
+          "pack": "protein_structures",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures",
+          "required_columns_v64": [
+            "uniprot",
+            "pdb_id",
+            "alphafold_id",
+            "oligomeric_state",
+            "symmetry_proxy",
+            "contact_network_proxy",
+            "fold_class",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\protein_structures\\protein_structure_features_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T53",
+      "test_name": "biological symmetry/protein-folding proxy"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured biotech rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T54",
+      "test_name": "photosynthetic coherence meta-analysis"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured aerospace rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T55",
+      "test_name": "radiation/spacecraft anomaly audit"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured aerospace rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T56",
+      "test_name": "solar-sail residual proxy"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Frozen HEPData manifest plus local tables with observed/model/uncertainty residual columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "record_id",
+            "table_id",
+            "observed_column",
+            "model_column",
+            "uncertainty_column"
+          ],
+          "minimum_gate_v64": {
+            "min_records": 3,
+            "min_residual_rows": 20,
+            "min_tables": 3
+          },
+          "pack": "hepdata",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata",
+          "required_columns_v64": [
+            "record_id",
+            "table_id",
+            "x_column",
+            "observed_column",
+            "model_column",
+            "uncertainty_column",
+            "observable_name",
+            "local_table",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T57",
+      "test_name": "cosmic-ray cross-section enhancement"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Exact public structured aerospace rows with the named physical columns required by this test.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T58",
+      "test_name": "exoplanet/stellar chronometry null"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Frozen HEPData manifest plus local tables with observed/model/uncertainty residual columns.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [
+        {
+          "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md",
+          "dedup_key_v64": [
+            "record_id",
+            "table_id",
+            "observed_column",
+            "model_column",
+            "uncertainty_column"
+          ],
+          "minimum_gate_v64": {
+            "min_records": 3,
+            "min_residual_rows": 20,
+            "min_tables": 3
+          },
+          "pack": "hepdata",
+          "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata",
+          "required_columns_v64": [
+            "record_id",
+            "table_id",
+            "x_column",
+            "observed_column",
+            "model_column",
+            "uncertainty_column",
+            "observable_name",
+            "local_table",
+            "source_url"
+          ],
+          "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\SCHEMA_v64.json",
+          "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+        }
+      ],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T59",
+      "test_name": "public HEP anomaly ledger"
+    },
+    {
+      "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+      "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+      "current_next_source_v64": "Separate charged-lepton/public-constant anchor from any quark/lattice sector claim.",
+      "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+      "required_packs_v64": [],
+      "schema": "ccdr-v64-next-rows-needed",
+      "test_id": "T60",
+      "test_name": "Koide sector-distance audit"
+    }
+  ]
+}

@@ -147,3 +147,243 @@ python run_all_tier_b.py --only T28 --mode discovery --allow-broad-discovery --c
 ```
 
 New manifests live under `data/source_manifests/`. Add exact URLs there before treating a source as evidence-grade.
+
+
+## v33 all-test/no-manual-input workflow
+
+The v33 patch removes the scientific workflow where the user must fill `data/generated/*.csv` files. Those files may still be written, but only as auto-generated public-data cache/audit artifacts. The default and recommended run executes **all tests T26-T60** in one pass; `--confirm-candidates` and `--primary-table-hunt` are accepted only for backward compatibility and no longer split the scientific run. Use `--only` only for debugging one failing test.
+
+Recommended run:
+
+```powershell
+python .\run_all_tier_b.py --cache tierb_cache_v33 --outdir tierb_out_v33 --max-papers 40 --max-tables 120 --script-timeout 900
+```
+
+Check `tierb_out_v33/positive_dashboard.json`, especially `v33_confirm_status.strict_confirm_allowed_now`.
+
+
+## v34 all-tests run
+
+Run all tests together; generated CSV files are automatic cache/audit artifacts, not user-filled inputs:
+
+```powershell
+python .\run_all_tier_b.py --cache tierb_cache_v34 --outdir tierb_out_v34 --max-papers 40 --max-tables 120 --script-timeout 900
+```
+
+Use `tierb_out_v34/positive_dashboard.json` -> `v34_confirm_status.strict_confirm_allowed_now` as the only machine-readable confirmation list.
+
+## v35 near-confirm run
+
+v35 keeps the no-manual-CSV workflow and all-tests default. It adds automatic normalization/model attempts for T44, T48b, and T53, stricter fusion/HEPData endpoint handling, missing-output fallback JSON, and a ranked `near_confirm_score` in `positive_dashboard.json`.
+
+```powershell
+python .\run_all_tier_b.py --cache tierb_cache_v35 --outdir tierb_out_v35 --max-papers 40 --max-tables 120 --script-timeout 900
+```
+
+Strict confirmation language is allowed only for tests listed in:
+
+```json
+"v35_confirm_status": { "strict_confirm_allowed_now": [] }
+```
+
+
+## v52 confirm-safety note
+
+Prefer `positive_dashboard.json -> v52_confirm_status` and `confirm_targets_v52.json` for current claims. v52 adds conflict demotion, explicit status splits, and exact-source contracts. Older v51 fields are preserved for reproducibility but may overstate audit-conflicted results.
+
+
+## v53 confirm implementation
+
+Prefer `positive_dashboard.json -> v53_confirm_status` and `confirm_targets_v53.json` for current public claims. v53 adds PV row recovery, true Tier-A NAND audit, deduplicated measured microstructure gates, ProteinGym-structure join gates, exact thermoelectric/HEPData manifests, fusion missing-column diagnostics, and a final public-claim gate. Older v51/v52 fields are retained only for audit history.
+
+
+## v54 fusion expected-source patch
+
+Use `positive_dashboard.json -> v54_confirm_status` and `confirm_targets_v54.json` after running. Fusion T29 is the strongest preliminary public fusion path; T26/T27/T28 remain non-confirm unless exact machine-readable rows are found.
+
+## v55 fusion public-source parsers
+
+v55 adds real text-layer public-source parsers for the fusion expected sources introduced in v54. Use this fast parser-only command when you want to test the new fusion parser layer without older broad live-discovery steps:
+
+```powershell
+.\.venv\Scripts\python.exe run_fusion_public_parsers_v55.py `
+  --cache tierb_cache_v55_fusion `
+  --outdir tierb_out_v55_fusion_parsers `
+  --only T29 T28 T27 T26 T30 `
+  --timeout 90 `
+  --max-tables 120
+```
+
+Main outputs:
+
+```text
+tierb_out_v55_fusion_parsers\fusion_public_parser_dashboard_v55.json
+tierb_out_v55_fusion_parsers\t29_fusion_public_source_normalized_rows_v55.csv
+tierb_out_v55_fusion_parsers\t28_fusion_public_source_rows_v55.csv
+tierb_out_v55_fusion_parsers\t27_fusion_public_source_rows_v55.csv
+tierb_out_v55_fusion_parsers\t26_fusion_public_source_rows_v55.csv
+```
+
+Strict policy remains unchanged: parsed PDF/paper rows are not confirmations. T29 can become a preliminary structured-public fusion test; T26/T27/T28 remain non-confirm unless exact public raw/per-shot/per-timeslice tables are downloaded.
+
+## v56 confirm-output usage
+
+After running v56, use only:
+
+```text
+positive_dashboard.json -> v56_confirm_status.confirmed_now
+confirm_targets_v56.json
+```
+
+for public confirmation claims. Older frozen fields and PDF/source-anchor rows are diagnostic unless they pass the v56 gate.
+
+## v57 confirm-repair usage
+
+Fast materials-only run:
+
+```powershell
+.\.venv\Scripts\python.exe run_materials_confirm_v57.py --outdir tierb_out_materials_v57 --only T31 T32
+```
+
+Confirm-target run:
+
+```powershell
+.\.venv\Scripts\python.exe run_all_tier_b.py `
+  --cache tierb_cache_v57_confirms `
+  --outdir tierb_out_v57_confirms `
+  --only T31 T32 T44 T48 T53 T29 T28 T30 T50 T51 T52 `
+  --timeout 180 `
+  --max-tables 250 `
+  --force
+```
+
+Use only `positive_dashboard.json -> v57_confirm_status.confirmed_now` for public confirmation claims. `public_claim_check_v57.json` is written beside the dashboard.
+
+
+## v58 Tier-B confirm-focus usage
+
+Run the full suite normally:
+
+```powershell
+.\.venv\Scripts\python.exe run_all_tier_b.py `
+  --cache tierb_cache_v58 `
+  --outdir tierb_out_v58 `
+  --timeout 180 `
+  --max-tables 250 `
+  --force
+```
+
+Or run only the confirm gates without broad discovery:
+
+```powershell
+.\.venv\Scripts\python.exe run_confirm_only_v58.py `
+  --outdir tierb_out_v58_confirm_only `
+  --only T31 T32 T44 T48 T53 T34 T57 T59 T45 T47 T26 T27 T28 T29 T30 T50 T51 T52 T60
+```
+
+For public claims, use only:
+
+```text
+positive_dashboard.json -> v58_confirm_only_dashboard.confirmed_public_now
+```
+
+## v59 confirm-extractor workflow
+
+Run the strict confirm-only extractor after any full run, or standalone for gate diagnostics:
+
+```powershell
+.\.venv\Scripts\python.exe run_confirm_only_v59.py `
+  --outdir tierb_out_v59_confirm_only `
+  --only T31 T32 T44 T48 T53 T34 T57 T59 T45 T47 T26 T27 T28 T29 T30 T50 T51 T52 T60
+```
+
+Trust only:
+
+```text
+tierb_out_v59_confirm_only\confirm_only_dashboard_v59.json -> confirmed_public_now
+```
+
+All other `positive_ready`, `anchor`, `bound`, `near_confirm`, or `diagnostic` labels are not public confirmations.
+
+## v60 one-command run
+
+v60 adds a wrapper so the full Tier-B run and the confirm-only/public-claim dashboard can be generated from one command:
+
+```powershell
+.\.venv\Scripts\python.exe run_all_and_confirm_v60.py `
+  --cache tierb_cache_v60_all `
+  --outdir tierb_out_v60_all `
+  --timeout 240 `
+  --max-tables 300 `
+  --force
+```
+
+Trust only this field for public confirmation claims:
+
+```text
+tierb_out_v60_all\confirm_only_dashboard_v60.json -> confirmed_public_now
+```
+
+The confirm-only checker remains conservative: readiness, bound-only, anchor-only, PDF/summary diagnostics, and broad-discovery scaffolds are not public confirms.
+
+## v61 one-command behavioral confirm run
+
+v61 is the preferred next-run entry point. It runs the full suite and then runs behavioral confirm extractors/parsers/estimators in one command:
+
+```powershell
+.\.venv\Scripts\python.exe run_all_and_confirm_v61.py `
+  --cache tierb_cache_v61_all `
+  --outdir tierb_out_v61_all `
+  --timeout 240 `
+  --max-tables 300 `
+  --force
+```
+
+Trust only:
+
+```text
+tierb_out_v61_all\confirm_only_dashboard_v61.json -> confirmed_public_now
+```
+
+v61 changes actual parser/estimator behavior for T31/T32, T44, T53, T34, T57/T59, T45/T47, and fusion exact-row diagnostics. It is not just a dashboard patch.
+
+## v62 one-command behavioral confirm run
+
+v62 adds actual parser/estimator behavior: manifest-driven exact source downloads, unit normalization,
+source-balanced materials estimators, strict NAND/ProteinGym/TE/HEPData/benchmark parsers, and fusion exact-row diagnostics.
+
+```powershell
+.\.venv\Scripts\python.exe run_all_and_confirm_v62.py `
+  --cache tierb_cache_v62_all `
+  --outdir tierb_out_v62_all `
+  --timeout 240 `
+  --max-tables 300 `
+  --force
+```
+
+Public claims must use only:
+
+```text
+tierb_out_v62_all\confirm_only_dashboard_v62.json -> confirmed_public_now
+```
+
+## v64 exact-data-pack confirm pipeline
+
+Run the full suite and then the v64 confirm-only/public-claim checker with one command:
+
+```powershell
+.\.venv\Scripts\python.exe run_all_and_confirm_v64.py `
+  --cache tierb_cache_v64_all `
+  --outdir tierb_out_v64_all `
+  --timeout 240 `
+  --max-tables 300 `
+  --force
+```
+
+Trust only:
+
+```text
+tierb_out_v64_all\confirm_only_dashboard_v64.json -> confirmed_public_now
+```
+
+v64 exact-source packs live under `data/exact_sources/`. Fill those CSV templates with real public/source rows; templates and generated dashboards are not counted as evidence.

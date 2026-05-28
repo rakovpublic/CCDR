@@ -1,0 +1,21 @@
+{
+  "SM-D1": {
+    "cross_prediction_group": "",
+    "derivation_id": "",
+    "independent_derivation": false,
+    "no_target_fit": false,
+    "predicted_value": null,
+    "preregistered_utc": "",
+    "sigma": null
+  },
+  "SM-D5": {
+    "cross_prediction_group": "",
+    "derivation_id": "koide_relation_consistency_not_ccdr_derivation",
+    "independent_derivation": false,
+    "no_target_fit": false,
+    "predicted_value": 0.6666666666666666,
+    "preregistered_utc": "",
+    "sigma": null
+  },
+  "schema": "Each SM-D entry needs predicted_value, sigma, derivation_id, independent_derivation=true, no_target_fit=true, cross_prediction_group, and preregistered_utc."
+}

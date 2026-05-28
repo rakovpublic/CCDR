@@ -1,0 +1,6194 @@
+{
+  "analysis_note": "Strict v3 public-data probe. Generic article/PDF/HTML term-number extraction is disabled. A result becomes partial/ok only if a direct public structured table has named physical columns required by the test; otherwise data_limited.",
+  "auto_data_improvements_v34": {},
+  "auto_data_improvements_v35": {},
+  "auto_data_improvements_v37": {},
+  "auto_data_improvements_v38": {},
+  "auto_data_improvements_v39": {},
+  "auto_data_improvements_v40": {},
+  "auto_data_improvements_v41": {},
+  "auto_data_improvements_v42": {},
+  "auto_data_improvements_v43": {},
+  "auto_data_improvements_v44": {},
+  "auto_data_improvements_v45": {},
+  "auto_data_improvements_v46": {},
+  "auto_data_improvements_v47": {},
+  "auto_data_improvements_v48": {},
+  "auto_data_improvements_v49": {},
+  "auto_data_improvements_v50": {},
+  "auto_data_improvements_v51": {},
+  "auto_data_improvements_v52": {},
+  "auto_data_improvements_v53": {},
+  "auto_data_improvements_v56": {},
+  "auto_data_improvements_v57": {},
+  "auto_data_improvements_v58": {},
+  "auto_data_improvements_v59": {},
+  "auto_generated_inputs_v33": {
+    "generated_files": [],
+    "manual_or_user_csv_required": false,
+    "status": "auto_generation_attempted"
+  },
+  "auto_input_policy_v33": {
+    "all_tests_run_together": true,
+    "commit_generated_csv_required": false,
+    "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+    "manual_or_user_filled_csv_required": false,
+    "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+  },
+  "auto_primary_source_hunt_v33": {
+    "audit_csv": null,
+    "child_urls_extracted": 0,
+    "manifest": "data/primary_table_candidate_manifest_v33.csv",
+    "manifest_rows": 1,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "IBM Quantum BackendProperties docs",
+        "meta": {
+          "content_type": "text/html; charset=UTF-8",
+          "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/models-backend-properties",
+          "final_url": null,
+          "ok": false,
+          "status_code": 403
+        },
+        "notes": "backend properties include T1/T2; not substrate-specific without device metadata",
+        "source_kind": "manual_candidate",
+        "status": "download_failed_or_no_data",
+        "url": "https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/models-backend-properties"
+      }
+    ]
+  },
+  "bound_only_gate_v34": null,
+  "candidate_works_count": 50,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2304.13589",
+      "id": "https://openalex.org/W4367190817",
+      "landing_page_url": "http://arxiv.org/abs/2304.13589",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2304.13589"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2304.13589",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2304.13589",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2304.13589",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://arxiv.org/pdf/2304.13589",
+        "raw_source_name": "",
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Strong dispersive coupling between a mechanical resonator and a fluxonium superconducting qubit",
+      "type": "preprint",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2412.08006",
+      "id": "https://openalex.org/W4405300994",
+      "landing_page_url": "http://arxiv.org/abs/2412.08006",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2412.08006"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2412.08006",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2412.08006",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2412.08006",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://arxiv.org/pdf/2412.08006",
+        "raw_source_name": "",
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "A mechanical quantum memory for microwave photons",
+      "type": "preprint",
+      "year": 2024
+    },
+    {
+      "cited_by_count": 0,
+      "doi": null,
+      "id": "https://openalex.org/W7127740481",
+      "landing_page_url": "http://arxiv.org/abs/2602.03186",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2602.03186"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.03186",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2602.03186",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2602.03186",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://arxiv.org/pdf/2602.03186",
+        "raw_source_name": null,
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "A Tunable, Modeless, and Hybridization-free Cross-Kerr Coupler for Miniaturized Superconducting Qubits",
+      "type": "article",
+      "year": 2026
+    },
+    {
+      "crossref_links": [],
+      "doi": "10.1117/12.2298426.5763098143001",
+      "landing_page_url": "https://doi.org/10.1117/12.2298426.5763098143001",
+      "title": null,
+      "year": null
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx7/8556632/8579609/08579923.pdf?arnumber=8579923",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1109/ultsym.2018.8579923",
+      "landing_page_url": "https://doi.org/10.1109/ultsym.2018.8579923",
+      "title": "Transferable Analytical Model of Phononic Bandgap in Cross-Hole Phononic Crystals",
+      "year": 2018
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "https://www.researchsquare.com/article/rs-114173/v1",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.researchsquare.com/article/rs-114173/v1.html",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.21203/rs.3.rs-114173/v1",
+      "landing_page_url": "https://doi.org/10.21203/rs.3.rs-114173/v1",
+      "title": "Ultrawide 3D Phononic Bandgap Metastructures as Broadband Low Frequency Filter",
+      "year": null
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx7/6917616/6931723/06931935.pdf?arnumber=6931935",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1109/ultsym.2014.0118",
+      "landing_page_url": "https://doi.org/10.1109/ultsym.2014.0118",
+      "title": "Complete bandgap SAW phononic resonant topologies",
+      "year": 2014
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.4875981/14297574/181905_1_online.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.4875981/14297574/181905_1_online.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1063/1.4875981",
+      "landing_page_url": "https://doi.org/10.1063/1.4875981",
+      "title": "Evidence of a Love wave bandgap in a quartz substrate coated with a phononic thin layer",
+      "year": 2014
+    },
+    {
+      "crossref_links": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx7/7317638/7331393/07331487.pdf?arnumber=7331487",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "doi": "10.1109/eftf.2014.7331487",
+      "landing_page_url": "https://doi.org/10.1109/eftf.2014.7331487",
+      "title": "Complete bandgap SAW phononic resonators",
+      "year": 2014
+    },
+    {
+      "crossref_links": [],
+      "doi": "10.21236/ada553044",
+      "landing_page_url": "https://doi.org/10.21236/ada553044",
+      "title": "Genetic Programming-based Phononic Bandgap Structure Design",
+      "year": 2011
+    },
+    {
+      "crossref_links": [],
+      "doi": "10.52843/meta-mat.p068f3",
+      "landing_page_url": "https://doi.org/10.52843/meta-mat.p068f3",
+      "title": "Bandgap formation mechanisms in solid-air phononic crystals with 4-fold rotational symmetry",
+      "year": null
+    },
+    {
+      "crossref_links": [],
+      "doi": "10.21236/ada456655",
+      "landing_page_url": "https://doi.org/10.21236/ada456655",
+      "title": "Genetic Algorithm Optimization of Phononic Bandgap Structures",
+      "year": 2006
+    }
+  ],
+  "confirm_allowed_now_v30": false,
+  "confirm_allowed_now_v32": false,
+  "confirm_allowed_now_v33": false,
+  "confirm_allowed_now_v34": false,
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "data_limited",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "expected_effort_v52": "high",
+    "next_data_source_v52": "not a current confirm target",
+    "rank_score_0_10_v52": 1,
+    "test_id": "T40"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "data_limited",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "expected_effort_v53": "high",
+    "next_data_source_v53": "not a current confirm target",
+    "rank_score_0_10_v53": 1,
+    "test_id": "T40"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "data_limited",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "high",
+    "next_data_source_v56": "not a current confirm target",
+    "rank_score_0_10_v56": 1,
+    "test_id": "T40"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "data_limited",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "high",
+    "next_data_source_v57": "not a current confirm target",
+    "rank_score_0_10_v57": 1,
+    "test_id": "T40"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "data_limited",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "high",
+    "next_data_source_v58": "not a current confirm target",
+    "rank_score_0_10_v58": 1,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T40"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "data_limited",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "high",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 1,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T40"
+  },
+  "confirmation_blocker_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed_data_limited",
+  "confirmation_status_v53": "not_confirmed_data_limited",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_status_v52": "data_limited",
+  "data_status_v53": "data_limited",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "discovered_data_links_sample": [
+    "http://arxiv.org/src/2304.13589",
+    "http://arxiv.org/src/2412.08006",
+    "http://arxiv.org/src/2602.03186",
+    "https://doi.org/rest/api/hpdata",
+    "http://xplorestaging.ieee.org/rest/api/hpdata",
+    "https://www.researcher-app.com/?utm_source=researchsquare&utm_medium=referral&utm_campaign=&utm_content=logo",
+    "https://www.nature.com/articles/s43246-024-00529-w?fromPaywallRec=false",
+    "https://doi.org/articles/s41598-025-34382-9/tables/1",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993PhRvL..71.2022K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019ApPhL.114i1903C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2025NatSR..1518054R",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019PhRvB..99i4302K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...743407L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhLA..332..481K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2024JAP...136o4103Z",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020NatCo..11..762T",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...715023C",
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-34382-9/MediaObjects/41598_2025_34382_MOESM1_ESM.docx",
+    "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022",
+    "https://www.springernature.com/gp/authors/research-data",
+    "https://www.nature.com/articles/s41598-025-34382-9/tables/1",
+    "http://trinityrnaseq.github.io",
+    "https://doi.org/10.7717/peerj.2527/supp-8#supp-6",
+    "https://doi.org/10.7717/peerj.2527/table-1",
+    "https://doi.org/10.7717/peerj.2527/supp-8#table-1",
+    "https://doi.org/10.7717/peerj.2527/supp-8#supp-7",
+    "https://doi.org/10.7717/peerj.2527/supp-8#table-2",
+    "https://doi.org/10.7717/peerj.2527/table-2",
+    "https://doi.org/10.7717/peerj.2527/supp-8#table-3",
+    "https://doi.org/10.7717/peerj.2527/table-3",
+    "https://doi.org/10.7717/peerj.2527/supp-8#supp-8",
+    "https://doi.org/10.7717/peerj.2527/supp-8#supp-9",
+    "https://doi.org/10.7717/peerj.2527/supp-8#table-4",
+    "https://doi.org/10.7717/peerj.2527/supp-8#table-4fn1",
+    "https://doi.org/10.7717/peerj.2527/table-4",
+    "https://doi.org/10.7717/peerj.2527/supp-8#table-5",
+    "https://doi.org/10.7717/peerj.2527/table-5",
+    "https://doi.org/10.7717/peerj.2527/supp-8#supp-10",
+    "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+    "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+    "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+    "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S4.xlsx",
+    "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S5.xlsx",
+    "https://dx.doi.org/10.6084/m9.figshare.3444866.v1",
+    "https://dx.doi.org/10.6084/m9.figshare.3443930.v1",
+    "https://doi.org/10.1093%2Fnar%2Fgkn176",
+    "https://doi.org/10.1038%2Fnbt.1883",
+    "https://doi.org/10.1093%2Fnar%2Fgkh063",
+    "https://doi.org/10.1186%2F1471-2105-12-323",
+    "https://doi.org/10.1006%2Fmeth.2001.1262"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "bytes": 3843078,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\4f065a8648b9_2304.13589",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2304.13589",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2304.13589"
+      },
+      "title": "Strong dispersive coupling between a mechanical resonator and a fluxonium superconducting qubit",
+      "url": "https://arxiv.org/pdf/2304.13589"
+    },
+    {
+      "meta": {
+        "bytes": 46717,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\e842ffb08076_2304.13589",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2304.13589",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2304.13589"
+      },
+      "title": "Strong dispersive coupling between a mechanical resonator and a fluxonium superconducting qubit",
+      "url": "http://arxiv.org/abs/2304.13589"
+    },
+    {
+      "meta": {
+        "bytes": 6714491,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\bc1d8ec7bc1d_2412.08006",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2412.08006",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2412.08006"
+      },
+      "title": "A mechanical quantum memory for microwave photons",
+      "url": "https://arxiv.org/pdf/2412.08006"
+    },
+    {
+      "meta": {
+        "bytes": 45914,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\b510d9786b94_2412.08006",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2412.08006",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2412.08006"
+      },
+      "title": "A mechanical quantum memory for microwave photons",
+      "url": "http://arxiv.org/abs/2412.08006"
+    },
+    {
+      "meta": {
+        "bytes": 7887116,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\418a0c25d4cd_2602.03186",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2602.03186",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2602.03186"
+      },
+      "title": "A Tunable, Modeless, and Hybridization-free Cross-Kerr Coupler for Miniaturized Superconducting Qubits",
+      "url": "https://arxiv.org/pdf/2602.03186"
+    },
+    {
+      "meta": {
+        "bytes": 48135,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\5a180806f8d7_2602.03186",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2602.03186",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2602.03186"
+      },
+      "title": "A Tunable, Modeless, and Hybridization-free Cross-Kerr Coupler for Miniaturized Superconducting Qubits",
+      "url": "http://arxiv.org/abs/2602.03186"
+    },
+    {
+      "meta": {
+        "bytes": 1160,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\1fd642ef5c9c_12.2298426.5763098143001.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://www.spiedigitallibrary.org/conference-presentations/10600/106001X/Optimized-phononic-crystals-for-bandGap-and-metamaterial-properties/10.1117/12.2298426.5763098143001",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1117/12.2298426.5763098143001"
+      },
+      "title": null,
+      "url": "https://doi.org/10.1117/12.2298426.5763098143001"
+    },
+    {
+      "meta": {
+        "bytes": 49089,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\820855c14d23_ultsym.2018.8579923",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/8579923/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/ultsym.2018.8579923"
+      },
+      "title": "Transferable Analytical Model of Phononic Bandgap in Cross-Hole Phononic Crystals",
+      "url": "https://doi.org/10.1109/ultsym.2018.8579923"
+    },
+    {
+      "meta": {
+        "bytes": 46804,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\186844665c54_08579923.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/8579923/;jsessionid=0DF251F94A3C2B2DD26188F017E1C066",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/8556632/8579609/08579923.pdf?arnumber=8579923"
+      },
+      "title": "Transferable Analytical Model of Phononic Bandgap in Cross-Hole Phononic Crystals",
+      "url": "http://xplorestaging.ieee.org/ielx7/8556632/8579609/08579923.pdf?arnumber=8579923"
+    },
+    {
+      "meta": {
+        "bytes": 75308,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\5d5323f8c184_v1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.researchsquare.com/article/rs-114173/v1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.21203/rs.3.rs-114173/v1"
+      },
+      "title": "Ultrawide 3D Phononic Bandgap Metastructures as Broadband Low Frequency Filter",
+      "url": "https://doi.org/10.21203/rs.3.rs-114173/v1"
+    },
+    {
+      "meta": {
+        "bytes": 75308,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\72ed0d36e774_v1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.researchsquare.com/article/rs-114173/v1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.researchsquare.com/article/rs-114173/v1"
+      },
+      "title": "Ultrawide 3D Phononic Bandgap Metastructures as Broadband Low Frequency Filter",
+      "url": "https://www.researchsquare.com/article/rs-114173/v1"
+    },
+    {
+      "meta": {
+        "bytes": 2233,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\6250bcb5ad34_v1.html",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.researchsquare.com/article/rs-114173/v1.html",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.researchsquare.com/article/rs-114173/v1.html"
+      },
+      "title": "Ultrawide 3D Phononic Bandgap Metastructures as Broadband Low Frequency Filter",
+      "url": "https://www.researchsquare.com/article/rs-114173/v1.html"
+    },
+    {
+      "meta": {
+        "bytes": 49936,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\6285dc01af8c_ultsym.2014.0118",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/6931935/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/ultsym.2014.0118"
+      },
+      "title": "Complete bandgap SAW phononic resonant topologies",
+      "url": "https://doi.org/10.1109/ultsym.2014.0118"
+    },
+    {
+      "meta": {
+        "bytes": 47336,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\5219144d6ae0_06931935.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/6931935/;jsessionid=7CD4DA331921B14E18B86A484D01A4A7",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/6917616/6931723/06931935.pdf?arnumber=6931935"
+      },
+      "title": "Complete bandgap SAW phononic resonant topologies",
+      "url": "http://xplorestaging.ieee.org/ielx7/6917616/6931723/06931935.pdf?arnumber=6931935"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\06c6e00246f4_1.4875981",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/apl/article/104/18/181905/24097/Evidence-of-a-Love-wave-bandgap-in-a-quartz",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/1.4875981"
+      },
+      "title": "Evidence of a Love wave bandgap in a quartz substrate coated with a phononic thin layer",
+      "url": "https://doi.org/10.1063/1.4875981"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\020f3bf25673_181905_1_online.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.4875981/14297574/181905_1_online.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.4875981/14297574/181905_1_online.pdf"
+      },
+      "title": "Evidence of a Love wave bandgap in a quartz substrate coated with a phononic thin layer",
+      "url": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.4875981/14297574/181905_1_online.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 47810,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\73dbea3cbf01_eftf.2014.7331487",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/7331487",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/eftf.2014.7331487"
+      },
+      "title": "Complete bandgap SAW phononic resonators",
+      "url": "https://doi.org/10.1109/eftf.2014.7331487"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\cb86f4b57a86_07331487.pdf",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 502 Server Error: Bad Gateway for url: https://xplorestaging.ieee.org/ielx7/7317638/7331393/07331487.pdf?arnumber=7331487",
+        "ok": false,
+        "status_code": 502,
+        "url": "http://xplorestaging.ieee.org/ielx7/7317638/7331393/07331487.pdf?arnumber=7331487"
+      },
+      "title": "Complete bandgap SAW phononic resonators",
+      "url": "http://xplorestaging.ieee.org/ielx7/7317638/7331393/07331487.pdf?arnumber=7331487"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\86aed2432bd3_ada553044.bin",
+        "content_type": null,
+        "error": "download_failed: SSLError: HTTPSConnectionPool(host='www.dtic.mil', port=443): Max retries exceeded with url: /docs/citations/ADA553044 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://doi.org/10.21236/ada553044"
+      },
+      "title": "Genetic Programming-based Phononic Bandgap Structure Design",
+      "url": "https://doi.org/10.21236/ada553044"
+    },
+    {
+      "meta": {
+        "bytes": 1792,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\7435a73a7a9c_meta-mat.p068f3",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://cassyni.com/events/Ts6TdxsbLVzNKd7XmEo7LR",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.52843/meta-mat.p068f3"
+      },
+      "title": "Bandgap formation mechanisms in solid-air phononic crystals with 4-fold rotational symmetry",
+      "url": "https://doi.org/10.52843/meta-mat.p068f3"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\6ba0dfedbb2f_ada456655.bin",
+        "content_type": null,
+        "error": "download_failed: SSLError: HTTPSConnectionPool(host='www.dtic.mil', port=443): Max retries exceeded with url: /docs/citations/ADA456655 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://doi.org/10.21236/ada456655"
+      },
+      "title": "Genetic Algorithm Optimization of Phononic Bandgap Structures",
+      "url": "https://doi.org/10.21236/ada456655"
+    },
+    {
+      "meta": {
+        "bytes": 48418,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\0d3574ed64f1_fcs.2014.6859984",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://ieeexplore.ieee.org/document/6859984/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1109/fcs.2014.6859984"
+      },
+      "title": "Phononic SAW transducers with complete frequency bandgap characteristics",
+      "url": "https://doi.org/10.1109/fcs.2014.6859984"
+    },
+    {
+      "meta": {
+        "bytes": 46142,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\a8ca20d6a2e5_06859984.pdf",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://xplorestaging.ieee.org/document/6859984/;jsessionid=BCB8C03DDCDBBE529A0D5109AF3EE780",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://xplorestaging.ieee.org/ielx7/6850264/6859834/06859984.pdf?arnumber=6859984"
+      },
+      "title": "Phononic SAW transducers with complete frequency bandgap characteristics",
+      "url": "http://xplorestaging.ieee.org/ielx7/6850264/6859834/06859984.pdf?arnumber=6859984"
+    },
+    {
+      "meta": {
+        "bytes": 367781,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\43a98e680bb2_s41598-025-34382-9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41598-025-34382-9"
+      },
+      "title": "Aesthetic-inspired bandgap design in phononic crystal plates",
+      "url": "https://doi.org/10.1038/s41598-025-34382-9"
+    },
+    {
+      "meta": {
+        "bytes": 367781,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\55675763a2ca_s41598-025-34382-9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-025-34382-9"
+      },
+      "title": "Aesthetic-inspired bandgap design in phononic crystal plates",
+      "url": "https://www.nature.com/articles/s41598-025-34382-9"
+    },
+    {
+      "meta": {
+        "bytes": 4017498,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\86946dd0d922_s41598-025-34382-9.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-025-34382-9.pdf"
+      },
+      "title": "Aesthetic-inspired bandgap design in phononic crystal plates",
+      "url": "https://www.nature.com/articles/s41598-025-34382-9.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\081bca89ecb7_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8"
+      },
+      "title": "Table S3: Common DEGs with informative annotations in T1 vs. T2, T1 vs. T3, T1 vs. T4",
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\66389a3e13cf_5.0261266",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/adv/article/15/6/065004/3348165/Phononic-crystals-with-continuously-tunable",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0261266"
+      },
+      "title": "Phononic crystals with continuously tunable bandgap based on giant electrorheological elastomers",
+      "url": "https://doi.org/10.1063/5.0261266"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\da0f50a96add_065004_1_5.0261266.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0261266/20540059/065004_1_5.0261266.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0261266/20540059/065004_1_5.0261266.pdf"
+      },
+      "title": "Phononic crystals with continuously tunable bandgap based on giant electrorheological elastomers",
+      "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0261266/20540059/065004_1_5.0261266.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\41190d66482e_5.0131763",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/adv/article/13/1/015106/2871201/The-multi-bandgap-of-local-effect-phononic-crystal",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0131763"
+      },
+      "title": "The multi-bandgap of local effect phononic crystal",
+      "url": "https://doi.org/10.1063/5.0131763"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\f82f794251eb_015106_1_online.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0131763/16698940/015106_1_online.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0131763/16698940/015106_1_online.pdf"
+      },
+      "title": "The multi-bandgap of local effect phononic crystal",
+      "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0131763/16698940/015106_1_online.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\bf2e22a94399_1.5039952",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/jap/article/124/5/055101/155623/Bandgap-properties-of-a-piezoelectric-phononic",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/1.5039952"
+      },
+      "title": "Bandgap properties of a piezoelectric phononic crystal nanobeam with surface effect",
+      "url": "https://doi.org/10.1063/1.5039952"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\fb380727830a_055101_1_online.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.5039952/15215835/055101_1_online.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.5039952/15215835/055101_1_online.pdf"
+      },
+      "title": "Bandgap properties of a piezoelectric phononic crystal nanobeam with surface effect",
+      "url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.5039952/15215835/055101_1_online.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\3369c917fe8f_1.4023901",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://asmedigitalcollection.asme.org/vibrationacoustics/article/doi/10.1115/1.4023901/472345/Analysis-of-Phononic-Bandgap-Structures-With",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1115/1.4023901"
+      },
+      "title": "Analysis of Phononic Bandgap Structures With Dissipation",
+      "url": "https://doi.org/10.1115/1.4023901"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\d170f4dbcd5e_vib_135_4_041015.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/doi/10.1115/1.4023901/6340054/vib_135_4_041015.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "http://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/doi/10.1115/1.4023901/6340054/vib_135_4_041015.pdf"
+      },
+      "title": "Analysis of Phononic Bandgap Structures With Dissipation",
+      "url": "http://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/doi/10.1115/1.4023901/6340054/vib_135_4_041015.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 91138,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\d7e520091caf_supp-1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/preprints/1198v1/#supp-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7287/peerj.preprints.1198v1/supp-1"
+      },
+      "title": null,
+      "url": "https://doi.org/10.7287/peerj.preprints.1198v1/supp-1"
+    },
+    {
+      "meta": {
+        "bytes": 91069,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\3e6776742554_supp-1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/preprints/1198/#supp-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7287/peerj.preprints.1198/supp-1"
+      },
+      "title": null,
+      "url": "https://doi.org/10.7287/peerj.preprints.1198/supp-1"
+    },
+    {
+      "meta": {
+        "bytes": 562608,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\2b4a49ecee0a_etd-180810-3296.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://dr.lib.iastate.edu/entities/publication/9c2dccfe-c3a2-46a1-8431-9902883616c5",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.31274/etd-180810-3296"
+      },
+      "title": "Effects of nonideal characteristics of substrate BJT on bandgap reference circuit",
+      "url": "https://doi.org/10.31274/etd-180810-3296"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\622785b32af6_ma11081309.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1996-1944/11/8/1309",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.3390/ma11081309"
+      },
+      "title": "Introducing Obliquely Perforated Phononic Plates for Enhanced Bandgap Efficiency",
+      "url": "https://doi.org/10.3390/ma11081309"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\7bd8d97c19e6_pdf.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1996-1944/11/8/1309/pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.mdpi.com/1996-1944/11/8/1309/pdf"
+      },
+      "title": "Introducing Obliquely Perforated Phononic Plates for Enhanced Bandgap Efficiency",
+      "url": "https://www.mdpi.com/1996-1944/11/8/1309/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 650139,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\e052cd71163c_s41578-021-00306-y.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41578-021-00306-y",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41578-021-00306-y"
+      },
+      "title": "Quantum guidelines for solid-state spin defects",
+      "url": "https://doi.org/10.1038/s41578-021-00306-y"
+    },
+    {
+      "meta": {
+        "bytes": 2249665,
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\92d0568cee48_1837058.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.osti.gov/servlets/purl/1837058",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.osti.gov/servlets/purl/1837058"
+      },
+      "title": "Quantum guidelines for solid-state spin defects",
+      "url": "https://www.osti.gov/servlets/purl/1837058"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\papers\\b649ee91f4c0_sciadv.ado6240",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/doi/10.1126/sciadv.ado6240",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1126/sciadv.ado6240"
+      },
+      "title": "Phonon engineering of atomic-scale defects in superconducting quantum circuits",
+      "url": "https://doi.org/10.1126/sciadv.ado6240"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 3110276,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\2321f2d7fe82_2304.13589",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2304.13589",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/src/2304.13589"
+      },
+      "url": "http://arxiv.org/src/2304.13589"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 6079651,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\efda6d3c17de_2412.08006",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2412.08006",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/src/2412.08006"
+      },
+      "url": "http://arxiv.org/src/2412.08006"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 7359073,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\13acf4ca06b8_2602.03186",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2602.03186",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/src/2602.03186"
+      },
+      "url": "http://arxiv.org/src/2602.03186"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\aef2a2ba9bda_hpdata.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/rest/api/hpdata",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/rest/api/hpdata"
+      },
+      "url": "https://doi.org/rest/api/hpdata"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\53551140ebf3_hpdata.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 502 Server Error: Bad Gateway for url: https://xplorestaging.ieee.org/rest/api/hpdata",
+        "ok": false,
+        "status_code": 502,
+        "url": "http://xplorestaging.ieee.org/rest/api/hpdata"
+      },
+      "url": "http://xplorestaging.ieee.org/rest/api/hpdata"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\760cacdd38cd_www.researcher-app.com.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectionError: HTTPSConnectionPool(host='www.researcher-app.com', port=443): Max retries exceeded with url: /?utm_source=researchsquare&utm_medium=referral&utm_campaign=&utm_content=logo (Caused by NameResolutionError(\"HTTPSConnection(host='www.researcher-app.com', port=443): Failed to resolve 'www.researcher-app.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.researcher-app.com/?utm_source=researchsquare&utm_medium=referral&utm_campaign=&utm_content=logo"
+      },
+      "url": "https://www.researcher-app.com/?utm_source=researchsquare&utm_medium=referral&utm_campaign=&utm_content=logo"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 417582,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\991a6c6c3bd4_s43246-024-00529-w.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s43246-024-00529-w?fromPaywallRec=false",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s43246-024-00529-w?fromPaywallRec=false"
+      },
+      "url": "https://www.nature.com/articles/s43246-024-00529-w?fromPaywallRec=false"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\65a53654dcea_1.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://www.doi.org/articles/s41598-025-34382-9/tables/1",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://doi.org/articles/s41598-025-34382-9/tables/1"
+      },
+      "url": "https://doi.org/articles/s41598-025-34382-9/tables/1"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\e55d08768dd9_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/1993PhRvL..71.2022K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993PhRvL..71.2022K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993PhRvL..71.2022K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\d4214f032e74_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2019ApPhL.114i1903C/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019ApPhL.114i1903C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019ApPhL.114i1903C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\e884890f7139_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2025NatSR..1518054R/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2025NatSR..1518054R"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2025NatSR..1518054R"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\164a2e885e97_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2019PhRvB..99i4302K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019PhRvB..99i4302K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019PhRvB..99i4302K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\a32fe195be46_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2017NatSR...743407L/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...743407L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...743407L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\1f16086bb329_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2004PhLA..332..481K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhLA..332..481K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhLA..332..481K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\62561f1e4218_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2024JAP...136o4103Z/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2024JAP...136o4103Z"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2024JAP...136o4103Z"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\7626f9ff5c79_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2020NatCo..11..762T/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020NatCo..11..762T"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020NatCo..11..762T"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\0a5d2307f9d6_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2017NatSR...715023C/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...715023C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatSR...715023C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 63278,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\f1325be36a1c_41598_2025_34382_MOESM1_ESM.docx",
+        "cached": false,
+        "content_type": "application/octet-stream",
+        "error": null,
+        "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-34382-9/MediaObjects/41598_2025_34382_MOESM1_ESM.docx",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-34382-9/MediaObjects/41598_2025_34382_MOESM1_ESM.docx"
+      },
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-34382-9/MediaObjects/41598_2025_34382_MOESM1_ESM.docx"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 288779,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\b7cf413ef852_sn.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022"
+      },
+      "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 110322,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\3a8654a44e47_research-data.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.springernature.com/gp/authors/research-data",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.springernature.com/gp/authors/research-data"
+      },
+      "url": "https://www.springernature.com/gp/authors/research-data"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 142916,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\c124a039db83_1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9/tables/1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-025-34382-9/tables/1"
+      },
+      "url": "https://www.nature.com/articles/s41598-025-34382-9/tables/1"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\861d102d29ed_trinityrnaseq.github.io.bin",
+        "content_type": "text/html; charset=utf-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: http://trinityrnaseq.github.io/",
+        "ok": false,
+        "status_code": 404,
+        "url": "http://trinityrnaseq.github.io"
+      },
+      "url": "http://trinityrnaseq.github.io"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\940c614668b3_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-6"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-6"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\f531ebd62378_table-1.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#table-1",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/table-1"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/table-1"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\0fb3920d3e5c_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-1"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-1"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\507271403d43_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-7"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-7"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\dc133da20403_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-2"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-2"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\cee120f5bc90_table-2.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#table-2",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/table-2"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/table-2"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\7d510a4c21cb_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-3"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-3"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\0bff8c842d18_table-3.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#table-3",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/table-3"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/table-3"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\267714ec8ec8_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-8"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-8"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\c01a20b665db_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-9"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#supp-9"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\1252981e1769_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-4"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-4"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\5ffa3c837b36_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-4fn1"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-4fn1"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\3222dfdc8deb_table-4.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#table-4",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/table-4"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/table-4"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\7263c005917c_supp-8.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#supp-8",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-5"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/supp-8#table-5"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 319063,
+        "cache_path": "tierb_cache_v71_all\\T40\\data_links\\36251061d61e_table-5.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://peerj.com/articles/2527/#table-5",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.7717/peerj.2527/table-5"
+      },
+      "url": "https://doi.org/10.7717/peerj.2527/table-5"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "evidence_status_v52": "data_limited",
+  "evidence_status_v53": "data_limited",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-05-18T09:36:51Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "low_priority_demote_v30": {
+    "confirm_allowed_now": false,
+    "priority_rank": 7,
+    "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+    "status": "demoted_until_exact_primary_tables_exist",
+    "test_id": "T40"
+  },
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "parsed_tables_count": 147,
+  "positive_dashboard_fragment_v30": {
+    "confirm_allowed_now": false,
+    "test_id": "T40",
+    "v30": {
+      "low_priority_demote_v30": {
+        "confirm_allowed_now": false,
+        "priority_rank": 7,
+        "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+        "status": "demoted_until_exact_primary_tables_exist",
+        "test_id": "T40"
+      }
+    },
+    "verdict": "data_limited_exact_table_needed"
+  },
+  "positive_dashboard_fragment_v32": {
+    "confirm_allowed_now": false,
+    "test_id": "T40",
+    "v32": {
+      "primary_table_hunt_v32": {
+        "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+        "child_urls_extracted": 0,
+        "confirm_allowed_now": false,
+        "manifest_rows": 1,
+        "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+        "prior_v30_demote_overridden": true,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "IBM Quantum BackendProperties docs",
+            "notes": "backend properties include T1/T2; not substrate-specific without device metadata",
+            "source_kind": "manual_candidate",
+            "status": "candidate_not_auto_scored",
+            "url": "https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/models-backend-properties"
+          }
+        ],
+        "status": "primary_table_hunt_active_no_qualifying_table_yet",
+        "test_id": "T40"
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v33": {
+    "confirm_allowed_now": false,
+    "test_id": "T40",
+    "v33": {
+      "auto_generated_inputs_v33": {
+        "generated_files": [],
+        "manual_or_user_csv_required": false,
+        "status": "auto_generation_attempted"
+      },
+      "auto_input_policy_v33": {
+        "all_tests_run_together": true,
+        "commit_generated_csv_required": false,
+        "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+        "manual_or_user_filled_csv_required": false,
+        "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+      },
+      "auto_primary_source_hunt_v33": {
+        "audit_csv": null,
+        "child_urls_extracted": 0,
+        "manifest": "data/primary_table_candidate_manifest_v33.csv",
+        "manifest_rows": 1,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "IBM Quantum BackendProperties docs",
+            "meta": {
+              "content_type": "text/html; charset=UTF-8",
+              "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/models-backend-properties",
+              "final_url": null,
+              "ok": false,
+              "status_code": 403
+            },
+            "notes": "backend properties include T1/T2; not substrate-specific without device metadata",
+            "source_kind": "manual_candidate",
+            "status": "download_failed_or_no_data",
+            "url": "https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/models-backend-properties"
+          }
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v34": {
+      "auto_data_improvements_v34": {},
+      "confirmation_blocker_v34": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "split_branch_policy_v34": {
+        "T40a_generic_qubit_T1_T2_trend": {
+          "confirm_allowed": false,
+          "reason": "generic backend T1/T2 histories do not establish phononic-substrate mechanism",
+          "role": "engineering/data trend control"
+        },
+        "T40b_phononic_substrate_specific_T1": {
+          "confirm_allowed": false,
+          "required_gate": "device-level T1 with substrate/phononic-bandgap/frequency metadata and matched non-phononic controls",
+          "role": "active_confirm_branch"
+        }
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v35": {
+      "auto_data_improvements_v35": {},
+      "confirmation_blocker_v35": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v35": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v36": {
+      "carried_forward_v35_improvements": true,
+      "confirmation_blocker_v36": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v36": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      },
+      "t34_real_runner_active": false
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v37": {
+      "auto_data_improvements_v37": {},
+      "confirmation_blocker_v37": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v37": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v38": {
+      "auto_data_improvements_v38": {},
+      "confirmation_blocker_v38": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v38": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v39": {
+      "auto_data_improvements_v39": {},
+      "confirmation_blocker_v39": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v39 gate not passed"
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v40": {
+      "auto_data_improvements_v40": {},
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v40 gate not passed"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v41": {
+      "auto_data_improvements_v41": {},
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v42": {
+      "auto_data_improvements_v42": {},
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v43": {
+      "auto_data_improvements_v43": {},
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v44": {
+      "auto_data_improvements_v44": {},
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v45": {
+      "auto_data_improvements_v45": {},
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v46": {
+      "auto_data_improvements_v46": {},
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v47": {
+      "auto_data_improvements_v47": {},
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v48": {
+      "auto_data_improvements_v48": {},
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v49": {
+      "auto_data_improvements_v49": {},
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v50": {
+      "auto_data_improvements_v50": {},
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v51": {
+      "auto_data_improvements_v51": {},
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T40"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "data_status_v52": "data_limited",
+      "evidence_status_v52": "data_limited",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v52": {
+      "auto_data_improvements_v52": {},
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed_data_limited",
+        "data_status_v52": "data_limited",
+        "evidence_status_v52": "data_limited",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T40"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "data_status_v53": "data_limited",
+      "evidence_status_v53": "data_limited",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v53": {
+      "auto_data_improvements_v53": {},
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed_data_limited",
+        "data_status_v53": "data_limited",
+        "evidence_status_v53": "data_limited",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "data_limited",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "high",
+      "next_data_source_v56": "not a current confirm target",
+      "rank_score_0_10_v56": 1,
+      "test_id": "T40"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v56": {
+      "auto_data_improvements_v56": {},
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "data_limited",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "high",
+      "next_data_source_v57": "not a current confirm target",
+      "rank_score_0_10_v57": 1,
+      "test_id": "T40"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v57": {
+      "auto_data_improvements_v57": {},
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T40"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v58": {
+      "auto_data_improvements_v58": {},
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T40"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T40",
+    "v59": {
+      "auto_data_improvements_v59": {},
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "prediction_ids": [
+    "QC5"
+  ],
+  "prediction_names": [
+    "phononic crystal substrate transmon T1 trajectory above 1 ms"
+  ],
+  "primary_table_hunt_v32": {
+    "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+    "child_urls_extracted": 0,
+    "confirm_allowed_now": false,
+    "manifest_rows": 1,
+    "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+    "prior_v30_demote_overridden": true,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "IBM Quantum BackendProperties docs",
+        "notes": "backend properties include T1/T2; not substrate-specific without device metadata",
+        "source_kind": "manual_candidate",
+        "status": "candidate_not_auto_scored",
+        "url": "https://quantum.cloud.ibm.com/docs/api/qiskit-ibm-runtime/models-backend-properties"
+      }
+    ],
+    "status": "primary_table_hunt_active_no_qualifying_table_yet",
+    "test_id": "T40"
+  },
+  "programmatic_verdict": "primary_table_hunt_active",
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "+v30_demote_exact_missing+v32_primary_table_hunt_not_demoted+v33_no_manual_all_tests_auto_primary_hunt+v34_auto_confirm_loaders_blocker_dashboard+v35_near_confirm_models_endpoint_fixes+v36_t34_real_runner_and_near_confirm_hardening+v37_confirm_hardening+v38_final_confirm_gate_hardening+v39_confirm_freeze_and_next_targets+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "queries": [
+    "transmon phononic bandgap substrate T1 table",
+    "superconducting qubit phononic crystal bandgap lifetime T1 data"
+  ],
+  "readiness_status": "structured_table_found_no_required_physical_columns",
+  "rejected_tables_sample": [
+    {
+      "columns": [
+        "Table S1. Primers of qRT-PCR for Coptotermes formosanus used in the experiment.",
+        "Unnamed: 1"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Table S1. Primers of qRT-PCR for Coptotermes formosanus used in the experiment.",
+          "Unnamed: 1"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        23,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Primer name",
+        "Sequence (5'-3')"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Primer name",
+          "Sequence (5'-3')"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        22,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "18S-F",
+        "CGAGATTGAGCAATAACAGGTC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "18S-F",
+          "CGAGATTGAGCAATAACAGGTC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        21,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "18S-R",
+        "ACGTAATCAACGCGAGCTTATG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "18S-R",
+          "ACGTAATCAACGCGAGCTTATG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        20,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "\nc181311_c0-F",
+        "GCCCCAGTAACTAAAGAAGAAGC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "\nc181311_c0-F",
+          "GCCCCAGTAACTAAAGAAGAAGC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        19,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c181311_c0-R",
+        "CCAGATTTCTTTACCTCCCTTCC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c181311_c0-R",
+          "CCAGATTTCTTTACCTCCCTTCC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        18,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c168998_c0-F",
+        "ATTGGTCATTCAGAGCGAAGAG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c168998_c0-F",
+          "ATTGGTCATTCAGAGCGAAGAG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        17,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c168998_c0-R",
+        "ACAACCGAATCCCATTTATCAG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c168998_c0-R",
+          "ACAACCGAATCCCATTTATCAG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        16,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c167200_c0-F",
+        "GTACGATTCAGCACATGGAGTATT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c167200_c0-F",
+          "GTACGATTCAGCACATGGAGTATT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        15,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c167200_c0-R",
+        "TCTGGTCCTACCTTTGCCTTAG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c167200_c0-R",
+          "TCTGGTCCTACCTTTGCCTTAG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        14,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c173654_c0-F",
+        "CAAGCACTGCCCAAATACGA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c173654_c0-F",
+          "CAAGCACTGCCCAAATACGA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        13,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c173654_c0-R",
+        "CCTGGGAACCTTTGTCTGATG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c173654_c0-R",
+          "CCTGGGAACCTTTGTCTGATG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        12,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c166756_c0-F",
+        "TCCCCTTGATTTCACATTTGTC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c166756_c0-F",
+          "TCCCCTTGATTTCACATTTGTC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        11,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c166756_c0-R",
+        "CACCAAGATCACCAATGATTGAGT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c166756_c0-R",
+          "CACCAAGATCACCAATGATTGAGT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        10,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c184494_c2-F",
+        "CGTGCTAACTTAACAACTGCTTTC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c184494_c2-F",
+          "CGTGCTAACTTAACAACTGCTTTC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        9,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c184494_c2-R",
+        "TGTGCTTCATCCATATCCTCCT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c184494_c2-R",
+          "TGTGCTTCATCCATATCCTCCT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        8,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c179746_c0-F",
+        "CACAACAGATCCCTCGCTGAA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c179746_c0-F",
+          "CACAACAGATCCCTCGCTGAA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        7,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c179746_c0-R",
+        "CTTTGATGATTGCACCACCTCTTA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c179746_c0-R",
+          "CTTTGATGATTGCACCACCTCTTA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        6,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c169342_c0-F",
+        "CCAGAAGCAAGAATAAGCATTTCC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c169342_c0-F",
+          "CCAGAAGCAAGAATAAGCATTTCC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        5,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c169342_c0-R",
+        "GGCATCAATCCAGCCCAGA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c169342_c0-R",
+          "GGCATCAATCCAGCCCAGA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        4,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    }
+  ],
+  "required_column_groups": [
+    [
+      "T1|lifetime|relaxation"
+    ],
+    [
+      "phononic|bandgap|substrate|transmon|qubit"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "split_branch_policy_v34": {
+    "T40a_generic_qubit_T1_T2_trend": {
+      "confirm_allowed": false,
+      "reason": "generic backend T1/T2 histories do not establish phononic-substrate mechanism",
+      "role": "engineering/data trend control"
+    },
+    "T40b_phononic_substrate_specific_T1": {
+      "confirm_allowed": false,
+      "required_gate": "device-level T1 with substrate/phononic-bandgap/frequency metadata and matched non-phononic controls",
+      "role": "active_confirm_branch"
+    }
+  },
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "data_status_v52": "data_limited",
+    "evidence_status_v52": "data_limited",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "data_status_v53": "data_limited",
+    "evidence_status_v53": "data_limited",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "table_summaries": [
+    {
+      "columns": [
+        "Table S1. Primers of qRT-PCR for Coptotermes formosanus used in the experiment.",
+        "Unnamed: 1"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Table S1. Primers of qRT-PCR for Coptotermes formosanus used in the experiment.",
+          "Unnamed: 1"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        23,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Primer name",
+        "Sequence (5'-3')"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Primer name",
+          "Sequence (5'-3')"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        22,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "18S-F",
+        "CGAGATTGAGCAATAACAGGTC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "18S-F",
+          "CGAGATTGAGCAATAACAGGTC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        21,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "18S-R",
+        "ACGTAATCAACGCGAGCTTATG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "18S-R",
+          "ACGTAATCAACGCGAGCTTATG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        20,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "\nc181311_c0-F",
+        "GCCCCAGTAACTAAAGAAGAAGC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "\nc181311_c0-F",
+          "GCCCCAGTAACTAAAGAAGAAGC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        19,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c181311_c0-R",
+        "CCAGATTTCTTTACCTCCCTTCC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c181311_c0-R",
+          "CCAGATTTCTTTACCTCCCTTCC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        18,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c168998_c0-F",
+        "ATTGGTCATTCAGAGCGAAGAG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c168998_c0-F",
+          "ATTGGTCATTCAGAGCGAAGAG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        17,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c168998_c0-R",
+        "ACAACCGAATCCCATTTATCAG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c168998_c0-R",
+          "ACAACCGAATCCCATTTATCAG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        16,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c167200_c0-F",
+        "GTACGATTCAGCACATGGAGTATT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c167200_c0-F",
+          "GTACGATTCAGCACATGGAGTATT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        15,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c167200_c0-R",
+        "TCTGGTCCTACCTTTGCCTTAG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c167200_c0-R",
+          "TCTGGTCCTACCTTTGCCTTAG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        14,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c173654_c0-F",
+        "CAAGCACTGCCCAAATACGA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c173654_c0-F",
+          "CAAGCACTGCCCAAATACGA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        13,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c173654_c0-R",
+        "CCTGGGAACCTTTGTCTGATG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c173654_c0-R",
+          "CCTGGGAACCTTTGTCTGATG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        12,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c166756_c0-F",
+        "TCCCCTTGATTTCACATTTGTC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c166756_c0-F",
+          "TCCCCTTGATTTCACATTTGTC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        11,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c166756_c0-R",
+        "CACCAAGATCACCAATGATTGAGT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c166756_c0-R",
+          "CACCAAGATCACCAATGATTGAGT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        10,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c184494_c2-F",
+        "CGTGCTAACTTAACAACTGCTTTC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c184494_c2-F",
+          "CGTGCTAACTTAACAACTGCTTTC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        9,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c184494_c2-R",
+        "TGTGCTTCATCCATATCCTCCT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c184494_c2-R",
+          "TGTGCTTCATCCATATCCTCCT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        8,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c179746_c0-F",
+        "CACAACAGATCCCTCGCTGAA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c179746_c0-F",
+          "CACAACAGATCCCTCGCTGAA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        7,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c179746_c0-R",
+        "CTTTGATGATTGCACCACCTCTTA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c179746_c0-R",
+          "CTTTGATGATTGCACCACCTCTTA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        6,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c169342_c0-F",
+        "CCAGAAGCAAGAATAAGCATTTCC"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c169342_c0-F",
+          "CCAGAAGCAAGAATAAGCATTTCC"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        5,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c169342_c0-R",
+        "GGCATCAATCCAGCCCAGA"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c169342_c0-R",
+          "GGCATCAATCCAGCCCAGA"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        4,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c125410_c0-F",
+        "CAGAACGGGTCATCAGACATTT"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c125410_c0-F",
+          "CAGAACGGGTCATCAGACATTT"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        3,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c125410_c0-R",
+        "CCGACTCCTCAAGACTTAGCG"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "c125410_c0-R",
+          "CCGACTCCTCAAGACTTAGCG"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        2,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "0",
+        "1"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "0",
+          "1"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        24,
+        2
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S1.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Table S2. Unigenes annotated in different databases.",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Table S2. Unigenes annotated in different databases.",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        10,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Annotated databases",
+        "Number",
+        "< 300 bp",
+        "300 \u2264 length < 1000 bp",
+        "\u2265 1000 bp"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Annotated databases",
+          "Number",
+          "< 300 bp",
+          "300 \u2264 length < 1000 bp",
+          "\u2265 1000 bp"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        9,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "NR",
+        "61,407 (32.42%)",
+        "14,929 (17.72%)",
+        "29,518 (36.41%)",
+        "16,960 (70.40%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "NR",
+          "61,407 (32.42%)",
+          "14,929 (17.72%)",
+          "29,518 (36.41%)",
+          "16,960 (70.40%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        8,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Swiss-Prot",
+        "35,633 (18.81%)",
+        "6,872 (8.16%)",
+        "16,184 (19.96%)",
+        "12,577 (52.20%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "Swiss-Prot",
+          "35,633 (18.81%)",
+          "6,872 (8.16%)",
+          "16,184 (19.96%)",
+          "12,577 (52.20%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        7,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "GO",
+        "16,552 (8.74%)",
+        "4,192 (4.98%)",
+        "6,574 (8.11%)",
+        "5,786 (24.02%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "GO",
+          "16,552 (8.74%)",
+          "4,192 (4.98%)",
+          "6,574 (8.11%)",
+          "5,786 (24.02%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        6,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "PFAM",
+        "32,444 (17.13%)",
+        "6,899 (8.19%)",
+        "13,744 (16.95%)",
+        "11,801 (48.98%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "PFAM",
+          "32,444 (17.13%)",
+          "6,899 (8.19%)",
+          "13,744 (16.95%)",
+          "11,801 (48.98%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        5,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "COG",
+        "19,517 (10.30%)",
+        "4,568 (5.42%)",
+        "8,901 (10.98%)",
+        "6,048 (25.10%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "COG",
+          "19,517 (10.30%)",
+          "4,568 (5.42%)",
+          "8,901 (10.98%)",
+          "6,048 (25.10%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        4,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "KOG",
+        "30,531 (16.12%)",
+        "6,240 (7.41%)",
+        "13,664 (16.85%)",
+        "10,627 (44.11%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "KOG",
+          "30,531 (16.12%)",
+          "6,240 (7.41%)",
+          "13,664 (16.85%)",
+          "10,627 (44.11%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        3,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "KEGG",
+        "16,444 (8.68%)",
+        "3,384 (4.02%)",
+        "7,573 (9.34%)",
+        "5,487 (22.78%)"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "KEGG",
+          "16,444 (8.68%)",
+          "3,384 (4.02%)",
+          "7,573 (9.34%)",
+          "5,487 (22.78%)"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        2,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "numeric_columns": [],
+      "physical_column_match": {
+        "columns": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        11,
+        5
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S2.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Table S3. Common DEGs with informative annotations in T1 vs T2, T1 vs T3, T1 vs T4.",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8"
+      ],
+      "numeric_columns": [
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "Table S3. Common DEGs with informative annotations in T1 vs T2, T1 vs T3, T1 vs T4.",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6",
+          "Unnamed: 7",
+          "Unnamed: 8"
+        ],
+        "matched_groups": [
+          [
+            "Table S3. Common DEGs with informative annotations in T1 vs T2, T1 vs T3, T1 vs T4."
+          ]
+        ],
+        "missing_groups": [
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        29,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "Gene ID",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T1 vs. T2",
+        "T1 vs. T3",
+        "T1 vs. T4",
+        "NR annotation"
+      ],
+      "numeric_columns": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "Gene ID",
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T1 vs. T2",
+          "T1 vs. T3",
+          "T1 vs. T4",
+          "NR annotation"
+        ],
+        "matched_groups": [
+          [
+            "T1",
+            "T1 vs. T2",
+            "T1 vs. T3",
+            "T1 vs. T4"
+          ]
+        ],
+        "missing_groups": [
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        28,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c188927_c0",
+        "0",
+        "20.3",
+        "15.08",
+        "10",
+        "up",
+        "up.1",
+        "up.2",
+        "PREDICTED: transferrin-like [Harpegnathos saltator] "
+      ],
+      "numeric_columns": [
+        "0",
+        "20.3",
+        "15.08",
+        "10"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c188927_c0",
+          "0",
+          "20.3",
+          "15.08",
+          "10",
+          "up",
+          "up.1",
+          "up.2",
+          "PREDICTED: transferrin-like [Harpegnathos saltator] "
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        27,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c127508_c0",
+        "20.95",
+        "42.19",
+        "88.32",
+        "146.3",
+        "up",
+        "up.1",
+        "up.2",
+        "prolixicin antimicrobial protein [Coptotermes formosanus]"
+      ],
+      "numeric_columns": [
+        "20.95",
+        "42.19",
+        "88.32",
+        "146.3"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c127508_c0",
+          "20.95",
+          "42.19",
+          "88.32",
+          "146.3",
+          "up",
+          "up.1",
+          "up.2",
+          "prolixicin antimicrobial protein [Coptotermes formosanus]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        26,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c191131_c0",
+        "3.65",
+        "10.42",
+        "10.72",
+        "0.39",
+        "up",
+        "up.1",
+        "down",
+        "PREDICTED: probable adenine permease PurP-like [Ceratitis capitata] "
+      ],
+      "numeric_columns": [
+        "3.65",
+        "10.42",
+        "10.72",
+        "0.39"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c191131_c0",
+          "3.65",
+          "10.42",
+          "10.72",
+          "0.39",
+          "up",
+          "up.1",
+          "down",
+          "PREDICTED: probable adenine permease PurP-like [Ceratitis capitata] "
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        25,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c185045_c1",
+        "4.79",
+        "0.26",
+        "37.68",
+        "0.25",
+        "down",
+        "up",
+        "down.1",
+        "Adult-specific cuticular protein ACP-20 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "4.79",
+        "0.26",
+        "37.68",
+        "0.25"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c185045_c1",
+          "4.79",
+          "0.26",
+          "37.68",
+          "0.25",
+          "down",
+          "up",
+          "down.1",
+          "Adult-specific cuticular protein ACP-20 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        24,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c126213_c0",
+        "7.9",
+        "0",
+        "27.79",
+        "0.26",
+        "down",
+        "up",
+        "down.1",
+        "Adult-specific cuticular protein ACP-20 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "7.9",
+        "0",
+        "27.79",
+        "0.26"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c126213_c0",
+          "7.9",
+          "0",
+          "27.79",
+          "0.26",
+          "down",
+          "up",
+          "down.1",
+          "Adult-specific cuticular protein ACP-20 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        23,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c174474_c1",
+        "1.83",
+        "0",
+        "14.89",
+        "0.18",
+        "down",
+        "up",
+        "down.1",
+        "structural constituent of cuticle, putative [Pediculus humanus corporis]"
+      ],
+      "numeric_columns": [
+        "1.83",
+        "0",
+        "14.89",
+        "0.18"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c174474_c1",
+          "1.83",
+          "0",
+          "14.89",
+          "0.18",
+          "down",
+          "up",
+          "down.1",
+          "structural constituent of cuticle, putative [Pediculus humanus corporis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        22,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c190969_c1",
+        "5.44",
+        "0.42",
+        "33.24",
+        "0.55",
+        "down",
+        "up",
+        "down.1",
+        "PREDICTED: glycine-rich cell wall structural protein [Harpegnathos saltator] "
+      ],
+      "numeric_columns": [
+        "5.44",
+        "0.42",
+        "33.24",
+        "0.55"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c190969_c1",
+          "5.44",
+          "0.42",
+          "33.24",
+          "0.55",
+          "down",
+          "up",
+          "down.1",
+          "PREDICTED: glycine-rich cell wall structural protein [Harpegnathos saltator] "
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        21,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c128561_c0",
+        "7.42",
+        "0.65",
+        "66.53",
+        "1.42",
+        "down",
+        "up",
+        "down.1",
+        "Cell surface glycoprotein 1 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "7.42",
+        "0.65",
+        "66.53",
+        "1.42"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c128561_c0",
+          "7.42",
+          "0.65",
+          "66.53",
+          "1.42",
+          "down",
+          "up",
+          "down.1",
+          "Cell surface glycoprotein 1 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        20,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c128751_c0",
+        "9.32",
+        "0.65",
+        "64.55",
+        "0.31",
+        "down",
+        "up",
+        "down.1",
+        "Filamentous hemagglutinin [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "9.32",
+        "0.65",
+        "64.55",
+        "0.31"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c128751_c0",
+          "9.32",
+          "0.65",
+          "64.55",
+          "0.31",
+          "down",
+          "up",
+          "down.1",
+          "Filamentous hemagglutinin [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        19,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c192228_c0",
+        "3.97",
+        "0.17",
+        "44.97",
+        "0.33",
+        "down",
+        "up",
+        "down.1",
+        "Neurofilament heavy polypeptide [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "3.97",
+        "0.17",
+        "44.97",
+        "0.33"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c192228_c0",
+          "3.97",
+          "0.17",
+          "44.97",
+          "0.33",
+          "down",
+          "up",
+          "down.1",
+          "Neurofilament heavy polypeptide [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        18,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c126015_c0",
+        "24.09",
+        "2.13",
+        "207.57",
+        "4.18",
+        "down",
+        "up",
+        "down.1",
+        "BAT2 domain-containing protein 1 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "24.09",
+        "2.13",
+        "207.57",
+        "4.18"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c126015_c0",
+          "24.09",
+          "2.13",
+          "207.57",
+          "4.18",
+          "down",
+          "up",
+          "down.1",
+          "BAT2 domain-containing protein 1 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        17,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c174457_c0",
+        "29.96",
+        "1.04",
+        "191.82",
+        "3.56",
+        "down",
+        "up",
+        "down.1",
+        "putative serine/threonine-protein kinase kinX [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "29.96",
+        "1.04",
+        "191.82",
+        "3.56"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c174457_c0",
+          "29.96",
+          "1.04",
+          "191.82",
+          "3.56",
+          "down",
+          "up",
+          "down.1",
+          "putative serine/threonine-protein kinase kinX [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        16,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c169178_c0",
+        "7.02",
+        "0.29",
+        "36.57",
+        "0.37",
+        "down",
+        "up",
+        "down.1",
+        "Retinaldehyde-binding protein 1-like protein 2 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "7.02",
+        "0.29",
+        "36.57",
+        "0.37"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c169178_c0",
+          "7.02",
+          "0.29",
+          "36.57",
+          "0.37",
+          "down",
+          "up",
+          "down.1",
+          "Retinaldehyde-binding protein 1-like protein 2 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        15,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c127831_c0",
+        "35.33",
+        "13.79",
+        "3.4",
+        "2.73",
+        "down",
+        "down.1",
+        "down.2",
+        "Actin cytoskeleton-regulatory complex protein PAN1 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "35.33",
+        "13.79",
+        "3.4",
+        "2.73"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c127831_c0",
+          "35.33",
+          "13.79",
+          "3.4",
+          "2.73",
+          "down",
+          "down.1",
+          "down.2",
+          "Actin cytoskeleton-regulatory complex protein PAN1 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        14,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c169839_c0",
+        "29.33",
+        "11.68",
+        "2.48",
+        "3.28",
+        "down",
+        "down.1",
+        "down.2",
+        "Actin cytoskeleton-regulatory complex protein PAN1 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "29.33",
+        "11.68",
+        "2.48",
+        "3.28"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c169839_c0",
+          "29.33",
+          "11.68",
+          "2.48",
+          "3.28",
+          "down",
+          "down.1",
+          "down.2",
+          "Actin cytoskeleton-regulatory complex protein PAN1 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        13,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c102424_c0",
+        "43.06",
+        "17.06",
+        "7.91",
+        "6.73",
+        "down",
+        "down.1",
+        "down.2",
+        "Apolipoprotein D [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "43.06",
+        "17.06",
+        "7.91",
+        "6.73"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c102424_c0",
+          "43.06",
+          "17.06",
+          "7.91",
+          "6.73",
+          "down",
+          "down.1",
+          "down.2",
+          "Apolipoprotein D [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        12,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c181121_c0",
+        "45.15",
+        "17.45",
+        "4.91",
+        "1.61",
+        "down",
+        "down.1",
+        "down.2",
+        "collagen precursor [Bombyx mori] "
+      ],
+      "numeric_columns": [
+        "45.15",
+        "17.45",
+        "4.91",
+        "1.61"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c181121_c0",
+          "45.15",
+          "17.45",
+          "4.91",
+          "1.61",
+          "down",
+          "down.1",
+          "down.2",
+          "collagen precursor [Bombyx mori] "
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        11,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c105250_c0",
+        "945.04",
+        "290.73",
+        "178.82",
+        "258.7",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 2 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "945.04",
+        "290.73",
+        "178.82",
+        "258.7"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c105250_c0",
+          "945.04",
+          "290.73",
+          "178.82",
+          "258.7",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 2 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        10,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c192212_c0",
+        "41.27",
+        "6.39",
+        "2.4",
+        "6.99",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 5 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "41.27",
+        "6.39",
+        "2.4",
+        "6.99"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c192212_c0",
+          "41.27",
+          "6.39",
+          "2.4",
+          "6.99",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 5 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        9,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c192110_c0",
+        "50.83",
+        "12.09",
+        "3",
+        "5.04",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 5 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "50.83",
+        "12.09",
+        "3",
+        "5.04"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c192110_c0",
+          "50.83",
+          "12.09",
+          "3",
+          "5.04",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 5 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        8,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c158489_c0",
+        "8",
+        "2.17",
+        "1.22",
+        "2.07",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 6 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "8",
+        "2.17",
+        "1.22",
+        "2.07"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c158489_c0",
+          "8",
+          "2.17",
+          "1.22",
+          "2.07",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 6 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        7,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c105613_c0",
+        "210.47",
+        "37.93",
+        "13.81",
+        "16.72",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 6 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "210.47",
+        "37.93",
+        "13.81",
+        "16.72"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c105613_c0",
+          "210.47",
+          "37.93",
+          "13.81",
+          "16.72",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 6 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        6,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c191959_c0",
+        "148.7",
+        "31.18",
+        "10.65",
+        "11.58",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 6 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "148.7",
+        "31.18",
+        "10.65",
+        "11.58"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c191959_c0",
+          "148.7",
+          "31.18",
+          "10.65",
+          "11.58",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 6 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        5,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c191975_c0",
+        "271.09",
+        "52.33",
+        "27.31",
+        "44.01",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 7 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "271.09",
+        "52.33",
+        "27.31",
+        "44.01"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c191975_c0",
+          "271.09",
+          "52.33",
+          "27.31",
+          "44.01",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 7 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        4,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    },
+    {
+      "columns": [
+        "c168097_c0",
+        "108.14",
+        "18",
+        "3.32",
+        "13.9",
+        "down",
+        "down.1",
+        "down.2",
+        "Cuticle protein 7 [Zootermopsis nevadensis]"
+      ],
+      "numeric_columns": [
+        "108.14",
+        "18",
+        "3.32",
+        "13.9"
+      ],
+      "physical_column_match": {
+        "columns": [
+          "c168097_c0",
+          "108.14",
+          "18",
+          "3.32",
+          "13.9",
+          "down",
+          "down.1",
+          "down.2",
+          "Cuticle protein 7 [Zootermopsis nevadensis]"
+        ],
+        "matched_groups": [],
+        "missing_groups": [
+          [
+            "T1|lifetime|relaxation"
+          ],
+          [
+            "phononic|bandgap|substrate|transmon|qubit"
+          ]
+        ],
+        "ok": false
+      },
+      "shape": [
+        3,
+        9
+      ],
+      "source_kind": "discovered_structured",
+      "source_url": "https://dfzljdn9uc3pi.cloudfront.net/2016/2527/1/Table_S3.xlsx",
+      "title": null
+    }
+  ],
+  "test_id": "T40",
+  "test_name": "transmon phononic-substrate T1 audit"
+}

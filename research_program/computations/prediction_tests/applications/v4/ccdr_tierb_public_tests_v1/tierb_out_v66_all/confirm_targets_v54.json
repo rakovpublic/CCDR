@@ -1,0 +1,321 @@
+{
+  "schema": "ccdr-tierb-confirm-targets-v54",
+  "targets": [
+    {
+      "blocker_type_v53": "audit_conflict",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "demoted_audit_conflict_needs_fix",
+      "expected_effort_v53": "low",
+      "next_data_source_v53": "recovered PV descriptor rows + absorber/source/year robustness artifacts",
+      "rank_score_0_10_v53": 10,
+      "test_id": "T48"
+    },
+    {
+      "blocker_type_v53": "dedup_measured_microstructure_rows_available_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "expected_effort_v53": "medium",
+      "next_data_source_v53": "dedup measured \u03ba(T)+SEM/TEM/XRD microstructure rows across >=5 sources/families and >=3 temperature bins",
+      "rank_score_0_10_v53": 9,
+      "test_id": "T31"
+    },
+    {
+      "blocker_type_v53": "dedup_measured_microstructure_rows_available_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "expected_effort_v53": "medium",
+      "next_data_source_v53": "dedup measured \u03ba(T)+SEM/TEM/XRD microstructure rows across >=5 sources/families and >=3 temperature bins",
+      "rank_score_0_10_v53": 9,
+      "test_id": "T32"
+    },
+    {
+      "blocker_type_v53": "dms_structure_join_rows_missing_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "expected_effort_v53": "medium",
+      "next_data_source_v53": "ProteinGym CSV joined to UniProt/PDB/AlphaFold structural features",
+      "rank_score_0_10_v53": 6,
+      "test_id": "T53"
+    },
+    {
+      "blocker_type_v54": "preliminary_public_structured_anchor_available_v54",
+      "confirmation_legally_possible_v54": true,
+      "confirmation_status_v54": "not_confirmed_preliminary_test_allowed_v54",
+      "expected_effort_v54": "medium",
+      "next_data_source_v54": "Prioritize Stroth 2021 table extraction for a preliminary T29 run; require explicit W7-X/AUG/W7-AS rows and transport/confinement variables.",
+      "preliminary_test_allowed_v54": true,
+      "rank_score_0_10_v54": 5,
+      "strict_blocker_v54": "public tables are paper-level/averaged comparison rows, not raw edge-profile database; preliminary only until extracted structured table passes controls",
+      "test_id": "T29"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "anchor_only_not_full_confirm",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 5,
+      "test_id": "T60"
+    },
+    {
+      "blocker_type_v54": "public_db5_summary_anchor_rows_not_open_v54",
+      "confirmation_legally_possible_v54": true,
+      "confirmation_status_v54": "not_confirmed_rows_not_publicly_downloadable_v54",
+      "expected_effort_v54": "medium",
+      "next_data_source_v54": "Treat Verdoolaege 2021 as strongest public anchor; parse summary statistics/regression tables only as ingredient support until rows are available.",
+      "preliminary_test_allowed_v54": true,
+      "rank_score_0_10_v54": 4,
+      "strict_blocker_v54": "DB5.2.3-STD5 full row table not openly downloadable as CSV/Excel with needed variables",
+      "test_id": "T28"
+    },
+    {
+      "blocker_type_v53": "exact_te_rows_missing_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "expected_effort_v53": "medium",
+      "next_data_source_v53": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T34"
+    },
+    {
+      "blocker_type_v54": "suggestive_rmp_compilation_only_v54",
+      "confirmation_legally_possible_v54": true,
+      "confirmation_status_v54": "not_confirmed_suggestive_only_v54",
+      "expected_effort_v54": "high",
+      "next_data_source_v54": "Use Paz-Soldan 2024 as suggestive compilation; extract only table/figure-level summary diagnostics and mark non-confirm.",
+      "preliminary_test_allowed_v54": true,
+      "rank_score_0_10_v54": 3,
+      "strict_blocker_v54": "no raw per-discharge RMP/ELM-frequency table with baseline and phasing/current rows",
+      "test_id": "T27"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact optical interconnect benchmark supplement/table",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T45"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact neuromorphic benchmark supplement/table",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T47"
+    },
+    {
+      "blocker_type_v53": "hepdata_exact_registry_missing_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact HEPData record/table/column manifest with observed/model/uncertainty columns",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T57"
+    },
+    {
+      "blocker_type_v53": "hepdata_exact_registry_available_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "exact HEPData record/table/column manifest with observed/model/uncertainty columns",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T59"
+    },
+    {
+      "blocker_type_v54": "blocked_figures_or_summary_only_v54",
+      "confirmation_legally_possible_v54": true,
+      "confirmation_status_v54": "not_confirmed_figures_only_v54",
+      "expected_effort_v54": "high",
+      "next_data_source_v54": "Keep blocked for rigorous Round-10 confirmation; optional figure digitization can be logged as partial trend only.",
+      "preliminary_test_allowed_v54": false,
+      "rank_score_0_10_v54": 2,
+      "strict_blocker_v54": "no public per-shot ELM/pedestal table with E_ELM/W_ELM + Pped/Wped + volume/proxy + device/shot",
+      "test_id": "T26"
+    },
+    {
+      "blocker_type_v54": "inherits_exact_attachment_blocker_v54",
+      "confirmation_legally_possible_v54": true,
+      "confirmation_status_v54": "not_confirmed_data_limited_v54",
+      "expected_effort_v54": "high",
+      "next_data_source_v54": "Do not prioritize; reuse T28/T29 if exact rows become available.",
+      "preliminary_test_allowed_v54": false,
+      "rank_score_0_10_v54": 2,
+      "strict_blocker_v54": "no dedicated exact public residual/curvature row table; depends on DB5-like rows or T29 extracted comparison rows",
+      "test_id": "T30"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T33"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T35"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T36"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T37"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T38"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T39"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T40"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T41"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T42"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T43"
+    },
+    {
+      "blocker_type_v53": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T46"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T49"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T54"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T55"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T56"
+    },
+    {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T58"
+    },
+    {
+      "blocker_type_v53": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "not_confirmable_by_design",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 0,
+      "test_id": "T50"
+    },
+    {
+      "blocker_type_v53": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "not_confirmable_by_design",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 0,
+      "test_id": "T51"
+    },
+    {
+      "blocker_type_v53": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v53": false,
+      "confirmation_status_v53": "not_confirmable_by_design",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 0,
+      "test_id": "T52"
+    }
+  ]
+}

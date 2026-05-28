@@ -1,0 +1,173 @@
+{
+  "bad_patch_investigations": [
+    {
+      "bad_patch": true,
+      "curl_delta": -0.006942463810815001,
+      "diagnostic_reasons": [
+        "negative_science_delta"
+      ],
+      "n_high": 12,
+      "n_low": 21,
+      "patch_id": 102,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.012518206276280315,
+      "science_minus_abs_curl": -0.019460670087095316
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.0061631475230681625,
+      "diagnostic_reasons": [
+        "negative_science_delta"
+      ],
+      "n_high": 12,
+      "n_low": 30,
+      "patch_id": 156,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.009039987953283958,
+      "science_minus_abs_curl": -0.01520313547635212
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": 0.001760305012329615,
+      "diagnostic_reasons": [
+        "low_high_or_low_count",
+        "negative_science_delta"
+      ],
+      "n_high": 3,
+      "n_low": 13,
+      "patch_id": 221,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.004120088586771171,
+      "science_minus_abs_curl": -0.005880393599100786
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": 0.0027938369907475726,
+      "diagnostic_reasons": [
+        "negative_science_delta"
+      ],
+      "n_high": 21,
+      "n_low": 15,
+      "patch_id": 225,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.008883243982543212,
+      "science_minus_abs_curl": -0.011677080973290784
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": 0.017941769453088473,
+      "diagnostic_reasons": [
+        "low_high_or_low_count",
+        "negative_science_delta"
+      ],
+      "n_high": 5,
+      "n_low": 11,
+      "patch_id": 253,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.05427655759816432,
+      "science_minus_abs_curl": -0.07221832705125279
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.20190622655377596,
+      "diagnostic_reasons": [
+        "curl_dominates_science",
+        "large_curl_amplitude"
+      ],
+      "n_high": 15,
+      "n_low": 18,
+      "patch_id": 273,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": 0.055439739187947125,
+      "science_minus_abs_curl": -0.14646648736582885
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.09834770947670246,
+      "diagnostic_reasons": [
+        "negative_science_delta"
+      ],
+      "n_high": 18,
+      "n_low": 22,
+      "patch_id": 284,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.3198912269009409,
+      "science_minus_abs_curl": -0.41823893637764337
+    },
+    {
+      "bad_patch": true,
+      "curl_delta": -0.04583257626095874,
+      "diagnostic_reasons": [
+        "curl_dominates_science",
+        "negative_science_delta"
+      ],
+      "n_high": 10,
+      "n_low": 9,
+      "patch_id": 381,
+      "required_followup": [
+        "check ACT mask/edge proximity",
+        "check coordinate density split",
+        "check map variant consistency",
+        "rerun with predeclared patch protocol"
+      ],
+      "science_delta": -0.03523288322594727,
+      "science_minus_abs_curl": -0.08106545948690601
+    }
+  ],
+  "claim_policy": "Bad-patch investigation is diagnostic only. It cannot be used to select patches for promotion in the same run.",
+  "n_bad_patches": 8,
+  "version": "v44",
+  "worst_by_science_minus_abs_curl": {
+    "bad_patch": true,
+    "curl_delta": -0.09834770947670246,
+    "diagnostic_reasons": [
+      "negative_science_delta"
+    ],
+    "n_high": 18,
+    "n_low": 22,
+    "patch_id": 284,
+    "required_followup": [
+      "check ACT mask/edge proximity",
+      "check coordinate density split",
+      "check map variant consistency",
+      "rerun with predeclared patch protocol"
+    ],
+    "science_delta": -0.3198912269009409,
+    "science_minus_abs_curl": -0.41823893637764337
+  }
+}

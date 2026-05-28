@@ -1,0 +1,40 @@
+{
+  "artifact_version": "v70",
+  "large_radius_source_counts": {
+    "KGES": 235,
+    "KROSS": 289,
+    "SAMI": 235,
+    "UNKNOWN_HIGHZ": 1145
+  },
+  "manual_fill_required": false,
+  "median_clean_claim_acceleration_m_s2": 4.6307277296411236e-10,
+  "memory_safety_policy": "v70 does not invoke the legacy v64/v65 high-z full source builder in quick/current runs. It reuses the existing source-hashed clean-claim artifact and writes a fresh v70 gate.",
+  "n_clean_claim_rows": 1904,
+  "rows_csv_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_clean_claim_rows_v66_AUTO_PUBLIC.csv",
+  "rows_csv_sha256": "8e68907ca6181d18618c3712a37cc15d2603b614a8cb68df4ce8d07288d58691",
+  "source_artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p36_highz_clean_claim_rows_v66_AUTO_PUBLIC.json",
+  "source_artifact_sha256": "327a139a3c13ad949b66f7c6641d40c57f49d31dc5ff7ed087555ba0c58cd376",
+  "source_bootstrap_v66": {
+    "available": true,
+    "bootstrap_all_above_local_a0": true,
+    "bootstrap_n": 500,
+    "leave_one_source_all_above_local_a0": true,
+    "leave_one_source_out_medians_m_s2": {
+      "KGES": 4.72341781017607e-10,
+      "KROSS": 4.6054146053066297e-10,
+      "SAMI": 4.72341781017607e-10,
+      "UNKNOWN_HIGHZ": 4.4588221009001936e-10
+    },
+    "median_ci95_m_s2": [
+      4.018560738276295e-10,
+      4.75552142490212e-10
+    ],
+    "source_medians_m_s2": {
+      "KGES": 4.018560738276295e-10,
+      "KROSS": 5.010202623656313e-10,
+      "SAMI": 4.018560738276295e-10,
+      "UNKNOWN_HIGHZ": 4.753188748492576e-10
+    }
+  },
+  "status": "memory_safe_clean_claim_reused"
+}

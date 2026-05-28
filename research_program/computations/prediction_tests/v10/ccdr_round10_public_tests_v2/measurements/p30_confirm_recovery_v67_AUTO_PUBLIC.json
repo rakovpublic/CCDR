@@ -1,0 +1,73 @@
+{
+  "artifact_version": "v67",
+  "claim_policy_v67": "v67 searches for official ACT mask products and tightens patch rejection; route confirm remains closed while curl leakage, residualization, or patch count gates fail.",
+  "curl_abs_over_science_abs": 1.7468824528458224,
+  "manual_fill_required": false,
+  "n_unrejected_patches_v67": 0,
+  "official_mask_candidate_hashes": [
+    "9ddea072e8aa3ac69ced46359c2efa4fd73192ba44f5bfb9d116eec0502006e9",
+    "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+    "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+    "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8"
+  ],
+  "official_mask_candidate_paths": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_empirical_finite_support_mask_v27.json",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v15__dr6_lensing_release.tar.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v16__dr6_lensing_release.tar.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_act_release_v16__dr6_lensing_release.tar.gz"
+  ],
+  "redshift_density_residualization": {
+    "available": true,
+    "euclid_delta": -0.18983175996764104,
+    "residualization_required": true,
+    "route_sign_disagreement": true,
+    "sdss_delta": 0.07886573620406669,
+    "sdss_jackknife_std": 0.02916987451348493
+  },
+  "shared_empirical_mask_id": "2238e57f8f06e4b9",
+  "status": "strict_mask_residualization_artifact_built",
+  "v67_strict_pre_sign_patch_rejection": [
+    {
+      "curl_delta": 0.041692260997162486,
+      "patch_index": 0,
+      "pre_sign_reject": false,
+      "reason": [],
+      "sdss_science_delta": 0.023866666545018705,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true
+    },
+    {
+      "curl_delta": -0.06249949317498324,
+      "patch_index": 1,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.10495209032742592,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true
+    },
+    {
+      "curl_delta": -0.19461176284972337,
+      "patch_index": 2,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07005954294934827,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true
+    },
+    {
+      "curl_delta": -0.056320299866304414,
+      "patch_index": 3,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07753675377235959,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true
+    }
+  ]
+}

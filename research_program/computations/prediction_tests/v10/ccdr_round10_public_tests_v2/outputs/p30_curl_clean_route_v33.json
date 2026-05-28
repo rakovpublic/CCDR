@@ -1,0 +1,308 @@
+{
+  "claim_policy": "P30-SDSS can only become route-specific confirm if core variants survive curl correction, curl template/projection checks pass, and curl/quadrant controls are non-significant or explainable.",
+  "core_variant_family": {
+    "available": true,
+    "core_family_pass": true,
+    "core_variant_names": [
+      "baseline",
+      "f150",
+      "tonly"
+    ],
+    "interpretation": "If core_family_pass is true but curl remediation still fails, keep P30-SDSS as near-confirm/curl-contaminated rather than confirm-like.",
+    "n_core_available": 3,
+    "n_core_survive_abs_curl_subtraction": 3,
+    "n_weak_available": 2,
+    "n_weak_survive_abs_curl_subtraction": 0,
+    "policy": "route-specific diagnostic: core variants are baseline/f150/tonly; f090/cibdeproj are treated as weak/systematics-sensitive unless they also survive curl subtraction",
+    "variant_rows": [
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.0,
+        "jackknife_same_sign": true,
+        "positive_pass": true,
+        "science_delta": 0.08815282358182167,
+        "science_minus_abs_curl": 0.04370162186817012,
+        "science_minus_curl": 0.04370162186817012,
+        "science_over_abs_curl": 1.9831370173002272,
+        "survives_abs_curl_subtraction": true,
+        "survives_signed_curl_subtraction": true,
+        "variant": "baseline"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.1484375,
+        "jackknife_same_sign": true,
+        "positive_pass": false,
+        "science_delta": 0.04191234028127793,
+        "science_minus_abs_curl": -0.0025388614323736125,
+        "science_minus_curl": -0.0025388614323736125,
+        "science_over_abs_curl": 0.9428843015599757,
+        "survives_abs_curl_subtraction": false,
+        "survives_signed_curl_subtraction": false,
+        "variant": "f090"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.0,
+        "jackknife_same_sign": true,
+        "positive_pass": true,
+        "science_delta": 0.17316898098989575,
+        "science_minus_abs_curl": 0.1287177792762442,
+        "science_minus_curl": 0.1287177792762442,
+        "science_over_abs_curl": 3.8957097741794753,
+        "survives_abs_curl_subtraction": true,
+        "survives_signed_curl_subtraction": true,
+        "variant": "f150"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.0,
+        "jackknife_same_sign": true,
+        "positive_pass": true,
+        "science_delta": 0.11502262596726337,
+        "science_minus_abs_curl": 0.07057142425361182,
+        "science_minus_curl": 0.07057142425361182,
+        "science_over_abs_curl": 2.5876156669109447,
+        "survives_abs_curl_subtraction": true,
+        "survives_signed_curl_subtraction": true,
+        "variant": "tonly"
+      },
+      {
+        "curl_delta": 0.04445120171365154,
+        "density_shuffle_p_high": 0.046875,
+        "jackknife_same_sign": true,
+        "positive_pass": true,
+        "science_delta": 0.04293005855960019,
+        "science_minus_abs_curl": -0.0015211431540513506,
+        "science_minus_curl": -0.0015211431540513506,
+        "science_over_abs_curl": 0.9657794818720461,
+        "survives_abs_curl_subtraction": false,
+        "survives_signed_curl_subtraction": false,
+        "variant": "cibdeproj"
+      }
+    ],
+    "weak_or_systematics_sensitive_variant_names": [
+      "f090",
+      "cibdeproj"
+    ]
+  },
+  "curl_template_regression_projection": {
+    "available": true,
+    "claim_note": "template projection is a diagnostic contamination test; route confirmation still requires explicit gate policy.",
+    "coord_source": "v13_sdss_fallback_coords",
+    "core_projection_pass": true,
+    "n_data_coords": 2000,
+    "n_projection_positive": 5,
+    "n_residual_positive": 5,
+    "rows": [
+      {
+        "alpha": -0.011722597203312183,
+        "available": true,
+        "beta_science_vs_curl": 0.010518913399973025,
+        "curl_orthogonal_projection_delta": 0.08768524524047101,
+        "n_finite": 2000,
+        "projection_positive": true,
+        "raw_delta": 0.08815282358182167,
+        "regression_residual_delta": 0.087685245240471,
+        "residual_positive": true,
+        "variant": "baseline"
+      },
+      {
+        "alpha": -0.02648811723056214,
+        "available": true,
+        "beta_science_vs_curl": 0.0076229148701754314,
+        "curl_orthogonal_projection_delta": 0.04157349255473776,
+        "n_finite": 2000,
+        "projection_positive": true,
+        "raw_delta": 0.04191234028127793,
+        "regression_residual_delta": 0.04157349255473777,
+        "residual_positive": true,
+        "variant": "f090"
+      },
+      {
+        "alpha": -0.006991356017243442,
+        "available": true,
+        "beta_science_vs_curl": 0.11991894511442568,
+        "curl_orthogonal_projection_delta": 0.16783843977132615,
+        "n_finite": 2000,
+        "projection_positive": true,
+        "raw_delta": 0.17316898098989575,
+        "regression_residual_delta": 0.16783843977132612,
+        "residual_positive": true,
+        "variant": "f150"
+      },
+      {
+        "alpha": -0.011610981646353442,
+        "available": true,
+        "beta_science_vs_curl": -0.06666758175496112,
+        "curl_orthogonal_projection_delta": 0.11798608009161449,
+        "n_finite": 2000,
+        "projection_positive": true,
+        "raw_delta": 0.11502262596726337,
+        "regression_residual_delta": 0.1179860800916145,
+        "residual_positive": true,
+        "variant": "tonly"
+      },
+      {
+        "alpha": -0.012136235441980362,
+        "available": true,
+        "beta_science_vs_curl": 0.038139864235910564,
+        "curl_orthogonal_projection_delta": 0.041234695761118434,
+        "n_finite": 2000,
+        "projection_positive": true,
+        "raw_delta": 0.04293005855960019,
+        "regression_residual_delta": 0.04123469576111844,
+        "residual_positive": true,
+        "variant": "cibdeproj"
+      }
+    ]
+  },
+  "euclid_policy": "quarantined from global P30 until photo-z/depth/quality cuts plus field randoms pass",
+  "quadrant_rotation_controls": {
+    "available": true,
+    "coord_source": "v13_sdss_fallback_coords",
+    "curl_weakened_by_quadrant_rotations": true,
+    "n_rotation_deltas": 24,
+    "observed_curl_delta": 0.04445120171365154,
+    "quadrant_rows": [
+      {
+        "n": 583,
+        "quadrant": "q00",
+        "rotations": [
+          {
+            "delta": 0.0263388589888986,
+            "offset_deg": 30
+          },
+          {
+            "delta": -0.015353316693737707,
+            "offset_deg": 60
+          },
+          {
+            "delta": 0.0016045887689428591,
+            "offset_deg": 90
+          },
+          {
+            "delta": 0.00534059327428375,
+            "offset_deg": 120
+          },
+          {
+            "delta": 0.023100131368757527,
+            "offset_deg": 150
+          },
+          {
+            "delta": -0.04271771287157387,
+            "offset_deg": 180
+          }
+        ]
+      },
+      {
+        "n": 417,
+        "quadrant": "q01",
+        "rotations": [
+          {
+            "delta": 0.04401330192688185,
+            "offset_deg": 30
+          },
+          {
+            "delta": 0.0445167335952579,
+            "offset_deg": 60
+          },
+          {
+            "delta": 0.04439894116224912,
+            "offset_deg": 90
+          },
+          {
+            "delta": 0.04435654200582642,
+            "offset_deg": 120
+          },
+          {
+            "delta": 0.04390147515616249,
+            "offset_deg": 150
+          },
+          {
+            "delta": 0.044073501925815606,
+            "offset_deg": 180
+          }
+        ]
+      },
+      {
+        "n": 417,
+        "quadrant": "q10",
+        "rotations": [
+          {
+            "delta": 0.058901772676312164,
+            "offset_deg": 30
+          },
+          {
+            "delta": 0.05850383976414675,
+            "offset_deg": 60
+          },
+          {
+            "delta": 0.07080822519172389,
+            "offset_deg": 90
+          },
+          {
+            "delta": 0.044397138532747904,
+            "offset_deg": 120
+          },
+          {
+            "delta": 0.029620333581839273,
+            "offset_deg": 150
+          },
+          {
+            "delta": 0.0321183429374316,
+            "offset_deg": 180
+          }
+        ]
+      },
+      {
+        "n": 583,
+        "quadrant": "q11",
+        "rotations": [
+          {
+            "delta": 0.044916252275621925,
+            "offset_deg": 30
+          },
+          {
+            "delta": 0.045621500006849135,
+            "offset_deg": 60
+          },
+          {
+            "delta": 0.044903236852338504,
+            "offset_deg": 90
+          },
+          {
+            "delta": 0.045976331479082665,
+            "offset_deg": 120
+          },
+          {
+            "delta": 0.04553506598772176,
+            "offset_deg": 150
+          },
+          {
+            "delta": 0.044715327995215964,
+            "offset_deg": 180
+          }
+        ]
+      }
+    ],
+    "rotation_abs_percentile": 0.5833333333333334,
+    "rotation_p_high": 0.4166666666666667
+  },
+  "same_split_artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_sdss_same_split_variant_rerun_v29.json",
+  "science_stronger_than_curl_likelihood": {
+    "available": true,
+    "bootstrap_ratio_ci16": 0.38645615451609333,
+    "bootstrap_ratio_ci84": 1.0354330556511944,
+    "claim_note": "suggestive only: variant-count tests are low-N and cannot by themselves confirm P30.",
+    "curl_abs_delta": 0.04445120171365154,
+    "curl_to_median_science_ratio": 0.5042515929440744,
+    "likelihood_ratio_pass_suggestive": true,
+    "median_abs_science_delta": 0.08815282358182167,
+    "n_positive_science_variants": 5,
+    "n_science_stronger_than_abs_curl": 3,
+    "n_science_variants": 5,
+    "one_sided_sign_tail_p_for_science_gt_curl": 0.5
+  },
+  "v33_remediation_pass": false
+}

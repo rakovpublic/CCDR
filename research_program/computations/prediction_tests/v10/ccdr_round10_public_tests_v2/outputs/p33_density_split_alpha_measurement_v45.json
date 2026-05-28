@@ -1,0 +1,27 @@
+{
+  "accepted_alpha_row": null,
+  "alpha_rows": [],
+  "claim_policy": "P33 confirmation requires a measured alpha_high/alpha_low split with covariance and density/sky/redshift nulls. Template rows do not promote.",
+  "measurement_present": false,
+  "n_alpha_rows": 0,
+  "p33_publication_confirm_gate_v45": {
+    "alpha_high_low_measured": false,
+    "alpha_split_measurement_v45": true,
+    "covariance_ready": null,
+    "delta_alpha_nonzero": false,
+    "density_label_shuffle_pass": null,
+    "eligible_for_confirm_like": false,
+    "missing": [
+      "alpha_high_low_measured",
+      "covariance_ready",
+      "density_label_shuffle_pass",
+      "sky_shuffle_pass",
+      "redshift_jackknife_stable",
+      "delta_alpha_nonzero"
+    ],
+    "redshift_jackknife_stable": null,
+    "sky_shuffle_pass": null
+  },
+  "template_csv_path": "outputs\\p33_density_split_alpha_template_v45.csv",
+  "version": "v45"
+}

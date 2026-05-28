@@ -1,0 +1,1811 @@
+{
+  "analysis_note": "Strict v3 public-data probe. Generic article/PDF/HTML term-number extraction is disabled. A result becomes partial/ok only if a direct public structured table has named physical columns required by the test; otherwise data_limited.",
+  "auto_data_improvements_v34": {},
+  "auto_data_improvements_v35": {},
+  "auto_data_improvements_v37": {},
+  "auto_data_improvements_v38": {},
+  "auto_data_improvements_v39": {},
+  "auto_data_improvements_v40": {},
+  "auto_data_improvements_v41": {},
+  "auto_data_improvements_v42": {},
+  "auto_data_improvements_v43": {},
+  "auto_data_improvements_v44": {},
+  "auto_data_improvements_v45": {},
+  "auto_data_improvements_v46": {},
+  "auto_data_improvements_v47": {},
+  "auto_data_improvements_v48": {},
+  "auto_data_improvements_v49": {},
+  "auto_data_improvements_v50": {},
+  "auto_data_improvements_v51": {},
+  "auto_data_improvements_v52": {},
+  "auto_data_improvements_v53": {},
+  "auto_data_improvements_v56": {},
+  "auto_data_improvements_v57": {},
+  "auto_data_improvements_v58": {},
+  "auto_data_improvements_v59": {},
+  "auto_generated_inputs_v33": {
+    "generated_files": [],
+    "manual_or_user_csv_required": false,
+    "status": "auto_generation_attempted"
+  },
+  "auto_input_policy_v33": {
+    "all_tests_run_together": true,
+    "commit_generated_csv_required": false,
+    "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+    "manual_or_user_filled_csv_required": false,
+    "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+  },
+  "auto_primary_source_hunt_v33": {
+    "audit_csv": null,
+    "child_urls_extracted": 0,
+    "manifest": "data/primary_table_candidate_manifest_v33.csv",
+    "manifest_rows": 2,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "NASA Exoplanet Archive transit table TAP CSV",
+        "meta": {
+          "content_type": null,
+          "error": "download_failed: OverflowError: timeout doesn't fit into C timeval",
+          "final_url": null,
+          "ok": false,
+          "status_code": null
+        },
+        "notes": "transit midpoint/period uncertainty table for chronometry audit",
+        "source_kind": "direct_csv",
+        "status": "download_failed_or_no_data",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+500+pl_name,hostname,pl_tranmid,pl_tranmiderr1,pl_tranmiderr2,pl_orbper,pl_orbpererr1,pl_orbpererr2+from+pscomppars+where+pl_tranmid+is+not+null&format=csv"
+      },
+      {
+        "label": "NASA Exoplanet Archive Transiting Planets table docs",
+        "meta": {
+          "content_type": null,
+          "error": "download_failed: OverflowError: timeout doesn't fit into C timeval",
+          "final_url": null,
+          "ok": false,
+          "status_code": null
+        },
+        "notes": "column definitions and TAP access for transit-specific observables",
+        "source_kind": "manual_candidate",
+        "status": "download_failed_or_no_data",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_transit_detection.html"
+      }
+    ]
+  },
+  "bound_only_gate_v34": null,
+  "candidate_works_count": 0,
+  "candidate_works_sample": [],
+  "confirm_allowed_now_v30": false,
+  "confirm_allowed_now_v32": false,
+  "confirm_allowed_now_v33": false,
+  "confirm_allowed_now_v34": false,
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "data_limited",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "expected_effort_v52": "high",
+    "next_data_source_v52": "not a current confirm target",
+    "rank_score_0_10_v52": 1,
+    "test_id": "T58"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "data_limited",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "expected_effort_v53": "high",
+    "next_data_source_v53": "not a current confirm target",
+    "rank_score_0_10_v53": 1,
+    "test_id": "T58"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "data_limited",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "high",
+    "next_data_source_v56": "not a current confirm target",
+    "rank_score_0_10_v56": 1,
+    "test_id": "T58"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "data_limited",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "high",
+    "next_data_source_v57": "not a current confirm target",
+    "rank_score_0_10_v57": 1,
+    "test_id": "T58"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "data_limited",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "high",
+    "next_data_source_v58": "not a current confirm target",
+    "rank_score_0_10_v58": 1,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T58"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "data_limited",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "high",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 1,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T58"
+  },
+  "confirmation_blocker_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed_data_limited",
+  "confirmation_status_v53": "not_confirmed_data_limited",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_status_v52": "data_limited",
+  "data_status_v53": "data_limited",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "discovered_data_links_sample": [],
+  "downloaded_sources": [],
+  "evidence_status": "data_limited",
+  "evidence_status_v52": "data_limited",
+  "evidence_status_v53": "data_limited",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-05-17T21:19:15Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "low_priority_demote_v30": {
+    "confirm_allowed_now": false,
+    "priority_rank": 7,
+    "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+    "status": "demoted_until_exact_primary_tables_exist",
+    "test_id": "T58"
+  },
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "parsed_tables_count": 0,
+  "positive_dashboard_fragment_v30": {
+    "confirm_allowed_now": false,
+    "test_id": "T58",
+    "v30": {
+      "low_priority_demote_v30": {
+        "confirm_allowed_now": false,
+        "priority_rank": 7,
+        "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+        "status": "demoted_until_exact_primary_tables_exist",
+        "test_id": "T58"
+      }
+    },
+    "verdict": "data_limited_exact_table_needed"
+  },
+  "positive_dashboard_fragment_v32": {
+    "confirm_allowed_now": false,
+    "test_id": "T58",
+    "v32": {
+      "primary_table_hunt_v32": {
+        "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+        "child_urls_extracted": 0,
+        "confirm_allowed_now": false,
+        "manifest_rows": 2,
+        "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+        "prior_v30_demote_overridden": true,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "NASA Exoplanet Archive transit table TAP CSV",
+            "meta": {
+              "content_type": null,
+              "error": "download_failed: OverflowError: timeout doesn't fit into C timeval",
+              "final_url": null,
+              "ok": false,
+              "status_code": null
+            },
+            "notes": "transit midpoint/period uncertainty table for chronometry audit",
+            "source_kind": "direct_csv",
+            "status": "no_data",
+            "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+500+pl_name,hostname,pl_tranmid,pl_tranmiderr1,pl_tranmiderr2,pl_orbper,pl_orbpererr1,pl_orbpererr2+from+pscomppars+where+pl_tranmid+is+not+null&format=csv"
+          },
+          {
+            "label": "NASA Exoplanet Archive Transiting Planets table docs",
+            "notes": "column definitions and TAP access for transit-specific observables",
+            "source_kind": "manual_candidate",
+            "status": "candidate_not_auto_scored",
+            "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_transit_detection.html"
+          }
+        ],
+        "status": "primary_table_hunt_active_no_qualifying_table_yet",
+        "test_id": "T58"
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v33": {
+    "confirm_allowed_now": false,
+    "test_id": "T58",
+    "v33": {
+      "auto_generated_inputs_v33": {
+        "generated_files": [],
+        "manual_or_user_csv_required": false,
+        "status": "auto_generation_attempted"
+      },
+      "auto_input_policy_v33": {
+        "all_tests_run_together": true,
+        "commit_generated_csv_required": false,
+        "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+        "manual_or_user_filled_csv_required": false,
+        "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+      },
+      "auto_primary_source_hunt_v33": {
+        "audit_csv": null,
+        "child_urls_extracted": 0,
+        "manifest": "data/primary_table_candidate_manifest_v33.csv",
+        "manifest_rows": 2,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "NASA Exoplanet Archive transit table TAP CSV",
+            "meta": {
+              "content_type": null,
+              "error": "download_failed: OverflowError: timeout doesn't fit into C timeval",
+              "final_url": null,
+              "ok": false,
+              "status_code": null
+            },
+            "notes": "transit midpoint/period uncertainty table for chronometry audit",
+            "source_kind": "direct_csv",
+            "status": "download_failed_or_no_data",
+            "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+500+pl_name,hostname,pl_tranmid,pl_tranmiderr1,pl_tranmiderr2,pl_orbper,pl_orbpererr1,pl_orbpererr2+from+pscomppars+where+pl_tranmid+is+not+null&format=csv"
+          },
+          {
+            "label": "NASA Exoplanet Archive Transiting Planets table docs",
+            "meta": {
+              "content_type": null,
+              "error": "download_failed: OverflowError: timeout doesn't fit into C timeval",
+              "final_url": null,
+              "ok": false,
+              "status_code": null
+            },
+            "notes": "column definitions and TAP access for transit-specific observables",
+            "source_kind": "manual_candidate",
+            "status": "download_failed_or_no_data",
+            "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_transit_detection.html"
+          }
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v34": {
+      "auto_data_improvements_v34": {},
+      "confirmation_blocker_v34": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "split_branch_policy_v34": null
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v35": {
+      "auto_data_improvements_v35": {},
+      "confirmation_blocker_v35": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v35": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v36": {
+      "carried_forward_v35_improvements": true,
+      "confirmation_blocker_v36": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v36": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      },
+      "t34_real_runner_active": false
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v37": {
+      "auto_data_improvements_v37": {},
+      "confirmation_blocker_v37": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v37": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v38": {
+      "auto_data_improvements_v38": {},
+      "confirmation_blocker_v38": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v38": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v39": {
+      "auto_data_improvements_v39": {},
+      "confirmation_blocker_v39": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v39 gate not passed"
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v40": {
+      "auto_data_improvements_v40": {},
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v40 gate not passed"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v41": {
+      "auto_data_improvements_v41": {},
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v42": {
+      "auto_data_improvements_v42": {},
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v43": {
+      "auto_data_improvements_v43": {},
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v44": {
+      "auto_data_improvements_v44": {},
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v45": {
+      "auto_data_improvements_v45": {},
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v46": {
+      "auto_data_improvements_v46": {},
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v47": {
+      "auto_data_improvements_v47": {},
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v48": {
+      "auto_data_improvements_v48": {},
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v49": {
+      "auto_data_improvements_v49": {},
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v50": {
+      "auto_data_improvements_v50": {},
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v51": {
+      "auto_data_improvements_v51": {},
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T58"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "data_status_v52": "data_limited",
+      "evidence_status_v52": "data_limited",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v52": {
+      "auto_data_improvements_v52": {},
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed_data_limited",
+        "data_status_v52": "data_limited",
+        "evidence_status_v52": "data_limited",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T58"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "data_status_v53": "data_limited",
+      "evidence_status_v53": "data_limited",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v53": {
+      "auto_data_improvements_v53": {},
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed_data_limited",
+        "data_status_v53": "data_limited",
+        "evidence_status_v53": "data_limited",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "data_limited",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "high",
+      "next_data_source_v56": "not a current confirm target",
+      "rank_score_0_10_v56": 1,
+      "test_id": "T58"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v56": {
+      "auto_data_improvements_v56": {},
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "data_limited",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "high",
+      "next_data_source_v57": "not a current confirm target",
+      "rank_score_0_10_v57": 1,
+      "test_id": "T58"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v57": {
+      "auto_data_improvements_v57": {},
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T58"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v58": {
+      "auto_data_improvements_v58": {},
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T58"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T58",
+    "v59": {
+      "auto_data_improvements_v59": {},
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "prediction_ids": [
+    "AE3 analogue"
+  ],
+  "prediction_names": [
+    "decade-scale timing drift after astrophysical controls"
+  ],
+  "primary_table_hunt_v32": {
+    "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+    "child_urls_extracted": 0,
+    "confirm_allowed_now": false,
+    "manifest_rows": 2,
+    "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+    "prior_v30_demote_overridden": true,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "NASA Exoplanet Archive transit table TAP CSV",
+        "meta": {
+          "content_type": null,
+          "error": "download_failed: OverflowError: timeout doesn't fit into C timeval",
+          "final_url": null,
+          "ok": false,
+          "status_code": null
+        },
+        "notes": "transit midpoint/period uncertainty table for chronometry audit",
+        "source_kind": "direct_csv",
+        "status": "no_data",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+500+pl_name,hostname,pl_tranmid,pl_tranmiderr1,pl_tranmiderr2,pl_orbper,pl_orbpererr1,pl_orbpererr2+from+pscomppars+where+pl_tranmid+is+not+null&format=csv"
+      },
+      {
+        "label": "NASA Exoplanet Archive Transiting Planets table docs",
+        "notes": "column definitions and TAP access for transit-specific observables",
+        "source_kind": "manual_candidate",
+        "status": "candidate_not_auto_scored",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_transit_detection.html"
+      }
+    ],
+    "status": "primary_table_hunt_active_no_qualifying_table_yet",
+    "test_id": "T58"
+  },
+  "programmatic_verdict": "primary_table_hunt_active",
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "+v30_demote_exact_missing+v32_primary_table_hunt_not_demoted+v33_no_manual_all_tests_auto_primary_hunt+v34_auto_confirm_loaders_blocker_dashboard+v35_near_confirm_models_endpoint_fixes+v36_t34_real_runner_and_near_confirm_hardening+v37_confirm_hardening+v38_final_confirm_gate_hardening+v39_confirm_freeze_and_next_targets+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "queries": [
+    "exoplanet/stellar chronometry null"
+  ],
+  "readiness_status": "no_source_found",
+  "rejected_tables_sample": [],
+  "required_column_groups": [
+    [
+      "residual acceleration",
+      "telemetry",
+      "trajectory",
+      "drift"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "data_status_v52": "data_limited",
+    "evidence_status_v52": "data_limited",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "data_status_v53": "data_limited",
+    "evidence_status_v53": "data_limited",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "table_summaries": [],
+  "test_id": "T58",
+  "test_name": "exoplanet/stellar chronometry null"
+}

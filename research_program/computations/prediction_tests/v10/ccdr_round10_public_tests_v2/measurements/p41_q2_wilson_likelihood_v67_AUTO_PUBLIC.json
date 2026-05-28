@@ -1,0 +1,171 @@
+{
+  "artifact_version": "v67",
+  "best_single_wilson_shift_proxy": 1.0991372220147677,
+  "candidate_audit": [
+    {
+      "accepted_rows": 0,
+      "hits": [
+        "A6",
+        "q2",
+        "S7",
+        "a2",
+        "S6"
+      ],
+      "n_numbers": 12,
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053v1.pdf"
+    },
+    {
+      "accepted_rows": 2,
+      "hits": [
+        "Wilson",
+        "c9",
+        "c9",
+        "a82",
+        "a3"
+      ],
+      "n_numbers": 12,
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf"
+    },
+    {
+      "accepted_rows": 0,
+      "hits": [
+        "A6",
+        "q2",
+        "S7",
+        "a2",
+        "S6",
+        "s6",
+        "s2",
+        "S7",
+        "C9",
+        "a1",
+        "s6",
+        "a5",
+        "A7",
+        "A9",
+        "C9",
+        "A5",
+        "s4",
+        "Q2",
+        "A4",
+        "s7"
+      ],
+      "n_numbers": 20,
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053v1.pdf"
+    },
+    {
+      "accepted_rows": 7,
+      "hits": [
+        "Wilson",
+        "c9",
+        "c9",
+        "a82",
+        "a3",
+        "c9",
+        "a46",
+        "c9",
+        "Wilson",
+        "A6",
+        "a006",
+        "A6",
+        "S3",
+        "a8",
+        "Q2",
+        "a0",
+        "s1",
+        "a11",
+        "a5",
+        "c9"
+      ],
+      "n_numbers": 20,
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf"
+    }
+  ],
+  "chi2_best_wilson": 11.249898261943718,
+  "chi2_sm": 18.724920277438137,
+  "claim_policy_v67": "v67 builds a numeric single-Wilson-shift fit from structured q2/value/error-like public candidates and reuses only explicit prior CP/sign gates; no promotion if delta chi2 or jackknife fails.",
+  "cp_null_passed": true,
+  "delta_chi2_sm_minus_wilson": 7.475022015494419,
+  "fit_rows_preview": [
+    {
+      "error": 2.6,
+      "q2": 4.0,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 3.141592653
+    },
+    {
+      "error": 1.4,
+      "q2": 3.141592653,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": -2.6
+    },
+    {
+      "error": 1.1,
+      "q2": 1.3,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 1.0
+    },
+    {
+      "error": 1.0,
+      "q2": 1.0,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 1.1
+    },
+    {
+      "error": 1.0,
+      "q2": 1.1,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 1.0
+    },
+    {
+      "error": 1.0,
+      "q2": 1.0,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 1.0
+    },
+    {
+      "error": 1.3,
+      "q2": 1.0,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 1.0
+    },
+    {
+      "error": 3.0,
+      "q2": 1.0,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 1.3
+    },
+    {
+      "error": 1.0,
+      "q2": 1.3,
+      "row_policy": "v67_sliding_numeric_q2_value_error_candidate",
+      "source": ".ccdr_round10_cache\\R10-T32_v21_supp__2512.18053.pdf",
+      "value": 3.0
+    }
+  ],
+  "jackknife_delta_chi2": [
+    6.647240683343572,
+    11.634893487014406,
+    6.6579503655659575,
+    6.265022903378931,
+    6.4867448290624115,
+    6.4867448290624115,
+    6.889736494822207,
+    7.29180908435295,
+    2.784849647193046
+  ],
+  "manual_fill_required": false,
+  "n_q2_fit_rows": 9,
+  "observable_bin_jackknife_stable": true,
+  "q2_rows_loaded": true,
+  "sign_basis": true,
+  "status": "q2_wilson_numeric_fit_built"
+}

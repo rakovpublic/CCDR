@@ -1,0 +1,75 @@
+{
+  "artifact_version": "v66",
+  "implementation_v66": "Persist mask identity and v65 pre-sign patch rejection as a first-class recovery artifact; do not promote while curl or route-sign controls still fail.",
+  "mask_inputs": [
+    "finite-map-pixel footprint used; explicit ACT mask not extracted"
+  ],
+  "pre_sign_patch_rejection": [
+    {
+      "curl_delta": 0.041692260997162486,
+      "patch_index": 0,
+      "pre_sign_reject": false,
+      "reason": [],
+      "sdss_science_delta": 0.023866666545018705
+    },
+    {
+      "curl_delta": -0.06249949317498324,
+      "patch_index": 1,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.10495209032742592
+    },
+    {
+      "curl_delta": -0.19461176284972337,
+      "patch_index": 2,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07005954294934827
+    },
+    {
+      "curl_delta": -0.056320299866304414,
+      "patch_index": 3,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07753675377235959
+    }
+  ],
+  "redshift_density_residualization": {
+    "available": true,
+    "euclid_delta": -0.18983175996764104,
+    "residualization_required": true,
+    "route_sign_disagreement": true,
+    "sdss_delta": 0.07886573620406669,
+    "sdss_jackknife_std": 0.02916987451348493
+  },
+  "shared_empirical_mask_id": "2238e57f8f06e4b9",
+  "source_gate_v65": {
+    "artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p30_single_mask_residualized_v65_AUTO_PUBLIC.json",
+    "curl_abs_over_science_abs": 1.7468824528458224,
+    "diagnostic_class": "control_tension_after_v65_single_mask_recompute",
+    "eligible_for_route_confirm_like": false,
+    "gate_version": "v65",
+    "missing": [
+      "curl_abs_le_half_science_abs_after_patch_reject",
+      "redshift_density_residualization_still_required",
+      "enough_unrejected_patches"
+    ],
+    "n_opposite_sign_variants": 0,
+    "n_positive_same_sign_variants": 4,
+    "redshift_density_residualization": {
+      "available": true,
+      "euclid_delta": -0.18983175996764104,
+      "residualization_required": true,
+      "route_sign_disagreement": true,
+      "sdss_delta": 0.07886573620406669,
+      "sdss_jackknife_std": 0.02916987451348493
+    }
+  },
+  "status": "persisted_empirical_mask_identity"
+}

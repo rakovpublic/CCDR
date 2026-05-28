@@ -2,45 +2,56 @@
   {
     "file": "test01_p39_pantheon_sn_residual_drift.py",
     "group": "cosmology",
-    "kind": "pantheon_bao_likelihood_joint",
+    "kind": "p39_likelihood_gate_v22",
     "prediction_id": "P39",
     "prediction_name": "P39 Pantheon+ plus DESI DR2 compressed BAO likelihood diagnostic",
     "test_id": "R10-T01",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test02_p01_rvm_pantheon_lowz_systematic.py",
     "group": "cosmology",
-    "kind": "pantheon_bao_likelihood_joint",
+    "kind": "p39_likelihood_gate_v22",
     "prediction_id": "P1/P39",
     "prediction_name": "P1/P39 low-z systematic plus BAO likelihood diagnostic",
     "test_id": "R10-T02",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test03_p39_desi_dr2_bao_inventory.py",
     "group": "cosmology",
-    "kind": "bao_grid_positive_v8",
+    "kind": "p39_likelihood_gate_v22",
     "prediction_id": "P39",
     "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
     "test_id": "R10-T03",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test04_p30_act_dr6_lensing_inventory.py",
     "group": "lensing",
-    "kind": "p30_act_confirm_squeeze_v14",
+    "kind": "p30_maskrandom_freeze_v22",
     "prediction_id": "P30",
-    "prediction_name": "P30 ACT-Euclid/SDSS density-kappa confirmation squeeze",
+    "prediction_name": "P30 frozen diagnostic tension workflow",
     "test_id": "R10-T04",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 P30 curl-remediation diagnostics and route-specific confirm gate",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "row/order/label sampler audit, H/L inversion test, projection-disabled guard",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test05_p30_planck_lensing_inventory.py",
     "group": "lensing",
-    "kind": "planck_recursive_lensing_v12",
+    "kind": "planck_route_guard_v20",
     "prediction_id": "P30",
-    "prediction_name": "P30 Planck recursive lensing resolver",
+    "prediction_name": "P30 Planck exact-kappa route guard",
     "test_id": "R10-T05",
     "tier": "public-current"
   },
@@ -56,11 +67,19 @@
   {
     "file": "test07_p33_desi_density_bao_inventory.py",
     "group": "bao",
-    "kind": "p33_density_bao_baseline_positive_v8",
+    "kind": "p33_density_bao_measured_scaffold_v22",
     "prediction_id": "P33",
-    "prediction_name": "P33 density-BAO baseline positive-ready",
+    "prediction_name": "P33 density-BAO covariance/null scaffold",
     "test_id": "R10-T07",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 P33 measured BAO-alpha contract",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test08_p35_power_spectrum_harmonic_inventory.py",
@@ -74,20 +93,23 @@
   {
     "file": "test09_p03_filament_catalogue_inventory.py",
     "group": "cosmic_web",
-    "kind": "p3_readme_byte_parser_v14",
+    "kind": "p3_exact_metadata_v21",
     "prediction_id": "P3",
-    "prediction_name": "P3 CDS ReadMe byte-parser endpoint guard",
+    "prediction_name": "P3 exact metadata endpoint/fallback filament orientation test",
     "test_id": "R10-T09",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products"
   },
   {
     "file": "test10_p38_vast_voidfinder_inventory.py",
     "group": "voids",
-    "kind": "p38_jackknife_v9",
+    "kind": "p38_catalogue_nulls_v22",
     "prediction_id": "P38",
-    "prediction_name": "P38 jackknife-hardened void morphology positive-compatible",
+    "prediction_name": "P38 void morphology robust-confirm null hardening",
     "test_id": "R10-T10",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test11_cl4_filament_void_joint_scaffold.py",
@@ -110,20 +132,36 @@
   {
     "file": "test13_p36_kmos3d_inventory.py",
     "group": "galaxy",
-    "kind": "kross_vrot_parser_v14",
+    "kind": "highz_unit_field_table_v22",
     "prediction_id": "P36/high-z a0",
-    "prediction_name": "P36 high-z a0 Vrot^2/R confirmation squeeze",
+    "prediction_name": "P36 high-z a0 Vrot unit+field confirmation guard",
     "test_id": "R10-T13",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 high-z source-specific object parser manifest",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test14_p36_highz_a0_cross_catalogue_inventory.py",
     "group": "galaxy",
-    "kind": "kross_vrot_parser_v14",
+    "kind": "highz_unit_field_table_v22",
     "prediction_id": "P36",
-    "prediction_name": "P36 high-z a0 cross-catalogue Vrot^2/R squeeze",
+    "prediction_name": "P36 cross-catalogue Vrot unit+field confirmation guard",
     "test_id": "R10-T14",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 high-z source-specific object parser manifest",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test15_p29_growth_live_frozen_inventory.py",
@@ -137,18 +175,19 @@
   {
     "file": "test16_p08_nanograv_15yr_inventory.py",
     "group": "pta",
-    "kind": "nanograv_kappa_sky_ready_v8",
+    "kind": "nanograv_retry_cache_v22",
     "prediction_id": "P8/P8c",
     "prediction_name": "P8/P8c NANOGrav κ-sky positive-ready",
     "test_id": "R10-T16",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test17_p08c_nanograv_density_cross_scaffold.py",
     "group": "pta",
-    "kind": "cl2_fullcoords_fixed_v14",
+    "kind": "cl2_weighted_parse_v21",
     "prediction_id": "P8c/CL2",
-    "prediction_name": "CL2 fixed full NANOGrav kappa confirmation squeeze",
+    "prediction_name": "CL2 residual/TOA-weighted kappa parser path",
     "test_id": "R10-T17",
     "tier": "public-current"
   },
@@ -164,11 +203,19 @@
   {
     "file": "test19_p32_ringdown_high_snr_scaffold.py",
     "group": "gw",
-    "kind": "ringdown_ready_bound",
+    "kind": "ringdown_strain_plan_v22",
     "prediction_id": "P32",
-    "prediction_name": "P32 ringdown targeted-ready positive bound",
+    "prediction_name": "P32 GWOSC strain residual/ringdown scaffold",
     "test_id": "R10-T19",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 P32 minimal strain-run contract",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test20_noftl_gw170817_luminal_inventory.py",
@@ -218,29 +265,32 @@
   {
     "file": "test25_p10_xenonnt_2025_inventory.py",
     "group": "direct_detection",
-    "kind": "direct_detection_columns_confirm_v14",
+    "kind": "direct_detection_units_v22",
     "prediction_id": "P10/P25/P31",
-    "prediction_name": "XENONnT mass-window measured coverage confirmation-ready",
+    "prediction_name": "XENONnT explicit-unit coverage parser",
     "test_id": "R10-T25",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test26_p10_lz_inventory.py",
     "group": "direct_detection",
-    "kind": "direct_detection_columns_confirm_v14",
+    "kind": "direct_detection_units_v22",
     "prediction_id": "P10/P25/P31",
-    "prediction_name": "LZ mass-window measured coverage confirmation-ready",
+    "prediction_name": "LZ explicit-unit coverage parser",
     "test_id": "R10-T26",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test27_p10_pandax_inventory.py",
     "group": "direct_detection",
-    "kind": "pandax_quant_v8",
+    "kind": "direct_detection_units_v22",
     "prediction_id": "P10/P25/P31",
     "prediction_name": "PandaX quantified mass-window positive-ready",
     "test_id": "R10-T27",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test28_p27_mass_tower_readiness.py",
@@ -263,38 +313,56 @@
   {
     "file": "test30_p05_alice_qgp_hepdata_inventory.py",
     "group": "collider",
-    "kind": "hepdata_units_columns_v10",
+    "kind": "hepdata_schema_hardened_v22",
     "prediction_id": "P5",
     "prediction_name": "P5 QGP/KSS units-column bound-positive",
     "test_id": "R10-T30",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test31_p41_lhcb_bsll_inventory.py",
     "group": "flavour",
-    "kind": "p41_pdf_cds_table_guard_v14",
+    "kind": "p41_structured_cp_v22",
     "prediction_id": "P41",
-    "prediction_name": "P41 CDS/PDF table-sign guarded confirmation path",
+    "prediction_name": "P41 supplementary archive structured-table parser",
     "test_id": "R10-T31",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 P41 Wilson/SM major-claim contract",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test32_p41_hepdata_api_inventory.py",
     "group": "flavour",
-    "kind": "p41_pdf_cds_table_guard_v14",
+    "kind": "p41_structured_cp_v22",
     "prediction_id": "P41",
-    "prediction_name": "P41 control CDS/PDF table-sign guarded path",
+    "prediction_name": "P41 control supplementary archive structured-table parser",
     "test_id": "R10-T32",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v30_patch": "confirm-target hardening: quantitative gates/strict consumers added",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 P41 Wilson/SM major-claim contract",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "strict confirm gates: no proxy promotion without real endpoint/object/likelihood/measurement/strain products",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test33_p09_met_drell_yan_hh_inventory.py",
     "group": "collider",
-    "kind": "hepdata_units_columns_v10",
+    "kind": "hepdata_schema_hardened_v22",
     "prediction_id": "P9b/P9e/P9f",
     "prediction_name": "P9 MET/DY/HH units-column bound-positive",
     "test_id": "R10-T33",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented"
   },
   {
     "file": "test34_smd1_alpha_coddata.py",
@@ -303,7 +371,8 @@
     "prediction_id": "SM-D1",
     "prediction_name": "SM-D1 α inverse constant check",
     "test_id": "R10-SMD01",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test35_smd2_alpha_s_pdg_inventory.py",
@@ -312,7 +381,8 @@
     "prediction_id": "SM-D2",
     "prediction_name": "SM-D2 αs(mZ) constant check",
     "test_id": "R10-SMD02",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test36_smd3_weak_angle_pdg_inventory.py",
@@ -321,7 +391,8 @@
     "prediction_id": "SM-D3",
     "prediction_name": "SM-D3 weak mixing angle constant check",
     "test_id": "R10-SMD03",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test37_smd4_higgs_mass_pdg_inventory.py",
@@ -330,7 +401,8 @@
     "prediction_id": "SM-D4",
     "prediction_name": "SM-D4 Higgs mass constant check",
     "test_id": "R10-SMD04",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test38_smd5_koide_charged_leptons.py",
@@ -339,7 +411,8 @@
     "prediction_id": "SM-D5",
     "prediction_name": "SM-D5 charged-lepton Koide constant-level check",
     "test_id": "R10-SMD05",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test39_smd6_fermion_masses_inventory.py",
@@ -348,7 +421,8 @@
     "prediction_id": "SM-D6",
     "prediction_name": "SM-D6 12-fermion mass inventory check",
     "test_id": "R10-SMD06",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test40_smd7_ckm_inventory.py",
@@ -357,7 +431,8 @@
     "prediction_id": "SM-D7",
     "prediction_name": "SM-D7 CKM inventory check",
     "test_id": "R10-SMD07",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test41_smd8_cp_phase_inventory.py",
@@ -366,7 +441,8 @@
     "prediction_id": "SM-D8",
     "prediction_name": "SM-D8 CKM CP/Jarlskog inventory check",
     "test_id": "R10-SMD08",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test42_smd9_gauge_group_scaffold.py",
@@ -375,7 +451,8 @@
     "prediction_id": "SM-D9",
     "prediction_name": "SM-D9 structural gauge-group consistency positive",
     "test_id": "R10-SMD09",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test43_smd10_strong_cp_edm_inventory.py",
@@ -384,7 +461,8 @@
     "prediction_id": "SM-D10",
     "prediction_name": "SM-D10 neutron EDM/strong-CP bound check",
     "test_id": "R10-SMD10",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
   },
   {
     "file": "test44_darkcone_lensing_anticipation_scaffold.py",
@@ -452,10 +530,21 @@
   {
     "file": "test51_round10_joint_dashboard.py",
     "group": "cross_link",
-    "kind": "dashboard_suite_status_v14",
+    "kind": "dashboard_v22",
     "prediction_id": "P/CL dashboard",
-    "prediction_name": "Round-10 v14 suite-status confirmation dashboard",
+    "prediction_name": "Round-10 v21 P3/confirm dashboard",
     "test_id": "R10-DASH",
-    "tier": "public-current"
+    "tier": "public-current",
+    "v22_patch": "confirm-oriented hardening gates implemented",
+    "v31_patch": "confirm-target gates: P30 curl diagnostics, object/table/measurement/strain consumers",
+    "v32_patch": "v32 dashboard instrumentation",
+    "v37_patch": "confirm hardening: canonical P30 split/projection reproducibility or strict measurement gates",
+    "v38_patch": "dashboard v38 sampler-audit and blocked-gate accounting",
+    "v39_patch": "P30 H/L projection-label fix and strict measurement gates; projection disabled unless raw deltas reproduce canonical route",
+    "v46_patch": "confirm-target hardening: mask/protocol acceptance, publication audit, measured likelihood/alpha/strain consumers, SMD prediction metadata, three-bucket dashboard"
+  },
+  {
+    "bundle_version": "v35_confirm_hardening",
+    "v35_patch": "P30 memory-safe curl-projected residual execution + strict route-specific claim gate"
   }
 ]

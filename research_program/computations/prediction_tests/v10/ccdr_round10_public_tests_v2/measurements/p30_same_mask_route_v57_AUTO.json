@@ -1,0 +1,31 @@
+{
+  "active_protocol_file_present": true,
+  "autobuilt_from_current_test_json": true,
+  "claim_policy": "Autobuilt proof. If curl/variant/null conditions fail, no confirm; user does not need to fill manually.",
+  "curl_delta": -0.07596368893635795,
+  "curl_null_or_weaker": true,
+  "current_run_id_v56": "20260518T012156Z_25bb1c0d",
+  "current_run_id_v57": "20260518T012156Z_25bb1c0d",
+  "density_label_shuffle_p": 0.015625,
+  "eligible_for_route_confirm_like": true,
+  "generated_utc": "2026-05-18T02:39:18Z",
+  "jackknife_same_sign": true,
+  "n_positive_same_sign_variants": 4,
+  "no_posthoc_patch_quarantine": true,
+  "patch_nside_present": true,
+  "positive_same_sign_variants": [
+    "f090",
+    "f150",
+    "tonly",
+    "cibdeproj"
+  ],
+  "predeclared_before_run": true,
+  "same_density_labels_for_science_curl_variants": true,
+  "same_mask_for_science_curl_nulls": true,
+  "same_split_recomputed": true,
+  "science_delta": 0.07886573620406669,
+  "sdss_route_confirm": true,
+  "sky_shuffle_p": 0.0078125,
+  "source_hashes_present": true,
+  "version": "v57"
+}

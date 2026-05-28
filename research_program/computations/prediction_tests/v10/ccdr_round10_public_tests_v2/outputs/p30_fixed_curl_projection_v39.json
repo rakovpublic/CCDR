@@ -1,0 +1,289 @@
+{
+  "available": true,
+  "claim_policy": "May only promote P30-SDSS-core if raw deltas reproduce canonical route after orientation fix and residual gates pass; global P30 still blocked.",
+  "claim_scope": "P30-SDSS-core route only; global P30 still requires an independent route.",
+  "core_projected_delta_after_fix": 0.10502676946286178,
+  "core_regression_residual_delta_after_fix": 0.10502676946286177,
+  "curl_delta_after_fix": 0.06939961791354053,
+  "orientation_applied": "swapped_HL_masks_to_match_canonical",
+  "paired_bootstrap_science_vs_curl": {
+    "available": true,
+    "curl_ci16": 0.05016183800784283,
+    "curl_ci84": 0.08955678416757698,
+    "p_projected_minus_abs_curl_le_0": 0.17,
+    "paired_bootstrap_pass": false,
+    "projected_ci16": 0.07241143044446934,
+    "projected_ci84": 0.13966279760141861,
+    "projected_minus_abs_curl_ci16": -0.0021458807372246314,
+    "projected_minus_abs_curl_ci84": 0.07468418079343629,
+    "residual_ci16": 0.07241143044446935,
+    "residual_ci84": 0.1396627976014186,
+    "residual_ci_positive_pass": true
+  },
+  "precondition": "raw delta consistency must pass after v39 H/L orientation fix",
+  "projected_shuffle_n": 512,
+  "projected_shuffle_p_high": 0.0,
+  "raw_core_delta_after_fix": 0.10044946775245636,
+  "raw_delta_consistency_pass_after_fix": true,
+  "raw_match_count": 2,
+  "residual_curl_null_after_projection": {
+    "available": true,
+    "beta_curl_vs_core_projected": 0.0,
+    "curl_residual_delta": 0.06939961791354052,
+    "curl_residual_shuffle_p_high": 0.0,
+    "residual_curl_null_pass": false,
+    "shuffle_n": 512
+  },
+  "residual_shuffle_n": 512,
+  "residual_shuffle_p_high": 0.001953125,
+  "route_specific_confirm_like_pass": false,
+  "selected_nside": 128,
+  "variant_projection_rows": [
+    {
+      "alpha": -0.008309211443493243,
+      "available": true,
+      "beta_science_vs_curl": -0.05044056342453478,
+      "canonical_H_minus_L": 0.08815282358182167,
+      "map_info": {
+        "available": true,
+        "info": {
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 5.845177126144306,
+              "mean": 0.002632210629721287,
+              "median": -0.00011490078928033231,
+              "min": -5.881089681650124,
+              "n_finite_pixels": 196608,
+              "n_total_pixels": 196608,
+              "std": 0.4580381978344368
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 196608
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8005998,
+              "nside": 128
+            }
+          },
+          "variant": "baseline"
+        },
+        "nside": 128,
+        "variant": "baseline"
+      },
+      "n_finite": 1011,
+      "nside": 128,
+      "orientation_applied": "swapped_HL_masks_to_match_canonical",
+      "projected_delta": 0.09176270471828489,
+      "raw_H_minus_L_after_fix": 0.08826214888927847,
+      "raw_L_minus_H_after_fix": -0.08826214888927847,
+      "raw_delta_matches_canonical_after_fix": true,
+      "residual_delta": 0.09176270471828488,
+      "residual_density_shuffle_p_high": 0.0,
+      "residual_positive": true,
+      "residual_shuffle_n": 256,
+      "residual_significant_positive": true,
+      "variant": "baseline"
+    },
+    {
+      "alpha": -0.06280267604670775,
+      "available": true,
+      "beta_science_vs_curl": -0.18492592685428727,
+      "canonical_H_minus_L": 0.17316898098989575,
+      "map_info": {
+        "available": true,
+        "info": {
+          "extract": {
+            "member": "./maps/f150/kappa_alm_data_act_dr6_lensing_v1_f150.fits",
+            "path": ".ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits"
+          },
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 6.80238300981257,
+              "mean": 0.0029798363182475477,
+              "median": -0.0002451007942183929,
+              "min": -7.646947599781706,
+              "n_finite_pixels": 196608,
+              "n_total_pixels": 196608,
+              "std": 0.5799700597378321
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 196608
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8005998,
+              "nside": 128
+            }
+          },
+          "variant": "f150"
+        },
+        "nside": 128,
+        "variant": "f150"
+      },
+      "n_finite": 1011,
+      "nside": 128,
+      "orientation_applied": "swapped_HL_masks_to_match_canonical",
+      "projected_delta": 0.17492575809034377,
+      "raw_H_minus_L_after_fix": 0.16209196942434892,
+      "raw_L_minus_H_after_fix": -0.16209196942434892,
+      "raw_delta_matches_canonical_after_fix": true,
+      "residual_delta": 0.17492575809034377,
+      "residual_density_shuffle_p_high": 0.0,
+      "residual_positive": true,
+      "residual_shuffle_n": 256,
+      "residual_significant_positive": true,
+      "variant": "f150"
+    },
+    {
+      "alpha": -0.015631564845749044,
+      "available": true,
+      "beta_science_vs_curl": 0.03749933273447262,
+      "canonical_H_minus_L": 0.11502262596726337,
+      "map_info": {
+        "available": true,
+        "info": {
+          "extract": {
+            "member": "./maps/tonly/kappa_alm_data_act_dr6_lensing_v1_tonly.fits",
+            "path": ".ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits"
+          },
+          "probe": {
+            "best_method": "row_order_full_alm",
+            "best_sanity": {
+              "available": true,
+              "finite_fraction": 1.0,
+              "max": 5.800421690651147,
+              "mean": 0.0026219518712766016,
+              "median": -0.00015419145516968919,
+              "min": -6.18205436527257,
+              "n_finite_pixels": 196608,
+              "n_total_pixels": 196608,
+              "std": 0.4857585192463238
+            },
+            "probes": [
+              {
+                "finite_fraction": 1.0,
+                "hdu": 1,
+                "lmax": 4000,
+                "mode": "row_order_full_alm",
+                "n_finite_pixels": 196608
+              }
+            ],
+            "reader_info": {
+              "hdu": 1,
+              "hdu_info": [
+                {
+                  "class": "PrimaryHDU",
+                  "columns": [],
+                  "hdu": 0,
+                  "name": "PRIMARY",
+                  "shape": null
+                },
+                {
+                  "class": "BinTableHDU",
+                  "columns": [
+                    "index",
+                    "real",
+                    "imag"
+                  ],
+                  "hdu": 1,
+                  "name": "",
+                  "shape": [
+                    8006001
+                  ]
+                }
+              ],
+              "lmax": 4000,
+              "method": "row_order_full_alm",
+              "n_finite_alm_input": 8006000,
+              "nside": 128
+            }
+          },
+          "variant": "tonly"
+        },
+        "nside": 128,
+        "variant": "tonly"
+      },
+      "n_finite": 1011,
+      "nside": 128,
+      "orientation_applied": "swapped_HL_masks_to_match_canonical",
+      "projected_delta": 0.048391845579956655,
+      "raw_H_minus_L_after_fix": 0.050994284943741794,
+      "raw_L_minus_H_after_fix": -0.050994284943741794,
+      "raw_delta_matches_canonical_after_fix": false,
+      "residual_delta": 0.048391845579956655,
+      "residual_density_shuffle_p_high": 0.078125,
+      "residual_positive": true,
+      "residual_shuffle_n": 256,
+      "residual_significant_positive": false,
+      "variant": "tonly"
+    }
+  ],
+  "version": "v39"
+}

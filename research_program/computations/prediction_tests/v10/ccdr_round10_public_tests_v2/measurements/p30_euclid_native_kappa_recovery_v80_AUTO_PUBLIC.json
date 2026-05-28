@@ -1,0 +1,149 @@
+{
+  "artifact_version": "v80",
+  "claim_policy_v80": "v80 scans Euclid/MER-scoped FITS and table members for native kappa/convergence cells. ACT/Planck sampled cross-route cells remain diagnostic only.",
+  "density_kappa_split_stat": {
+    "delta_high_minus_low": null,
+    "density_shuffle_p_high": null,
+    "n_rows_with_density_and_kappa": 0
+  },
+  "euclid_route_confirm_like": false,
+  "manual_fill_required": false,
+  "n_cross_route_kappa_cell_rows_v79": 0,
+  "n_native_euclid_kappa_cell_rows": 0,
+  "rows_preview": [],
+  "source_audit": [
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 188,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16__actadv_dr6_lensing_maps_info.html",
+      "reason": null,
+      "sha256": "a55988f75d09a446303677330cfe9c66b4e071c83ace306d16af3bef80881a55"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 318,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_tap_probe__capabilities",
+      "reason": null,
+      "sha256": "1b98d27942f5c593416e5c060d067966cfccb2df653cb3d662cf553fa0e47ea4"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 20,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_tap_probe__index",
+      "reason": null,
+      "sha256": "928dea3dc7c5df0b2512fec8a892a045b1a6a49776676fa08e68895baf62b44d"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_tap_probe__tap",
+      "reason": null,
+      "sha256": "45d1c2013291fd9235f3c1747323d1eeba4e7b83bfea3a9d9b4e06516d5eca01"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 471,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_cols__sync_b1fdceed89",
+      "reason": null,
+      "sha256": "3283224b08382cc1408553894ed4a4ad4189a635866866aee62e2ae42f81b99d"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 27,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_cols__sync_e212184c75",
+      "reason": null,
+      "sha256": "0cec983c4a1eb44f85901a84cae9d019caa9ce1936d46ce77001fd15fd188117"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 1000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_0__sync_80b61015b8",
+      "reason": null,
+      "sha256": "9c244f5b6baf8251792d8697bce85b10215983044e5305c305e2628a996f8c04"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 1000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_0__sync_ec228c6114",
+      "reason": null,
+      "sha256": "78ab0e10b460aa71dc73eaaa9019e85569efa08ada8730fc650f1ed44e2be3bc"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 1000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v12_sample_1__sync_1ecab28554",
+      "reason": null,
+      "sha256": "46c07d98d4205baf7e785bd291622acc21842306b292e4c65dfa88caa8ea5b9f"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 471,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v13_mer_cols__sync_b1fdceed89",
+      "reason": null,
+      "sha256": "3283224b08382cc1408553894ed4a4ad4189a635866866aee62e2ae42f81b99d"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "euclid_native_scope": true,
+      "fits_error": null,
+      "n_kappa_rows": 0,
+      "n_rows": 2000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_euclid_mer_v16_v13_mer_sample__sync_529d278caa",
+      "reason": null,
+      "sha256": "bbaa4c260942114603ab4455efdc38d8027651a134ae78fa251697ddd3c46c5b"
+    }
+  ],
+  "status": "p30_euclid_native_kappa_cells_absent_v80"
+}

@@ -1,0 +1,36 @@
+{
+  "available": true,
+  "claim_policy": "If suspected, projection must test label ordering and H/L mask application before any residual fit is attempted.",
+  "density_label_inversion_suspected": true,
+  "diagnosis": "density_label_inversion_suspected",
+  "rows": [
+    {
+      "abs_diff_projection_vs_canonical": 0.17641497247110013,
+      "abs_diff_projection_vs_inverted": 0.00010932530745680347,
+      "canonical_H_minus_L": 0.08815282358182167,
+      "projection_matches_negative_canonical": true,
+      "projection_raw_H_minus_L": -0.08826214888927847,
+      "same_sign": false,
+      "variant": "baseline"
+    },
+    {
+      "abs_diff_projection_vs_canonical": 0.33526095041424464,
+      "abs_diff_projection_vs_inverted": 0.01107701156554683,
+      "canonical_H_minus_L": 0.17316898098989575,
+      "projection_matches_negative_canonical": true,
+      "projection_raw_H_minus_L": -0.16209196942434892,
+      "same_sign": false,
+      "variant": "f150"
+    },
+    {
+      "abs_diff_projection_vs_canonical": 0.16601691091100518,
+      "abs_diff_projection_vs_inverted": 0.06402834102352158,
+      "canonical_H_minus_L": 0.11502262596726337,
+      "projection_matches_negative_canonical": false,
+      "projection_raw_H_minus_L": -0.050994284943741794,
+      "same_sign": false,
+      "variant": "tonly"
+    }
+  ],
+  "version": "v38"
+}

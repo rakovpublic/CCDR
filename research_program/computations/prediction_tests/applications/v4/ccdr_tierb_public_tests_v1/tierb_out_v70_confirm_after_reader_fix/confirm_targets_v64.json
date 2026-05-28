@@ -1,0 +1,75 @@
+{
+  "schema": "ccdr-tierb-confirm-targets-v64",
+  "targets": [
+    {
+      "blocker_type_v64": "not_confirmed_structure_join_rows_required_v64",
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_structure_join_rows_required_v64",
+      "next_data_source_v64": "ProteinGym assay rows joined to UniProt/PDB/AlphaFold structure-feature rows.",
+      "process_status_v64": null,
+      "process_timeout_attention_v64": false,
+      "rank_score_0_10_v64": 6,
+      "result_status_v64": null,
+      "strict_confirm_ready_v64": false,
+      "test_id": "T53",
+      "test_name": "biological symmetry/protein-folding proxy",
+      "why_not_confirmed_v64": "ProteinGym assay rows must be joined to UniProt/PDB/AlphaFold structure features before a model confirm is allowed."
+    },
+    {
+      "blocker_type_v64": "not_confirmed_exact_source_gates_pending_v64",
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_source_gates_pending_v64",
+      "next_data_source_v64": "Filled exact materials packs with measured kappa(T), grain size, source URL, and SEM/TEM/XRD/EBSD microstructure method.",
+      "process_status_v64": null,
+      "process_timeout_attention_v64": false,
+      "rank_score_0_10_v64": 7,
+      "result_status_v64": null,
+      "strict_confirm_ready_v64": false,
+      "test_id": "T31",
+      "test_name": "cryogenic kappa CCDR vs Casimir",
+      "why_not_confirmed_v64": "Exact measured materials rows with kappa(T), grain size, source URL, and measured microstructure method are still required."
+    },
+    {
+      "blocker_type_v64": "not_confirmed_exact_source_gates_pending_v64",
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_exact_source_gates_pending_v64",
+      "next_data_source_v64": "Filled exact materials packs with measured low-temperature kappa(T), grain size, source URL, and microstructure method.",
+      "process_status_v64": null,
+      "process_timeout_attention_v64": false,
+      "rank_score_0_10_v64": 7,
+      "result_status_v64": null,
+      "strict_confirm_ready_v64": false,
+      "test_id": "T32",
+      "test_name": "low-T kappa exponent",
+      "why_not_confirmed_v64": "Exact measured materials rows with kappa(T), grain size, source URL, and measured microstructure method are still required."
+    },
+    {
+      "blocker_type_v64": "not_confirmed_true_tier_a_rows_required_v64",
+      "claim_bucket_v64": "near_confirm_requires_exact_rows",
+      "confirmation_status_v64": "not_confirmed_true_tier_a_rows_required_v64",
+      "next_data_source_v64": "True Tier-A NAND rows: company, year, layers, capacity, die area, bits/cell, source URL.",
+      "process_status_v64": null,
+      "process_timeout_attention_v64": false,
+      "rank_score_0_10_v64": 5,
+      "result_status_v64": null,
+      "strict_confirm_ready_v64": false,
+      "test_id": "T44",
+      "test_name": "3D NAND area vs volume scaling",
+      "why_not_confirmed_v64": "True Tier-A NAND rows with complete die-area, capacity, layers, and bits/cell fields are still required."
+    },
+    {
+      "blocker_type_v64": "passes_strict_gate",
+      "claim_bucket_v64": "confirmed_public_now",
+      "confirmation_status_v64": "compatible_positive_confirm_allowed",
+      "next_data_source_v64": null,
+      "process_status_v64": null,
+      "process_timeout_attention_v64": false,
+      "rank_score_0_10_v64": 10,
+      "result_status_v64": null,
+      "strict_confirm_ready_v64": true,
+      "test_id": "T48",
+      "test_name": "photovoltaic acoustic-optical proxy",
+      "why_not_confirmed_v64": null
+    }
+  ]
+}

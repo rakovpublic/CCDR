@@ -1,0 +1,42 @@
+{
+  "artifact_version": "v79",
+  "bao_full_covariance_used": true,
+  "claim_policy_v79": "v79 adds headerless .covmat/.cov/sys shape recovery with tolerance around flattened Pantheon covariance vector lengths.",
+  "delta_AIC_new_minus_LCDM": 0.7882350268291365,
+  "delta_BIC_new_minus_LCDM": 6.232483676325842,
+  "delta_chi2_lcdm_minus_best": 1.2117649731708635,
+  "manual_fill_required": false,
+  "model_penalty_supports_new_model": false,
+  "pantheon_covariance_candidates": [],
+  "pantheon_diag_rows": 1702,
+  "pantheon_full_covariance_used": false,
+  "pantheon_systematics_candidates": [],
+  "source_audit": [
+    {
+      "covmat_scoped": false,
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 48,
+      "n_numeric_rows": 1702,
+      "pantheon_scoped": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01__Pantheon%2BSH0ES.dat",
+      "sample_max_numeric_cols": 48,
+      "sample_numeric_rows": 1702,
+      "sample_numeric_values": 80105,
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "covmat_scoped": false,
+      "full_covariance_candidate": false,
+      "max_numeric_cols": 48,
+      "n_numeric_rows": 1702,
+      "pantheon_scoped": true,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02__Pantheon%2BSH0ES.dat",
+      "sample_max_numeric_cols": 48,
+      "sample_numeric_rows": 1702,
+      "sample_numeric_values": 80105,
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    }
+  ],
+  "status": "p39_pantheon_covmat_absent_v79",
+  "systematics_splits_done": false
+}

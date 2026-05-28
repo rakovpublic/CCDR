@@ -1,0 +1,21 @@
+{
+  "current_run_id_v56": "20260519T062955Z_8f8cb618",
+  "current_run_id_v57": "20260519T062955Z_8f8cb618",
+  "generated_utc": "2026-05-19T06:31:24Z",
+  "reason": "No public/cached DESI density-split BAO alpha measurement artifact found. The runner will not ask for manual fill; test remains measurement_required.",
+  "required_fields": [
+    "alpha_high_density",
+    "alpha_low_density",
+    "delta_alpha",
+    "delta_alpha_sigma",
+    "covariance_used",
+    "desi_randoms_used",
+    "density_label_shuffle_p",
+    "sky_shuffle_p",
+    "redshift_jackknife_stable",
+    "predeclared_sign",
+    "source_file_hashes"
+  ],
+  "status": "alpha_measurement_not_autobuilt",
+  "version": "v57"
+}

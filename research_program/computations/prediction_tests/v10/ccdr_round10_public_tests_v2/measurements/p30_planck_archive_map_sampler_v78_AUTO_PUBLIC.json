@@ -1,0 +1,696 @@
+{
+  "artifact_version": "v78",
+  "claim_policy_v78": "v78 detects FITS/ALM maps inside archives and gzip members. Confirmation still requires a same-mask density-kappa statistic and nulls, not just a readable map.",
+  "manual_fill_required": false,
+  "n_usable_planck_fits_or_alm_sources": 11,
+  "same_mask_density_kappa_statistic_available": false,
+  "source_audit": [
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "caf923c0c4ef74f8e498309a948f7291ed62c5e4071756d98caaf82c58498797",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_cibdeproj_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_curl_control_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f090_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f150_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_tonly_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+      "size_bytes": 96079680
+    }
+  ],
+  "status": "p30_planck_fits_map_or_alm_sources_ready_v78",
+  "usable_planck_sources_preview": [
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "caf923c0c4ef74f8e498309a948f7291ed62c5e4071756d98caaf82c58498797",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_cibdeproj_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_curl_control_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f090_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f150_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_tonly_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e",
+      "size_bytes": 96079680
+    },
+    {
+      "exists": true,
+      "fits_hdus": [
+        {
+          "class": "PrimaryHDU",
+          "hdu": 0,
+          "name": "PRIMARY"
+        },
+        {
+          "class": "BinTableHDU",
+          "columns": [
+            "index",
+            "real",
+            "imag"
+          ],
+          "hdu": 1,
+          "name": "",
+          "shape": [
+            8006001
+          ]
+        }
+      ],
+      "fits_magic": true,
+      "fits_opened": true,
+      "healpix_like": false,
+      "n_image_or_table_rows": 8006001,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits",
+      "planck_lensing_scoped": true,
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75",
+      "size_bytes": 96079680
+    }
+  ],
+  "v77_planck_map_level_candidates": 15,
+  "v77_usable_fits_map_candidates": 0
+}

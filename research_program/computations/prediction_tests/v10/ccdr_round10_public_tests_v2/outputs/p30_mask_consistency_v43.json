@@ -1,0 +1,46 @@
+{
+  "all_variant_support_consistent_diagnostic": true,
+  "claim_policy": "Empirical finite-support mask can support diagnostics; publication confirmation requires official mask or a written equivalence appendix.",
+  "diagnostic_equivalent_mask": true,
+  "empirical_mask_available": true,
+  "official_mask_found": false,
+  "publication_equivalent_mask": false,
+  "variant_reports": [
+    {
+      "finite_fraction": 1.0,
+      "n_finite_pixels": 786432,
+      "same_finite_support_required": true,
+      "stat_available": true,
+      "variant": "f090"
+    },
+    {
+      "finite_fraction": 1.0,
+      "n_finite_pixels": 786432,
+      "same_finite_support_required": true,
+      "stat_available": true,
+      "variant": "f150"
+    },
+    {
+      "finite_fraction": 1.0,
+      "n_finite_pixels": 786432,
+      "same_finite_support_required": true,
+      "stat_available": true,
+      "variant": "tonly"
+    },
+    {
+      "finite_fraction": 1.0,
+      "n_finite_pixels": 786432,
+      "same_finite_support_required": true,
+      "stat_available": true,
+      "variant": "cibdeproj"
+    },
+    {
+      "finite_fraction": 1.0,
+      "n_finite_pixels": 786432,
+      "same_finite_support_required": true,
+      "stat_available": true,
+      "variant": "curl_control"
+    }
+  ],
+  "version": "v43"
+}

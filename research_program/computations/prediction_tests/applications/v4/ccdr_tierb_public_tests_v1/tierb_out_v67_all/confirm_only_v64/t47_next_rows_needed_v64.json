@@ -1,0 +1,37 @@
+{
+  "accepted_rows_v64": "Non-template exact public/source rows with required physical columns and source URL/label.",
+  "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+  "current_next_source_v64": "Exact neuromorphic benchmark rows with chip, task, energy, accuracy, topology, year, and source URL.",
+  "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, and derived/inferred rows.",
+  "required_packs_v64": [
+    {
+      "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\CHECKLIST_v64.md",
+      "dedup_key_v64": [
+        "chip",
+        "benchmark",
+        "year",
+        "source_url"
+      ],
+      "minimum_gate_v64": {
+        "min_sources": 3,
+        "min_usable_rows": 20
+      },
+      "pack": "neuromorphic",
+      "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic",
+      "required_columns_v64": [
+        "chip",
+        "benchmark",
+        "energy_per_inference_or_spike_pJ",
+        "accuracy",
+        "topology",
+        "year",
+        "source_url"
+      ],
+      "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\SCHEMA_v64.json",
+      "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\neuromorphic\\t47_neuromorphic_benchmark_template.csv"
+    }
+  ],
+  "schema": "ccdr-v64-next-rows-needed",
+  "test_id": "T47",
+  "test_name": "neuromorphic graph energy audit"
+}

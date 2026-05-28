@@ -1,0 +1,4641 @@
+{
+  "analysis_note": "v39 direct T34 path: timeout-safe header/row mapping from generated thermoelectric artifacts; no broad crawling.",
+  "auto_data_improvements_v39": {
+    "t34_header_mapping_v39": {
+      "download_policy": "no broad download in direct T34 fast path",
+      "failed_subgates": [
+        "N>=20_orientation_ZT_rows",
+        "cos6_model",
+        "material/source_jackknife"
+      ],
+      "model": {
+        "n_rows": 0,
+        "status": "insufficient_angle_zt_rows"
+      },
+      "normalized_rows_written": 0,
+      "priority": 5,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v39.csv",
+      "status": "t34_v39_no_cached_orientation_rows",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v40": {
+    "t34_thermo_header_mapping_v40": {
+      "failed_subgates": [
+        ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+        "cos6_model",
+        "source_material_jackknife"
+      ],
+      "model": {
+        "n_rows": 0,
+        "status": "insufficient_orientation_zt_rows"
+      },
+      "priority": 5,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v40.csv",
+      "rows_written": 0,
+      "status": "t34_thermo_header_mapping_not_strict",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v41": {
+    "t34_thermo_mapping_v41": {
+      "failed_subgates": [
+        ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+        "cos6_or_theta30_model",
+        "source_material_jackknife"
+      ],
+      "model": {
+        "n_rows": 0,
+        "status": "insufficient_angle_zt_rows"
+      },
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v41.csv",
+      "rows_written": 0,
+      "status": "t34_orientation_zt_not_strict",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v42": {
+    "t34_exact_thermo_mapping_v42": {
+      "failed_subgates": [
+        ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+        "cos6_or_theta30_model",
+        "source_material_jackknife"
+      ],
+      "model": {
+        "n_rows": 0,
+        "status": "insufficient_angle_zt_rows"
+      },
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v42.csv",
+      "rows_written": 0,
+      "status": "t34_thermo_not_strict_v42",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v43": {
+    "t34_exact_thermo_mapping_v43": {
+      "base_v42_model": {
+        "n_rows": 0,
+        "status": "insufficient_angle_zt_rows"
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model",
+        "source_material_jackknife"
+      ],
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+      "rows_written": 0,
+      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v44": {
+    "t34_exact_thermo_mapping_v44": {
+      "base_v43": {
+        "base_v42_model": {
+          "n_rows": 0,
+          "status": "insufficient_angle_zt_rows"
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model",
+          "source_material_jackknife"
+        ],
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+        "rows_written": 0,
+        "status": "t34_bi2te3_angle_zt_not_strict_v43",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model_AIC_gain",
+        "source_material_jackknife"
+      ],
+      "model": {
+        "attempted": false
+      },
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+      "rows_written": 0,
+      "status": "t34_orientation_zt_not_strict_v44",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v45": {
+    "t34_exact_thermo_mapping_v45": {
+      "base_v44": {
+        "base_v43": {
+          "base_v42_model": {
+            "n_rows": 0,
+            "status": "insufficient_angle_zt_rows"
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model",
+            "source_material_jackknife"
+          ],
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+          "rows_written": 0,
+          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model_AIC_gain",
+          "source_material_jackknife"
+        ],
+        "model": {
+          "attempted": false
+        },
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+        "rows_written": 0,
+        "status": "t34_orientation_zt_not_strict_v44",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model_AIC_gain"
+      ],
+      "model": {
+        "attempted": false
+      },
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+      "rows_written": 0,
+      "status": "t34_orientation_zt_not_strict_v45",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v46": {
+    "t34_exact_thermo_mapping_v46": {
+      "base_v45": {
+        "base_v44": {
+          "base_v43": {
+            "base_v42_model": {
+              "n_rows": 0,
+              "status": "insufficient_angle_zt_rows"
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+            "rows_written": 0,
+            "status": "t34_bi2te3_angle_zt_not_strict_v43",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model_AIC_gain",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict_v44",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model_AIC_gain"
+        ],
+        "model": {
+          "attempted": false
+        },
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+        "rows_written": 0,
+        "status": "t34_orientation_zt_not_strict_v45",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model_improves_baseline"
+      ],
+      "model": {
+        "attempted": false
+      },
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+      "rows_written": 0,
+      "status": "t34_orientation_zt_not_strict_v46",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v47": {
+    "t34_exact_thermo_mapping_v47": {
+      "base_v46": {
+        "base_v45": {
+          "base_v44": {
+            "base_v43": {
+              "base_v42_model": {
+                "n_rows": 0,
+                "status": "insufficient_angle_zt_rows"
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model",
+                "source_material_jackknife"
+              ],
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+              "rows_written": 0,
+              "status": "t34_bi2te3_angle_zt_not_strict_v43",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model_AIC_gain",
+              "source_material_jackknife"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+            "rows_written": 0,
+            "status": "t34_orientation_zt_not_strict_v44",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model_AIC_gain"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict_v45",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model_improves_baseline"
+        ],
+        "model": {
+          "attempted": false
+        },
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+        "rows_written": 0,
+        "status": "t34_orientation_zt_not_strict_v46",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_theta30_model_improves_temperature_baseline",
+        "source_material_jackknife"
+      ],
+      "model": {
+        "attempted": false
+      },
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+      "rows_written": 0,
+      "status": "t34_exact_export_not_ready_v47",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v48": {
+    "t34_exact_thermo_mapping_v48": {
+      "base_v47": {
+        "base_v46": {
+          "base_v45": {
+            "base_v44": {
+              "base_v43": {
+                "base_v42_model": {
+                  "n_rows": 0,
+                  "status": "insufficient_angle_zt_rows"
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                "rows_written": 0,
+                "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model_AIC_gain",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+              "rows_written": 0,
+              "status": "t34_orientation_zt_not_strict_v44",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model_AIC_gain"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+            "rows_written": 0,
+            "status": "t34_orientation_zt_not_strict_v45",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model_improves_baseline"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict_v46",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_theta30_model_improves_temperature_baseline",
+          "source_material_jackknife"
+        ],
+        "model": {
+          "attempted": false
+        },
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+        "rows_written": 0,
+        "status": "t34_exact_export_not_ready_v47",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_model",
+        "source_material_jackknife"
+      ],
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+      "rows_written": 0,
+      "status": "t34_angle_zt_rows_underpowered_v48",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v49": {
+    "t34_exact_thermo_mapping_v49": {
+      "base_v48": {
+        "base_v47": {
+          "base_v46": {
+            "base_v45": {
+              "base_v44": {
+                "base_v43": {
+                  "base_v42_model": {
+                    "n_rows": 0,
+                    "status": "insufficient_angle_zt_rows"
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model",
+                    "source_material_jackknife"
+                  ],
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                  "rows_written": 0,
+                  "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_AIC_gain",
+                  "source_material_jackknife"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v44",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model_AIC_gain"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+              "rows_written": 0,
+              "status": "t34_orientation_zt_not_strict_v45",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model_improves_baseline"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+            "rows_written": 0,
+            "status": "t34_orientation_zt_not_strict_v46",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+          "rows_written": 0,
+          "status": "t34_exact_export_not_ready_v47",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_model",
+          "source_material_jackknife"
+        ],
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+        "rows_written": 0,
+        "status": "t34_angle_zt_rows_underpowered_v48",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_theta30_model_improves_temperature_baseline",
+        "source_material_jackknife"
+      ],
+      "model": {
+        "attempted": false
+      },
+      "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+      "priority": 4,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+      "status": "t34_exact_thermo_rows_underpowered_v49",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v50": {
+    "t34_exact_thermo_mapping_v50": {
+      "base_v49": {
+        "base_v48": {
+          "base_v47": {
+            "base_v46": {
+              "base_v45": {
+                "base_v44": {
+                  "base_v43": {
+                    "base_v42_model": {
+                      "n_rows": 0,
+                      "status": "insufficient_angle_zt_rows"
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model",
+                      "source_material_jackknife"
+                    ],
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                    "rows_written": 0,
+                    "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v44",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_AIC_gain"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v45",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model_improves_baseline"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+              "rows_written": 0,
+              "status": "t34_orientation_zt_not_strict_v46",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_theta30_model_improves_temperature_baseline",
+              "source_material_jackknife"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+            "rows_written": 0,
+            "status": "t34_exact_export_not_ready_v47",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_model",
+            "source_material_jackknife"
+          ],
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+          "rows_written": 0,
+          "status": "t34_angle_zt_rows_underpowered_v48",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_theta30_model_improves_temperature_baseline",
+          "source_material_jackknife"
+        ],
+        "model": {
+          "attempted": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+        "priority": 4,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+        "status": "t34_exact_thermo_rows_underpowered_v49",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_predicted_sign",
+        "model_beats_constant_baseline"
+      ],
+      "model": {
+        "attempted_v50": false
+      },
+      "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+      "priority": 5,
+      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+      "status": "t34_exact_thermo_mapping_data_limited_v50",
+      "strict_confirm_ready": false,
+      "usable_angle_zt_rows": 0
+    }
+  },
+  "auto_data_improvements_v51": {
+    "t34_exact_manifest_v51": {
+      "base_v50": {
+        "base_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ],
+        "model": {
+          "attempted_v50": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+        "priority": 5,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+        "status": "t34_exact_thermo_mapping_data_limited_v50",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        "exact_public_rows"
+      ],
+      "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+      "priority": 6,
+      "status": "exact_manifest_pending_rows_v51",
+      "strict_confirm_ready": false
+    }
+  },
+  "auto_data_improvements_v52": {
+    "t34_exact_manifest_v51": {
+      "base_v50": {
+        "base_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ],
+        "model": {
+          "attempted_v50": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+        "priority": 5,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+        "status": "t34_exact_thermo_mapping_data_limited_v50",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        "exact_public_rows"
+      ],
+      "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+      "priority": 6,
+      "status": "exact_manifest_pending_rows_v51",
+      "strict_confirm_ready": false
+    },
+    "thermoelectric_source_contract_v52": {
+      "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+      "category": "thermoelectric",
+      "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+      "status": "source_contract_written_v52",
+      "strict_confirm_ready": false
+    }
+  },
+  "auto_data_improvements_v53": {
+    "t34_exact_manifest_v51": {
+      "base_v50": {
+        "base_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ],
+        "model": {
+          "attempted_v50": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+        "priority": 5,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+        "status": "t34_exact_thermo_mapping_data_limited_v50",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        "exact_public_rows"
+      ],
+      "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+      "priority": 6,
+      "status": "exact_manifest_pending_rows_v51",
+      "strict_confirm_ready": false
+    },
+    "t34_exact_te_export_parser_v53": {
+      "model": {
+        "attempted_v53": false,
+        "n_rows_seen_v53": 1,
+        "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+        "strict_confirm_ready_v53": false,
+        "usable_exact_rows_v53": 0
+      },
+      "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+      "priority": 5,
+      "required_fields": [
+        "material",
+        "ZT",
+        "temperature_K",
+        "orientation_angle_deg_or_grain_boundary_angle_deg",
+        "source_url"
+      ],
+      "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+      "status": "t34_exact_te_manifest_pending_v53",
+      "usable_rows": 0
+    },
+    "thermoelectric_source_contract_v52": {
+      "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+      "category": "thermoelectric",
+      "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+      "status": "source_contract_written_v52",
+      "strict_confirm_ready": false
+    }
+  },
+  "auto_data_improvements_v56": {
+    "t34_exact_manifest_v51": {
+      "base_v50": {
+        "base_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ],
+        "model": {
+          "attempted_v50": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+        "priority": 5,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+        "status": "t34_exact_thermo_mapping_data_limited_v50",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        "exact_public_rows"
+      ],
+      "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+      "priority": 6,
+      "status": "exact_manifest_pending_rows_v51",
+      "strict_confirm_ready": false
+    },
+    "t34_exact_te_export_parser_v53": {
+      "model": {
+        "attempted_v53": false,
+        "n_rows_seen_v53": 1,
+        "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+        "strict_confirm_ready_v53": false,
+        "usable_exact_rows_v53": 0
+      },
+      "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+      "priority": 5,
+      "required_fields": [
+        "material",
+        "ZT",
+        "temperature_K",
+        "orientation_angle_deg_or_grain_boundary_angle_deg",
+        "source_url"
+      ],
+      "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+      "status": "t34_exact_te_manifest_pending_v53",
+      "usable_rows": 0
+    },
+    "thermoelectric_source_contract_v52": {
+      "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+      "category": "thermoelectric",
+      "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+      "status": "source_contract_written_v52",
+      "strict_confirm_ready": false
+    }
+  },
+  "auto_data_improvements_v57": {
+    "t34_exact_manifest_v51": {
+      "base_v50": {
+        "base_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ],
+        "model": {
+          "attempted_v50": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+        "priority": 5,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+        "status": "t34_exact_thermo_mapping_data_limited_v50",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        "exact_public_rows"
+      ],
+      "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+      "priority": 6,
+      "status": "exact_manifest_pending_rows_v51",
+      "strict_confirm_ready": false
+    },
+    "t34_exact_te_export_parser_v53": {
+      "model": {
+        "attempted_v53": false,
+        "n_rows_seen_v53": 1,
+        "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+        "strict_confirm_ready_v53": false,
+        "usable_exact_rows_v53": 0
+      },
+      "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+      "priority": 5,
+      "required_fields": [
+        "material",
+        "ZT",
+        "temperature_K",
+        "orientation_angle_deg_or_grain_boundary_angle_deg",
+        "source_url"
+      ],
+      "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+      "status": "t34_exact_te_manifest_pending_v53",
+      "usable_rows": 0
+    },
+    "thermoelectric_source_contract_v52": {
+      "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+      "category": "thermoelectric",
+      "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+      "status": "source_contract_written_v52",
+      "strict_confirm_ready": false
+    }
+  },
+  "auto_data_improvements_v58": {
+    "t34_exact_manifest_v51": {
+      "base_v50": {
+        "base_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        },
+        "failed_subgates": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ],
+        "model": {
+          "attempted_v50": false
+        },
+        "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+        "priority": 5,
+        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+        "status": "t34_exact_thermo_mapping_data_limited_v50",
+        "strict_confirm_ready": false,
+        "usable_angle_zt_rows": 0
+      },
+      "failed_subgates": [
+        "exact_public_rows"
+      ],
+      "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+      "priority": 6,
+      "status": "exact_manifest_pending_rows_v51",
+      "strict_confirm_ready": false
+    },
+    "t34_exact_te_export_parser_v53": {
+      "model": {
+        "attempted_v53": false,
+        "n_rows_seen_v53": 1,
+        "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+        "strict_confirm_ready_v53": false,
+        "usable_exact_rows_v53": 0
+      },
+      "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+      "priority": 5,
+      "required_fields": [
+        "material",
+        "ZT",
+        "temperature_K",
+        "orientation_angle_deg_or_grain_boundary_angle_deg",
+        "source_url"
+      ],
+      "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+      "status": "t34_exact_te_manifest_pending_v53",
+      "usable_rows": 0
+    },
+    "t34_te_exact_rows_v58": {
+      "artifacts": {
+        "rejections": "data/generated/t34_exact_te_orientation_zt_rejections_v58.csv",
+        "rows": "data/generated/t34_exact_te_orientation_zt_rows_v58.csv"
+      },
+      "gate": {
+        "failed_subgates_v58": ">=20_exact_ZT_temperature_angle_rows|Bi2Te3_and_Sb2Te3_or_multiple_materials|orientation_model_and_jackknife_required",
+        "n_materials_v58": 0,
+        "n_raw_rows_v58": 78,
+        "schema": "ccdr-t34-exact-te-rows-v58",
+        "strict_confirm_ready_v58": false,
+        "test_id": "T34",
+        "usable_exact_rows_v58": 0
+      },
+      "schema": "ccdr-t34-te-exact-v58",
+      "score_0_10_v58": 3,
+      "status": "t34_exact_te_rows_pending_v58",
+      "strict_confirm_ready_v58": false
+    },
+    "thermoelectric_source_contract_v52": {
+      "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+      "category": "thermoelectric",
+      "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+      "status": "source_contract_written_v52",
+      "strict_confirm_ready": false
+    }
+  },
+  "auto_data_improvements_v59": {
+    "t34_exact_gate_v59": {
+      "base_v58": {
+        "artifacts": {
+          "rejections": "data/generated/t34_exact_te_orientation_zt_rejections_v58.csv",
+          "rows": "data/generated/t34_exact_te_orientation_zt_rows_v58.csv"
+        },
+        "gate": {
+          "failed_subgates_v58": ">=20_exact_ZT_temperature_angle_rows|Bi2Te3_and_Sb2Te3_or_multiple_materials|orientation_model_and_jackknife_required",
+          "n_materials_v58": 0,
+          "n_raw_rows_v58": 81,
+          "schema": "ccdr-t34-exact-te-rows-v58",
+          "strict_confirm_ready_v58": false,
+          "test_id": "T34",
+          "usable_exact_rows_v58": 0
+        },
+        "schema": "ccdr-t34-te-exact-v58",
+        "score_0_10_v58": 3,
+        "status": "t34_exact_te_rows_pending_v58",
+        "strict_confirm_ready_v58": false
+      },
+      "contract": {
+        "blocker_type_v59": "exact_te_rows_missing_or_model_pending",
+        "confirm_policy_v59": "exact_rows_required",
+        "required_columns_v59": "material|ZT|temperature_K|orientation_angle_deg|grain_boundary_angle_deg|source_url",
+        "schema": "ccdr-exact-source-contract-v59",
+        "strict_confirm_ready_v59": false,
+        "test_id": "T34"
+      },
+      "schema": "ccdr-exact-source-gate-v59",
+      "score_0_10_v59": 3,
+      "status": "exact_source_gate_pending_v59",
+      "strict_confirm_ready_v59": false,
+      "test_id": "T34"
+    }
+  },
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "data_limited",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed_next_gate_required",
+    "expected_effort_v52": "medium",
+    "next_data_source_v52": "teMatDb/Starrydata exact Bi2Te3/Sb2Te3 export",
+    "rank_score_0_10_v52": 3,
+    "test_id": "T34"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "exact_te_rows_missing_v53",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed_next_gate_required",
+    "expected_effort_v53": "medium",
+    "next_data_source_v53": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "rank_score_0_10_v53": 3,
+    "test_id": "T34"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "exact_te_rows_missing_v53",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "medium",
+    "next_data_source_v56": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "rank_score_0_10_v56": 3,
+    "test_id": "T34"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "exact_te_rows_missing_v53",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "medium",
+    "next_data_source_v57": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "rank_score_0_10_v57": 3,
+    "test_id": "T34"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "exact_te_rows_missing_or_model_pending",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "medium",
+    "next_data_source_v58": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "rank_score_0_10_v58": 3,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T34"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "exact_te_rows_missing_or_model_pending",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "medium",
+    "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+    "rank_score_0_10_v59": 3,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T34"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "single_next_blocker": "recover headers and map >=20 Bi2Te3/Sb2Te3 orientation/grain-angle rows",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "thermoelectric orientation/ZT rows are still insufficient"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/grain-angle ZT rows",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "thermoelectric orientation/ZT rows are insufficient"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "single_next_blocker": "exact_te_rows_missing_v53",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "exact_te_rows_missing_v53"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "single_next_blocker": "exact_te_rows_missing_v53",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "exact_te_rows_missing_v53"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "exact_te_rows_missing_or_model_pending",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "exact_te_rows_missing_or_model_pending"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "exact_te_rows_missing_or_model_pending",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "exact_te_rows_missing_or_model_pending"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed_next_gate_required",
+  "confirmation_status_v53": "not_confirmed_next_gate_required",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_status_v52": "data_limited",
+  "data_status_v53": "exact_te_rows_missing_v53",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "exact_te_rows_required",
+  "data_status_v59": "exact_rows_required",
+  "evidence_status": "data_limited_no_cached_t34_orientation_rows",
+  "evidence_status_v52": "near_confirm_or_model_ready",
+  "evidence_status_v53": "near_confirm_or_model_ready",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "near_confirm_data_limited",
+  "evidence_status_v59": "data_limited_positive_path",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "generated_utc": "2026-05-18T09:09:52Z",
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 2,
+    "strict_gate_remaining": [
+      "N>=20_orientation_ZT_rows",
+      "cos6_model",
+      "material/source_jackknife"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+      "cos6_model",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+      "cos6_or_theta30_model",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+      "cos6_or_theta30_model",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+      "cos6theta_or_theta30_model",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+      "cos6theta_or_theta30_model_AIC_gain",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+      "cos6theta_or_theta30_model_AIC_gain"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+      "cos6theta_or_theta30_model_improves_baseline"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+      "cos6theta_theta30_model_improves_temperature_baseline",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+      "cos6theta_model",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+      "cos6theta_theta30_model_improves_temperature_baseline",
+      "source_material_jackknife"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+      "cos6theta_predicted_sign",
+      "model_beats_constant_baseline"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": true,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      "exact_te_rows_missing_v53"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": true,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      "exact_te_rows_missing_v53"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": true,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      "exact_te_rows_missing_or_model_pending"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": true,
+    "score_0_10": 3,
+    "strict_gate_remaining": [
+      "exact_te_rows_missing_or_model_pending"
+    ]
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 2,
+      "strict_gate_remaining": [
+        "N>=20_orientation_ZT_rows",
+        "cos6_model",
+        "material/source_jackknife"
+      ]
+    },
+    "single_next_blocker": "recover headers and map >=20 Bi2Te3/Sb2Te3 orientation/grain-angle rows",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v39": {
+      "auto_data_improvements_v39": {
+        "t34_header_mapping_v39": {
+          "download_policy": "no broad download in direct T34 fast path",
+          "failed_subgates": [
+            "N>=20_orientation_ZT_rows",
+            "cos6_model",
+            "material/source_jackknife"
+          ],
+          "model": {
+            "n_rows": 0,
+            "status": "insufficient_angle_zt_rows"
+          },
+          "normalized_rows_written": 0,
+          "priority": 5,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v39.csv",
+          "status": "t34_v39_no_cached_orientation_rows",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 2,
+        "strict_gate_remaining": [
+          "N>=20_orientation_ZT_rows",
+          "cos6_model",
+          "material/source_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "thermoelectric orientation/ZT rows are still insufficient"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+        "cos6_model",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/grain-angle ZT rows",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v40": {
+      "auto_data_improvements_v40": {
+        "t34_thermo_header_mapping_v40": {
+          "failed_subgates": [
+            ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+            "cos6_model",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "n_rows": 0,
+            "status": "insufficient_orientation_zt_rows"
+          },
+          "priority": 5,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v40.csv",
+          "rows_written": 0,
+          "status": "t34_thermo_header_mapping_not_strict",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+        "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/grain-angle ZT rows",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "thermoelectric orientation/ZT rows are insufficient"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+          "cos6_model",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "thermoelectric orientation/ZT rows are insufficient"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+        "cos6_or_theta30_model",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v41": {
+      "auto_data_improvements_v41": {
+        "t34_thermo_mapping_v41": {
+          "failed_subgates": [
+            ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+            "cos6_or_theta30_model",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "n_rows": 0,
+            "status": "insufficient_angle_zt_rows"
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v41.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+        "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+          "cos6_or_theta30_model",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+        "cos6_or_theta30_model",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v42": {
+      "auto_data_improvements_v42": {
+        "t34_exact_thermo_mapping_v42": {
+          "failed_subgates": [
+            ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+            "cos6_or_theta30_model",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "n_rows": 0,
+            "status": "insufficient_angle_zt_rows"
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v42.csv",
+          "rows_written": 0,
+          "status": "t34_thermo_not_strict_v42",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+        "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3/Sb2Te3_orientation_ZT_rows",
+          "cos6_or_theta30_model",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v43": {
+      "auto_data_improvements_v43": {
+        "t34_exact_thermo_mapping_v43": {
+          "base_v42_model": {
+            "n_rows": 0,
+            "status": "insufficient_angle_zt_rows"
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model",
+            "source_material_jackknife"
+          ],
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+          "rows_written": 0,
+          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+        "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model_AIC_gain",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v44": {
+      "auto_data_improvements_v44": {
+        "t34_exact_thermo_mapping_v44": {
+          "base_v43": {
+            "base_v42_model": {
+              "n_rows": 0,
+              "status": "insufficient_angle_zt_rows"
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+            "rows_written": 0,
+            "status": "t34_bi2te3_angle_zt_not_strict_v43",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model_AIC_gain",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict_v44",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "teMatDb/Starrydata exact exports",
+        "single_next_blocker": ">=20 Bi2Te3/Sb2Te3 orientation/ZT rows",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model_AIC_gain",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "T34 lacks enough orientation/grain-angle ZT rows"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model_AIC_gain"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v45": {
+      "auto_data_improvements_v45": {
+        "t34_exact_thermo_mapping_v45": {
+          "base_v44": {
+            "base_v43": {
+              "base_v42_model": {
+                "n_rows": 0,
+                "status": "insufficient_angle_zt_rows"
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model",
+                "source_material_jackknife"
+              ],
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+              "rows_written": 0,
+              "status": "t34_bi2te3_angle_zt_not_strict_v43",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model_AIC_gain",
+              "source_material_jackknife"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+            "rows_written": 0,
+            "status": "t34_orientation_zt_not_strict_v44",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model_AIC_gain"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict_v45",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model_AIC_gain"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+        "cos6theta_or_theta30_model_improves_baseline"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v46": {
+      "auto_data_improvements_v46": {
+        "t34_exact_thermo_mapping_v46": {
+          "base_v45": {
+            "base_v44": {
+              "base_v43": {
+                "base_v42_model": {
+                  "n_rows": 0,
+                  "status": "insufficient_angle_zt_rows"
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                "rows_written": 0,
+                "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model_AIC_gain",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+              "rows_written": 0,
+              "status": "t34_orientation_zt_not_strict_v44",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model_AIC_gain"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+            "rows_written": 0,
+            "status": "t34_orientation_zt_not_strict_v45",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+            "cos6theta_or_theta30_model_improves_baseline"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+          "rows_written": 0,
+          "status": "t34_orientation_zt_not_strict_v46",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+          "cos6theta_or_theta30_model_improves_baseline"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_theta30_model_improves_temperature_baseline",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v47": {
+      "auto_data_improvements_v47": {
+        "t34_exact_thermo_mapping_v47": {
+          "base_v46": {
+            "base_v45": {
+              "base_v44": {
+                "base_v43": {
+                  "base_v42_model": {
+                    "n_rows": 0,
+                    "status": "insufficient_angle_zt_rows"
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model",
+                    "source_material_jackknife"
+                  ],
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                  "rows_written": 0,
+                  "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_AIC_gain",
+                  "source_material_jackknife"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v44",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model_AIC_gain"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+              "rows_written": 0,
+              "status": "t34_orientation_zt_not_strict_v45",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+              "cos6theta_or_theta30_model_improves_baseline"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+            "rows_written": 0,
+            "status": "t34_orientation_zt_not_strict_v46",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+          "rows_written": 0,
+          "status": "t34_exact_export_not_ready_v47",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_theta30_model_improves_temperature_baseline",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_model",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v48": {
+      "auto_data_improvements_v48": {
+        "t34_exact_thermo_mapping_v48": {
+          "base_v47": {
+            "base_v46": {
+              "base_v45": {
+                "base_v44": {
+                  "base_v43": {
+                    "base_v42_model": {
+                      "n_rows": 0,
+                      "status": "insufficient_angle_zt_rows"
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model",
+                      "source_material_jackknife"
+                    ],
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                    "rows_written": 0,
+                    "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v44",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_AIC_gain"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v45",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                "cos6theta_or_theta30_model_improves_baseline"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+              "rows_written": 0,
+              "status": "t34_orientation_zt_not_strict_v46",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_theta30_model_improves_temperature_baseline",
+              "source_material_jackknife"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+            "rows_written": 0,
+            "status": "t34_exact_export_not_ready_v47",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_model",
+            "source_material_jackknife"
+          ],
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+          "rows_written": 0,
+          "status": "t34_angle_zt_rows_underpowered_v48",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_model",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_theta30_model_improves_temperature_baseline",
+        "source_material_jackknife"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v49": {
+      "auto_data_improvements_v49": {
+        "t34_exact_thermo_mapping_v49": {
+          "base_v48": {
+            "base_v47": {
+              "base_v46": {
+                "base_v45": {
+                  "base_v44": {
+                    "base_v43": {
+                      "base_v42_model": {
+                        "n_rows": 0,
+                        "status": "insufficient_angle_zt_rows"
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model",
+                        "source_material_jackknife"
+                      ],
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                      "rows_written": 0,
+                      "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain",
+                      "source_material_jackknife"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v44",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_AIC_gain"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v45",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                  "cos6theta_or_theta30_model_improves_baseline"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                "rows_written": 0,
+                "status": "t34_orientation_zt_not_strict_v46",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+              "rows_written": 0,
+              "status": "t34_exact_export_not_ready_v47",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_model",
+              "source_material_jackknife"
+            ],
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+            "rows_written": 0,
+            "status": "t34_angle_zt_rows_underpowered_v48",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_theta30_model_improves_temperature_baseline",
+            "source_material_jackknife"
+          ],
+          "model": {
+            "attempted": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+          "priority": 4,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+          "status": "t34_exact_thermo_rows_underpowered_v49",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_theta30_model_improves_temperature_baseline",
+          "source_material_jackknife"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+        "cos6theta_predicted_sign",
+        "model_beats_constant_baseline"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v50": {
+      "auto_data_improvements_v50": {
+        "t34_exact_thermo_mapping_v50": {
+          "base_v49": {
+            "base_v48": {
+              "base_v47": {
+                "base_v46": {
+                  "base_v45": {
+                    "base_v44": {
+                      "base_v43": {
+                        "base_v42_model": {
+                          "n_rows": 0,
+                          "status": "insufficient_angle_zt_rows"
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model",
+                          "source_material_jackknife"
+                        ],
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                        "rows_written": 0,
+                        "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain",
+                        "source_material_jackknife"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v44",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_AIC_gain"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v45",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                    "cos6theta_or_theta30_model_improves_baseline"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                  "rows_written": 0,
+                  "status": "t34_orientation_zt_not_strict_v46",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_theta30_model_improves_temperature_baseline",
+                  "source_material_jackknife"
+                ],
+                "model": {
+                  "attempted": false
+                },
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                "rows_written": 0,
+                "status": "t34_exact_export_not_ready_v47",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_model",
+                "source_material_jackknife"
+              ],
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+              "rows_written": 0,
+              "status": "t34_angle_zt_rows_underpowered_v48",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_theta30_model_improves_temperature_baseline",
+              "source_material_jackknife"
+            ],
+            "model": {
+              "attempted": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+            "priority": 4,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+            "status": "t34_exact_thermo_rows_underpowered_v49",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+            "cos6theta_predicted_sign",
+            "model_beats_constant_baseline"
+          ],
+          "model": {
+            "attempted_v50": false
+          },
+          "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+          "priority": 5,
+          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+          "status": "t34_exact_thermo_mapping_data_limited_v50",
+          "strict_confirm_ready": false,
+          "usable_angle_zt_rows": 0
+        }
+      },
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+          "cos6theta_predicted_sign",
+          "model_beats_constant_baseline"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v51": {
+      "auto_data_improvements_v51": {
+        "t34_exact_manifest_v51": {
+          "base_v50": {
+            "base_v49": {
+              "base_v48": {
+                "base_v47": {
+                  "base_v46": {
+                    "base_v45": {
+                      "base_v44": {
+                        "base_v43": {
+                          "base_v42_model": {
+                            "n_rows": 0,
+                            "status": "insufficient_angle_zt_rows"
+                          },
+                          "failed_subgates": [
+                            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                            "cos6theta_or_theta30_model",
+                            "source_material_jackknife"
+                          ],
+                          "priority": 4,
+                          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                          "rows_written": 0,
+                          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                          "strict_confirm_ready": false,
+                          "usable_angle_zt_rows": 0
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model_AIC_gain",
+                          "source_material_jackknife"
+                        ],
+                        "model": {
+                          "attempted": false
+                        },
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                        "rows_written": 0,
+                        "status": "t34_orientation_zt_not_strict_v44",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v45",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_improves_baseline"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v46",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                    "cos6theta_theta30_model_improves_temperature_baseline",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                  "rows_written": 0,
+                  "status": "t34_exact_export_not_ready_v47",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+                "rows_written": 0,
+                "status": "t34_angle_zt_rows_underpowered_v48",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+              "status": "t34_exact_thermo_rows_underpowered_v49",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_predicted_sign",
+              "model_beats_constant_baseline"
+            ],
+            "model": {
+              "attempted_v50": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+            "priority": 5,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+            "status": "t34_exact_thermo_mapping_data_limited_v50",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            "exact_public_rows"
+          ],
+          "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+          "priority": 6,
+          "status": "exact_manifest_pending_rows_v51",
+          "strict_confirm_ready": false
+        }
+      },
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+        ]
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_next_gate_required",
+      "expected_effort_v52": "medium",
+      "next_data_source_v52": "teMatDb/Starrydata exact Bi2Te3/Sb2Te3 export",
+      "rank_score_0_10_v52": 3,
+      "test_id": "T34"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed_next_gate_required",
+      "data_status_v52": "data_limited",
+      "evidence_status_v52": "near_confirm_or_model_ready",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v52": {
+      "auto_data_improvements_v52": {
+        "t34_exact_manifest_v51": {
+          "base_v50": {
+            "base_v49": {
+              "base_v48": {
+                "base_v47": {
+                  "base_v46": {
+                    "base_v45": {
+                      "base_v44": {
+                        "base_v43": {
+                          "base_v42_model": {
+                            "n_rows": 0,
+                            "status": "insufficient_angle_zt_rows"
+                          },
+                          "failed_subgates": [
+                            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                            "cos6theta_or_theta30_model",
+                            "source_material_jackknife"
+                          ],
+                          "priority": 4,
+                          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                          "rows_written": 0,
+                          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                          "strict_confirm_ready": false,
+                          "usable_angle_zt_rows": 0
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model_AIC_gain",
+                          "source_material_jackknife"
+                        ],
+                        "model": {
+                          "attempted": false
+                        },
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                        "rows_written": 0,
+                        "status": "t34_orientation_zt_not_strict_v44",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v45",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_improves_baseline"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v46",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                    "cos6theta_theta30_model_improves_temperature_baseline",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                  "rows_written": 0,
+                  "status": "t34_exact_export_not_ready_v47",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+                "rows_written": 0,
+                "status": "t34_angle_zt_rows_underpowered_v48",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+              "status": "t34_exact_thermo_rows_underpowered_v49",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_predicted_sign",
+              "model_beats_constant_baseline"
+            ],
+            "model": {
+              "attempted_v50": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+            "priority": 5,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+            "status": "t34_exact_thermo_mapping_data_limited_v50",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            "exact_public_rows"
+          ],
+          "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+          "priority": 6,
+          "status": "exact_manifest_pending_rows_v51",
+          "strict_confirm_ready": false
+        },
+        "thermoelectric_source_contract_v52": {
+          "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+          "category": "thermoelectric",
+          "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+          "status": "source_contract_written_v52",
+          "strict_confirm_ready": false
+        }
+      },
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed_next_gate_required",
+        "data_status_v52": "data_limited",
+        "evidence_status_v52": "near_confirm_or_model_ready",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "exact_te_rows_missing_v53",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "expected_effort_v53": "medium",
+      "next_data_source_v53": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v53": 3,
+      "test_id": "T34"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+      ]
+    },
+    "single_next_blocker": "exact thermoelectric export header/row mapping",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed_next_gate_required",
+      "data_status_v53": "exact_te_rows_missing_v53",
+      "evidence_status_v53": "near_confirm_or_model_ready",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v53": {
+      "auto_data_improvements_v53": {
+        "t34_exact_manifest_v51": {
+          "base_v50": {
+            "base_v49": {
+              "base_v48": {
+                "base_v47": {
+                  "base_v46": {
+                    "base_v45": {
+                      "base_v44": {
+                        "base_v43": {
+                          "base_v42_model": {
+                            "n_rows": 0,
+                            "status": "insufficient_angle_zt_rows"
+                          },
+                          "failed_subgates": [
+                            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                            "cos6theta_or_theta30_model",
+                            "source_material_jackknife"
+                          ],
+                          "priority": 4,
+                          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                          "rows_written": 0,
+                          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                          "strict_confirm_ready": false,
+                          "usable_angle_zt_rows": 0
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model_AIC_gain",
+                          "source_material_jackknife"
+                        ],
+                        "model": {
+                          "attempted": false
+                        },
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                        "rows_written": 0,
+                        "status": "t34_orientation_zt_not_strict_v44",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v45",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_improves_baseline"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v46",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                    "cos6theta_theta30_model_improves_temperature_baseline",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                  "rows_written": 0,
+                  "status": "t34_exact_export_not_ready_v47",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+                "rows_written": 0,
+                "status": "t34_angle_zt_rows_underpowered_v48",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+              "status": "t34_exact_thermo_rows_underpowered_v49",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_predicted_sign",
+              "model_beats_constant_baseline"
+            ],
+            "model": {
+              "attempted_v50": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+            "priority": 5,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+            "status": "t34_exact_thermo_mapping_data_limited_v50",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            "exact_public_rows"
+          ],
+          "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+          "priority": 6,
+          "status": "exact_manifest_pending_rows_v51",
+          "strict_confirm_ready": false
+        },
+        "t34_exact_te_export_parser_v53": {
+          "model": {
+            "attempted_v53": false,
+            "n_rows_seen_v53": 1,
+            "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+            "strict_confirm_ready_v53": false,
+            "usable_exact_rows_v53": 0
+          },
+          "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+          "priority": 5,
+          "required_fields": [
+            "material",
+            "ZT",
+            "temperature_K",
+            "orientation_angle_deg_or_grain_boundary_angle_deg",
+            "source_url"
+          ],
+          "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+          "status": "t34_exact_te_manifest_pending_v53",
+          "usable_rows": 0
+        },
+        "thermoelectric_source_contract_v52": {
+          "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+          "category": "thermoelectric",
+          "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+          "status": "source_contract_written_v52",
+          "strict_confirm_ready": false
+        }
+      },
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "teMatDb/Starrydata Bi2Te3/Sb2Te3 exports",
+        "single_next_blocker": "exact thermoelectric export header/row mapping",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          ">=20_exact_Bi2Te3_Sb2Te3_ZT_angle_rows"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed_next_gate_required",
+        "data_status_v53": "exact_te_rows_missing_v53",
+        "evidence_status_v53": "near_confirm_or_model_ready",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "not enough Bi2Te3/Sb2Te3 ZT rows with orientation/grain-boundary angle"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "exact_te_rows_missing_v53",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "medium",
+      "next_data_source_v56": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v56": 3,
+      "test_id": "T34"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": true,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        "exact_te_rows_missing_v53"
+      ]
+    },
+    "single_next_blocker": "exact_te_rows_missing_v53",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v56": {
+      "auto_data_improvements_v56": {
+        "t34_exact_manifest_v51": {
+          "base_v50": {
+            "base_v49": {
+              "base_v48": {
+                "base_v47": {
+                  "base_v46": {
+                    "base_v45": {
+                      "base_v44": {
+                        "base_v43": {
+                          "base_v42_model": {
+                            "n_rows": 0,
+                            "status": "insufficient_angle_zt_rows"
+                          },
+                          "failed_subgates": [
+                            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                            "cos6theta_or_theta30_model",
+                            "source_material_jackknife"
+                          ],
+                          "priority": 4,
+                          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                          "rows_written": 0,
+                          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                          "strict_confirm_ready": false,
+                          "usable_angle_zt_rows": 0
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model_AIC_gain",
+                          "source_material_jackknife"
+                        ],
+                        "model": {
+                          "attempted": false
+                        },
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                        "rows_written": 0,
+                        "status": "t34_orientation_zt_not_strict_v44",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v45",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_improves_baseline"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v46",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                    "cos6theta_theta30_model_improves_temperature_baseline",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                  "rows_written": 0,
+                  "status": "t34_exact_export_not_ready_v47",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+                "rows_written": 0,
+                "status": "t34_angle_zt_rows_underpowered_v48",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+              "status": "t34_exact_thermo_rows_underpowered_v49",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_predicted_sign",
+              "model_beats_constant_baseline"
+            ],
+            "model": {
+              "attempted_v50": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+            "priority": 5,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+            "status": "t34_exact_thermo_mapping_data_limited_v50",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            "exact_public_rows"
+          ],
+          "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+          "priority": 6,
+          "status": "exact_manifest_pending_rows_v51",
+          "strict_confirm_ready": false
+        },
+        "t34_exact_te_export_parser_v53": {
+          "model": {
+            "attempted_v53": false,
+            "n_rows_seen_v53": 1,
+            "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+            "strict_confirm_ready_v53": false,
+            "usable_exact_rows_v53": 0
+          },
+          "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+          "priority": 5,
+          "required_fields": [
+            "material",
+            "ZT",
+            "temperature_K",
+            "orientation_angle_deg_or_grain_boundary_angle_deg",
+            "source_url"
+          ],
+          "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+          "status": "t34_exact_te_manifest_pending_v53",
+          "usable_rows": 0
+        },
+        "thermoelectric_source_contract_v52": {
+          "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+          "category": "thermoelectric",
+          "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+          "status": "source_contract_written_v52",
+          "strict_confirm_ready": false
+        }
+      },
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+        "single_next_blocker": "exact_te_rows_missing_v53",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "exact_te_rows_missing_v53"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": true,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          "exact_te_rows_missing_v53"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "exact_te_rows_missing_v53"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "exact_te_rows_missing_v53",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "medium",
+      "next_data_source_v57": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v57": 3,
+      "test_id": "T34"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": true,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        "exact_te_rows_missing_v53"
+      ]
+    },
+    "single_next_blocker": "exact_te_rows_missing_v53",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v57": {
+      "auto_data_improvements_v57": {
+        "t34_exact_manifest_v51": {
+          "base_v50": {
+            "base_v49": {
+              "base_v48": {
+                "base_v47": {
+                  "base_v46": {
+                    "base_v45": {
+                      "base_v44": {
+                        "base_v43": {
+                          "base_v42_model": {
+                            "n_rows": 0,
+                            "status": "insufficient_angle_zt_rows"
+                          },
+                          "failed_subgates": [
+                            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                            "cos6theta_or_theta30_model",
+                            "source_material_jackknife"
+                          ],
+                          "priority": 4,
+                          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                          "rows_written": 0,
+                          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                          "strict_confirm_ready": false,
+                          "usable_angle_zt_rows": 0
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model_AIC_gain",
+                          "source_material_jackknife"
+                        ],
+                        "model": {
+                          "attempted": false
+                        },
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                        "rows_written": 0,
+                        "status": "t34_orientation_zt_not_strict_v44",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v45",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_improves_baseline"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v46",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                    "cos6theta_theta30_model_improves_temperature_baseline",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                  "rows_written": 0,
+                  "status": "t34_exact_export_not_ready_v47",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+                "rows_written": 0,
+                "status": "t34_angle_zt_rows_underpowered_v48",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+              "status": "t34_exact_thermo_rows_underpowered_v49",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_predicted_sign",
+              "model_beats_constant_baseline"
+            ],
+            "model": {
+              "attempted_v50": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+            "priority": 5,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+            "status": "t34_exact_thermo_mapping_data_limited_v50",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            "exact_public_rows"
+          ],
+          "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+          "priority": 6,
+          "status": "exact_manifest_pending_rows_v51",
+          "strict_confirm_ready": false
+        },
+        "t34_exact_te_export_parser_v53": {
+          "model": {
+            "attempted_v53": false,
+            "n_rows_seen_v53": 1,
+            "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+            "strict_confirm_ready_v53": false,
+            "usable_exact_rows_v53": 0
+          },
+          "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+          "priority": 5,
+          "required_fields": [
+            "material",
+            "ZT",
+            "temperature_K",
+            "orientation_angle_deg_or_grain_boundary_angle_deg",
+            "source_url"
+          ],
+          "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+          "status": "t34_exact_te_manifest_pending_v53",
+          "usable_rows": 0
+        },
+        "thermoelectric_source_contract_v52": {
+          "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+          "category": "thermoelectric",
+          "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+          "status": "source_contract_written_v52",
+          "strict_confirm_ready": false
+        }
+      },
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+        "single_next_blocker": "exact_te_rows_missing_v53",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "exact_te_rows_missing_v53"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": true,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          "exact_te_rows_missing_v53"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "exact_te_rows_missing_v53"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "exact_te_rows_missing_or_model_pending",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v58": 3,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T34"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": true,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        "exact_te_rows_missing_or_model_pending"
+      ]
+    },
+    "single_next_blocker": "exact_te_rows_missing_or_model_pending",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "exact_te_rows_required",
+      "evidence_status_v58": "near_confirm_data_limited",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v58": {
+      "auto_data_improvements_v58": {
+        "t34_exact_manifest_v51": {
+          "base_v50": {
+            "base_v49": {
+              "base_v48": {
+                "base_v47": {
+                  "base_v46": {
+                    "base_v45": {
+                      "base_v44": {
+                        "base_v43": {
+                          "base_v42_model": {
+                            "n_rows": 0,
+                            "status": "insufficient_angle_zt_rows"
+                          },
+                          "failed_subgates": [
+                            ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                            "cos6theta_or_theta30_model",
+                            "source_material_jackknife"
+                          ],
+                          "priority": 4,
+                          "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v43.csv",
+                          "rows_written": 0,
+                          "status": "t34_bi2te3_angle_zt_not_strict_v43",
+                          "strict_confirm_ready": false,
+                          "usable_angle_zt_rows": 0
+                        },
+                        "failed_subgates": [
+                          ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                          "cos6theta_or_theta30_model_AIC_gain",
+                          "source_material_jackknife"
+                        ],
+                        "model": {
+                          "attempted": false
+                        },
+                        "priority": 4,
+                        "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v44.csv",
+                        "rows_written": 0,
+                        "status": "t34_orientation_zt_not_strict_v44",
+                        "strict_confirm_ready": false,
+                        "usable_angle_zt_rows": 0
+                      },
+                      "failed_subgates": [
+                        ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                        "cos6theta_or_theta30_model_AIC_gain"
+                      ],
+                      "model": {
+                        "attempted": false
+                      },
+                      "priority": 4,
+                      "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v45.csv",
+                      "rows_written": 0,
+                      "status": "t34_orientation_zt_not_strict_v45",
+                      "strict_confirm_ready": false,
+                      "usable_angle_zt_rows": 0
+                    },
+                    "failed_subgates": [
+                      ">=20_Bi2Te3_Sb2Te3_orientation_ZT_rows",
+                      "cos6theta_or_theta30_model_improves_baseline"
+                    ],
+                    "model": {
+                      "attempted": false
+                    },
+                    "priority": 4,
+                    "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v46.csv",
+                    "rows_written": 0,
+                    "status": "t34_orientation_zt_not_strict_v46",
+                    "strict_confirm_ready": false,
+                    "usable_angle_zt_rows": 0
+                  },
+                  "failed_subgates": [
+                    ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                    "cos6theta_theta30_model_improves_temperature_baseline",
+                    "source_material_jackknife"
+                  ],
+                  "model": {
+                    "attempted": false
+                  },
+                  "priority": 4,
+                  "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v47.csv",
+                  "rows_written": 0,
+                  "status": "t34_exact_export_not_ready_v47",
+                  "strict_confirm_ready": false,
+                  "usable_angle_zt_rows": 0
+                },
+                "failed_subgates": [
+                  ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                  "cos6theta_model",
+                  "source_material_jackknife"
+                ],
+                "priority": 4,
+                "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v48.csv",
+                "rows_written": 0,
+                "status": "t34_angle_zt_rows_underpowered_v48",
+                "strict_confirm_ready": false,
+                "usable_angle_zt_rows": 0
+              },
+              "failed_subgates": [
+                ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+                "cos6theta_theta30_model_improves_temperature_baseline",
+                "source_material_jackknife"
+              ],
+              "model": {
+                "attempted": false
+              },
+              "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v49.csv",
+              "priority": 4,
+              "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v49.csv",
+              "status": "t34_exact_thermo_rows_underpowered_v49",
+              "strict_confirm_ready": false,
+              "usable_angle_zt_rows": 0
+            },
+            "failed_subgates": [
+              ">=20_Bi2Te3_Sb2Te3_ZT_temperature_angle_rows",
+              "cos6theta_predicted_sign",
+              "model_beats_constant_baseline"
+            ],
+            "model": {
+              "attempted_v50": false
+            },
+            "model_artifact": "data/generated/t34_bi2te3_zt_angle_model_v50.csv",
+            "priority": 5,
+            "rows_artifact": "data/generated/t34_bi2te3_zt_angle_rows_v50.csv",
+            "status": "t34_exact_thermo_mapping_data_limited_v50",
+            "strict_confirm_ready": false,
+            "usable_angle_zt_rows": 0
+          },
+          "failed_subgates": [
+            "exact_public_rows"
+          ],
+          "manifest_artifact": "data/generated/t34_exact_te_export_manifest_v51.csv",
+          "priority": 6,
+          "status": "exact_manifest_pending_rows_v51",
+          "strict_confirm_ready": false
+        },
+        "t34_exact_te_export_parser_v53": {
+          "model": {
+            "attempted_v53": false,
+            "n_rows_seen_v53": 1,
+            "reason_v53": "need_>=20_exact_Bi2Te3_or_Sb2Te3_ZT_temperature_angle_rows",
+            "strict_confirm_ready_v53": false,
+            "usable_exact_rows_v53": 0
+          },
+          "model_artifact": "data/generated/t34_exact_te_cos6theta_model_v53.csv",
+          "priority": 5,
+          "required_fields": [
+            "material",
+            "ZT",
+            "temperature_K",
+            "orientation_angle_deg_or_grain_boundary_angle_deg",
+            "source_url"
+          ],
+          "rows_artifact": "data/generated/t34_exact_te_orientation_zt_rows_v53.csv",
+          "status": "t34_exact_te_manifest_pending_v53",
+          "usable_rows": 0
+        },
+        "t34_te_exact_rows_v58": {
+          "artifacts": {
+            "rejections": "data/generated/t34_exact_te_orientation_zt_rejections_v58.csv",
+            "rows": "data/generated/t34_exact_te_orientation_zt_rows_v58.csv"
+          },
+          "gate": {
+            "failed_subgates_v58": ">=20_exact_ZT_temperature_angle_rows|Bi2Te3_and_Sb2Te3_or_multiple_materials|orientation_model_and_jackknife_required",
+            "n_materials_v58": 0,
+            "n_raw_rows_v58": 78,
+            "schema": "ccdr-t34-exact-te-rows-v58",
+            "strict_confirm_ready_v58": false,
+            "test_id": "T34",
+            "usable_exact_rows_v58": 0
+          },
+          "schema": "ccdr-t34-te-exact-v58",
+          "score_0_10_v58": 3,
+          "status": "t34_exact_te_rows_pending_v58",
+          "strict_confirm_ready_v58": false
+        },
+        "thermoelectric_source_contract_v52": {
+          "artifact": "data/generated/t34_thermoelectric_source_contract_v52.csv",
+          "category": "thermoelectric",
+          "required_exact_fields": "material Bi2Te3/Sb2Te3|ZT|temperature_K|orientation_angle_deg_or_grain_boundary_angle_deg|source_url",
+          "status": "source_contract_written_v52",
+          "strict_confirm_ready": false
+        }
+      },
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "exact_te_rows_missing_or_model_pending",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "exact_te_rows_missing_or_model_pending"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": true,
+        "score_0_10": 3,
+        "strict_gate_remaining": [
+          "exact_te_rows_missing_or_model_pending"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "exact_te_rows_required",
+        "evidence_status_v58": "near_confirm_data_limited",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "exact_te_rows_missing_or_model_pending"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "exact_te_rows_missing_or_model_pending",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "medium",
+      "next_data_source_v59": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+      "rank_score_0_10_v59": 3,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T34"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": true,
+      "score_0_10": 3,
+      "strict_gate_remaining": [
+        "exact_te_rows_missing_or_model_pending"
+      ]
+    },
+    "single_next_blocker": "exact_te_rows_missing_or_model_pending",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "exact_rows_required",
+      "evidence_status_v59": "data_limited_positive_path",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T34",
+    "v59": {
+      "auto_data_improvements_v59": {
+        "t34_exact_gate_v59": {
+          "base_v58": {
+            "artifacts": {
+              "rejections": "data/generated/t34_exact_te_orientation_zt_rejections_v58.csv",
+              "rows": "data/generated/t34_exact_te_orientation_zt_rows_v58.csv"
+            },
+            "gate": {
+              "failed_subgates_v58": ">=20_exact_ZT_temperature_angle_rows|Bi2Te3_and_Sb2Te3_or_multiple_materials|orientation_model_and_jackknife_required",
+              "n_materials_v58": 0,
+              "n_raw_rows_v58": 81,
+              "schema": "ccdr-t34-exact-te-rows-v58",
+              "strict_confirm_ready_v58": false,
+              "test_id": "T34",
+              "usable_exact_rows_v58": 0
+            },
+            "schema": "ccdr-t34-te-exact-v58",
+            "score_0_10_v58": 3,
+            "status": "t34_exact_te_rows_pending_v58",
+            "strict_confirm_ready_v58": false
+          },
+          "contract": {
+            "blocker_type_v59": "exact_te_rows_missing_or_model_pending",
+            "confirm_policy_v59": "exact_rows_required",
+            "required_columns_v59": "material|ZT|temperature_K|orientation_angle_deg|grain_boundary_angle_deg|source_url",
+            "schema": "ccdr-exact-source-contract-v59",
+            "strict_confirm_ready_v59": false,
+            "test_id": "T34"
+          },
+          "schema": "ccdr-exact-source-gate-v59",
+          "score_0_10_v59": 3,
+          "status": "exact_source_gate_pending_v59",
+          "strict_confirm_ready_v59": false,
+          "test_id": "T34"
+        }
+      },
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "exact public row table/manifest; broad discovery and PDF summaries are diagnostic only",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "exact_te_rows_missing_or_model_pending",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "exact_te_rows_missing_or_model_pending"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "data_limited_positive_path_ready",
+    "why_not_confirmed": "exact_te_rows_missing_or_model_pending"
+  },
+  "prediction_ids": [
+    "MAT4"
+  ],
+  "prediction_names": [
+    "hexagonal grain-boundary cos(6 theta) fingerprint and \u03b8\u224830\u00b0 ZT improvement"
+  ],
+  "programmatic_verdict": "data_limited_positive_path_ready",
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "quality_patch_version": "v39_fast_t34_header_mapping+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "readiness_status": "no_source_found",
+  "schema": "ccdr-tierb-result-v39-t34-fast-header-mapping",
+  "status": "data_limited_no_cached_t34_orientation_rows",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed_next_gate_required",
+    "data_status_v52": "data_limited",
+    "evidence_status_v52": "near_confirm_or_model_ready",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed_next_gate_required",
+    "data_status_v53": "exact_te_rows_missing_v53",
+    "evidence_status_v53": "near_confirm_or_model_ready",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "exact_te_rows_required",
+    "evidence_status_v58": "near_confirm_data_limited",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "exact_rows_required",
+    "evidence_status_v59": "data_limited_positive_path",
+    "execution_status_v59": "ok"
+  },
+  "test_id": "T34",
+  "test_name": "Bi2Te3 ZT angle meta-analysis"
+}

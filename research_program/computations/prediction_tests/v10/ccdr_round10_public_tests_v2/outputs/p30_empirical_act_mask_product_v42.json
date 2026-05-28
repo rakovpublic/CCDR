@@ -1,0 +1,14 @@
+{
+  "all_variants_must_use_same_mask": true,
+  "available": true,
+  "claim_scope": "diagnostic_mask_product",
+  "finite_fraction": 1.0,
+  "mask_product_policy": "Persisted empirical finite-support mask is diagnostic-equivalent only. Publication-equivalent promotion still requires an official mask or a documented mask-equivalence appendix.",
+  "n_finite_pixels": 786432,
+  "n_total_pixels": 786432,
+  "official_mask_found": false,
+  "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_empirical_finite_support_mask_product_v41.json",
+  "required_for_publication": true,
+  "rule": "All P30 variants/randoms must be run through the same persisted mask product before any route claim is publishable.",
+  "version": "v42"
+}

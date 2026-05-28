@@ -1,0 +1,47 @@
+{
+  "artifact_version": "v66",
+  "auth_errors": [
+    {
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/LRG_clustering.dat.fits"
+    },
+    {
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/ELG_LOPnotqso_clustering.dat.fits"
+    },
+    {
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/QSO_clustering.dat.fits"
+    },
+    {
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/LRG_0_full.ran.fits"
+    },
+    {
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "url": "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/ELG_LOPnotqso_0_full.ran.fits"
+    }
+  ],
+  "implemented_v66": "Promote the data-access failure into a durable recovery artifact and keep confirm gate closed until alpha/null fields are numeric.",
+  "required_public_product": "DESI LSS clustering/random catalogue with RA, DEC, Z, weights, and randoms accessible without manual fill.",
+  "source_gate_v65": {
+    "alpha_high_density": null,
+    "alpha_low_density": null,
+    "artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p33_alpha_measurement_v65_AUTO_PUBLIC.json",
+    "delta_alpha": null,
+    "diagnostic_class": "no_exact_desi_lss_catalogue_loaded_with_enough_rdz_for_v65_alpha_proxy",
+    "eligible_for_confirm_like": false,
+    "estimator": null,
+    "gate_version": "v65",
+    "missing": [
+      "alpha_high_density",
+      "alpha_low_density",
+      "delta_alpha",
+      "covariance_or_bootstrap_fit",
+      "delta_alpha_sigma_ge_2",
+      "density_label_shuffle_p_le_0p05",
+      "sky_shuffle_p_le_0p05"
+    ]
+  },
+  "status": "exact_lss_access_blocked"
+}

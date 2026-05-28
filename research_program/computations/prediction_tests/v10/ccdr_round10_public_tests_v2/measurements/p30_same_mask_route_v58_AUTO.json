@@ -1,0 +1,37 @@
+{
+  "curl_abs_over_science_abs": 0.9632026858888424,
+  "curl_delta": -0.07596368893635795,
+  "current_run_id_v58": "20260518T012156Z_25bb1c0d",
+  "eligible_for_route_confirm_like": false,
+  "euclid_delta": -0.18983175996764104,
+  "generated_utc": "2026-05-18T02:39:18Z",
+  "mask_note": "finite-map-pixel footprint used; explicit ACT mask not extracted",
+  "missing": [
+    "curl_abs_le_half_science_abs"
+  ],
+  "n_opposite_sign_variants": 0,
+  "n_positive_same_sign_variants": 3,
+  "no_posthoc_patch_quarantine": true,
+  "opposite_sign_variants": [],
+  "positive_same_sign_variants": [
+    {
+      "delta": 0.026242154995834557,
+      "variant": "f090"
+    },
+    {
+      "delta": 0.11400665025132184,
+      "variant": "f150"
+    },
+    {
+      "delta": 0.16917209541720887,
+      "variant": "tonly"
+    }
+  ],
+  "same_density_labels_for_science_curl_variants": true,
+  "same_mask_for_science_curl_nulls": true,
+  "sdss_delta": 0.07886573620406669,
+  "sdss_density_shuffle_p": 0.015625,
+  "sdss_jackknife_same_sign": true,
+  "sdss_sky_shuffle_p": 0.0078125,
+  "source_hashes_present": true
+}

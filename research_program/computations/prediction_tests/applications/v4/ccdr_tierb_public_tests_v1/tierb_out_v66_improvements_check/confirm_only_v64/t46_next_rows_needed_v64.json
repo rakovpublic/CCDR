@@ -1,0 +1,43 @@
+{
+  "accepted_rows_v64": "Non-template exact public/source rows with required physical columns and source URL/label.",
+  "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+  "current_next_source_v64": "External public LDPC/burst-channel benchmark rows with task, metric, model score, baseline score, held-out split, and source URL.",
+  "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, and derived/inferred rows.",
+  "required_packs_v64": [
+    {
+      "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\CHECKLIST_v64.md",
+      "dedup_key_v64": [
+        "task_id",
+        "benchmark",
+        "metric_name",
+        "heldout_split",
+        "source_url"
+      ],
+      "minimum_gate_v64": {
+        "min_baseline_comparisons": 5,
+        "min_sources": 2,
+        "min_usable_rows": 5
+      },
+      "pack": "ldpc_external_benchmark",
+      "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark",
+      "required_columns_v64": [
+        "task_id",
+        "benchmark",
+        "metric_name",
+        "model_score",
+        "baseline_score",
+        "uncertainty",
+        "heldout_split",
+        "source_url",
+        "source_label",
+        "external_public_yes_no",
+        "notes"
+      ],
+      "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\SCHEMA_v64.json",
+      "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\ldpc_external_benchmark\\t46_external_public_benchmark_template.csv"
+    }
+  ],
+  "schema": "ccdr-v64-next-rows-needed",
+  "test_id": "T46",
+  "test_name": "LDPC burst-channel benchmark"
+}

@@ -5,6 +5,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from ccdr_r10_common import safe_json_main, run_by_kind
 
 META = {
+  "euclid_top": 20000,
   "falsification_logic": {
     "confirm_like": "Public data show the predicted sign/scale/stability after null controls.",
     "data_limited": "If public data are insufficient or event-level products are unavailable, return data_limited/readiness_only rather than claiming a result.",
@@ -12,9 +13,10 @@ META = {
   },
   "group": "lensing",
   "interpretation": "Correct ACT AdvACT DR6 lensing maps endpoints. Large FITS products still require --allow-large and healpy for science sampling.",
-  "kind": "p30_act_confirm_squeeze_v14",
+  "jk_nside": 8,
+  "kind": "p30_maskrandom_freeze_v22",
   "prediction_id": "P30",
-  "prediction_name": "P30 ACT-Euclid/SDSS density-kappa confirmation squeeze",
+  "prediction_name": "P30 frozen diagnostic tension workflow",
   "sources": [
     {
       "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_maps_info.html"

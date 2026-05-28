@@ -11,7 +11,7 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "pta",
-  "kind": "nanograv_kappa_sky_ready_v8",
+  "kind": "nanograv_retry_cache_v22",
   "prediction_id": "P8/P8c",
   "prediction_name": "P8/P8c NANOGrav \u03ba-sky positive-ready",
   "sources": [

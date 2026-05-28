@@ -1,0 +1,42 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "near_confirm_requires_exact_rows",
+    "confirmation_status_v64": "not_confirmed_exact_te_rows_required_v64",
+    "confirmed_now_v64": false,
+    "next_data_source_v64": "Exact Bi2Te3/Sb2Te3 ZT plus orientation/grain-boundary angle rows.",
+    "rank_score_0_10_v64": 3,
+    "test_id": "T34",
+    "why_not_confirmed_v64": "Exact thermoelectric ZT plus orientation/grain-boundary angle rows are still required."
+  },
+  "prediction_ids": [
+    "MAT4"
+  ],
+  "prediction_names": [
+    "hexagonal grain-boundary cos(6 theta) fingerprint and \u03b8\u224830\u00b0 ZT improvement"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": false,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T34",
+  "test_name": "Bi2Te3 ZT angle meta-analysis",
+  "v64_behavioral_confirm_result": {
+    "confirmation_status_v64": "not_confirmed_exact_te_rows_required_v64",
+    "cos6theta_model_v64": null,
+    "cos6theta_nonzero_v64": false,
+    "n_raw_rows_v64": 0,
+    "n_usable_rows_v64": 0,
+    "rank_score_0_10_v64": 3,
+    "schema": "ccdr-thermoelectric-angle-v64",
+    "strict_confirm_ready_v64": false,
+    "test_id": "T34"
+  },
+  "v64_claim_bucket": "near_confirm_requires_exact_rows",
+  "v64_confirm_ready": false,
+  "v64_confirm_status": "not_confirmed_exact_te_rows_required_v64",
+  "v64_next_data_source": "Exact Bi2Te3/Sb2Te3 ZT plus orientation/grain-boundary angle rows.",
+  "v64_why_not_confirmed": "Exact thermoelectric ZT plus orientation/grain-boundary angle rows are still required."
+}

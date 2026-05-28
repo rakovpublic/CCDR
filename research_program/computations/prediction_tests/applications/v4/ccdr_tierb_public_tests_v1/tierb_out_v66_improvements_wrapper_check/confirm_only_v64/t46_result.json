@@ -1,0 +1,44 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "synthetic_or_engineering",
+    "confirmation_status_v64": "not_confirmed_external_public_benchmark_rows_required_v64",
+    "confirmed_now_v64": false,
+    "next_data_source_v64": "External public LDPC/burst-channel benchmark rows with task, metric, model score, baseline score, held-out split, and source URL.",
+    "rank_score_0_10_v64": 1,
+    "test_id": "T46",
+    "why_not_confirmed_v64": "The current ok result is synthetic/engineering only; no external public benchmark confirm gate passes."
+  },
+  "prediction_ids": [
+    "EL6"
+  ],
+  "prediction_names": [
+    "CDT-like/random graph code improves burst-channel LDPC capacity proxy"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": false,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T46",
+  "test_name": "LDPC burst-channel benchmark",
+  "v64_behavioral_confirm_result": {
+    "behavioral_delta_v64": "T46 can only move out of synthetic_or_engineering after external public benchmark rows pass this gate.",
+    "confirmation_status_v64": "not_confirmed_external_public_benchmark_rows_required_v64",
+    "n_baseline_comparisons_v64": 0,
+    "n_positive_vs_baseline_v64": 0,
+    "n_raw_rows_v64": 0,
+    "n_sources_v64": 0,
+    "n_usable_rows_v64": 0,
+    "rank_score_0_10_v64": 1,
+    "schema": "ccdr-t46-external-public-benchmark-gate-v64",
+    "strict_confirm_ready_v64": false,
+    "test_id": "T46"
+  },
+  "v64_claim_bucket": "synthetic_or_engineering",
+  "v64_confirm_ready": false,
+  "v64_confirm_status": "not_confirmed_external_public_benchmark_rows_required_v64",
+  "v64_next_data_source": "External public LDPC/burst-channel benchmark rows with task, metric, model score, baseline score, held-out split, and source URL.",
+  "v64_why_not_confirmed": "The current ok result is synthetic/engineering only; no external public benchmark confirm gate passes."
+}

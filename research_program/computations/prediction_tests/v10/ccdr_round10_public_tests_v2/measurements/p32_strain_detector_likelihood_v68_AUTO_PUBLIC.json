@@ -1,0 +1,93 @@
+{
+  "artifact_version": "v68",
+  "audit": [
+    {
+      "detector": "H1",
+      "fit_built": true,
+      "n_samples_read": 131072,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc"
+    },
+    {
+      "detector": "L1",
+      "fit_built": true,
+      "n_samples_read": 131072,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c"
+    }
+  ],
+  "claim_policy_v68": "v68 rebuilds H1 and L1 public GWOSC text-strain fits and a pre-peak null. Confirmation still requires both detectors, null suppression, event-level leave-one-out, and delta chi2 >= 4.",
+  "delta_chi2_gr_minus_ccdr": 17.01133985479742,
+  "detector_fits": {
+    "H1": {
+      "best_ringdown": {
+        "cos_coef": 3.0103495144721704e-20,
+        "freq_hz": 80,
+        "sin_coef": 3.1599811065863604e-19,
+        "sse": 3.155517036800874e-36,
+        "tau_s": 0.005
+      },
+      "delta_chi2_gr_minus_ccdr": 16.118725438594034,
+      "detector": "H1",
+      "n_samples": 122,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "peak_index": 81796,
+      "pre_peak_null": {
+        "best_ringdown": {
+          "cos_coef": 1.9928045829907174e-20,
+          "freq_hz": 80,
+          "sin_coef": 1.0560937012333187e-19,
+          "sse": 2.379257146195286e-37,
+          "tau_s": 0.005
+        },
+        "delta_chi2_gr_minus_ccdr": 24.29853983398294,
+        "n_samples": 122,
+        "sse_null": 2.9709829448054417e-37,
+        "start_index": 80568
+      },
+      "pre_peak_null_delta_chi2": 24.29853983398294,
+      "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc",
+      "sse_null": 3.635893882883333e-36,
+      "start_index": 81796
+    },
+    "L1": {
+      "best_ringdown": {
+        "cos_coef": 4.240612601286402e-20,
+        "freq_hz": 80,
+        "sin_coef": 4.662043423791462e-19,
+        "sse": 6.426122170356108e-36,
+        "tau_s": 0.005
+      },
+      "delta_chi2_gr_minus_ccdr": 17.01133985479742,
+      "detector": "L1",
+      "n_samples": 122,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+      "peak_index": 93492,
+      "pre_peak_null": {
+        "best_ringdown": {
+          "cos_coef": 3.893524720685908e-20,
+          "freq_hz": 80,
+          "sin_coef": 2.9882469790759675e-19,
+          "sse": 1.915031348893571e-36,
+          "tau_s": 0.005
+        },
+        "delta_chi2_gr_minus_ccdr": 23.003324723485076,
+        "n_samples": 122,
+        "sse_null": 2.3600168784702694e-36,
+        "start_index": 92264
+      },
+      "pre_peak_null_delta_chi2": 23.003324723485076,
+      "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c",
+      "sse_null": 7.467348413620737e-36,
+      "start_index": 93492
+    }
+  },
+  "detector_split_passed": true,
+  "injection_null_passed": false,
+  "leave_one_detector_out_stable": true,
+  "leave_one_event_out_stable": false,
+  "manual_fill_required": false,
+  "max_pre_peak_null_delta_chi2": 24.29853983398294,
+  "min_detector_delta_chi2": 16.118725438594034,
+  "status": "h1_l1_text_strain_likelihood_rebuilt"
+}

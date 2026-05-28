@@ -1,0 +1,41 @@
+{
+  "accepted_rows_v64": "Machine-parsed exact public/source rows with required physical columns and source URL/label.",
+  "claim_goal_v64": "Move toward confirmed_public_now only after strict exact-source gates pass.",
+  "current_next_source_v64": "Frozen HEPData manifest plus local tables with observed/model/uncertainty residual columns.",
+  "rejected_rows_v64": "Templates, generated artifacts, metadata-only rows, screenshots, synthetic rows, manual placeholders, and unsupported synthetic/estimated rows.",
+  "required_packs_v64": [
+    {
+      "checklist_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\CHECKLIST_v64.md",
+      "dedup_key_v64": [
+        "record_id",
+        "table_id",
+        "observed_column",
+        "model_column",
+        "uncertainty_column"
+      ],
+      "minimum_gate_v64": {
+        "min_records": 3,
+        "min_residual_rows": 20,
+        "min_tables": 3
+      },
+      "pack": "hepdata",
+      "pack_dir_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata",
+      "required_columns_v64": [
+        "record_id",
+        "table_id",
+        "x_column",
+        "observed_column",
+        "model_column",
+        "uncertainty_column",
+        "observable_name",
+        "local_table",
+        "source_url"
+      ],
+      "schema_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\SCHEMA_v64.json",
+      "template_v64": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\data\\exact_sources\\hepdata\\t57_t59_hepdata_manifest_template.csv"
+    }
+  ],
+  "schema": "ccdr-v64-next-rows-needed",
+  "test_id": "T59",
+  "test_name": "public HEP anomaly ledger"
+}

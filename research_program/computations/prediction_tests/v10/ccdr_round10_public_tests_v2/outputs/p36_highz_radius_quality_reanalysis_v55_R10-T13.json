@@ -1,0 +1,20 @@
+{
+  "claim_policy": "v55 promotes high-z P36 only from non-output raw rows with large-radius support across independent sources.",
+  "eligible_for_confirm_like": false,
+  "gate_version": "v55",
+  "large_radius_median_accel_m_s2": null,
+  "large_radius_rows_by_source": {},
+  "local_a0_reference_m_s2": 9.55e-11,
+  "missing": [
+    "n_trusted_rows_ge_30",
+    "n_large_radius_rows_ge_30",
+    "n_source_groups_ge_2",
+    "two_sources_with_ge20_large_radius_rows",
+    "large_radius_median_accel_gt_local_a0"
+  ],
+  "n_large_radius_rows": 0,
+  "n_source_groups_large_radius": 0,
+  "n_tiny_radius_rows": 0,
+  "n_trusted_rows": 0,
+  "tiny_radius_fraction": 0.0
+}

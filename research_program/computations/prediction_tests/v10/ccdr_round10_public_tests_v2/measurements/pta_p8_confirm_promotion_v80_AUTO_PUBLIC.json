@@ -1,0 +1,17 @@
+{
+  "artifact_version": "v80",
+  "claim_policy_v80": "v80 promotes the P8/P8c inventory only when the direct public NANOGrav .res residual-kappa join already satisfies the signed statistic, sky-shuffle, and top-weight stability gates.",
+  "manual_fill_required": false,
+  "n_joined_residual_kappa_pairs": 68,
+  "n_par_coordinates_v79": 76,
+  "n_residual_rows_v79": 603140,
+  "promotion_missing": [],
+  "source_artifact": "measurements/pta_residual_kappa_direct_res_parser_v79_AUTO_PUBLIC.json",
+  "statistic": {
+    "n_pairs": 68,
+    "public_one_sided_signed_sky_shuffle_p": 0.0390625,
+    "top_weight_removal_stable": true,
+    "weighted_statistic": 0.034624750692205206
+  },
+  "status": "pta_p8_direct_residual_kappa_confirm_ready_v80"
+}

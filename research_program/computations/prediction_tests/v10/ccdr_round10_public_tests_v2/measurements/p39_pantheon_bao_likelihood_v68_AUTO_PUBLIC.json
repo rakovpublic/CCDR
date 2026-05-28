@@ -1,0 +1,21 @@
+{
+  "artifact_version": "v68",
+  "assumed_extra_params": 1,
+  "bao_full_covariance_used": true,
+  "claim_policy_v68": "v68 makes the covariance/model-penalty audit explicit. DESI compressed BAO covariance is used, but Pantheon full covariance and systematics split products are not present in the local public cache.",
+  "delta_AIC_new_minus_LCDM": 0.7882350268291365,
+  "delta_BIC_new_minus_LCDM": 1.3531843842906732,
+  "delta_chi2_lcdm_minus_best": 1.2117649731708635,
+  "manual_fill_required": false,
+  "model_penalty_supports_new_model": false,
+  "n_bao_observables": 13,
+  "n_pantheon_rows": 0,
+  "pantheon_covariance_candidate_paths": [],
+  "pantheon_data_paths": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01__Pantheon%2BSH0ES.dat",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02__Pantheon%2BSH0ES.dat"
+  ],
+  "pantheon_full_covariance_used": false,
+  "status": "pantheon_bao_covariance_model_penalty_audit_built",
+  "systematics_splits_done": false
+}

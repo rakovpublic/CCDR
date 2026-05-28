@@ -1,0 +1,3457 @@
+{
+  "analysis_note": "Strict v3 public-data probe. Generic article/PDF/HTML term-number extraction is disabled. A result becomes partial/ok only if a direct public structured table has named physical columns required by the test; otherwise data_limited.",
+  "auto_data_improvements_v34": {},
+  "auto_data_improvements_v35": {},
+  "auto_data_improvements_v37": {},
+  "auto_data_improvements_v38": {},
+  "auto_data_improvements_v39": {},
+  "auto_data_improvements_v40": {},
+  "auto_data_improvements_v41": {},
+  "auto_data_improvements_v42": {},
+  "auto_data_improvements_v43": {},
+  "auto_data_improvements_v44": {},
+  "auto_data_improvements_v45": {},
+  "auto_data_improvements_v46": {},
+  "auto_data_improvements_v47": {},
+  "auto_data_improvements_v48": {},
+  "auto_data_improvements_v49": {},
+  "auto_data_improvements_v50": {},
+  "auto_data_improvements_v51": {},
+  "auto_data_improvements_v52": {},
+  "auto_data_improvements_v53": {},
+  "auto_data_improvements_v56": {},
+  "auto_data_improvements_v57": {},
+  "auto_data_improvements_v58": {},
+  "auto_data_improvements_v59": {},
+  "auto_generated_inputs_v33": {
+    "generated_files": [],
+    "manual_or_user_csv_required": false,
+    "status": "auto_generation_attempted"
+  },
+  "auto_input_policy_v33": {
+    "all_tests_run_together": true,
+    "commit_generated_csv_required": false,
+    "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+    "manual_or_user_filled_csv_required": false,
+    "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+  },
+  "auto_primary_source_hunt_v33": {
+    "audit_csv": null,
+    "child_urls_extracted": 0,
+    "manifest": "data/primary_table_candidate_manifest_v33.csv",
+    "manifest_rows": 1,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "JARVIS phonon/downloads documentation",
+        "meta": {
+          "content_type": "text/html; charset=utf-8",
+          "error": null,
+          "final_url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/",
+          "ok": true,
+          "status_code": 200
+        },
+        "notes": "phonon band structures/elastic constants; twist-angle moire still needs exact supplementary rows",
+        "source_kind": "python_api",
+        "status": "downloaded_no_tabular_frames",
+        "tables": [],
+        "url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/"
+      }
+    ]
+  },
+  "bound_only_gate_v34": null,
+  "candidate_works_count": 50,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 115,
+      "doi": "https://doi.org/10.1038/s43586-022-00133-7",
+      "id": "https://openalex.org/W4285390013",
+      "landing_page_url": "https://doi.org/10.1038/s43586-022-00133-7",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2207.06942"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1038/s43586-022-00133-7",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1038/s43586-022-00133-7",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Nature Reviews Methods Primers",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nature Reviews Methods Primers",
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Nature Portfolio",
+          "id": "https://openalex.org/S4210231269",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "2662-8449"
+          ],
+          "issn_l": "2662-8449",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Angle-resolved photoemission spectroscopy",
+      "type": "article",
+      "year": 2022
+    },
+    {
+      "cited_by_count": 40,
+      "doi": "https://doi.org/10.3788/pi.2023.r03",
+      "id": "https://openalex.org/W4362514119",
+      "landing_page_url": "https://doi.org/10.3788/pi.2023.r03",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://www.researching.cn/ArticlePdf/m00099/2023/2/1/R03.pdf"
+      },
+      "pdf_url": "https://www.researching.cn/ArticlePdf/m00099/2023/2/1/R03.pdf",
+      "primary_location": {
+        "id": "doi:10.3788/pi.2023.r03",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.3788/pi.2023.r03",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://www.researching.cn/ArticlePdf/m00099/2023/2/1/R03.pdf",
+        "raw_source_name": "Photonics Insights",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Photonics Insights",
+          "host_organization": "https://openalex.org/P4320800602",
+          "host_organization_lineage": [
+            "https://openalex.org/P4320800602"
+          ],
+          "host_organization_lineage_names": [
+            "Shanghai Institute of Optics and Fine Mechanics"
+          ],
+          "host_organization_name": "Shanghai Institute of Optics and Fine Mechanics",
+          "id": "https://openalex.org/S4387282250",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2791-1748"
+          ],
+          "issn_l": "2791-1748",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Optical properties and polaritons of low symmetry 2D materials",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 77,
+      "doi": "https://doi.org/10.1515/nanoph-2020-0074",
+      "id": "https://openalex.org/W3023260991",
+      "landing_page_url": "https://doi.org/10.1515/nanoph-2020-0074",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0074/pdf"
+      },
+      "pdf_url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0074/pdf",
+      "primary_location": {
+        "id": "doi:10.1515/nanoph-2020-0074",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1515/nanoph-2020-0074",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0074/pdf",
+        "raw_source_name": "Nanophotonics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nanophotonics",
+          "host_organization": "https://openalex.org/P4310313990",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313990"
+          ],
+          "host_organization_lineage_names": [
+            "De Gruyter"
+          ],
+          "host_organization_name": "De Gruyter",
+          "id": "https://openalex.org/S2737520951",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "2192-8606",
+            "2192-8614"
+          ],
+          "issn_l": "2192-8606",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "2D materials integrated with metallic nanostructures: fundamentals and optoelectronic applications",
+      "type": "article",
+      "year": 2020
+    },
+    {
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.1039/d4cp03540b",
+      "id": "https://openalex.org/W4407229240",
+      "landing_page_url": "https://doi.org/10.1039/d4cp03540b",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://research.tees.ac.uk/en/publications/89bc6dfb-caca-4f21-893a-171aa230484b"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1039/d4cp03540b",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1039/d4cp03540b",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Physical Chemistry Chemical Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physical Chemistry Chemical Physics",
+          "host_organization": "https://openalex.org/P4310320556",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320556"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
+          "host_organization_name": "Royal Society of Chemistry",
+          "id": "https://openalex.org/S181332294",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1463-9076",
+            "1463-9084"
+          ],
+          "issn_l": "1463-9076",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Tunable elastic wave bandgaps by strain engineering of multilayered van der Waals metamaterials",
+      "type": "article",
+      "year": 2025
+    },
+    {
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.1007/s12598-025-03413-9",
+      "id": "https://openalex.org/W4413128352",
+      "landing_page_url": "https://doi.org/10.1007/s12598-025-03413-9",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/s12598-025-03413-9.pdf"
+      },
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12598-025-03413-9.pdf",
+      "primary_location": {
+        "id": "doi:10.1007/s12598-025-03413-9",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1007/s12598-025-03413-9",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12598-025-03413-9.pdf",
+        "raw_source_name": "Rare Metals",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Rare Metals",
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "host_organization_name": "Springer Science+Business Media",
+          "id": "https://openalex.org/S172552266",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "1001-0521",
+            "1867-7185"
+          ],
+          "issn_l": "1001-0521",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Experimental insights into characteristic properties and applications of two\u2010dimensional Janus transition metal dichalcogenide (TMDC) materials: a comprehensive review",
+      "type": "article",
+      "year": 2025
+    },
+    {
+      "cited_by_count": 1,
+      "doi": null,
+      "id": "https://openalex.org/W805502657",
+      "landing_page_url": "https://escholarship.org/uc/item/15s03599",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://escholarship.org/uc/item/15s03599"
+      },
+      "pdf_url": "https://escholarship.org/uc/item/15s03599",
+      "primary_location": {
+        "id": "pmh:oai:escholarship.org/ark:/13030/qt15s03599",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://escholarship.org/uc/item/15s03599",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://escholarship.org/uc/item/15s03599",
+        "raw_source_name": "",
+        "raw_type": "etd",
+        "source": {
+          "display_name": "eScholarship (California Digital Library)",
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "California Digital Library",
+          "id": "https://openalex.org/S4306400115",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Electronic and Vibrational Properties of Low-Dimensional Heterogeneous Systems: Materials and Device Perspectives",
+      "type": "article",
+      "year": 2015
+    },
+    {
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.1039/d5nh00414d",
+      "id": "https://openalex.org/W4414172694",
+      "landing_page_url": "https://doi.org/10.1039/d5nh00414d",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2025/nh/d5nh00414d"
+      },
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2025/nh/d5nh00414d",
+      "primary_location": {
+        "id": "doi:10.1039/d5nh00414d",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1039/d5nh00414d",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2025/nh/d5nh00414d",
+        "raw_source_name": "Nanoscale Horizons",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Nanoscale Horizons",
+          "host_organization": "https://openalex.org/P4310320556",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320556"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
+          "host_organization_name": "Royal Society of Chemistry",
+          "id": "https://openalex.org/S4210181981",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "2055-6756",
+            "2055-6764"
+          ],
+          "issn_l": "2055-6756",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Nanoscale motion of organic \u03c0-conjugated molecules: exploring van der Waals forces, friction, and quantum effects",
+      "type": "article",
+      "year": 2025
+    },
+    {
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2501.17839",
+      "id": "https://openalex.org/W4406975873",
+      "landing_page_url": "http://arxiv.org/abs/2501.17839",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2501.17839"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2501.17839",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2501.17839",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2501.17839",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://arxiv.org/pdf/2501.17839",
+        "raw_source_name": null,
+        "raw_type": "text",
+        "source": {
+          "display_name": "ArXiv.org",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4393918464",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": [
+            "2331-8422"
+          ],
+          "issn_l": "2331-8422",
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Unveiling Symmetry Instability induced by Topological Phase Transitions",
+      "type": "preprint",
+      "year": 2025
+    },
+    {
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.6035/14126.2023.929969",
+      "id": "https://openalex.org/W4386845862",
+      "landing_page_url": "http://dx.doi.org/10.6035/14126.2023.929969",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://doi.org/10.6035/14126.2023.929969"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.6035/14126.2023.929969",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "http://dx.doi.org/10.6035/14126.2023.929969",
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "pdf_url": null,
+        "raw_source_name": "Universitat Jaume I",
+        "raw_type": "dissertation",
+        "source": null,
+        "version": "publishedVersion"
+      },
+      "title": "Engineering metastructures for the full control of flexural waves",
+      "type": "dissertation",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 0,
+      "doi": null,
+      "id": "https://openalex.org/W3093899232",
+      "landing_page_url": "http://www.repositorio.ufc.br/handle/riufc/52233",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "http://www.repositorio.ufc.br/handle/riufc/52233"
+      },
+      "pdf_url": "http://www.repositorio.ufc.br/handle/riufc/52233",
+      "primary_location": {
+        "id": "pmh:oai:www.repositorio.ufc.br:riufc/52233",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://www.repositorio.ufc.br/handle/riufc/52233",
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "pdf_url": "http://www.repositorio.ufc.br/handle/riufc/52233",
+        "raw_source_name": "reponame:Reposit\u00f3rio Institucional da Universidade Federal do Cear\u00e1 (UFC)",
+        "raw_type": "info:eu-repo/semantics/publishedVersion",
+        "source": {
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas)",
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "LA Referencia",
+          "id": "https://openalex.org/S4306402641",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "acceptedVersion"
+      },
+      "title": "Optoelectronics in two-dimensional materials",
+      "type": "article",
+      "year": 2020
+    },
+    {
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2201.07559",
+      "id": "https://openalex.org/W4312062624",
+      "landing_page_url": "http://arxiv.org/abs/2201.07559",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2201.07559"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2201.07559",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2201.07559",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2201.07559",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://arxiv.org/pdf/2201.07559",
+        "raw_source_name": "",
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Recent Advances in Tunable Metasurfaces: Materials, Design and Applications",
+      "type": "preprint",
+      "year": 2022
+    },
+    {
+      "crossref_links": [],
+      "doi": "10.1021/acs.nanolett.5c06042.s001",
+      "landing_page_url": "https://doi.org/10.1021/acs.nanolett.5c06042.s001",
+      "title": "Precise Twist Angle Determination in Twisted WSe2 via Optical Moire Phonons",
+      "year": null
+    }
+  ],
+  "confirm_allowed_now_v30": false,
+  "confirm_allowed_now_v32": false,
+  "confirm_allowed_now_v33": false,
+  "confirm_allowed_now_v34": false,
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "data_limited",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "expected_effort_v52": "high",
+    "next_data_source_v52": "not a current confirm target",
+    "rank_score_0_10_v52": 1,
+    "test_id": "T39"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "data_limited",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "expected_effort_v53": "high",
+    "next_data_source_v53": "not a current confirm target",
+    "rank_score_0_10_v53": 1,
+    "test_id": "T39"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "data_limited",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "high",
+    "next_data_source_v56": "not a current confirm target",
+    "rank_score_0_10_v56": 1,
+    "test_id": "T39"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "data_limited",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "high",
+    "next_data_source_v57": "not a current confirm target",
+    "rank_score_0_10_v57": 1,
+    "test_id": "T39"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "data_limited",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "high",
+    "next_data_source_v58": "not a current confirm target",
+    "rank_score_0_10_v58": 1,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T39"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "data_limited",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "high",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 1,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T39"
+  },
+  "confirmation_blocker_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed_data_limited",
+  "confirmation_status_v53": "not_confirmed_data_limited",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_status_v52": "data_limited",
+  "data_status_v53": "data_limited",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "discovered_data_links_sample": [
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003RvMP...75..473D",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021RvMP...93b5006S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000RScI...71.3254S",
+    "http://scholar.google.com/scholar_lookup?&title=%E2%80%9COne-cubed%E2%80%9D%20ARPES%20user%20facility%20at%20BESSY%20II&journal=Synchrotron%20Radiat.%20News&doi=10.1080%2F08940886.2012.720159&volume=25&pages=6-11&publication_year=2012&author=Borisenko%2CSV",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012RScI...83b3102R",
+    "http://scholar.google.com/scholar_lookup?&title=The%20electron%20spectro-microscopy%20beamline%20at%20National%20Synchrotron%20Light%20Source%20II%3A%20a%20wide%20photon%20energy%20range%2C%20micro-focusing%20beamline%20for%20photoelectron%20spectro-microscopies&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.3681440&volume=83&publication_year=2012&author=Reininger%2CR",
+    "http://scholar.google.com/scholar_lookup?&title=Advanced%20light%20source%20update&journal=Synchrotron%20Radiat.%20News&doi=10.1080%2F08940886.2012.683350&volume=25&pages=25-30&publication_year=2012&author=Tamura%2CL",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017RScI...88a3106H",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78e3905K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008RScI...79b3105L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008RScI...79b3106K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014RScI...85c3902J",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018RPPh...81f2101Z",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78h3105M",
+    "http://scholar.google.com/scholar_lookup?&title=Angle-resolved%20photoemission%20spectroscopy%20with%20a%20femtosecond%20high%20harmonic%20light%20source%20using%20a%20two-dimensional%20imaging%20electron%20analyzer&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.2773783&volume=78&publication_year=2007&author=Mathias%2CS",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NatCo...6.7459W",
+    "http://scholar.google.com/scholar_lookup?&title=Bright%20high-repetition-rate%20source%20of%20narrowband%20extreme-ultraviolet%20harmonics%20beyond%2022%E2%80%89eV&journal=Nat.%20Commun.&doi=10.1038%2Fncomms8459&volume=6&publication_year=2015&author=Wang%2CH",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87a1301H",
+    "http://scholar.google.com/scholar_lookup?&title=High%20resolution%20angle%20resolved%20photoemission%20with%20tabletop%2011%E2%80%89eV%20laser&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.4939759&volume=87&publication_year=2016&author=He%2CY",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019NatCo..10.3535S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019RScI...90h3001M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000Natur.403..396S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019NanoL..19..554C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021LSA....10...22M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87l3902I",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016EL....11527001S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87j3102R",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81e3904J",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81i5101S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021EL....13457001L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatMa..16.1077B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013ChPhB..22h7407Y",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RvMP...82.3045H",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011RvMP...83.1057Q",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021RvMP...93b5002L",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018RvMP...90a5001A",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018NatRM...3..341Y",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009RvMP...81..109C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014RvMP...86..959B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatRM...217033M",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1983AdPhy..32....1H",
+    "http://scholar.google.com/scholar_lookup?&title=Quantitative%20electron%20spectroscopy%20of%20surfaces%3A%20a%20standard%20data%20base%20for%20electron%20inelastic%20mean%20free%20paths%20in%20solids&journal=Surf.%20Interf.%20Anal.&doi=10.1002%2Fsia.740010103&volume=1&pages=2-11&publication_year=1979&author=Seah%2CMP&author=Dench%2CWA",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000PhRvL..85.1966C",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78l3104S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81j5111S",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001NIMPA.467..449W",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2022RScI...93a3902B",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020RScI...91a3109K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1983RScI...54.1441K",
+    "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008ApPhA..91..211K"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "bytes": 848686,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\3923d9bb3518_s43586-022-00133-7.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s43586-022-00133-7",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s43586-022-00133-7"
+      },
+      "title": "Angle-resolved photoemission spectroscopy",
+      "url": "https://doi.org/10.1038/s43586-022-00133-7"
+    },
+    {
+      "meta": {
+        "bytes": 3369937,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\83bcf782c752_2207.06942",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2207.06942",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2207.06942"
+      },
+      "title": "Angle-resolved photoemission spectroscopy",
+      "url": "https://arxiv.org/pdf/2207.06942"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\9424dc4e49a3_R03.pdf",
+        "content_type": null,
+        "error": "download_failed: SSLError: HTTPSConnectionPool(host='www.researching.cn', port=443): Max retries exceeded with url: /ArticlePdf/m00099/2023/2/1/R03.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://www.researching.cn/ArticlePdf/m00099/2023/2/1/R03.pdf"
+      },
+      "title": "Optical properties and polaritons of low symmetry 2D materials",
+      "url": "https://www.researching.cn/ArticlePdf/m00099/2023/2/1/R03.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\27400f1e1925_pi.2023.r03",
+        "content_type": null,
+        "error": "download_failed: SSLError: HTTPSConnectionPool(host='www.researching.cn', port=443): Max retries exceeded with url: /articles/OJc7213c8b23cb9c64 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://doi.org/10.3788/pi.2023.r03"
+      },
+      "title": "Optical properties and polaritons of low symmetry 2D materials",
+      "url": "https://doi.org/10.3788/pi.2023.r03"
+    },
+    {
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\f01f747de63b_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://www.degruyterbrill.com:443/document/doi/10.1515/nanoph-2020-0074/pdf",
+        "ok": true,
+        "status_code": 202,
+        "url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0074/pdf"
+      },
+      "title": "2D materials integrated with metallic nanostructures: fundamentals and optoelectronic applications",
+      "url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0074/pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\a4b113c4f8a7_nanoph-2020-0074.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/10.1515/nanoph-2020-0074",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1515/nanoph-2020-0074"
+      },
+      "title": "2D materials integrated with metallic nanostructures: fundamentals and optoelectronic applications",
+      "url": "https://doi.org/10.1515/nanoph-2020-0074"
+    },
+    {
+      "meta": {
+        "bytes": 161043,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\f45c41004498_d4cp03540b.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://pubs.rsc.org/en/content/articlelanding/2025/cp/d4cp03540b",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1039/d4cp03540b"
+      },
+      "title": "Tunable elastic wave bandgaps by strain engineering of multilayered van der Waals metamaterials",
+      "url": "https://doi.org/10.1039/d4cp03540b"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\d3469d05428e_89bc6dfb-caca-4f21-893a-171aa230484b.bin",
+        "content_type": "text/html; charset=utf-8",
+        "error": "download_failed: HTTPError: 503 Server Error: Service Unavailable for url: https://research.tees.ac.uk/en/publications/89bc6dfb-caca-4f21-893a-171aa230484b/",
+        "ok": false,
+        "status_code": 503,
+        "url": "https://research.tees.ac.uk/en/publications/89bc6dfb-caca-4f21-893a-171aa230484b"
+      },
+      "title": "Tunable elastic wave bandgaps by strain engineering of multilayered van der Waals metamaterials",
+      "url": "https://research.tees.ac.uk/en/publications/89bc6dfb-caca-4f21-893a-171aa230484b"
+    },
+    {
+      "meta": {
+        "bytes": 7392968,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\5bfb51897411_s12598-025-03413-9.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s12598-025-03413-9.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://link.springer.com/content/pdf/10.1007/s12598-025-03413-9.pdf"
+      },
+      "title": "Experimental insights into characteristic properties and applications of two\u2010dimensional Janus transition metal dichalcogenide (TMDC) materials: a comprehensive review",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12598-025-03413-9.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\b589a72ff24b_s12598-025-03413-9.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/10.1007/s12598-025-03413-9",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1007/s12598-025-03413-9"
+      },
+      "title": "Experimental insights into characteristic properties and applications of two\u2010dimensional Janus transition metal dichalcogenide (TMDC) materials: a comprehensive review",
+      "url": "https://doi.org/10.1007/s12598-025-03413-9"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\c84c38ef92fd_15s03599.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://escholarship.org/uc/item/15s03599",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://escholarship.org/uc/item/15s03599"
+      },
+      "title": "Electronic and Vibrational Properties of Low-Dimensional Heterogeneous Systems: Materials and Device Perspectives",
+      "url": "https://escholarship.org/uc/item/15s03599"
+    },
+    {
+      "meta": {
+        "bytes": 5668454,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\e5c1951bf0f7_d5nh00414d.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://pubs.rsc.org/en/content/articlepdf/2025/nh/d5nh00414d",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2025/nh/d5nh00414d"
+      },
+      "title": "Nanoscale motion of organic \u03c0-conjugated molecules: exploring van der Waals forces, friction, and quantum effects",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2025/nh/d5nh00414d"
+    },
+    {
+      "meta": {
+        "bytes": 218200,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\76464fe65534_d5nh00414d.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://pubs.rsc.org/en/content/articlelanding/2025/nh/d5nh00414d",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1039/d5nh00414d"
+      },
+      "title": "Nanoscale motion of organic \u03c0-conjugated molecules: exploring van der Waals forces, friction, and quantum effects",
+      "url": "https://doi.org/10.1039/d5nh00414d"
+    },
+    {
+      "meta": {
+        "bytes": 1178044,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\122d7fd12e22_2501.17839",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2501.17839",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2501.17839"
+      },
+      "title": "Unveiling Symmetry Instability induced by Topological Phase Transitions",
+      "url": "https://arxiv.org/pdf/2501.17839"
+    },
+    {
+      "meta": {
+        "bytes": 51504,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\f300d3c85033_2501.17839",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2501.17839",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2501.17839"
+      },
+      "title": "Unveiling Symmetry Instability induced by Topological Phase Transitions",
+      "url": "http://arxiv.org/abs/2501.17839"
+    },
+    {
+      "meta": {
+        "bytes": 31701,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\308ab41682be_14126.2023.929969",
+        "cached": false,
+        "content_type": "text/html;charset=utf-8",
+        "error": null,
+        "final_url": "https://www.tdx.cat/handle/10803/688877",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://dx.doi.org/10.6035/14126.2023.929969"
+      },
+      "title": "Engineering metastructures for the full control of flexural waves",
+      "url": "http://dx.doi.org/10.6035/14126.2023.929969"
+    },
+    {
+      "meta": {
+        "bytes": 31701,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\717415cfc490_14126.2023.929969",
+        "cached": false,
+        "content_type": "text/html;charset=utf-8",
+        "error": null,
+        "final_url": "https://www.tdx.cat/handle/10803/688877",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://doi.org/10.6035/14126.2023.929969"
+      },
+      "title": "Engineering metastructures for the full control of flexural waves",
+      "url": "http://doi.org/10.6035/14126.2023.929969"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\9efb46ee6eb8_52233.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectTimeout: HTTPConnectionPool(host='www.repositorio.ufc.br', port=80): Max retries exceeded with url: /handle/riufc/52233 (Caused by ConnectTimeoutError(<HTTPConnection(host='www.repositorio.ufc.br', port=80) at 0x1e95e3a32f0>, 'Connection to www.repositorio.ufc.br timed out. (connect timeout=24000)'))",
+        "ok": false,
+        "status_code": null,
+        "url": "http://www.repositorio.ufc.br/handle/riufc/52233"
+      },
+      "title": "Optoelectronics in two-dimensional materials",
+      "url": "http://www.repositorio.ufc.br/handle/riufc/52233"
+    },
+    {
+      "meta": {
+        "bytes": 3606341,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\0f0a649f1760_2201.07559",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2201.07559",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2201.07559"
+      },
+      "title": "Recent Advances in Tunable Metasurfaces: Materials, Design and Applications",
+      "url": "https://arxiv.org/pdf/2201.07559"
+    },
+    {
+      "meta": {
+        "bytes": 47113,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\2b8fd042ef96_2201.07559",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2201.07559",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2201.07559"
+      },
+      "title": "Recent Advances in Tunable Metasurfaces: Materials, Design and Applications",
+      "url": "http://arxiv.org/abs/2201.07559"
+    },
+    {
+      "meta": {
+        "bytes": 2513674,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\3fd351d4e52a_acs.nanolett.5c06042.s001",
+        "cached": false,
+        "content_type": "application/pdf;charset=UTF-8",
+        "error": null,
+        "final_url": "https://pubs.acs.org/doi/suppl/10.1021/acs.nanolett.5c06042/suppl_file/nl5c06042_si_001.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1021/acs.nanolett.5c06042.s001"
+      },
+      "title": "Precise Twist Angle Determination in Twisted WSe2 via Optical Moire Phonons",
+      "url": "https://doi.org/10.1021/acs.nanolett.5c06042.s001"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\808cb510ae2c_acsnano.0c00088.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsnano.0c00088/suppl_file/nn0c00088_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsnano.0c00088.s001"
+      },
+      "title": "Twist Angle-Dependent Atomic Reconstruction and Moire Patterns in Transition Metal Dichalcogenide Heterostructures",
+      "url": "https://doi.org/10.1021/acsnano.0c00088.s001"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\c7e5b81127de_acsnano.0c04832.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsnano.0c04832/suppl_file/nn0c04832_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsnano.0c04832.s001"
+      },
+      "title": "Correction to Twist Angle-Dependent Atomic Reconstruction and Moire Patterns in Transition Metal Dichalcogenide Heterostructures",
+      "url": "https://doi.org/10.1021/acsnano.0c04832.s001"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\bf291bd82fbd_acsnano.1c09789.s002",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsnano.1c09789/suppl_file/nn1c09789_si_002.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsnano.1c09789.s002"
+      },
+      "title": "Extracting the Strain Matrix and Twist Angle from the Moire Superlattice in van der Waals Heterostructures",
+      "url": "https://doi.org/10.1021/acsnano.1c09789.s002"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\a92184881170_acsnano.1c09789.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsnano.1c09789/suppl_file/nn1c09789_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsnano.1c09789.s001"
+      },
+      "title": "Extracting the Strain Matrix and Twist Angle from the Moire Superlattice in van der Waals Heterostructures",
+      "url": "https://doi.org/10.1021/acsnano.1c09789.s001"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\0164e17b3149_acsphotonics.3c01064.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsphotonics.3c01064/suppl_file/ph3c01064_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsphotonics.3c01064.s001"
+      },
+      "title": "GaN Magic Angle Laser in a Merged Moire Photonic Crystal",
+      "url": "https://doi.org/10.1021/acsphotonics.3c01064.s001"
+    },
+    {
+      "meta": {
+        "bytes": 367777,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\43a98e680bb2_s41598-025-34382-9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1038/s41598-025-34382-9"
+      },
+      "title": "Aesthetic-inspired bandgap design in phononic crystal plates",
+      "url": "https://doi.org/10.1038/s41598-025-34382-9"
+    },
+    {
+      "meta": {
+        "bytes": 367777,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\55675763a2ca_s41598-025-34382-9.bin",
+        "cached": false,
+        "content_type": "text/html; charset=\"UTF-8\"",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-025-34382-9"
+      },
+      "title": "Aesthetic-inspired bandgap design in phononic crystal plates",
+      "url": "https://www.nature.com/articles/s41598-025-34382-9"
+    },
+    {
+      "meta": {
+        "bytes": 4017498,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\86946dd0d922_s41598-025-34382-9.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://www.nature.com/articles/s41598-025-34382-9.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.nature.com/articles/s41598-025-34382-9.pdf"
+      },
+      "title": "Aesthetic-inspired bandgap design in phononic crystal plates",
+      "url": "https://www.nature.com/articles/s41598-025-34382-9.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\41190d66482e_5.0131763",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/adv/article/13/1/015106/2871201/The-multi-bandgap-of-local-effect-phononic-crystal",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/5.0131763"
+      },
+      "title": "The multi-bandgap of local effect phononic crystal",
+      "url": "https://doi.org/10.1063/5.0131763"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\f82f794251eb_015106_1_online.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0131763/16698940/015106_1_online.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0131763/16698940/015106_1_online.pdf"
+      },
+      "title": "The multi-bandgap of local effect phononic crystal",
+      "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0131763/16698940/015106_1_online.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\bf2e22a94399_1.5039952",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/jap/article/124/5/055101/155623/Bandgap-properties-of-a-piezoelectric-phononic",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1063/1.5039952"
+      },
+      "title": "Bandgap properties of a piezoelectric phononic crystal nanobeam with surface effect",
+      "url": "https://doi.org/10.1063/1.5039952"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\fb380727830a_055101_1_online.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.5039952/15215835/055101_1_online.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.5039952/15215835/055101_1_online.pdf"
+      },
+      "title": "Bandgap properties of a piezoelectric phononic crystal nanobeam with surface effect",
+      "url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.5039952/15215835/055101_1_online.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\f8a9cdb7cdce_acsnano.4c00733.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsnano.4c00733/suppl_file/nn4c00733_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsnano.4c00733.s001"
+      },
+      "title": "Tuning Interfacial Water Friction through Moire Twist",
+      "url": "https://doi.org/10.1021/acsnano.4c00733.s001"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\5eac66f90c49_acs.nanolett.6b02870.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acs.nanolett.6b02870/suppl_file/nl6b02870_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acs.nanolett.6b02870.s001"
+      },
+      "title": "Twisted Bilayer Graphene: Moire with a Twist",
+      "url": "https://doi.org/10.1021/acs.nanolett.6b02870.s001"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\fccd59672813_ad2786.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=43452941-a1cc-4ca1-a5d4-f9382f3ff54d&ssb=25984221177&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-651X%2Fad2786&ssi=462545db-cnvj-4982-95ac-f1dd4a65c8e5&ssk=botmanager_support@radware.com&ssm=02216813575218307107262901084523&ssn=b1501fec46c401b029284a3df21a31eaf3924c573736-7e1a-4281-917f20&sso=7e5a9d8e-8aae56ed6a6bc4400c7cf387fc074a858277c5e036b3ca80&ssp=74641691741779117759177918965248335&ssq=18655487770369381143077703153023929305486&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA0YzU3MzczNi03ZTFhLTQyODEtOWQ4ZS04YWFlNTZlZDZhNmIxLTE3NzkxNzc3MDM3MTkwLTAwMzdmYmUyYzc0ZmYyODU5MDExMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDBhMDYyMTgxNy0xZTkwLTQyNTctYTBkYy1iODU4YzUyOGM4MzgxLTE3NzkxNzc3MDM3MTkwLWY2Yjg3ZmZmYjU5NmVlM2MxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1361-651x/ad2786"
+      },
+      "title": "Twist angle, strain, corrugation and moire unit cell in twisted bi-layer graphene",
+      "url": "https://doi.org/10.1088/1361-651x/ad2786"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\e39b98a870bf_ad2786.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=0cc64842-2312-412d-8c79-3e71282cbd89&ssb=22564225219&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-651X%2Fad2786&ssi=35508601-cnvj-4b2f-a42a-32dfe27f14d4&ssk=botmanager_support@radware.com&ssm=25289404265696354105451115709413&ssn=06d105d883a23d6ce99b534af6ad7d6ef43f0af9db32-f9a9-4f84-bc11f0&sso=4206fa4b-b4816e82fff35354704797fa4344aafb7580252fd4164174&ssp=66869234711779105423177918207317986&ssq=13129757770516455215677705398340904217886&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAwYWY5ZGIzMi1mOWE5LTRmODQtYmE0Yi1iNDgxNmU4MmZmZjMxLTE3NzkxNzc3MDU1NjgwLTAwMzczMjk0NjA1YWM1MDZiNzkxMCIsInV6bXgiOiI3ZjkwMDBiNWQ1ZWVjYi1jMjYyLTQwMzItODk3ZC1lZmYzMDE2MjVlMWYxLTE3NzkxNzc3MDU1NjgwLTY0ZGViMjZmNGQ0NzRjYzMxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1361-651X/ad2786"
+      },
+      "title": "Twist angle, strain, corrugation and moire unit cell in twisted bi-layer graphene",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-651X/ad2786"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\68bc1b02d8da_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=30a91412-caea-4dbc-963a-72b4532eb17a&ssb=61579253899&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-651X%2Fad2786%2Fpdf&ssi=30d82d75-cnvj-4b03-bd11-22715cb17c5b&ssk=botmanager_support@radware.com&ssm=24311123676072785106170726612807&ssn=52e8f9f82f8014f54e5855bf2e223ca8485ebfaa9784-2e13-423f-a790b9&sso=27ed8c1d-e5b7f944d42d9f90b6a698e4ed4efa0322e098df5b10b023&ssp=94348870001779118339177915239880667&ssq=81975977770652299676477706753668971630375&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBiZmFhOTc4NC0yZTEzLTQyM2YtYWMxZC1lNWI3Zjk0NGQ0MmQxLTE3NzkxNzc3MDYzOTgwLTAwMzlkYzM0NmQzODQ3ZTI1YmQxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZjkwMDA4OTM4Yjk3Zi0zYmJjLTRiODgtODk0OS1jMTFlNDBjZWYyZjcxLTE3NzkxNzc3MDYzOTgwLWJiYzY0Mjg2MjQwM2Q3YzIxMCJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1361-651X/ad2786/pdf"
+      },
+      "title": "Twist angle, strain, corrugation and moire unit cell in twisted bi-layer graphene",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-651X/ad2786/pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\33e0d264c8c2_acsphotonics.5c01023.s001",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/suppl/10.1021/acsphotonics.5c01023/suppl_file/ph5c01023_si_001.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1021/acsphotonics.5c01023.s001"
+      },
+      "title": "Alignment-Free Bilayer Moire Metasurfaces with Tunable Twist Angles",
+      "url": "https://doi.org/10.1021/acsphotonics.5c01023.s001"
+    },
+    {
+      "meta": {
+        "bytes": 18960,
+        "cache_path": "tierb_cache_v74_all\\T39\\papers\\ce58032367b6_jtam-pl.55.4.1167",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "http://ptmts.org.pl/jtam/index.php/jtam/article/view/4029",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.15632/jtam-pl.55.4.1167"
+      },
+      "title": "Bandgap properties in locally resonant phononic crystal double panel structures with periodically attached pillars",
+      "url": "https://doi.org/10.15632/jtam-pl.55.4.1167"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\cd5e267964b4_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2003RvMP...75..473D/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003RvMP...75..473D"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003RvMP...75..473D"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\c08cb4e2c010_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2021RvMP...93b5006S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021RvMP...93b5006S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021RvMP...93b5006S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\20e23c3fe983_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2000RScI...71.3254S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000RScI...71.3254S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000RScI...71.3254S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\a728fdb83fce_scholar_lookup.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: http://www.google.com/sorry/index?continue=http://scholar.google.com/scholar_lookup%3F%26title%3D%25E2%2580%259COne-cubed%25E2%2580%259D%2520ARPES%2520user%2520facility%2520at%2520BESSY%2520II%26journal%3DSynchrotron%2520Radiat.%2520News%26doi%3D10.1080%252F08940886.2012.720159%26volume%3D25%26pages%3D6-11%26publication_year%3D2012%26author%3DBorisenko%252CSV&q=EgQfylk5GPOxsNAGIiwefE-rstIrAG2N-0Og5T8BIMciI9iIfMjUB2DjNIwbrcybqdAe4tyzztKY_DICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "http://scholar.google.com/scholar_lookup?&title=%E2%80%9COne-cubed%E2%80%9D%20ARPES%20user%20facility%20at%20BESSY%20II&journal=Synchrotron%20Radiat.%20News&doi=10.1080%2F08940886.2012.720159&volume=25&pages=6-11&publication_year=2012&author=Borisenko%2CSV"
+      },
+      "url": "http://scholar.google.com/scholar_lookup?&title=%E2%80%9COne-cubed%E2%80%9D%20ARPES%20user%20facility%20at%20BESSY%20II&journal=Synchrotron%20Radiat.%20News&doi=10.1080%2F08940886.2012.720159&volume=25&pages=6-11&publication_year=2012&author=Borisenko%2CSV"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\3e2d517029db_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2012RScI...83b3102R/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012RScI...83b3102R"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012RScI...83b3102R"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\1332cb2020d7_scholar_lookup.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: http://www.google.com/sorry/index?continue=http://scholar.google.com/scholar_lookup%3F%26title%3DThe%2520electron%2520spectro-microscopy%2520beamline%2520at%2520National%2520Synchrotron%2520Light%2520Source%2520II%253A%2520a%2520wide%2520photon%2520energy%2520range%252C%2520micro-focusing%2520beamline%2520for%2520photoelectron%2520spectro-microscopies%26journal%3DRev.%2520Sci.%2520Instrum.%26doi%3D10.1063%252F1.3681440%26volume%3D83%26publication_year%3D2012%26author%3DReininger%252CR&q=EgQfylk5GPWxsNAGIizf3N3c31gzQPzJN64yMG3JfeEl6kgBzD9og8sNLhIwb5LmKHPhJ4WyEqetXzICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "http://scholar.google.com/scholar_lookup?&title=The%20electron%20spectro-microscopy%20beamline%20at%20National%20Synchrotron%20Light%20Source%20II%3A%20a%20wide%20photon%20energy%20range%2C%20micro-focusing%20beamline%20for%20photoelectron%20spectro-microscopies&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.3681440&volume=83&publication_year=2012&author=Reininger%2CR"
+      },
+      "url": "http://scholar.google.com/scholar_lookup?&title=The%20electron%20spectro-microscopy%20beamline%20at%20National%20Synchrotron%20Light%20Source%20II%3A%20a%20wide%20photon%20energy%20range%2C%20micro-focusing%20beamline%20for%20photoelectron%20spectro-microscopies&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.3681440&volume=83&publication_year=2012&author=Reininger%2CR"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\e4d0f2326383_scholar_lookup.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: http://www.google.com/sorry/index?continue=http://scholar.google.com/scholar_lookup%3F%26title%3DAdvanced%2520light%2520source%2520update%26journal%3DSynchrotron%2520Radiat.%2520News%26doi%3D10.1080%252F08940886.2012.683350%26volume%3D25%26pages%3D25-30%26publication_year%3D2012%26author%3DTamura%252CL&q=EgQfylk5GPWxsNAGIiz38g-N-dQzLkaDPCzflXPI5-8jHLO-SA8icrX6Ktjr7Oy9gP1YQvgPhNaI7DICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "http://scholar.google.com/scholar_lookup?&title=Advanced%20light%20source%20update&journal=Synchrotron%20Radiat.%20News&doi=10.1080%2F08940886.2012.683350&volume=25&pages=25-30&publication_year=2012&author=Tamura%2CL"
+      },
+      "url": "http://scholar.google.com/scholar_lookup?&title=Advanced%20light%20source%20update&journal=Synchrotron%20Radiat.%20News&doi=10.1080%2F08940886.2012.683350&volume=25&pages=25-30&publication_year=2012&author=Tamura%2CL"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\5db21e975828_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2017RScI...88a3106H/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017RScI...88a3106H"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017RScI...88a3106H"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\090792dd6ef5_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2007RScI...78e3905K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78e3905K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78e3905K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\4aa0bccb6c6f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2008RScI...79b3105L/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008RScI...79b3105L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008RScI...79b3105L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\364b62f2ee1e_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2008RScI...79b3106K/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008RScI...79b3106K"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008RScI...79b3106K"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\ee0a40320f70_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2014RScI...85c3902J/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014RScI...85c3902J"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014RScI...85c3902J"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\2dad9b2e4724_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2018RPPh...81f2101Z/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018RPPh...81f2101Z"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018RPPh...81f2101Z"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\324cc9b86712_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2007RScI...78h3105M/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78h3105M"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2007RScI...78h3105M"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\998d325f1c3d_scholar_lookup.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: http://www.google.com/sorry/index?continue=http://scholar.google.com/scholar_lookup%3F%26title%3DAngle-resolved%2520photoemission%2520spectroscopy%2520with%2520a%2520femtosecond%2520high%2520harmonic%2520light%2520source%2520using%2520a%2520two-dimensional%2520imaging%2520electron%2520analyzer%26journal%3DRev.%2520Sci.%2520Instrum.%26doi%3D10.1063%252F1.2773783%26volume%3D78%26publication_year%3D2007%26author%3DMathias%252CS&q=EgQfylk5GP-xsNAGIiyFweYwHXCmrj04AT_h8ZbhCFPfsOHaMj5mFJWEVU0EACplB5HJk2uEDgCk1zICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "http://scholar.google.com/scholar_lookup?&title=Angle-resolved%20photoemission%20spectroscopy%20with%20a%20femtosecond%20high%20harmonic%20light%20source%20using%20a%20two-dimensional%20imaging%20electron%20analyzer&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.2773783&volume=78&publication_year=2007&author=Mathias%2CS"
+      },
+      "url": "http://scholar.google.com/scholar_lookup?&title=Angle-resolved%20photoemission%20spectroscopy%20with%20a%20femtosecond%20high%20harmonic%20light%20source%20using%20a%20two-dimensional%20imaging%20electron%20analyzer&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.2773783&volume=78&publication_year=2007&author=Mathias%2CS"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\ba909645ff0f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2015NatCo...6.7459W/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NatCo...6.7459W"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015NatCo...6.7459W"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\333b5dc05398_scholar_lookup.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: http://www.google.com/sorry/index?continue=http://scholar.google.com/scholar_lookup%3F%26title%3DBright%2520high-repetition-rate%2520source%2520of%2520narrowband%2520extreme-ultraviolet%2520harmonics%2520beyond%252022%25E2%2580%2589eV%26journal%3DNat.%2520Commun.%26doi%3D10.1038%252Fncomms8459%26volume%3D6%26publication_year%3D2015%26author%3DWang%252CH&q=EgQfylk5GIGysNAGIiyGE-BJqkn7sB4fIqcL02hgEUhONh6B79XCfF7grYZQ1xsEcp5KAzOYOsk31DICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "http://scholar.google.com/scholar_lookup?&title=Bright%20high-repetition-rate%20source%20of%20narrowband%20extreme-ultraviolet%20harmonics%20beyond%2022%E2%80%89eV&journal=Nat.%20Commun.&doi=10.1038%2Fncomms8459&volume=6&publication_year=2015&author=Wang%2CH"
+      },
+      "url": "http://scholar.google.com/scholar_lookup?&title=Bright%20high-repetition-rate%20source%20of%20narrowband%20extreme-ultraviolet%20harmonics%20beyond%2022%E2%80%89eV&journal=Nat.%20Commun.&doi=10.1038%2Fncomms8459&volume=6&publication_year=2015&author=Wang%2CH"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\1d771b1645a3_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2016RScI...87a1301H/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87a1301H"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87a1301H"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\6d152f7fd730_scholar_lookup.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 429 Client Error: Too Many Requests for url: http://www.google.com/sorry/index?continue=http://scholar.google.com/scholar_lookup%3F%26title%3DHigh%2520resolution%2520angle%2520resolved%2520photoemission%2520with%2520tabletop%252011%25E2%2580%2589eV%2520laser%26journal%3DRev.%2520Sci.%2520Instrum.%26doi%3D10.1063%252F1.4939759%26volume%3D87%26publication_year%3D2016%26author%3DHe%252CY&q=EgQfylk5GIOysNAGIixlWLEY0F8Z9xgGx-2iTOJoSnC3CFhSv2gXWlIIhn6lt31Mu6RZbFExJrQ_fjICclJaAUM",
+        "ok": false,
+        "status_code": 429,
+        "url": "http://scholar.google.com/scholar_lookup?&title=High%20resolution%20angle%20resolved%20photoemission%20with%20tabletop%2011%E2%80%89eV%20laser&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.4939759&volume=87&publication_year=2016&author=He%2CY"
+      },
+      "url": "http://scholar.google.com/scholar_lookup?&title=High%20resolution%20angle%20resolved%20photoemission%20with%20tabletop%2011%E2%80%89eV%20laser&journal=Rev.%20Sci.%20Instrum.&doi=10.1063%2F1.4939759&volume=87&publication_year=2016&author=He%2CY"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\d5407552825c_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2019NatCo..10.3535S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019NatCo..10.3535S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019NatCo..10.3535S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\272e80dbb666_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2019RScI...90h3001M/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019RScI...90h3001M"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019RScI...90h3001M"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\9c01e14bf990_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2000Natur.403..396S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000Natur.403..396S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2000Natur.403..396S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\bf8ea2db6f86_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2019NanoL..19..554C/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019NanoL..19..554C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019NanoL..19..554C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\ae3d51d13832_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2021LSA....10...22M/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021LSA....10...22M"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021LSA....10...22M"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\2733bb9fbfbd_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2016RScI...87l3902I/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87l3902I"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87l3902I"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\694c880b822d_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2016EL....11527001S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016EL....11527001S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016EL....11527001S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\4fbe55142720_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2016RScI...87j3102R/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87j3102R"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016RScI...87j3102R"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\17c4ff61df3b_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2010RScI...81e3904J/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81e3904J"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81e3904J"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\10c71ee6794a_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2010RScI...81i5101S/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81i5101S"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RScI...81i5101S"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\b6cc647332fc_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2021EL....13457001L/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021EL....13457001L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021EL....13457001L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\16e9a49d836b_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2017NatMa..16.1077B/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatMa..16.1077B"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatMa..16.1077B"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\560a66abd86a_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2013ChPhB..22h7407Y/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013ChPhB..22h7407Y"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013ChPhB..22h7407Y"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\7c333738f6c7_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2010RvMP...82.3045H/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RvMP...82.3045H"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010RvMP...82.3045H"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\a96d936593b7_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2011RvMP...83.1057Q/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011RvMP...83.1057Q"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011RvMP...83.1057Q"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\5cfb3a10020c_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2021RvMP...93b5002L/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021RvMP...93b5002L"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021RvMP...93b5002L"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\1d06122020eb_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2018RvMP...90a5001A/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018RvMP...90a5001A"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018RvMP...90a5001A"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\8a7872e5948c_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2018NatRM...3..341Y/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018NatRM...3..341Y"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018NatRM...3..341Y"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\dc819efc8bdd_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2009RvMP...81..109C/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009RvMP...81..109C"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2009RvMP...81..109C"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\fe2b5e46ce0f_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2014RvMP...86..959B/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014RvMP...86..959B"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014RvMP...86..959B"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 0,
+        "cache_path": "tierb_cache_v74_all\\T39\\data_links\\90a31b719c84_nph-data_query.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://ui.adsabs.harvard.edu/link_gateway/2017NatRM...217033M/abstract",
+        "ok": true,
+        "status_code": 202,
+        "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatRM...217033M"
+      },
+      "url": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NatRM...217033M"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "evidence_status_v52": "data_limited",
+  "evidence_status_v53": "data_limited",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-05-19T08:04:08Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "low_priority_demote_v30": {
+    "confirm_allowed_now": false,
+    "priority_rank": 7,
+    "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+    "status": "demoted_until_exact_primary_tables_exist",
+    "test_id": "T39"
+  },
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "parsed_tables_count": 0,
+  "positive_dashboard_fragment_v30": {
+    "confirm_allowed_now": false,
+    "test_id": "T39",
+    "v30": {
+      "low_priority_demote_v30": {
+        "confirm_allowed_now": false,
+        "priority_rank": 7,
+        "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+        "status": "demoted_until_exact_primary_tables_exist",
+        "test_id": "T39"
+      }
+    },
+    "verdict": "data_limited_exact_table_needed"
+  },
+  "positive_dashboard_fragment_v32": {
+    "confirm_allowed_now": false,
+    "test_id": "T39",
+    "v32": {
+      "primary_table_hunt_v32": {
+        "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+        "child_urls_extracted": 0,
+        "confirm_allowed_now": false,
+        "manifest_rows": 1,
+        "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+        "prior_v30_demote_overridden": true,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "JARVIS phonon/downloads documentation",
+            "notes": "phonon band structures/elastic constants; twist-angle moire still needs exact supplementary rows",
+            "source_kind": "python_api",
+            "status": "candidate_not_auto_scored",
+            "url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/"
+          }
+        ],
+        "status": "primary_table_hunt_active_no_qualifying_table_yet",
+        "test_id": "T39"
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v33": {
+    "confirm_allowed_now": false,
+    "test_id": "T39",
+    "v33": {
+      "auto_generated_inputs_v33": {
+        "generated_files": [],
+        "manual_or_user_csv_required": false,
+        "status": "auto_generation_attempted"
+      },
+      "auto_input_policy_v33": {
+        "all_tests_run_together": true,
+        "commit_generated_csv_required": false,
+        "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+        "manual_or_user_filled_csv_required": false,
+        "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+      },
+      "auto_primary_source_hunt_v33": {
+        "audit_csv": null,
+        "child_urls_extracted": 0,
+        "manifest": "data/primary_table_candidate_manifest_v33.csv",
+        "manifest_rows": 1,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "JARVIS phonon/downloads documentation",
+            "meta": {
+              "content_type": "text/html; charset=utf-8",
+              "error": null,
+              "final_url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/",
+              "ok": true,
+              "status_code": 200
+            },
+            "notes": "phonon band structures/elastic constants; twist-angle moire still needs exact supplementary rows",
+            "source_kind": "python_api",
+            "status": "downloaded_no_tabular_frames",
+            "tables": [],
+            "url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/"
+          }
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v34": {
+      "auto_data_improvements_v34": {},
+      "confirmation_blocker_v34": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "split_branch_policy_v34": null
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v35": {
+      "auto_data_improvements_v35": {},
+      "confirmation_blocker_v35": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v35": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v36": {
+      "carried_forward_v35_improvements": true,
+      "confirmation_blocker_v36": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v36": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      },
+      "t34_real_runner_active": false
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v37": {
+      "auto_data_improvements_v37": {},
+      "confirmation_blocker_v37": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v37": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v38": {
+      "auto_data_improvements_v38": {},
+      "confirmation_blocker_v38": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v38": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v39": {
+      "auto_data_improvements_v39": {},
+      "confirmation_blocker_v39": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v39 gate not passed"
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v40": {
+      "auto_data_improvements_v40": {},
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v40 gate not passed"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v41": {
+      "auto_data_improvements_v41": {},
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v42": {
+      "auto_data_improvements_v42": {},
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v43": {
+      "auto_data_improvements_v43": {},
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v44": {
+      "auto_data_improvements_v44": {},
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v45": {
+      "auto_data_improvements_v45": {},
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v46": {
+      "auto_data_improvements_v46": {},
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v47": {
+      "auto_data_improvements_v47": {},
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v48": {
+      "auto_data_improvements_v48": {},
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v49": {
+      "auto_data_improvements_v49": {},
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v50": {
+      "auto_data_improvements_v50": {},
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v51": {
+      "auto_data_improvements_v51": {},
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T39"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "data_status_v52": "data_limited",
+      "evidence_status_v52": "data_limited",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v52": {
+      "auto_data_improvements_v52": {},
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed_data_limited",
+        "data_status_v52": "data_limited",
+        "evidence_status_v52": "data_limited",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T39"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "data_status_v53": "data_limited",
+      "evidence_status_v53": "data_limited",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v53": {
+      "auto_data_improvements_v53": {},
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed_data_limited",
+        "data_status_v53": "data_limited",
+        "evidence_status_v53": "data_limited",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "data_limited",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "high",
+      "next_data_source_v56": "not a current confirm target",
+      "rank_score_0_10_v56": 1,
+      "test_id": "T39"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v56": {
+      "auto_data_improvements_v56": {},
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "data_limited",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "high",
+      "next_data_source_v57": "not a current confirm target",
+      "rank_score_0_10_v57": 1,
+      "test_id": "T39"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v57": {
+      "auto_data_improvements_v57": {},
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T39"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v58": {
+      "auto_data_improvements_v58": {},
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T39"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T39",
+    "v59": {
+      "auto_data_improvements_v59": {},
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "prediction_ids": [
+    "MAT9",
+    "QC10"
+  ],
+  "prediction_names": [
+    "moir\u00e9 twist angle tunes phononic bandgap",
+    "twist-angle tunable phononic qubit substrate"
+  ],
+  "primary_table_hunt_v32": {
+    "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+    "child_urls_extracted": 0,
+    "confirm_allowed_now": false,
+    "manifest_rows": 1,
+    "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+    "prior_v30_demote_overridden": true,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "JARVIS phonon/downloads documentation",
+        "notes": "phonon band structures/elastic constants; twist-angle moire still needs exact supplementary rows",
+        "source_kind": "python_api",
+        "status": "candidate_not_auto_scored",
+        "url": "https://jarvis-materials-design.github.io/dbdocs/thedownloads/"
+      }
+    ],
+    "status": "primary_table_hunt_active_no_qualifying_table_yet",
+    "test_id": "T39"
+  },
+  "programmatic_verdict": "primary_table_hunt_active",
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "+v30_demote_exact_missing+v32_primary_table_hunt_not_demoted+v33_no_manual_all_tests_auto_primary_hunt+v34_auto_confirm_loaders_blocker_dashboard+v35_near_confirm_models_endpoint_fixes+v36_t34_real_runner_and_near_confirm_hardening+v37_confirm_hardening+v38_final_confirm_gate_hardening+v39_confirm_freeze_and_next_targets+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "queries": [
+    "moire phononic crystal twist angle bandgap table",
+    "twisted bilayer phononic bandgap twist angle supplementary data"
+  ],
+  "readiness_status": "source_found_no_usable_table",
+  "rejected_tables_sample": [],
+  "required_column_groups": [
+    [
+      "twist|angle|\u03b8|theta"
+    ],
+    [
+      "bandgap|gap|phononic|frequency"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "data_status_v52": "data_limited",
+    "evidence_status_v52": "data_limited",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "data_status_v53": "data_limited",
+    "evidence_status_v53": "data_limited",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "table_summaries": [],
+  "test_id": "T39",
+  "test_name": "moire phononic bandgap twist scaling"
+}

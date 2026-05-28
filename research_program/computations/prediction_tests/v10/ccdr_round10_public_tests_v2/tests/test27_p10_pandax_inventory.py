@@ -11,7 +11,7 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "direct_detection",
-  "kind": "pandax_quant_v8",
+  "kind": "direct_detection_units_v22",
   "prediction_id": "P10/P25/P31",
   "prediction_name": "PandaX quantified mass-window positive-ready",
   "sources": [

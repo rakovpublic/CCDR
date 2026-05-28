@@ -11,9 +11,9 @@ META = {
     "falsify_like": "The predicted effect is absent, reversed, or entirely explained by public-data null controls at adequate sensitivity."
   },
   "group": "direct_detection",
-  "kind": "direct_detection_columns_confirm_v14",
+  "kind": "direct_detection_units_v22",
   "prediction_id": "P10/P25/P31",
-  "prediction_name": "XENONnT mass-window measured coverage confirmation-ready",
+  "prediction_name": "XENONnT explicit-unit coverage parser",
   "sources": [
     {
       "url": "https://www.xenonexperiment.org/results"

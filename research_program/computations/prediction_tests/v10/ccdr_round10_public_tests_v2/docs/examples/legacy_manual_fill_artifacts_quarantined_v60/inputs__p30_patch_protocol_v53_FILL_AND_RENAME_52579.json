@@ -1,0 +1,21 @@
+{
+  "activate_by_renaming_to": "p30_patch_protocol_v53.json",
+  "created_by": "v53 template generator; fill/activate before claim run",
+  "curl_must_be_weaker_than_science": true,
+  "density_split_source": "frozen random-normalized SDSS/Euclid labels",
+  "edge_exclusion_deg": 1.0,
+  "mask_name": "ACT_DR6_empirical_finite_support_or_official_mask",
+  "min_high_count_per_patch": 20,
+  "min_low_count_per_patch": 20,
+  "patch_nside": 8,
+  "posthoc_quarantine_forbidden": true,
+  "predeclared_before_run": true,
+  "protocol_active": false,
+  "same_mask_for_science_curl_nulls": true,
+  "variant_family_required": [
+    "baseline",
+    "f090",
+    "f150",
+    "tonly"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "claim_scope": "empirical mask is accepted only for diagnostic/route gating, not global publication confirm unless predeclared externally",
+  "finite_support_mask_source": "ACT finite HEALPix support from reconstructed kappa map",
+  "route_gate": {
+    "bad_patch_protocol_clean": false,
+    "curl_weaker_than_sdss": true,
+    "eligible_for_confirm_like": false,
+    "empirical_mask_manifest_written": true,
+    "missing": [
+      "bad_patch_protocol_clean"
+    ],
+    "same_mask_for_science_curl_nulls": true,
+    "sdss_positive_stat": true,
+    "version": "v50_confirm_recovery_measurement_schema"
+  },
+  "same_mask_required_for": [
+    "science map",
+    "curl map",
+    "sky shuffles",
+    "density bins",
+    "patch jackknife"
+  ],
+  "version": "v50_confirm_recovery_measurement_schema"
+}

@@ -1,0 +1,20 @@
+{
+  "artifact_version": "v70",
+  "manual_fill_required": false,
+  "next_execution_policy": "Run with network/allow-large or pre-populate these exact DR2 LSScats clustering/random files; then fit high/low-density BAO alpha with random normalization and nulls.",
+  "source_targeted_endpoint_manifest": [
+    "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/LRG_clustering.dat.fits",
+    "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/ELG_LOPnotqso_clustering.dat.fits",
+    "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/QSO_clustering.dat.fits",
+    "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/LRG_0_full.ran.fits",
+    "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/ELG_LOPnotqso_0_full.ran.fits",
+    "https://data.desi.lbl.gov/public/dr2/vac/dr2/lss/iron/LSScats/v1.1/QSO_0_full.ran.fits"
+  ],
+  "status": "desi_lss_random_manifest_written_exact_inputs_absent",
+  "v69_exact_ingestion_summary": {
+    "n_compressed_bao_products": 40,
+    "n_exact_catalog_files": 0,
+    "n_exact_random_files": 0,
+    "status": "exact_lss_random_ingestion_incomplete"
+  }
+}

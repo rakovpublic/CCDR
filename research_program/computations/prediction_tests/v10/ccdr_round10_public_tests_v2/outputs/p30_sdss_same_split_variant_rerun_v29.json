@@ -1,0 +1,487 @@
+{
+  "abs_curl_delta": 0.04445120171365154,
+  "coord_source": "v13_sdss_fallback_coords",
+  "curl_null_or_weaker": false,
+  "median_abs_science_delta": 0.08815282358182167,
+  "n_coords": 2000,
+  "n_positive_science_variants": 4,
+  "random_path": ".ccdr_round10_cache\\p30_sdss_random_catalogue_v28.csv",
+  "same_split_science_variants_pass": true,
+  "split": {
+    "available": true,
+    "density_definition": "delta=N_data/N_random_scaled-1",
+    "density_nside": 64,
+    "high_threshold": 16.857142857142858,
+    "low_threshold": 6.222222222222222,
+    "n_data": 2000,
+    "n_random": 10000
+  },
+  "variant_probes": [
+    {
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 7.295130355056195,
+          "mean": 1.5612144365599183e-05,
+          "median": -0.00017261437008312102,
+          "min": -6.181802649251517,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.45546239502790925
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8005998,
+          "nside": 256
+        }
+      },
+      "variant": "baseline"
+    },
+    {
+      "extract": {
+        "member": "./maps/f090/kappa_alm_data_act_dr6_lensing_v1_f090.fits",
+        "path": ".ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits"
+      },
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 8.117938958154523,
+          "mean": 0.0003688371945076362,
+          "median": -0.00015356557579318444,
+          "min": -7.106337780455291,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.5261864229514994
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8005998,
+          "nside": 256
+        }
+      },
+      "variant": "f090"
+    },
+    {
+      "extract": {
+        "member": "./maps/f150/kappa_alm_data_act_dr6_lensing_v1_f150.fits",
+        "path": ".ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits"
+      },
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 8.589867102368405,
+          "mean": -8.36474267836091e-05,
+          "median": -0.0002963580521773146,
+          "min": -7.212486107858396,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.5784196541931227
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8005998,
+          "nside": 256
+        }
+      },
+      "variant": "f150"
+    },
+    {
+      "extract": {
+        "member": "./maps/tonly/kappa_alm_data_act_dr6_lensing_v1_tonly.fits",
+        "path": ".ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits"
+      },
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 7.7159147823832335,
+          "mean": 0.00020932770182952184,
+          "median": -0.0002284727468270407,
+          "min": -6.354959172927259,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.484628199210338
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8006000,
+          "nside": 256
+        }
+      },
+      "variant": "tonly"
+    },
+    {
+      "extract": {
+        "member": "./maps/cibdeproj/kappa_alm_data_act_dr6_lensing_v1_cibdeproj.fits",
+        "path": ".ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits"
+      },
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 7.1288633685305465,
+          "mean": 5.0056362543230717e-05,
+          "median": -2.351173427021661e-05,
+          "min": -6.135301582448481,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.4095738867960315
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8005998,
+          "nside": 256
+        }
+      },
+      "variant": "cibdeproj"
+    },
+    {
+      "extract": {
+        "member": "./maps/curl/kappa_alm_data_act_dr6_lensing_v1_curl.fits",
+        "path": ".ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits"
+      },
+      "probe": {
+        "best_method": "row_order_full_alm",
+        "best_sanity": {
+          "available": true,
+          "finite_fraction": 1.0,
+          "max": 5.707635692547907,
+          "mean": -0.0002351720737029843,
+          "median": 0.00022762540177569124,
+          "min": -3.9091411502558597,
+          "n_finite_pixels": 786432,
+          "n_total_pixels": 786432,
+          "std": 0.25622722946657794
+        },
+        "probes": [
+          {
+            "finite_fraction": 1.0,
+            "hdu": 1,
+            "lmax": 4000,
+            "mode": "row_order_full_alm",
+            "n_finite_pixels": 786432
+          }
+        ],
+        "reader_info": {
+          "hdu": 1,
+          "hdu_info": [
+            {
+              "class": "PrimaryHDU",
+              "columns": [],
+              "hdu": 0,
+              "name": "PRIMARY",
+              "shape": null
+            },
+            {
+              "class": "BinTableHDU",
+              "columns": [
+                "index",
+                "real",
+                "imag"
+              ],
+              "hdu": 1,
+              "name": "",
+              "shape": [
+                8006001
+              ]
+            }
+          ],
+          "lmax": 4000,
+          "method": "row_order_full_alm",
+          "n_finite_alm_input": 8006000,
+          "nside": 256
+        }
+      },
+      "variant": "curl_control"
+    }
+  ],
+  "variant_results": [
+    {
+      "available": true,
+      "delta_high_minus_low": 0.08815282358182167,
+      "density_shuffle_n": 128,
+      "density_shuffle_p_high": 0.0,
+      "field_split_jackknife": [
+        0.06351416495244977,
+        0.13393298903822645,
+        0.10053167499099774,
+        0.07991482340412523
+      ],
+      "high_density_n": 507,
+      "jackknife_same_sign": true,
+      "low_density_n": 504,
+      "mean_kappa_high_density": 0.05278235788911566,
+      "mean_kappa_low_density": -0.03537046569270601,
+      "positive_pass": true,
+      "variant": "baseline"
+    },
+    {
+      "available": true,
+      "delta_high_minus_low": 0.04191234028127793,
+      "density_shuffle_n": 128,
+      "density_shuffle_p_high": 0.1484375,
+      "field_split_jackknife": [
+        0.05086830555489772,
+        0.10234496082180866,
+        0.06301828187584615,
+        0.022679845720235806
+      ],
+      "high_density_n": 507,
+      "jackknife_same_sign": true,
+      "low_density_n": 504,
+      "mean_kappa_high_density": -0.011490576871180285,
+      "mean_kappa_low_density": -0.053402917152458214,
+      "positive_pass": false,
+      "variant": "f090"
+    },
+    {
+      "available": true,
+      "delta_high_minus_low": 0.17316898098989575,
+      "density_shuffle_n": 128,
+      "density_shuffle_p_high": 0.0,
+      "field_split_jackknife": [
+        0.08326470720660534,
+        0.22194227253282695,
+        0.20002556320577505,
+        0.18391112795396367
+      ],
+      "high_density_n": 507,
+      "jackknife_same_sign": true,
+      "low_density_n": 504,
+      "mean_kappa_high_density": 0.11883680677359007,
+      "mean_kappa_low_density": -0.05433217421630568,
+      "positive_pass": true,
+      "variant": "f150"
+    },
+    {
+      "available": true,
+      "delta_high_minus_low": 0.11502262596726337,
+      "density_shuffle_n": 128,
+      "density_shuffle_p_high": 0.0,
+      "field_split_jackknife": [
+        0.08272880782132142,
+        0.1429885886554421,
+        0.1225601293464294,
+        0.12295965899650796
+      ],
+      "high_density_n": 507,
+      "jackknife_same_sign": true,
+      "low_density_n": 504,
+      "mean_kappa_high_density": 0.0623005391344917,
+      "mean_kappa_low_density": -0.052722086832771665,
+      "positive_pass": true,
+      "variant": "tonly"
+    },
+    {
+      "available": true,
+      "delta_high_minus_low": 0.04293005855960019,
+      "density_shuffle_n": 128,
+      "density_shuffle_p_high": 0.046875,
+      "field_split_jackknife": [
+        0.02380161641551365,
+        0.08625432181593609,
+        0.046881972139543315,
+        0.04513679433636899
+      ],
+      "high_density_n": 507,
+      "jackknife_same_sign": true,
+      "low_density_n": 504,
+      "mean_kappa_high_density": 0.026871355667892956,
+      "mean_kappa_low_density": -0.016058702891707237,
+      "positive_pass": true,
+      "variant": "cibdeproj"
+    },
+    {
+      "available": true,
+      "delta_high_minus_low": 0.04445120171365154,
+      "density_shuffle_n": 128,
+      "density_shuffle_p_high": 0.0,
+      "field_split_jackknife": [
+        -0.017340997178857218,
+        0.05821033811908215,
+        0.05981901194813999,
+        0.05006410423325514
+      ],
+      "high_density_n": 507,
+      "jackknife_same_sign": false,
+      "low_density_n": 504,
+      "mean_kappa_high_density": 0.05221041452714691,
+      "mean_kappa_low_density": 0.007759212813495372,
+      "positive_pass": false,
+      "variant": "curl_control"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "claim_policy": "single-event run can become suggestive only; confirm-like requires injection null plus detector split and preferably >=2 events.",
+  "current_gate": {
+    "ccdr_residual_template_fit": false,
+    "detector_split": false,
+    "eligible_for_confirm_like": false,
+    "gr_ringdown_fit": false,
+    "injection_nulls": false,
+    "leave_one_event_out": false,
+    "minimal_run_contract_present": true,
+    "missing": [
+      "psd_estimated",
+      "gr_ringdown_fit",
+      "ccdr_residual_template_fit",
+      "residual_improves_gr",
+      "injection_nulls",
+      "detector_split",
+      "leave_one_event_out"
+    ],
+    "psd_estimated": false,
+    "residual_improves_gr": false,
+    "strain_downloaded": true
+  },
+  "leave_one_event_out_required_for_multi_event_claim": true,
+  "minimal_one_event_run": "GW150914 preferred first; GW190521 optional second",
+  "required_products": [
+    "strain",
+    "psd",
+    "gr_ringdown_fit",
+    "ccdr_residual_fit",
+    "injection_null",
+    "detector_split"
+  ]
+}

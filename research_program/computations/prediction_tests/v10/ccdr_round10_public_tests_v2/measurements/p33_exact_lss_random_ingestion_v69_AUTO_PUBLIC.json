@@ -1,0 +1,1575 @@
+{
+  "artifact_version": "v69",
+  "claim_policy_v69": "v69 expands exact DESI LSS/random ingestion to text, gzipped text, FITS, clustering, random, and LSScats products. Compressed BAO products remain audit inputs, not substitutes for density-split catalogues plus randoms.",
+  "compressed_bao_observable_index": [
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_all_gccomb_desi_gaussian_bao_all_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_ALL_GCcomb_mean.txt__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+      "n_cov_rows": 13,
+      "n_mean_rows": 13,
+      "n_observables": 13,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs",
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295,
+        0.51,
+        0.706,
+        0.934,
+        1.321,
+        1.484,
+        2.33
+      ],
+      "sigma_proxy": 0.2958938622437106,
+      "tracer": "ALL"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "cov_sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_bgs_bright_21_35_gccomb_desi_gaussian_bao_bgs_bright_21_35_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "mean_sha256": "06fc72ca4f4b4a03973c514bf7568c856716ff76a8c05df02e42b93aca769d59",
+      "n_cov_rows": 1,
+      "n_mean_rows": 1,
+      "n_observables": 1,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        }
+      ],
+      "quantities": [
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295
+      ],
+      "sigma_proxy": 0.07609196324185624,
+      "tracer": "BGS"
+    },
+    {
+      "alpha_proxy": 1.321,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "cov_sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "mean_sha256": "75d2dd246d2f17145f202fccf80da0bd723a67270a76f83b5be204161e204794",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.321
+      ],
+      "sigma_proxy": 0.23120418940841017,
+      "tracer": "ELG"
+    },
+    {
+      "alpha_proxy": 0.934,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "cov_sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_mean.txt",
+      "mean_sha256": "c34585b9afdb683e68c2522e9715950fd24b63435ceb8a94ae52acd5d2626f4a",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.934
+      ],
+      "sigma_proxy": 0.14931449243124392,
+      "tracer": "LRG_ELG"
+    },
+    {
+      "alpha_proxy": 0.51,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "cov_sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_lrg_gccomb_z0_4_0_6_desi_gaussian_bao_lrg_gccomb_z0_4_0_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "mean_sha256": "86336445497058eee24ecf255e8a7486d8b46d709daa7a919566a58818dbed0c",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.51
+      ],
+      "sigma_proxy": 0.2633855612975016,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 0.706,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "cov_sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_lrg_gccomb_z0_6_0_8_desi_gaussian_bao_lrg_gccomb_z0_6_0_8",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "mean_sha256": "6d2f38d0727b2aefcd82fdd5a1c6df5a7d34ad8459437c195d575b5ad0c6ab32",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.706
+      ],
+      "sigma_proxy": 0.21870846542829567,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 2.33,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "cov_sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_lya_gccomb_desi_gaussian_bao_lya_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_Lya_GCcomb_mean.txt__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "mean_sha256": "9b4ab92080d038d0a0a5d76b9abead4e3919d7227e343d1e7feab7103e1f30cb",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        2.33
+      ],
+      "sigma_proxy": 0.2911951413979618,
+      "tracer": "LYA"
+    },
+    {
+      "alpha_proxy": 1.484,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "cov_sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da",
+      "key": "r10_t01_bao_like_desi_gaussian_bao_qso_gccomb_desi_gaussian_bao_qso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T01_bao_like_desi_gaussian_bao_QSO_GCcomb_mean.txt__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "mean_sha256": "9bffdd0bf27615ab5225e5232fcdf53e16318bf9d06b031a2756d6e89368dadd",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.484
+      ],
+      "sigma_proxy": 0.5571776184485518,
+      "tracer": "QSO"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_all_gccomb_desi_gaussian_bao_all_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_ALL_GCcomb_mean.txt__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+      "n_cov_rows": 13,
+      "n_mean_rows": 13,
+      "n_observables": 13,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs",
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295,
+        0.51,
+        0.706,
+        0.934,
+        1.321,
+        1.484,
+        2.33
+      ],
+      "sigma_proxy": 0.2958938622437106,
+      "tracer": "ALL"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "cov_sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_bgs_bright_21_35_gccomb_desi_gaussian_bao_bgs_bright_21_35_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "mean_sha256": "06fc72ca4f4b4a03973c514bf7568c856716ff76a8c05df02e42b93aca769d59",
+      "n_cov_rows": 1,
+      "n_mean_rows": 1,
+      "n_observables": 1,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        }
+      ],
+      "quantities": [
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295
+      ],
+      "sigma_proxy": 0.07609196324185624,
+      "tracer": "BGS"
+    },
+    {
+      "alpha_proxy": 1.321,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "cov_sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "mean_sha256": "75d2dd246d2f17145f202fccf80da0bd723a67270a76f83b5be204161e204794",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.321
+      ],
+      "sigma_proxy": 0.23120418940841017,
+      "tracer": "ELG"
+    },
+    {
+      "alpha_proxy": 0.934,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "cov_sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_mean.txt",
+      "mean_sha256": "c34585b9afdb683e68c2522e9715950fd24b63435ceb8a94ae52acd5d2626f4a",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.934
+      ],
+      "sigma_proxy": 0.14931449243124392,
+      "tracer": "LRG_ELG"
+    },
+    {
+      "alpha_proxy": 0.51,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "cov_sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_lrg_gccomb_z0_4_0_6_desi_gaussian_bao_lrg_gccomb_z0_4_0_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "mean_sha256": "86336445497058eee24ecf255e8a7486d8b46d709daa7a919566a58818dbed0c",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.51
+      ],
+      "sigma_proxy": 0.2633855612975016,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 0.706,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "cov_sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_lrg_gccomb_z0_6_0_8_desi_gaussian_bao_lrg_gccomb_z0_6_0_8",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "mean_sha256": "6d2f38d0727b2aefcd82fdd5a1c6df5a7d34ad8459437c195d575b5ad0c6ab32",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.706
+      ],
+      "sigma_proxy": 0.21870846542829567,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 2.33,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "cov_sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_lya_gccomb_desi_gaussian_bao_lya_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_Lya_GCcomb_mean.txt__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "mean_sha256": "9b4ab92080d038d0a0a5d76b9abead4e3919d7227e343d1e7feab7103e1f30cb",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        2.33
+      ],
+      "sigma_proxy": 0.2911951413979618,
+      "tracer": "LYA"
+    },
+    {
+      "alpha_proxy": 1.484,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "cov_sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da",
+      "key": "r10_t02_bao_like_desi_gaussian_bao_qso_gccomb_desi_gaussian_bao_qso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T02_bao_like_desi_gaussian_bao_QSO_GCcomb_mean.txt__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "mean_sha256": "9bffdd0bf27615ab5225e5232fcdf53e16318bf9d06b031a2756d6e89368dadd",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.484
+      ],
+      "sigma_proxy": 0.5571776184485518,
+      "tracer": "QSO"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+      "key": "r10_t03_desi_gaussian_bao_all_gccomb_desi_gaussian_bao_all_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_ALL_GCcomb_mean.txt__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+      "n_cov_rows": 13,
+      "n_mean_rows": 13,
+      "n_observables": 13,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs",
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295,
+        0.51,
+        0.706,
+        0.934,
+        1.321,
+        1.484,
+        2.33
+      ],
+      "sigma_proxy": 0.2958938622437106,
+      "tracer": "ALL"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "cov_sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f",
+      "key": "r10_t03_desi_gaussian_bao_bgs_bright_21_35_gccomb_desi_gaussian_bao_bgs_bright_21_35_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "mean_sha256": "06fc72ca4f4b4a03973c514bf7568c856716ff76a8c05df02e42b93aca769d59",
+      "n_cov_rows": 1,
+      "n_mean_rows": 1,
+      "n_observables": 1,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        }
+      ],
+      "quantities": [
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295
+      ],
+      "sigma_proxy": 0.07609196324185624,
+      "tracer": "BGS"
+    },
+    {
+      "alpha_proxy": 1.321,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "cov_sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc",
+      "key": "r10_t03_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "mean_sha256": "75d2dd246d2f17145f202fccf80da0bd723a67270a76f83b5be204161e204794",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.321
+      ],
+      "sigma_proxy": 0.23120418940841017,
+      "tracer": "ELG"
+    },
+    {
+      "alpha_proxy": 0.934,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "cov_sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a",
+      "key": "r10_t03_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_mean.txt",
+      "mean_sha256": "c34585b9afdb683e68c2522e9715950fd24b63435ceb8a94ae52acd5d2626f4a",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.934
+      ],
+      "sigma_proxy": 0.14931449243124392,
+      "tracer": "LRG_ELG"
+    },
+    {
+      "alpha_proxy": 0.51,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "cov_sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740",
+      "key": "r10_t03_desi_gaussian_bao_lrg_gccomb_z0_4_0_6_desi_gaussian_bao_lrg_gccomb_z0_4_0_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "mean_sha256": "86336445497058eee24ecf255e8a7486d8b46d709daa7a919566a58818dbed0c",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.51
+      ],
+      "sigma_proxy": 0.2633855612975016,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 0.706,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "cov_sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae",
+      "key": "r10_t03_desi_gaussian_bao_lrg_gccomb_z0_6_0_8_desi_gaussian_bao_lrg_gccomb_z0_6_0_8",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "mean_sha256": "6d2f38d0727b2aefcd82fdd5a1c6df5a7d34ad8459437c195d575b5ad0c6ab32",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.706
+      ],
+      "sigma_proxy": 0.21870846542829567,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 2.33,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "cov_sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357",
+      "key": "r10_t03_desi_gaussian_bao_lya_gccomb_desi_gaussian_bao_lya_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_Lya_GCcomb_mean.txt__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "mean_sha256": "9b4ab92080d038d0a0a5d76b9abead4e3919d7227e343d1e7feab7103e1f30cb",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        2.33
+      ],
+      "sigma_proxy": 0.2911951413979618,
+      "tracer": "LYA"
+    },
+    {
+      "alpha_proxy": 1.484,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "cov_sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da",
+      "key": "r10_t03_desi_gaussian_bao_qso_gccomb_desi_gaussian_bao_qso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T03_desi_gaussian_bao_QSO_GCcomb_mean.txt__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "mean_sha256": "9bffdd0bf27615ab5225e5232fcdf53e16318bf9d06b031a2756d6e89368dadd",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.484
+      ],
+      "sigma_proxy": 0.5571776184485518,
+      "tracer": "QSO"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+      "key": "r10_t07_desi_gaussian_bao_all_gccomb_desi_gaussian_bao_all_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ALL_GCcomb_mean.txt__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+      "n_cov_rows": 13,
+      "n_mean_rows": 13,
+      "n_observables": 13,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs",
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295,
+        0.51,
+        0.706,
+        0.934,
+        1.321,
+        1.484,
+        2.33
+      ],
+      "sigma_proxy": 0.2958938622437106,
+      "tracer": "ALL"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "cov_sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f",
+      "key": "r10_t07_desi_gaussian_bao_bgs_bright_21_35_gccomb_desi_gaussian_bao_bgs_bright_21_35_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "mean_sha256": "06fc72ca4f4b4a03973c514bf7568c856716ff76a8c05df02e42b93aca769d59",
+      "n_cov_rows": 1,
+      "n_mean_rows": 1,
+      "n_observables": 1,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        }
+      ],
+      "quantities": [
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295
+      ],
+      "sigma_proxy": 0.07609196324185624,
+      "tracer": "BGS"
+    },
+    {
+      "alpha_proxy": 1.321,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "cov_sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc",
+      "key": "r10_t07_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "mean_sha256": "75d2dd246d2f17145f202fccf80da0bd723a67270a76f83b5be204161e204794",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.321
+      ],
+      "sigma_proxy": 0.23120418940841017,
+      "tracer": "ELG"
+    },
+    {
+      "alpha_proxy": 0.934,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "cov_sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a",
+      "key": "r10_t07_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_mean.txt",
+      "mean_sha256": "c34585b9afdb683e68c2522e9715950fd24b63435ceb8a94ae52acd5d2626f4a",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.934
+      ],
+      "sigma_proxy": 0.14931449243124392,
+      "tracer": "LRG_ELG"
+    },
+    {
+      "alpha_proxy": 0.51,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "cov_sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740",
+      "key": "r10_t07_desi_gaussian_bao_lrg_gccomb_z0_4_0_6_desi_gaussian_bao_lrg_gccomb_z0_4_0_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "mean_sha256": "86336445497058eee24ecf255e8a7486d8b46d709daa7a919566a58818dbed0c",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.51
+      ],
+      "sigma_proxy": 0.2633855612975016,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 0.706,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "cov_sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae",
+      "key": "r10_t07_desi_gaussian_bao_lrg_gccomb_z0_6_0_8_desi_gaussian_bao_lrg_gccomb_z0_6_0_8",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "mean_sha256": "6d2f38d0727b2aefcd82fdd5a1c6df5a7d34ad8459437c195d575b5ad0c6ab32",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.706
+      ],
+      "sigma_proxy": 0.21870846542829567,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 2.33,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "cov_sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357",
+      "key": "r10_t07_desi_gaussian_bao_lya_gccomb_desi_gaussian_bao_lya_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_Lya_GCcomb_mean.txt__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "mean_sha256": "9b4ab92080d038d0a0a5d76b9abead4e3919d7227e343d1e7feab7103e1f30cb",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        2.33
+      ],
+      "sigma_proxy": 0.2911951413979618,
+      "tracer": "LYA"
+    },
+    {
+      "alpha_proxy": 1.484,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "cov_sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da",
+      "key": "r10_t07_desi_gaussian_bao_qso_gccomb_desi_gaussian_bao_qso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T07_desi_gaussian_bao_QSO_GCcomb_mean.txt__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "mean_sha256": "9bffdd0bf27615ab5225e5232fcdf53e16318bf9d06b031a2756d6e89368dadd",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.484
+      ],
+      "sigma_proxy": 0.5571776184485518,
+      "tracer": "QSO"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_ALL_GCcomb_cov.txt__desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+      "key": "r10_t08_bao_desi_gaussian_bao_all_gccomb_desi_gaussian_bao_all_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_ALL_GCcomb_mean.txt__desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+      "n_cov_rows": 13,
+      "n_mean_rows": 13,
+      "n_observables": 13,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs",
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295,
+        0.51,
+        0.706,
+        0.934,
+        1.321,
+        1.484,
+        2.33
+      ],
+      "sigma_proxy": 0.2958938622437106,
+      "tracer": "ALL"
+    },
+    {
+      "alpha_proxy": 0.295,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_cov.txt",
+      "cov_sha256": "06d7260009fa0030171753fe2f8ece92c5e167da5fdf57f3a98aa2dfe9dc142f",
+      "key": "r10_t08_bao_desi_gaussian_bao_bgs_bright_21_35_gccomb_desi_gaussian_bao_bgs_bright_21_35_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt__desi_gaussian_bao_BGS_BRIGHT-21.35_GCcomb_mean.txt",
+      "mean_sha256": "06fc72ca4f4b4a03973c514bf7568c856716ff76a8c05df02e42b93aca769d59",
+      "n_cov_rows": 1,
+      "n_mean_rows": 1,
+      "n_observables": 1,
+      "observables": [
+        {
+          "quantity": "DV_over_rs",
+          "value": 7.94167639,
+          "z": 0.295
+        }
+      ],
+      "quantities": [
+        "DV_over_rs"
+      ],
+      "redshift_bins": [
+        0.295
+      ],
+      "sigma_proxy": 0.07609196324185624,
+      "tracer": "BGS"
+    },
+    {
+      "alpha_proxy": 1.321,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_cov.txt",
+      "cov_sha256": "8d1afedca817a80f44c9dd492101d6653f1f353a59da6f24a6bcb0f0d80ad6bc",
+      "key": "r10_t08_bao_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6_desi_gaussian_bao_elg_lopnotqso_gccomb_z1_1_1_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt__desi_gaussian_bao_ELG_LOPnotqso_GCcomb_z1.1-1.6_mean.txt",
+      "mean_sha256": "75d2dd246d2f17145f202fccf80da0bd723a67270a76f83b5be204161e204794",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 27.60085612,
+          "z": 1.321
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 14.17602155,
+          "z": 1.321
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.321
+      ],
+      "sigma_proxy": 0.23120418940841017,
+      "tracer": "ELG"
+    },
+    {
+      "alpha_proxy": 0.934,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_cov.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_cov.txt",
+      "cov_sha256": "8c8f5270dc3db24cbecd9aee1e463819a93e4fbfb0805fdf18357c39e5a8e95a",
+      "key": "r10_t08_bao_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb_desi_gaussian_bao_lrg_elg_lopnotqso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_ELG_LOPnotqso_GCcomb_mean.txt__desi_gaussian_bao_LRG+ELG_LOPnotqso_GCcomb_mean.txt",
+      "mean_sha256": "c34585b9afdb683e68c2522e9715950fd24b63435ceb8a94ae52acd5d2626f4a",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 21.57563956,
+          "z": 0.934
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 17.64149464,
+          "z": 0.934
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.934
+      ],
+      "sigma_proxy": 0.14931449243124392,
+      "tracer": "LRG_ELG"
+    },
+    {
+      "alpha_proxy": 0.51,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_cov.txt",
+      "cov_sha256": "1fc0b21fd34a0e194f3fce2601ea3d1f411b03c7c1006c5b865b9f66991b8740",
+      "key": "r10_t08_bao_desi_gaussian_bao_lrg_gccomb_z0_4_0_6_desi_gaussian_bao_lrg_gccomb_z0_4_0_6",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.4-0.6_mean.txt",
+      "mean_sha256": "86336445497058eee24ecf255e8a7486d8b46d709daa7a919566a58818dbed0c",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 13.58758434,
+          "z": 0.51
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 21.86294686,
+          "z": 0.51
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.51
+      ],
+      "sigma_proxy": 0.2633855612975016,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 0.706,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+      "cov_sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae",
+      "key": "r10_t08_bao_desi_gaussian_bao_lrg_gccomb_z0_6_0_8_desi_gaussian_bao_lrg_gccomb_z0_6_0_8",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt__desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+      "mean_sha256": "6d2f38d0727b2aefcd82fdd5a1c6df5a7d34ad8459437c195d575b5ad0c6ab32",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 17.35069094,
+          "z": 0.706
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 19.45534918,
+          "z": 0.706
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        0.706
+      ],
+      "sigma_proxy": 0.21870846542829567,
+      "tracer": "LRG"
+    },
+    {
+      "alpha_proxy": 2.33,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_Lya_GCcomb_cov.txt__desi_gaussian_bao_Lya_GCcomb_cov.txt",
+      "cov_sha256": "02a049dbf3a1cd391189948516378a694abfd8d5b5cba1a15e97c6c5cf972357",
+      "key": "r10_t08_bao_desi_gaussian_bao_lya_gccomb_desi_gaussian_bao_lya_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_Lya_GCcomb_mean.txt__desi_gaussian_bao_Lya_GCcomb_mean.txt",
+      "mean_sha256": "9b4ab92080d038d0a0a5d76b9abead4e3919d7227e343d1e7feab7103e1f30cb",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DH_over_rs",
+          "value": 8.631545674846294,
+          "z": 2.33
+        },
+        {
+          "quantity": "DM_over_rs",
+          "value": 38.988973961958784,
+          "z": 2.33
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        2.33
+      ],
+      "sigma_proxy": 0.2911951413979618,
+      "tracer": "LYA"
+    },
+    {
+      "alpha_proxy": 1.484,
+      "cov_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_QSO_GCcomb_cov.txt__desi_gaussian_bao_QSO_GCcomb_cov.txt",
+      "cov_sha256": "7445c6bca01e2732b15ff29e832cc7b682c27d096f3b3ae8a171b63b20e8f6da",
+      "key": "r10_t08_bao_desi_gaussian_bao_qso_gccomb_desi_gaussian_bao_qso_gccomb",
+      "mean_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T08_bao_desi_gaussian_bao_QSO_GCcomb_mean.txt__desi_gaussian_bao_QSO_GCcomb_mean.txt",
+      "mean_sha256": "9bffdd0bf27615ab5225e5232fcdf53e16318bf9d06b031a2756d6e89368dadd",
+      "n_cov_rows": 2,
+      "n_mean_rows": 2,
+      "n_observables": 2,
+      "observables": [
+        {
+          "quantity": "DM_over_rs",
+          "value": 30.51190063,
+          "z": 1.484
+        },
+        {
+          "quantity": "DH_over_rs",
+          "value": 12.81699964,
+          "z": 1.484
+        }
+      ],
+      "quantities": [
+        "DH_over_rs",
+        "DM_over_rs"
+      ],
+      "redshift_bins": [
+        1.484
+      ],
+      "sigma_proxy": 0.5571776184485518,
+      "tracer": "QSO"
+    }
+  ],
+  "exact_catalog_audit": [],
+  "exact_lss_fit": null,
+  "exact_random_audit": [],
+  "manual_fill_required": false,
+  "n_compressed_bao_products": 40,
+  "n_exact_catalog_files": 0,
+  "n_exact_random_files": 0,
+  "n_exact_random_rows_seen": 0,
+  "status": "exact_lss_random_ingestion_incomplete"
+}

@@ -1,0 +1,25 @@
+{
+  "artifact_version": "v78",
+  "claim_policy_v78": "v78 global P30 requires the existing SDSS route plus an independent Planck or Euclid route with same-mask/null evidence.",
+  "euclid_kappa_cell_v78": {
+    "density_kappa_split_stat": {
+      "delta_high_minus_low": null,
+      "density_shuffle_p_high": null,
+      "n_rows_with_density_and_kappa": 0
+    },
+    "n_euclid_kappa_cell_rows": 0,
+    "status": "p30_euclid_kappa_cells_absent_v78"
+  },
+  "euclid_route_confirm_like": false,
+  "manual_fill_required": false,
+  "n_routes_confirm_like": 1,
+  "planck_map_sampler_v78": {
+    "n_usable_planck_fits_or_alm_sources": 11,
+    "same_mask_density_kappa_statistic_available": false,
+    "status": "p30_planck_fits_map_or_alm_sources_ready_v78"
+  },
+  "planck_route_confirm_like": false,
+  "sdss_scoped_confirm_like": true,
+  "second_independent_route_confirm_like": false,
+  "status": "p30_second_route_still_not_confirmed_v78"
+}

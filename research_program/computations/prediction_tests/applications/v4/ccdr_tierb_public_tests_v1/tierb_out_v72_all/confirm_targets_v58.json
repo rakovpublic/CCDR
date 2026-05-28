@@ -1,0 +1,345 @@
+{
+  "schema": "ccdr-tierb-confirm-targets-v58",
+  "targets": [
+    {
+      "blocker_type_v58": "robustness_only_audit_not_gate_change",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "compatible_positive_confirm_allowed",
+      "expected_effort_v58": "low",
+      "next_data_source_v58": "frozen PV descriptor rows plus family/source/year/permutation robustness artifacts",
+      "rank_score_0_10_v58": 10,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T48"
+    },
+    {
+      "blocker_type_v58": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_next_gate_required",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+      "rank_score_0_10_v58": 9,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T31"
+    },
+    {
+      "blocker_type_v58": "measured_microstructure_confirm_gates_pending",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_next_gate_required",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "dedup measured \u03ba(T)+SEM/TEM/XRD rows with source/material/temp-bin jackknives",
+      "rank_score_0_10_v58": 9,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T32"
+    },
+    {
+      "blocker_type_v58": "ProteinGym_structure_join_model_FDR_required",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_next_gate_required",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "ProteinGym CSV joined to UniProt/PDB/AlphaFold structural features + family/assay/sequence jackknife",
+      "rank_score_0_10_v58": 6,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T53"
+    },
+    {
+      "blocker_type_v58": "T60b_T60c_T60d_required",
+      "confirmation_legally_possible_v58": false,
+      "confirmation_status_v58": "anchor_only_not_full_confirm",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "quark/lattice uncertainty + sector reshuffle + look-elsewhere registry",
+      "rank_score_0_10_v58": 5,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T60"
+    },
+    {
+      "blocker_type_v58": "exact_te_rows_missing_or_model_pending",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "exact teMatDb/Starrydata Bi2Te3/Sb2Te3 ZT+temperature+angle export",
+      "rank_score_0_10_v58": 3,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T34"
+    },
+    {
+      "blocker_type_v58": "exact_HEPData_manifest_and_model_required",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact HEPData record/table/column manifest with observed/model/uncertainty columns",
+      "rank_score_0_10_v58": 3,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T57"
+    },
+    {
+      "blocker_type_v58": "exact_HEPData_manifest_and_model_required",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact HEPData record/table/column manifest with observed/model/uncertainty columns",
+      "rank_score_0_10_v58": 3,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T59"
+    },
+    {
+      "blocker_type_v58": "exact_benchmark_table_required",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact public benchmark supplement/table",
+      "rank_score_0_10_v58": 3,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T45"
+    },
+    {
+      "blocker_type_v58": "exact_benchmark_table_required",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact public benchmark supplement/table",
+      "rank_score_0_10_v58": 3,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T47"
+    },
+    {
+      "blocker_type_v58": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "medium",
+      "next_data_source_v58": "exact fusion physical row table; PDF summaries are diagnostic only",
+      "rank_score_0_10_v58": 2,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T29"
+    },
+    {
+      "blocker_type_v58": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact fusion physical row table; PDF summaries are diagnostic only",
+      "rank_score_0_10_v58": 2,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T28"
+    },
+    {
+      "blocker_type_v58": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact fusion physical row table; PDF summaries are diagnostic only",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T26"
+    },
+    {
+      "blocker_type_v58": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact fusion physical row table; PDF summaries are diagnostic only",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T27"
+    },
+    {
+      "blocker_type_v58": "raw_fusion_row_table_required_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "exact fusion physical row table; PDF summaries are diagnostic only",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T30"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T33"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T35"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T36"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T37"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T38"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T39"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T40"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T41"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T42"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T43"
+    },
+    {
+      "blocker_type_v58": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T46"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T49"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T54"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T55"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T56"
+    },
+    {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T58"
+    },
+    {
+      "blocker_type_v58": "bound_only_by_design",
+      "confirmation_legally_possible_v58": false,
+      "confirmation_status_v58": "not_confirmable_by_design",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "constraint/upper-limit table only; no positive-confirm route",
+      "rank_score_0_10_v58": 0,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T50"
+    },
+    {
+      "blocker_type_v58": "bound_only_by_design",
+      "confirmation_legally_possible_v58": false,
+      "confirmation_status_v58": "not_confirmable_by_design",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "constraint/upper-limit table only; no positive-confirm route",
+      "rank_score_0_10_v58": 0,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T51"
+    },
+    {
+      "blocker_type_v58": "bound_only_by_design",
+      "confirmation_legally_possible_v58": false,
+      "confirmation_status_v58": "not_confirmable_by_design",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "constraint/upper-limit table only; no positive-confirm route",
+      "rank_score_0_10_v58": 0,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T52"
+    }
+  ]
+}

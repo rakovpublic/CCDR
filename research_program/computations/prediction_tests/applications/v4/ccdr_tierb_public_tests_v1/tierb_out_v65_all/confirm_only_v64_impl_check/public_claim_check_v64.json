@@ -1,0 +1,18 @@
+{
+  "allowed_claim_source": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+  "claim_summary_source_v64": "claim_summary_v64.json",
+  "confirmed_public_now": [
+    "T48"
+  ],
+  "legacy_confirm_fields_are_not_public_claims_v64": true,
+  "not_public_confirms_v64": {
+    "anchor_only": [],
+    "bound_only": [],
+    "data_limited": [],
+    "diagnostic_only": [],
+    "near_confirm_requires_exact_rows": [],
+    "synthetic_or_engineering": []
+  },
+  "pass_v64": true,
+  "schema": "ccdr-tierb-public-claim-check-v64"
+}

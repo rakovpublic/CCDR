@@ -1,0 +1,39 @@
+{
+  "last_stage_v72": "after_confirm_only",
+  "last_utc_v72": "2026-05-18T21:10:29Z",
+  "schema": "ccdr-v72-run-checkpoint",
+  "stages_v72": [
+    {
+      "cache": "tierb_cache_v72_all",
+      "harvest_public_sources_v67": false,
+      "outdir_v72": "tierb_out_v72_impl_wrapper_check",
+      "requested_confirm_tests_v72": [
+        "T46",
+        "T48"
+      ],
+      "stage_v72": "start",
+      "utc_v72": "2026-05-18T21:09:44Z"
+    },
+    {
+      "auto_added_confirm_tests_v72": [],
+      "command_v72": [
+        "C:\\Users\\dmytr\\miniforge3\\python.exe",
+        "run_confirm_only_v64.py",
+        "--outdir",
+        "tierb_out_v72_impl_wrapper_check\\confirm_only_v64",
+        "--cache",
+        "tierb_cache_v72_all",
+        "--only",
+        "T46",
+        "T48"
+      ],
+      "stage_v72": "before_confirm_only",
+      "utc_v72": "2026-05-18T21:09:44Z"
+    },
+    {
+      "confirm_only_returncode": 0,
+      "stage_v72": "after_confirm_only",
+      "utc_v72": "2026-05-18T21:10:29Z"
+    }
+  ]
+}

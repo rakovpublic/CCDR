@@ -1,9 +1,0 @@
-{
-  "error": "",
-  "error_type": "MemoryError",
-  "generated_utc": "2026-04-30T18:32:10Z",
-  "schema": "ccdr-tierb-result-v1",
-  "status": "error",
-  "test_id": "T53",
-  "traceback": "Traceback (most recent call last):\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tests\\test53_biological_symmetry_protein_folding_proxy.py\", line 21, in main\n    result = run_test(\"T53\", args)\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py\", line 1039, in run_test\n    result = runner(args)\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py\", line 730, in run_t53\n    probe = _manifest_table_probe(\"T53\", args, manifest)\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py\", line 249, in _manifest_table_probe\n    rec = inspect_data_source(url, \"discovered_link\", is_discovery=is_discovery)\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py\", line 226, in inspect_data_source\n    links, diag = _structured_links_from_json_or_html(data, url, meta)\n                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\applications\\v4\\ccdr_tierb_public_tests_v1\\tierb\\tierb_runner.py\", line 132, in _structured_links_from_json_or_html\n    text = data.decode(\"utf-8\", errors=\"replace\")\nMemoryError\n"
-}

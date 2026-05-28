@@ -12,7 +12,7 @@ META = {
   },
   "group": "cosmology",
   "interpretation": "Uses public CobayaSampler bao_data DESI DR2 BAO files instead of DESI file-server URLs that returned 401.",
-  "kind": "bao_grid_positive_v8",
+  "kind": "p39_likelihood_gate_v22",
   "prediction_id": "P39",
   "prediction_name": "P39 DESI DR2 BAO grid positive-compatible",
   "sources": [

@@ -1,0 +1,155 @@
+{
+  "artifact_version": "v69",
+  "claim_policy_v69": "v69 parses public/cache .par/.tim/archive text for pulsar coordinates and rescans residual/TOA/kappa products. Confirmation still requires real residual-kappa pairs, shuffle p<=0.05, top-weight stability, and a predeclared sign.",
+  "coordinate_rows_preview": [],
+  "manual_fill_required": false,
+  "n_join_like_rows": 158,
+  "n_par_coordinates": 0,
+  "n_residual_kappa_pairs": 158,
+  "predeclared_sign": false,
+  "scan_audit_v67": [],
+  "scan_audit_v69": [
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_public_residual_kappa_source_scan_v73_AUTO_PUBLIC.json",
+      "sha256": "7bb5ee2dd388143856c5507593d103243c20fdfae09b6def0f38f8492e12cb1f"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 61,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_direct_res_parser_v79_AUTO_PUBLIC.json",
+      "sha256": "9218ddf2cfc4bdddf06f21ee746410a42abb96c9cbe8edd1770226efa8a92dea"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 2,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_join_builder_v74_AUTO_PUBLIC.json",
+      "sha256": "df2a3cc889b4868a56055dbaf722661142196f61d79055c14e4a72a9bea2bb96"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 17,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_join_v69_AUTO_PUBLIC.json",
+      "sha256": "34359fd74d3318f1ab1db3183a5d78743adef1e21e68a36a22cf92782c828d89"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 12,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_join_v78_AUTO_PUBLIC.json",
+      "sha256": "1bcea83ba6d1d7c6a48ec3bfa79b1f23a2219ded197e33f45de0ee38c53d48cb"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_pair_recovery_v76_AUTO_PUBLIC.json",
+      "sha256": "7ff316cbb572157e38aefb52c7a57e2cf34e62c3402fe8577fb91f6f3a9073ae"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 17,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_public_only_v72_AUTO_PUBLIC.json",
+      "sha256": "89766e7d104edfb90ee2ccb4008bd20a0185a64453dc5dd857205d73b13c2e67"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_kappa_signed_gate_v70_AUTO_PUBLIC.json",
+      "sha256": "1eb960cef050a23728e1369e5605d2a204778795d61b063ae128748e6a179354"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 2,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_residual_source_manifest_v77_AUTO_PUBLIC.json",
+      "sha256": "34338c37ba6e29377fa5d2853cbd0e052c13d217bb6448b8ae0e2c99aa56e3a9"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_toa_weighted_residual_recovery_v75_AUTO_PUBLIC.json",
+      "sha256": "5e24e68880c96bd58a4805739e53eb3b09861a49524b443df1d23c3135e46d19"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_recovery_v66_AUTO_PUBLIC.json",
+      "sha256": "fe8a4c407d45322189d288ddc12f36bb4b16a5fa1b7d66e79446717285e91680"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 2,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v57_AUTO.json",
+      "sha256": "485eb1f8479514e5d7c1584cd58ea4ab5405d94b8ab60a6a1ed5723a8487af38"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 2,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v58_AUTO.json",
+      "sha256": "485eb1f8479514e5d7c1584cd58ea4ab5405d94b8ab60a6a1ed5723a8487af38"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 3,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v59_AUTO_PUBLIC.json",
+      "sha256": "3043cd2ded3b6e7827c13cc06210136b4f0b6093054f1b5da1de3353178c5442"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 3,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v60_AUTO_PUBLIC.json",
+      "sha256": "3043cd2ded3b6e7827c13cc06210136b4f0b6093054f1b5da1de3353178c5442"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v67_AUTO_PUBLIC.json",
+      "sha256": "395da3e0b25da5d5b79ec78df3be44a5d762db7e7675d9fdc7a41cef85d93d26"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\pta_weighted_kappa_residual_v68_AUTO_PUBLIC.json",
+      "sha256": "6c834f82978bbf9892f7c806386231a87c54829c5b716ae8d06ba1ed75467cb5"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 4,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p30_euclid_cross_route_kappa_cells_v79_AUTO_PUBLIC.json",
+      "sha256": "992a8f2c4ce25b094fc7ce685bbbf506516db102a7ec5f578ab498221f281cd1"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p30_euclid_kappa_cell_join_v76_AUTO_PUBLIC.json",
+      "sha256": "71c5649ac4260b463bb82c1c5f89a8c40b622489d4d9ae39bdabb113b91bb546"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 3,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p30_euclid_kappa_cell_join_v78_AUTO_PUBLIC.json",
+      "sha256": "6ac1df58ef756f491aeeaa2d2ab3af7362fa070a4e0cb276b49661e7aafd9e7e"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 13,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p30_euclid_kappa_sampler_manifest_v77_AUTO_PUBLIC.json",
+      "sha256": "46379ce4d95867fff63e7bc33a59121ca6212542877502111d22e5e26391bf11"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 1,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\measurements\\p30_second_route_kappa_join_v76_AUTO_PUBLIC.json",
+      "sha256": "71c5649ac4260b463bb82c1c5f89a8c40b622489d4d9ae39bdabb113b91bb546"
+    },
+    {
+      "n_coordinates": 0,
+      "n_join_rows": 8,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_sdss_core_curl_projected_residual_v35.json",
+      "sha256": "648f9a9df454551f844b1e91692c984f900aa82d0fdecbd25d588a6cd6210733"
+    }
+  ],
+  "sky_shuffle_p": 0.00390625,
+  "status": "pta_residual_kappa_join_rebuilt_from_par_tim_scan",
+  "top_weight_removal_stable": true,
+  "weighted_statistic": 1060.0408227848102
+}

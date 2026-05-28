@@ -1,0 +1,94 @@
+{
+  "bad_patch_count": 13,
+  "control_tension_classes": [
+    "curl_dominates_or_too_large",
+    "explicit_official_mask_missing_edge_proxy_only",
+    "field_jackknife_sign_instability",
+    "field_or_redshift_confounding_proxy_high",
+    "patch_imbalance_or_bad_patch_followup_required",
+    "patch_science_curl_correlation_high"
+  ],
+  "curl_abs_over_science_abs": 0.9632026858888424,
+  "curl_delta": -0.07596368893635795,
+  "diagnostic_class": "control_tension",
+  "edge_proximity_proxy": true,
+  "eligible_for_route_confirm_like": false,
+  "euclid_delta": -0.18983175996764104,
+  "field_jackknife_deltas": [
+    -0.11011642159669852,
+    0.041604876670123275,
+    -0.029884736425205335,
+    -0.026824230626393754
+  ],
+  "gate_version": "v61",
+  "manual_protocol_required": false,
+  "missing": [
+    "curl_dominates_or_too_large",
+    "explicit_official_mask_missing_edge_proxy_only",
+    "field_jackknife_sign_instability",
+    "field_or_redshift_confounding_proxy_high",
+    "patch_imbalance_or_bad_patch_followup_required",
+    "patch_science_curl_correlation_high"
+  ],
+  "n_opposite_sign_variants": 0,
+  "n_positive_same_sign_variants": 4,
+  "p30_control_tension_resolver_v62": {
+    "field_or_redshift_confounding_proxy": 0.75,
+    "galactic_cut_proxy_present": false,
+    "gate_version": "v62",
+    "mask_edge_proxy_from_finite_support": true,
+    "patch_imbalance_mean_abs_fraction": 0.3460618540732619,
+    "patch_science_curl_corr": 0.6576184145831757,
+    "recommended_next_computation": "rerun with official/empirical mask object propagated into every variant, reject patches predeclared by count/edge metrics before sign inspection",
+    "shared_mask_and_density_vector_recomputed_in_one_gate": true,
+    "variant_delta_signs": [
+      "positive",
+      "positive",
+      "positive",
+      "positive"
+    ],
+    "variant_delta_values": [
+      0.026242154995834557,
+      0.11400665025132184,
+      0.16917209541720887,
+      0.03334206975965103
+    ]
+  },
+  "route_sign_policy": "positive_high_minus_low_for_sdss",
+  "same_run_shared_mask_engine": true,
+  "science_variants": [
+    {
+      "delta": 0.026242154995834557,
+      "density_p": 0.015625,
+      "jackknife_same_sign": true,
+      "n": 20000,
+      "name": "f090",
+      "sky_p": 0.1875
+    },
+    {
+      "delta": 0.11400665025132184,
+      "density_p": 0.0,
+      "jackknife_same_sign": true,
+      "n": 20000,
+      "name": "f150",
+      "sky_p": 0.078125
+    },
+    {
+      "delta": 0.16917209541720887,
+      "density_p": 0.0,
+      "jackknife_same_sign": true,
+      "n": 20000,
+      "name": "tonly",
+      "sky_p": 0.0390625
+    },
+    {
+      "delta": 0.03334206975965103,
+      "density_p": 0.0,
+      "jackknife_same_sign": false,
+      "n": 20000,
+      "name": "cibdeproj",
+      "sky_p": 0.1484375
+    }
+  ],
+  "sdss_delta": 0.07886573620406669
+}

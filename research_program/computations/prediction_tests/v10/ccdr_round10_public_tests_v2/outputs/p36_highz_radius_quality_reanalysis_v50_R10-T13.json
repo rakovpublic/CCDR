@@ -1,0 +1,91 @@
+{
+  "gate": {
+    "eligible_for_confirm_like": false,
+    "large_radius_each_source_ge_20": false,
+    "large_radius_median_above_local": false,
+    "large_radius_rows_ge_30": false,
+    "large_radius_summary": {
+      "label": "radius_kpc_ge_0.5",
+      "median_a_m_s2": null,
+      "median_ratio_to_local_a0": null,
+      "n": 0,
+      "n_source_groups": 0,
+      "per_source_n": {},
+      "source_groups": []
+    },
+    "large_radius_two_source_groups": false,
+    "missing": [
+      "raw_unit_provenance_paths",
+      "non_output_unit_paths",
+      "large_radius_rows_ge_30",
+      "large_radius_median_above_local",
+      "large_radius_two_source_groups",
+      "large_radius_each_source_ge_20"
+    ],
+    "n_rows": 0,
+    "n_tiny_radius_lt_0p5": 0,
+    "non_output_unit_paths": false,
+    "promotion_rule": "v50 P36 high-z: a recoverable route can be reported from unit_provenance raw paths, but publication/global confirm requires large-radius rows from >=2 independent source groups with >=20 objects each after radius>=0.5 kpc cut.",
+    "radius_cut_summaries": [
+      {
+        "label": "radius_kpc_ge_0.3",
+        "median_a_m_s2": null,
+        "median_ratio_to_local_a0": null,
+        "n": 0,
+        "n_source_groups": 0,
+        "per_source_n": {},
+        "source_groups": []
+      },
+      {
+        "label": "radius_kpc_ge_0.5",
+        "median_a_m_s2": null,
+        "median_ratio_to_local_a0": null,
+        "n": 0,
+        "n_source_groups": 0,
+        "per_source_n": {},
+        "source_groups": []
+      },
+      {
+        "label": "radius_kpc_ge_0.75",
+        "median_a_m_s2": null,
+        "median_ratio_to_local_a0": null,
+        "n": 0,
+        "n_source_groups": 0,
+        "per_source_n": {},
+        "source_groups": []
+      },
+      {
+        "label": "radius_kpc_ge_1.0",
+        "median_a_m_s2": null,
+        "median_ratio_to_local_a0": null,
+        "n": 0,
+        "n_source_groups": 0,
+        "per_source_n": {},
+        "source_groups": []
+      },
+      {
+        "label": "radius_kpc_ge_1.5",
+        "median_a_m_s2": null,
+        "median_ratio_to_local_a0": null,
+        "n": 0,
+        "n_source_groups": 0,
+        "per_source_n": {},
+        "source_groups": []
+      },
+      {
+        "label": "radius_kpc_ge_2.0",
+        "median_a_m_s2": null,
+        "median_ratio_to_local_a0": null,
+        "n": 0,
+        "n_source_groups": 0,
+        "per_source_n": {},
+        "source_groups": []
+      }
+    ],
+    "raw_source_records": [],
+    "raw_unit_provenance_paths": false,
+    "tiny_radius_fraction": null,
+    "version": "v50_confirm_recovery_measurement_schema"
+  },
+  "rows_preview": []
+}

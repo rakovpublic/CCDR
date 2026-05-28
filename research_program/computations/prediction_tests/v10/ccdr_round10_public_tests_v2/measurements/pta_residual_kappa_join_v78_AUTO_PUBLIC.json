@@ -1,0 +1,153 @@
+{
+  "artifact_version": "v78",
+  "claim_policy_v78": "v78 parses residual/postfit archive members and joins residual rows to kappa rows by normalized pulsar id. TOA rows or residual filenames alone cannot confirm.",
+  "manual_fill_required": false,
+  "n_joined_residual_kappa_pairs": 0,
+  "n_kappa_pulsars": 0,
+  "n_kappa_rows": 0,
+  "n_residual_named_members_v77": 205,
+  "n_residual_pulsars": 0,
+  "n_residual_rows": 0,
+  "pairs_preview": [],
+  "source_audit": [
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_baseline_kappa_alm_data.fits",
+      "reason": null,
+      "sha256": "caf923c0c4ef74f8e498309a948f7291ed62c5e4071756d98caaf82c58498797"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_cibdeproj_kappa_alm.fits",
+      "reason": null,
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_curl_control_kappa_alm.fits",
+      "reason": null,
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f090_kappa_alm.fits",
+      "reason": null,
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_f150_kappa_alm.fits",
+      "reason": null,
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_tonly_kappa_alm.fits",
+      "reason": null,
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_cibdeproj_kappa_alm.fits",
+      "reason": null,
+      "sha256": "ad222bf22166c836c2f9b5ad35ec92ef045364d12fd244c6ce9962363343df9f"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_curl_control_kappa_alm.fits",
+      "reason": null,
+      "sha256": "69aad2943001ef25ee9b0136928df24de9c2a0d85c76aed67f60d1462cb157c3"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f090_kappa_alm.fits",
+      "reason": null,
+      "sha256": "804c4bbf2976ad28298d1e4db1f1813392ebf41d14cbc1159d38bb18b209d7c8"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_f150_kappa_alm.fits",
+      "reason": null,
+      "sha256": "3c4d52bc5604fee7aff5f5d38b70b3f58a70e6ebb4cbcae258a421c1a31e736e"
+    },
+    {
+      "archive_member": null,
+      "archive_path": null,
+      "error": null,
+      "n_direct_pairs": 0,
+      "n_kappa_rows": 0,
+      "n_residual_rows": 0,
+      "n_rows": 50000,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\act_dr6_v29_tonly_kappa_alm.fits",
+      "reason": null,
+      "sha256": "530bfe6424826cd69bd33663ea0770212550b351d72037a100fc72691ec45e75"
+    }
+  ],
+  "statistic": {
+    "n_pairs": 0,
+    "public_one_sided_signed_sky_shuffle_p": null,
+    "top_weight_removal_stable": false,
+    "weighted_statistic": null
+  },
+  "status": "pta_residual_named_members_unparsed_v78"
+}

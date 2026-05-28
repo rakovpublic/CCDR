@@ -1,0 +1,68 @@
+{
+  "artifact_version": "v71",
+  "claim_policy_v71": "v71 fixes case-insensitive event discovery and keeps the strict multi-event gate: at least two public strain events, detector split, off-source/time-slide nulls, injection recovery, and event LOO stability.",
+  "detector_fits_from_v69": {
+    "H1": {
+      "delta_chi2_gr_minus_ccdr": 0.19245570165192502,
+      "max_offsource_null_delta_chi2": 0.4507157321553559,
+      "software_injection_recovery_passed": true,
+      "time_slide_p": 0.3125
+    },
+    "L1": {
+      "delta_chi2_gr_minus_ccdr": 5.3030541482511095,
+      "max_offsource_null_delta_chi2": 6.136200453515525,
+      "software_injection_recovery_passed": true,
+      "time_slide_p": 0.07692307692307693
+    }
+  },
+  "event_ids_seen": [
+    "GW150914"
+  ],
+  "manual_fill_required": false,
+  "max_time_slide_p": 0.3125,
+  "min_detector_delta_chi2": 0.19245570165192502,
+  "software_injection_recovery_passed": true,
+  "status": "multi_event_strain_cache_indexed",
+  "strain_paths_preview": [
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v45__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__H-H1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_16KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126257415-4096.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_v46__L-L1_GWOSC_4KHZ_R1-1126259447-32.hdf5",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.gwf",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126257415-4096.txt.gz",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126259447-32.gwf",
+    "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p32_gw150914_strain_v44__H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz"
+  ]
+}

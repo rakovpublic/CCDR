@@ -1,0 +1,3438 @@
+{
+  "analysis_note": "Strict v3 public-data probe. Generic article/PDF/HTML term-number extraction is disabled. A result becomes partial/ok only if a direct public structured table has named physical columns required by the test; otherwise data_limited.",
+  "auto_data_improvements_v34": {},
+  "auto_data_improvements_v35": {},
+  "auto_data_improvements_v37": {},
+  "auto_data_improvements_v38": {},
+  "auto_data_improvements_v39": {},
+  "auto_data_improvements_v40": {},
+  "auto_data_improvements_v41": {},
+  "auto_data_improvements_v42": {},
+  "auto_data_improvements_v43": {},
+  "auto_data_improvements_v44": {},
+  "auto_data_improvements_v45": {},
+  "auto_data_improvements_v46": {},
+  "auto_data_improvements_v47": {},
+  "auto_data_improvements_v48": {},
+  "auto_data_improvements_v49": {},
+  "auto_data_improvements_v50": {},
+  "auto_data_improvements_v51": {},
+  "auto_data_improvements_v52": {},
+  "auto_data_improvements_v53": {},
+  "auto_data_improvements_v56": {},
+  "auto_data_improvements_v57": {},
+  "auto_data_improvements_v58": {},
+  "auto_data_improvements_v59": {},
+  "auto_generated_inputs_v33": {
+    "generated_files": [],
+    "manual_or_user_csv_required": false,
+    "status": "auto_generation_attempted"
+  },
+  "auto_input_policy_v33": {
+    "all_tests_run_together": true,
+    "commit_generated_csv_required": false,
+    "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+    "manual_or_user_filled_csv_required": false,
+    "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+  },
+  "auto_primary_source_hunt_v33": {
+    "audit_csv": "data/generated/t55_primary_table_hunt_audit_v33.csv",
+    "child_urls_extracted": 0,
+    "manifest": "data/primary_table_candidate_manifest_v33.csv",
+    "manifest_rows": 1,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "NASA space physics data facility CDAWeb",
+        "meta": {
+          "content_type": "text/html; charset=UTF-8",
+          "error": null,
+          "final_url": "https://cdaweb.gsfc.nasa.gov/",
+          "ok": true,
+          "status_code": 200
+        },
+        "notes": "spacecraft radiation/particle time series; anomaly labels usually missing",
+        "source_kind": "manual_candidate",
+        "status": "downloaded_scored",
+        "tables": [
+          {
+            "columns": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "numeric_columns": [],
+            "passes_primary_table_gate": false,
+            "required_group_report": {
+              "columns": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "anomaly|event|upset|radiation|dose|SEE|SEU"
+                ],
+                [
+                  "spacecraft|satellite|mission|instrument"
+                ],
+                [
+                  "time|date|rate|count|flux"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              1,
+              5
+            ],
+            "source_url": "https://cdaweb.gsfc.nasa.gov/"
+          },
+          {
+            "columns": [
+              "0",
+              "1"
+            ],
+            "numeric_columns": [],
+            "passes_primary_table_gate": false,
+            "required_group_report": {
+              "columns": [
+                "0",
+                "1"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "anomaly|event|upset|radiation|dose|SEE|SEU"
+                ],
+                [
+                  "spacecraft|satellite|mission|instrument"
+                ],
+                [
+                  "time|date|rate|count|flux"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              2,
+              2
+            ],
+            "source_url": "https://cdaweb.gsfc.nasa.gov/"
+          },
+          {
+            "columns": [
+              "0"
+            ],
+            "numeric_columns": [],
+            "passes_primary_table_gate": false,
+            "required_group_report": {
+              "columns": [
+                "0"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "anomaly|event|upset|radiation|dose|SEE|SEU"
+                ],
+                [
+                  "spacecraft|satellite|mission|instrument"
+                ],
+                [
+                  "time|date|rate|count|flux"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              8,
+              1
+            ],
+            "source_url": "https://cdaweb.gsfc.nasa.gov/"
+          },
+          {
+            "columns": [
+              "0"
+            ],
+            "numeric_columns": [],
+            "passes_primary_table_gate": false,
+            "required_group_report": {
+              "columns": [
+                "0"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "anomaly|event|upset|radiation|dose|SEE|SEU"
+                ],
+                [
+                  "spacecraft|satellite|mission|instrument"
+                ],
+                [
+                  "time|date|rate|count|flux"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              1,
+              1
+            ],
+            "source_url": "https://cdaweb.gsfc.nasa.gov/"
+          },
+          {
+            "columns": [
+              "0",
+              "1"
+            ],
+            "numeric_columns": [],
+            "passes_primary_table_gate": false,
+            "required_group_report": {
+              "columns": [
+                "0",
+                "1"
+              ],
+              "matched_groups": [],
+              "missing_groups": [
+                [
+                  "anomaly|event|upset|radiation|dose|SEE|SEU"
+                ],
+                [
+                  "spacecraft|satellite|mission|instrument"
+                ],
+                [
+                  "time|date|rate|count|flux"
+                ]
+              ],
+              "ok": false
+            },
+            "shape": [
+              1,
+              2
+            ],
+            "source_url": "https://cdaweb.gsfc.nasa.gov/"
+          }
+        ],
+        "url": "https://cdaweb.gsfc.nasa.gov/"
+      }
+    ]
+  },
+  "bound_only_gate_v34": null,
+  "candidate_works_count": 50,
+  "candidate_works_sample": [
+    {
+      "cited_by_count": 180,
+      "doi": "https://doi.org/10.1029/2002je002038",
+      "id": "https://openalex.org/W1972414193",
+      "landing_page_url": "https://doi.org/10.1029/2002je002038",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2002JE002038"
+      },
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2002JE002038",
+      "primary_location": {
+        "id": "doi:10.1029/2002je002038",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1029/2002je002038",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2002JE002038",
+        "raw_source_name": "Journal of Geophysical Research: Planets",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Journal of Geophysical Research Atmospheres",
+          "host_organization": "https://openalex.org/P4310315809",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315809"
+          ],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
+          "host_organization_name": "American Geophysical Union",
+          "id": "https://openalex.org/S207178839",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0148-0227",
+            "2156-2202"
+          ],
+          "issn_l": "0148-0227",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Mars Exploration Rover mission",
+      "type": "article",
+      "year": 2003
+    },
+    {
+      "cited_by_count": 132,
+      "doi": "https://doi.org/10.1088/1361-6579/acead2",
+      "id": "https://openalex.org/W4385285628",
+      "landing_page_url": "https://doi.org/10.1088/1361-6579/acead2",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://iopscience.iop.org/article/10.1088/1361-6579/acead2/pdf"
+      },
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-6579/acead2/pdf",
+      "primary_location": {
+        "id": "doi:10.1088/1361-6579/acead2",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1088/1361-6579/acead2",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-6579/acead2/pdf",
+        "raw_source_name": "Physiological Measurement",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Physiological Measurement",
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "host_organization_name": "IOP Publishing",
+          "id": "https://openalex.org/S3164724",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0967-3334",
+            "1361-6579"
+          ],
+          "issn_l": "0967-3334",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "The 2023 wearable photoplethysmography roadmap",
+      "type": "review",
+      "year": 2023
+    },
+    {
+      "cited_by_count": 96,
+      "doi": "https://doi.org/10.25080/majora-629e541a-014",
+      "id": "https://openalex.org/W4302317665",
+      "landing_page_url": "https://doi.org/10.25080/majora-629e541a-014",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://conference.scipy.org/proceedings/scipy2016/pdfs/proceedings.pdf"
+      },
+      "pdf_url": "https://conference.scipy.org/proceedings/scipy2016/pdfs/proceedings.pdf",
+      "primary_location": {
+        "id": "doi:10.25080/majora-629e541a-014",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.25080/majora-629e541a-014",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://conference.scipy.org/proceedings/scipy2016/pdfs/proceedings.pdf",
+        "raw_source_name": "Proceedings of the Python in Science Conference",
+        "raw_type": "proceedings",
+        "source": {
+          "display_name": "Proceedings of the Python in Science Conferences",
+          "host_organization": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "host_organization_name": null,
+          "id": "https://openalex.org/S4220651651",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "2575-9752"
+          ],
+          "issn_l": "2575-9752",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Proceedings of the 15th Python in Science Conference",
+      "type": "paratext",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 41,
+      "doi": "https://doi.org/10.1002/2017sw001617",
+      "id": "https://openalex.org/W2671185684",
+      "landing_page_url": "https://doi.org/10.1002/2017sw001617",
+      "open_access": {
+        "any_repository_has_fulltext": false,
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017SW001617"
+      },
+      "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017SW001617",
+      "primary_location": {
+        "id": "doi:10.1002/2017sw001617",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1002/2017sw001617",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017SW001617",
+        "raw_source_name": "Space Weather",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Space Weather",
+          "host_organization": "https://openalex.org/P4310315809",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315809"
+          ],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
+          "host_organization_name": "American Geophysical Union",
+          "id": "https://openalex.org/S166492742",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": false,
+          "issn": [
+            "1542-7390"
+          ],
+          "issn_l": "1542-7390",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Modeling solar energetic particle events using ENLIL heliosphere simulations",
+      "type": "article",
+      "year": 2017
+    },
+    {
+      "cited_by_count": 22,
+      "doi": "https://doi.org/10.1002/2017ja024578",
+      "id": "https://openalex.org/W2756992131",
+      "landing_page_url": "https://doi.org/10.1002/2017ja024578",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://insu.hal.science/insu-03676937/document"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1002/2017ja024578",
+        "is_accepted": true,
+        "is_oa": false,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1002/2017ja024578",
+        "license": null,
+        "license_id": null,
+        "pdf_url": null,
+        "raw_source_name": "Journal of Geophysical Research: Space Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Journal of Geophysical Research Space Physics",
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "host_organization_name": "Wiley",
+          "id": "https://openalex.org/S4210195943",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "2169-9380",
+            "2169-9402"
+          ],
+          "issn_l": "2169-9380",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Ion Heating in the Martian Ionosphere",
+      "type": "article",
+      "year": 2017
+    },
+    {
+      "cited_by_count": 6,
+      "doi": "https://doi.org/10.1002/2015ja022185",
+      "id": "https://openalex.org/W2341472006",
+      "landing_page_url": "https://doi.org/10.1002/2015ja022185",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JA022185"
+      },
+      "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JA022185",
+      "primary_location": {
+        "id": "doi:10.1002/2015ja022185",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1002/2015ja022185",
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JA022185",
+        "raw_source_name": "Journal of Geophysical Research: Space Physics",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Journal of Geophysical Research Space Physics",
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "host_organization_name": "Wiley",
+          "id": "https://openalex.org/S4210195943",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "2169-9380",
+            "2169-9402"
+          ],
+          "issn_l": "2169-9380",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "The prolonged southward IMF\u2010<i>B<sub>z</sub></i> event of 2\u20134 May 1998: Solar, interplanetary causes and geomagnetic consequences",
+      "type": "article",
+      "year": 2016
+    },
+    {
+      "cited_by_count": 15,
+      "doi": "https://doi.org/10.1016/j.icarus.2020.114207",
+      "id": "https://openalex.org/W3101131066",
+      "landing_page_url": "https://doi.org/10.1016/j.icarus.2020.114207",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S0019103520305406?via%3Dihub"
+      },
+      "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S0019103520305406?via%3Dihub",
+      "primary_location": {
+        "id": "doi:10.1016/j.icarus.2020.114207",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1016/j.icarus.2020.114207",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S0019103520305406?via%3Dihub",
+        "raw_source_name": "Icarus",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Icarus",
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "host_organization_name": "Elsevier BV",
+          "id": "https://openalex.org/S172501725",
+          "is_core": true,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": [
+            "0019-1035",
+            "1090-2643"
+          ],
+          "issn_l": "0019-1035",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Modelling martian dust devils using in-situ wind, pressure, and UV radiation measurements by Mars Science Laboratory",
+      "type": "article",
+      "year": 2020
+    },
+    {
+      "cited_by_count": 12,
+      "doi": "https://doi.org/10.1016/j.bjorl.2022.11.002",
+      "id": "https://openalex.org/W4310179113",
+      "landing_page_url": "https://doi.org/10.1016/j.bjorl.2022.11.002",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.1016/j.bjorl.2022.11.002"
+      },
+      "pdf_url": null,
+      "primary_location": {
+        "id": "doi:10.1016/j.bjorl.2022.11.002",
+        "is_accepted": true,
+        "is_oa": true,
+        "is_published": true,
+        "landing_page_url": "https://doi.org/10.1016/j.bjorl.2022.11.002",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": null,
+        "raw_source_name": "Brazilian Journal of Otorhinolaryngology",
+        "raw_type": "journal-article",
+        "source": {
+          "display_name": "Brazilian Journal of Otorhinolaryngology",
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "host_organization_name": "Elsevier BV",
+          "id": "https://openalex.org/S4210235820",
+          "is_core": true,
+          "is_in_doaj": true,
+          "is_oa": true,
+          "issn": [
+            "1808-8686",
+            "1808-8694"
+          ],
+          "issn_l": "1808-8686",
+          "type": "journal"
+        },
+        "version": "publishedVersion"
+      },
+      "title": "Task force Guideline of Brazilian Society of Otology \u2012 hearing loss in children \u2013 Part I \u2012 Evaluation",
+      "type": "review",
+      "year": 2022
+    },
+    {
+      "cited_by_count": 3,
+      "doi": null,
+      "id": "https://openalex.org/W3011191542",
+      "landing_page_url": "https://orbit.dtu.dk/en/publications/2e6eb7f0-84c5-4d7e-af92-e78da8c50e71",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://backend.orbit.dtu.dk/ws/files/90446367/20ypra_abstracts.pdf"
+      },
+      "pdf_url": "https://backend.orbit.dtu.dk/ws/files/90446367/20ypra_abstracts.pdf",
+      "primary_location": {
+        "id": "pmh:oai:pure.atira.dk:publications/2e6eb7f0-84c5-4d7e-af92-e78da8c50e71",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://orbit.dtu.dk/en/publications/2e6eb7f0-84c5-4d7e-af92-e78da8c50e71",
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "pdf_url": "https://backend.orbit.dtu.dk/ws/files/90446367/20ypra_abstracts.pdf",
+        "raw_source_name": "Jain , M , Andersen , O B , Stenseng , L &amp; Ouwehand , L 2012 , Sea surface height determination in the arctic ocean from Cryosat2 SAR data, the impact of using different empirical retrackers . in 20 years of progress in radar altimetry symposium : Abstract book . European Space Agency , Italy , pp. 70 , 20 years of progress in radar altimetry symposium , Venice , Italy , 24/09/2012 .",
+        "raw_type": "conferenceObject",
+        "source": {
+          "display_name": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+          "host_organization": "https://openalex.org/I96673099",
+          "host_organization_lineage": [
+            "https://openalex.org/I96673099"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Technical University of Denmark",
+          "id": "https://openalex.org/S4306400705",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Sea Surface Height Determination in the Arctic Ocean from Cryosat-2 SAR Data, the Impact of Using Different Empirical Retrackers",
+      "type": "article",
+      "year": 2013
+    },
+    {
+      "cited_by_count": 4,
+      "doi": null,
+      "id": "https://openalex.org/W3103426715",
+      "landing_page_url": "https://escholarship.org/uc/item/7cc02032",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://escholarship.org/uc/item/7cc02032"
+      },
+      "pdf_url": "https://escholarship.org/uc/item/7cc02032",
+      "primary_location": {
+        "id": "pmh:oai:escholarship.org/ark:/13030/qt7cc02032",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://escholarship.org/uc/item/7cc02032",
+        "license": null,
+        "license_id": null,
+        "pdf_url": "https://escholarship.org/uc/item/7cc02032",
+        "raw_source_name": "",
+        "raw_type": "etd",
+        "source": {
+          "display_name": "eScholarship (California Digital Library)",
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "California Digital Library",
+          "id": "https://openalex.org/S4306400115",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "Compounds of Modernity: National Order and the Other in Egypt (1940-present)",
+      "type": "article",
+      "year": 2015
+    },
+    {
+      "cited_by_count": 2,
+      "doi": null,
+      "id": "https://openalex.org/W3045141959",
+      "landing_page_url": "https://orbit.dtu.dk/en/publications/f9ce7233-3dc0-4804-9400-0e754b0a9a23",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://backend.orbit.dtu.dk/ws/files/90446339/20ypra_abstracts.pdf"
+      },
+      "pdf_url": "https://backend.orbit.dtu.dk/ws/files/90446339/20ypra_abstracts.pdf",
+      "primary_location": {
+        "id": "pmh:oai:pure.atira.dk:publications/f9ce7233-3dc0-4804-9400-0e754b0a9a23",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "https://orbit.dtu.dk/en/publications/f9ce7233-3dc0-4804-9400-0e754b0a9a23",
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "pdf_url": "https://backend.orbit.dtu.dk/ws/files/90446339/20ypra_abstracts.pdf",
+        "raw_source_name": "Knudsen , P &amp; Andersen , O B 2012 , A global mean ocean circulation estimation using goce gravity models - the DTU12MDT mean dynamic topography model . in 20 years of progress in radar altimetry symposium : Abstract book . European Space Agency , Italy , pp. 123 , 20 years of progress in radar altimetry symposium , Venice , Italy , 24/09/2012 .",
+        "raw_type": "conferenceObject",
+        "source": {
+          "display_name": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+          "host_organization": "https://openalex.org/I96673099",
+          "host_organization_lineage": [
+            "https://openalex.org/I96673099"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Technical University of Denmark",
+          "id": "https://openalex.org/S4306400705",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": false,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "A Global Mean Ocean Circulation Estimation Using GOCE Gravity Models- The DTU12MDT Mean Dynamic Topography Model",
+      "type": "article",
+      "year": 2013
+    },
+    {
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.48550/arxiv.2403.04333",
+      "id": "https://openalex.org/W4392616951",
+      "landing_page_url": "http://arxiv.org/abs/2403.04333",
+      "open_access": {
+        "any_repository_has_fulltext": true,
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://arxiv.org/pdf/2403.04333"
+      },
+      "pdf_url": "https://arxiv.org/pdf/2403.04333",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2403.04333",
+        "is_accepted": false,
+        "is_oa": true,
+        "is_published": false,
+        "landing_page_url": "http://arxiv.org/abs/2403.04333",
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "pdf_url": "https://arxiv.org/pdf/2403.04333",
+        "raw_source_name": "",
+        "raw_type": "text",
+        "source": {
+          "display_name": "arXiv (Cornell University)",
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "host_organization_name": "Cornell University",
+          "id": "https://openalex.org/S4306400194",
+          "is_core": false,
+          "is_in_doaj": false,
+          "is_oa": true,
+          "issn": null,
+          "issn_l": null,
+          "type": "repository"
+        },
+        "version": "submittedVersion"
+      },
+      "title": "A Survey of Application of Machine Learning in Wireless Indoor Positioning Systems",
+      "type": "preprint",
+      "year": 2024
+    }
+  ],
+  "confirm_allowed_now_v30": false,
+  "confirm_allowed_now_v32": false,
+  "confirm_allowed_now_v33": false,
+  "confirm_allowed_now_v34": false,
+  "confirm_allowed_now_v35": false,
+  "confirm_allowed_now_v36": false,
+  "confirm_allowed_now_v37": false,
+  "confirm_allowed_now_v38": false,
+  "confirm_allowed_now_v39": false,
+  "confirm_allowed_now_v40": false,
+  "confirm_allowed_now_v41": false,
+  "confirm_allowed_now_v42": false,
+  "confirm_allowed_now_v43": false,
+  "confirm_allowed_now_v44": false,
+  "confirm_allowed_now_v45": false,
+  "confirm_allowed_now_v46": false,
+  "confirm_allowed_now_v47": false,
+  "confirm_allowed_now_v48": false,
+  "confirm_allowed_now_v49": false,
+  "confirm_allowed_now_v50": false,
+  "confirm_allowed_now_v51": false,
+  "confirm_allowed_now_v52": false,
+  "confirm_allowed_now_v53": false,
+  "confirm_allowed_now_v56": false,
+  "confirm_allowed_now_v57": false,
+  "confirm_allowed_now_v58": false,
+  "confirm_allowed_now_v59": false,
+  "confirm_target_v52": {
+    "blocker_type_v52": "data_limited",
+    "confirmation_legally_possible_v52": true,
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "expected_effort_v52": "high",
+    "next_data_source_v52": "not a current confirm target",
+    "rank_score_0_10_v52": 1,
+    "test_id": "T55"
+  },
+  "confirm_target_v53": {
+    "blocker_type_v53": "data_limited",
+    "confirmation_legally_possible_v53": true,
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "expected_effort_v53": "high",
+    "next_data_source_v53": "not a current confirm target",
+    "rank_score_0_10_v53": 1,
+    "test_id": "T55"
+  },
+  "confirm_target_v56": {
+    "blocker_type_v56": "data_limited",
+    "confirmation_legally_possible_v56": true,
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "expected_effort_v56": "high",
+    "next_data_source_v56": "not a current confirm target",
+    "rank_score_0_10_v56": 1,
+    "test_id": "T55"
+  },
+  "confirm_target_v57": {
+    "blocker_type_v57": "data_limited",
+    "confirmation_legally_possible_v57": true,
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "expected_effort_v57": "high",
+    "next_data_source_v57": "not a current confirm target",
+    "rank_score_0_10_v57": 1,
+    "test_id": "T55"
+  },
+  "confirm_target_v58": {
+    "blocker_type_v58": "data_limited",
+    "confirmation_legally_possible_v58": true,
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "expected_effort_v58": "high",
+    "next_data_source_v58": "not a current confirm target",
+    "rank_score_0_10_v58": 1,
+    "schema": "ccdr-tierb-confirm-target-v58",
+    "test_id": "T55"
+  },
+  "confirm_target_v59": {
+    "blocker_type_v59": "data_limited",
+    "confirmation_legally_possible_v59": true,
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "expected_effort_v59": "high",
+    "next_data_source_v59": "test-specific exact structured source",
+    "rank_score_0_10_v59": 1,
+    "schema": "ccdr-tierb-confirm-target-v59",
+    "test_id": "T55"
+  },
+  "confirmation_blocker_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "confirmation_blocker_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "confirmation_blocker_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "confirmation_blocker_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "confirmation_blocker_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_blocker_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "public_confirm_allowed_now": false,
+    "single_next_blocker": "data_limited",
+    "strict_confirm_allowed_now": false,
+    "why_not_confirmed": "data_limited"
+  },
+  "confirmation_conflicts_v52": [],
+  "confirmation_conflicts_v53": [],
+  "confirmation_label_v39": "not_confirmed",
+  "confirmation_label_v40": "not_confirmed",
+  "confirmation_label_v41": "not_confirmed",
+  "confirmation_label_v42": "not_confirmed",
+  "confirmation_label_v43": "not_confirmed",
+  "confirmation_label_v44": "not_confirmed",
+  "confirmation_label_v45": "not_confirmed",
+  "confirmation_label_v46": "not_confirmed",
+  "confirmation_label_v47": "not_confirmed",
+  "confirmation_label_v48": "not_confirmed",
+  "confirmation_label_v49": "not_confirmed",
+  "confirmation_label_v50": "not_confirmed",
+  "confirmation_label_v51": "not_confirmed",
+  "confirmation_label_v52": "not_confirmed",
+  "confirmation_label_v53": "not_confirmed",
+  "confirmation_label_v56": "not_confirmed_data_limited",
+  "confirmation_label_v57": "not_confirmed_data_limited",
+  "confirmation_label_v58": "not_confirmed_data_limited",
+  "confirmation_label_v59": "not_confirmed_data_limited",
+  "confirmation_status_v52": "not_confirmed_data_limited",
+  "confirmation_status_v53": "not_confirmed_data_limited",
+  "confirmation_status_v56": "not_confirmed_data_limited",
+  "confirmation_status_v57": "not_confirmed_data_limited",
+  "confirmation_status_v58": "not_confirmed_data_limited",
+  "confirmation_status_v59": "not_confirmed_data_limited",
+  "data_status_v52": "data_limited",
+  "data_status_v53": "data_limited",
+  "data_status_v56": "data_limited",
+  "data_status_v57": "data_limited",
+  "data_status_v58": "data_limited",
+  "data_status_v59": "data_limited",
+  "discovered_data_links_sample": [
+    "https://doi.org/10.25080/Majora-629e541a-004",
+    "https://doi.org/10.25080/Majora-629e541a-005",
+    "https://doi.org/10.25080/Majora-629e541a-007",
+    "https://github.com/scipy-conference",
+    "https://github.com/scipy-conference/scipy_proceedings",
+    "https://orbit.dtu.dk/en/",
+    "https://orbit.dtu.dk/en/datasets/",
+    "http://sfx.cvt.dk/sfx_local?ctx_ver=Z39.88-2004&ctx_tim=2026-05-17T23%3A18%3A47UTC&ctx_enc=info%3Aofi%2FencUTF-8&url_ver=Z39.88-2004&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&rft.genre=bookitem&rft_val_fmt=info%3Aofi%2Fkev%3Afmt%3Abook&rfr_id=info%3Asid%2Fpure.atira.dk%3Apure&rft.atitle=Sea%20surface%20height%20determination%20in%20the%20arctic%20ocean%20from%20Cryosat2%20SAR%20data%2C%20the%20impact%20of%20using%20different%20empirical%20retrackers&rft.aulast=Jain&rft.aufirst=Maulik&rft.auinit=M&rft.date=2012&rft.pages=70&rft.btitle=20%20years%20of%20progress%20in%20radar%20altimetry%20symposium&rft.pub=European%20Space%20Agency&rft.place=Italy",
+    "https://orbit.dtu.dk/en/publications/sea-surface-height-determination-in-the-arctic-ocean-from-cryosat/",
+    "https://www.dtu.dk/english/about/strategy-policy/policies/privacy-policy",
+    "http://arxiv.org/src/2403.04333",
+    "http://resolver.tudelft.nl/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755#metadata",
+    "https://www.lib.cas.cz/asep/",
+    "http://aas.org/files/resources/dps_abstract_book.pdf",
+    "https://asep.lib.cas.cz/arl-cav/cs/detail/?zf=DATA&idx=cav_un_epca*0422607",
+    "https://creativecommons.org/public-domain/cc0/"
+  ],
+  "downloaded_sources": [
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\e03face38729_2002JE002038.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2002JE002038",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2002JE002038"
+      },
+      "title": "Mars Exploration Rover mission",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2002JE002038"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\5c95f1a9ce1f_2002je002038.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2002JE002038",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1029/2002je002038"
+      },
+      "title": "Mars Exploration Rover mission",
+      "url": "https://doi.org/10.1029/2002je002038"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\488320f13920_pdf.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=68f54519-fbfc-40cb-8aee-791daf52c7af&ssb=99971216702&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-6579%2Facead2%2Fpdf&ssi=41a3be50-cnvj-4372-bd92-a24bdefe889e&ssk=botmanager_support@radware.com&ssm=52676591172697009101751827904130&ssn=b703e4c7bf8432ff785e1c4cfe7a6998642068dbe793-3fe5-4f4a-9c5182&sso=1bde6282-801deee6679580e58c12f31d8f8d88d1b568fdca9a3f9ba5&ssp=34400731781779140039177916476688552&ssq=13815900344893705868103448927625827523237&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2Y5MDAwYzVkY2U4NTAtMzJiNy00MTAyLTgzOGItNTE2ZmMzNTc5NmNmMS0xNzc5MTAzNDQ4Mzc4MC04M2E4MWY0MDY2M2MwNmRiMTAiLCJfX3V6bWYiOiI3ZjkwMDA2OGRiZTc5My0zZmU1LTRmNGEtOTI4Mi04MDFkZWVlNjY3OTUxLTE3NzkxMDM0NDgzNzcwLTAwMzRkZGI1NzdiODRmNTBmODMxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://iopscience.iop.org/article/10.1088/1361-6579/acead2/pdf"
+      },
+      "title": "The 2023 wearable photoplethysmography roadmap",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6579/acead2/pdf"
+    },
+    {
+      "meta": {
+        "bytes": 14371,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\f7a3868423e5_acead2.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=0e6f60aa-01fd-46cb-adc6-82f94cbf13f5&ssb=88290265152&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1361-6579%2Facead2&ssi=1d5b3145-cnvj-4379-98d3-0c3d0014c021&ssk=botmanager_support@radware.com&ssm=84373672716824735107921450835981&ssn=151b31c1c975c042023acfb5346cd8cac24c8f2e4dc2-ae3b-4408-a2861c&sso=d8de86ed-bfa7f8fdc2749a43167bbdbe6da9658607499cba89951527&ssp=16875490831779134655177913442639411&ssq=85563270344905456253003449085304043680576&ssr=MzEuMjAyLjg5LjU3&sst=CCDR-TierB-PublicTests/1.0%20(+https://github.com/rakovpublic/CCDR)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA4ZjJlNGRjMi1hZTNiLTQ0MDgtYTZlZC1iZmE3ZjhmZGMyNzQxLTE3NzkxMDM0NDkzMzEwLTAwMzgzNjk5ZTc0M2E2MDI3ZDAxMCIsInV6bXgiOiI3ZjkwMDBlZjNhOTg3Mi0zOTQ1LTQ4NWUtOTQ3NC01Yzk4YjllY2VlOWMxLTE3NzkxMDM0NDkzMzEwLTA1YmRiYzQ5ODI4YjhjNDUxMCIsInJkIjoiaW9wLm9yZyJ9",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1088/1361-6579/acead2"
+      },
+      "title": "The 2023 wearable photoplethysmography roadmap",
+      "url": "https://doi.org/10.1088/1361-6579/acead2"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\59e9e133d728_proceedings.pdf",
+        "content_type": "text/html; charset=utf-8",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://conference.scipy.org/proceedings/scipy2016/pdfs/proceedings.pdf",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://conference.scipy.org/proceedings/scipy2016/pdfs/proceedings.pdf"
+      },
+      "title": "Proceedings of the 15th Python in Science Conference",
+      "url": "https://conference.scipy.org/proceedings/scipy2016/pdfs/proceedings.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 121720,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\eaecffd2996d_majora-629e541a-014.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://proceedings.scipy.org/articles/proceedings-2016",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.25080/majora-629e541a-014"
+      },
+      "title": "Proceedings of the 15th Python in Science Conference",
+      "url": "https://doi.org/10.25080/majora-629e541a-014"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\ee11b03f0824_2017SW001617.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017SW001617",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017SW001617"
+      },
+      "title": "Modeling solar energetic particle events using ENLIL heliosphere simulations",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017SW001617"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\6133bcc58b19_2017sw001617.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017SW001617",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1002/2017sw001617"
+      },
+      "title": "Modeling solar energetic particle events using ENLIL heliosphere simulations",
+      "url": "https://doi.org/10.1002/2017sw001617"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\6e7b6156bd8b_2017ja024578.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017JA024578",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1002/2017ja024578"
+      },
+      "title": "Ion Heating in the Martian Ionosphere",
+      "url": "https://doi.org/10.1002/2017ja024578"
+    },
+    {
+      "meta": {
+        "bytes": 2148910,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\b77df8ac3453_document.bin",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://insu.hal.science/insu-03676937/document",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://insu.hal.science/insu-03676937/document"
+      },
+      "title": "Ion Heating in the Martian Ionosphere",
+      "url": "https://insu.hal.science/insu-03676937/document"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\ada2937246f4_2015JA022185.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JA022185",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JA022185"
+      },
+      "title": "The prolonged southward IMF\u2010<i>B<sub>z</sub></i> event of 2\u20134 May 1998: Solar, interplanetary causes and geomagnetic consequences",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JA022185"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\37556bfd09d5_2015ja022185.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2015JA022185",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://doi.org/10.1002/2015ja022185"
+      },
+      "title": "The prolonged southward IMF\u2010<i>B<sub>z</sub></i> event of 2\u20134 May 1998: Solar, interplanetary causes and geomagnetic consequences",
+      "url": "https://doi.org/10.1002/2015ja022185"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\d8d4d0bd9330_S0019103520305406.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/am/pii/S0019103520305406?via%3Dihub",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://www.sciencedirect.com/science/article/am/pii/S0019103520305406?via%3Dihub"
+      },
+      "title": "Modelling martian dust devils using in-situ wind, pressure, and UV radiation measurements by Mars Science Laboratory",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0019103520305406?via%3Dihub"
+    },
+    {
+      "meta": {
+        "bytes": 2730,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\2c4a4b6079b6_j.icarus.2020.114207",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0019103520305406",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.icarus.2020.114207"
+      },
+      "title": "Modelling martian dust devils using in-situ wind, pressure, and UV radiation measurements by Mars Science Laboratory",
+      "url": "https://doi.org/10.1016/j.icarus.2020.114207"
+    },
+    {
+      "meta": {
+        "bytes": 2753,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\fca6cc6e56a6_j.bjorl.2022.11.002",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1808869422002257",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.1016/j.bjorl.2022.11.002"
+      },
+      "title": "Task force Guideline of Brazilian Society of Otology \u2012 hearing loss in children \u2013 Part I \u2012 Evaluation",
+      "url": "https://doi.org/10.1016/j.bjorl.2022.11.002"
+    },
+    {
+      "meta": {
+        "bytes": 2830052,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\e481c4be0477_20ypra_abstracts.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://backend.orbit.dtu.dk/ws/files/90446367/20ypra_abstracts.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://backend.orbit.dtu.dk/ws/files/90446367/20ypra_abstracts.pdf"
+      },
+      "title": "Sea Surface Height Determination in the Arctic Ocean from Cryosat-2 SAR Data, the Impact of Using Different Empirical Retrackers",
+      "url": "https://backend.orbit.dtu.dk/ws/files/90446367/20ypra_abstracts.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 49208,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\4cf4ddbc0069_2e6eb7f0-84c5-4d7e-af92-e78da8c50e71.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbit.dtu.dk/en/publications/sea-surface-height-determination-in-the-arctic-ocean-from-cryosat/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbit.dtu.dk/en/publications/2e6eb7f0-84c5-4d7e-af92-e78da8c50e71"
+      },
+      "title": "Sea Surface Height Determination in the Arctic Ocean from Cryosat-2 SAR Data, the Impact of Using Different Empirical Retrackers",
+      "url": "https://orbit.dtu.dk/en/publications/2e6eb7f0-84c5-4d7e-af92-e78da8c50e71"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\08c52514f31b_7cc02032.bin",
+        "content_type": "text/html",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://escholarship.org/uc/item/7cc02032",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://escholarship.org/uc/item/7cc02032"
+      },
+      "title": "Compounds of Modernity: National Order and the Other in Egypt (1940-present)",
+      "url": "https://escholarship.org/uc/item/7cc02032"
+    },
+    {
+      "meta": {
+        "bytes": 2830010,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\6450ceaa0e95_20ypra_abstracts.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://backend.orbit.dtu.dk/ws/files/90446339/20ypra_abstracts.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://backend.orbit.dtu.dk/ws/files/90446339/20ypra_abstracts.pdf"
+      },
+      "title": "A Global Mean Ocean Circulation Estimation Using GOCE Gravity Models- The DTU12MDT Mean Dynamic Topography Model",
+      "url": "https://backend.orbit.dtu.dk/ws/files/90446339/20ypra_abstracts.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 49698,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\20e29496a71b_f9ce7233-3dc0-4804-9400-0e754b0a9a23.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbit.dtu.dk/en/publications/a-global-mean-ocean-circulation-estimation-using-goce-gravity-mod/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbit.dtu.dk/en/publications/f9ce7233-3dc0-4804-9400-0e754b0a9a23"
+      },
+      "title": "A Global Mean Ocean Circulation Estimation Using GOCE Gravity Models- The DTU12MDT Mean Dynamic Topography Model",
+      "url": "https://orbit.dtu.dk/en/publications/f9ce7233-3dc0-4804-9400-0e754b0a9a23"
+    },
+    {
+      "meta": {
+        "bytes": 3048371,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\d84b17eae288_2403.04333",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://arxiv.org/pdf/2403.04333",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://arxiv.org/pdf/2403.04333"
+      },
+      "title": "A Survey of Application of Machine Learning in Wireless Indoor Positioning Systems",
+      "url": "https://arxiv.org/pdf/2403.04333"
+    },
+    {
+      "meta": {
+        "bytes": 46377,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\1b1d049b55e8_2403.04333",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://arxiv.org/abs/2403.04333",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/abs/2403.04333"
+      },
+      "title": "A Survey of Application of Machine Learning in Wireless Indoor Positioning Systems",
+      "url": "http://arxiv.org/abs/2403.04333"
+    },
+    {
+      "meta": {
+        "bytes": 30675,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\f01489521e29_230252.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/230252",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/230252"
+      },
+      "title": "Juno Observations of Plasma Waves Associated with the Io Footprint Tail",
+      "url": "https://orbi.uliege.be/handle/2268/230252"
+    },
+    {
+      "meta": {
+        "bytes": 41858,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\737c73ca638d_227330.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/227330",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/227330"
+      },
+      "title": "Jupiter\u2019s mesmerizing auroral show (PJ13); HST ultraviolet observations near and far from Juno perijoves",
+      "url": "https://orbi.uliege.be/handle/2268/227330"
+    },
+    {
+      "meta": {
+        "bytes": 32482,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\f54f12c0dcde_230251.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/230251",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/230251"
+      },
+      "title": "Combined Juno observations and modeling of th e Jovian auroral electron interaction with the Jovian upper atmosphere",
+      "url": "https://orbi.uliege.be/handle/2268/230251"
+    },
+    {
+      "meta": {
+        "bytes": 33444,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\57622a94359e_230278.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/230278",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/230278"
+      },
+      "title": "Auroral acceleration at Jupiter and its possible role in creating Jupiter\u2019s uniquely energetic radiation belts",
+      "url": "https://orbi.uliege.be/handle/2268/230278"
+    },
+    {
+      "meta": {
+        "bytes": 32654,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\6f7437b0861f_230284.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/230284",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/230284"
+      },
+      "title": "Juno Observations Connected to the Io Footprint Tail Aurora",
+      "url": "https://orbi.uliege.be/handle/2268/230284"
+    },
+    {
+      "meta": {
+        "bytes": 30121,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\1c5a3158dfd3_230281.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/230281",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/230281"
+      },
+      "title": "Goings-on in Jupiter's auroras: Periodic emission within Jupiter\u2019s main auroral oval and short timescale variations in the motion of the Ganymede footprpint",
+      "url": "https://orbi.uliege.be/handle/2268/230281"
+    },
+    {
+      "meta": {
+        "bytes": 32094,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\3d69fc29d667_230283.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbi.uliege.be/handle/2268/230283",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbi.uliege.be/handle/2268/230283"
+      },
+      "title": "Gemini-TEXES mid-infrared spectral observations of Jupiter's auroral regions: comparison with ultraviolet and near-infrared observations",
+      "url": "https://orbi.uliege.be/handle/2268/230283"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\3c4bc7910302_09_15___NASA___Basics_of_Space_Flight.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://scholarworks.moreheadstate.edu/cgi/viewcontent.cgi?params=/context/twiggs_education_collection/article/1188/&path_info=09_15___NASA___Basics_of_Space_Flight.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://scholarworks.moreheadstate.edu/context/twiggs_education_collection/article/1188/viewcontent/09_15___NASA___Basics_of_Space_Flight.pdf"
+      },
+      "title": "NASA - Basics of Space Flight",
+      "url": "https://scholarworks.moreheadstate.edu/context/twiggs_education_collection/article/1188/viewcontent/09_15___NASA___Basics_of_Space_Flight.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 26911,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\4a696a0d8902_196.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://scholarworks.moreheadstate.edu/twiggs_education_collection/196/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://scholarworks.moreheadstate.edu/twiggs_education_collection/196"
+      },
+      "title": "NASA - Basics of Space Flight",
+      "url": "https://scholarworks.moreheadstate.edu/twiggs_education_collection/196"
+    },
+    {
+      "meta": {
+        "bytes": 20937,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\2b8d89a3f438_uuid_3dea56be-bdfb-4d0d-aabc-14b2cdace755.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://repository.tudelft.nl/record/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://resolver.tudelft.nl/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755"
+      },
+      "title": "Impact of Non-gravitational Forces on Magellan Orbit Determination: A Historic Mission To Venus",
+      "url": "http://resolver.tudelft.nl/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\aed15df1c9f9_dps_abstract_book.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: http://aas.org/files/resources/dps_abstract_book.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "http://aas.org/files/resources/dps_abstract_book.pdf"
+      },
+      "title": "Space Weathering Evolution on Airless Bodies - Laboratory Simulations with Olivine",
+      "url": "http://aas.org/files/resources/dps_abstract_book.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 48391,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\524df2b7ffd6_0228771.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://asep.lib.cas.cz/arl-cav/cs/detail-cav_un_epca-0422607-Space-Weathering-Evolution-on-Airless-Bodies-Laboratory-Simulations-with-Olivine/",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://hdl.handle.net/11104/0228771"
+      },
+      "title": "Space Weathering Evolution on Airless Bodies - Laboratory Simulations with Olivine",
+      "url": "http://hdl.handle.net/11104/0228771"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\53d3692efe84_14839.bin",
+        "content_type": null,
+        "error": "download_failed: ConnectTimeout: HTTPSConnectionPool(host='refubium.fu-berlin.de', port=443): Max retries exceeded with url: /handle/fub188/14839 (Caused by ConnectTimeoutError(<HTTPSConnection(host='refubium.fu-berlin.de', port=443) at 0x240dd7d3890>, 'Connection to refubium.fu-berlin.de timed out. (connect timeout=24000)'))",
+        "ok": false,
+        "status_code": null,
+        "url": "https://refubium.fu-berlin.de/handle/fub188/14839"
+      },
+      "title": "Olivine or Impact Melt",
+      "url": "https://refubium.fu-berlin.de/handle/fub188/14839"
+    },
+    {
+      "meta": {
+        "bytes": 9654544,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\44de322020fa_brochure_Solarsystem_2013_en_hires.pdf",
+        "cached": false,
+        "content_type": "application/pdf",
+        "error": null,
+        "final_url": "https://elib.dlr.de/87275/1/brochure_Solarsystem_2013_en_hires.pdf",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://elib.dlr.de/87275/1/brochure_Solarsystem_2013_en_hires.pdf"
+      },
+      "title": "Our Solar System: A Short Introduction to the Bodies of our Solar System and their Exploration",
+      "url": "https://elib.dlr.de/87275/1/brochure_Solarsystem_2013_en_hires.pdf"
+    },
+    {
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\ce3281c0b537_fp8_space-hearing_written_contributions_en.pdf",
+        "content_type": "text/html; charset=iso-8859-1",
+        "error": "download_failed: HTTPError: 404 Client Error: Not Found for url: https://lirias.kuleuven.be/bitstream/123456789/385081/1/fp8_space-hearing_written_contributions_en.pdf",
+        "ok": false,
+        "status_code": 404,
+        "url": "https://lirias.kuleuven.be/bitstream/123456789/385081/1/fp8_space-hearing_written_contributions_en.pdf"
+      },
+      "title": "The importance of educational institutes in design of life support systems for space missions and other biological space experiments",
+      "url": "https://lirias.kuleuven.be/bitstream/123456789/385081/1/fp8_space-hearing_written_contributions_en.pdf"
+    },
+    {
+      "meta": {
+        "bytes": 4784,
+        "cache_path": "tierb_cache_v71_all\\T55\\papers\\6bd594b2ca6a_385081.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://kuleuven.limo.libis.be/discovery/search?query=any,contains,LIRIAS1672674&tab=LIRIAS&search_scope=lirias_profile&vid=32KUL_KUL:Lirias&offset=0",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://lirias.kuleuven.be/handle/123456789/385081"
+      },
+      "title": "The importance of educational institutes in design of life support systems for space missions and other biological space experiments",
+      "url": "https://lirias.kuleuven.be/handle/123456789/385081"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 63045,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\2ed7a5c4dd36_Majora-629e541a-004.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://proceedings.scipy.org/articles/Majora-629e541a-004",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.25080/Majora-629e541a-004"
+      },
+      "url": "https://doi.org/10.25080/Majora-629e541a-004"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 63416,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\33432cbca4db_Majora-629e541a-005.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://proceedings.scipy.org/articles/Majora-629e541a-005",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.25080/Majora-629e541a-005"
+      },
+      "url": "https://doi.org/10.25080/Majora-629e541a-005"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 62742,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\f74b268177f6_Majora-629e541a-007.bin",
+        "cached": false,
+        "content_type": "text/html",
+        "error": null,
+        "final_url": "https://proceedings.scipy.org/articles/Majora-629e541a-007",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://doi.org/10.25080/Majora-629e541a-007"
+      },
+      "url": "https://doi.org/10.25080/Majora-629e541a-007"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 294404,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\e0321b2fd10f_scipy-conference.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://github.com/scipy-conference",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://github.com/scipy-conference"
+      },
+      "url": "https://github.com/scipy-conference"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 442845,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\d01c406bd8df_scipy_proceedings.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://github.com/scipy-conference/scipy_proceedings",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://github.com/scipy-conference/scipy_proceedings"
+      },
+      "url": "https://github.com/scipy-conference/scipy_proceedings"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\11286bbcc0db_en.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://orbit.dtu.dk/en/",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://orbit.dtu.dk/en/"
+      },
+      "url": "https://orbit.dtu.dk/en/"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\e3b2df70e077_datasets.bin",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: https://orbit.dtu.dk/en/datasets/",
+        "ok": false,
+        "status_code": 403,
+        "url": "https://orbit.dtu.dk/en/datasets/"
+      },
+      "url": "https://orbit.dtu.dk/en/datasets/"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 2795,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\72f13d3a0c71_sfx_local.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://findit.dtu.dk/verify?locale=en&return=%2Fen%2Fcatalog%3Fauthor%3DJain%26q%3Dtitle%253A%2528Sea%2Bsurface%2Bheight%2Bdetermination%2Bin%2Bthe%2Barctic%2Bocean%2Bfrom%2BCryosat2%2BSAR%2Bdata%252C%2Bthe%2Bimpact%2Bof%2Busing%2Bdifferent%2Bempirical%2Bretrackers%2529",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://sfx.cvt.dk/sfx_local?ctx_ver=Z39.88-2004&ctx_tim=2026-05-17T23%3A18%3A47UTC&ctx_enc=info%3Aofi%2FencUTF-8&url_ver=Z39.88-2004&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&rft.genre=bookitem&rft_val_fmt=info%3Aofi%2Fkev%3Afmt%3Abook&rfr_id=info%3Asid%2Fpure.atira.dk%3Apure&rft.atitle=Sea%20surface%20height%20determination%20in%20the%20arctic%20ocean%20from%20Cryosat2%20SAR%20data%2C%20the%20impact%20of%20using%20different%20empirical%20retrackers&rft.aulast=Jain&rft.aufirst=Maulik&rft.auinit=M&rft.date=2012&rft.pages=70&rft.btitle=20%20years%20of%20progress%20in%20radar%20altimetry%20symposium&rft.pub=European%20Space%20Agency&rft.place=Italy"
+      },
+      "url": "http://sfx.cvt.dk/sfx_local?ctx_ver=Z39.88-2004&ctx_tim=2026-05-17T23%3A18%3A47UTC&ctx_enc=info%3Aofi%2FencUTF-8&url_ver=Z39.88-2004&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&rft.genre=bookitem&rft_val_fmt=info%3Aofi%2Fkev%3Afmt%3Abook&rfr_id=info%3Asid%2Fpure.atira.dk%3Apure&rft.atitle=Sea%20surface%20height%20determination%20in%20the%20arctic%20ocean%20from%20Cryosat2%20SAR%20data%2C%20the%20impact%20of%20using%20different%20empirical%20retrackers&rft.aulast=Jain&rft.aufirst=Maulik&rft.auinit=M&rft.date=2012&rft.pages=70&rft.btitle=20%20years%20of%20progress%20in%20radar%20altimetry%20symposium&rft.pub=European%20Space%20Agency&rft.place=Italy"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 49208,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\1cad91a20b22_sea-surface-height-determination-in-the-arctic-ocean-from-cryosat.bin",
+        "cached": false,
+        "content_type": "text/html;charset=UTF-8",
+        "error": null,
+        "final_url": "https://orbit.dtu.dk/en/publications/sea-surface-height-determination-in-the-arctic-ocean-from-cryosat/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://orbit.dtu.dk/en/publications/sea-surface-height-determination-in-the-arctic-ocean-from-cryosat/"
+      },
+      "url": "https://orbit.dtu.dk/en/publications/sea-surface-height-determination-in-the-arctic-ocean-from-cryosat/"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 171856,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\220413a3f67f_privacy-policy.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://www.dtu.dk/english/about/strategy-policy/policies/privacy-policy",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.dtu.dk/english/about/strategy-policy/policies/privacy-policy"
+      },
+      "url": "https://www.dtu.dk/english/about/strategy-policy/policies/privacy-policy"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 2016278,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\4f33dd097729_2403.04333",
+        "cached": false,
+        "content_type": "application/gzip",
+        "error": null,
+        "final_url": "https://arxiv.org/src/2403.04333",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://arxiv.org/src/2403.04333"
+      },
+      "url": "http://arxiv.org/src/2403.04333"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 20937,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\770f1215209c_uuid_3dea56be-bdfb-4d0d-aabc-14b2cdace755.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://repository.tudelft.nl/record/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755#metadata",
+        "ok": true,
+        "status_code": 200,
+        "url": "http://resolver.tudelft.nl/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755#metadata"
+      },
+      "url": "http://resolver.tudelft.nl/uuid:3dea56be-bdfb-4d0d-aabc-14b2cdace755#metadata"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 39454,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\9ee9949200fd_asep.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://asep-portal.lib.cas.cz/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://www.lib.cas.cz/asep/"
+      },
+      "url": "https://www.lib.cas.cz/asep/"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\aed15df1c9f9_dps_abstract_book.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "error": "download_failed: HTTPError: 403 Client Error: Forbidden for url: http://aas.org/files/resources/dps_abstract_book.pdf",
+        "ok": false,
+        "status_code": 403,
+        "url": "http://aas.org/files/resources/dps_abstract_book.pdf"
+      },
+      "url": "http://aas.org/files/resources/dps_abstract_book.pdf"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 49661,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\011ff5af931e_detail.bin",
+        "cached": false,
+        "content_type": "text/html; charset=utf-8",
+        "error": null,
+        "final_url": "https://asep.lib.cas.cz/arl-cav/cs/detail/?zf=DATA&idx=cav_un_epca*0422607",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://asep.lib.cas.cz/arl-cav/cs/detail/?zf=DATA&idx=cav_un_epca*0422607"
+      },
+      "url": "https://asep.lib.cas.cz/arl-cav/cs/detail/?zf=DATA&idx=cav_un_epca*0422607"
+    },
+    {
+      "kind": "discovered_data_link",
+      "meta": {
+        "bytes": 49615,
+        "cache_path": "tierb_cache_v71_all\\T55\\data_links\\e81220b269c9_cc0.bin",
+        "cached": false,
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "final_url": "https://creativecommons.org/2008/04/16/cc0-betadiscussion-draft-2/",
+        "ok": true,
+        "status_code": 200,
+        "url": "https://creativecommons.org/public-domain/cc0/"
+      },
+      "url": "https://creativecommons.org/public-domain/cc0/"
+    }
+  ],
+  "evidence_status": "data_limited",
+  "evidence_status_v52": "data_limited",
+  "evidence_status_v53": "data_limited",
+  "evidence_status_v56": "not_confirmed",
+  "evidence_status_v57": "not_confirmed",
+  "evidence_status_v58": "not_confirmed",
+  "evidence_status_v59": "data_limited",
+  "execution_status_v52": "ok",
+  "execution_status_v53": "ok",
+  "execution_status_v56": "ok",
+  "execution_status_v57": "ok",
+  "execution_status_v58": "ok",
+  "execution_status_v59": "ok",
+  "falsification_logic": {
+    "caveat": "If parsed tables are insufficient, the result is data_limited rather than confirm/falsify.",
+    "confirm_like": "Machine-readable public tables produce the predicted sign/trend with stable controls.",
+    "falsify_like": "Adequate public tables exist and the predicted sign/trend is absent or reversed under controls."
+  },
+  "generated_utc": "2026-05-18T11:25:03Z",
+  "generic_text_value_extraction": "disabled_in_v2",
+  "low_priority_demote_v30": {
+    "confirm_allowed_now": false,
+    "priority_rank": 7,
+    "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+    "status": "demoted_until_exact_primary_tables_exist",
+    "test_id": "T55"
+  },
+  "near_confirm_score_v35": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v36": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v37": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v38": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v39": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 0,
+    "strict_gate_remaining": [
+      "primary_table"
+    ]
+  },
+  "near_confirm_score_v40": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v41": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "strict_confirmation_gate"
+    ]
+  },
+  "near_confirm_score_v42": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v43": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v44": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v45": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v46": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v47": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v48": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v49": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v50": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v51": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "primary_table_or_model_gate"
+    ]
+  },
+  "near_confirm_score_v56": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v57": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v58": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "near_confirm_score_v59": {
+    "model_gate_attempted": false,
+    "model_rows_available": false,
+    "primary_table_available": false,
+    "score_0_10": 1,
+    "strict_gate_remaining": [
+      "data_limited"
+    ]
+  },
+  "parsed_tables_count": 0,
+  "positive_dashboard_fragment_v30": {
+    "confirm_allowed_now": false,
+    "test_id": "T55",
+    "v30": {
+      "low_priority_demote_v30": {
+        "confirm_allowed_now": false,
+        "priority_rank": 7,
+        "reason": "Do not spend confirm language on this test until exact structured tables with required columns are available.",
+        "status": "demoted_until_exact_primary_tables_exist",
+        "test_id": "T55"
+      }
+    },
+    "verdict": "data_limited_exact_table_needed"
+  },
+  "positive_dashboard_fragment_v32": {
+    "confirm_allowed_now": false,
+    "test_id": "T55",
+    "v32": {
+      "primary_table_hunt_v32": {
+        "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+        "child_urls_extracted": 0,
+        "confirm_allowed_now": false,
+        "manifest_rows": 1,
+        "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+        "prior_v30_demote_overridden": true,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "NASA space physics data facility CDAWeb",
+            "notes": "spacecraft radiation/particle time series; anomaly labels usually missing",
+            "source_kind": "manual_candidate",
+            "status": "candidate_not_auto_scored",
+            "url": "https://cdaweb.gsfc.nasa.gov/"
+          }
+        ],
+        "status": "primary_table_hunt_active_no_qualifying_table_yet",
+        "test_id": "T55"
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v33": {
+    "confirm_allowed_now": false,
+    "test_id": "T55",
+    "v33": {
+      "auto_generated_inputs_v33": {
+        "generated_files": [],
+        "manual_or_user_csv_required": false,
+        "status": "auto_generation_attempted"
+      },
+      "auto_input_policy_v33": {
+        "all_tests_run_together": true,
+        "commit_generated_csv_required": false,
+        "generated_csv_role": "auto-generated public-data cache/audit artifacts only",
+        "manual_or_user_filled_csv_required": false,
+        "separated_confirm_or_primary_run_modes": "deprecated_no_op_selectors"
+      },
+      "auto_primary_source_hunt_v33": {
+        "audit_csv": "data/generated/t55_primary_table_hunt_audit_v33.csv",
+        "child_urls_extracted": 0,
+        "manifest": "data/primary_table_candidate_manifest_v33.csv",
+        "manifest_rows": 1,
+        "qualifying_table_count": 0,
+        "qualifying_tables": [],
+        "records_checked": [
+          {
+            "label": "NASA space physics data facility CDAWeb",
+            "meta": {
+              "content_type": "text/html; charset=UTF-8",
+              "error": null,
+              "final_url": "https://cdaweb.gsfc.nasa.gov/",
+              "ok": true,
+              "status_code": 200
+            },
+            "notes": "spacecraft radiation/particle time series; anomaly labels usually missing",
+            "source_kind": "manual_candidate",
+            "status": "downloaded_scored",
+            "tables": [
+              {
+                "columns": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "numeric_columns": [],
+                "passes_primary_table_gate": false,
+                "required_group_report": {
+                  "columns": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ],
+                  "matched_groups": [],
+                  "missing_groups": [
+                    [
+                      "anomaly|event|upset|radiation|dose|SEE|SEU"
+                    ],
+                    [
+                      "spacecraft|satellite|mission|instrument"
+                    ],
+                    [
+                      "time|date|rate|count|flux"
+                    ]
+                  ],
+                  "ok": false
+                },
+                "shape": [
+                  1,
+                  5
+                ],
+                "source_url": "https://cdaweb.gsfc.nasa.gov/"
+              },
+              {
+                "columns": [
+                  "0",
+                  "1"
+                ],
+                "numeric_columns": [],
+                "passes_primary_table_gate": false,
+                "required_group_report": {
+                  "columns": [
+                    "0",
+                    "1"
+                  ],
+                  "matched_groups": [],
+                  "missing_groups": [
+                    [
+                      "anomaly|event|upset|radiation|dose|SEE|SEU"
+                    ],
+                    [
+                      "spacecraft|satellite|mission|instrument"
+                    ],
+                    [
+                      "time|date|rate|count|flux"
+                    ]
+                  ],
+                  "ok": false
+                },
+                "shape": [
+                  2,
+                  2
+                ],
+                "source_url": "https://cdaweb.gsfc.nasa.gov/"
+              },
+              {
+                "columns": [
+                  "0"
+                ],
+                "numeric_columns": [],
+                "passes_primary_table_gate": false,
+                "required_group_report": {
+                  "columns": [
+                    "0"
+                  ],
+                  "matched_groups": [],
+                  "missing_groups": [
+                    [
+                      "anomaly|event|upset|radiation|dose|SEE|SEU"
+                    ],
+                    [
+                      "spacecraft|satellite|mission|instrument"
+                    ],
+                    [
+                      "time|date|rate|count|flux"
+                    ]
+                  ],
+                  "ok": false
+                },
+                "shape": [
+                  8,
+                  1
+                ],
+                "source_url": "https://cdaweb.gsfc.nasa.gov/"
+              },
+              {
+                "columns": [
+                  "0"
+                ],
+                "numeric_columns": [],
+                "passes_primary_table_gate": false,
+                "required_group_report": {
+                  "columns": [
+                    "0"
+                  ],
+                  "matched_groups": [],
+                  "missing_groups": [
+                    [
+                      "anomaly|event|upset|radiation|dose|SEE|SEU"
+                    ],
+                    [
+                      "spacecraft|satellite|mission|instrument"
+                    ],
+                    [
+                      "time|date|rate|count|flux"
+                    ]
+                  ],
+                  "ok": false
+                },
+                "shape": [
+                  1,
+                  1
+                ],
+                "source_url": "https://cdaweb.gsfc.nasa.gov/"
+              },
+              {
+                "columns": [
+                  "0",
+                  "1"
+                ],
+                "numeric_columns": [],
+                "passes_primary_table_gate": false,
+                "required_group_report": {
+                  "columns": [
+                    "0",
+                    "1"
+                  ],
+                  "matched_groups": [],
+                  "missing_groups": [
+                    [
+                      "anomaly|event|upset|radiation|dose|SEE|SEU"
+                    ],
+                    [
+                      "spacecraft|satellite|mission|instrument"
+                    ],
+                    [
+                      "time|date|rate|count|flux"
+                    ]
+                  ],
+                  "ok": false
+                },
+                "shape": [
+                  1,
+                  2
+                ],
+                "source_url": "https://cdaweb.gsfc.nasa.gov/"
+              }
+            ],
+            "url": "https://cdaweb.gsfc.nasa.gov/"
+          }
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active"
+  },
+  "positive_dashboard_fragment_v34": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v34": {
+      "auto_data_improvements_v34": {},
+      "confirmation_blocker_v34": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "split_branch_policy_v34": null
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v35": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v35": {
+      "auto_data_improvements_v35": {},
+      "confirmation_blocker_v35": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v35": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v36": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v36": {
+      "carried_forward_v35_improvements": true,
+      "confirmation_blocker_v36": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v36": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      },
+      "t34_real_runner_active": false
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v37": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v37": {
+      "auto_data_improvements_v37": {},
+      "confirmation_blocker_v37": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v37": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v38": {
+    "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+    "confirm_allowed_now": false,
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "direct structured public table with required named physical columns",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v38": {
+      "auto_data_improvements_v38": {},
+      "confirmation_blocker_v38": {
+        "best_auto_data_source_next": "v34 manifest/API/structured-file funnel for this test",
+        "single_next_blocker": "direct structured public table with required named physical columns",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+      },
+      "near_confirm_score_v38": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "primary-table hunt active but qualifying table gate not passed"
+  },
+  "positive_dashboard_fragment_v39": {
+    "best_auto_data_source_next": "test-specific public structured source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 0,
+      "strict_gate_remaining": [
+        "primary_table"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v39": {
+      "auto_data_improvements_v39": {},
+      "confirmation_blocker_v39": {
+        "best_auto_data_source_next": "test-specific public structured source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v39 gate not passed"
+      },
+      "near_confirm_score_v39": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 0,
+        "strict_gate_remaining": [
+          "primary_table"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v39 gate not passed"
+  },
+  "positive_dashboard_fragment_v40": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v40": {
+      "auto_data_improvements_v40": {},
+      "confirmation_blocker_v40": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v40 gate not passed"
+      },
+      "near_confirm_score_v40": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v40 gate not passed"
+  },
+  "positive_dashboard_fragment_v41": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "strict_confirmation_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v41": {
+      "auto_data_improvements_v41": {},
+      "confirmation_blocker_v41": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v41": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "strict_confirmation_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v42": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v42": {
+      "auto_data_improvements_v42": {},
+      "confirmation_blocker_v42": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v42": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v43": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v43": {
+      "auto_data_improvements_v43": {},
+      "confirmation_blocker_v43": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v43": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v44": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v44": {
+      "auto_data_improvements_v44": {},
+      "confirmation_blocker_v44": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v44": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v45": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v45": {
+      "auto_data_improvements_v45": {},
+      "confirmation_blocker_v45": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v45": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v46": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v46": {
+      "auto_data_improvements_v46": {},
+      "confirmation_blocker_v46": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v46": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v47": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v47": {
+      "auto_data_improvements_v47": {},
+      "confirmation_blocker_v47": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v47": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v48": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v48": {
+      "auto_data_improvements_v48": {},
+      "confirmation_blocker_v48": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v48": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v49": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v49": {
+      "auto_data_improvements_v49": {},
+      "confirmation_blocker_v49": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v49": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v50": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v50": {
+      "auto_data_improvements_v50": {},
+      "confirmation_blocker_v50": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v50": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v51": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v51": {
+      "auto_data_improvements_v51": {},
+      "confirmation_blocker_v51": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v52": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v52": {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T55"
+    },
+    "confirmation_conflicts_v52": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v52": {
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "data_status_v52": "data_limited",
+      "evidence_status_v52": "data_limited",
+      "execution_status_v52": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v52": {
+      "auto_data_improvements_v52": {},
+      "confirmation_blocker_v52": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score_v51": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "status_split_v52": {
+        "confirmation_status_v52": "not_confirmed_data_limited",
+        "data_status_v52": "data_limited",
+        "evidence_status_v52": "data_limited",
+        "execution_status_v52": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v53": {
+    "best_auto_data_source_next": "test-specific structured public source",
+    "confirm_allowed_now": false,
+    "confirm_target_v53": {
+      "blocker_type_v53": "data_limited",
+      "confirmation_legally_possible_v53": true,
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "expected_effort_v53": "high",
+      "next_data_source_v53": "not a current confirm target",
+      "rank_score_0_10_v53": 1,
+      "test_id": "T55"
+    },
+    "confirmation_conflicts_v53": [],
+    "confirmation_label": "not_confirmed",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "primary_table_or_model_gate"
+      ]
+    },
+    "single_next_blocker": "primary/model/jackknife gate",
+    "status_split_v53": {
+      "confirmation_status_v53": "not_confirmed_data_limited",
+      "data_status_v53": "data_limited",
+      "evidence_status_v53": "data_limited",
+      "execution_status_v53": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v53": {
+      "auto_data_improvements_v53": {},
+      "confirmation_blocker_v53": {
+        "best_auto_data_source_next": "test-specific structured public source",
+        "single_next_blocker": "primary/model/jackknife gate",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "strict v41 gate not passed"
+      },
+      "near_confirm_score": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "primary_table_or_model_gate"
+        ]
+      },
+      "public_claim_gate_v53": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+        "confirmed_now_v53": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v53": {
+        "confirmation_status_v53": "not_confirmed_data_limited",
+        "data_status_v53": "data_limited",
+        "evidence_status_v53": "data_limited",
+        "execution_status_v53": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "strict v41 gate not passed"
+  },
+  "positive_dashboard_fragment_v56": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v56": {
+      "blocker_type_v56": "data_limited",
+      "confirmation_legally_possible_v56": true,
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "expected_effort_v56": "high",
+      "next_data_source_v56": "not a current confirm target",
+      "rank_score_0_10_v56": 1,
+      "test_id": "T55"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v56": {
+      "confirmation_status_v56": "not_confirmed_data_limited",
+      "data_status_v56": "data_limited",
+      "evidence_status_v56": "not_confirmed",
+      "execution_status_v56": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v56": {
+      "auto_data_improvements_v56": {},
+      "confirmation_blocker_v56": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v56": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v56": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+        "confirmed_now_v56": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v56": {
+        "confirmation_status_v56": "not_confirmed_data_limited",
+        "data_status_v56": "data_limited",
+        "evidence_status_v56": "not_confirmed",
+        "execution_status_v56": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v57": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v57": {
+      "blocker_type_v57": "data_limited",
+      "confirmation_legally_possible_v57": true,
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "expected_effort_v57": "high",
+      "next_data_source_v57": "not a current confirm target",
+      "rank_score_0_10_v57": 1,
+      "test_id": "T55"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v57": {
+      "confirmation_status_v57": "not_confirmed_data_limited",
+      "data_status_v57": "data_limited",
+      "evidence_status_v57": "not_confirmed",
+      "execution_status_v57": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v57": {
+      "auto_data_improvements_v57": {},
+      "confirmation_blocker_v57": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v57": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v57": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+        "confirmed_now_v57": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v57": {
+        "confirmation_status_v57": "not_confirmed_data_limited",
+        "data_status_v57": "data_limited",
+        "evidence_status_v57": "not_confirmed",
+        "execution_status_v57": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v58": {
+    "best_auto_data_source_next": "not a current confirm target",
+    "confirm_allowed_now": false,
+    "confirm_target_v58": {
+      "blocker_type_v58": "data_limited",
+      "confirmation_legally_possible_v58": true,
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "expected_effort_v58": "high",
+      "next_data_source_v58": "not a current confirm target",
+      "rank_score_0_10_v58": 1,
+      "schema": "ccdr-tierb-confirm-target-v58",
+      "test_id": "T55"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v58": {
+      "confirmation_status_v58": "not_confirmed_data_limited",
+      "data_status_v58": "data_limited",
+      "evidence_status_v58": "not_confirmed",
+      "execution_status_v58": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v58": {
+      "auto_data_improvements_v58": {},
+      "confirmation_blocker_v58": {
+        "best_auto_data_source_next": "not a current confirm target",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "near_confirm_score_v58": {
+        "model_gate_attempted": false,
+        "model_rows_available": false,
+        "primary_table_available": false,
+        "score_0_10": 1,
+        "strict_gate_remaining": [
+          "data_limited"
+        ]
+      },
+      "public_claim_gate_v58": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v58": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      },
+      "status_split_v58": {
+        "confirmation_status_v58": "not_confirmed_data_limited",
+        "data_status_v58": "data_limited",
+        "evidence_status_v58": "not_confirmed",
+        "execution_status_v58": "ok"
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "positive_dashboard_fragment_v59": {
+    "best_auto_data_source_next": "test-specific exact structured source",
+    "confirm_allowed_now": false,
+    "confirm_target_v59": {
+      "blocker_type_v59": "data_limited",
+      "confirmation_legally_possible_v59": true,
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "expected_effort_v59": "high",
+      "next_data_source_v59": "test-specific exact structured source",
+      "rank_score_0_10_v59": 1,
+      "schema": "ccdr-tierb-confirm-target-v59",
+      "test_id": "T55"
+    },
+    "confirmation_label": "not_confirmed_data_limited",
+    "near_confirm_score": {
+      "model_gate_attempted": false,
+      "model_rows_available": false,
+      "primary_table_available": false,
+      "score_0_10": 1,
+      "strict_gate_remaining": [
+        "data_limited"
+      ]
+    },
+    "single_next_blocker": "data_limited",
+    "status_split_v59": {
+      "confirmation_status_v59": "not_confirmed_data_limited",
+      "data_status_v59": "data_limited",
+      "evidence_status_v59": "data_limited",
+      "execution_status_v59": "ok"
+    },
+    "strict_confirm_allowed_now": false,
+    "test_id": "T55",
+    "v59": {
+      "auto_data_improvements_v59": {},
+      "confirmation_blocker_v59": {
+        "best_auto_data_source_next": "test-specific exact structured source",
+        "public_confirm_allowed_now": false,
+        "single_next_blocker": "data_limited",
+        "strict_confirm_allowed_now": false,
+        "why_not_confirmed": "data_limited"
+      },
+      "public_claim_gate_v59": {
+        "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+        "confirmed_now_v59": false,
+        "legacy_confirm_fields_are_not_public_claims": true
+      }
+    },
+    "verdict": "primary_table_hunt_active",
+    "why_not_confirmed": "data_limited"
+  },
+  "prediction_ids": [
+    "AE5"
+  ],
+  "prediction_names": [
+    "spacecraft residual acceleration bounds after radiothermal/solar controls"
+  ],
+  "primary_table_hunt_v32": {
+    "candidate_manifest": "data/primary_table_candidate_manifest_v32.csv",
+    "child_urls_extracted": 0,
+    "confirm_allowed_now": false,
+    "manifest_rows": 1,
+    "policy": "v32 excludes/drops the previous priority-7 demotion policy; this test is actively searched for primary tables instead.",
+    "prior_v30_demote_overridden": true,
+    "qualifying_table_count": 0,
+    "qualifying_tables": [],
+    "records_checked": [
+      {
+        "label": "NASA space physics data facility CDAWeb",
+        "notes": "spacecraft radiation/particle time series; anomaly labels usually missing",
+        "source_kind": "manual_candidate",
+        "status": "candidate_not_auto_scored",
+        "url": "https://cdaweb.gsfc.nasa.gov/"
+      }
+    ],
+    "status": "primary_table_hunt_active_no_qualifying_table_yet",
+    "test_id": "T55"
+  },
+  "programmatic_verdict": "primary_table_hunt_active",
+  "public_claim_gate_v53": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v53_confirm_status.confirmed_now",
+    "confirmed_now_v53": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v56": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v56_confirm_status.confirmed_now",
+    "confirmed_now_v56": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v57": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v57_confirm_status.confirmed_now",
+    "confirmed_now_v57": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v58": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v58_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v58": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "public_claim_gate_v59": {
+    "claimable_only_if_listed_in": "positive_dashboard.json:v59_confirm_only_dashboard.confirmed_public_now",
+    "confirmed_now_v59": false,
+    "legacy_confirm_fields_are_not_public_claims": true
+  },
+  "qualifying_physical_tables_count": 0,
+  "qualifying_tables_sample": [],
+  "quality_patch_version": "+v30_demote_exact_missing+v32_primary_table_hunt_not_demoted+v33_no_manual_all_tests_auto_primary_hunt+v34_auto_confirm_loaders_blocker_dashboard+v35_near_confirm_models_endpoint_fixes+v36_t34_real_runner_and_near_confirm_hardening+v37_confirm_hardening+v38_final_confirm_gate_hardening+v39_confirm_freeze_and_next_targets+v40_confirm_preserve_and_next_targets+v41_confirm_robustness_next_targets+v42_confirm_robustness_final_targets+v43_confirm_robustness_next_targets+v44_confirm_robustness_next_targets+v45_confirm_robustness_next_targets+v46_confirm_robustness_next_targets+v47_confirm_robustness_next_targets+v48_confirm_robustness_next_targets+v49_confirm_robustness_next_targets+v50_confirm_robustness_next_targets+v51_measured_microstructure_confirm_targets+v52_confirm_safety_targets+v53_confirm_implementation+v56_output_repair_confirm_targets+v57_confirm_repairs+v58_confirm_focus+v58_confirm_focus+v59_confirm_extractors",
+  "queries": [
+    "Pioneer 10 11 trajectory residual acceleration data public PDS",
+    "Cassini radiometric residual acceleration public data anomaly"
+  ],
+  "readiness_status": "source_found_no_usable_table",
+  "rejected_tables_sample": [],
+  "required_column_groups": [
+    [
+      "residual.*accel|acceleration|doppler|range"
+    ],
+    [
+      "Pioneer|Cassini|trajectory|radiothermal"
+    ]
+  ],
+  "schema": "ccdr-tierb-result-v1",
+  "status": "data_limited",
+  "status_semantics": {
+    "evidence_status": "scientific interpretation bucket",
+    "readiness_status": "data-pipeline stage reached",
+    "status": "legacy execution/result bucket"
+  },
+  "status_split_v52": {
+    "confirmation_status_v52": "not_confirmed_data_limited",
+    "data_status_v52": "data_limited",
+    "evidence_status_v52": "data_limited",
+    "execution_status_v52": "ok"
+  },
+  "status_split_v53": {
+    "confirmation_status_v53": "not_confirmed_data_limited",
+    "data_status_v53": "data_limited",
+    "evidence_status_v53": "data_limited",
+    "execution_status_v53": "ok"
+  },
+  "status_split_v56": {
+    "confirmation_status_v56": "not_confirmed_data_limited",
+    "data_status_v56": "data_limited",
+    "evidence_status_v56": "not_confirmed",
+    "execution_status_v56": "ok"
+  },
+  "status_split_v57": {
+    "confirmation_status_v57": "not_confirmed_data_limited",
+    "data_status_v57": "data_limited",
+    "evidence_status_v57": "not_confirmed",
+    "execution_status_v57": "ok"
+  },
+  "status_split_v58": {
+    "confirmation_status_v58": "not_confirmed_data_limited",
+    "data_status_v58": "data_limited",
+    "evidence_status_v58": "not_confirmed",
+    "execution_status_v58": "ok"
+  },
+  "status_split_v59": {
+    "confirmation_status_v59": "not_confirmed_data_limited",
+    "data_status_v59": "data_limited",
+    "evidence_status_v59": "data_limited",
+    "execution_status_v59": "ok"
+  },
+  "table_summaries": [],
+  "test_id": "T55",
+  "test_name": "radiation/spacecraft anomaly audit"
+}

@@ -14,9 +14,9 @@ META = {
   "implementation_notes": [
     "Summarise per-test JSON outputs after run_all.py; no external data."
   ],
-  "kind": "dashboard_suite_status_v14",
+  "kind": "dashboard_v22",
   "prediction_id": "P/CL dashboard",
-  "prediction_name": "Round-10 v14 suite-status confirmation dashboard",
+  "prediction_name": "Round-10 v21 P3/confirm dashboard",
   "sources": [],
   "test_id": "R10-DASH",
   "tier": "public-current"

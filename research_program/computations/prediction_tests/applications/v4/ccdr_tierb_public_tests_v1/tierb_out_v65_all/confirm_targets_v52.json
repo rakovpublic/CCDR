@@ -1,0 +1,284 @@
+{
+  "schema": "ccdr-tierb-confirm-targets-v52",
+  "targets": [
+    {
+      "blocker_type_v52": "audit_conflict",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "demoted_audit_conflict_needs_fix",
+      "expected_effort_v52": "low",
+      "next_data_source_v52": "PV descriptor rows plus NREL/PVDPC certification-source metadata",
+      "rank_score_0_10_v52": 10,
+      "test_id": "T48"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": false,
+      "confirmation_status_v52": "anchor_only_not_full_confirm",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 5,
+      "test_id": "T60"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_next_gate_required",
+      "expected_effort_v52": "medium",
+      "next_data_source_v52": "teMatDb/Starrydata exact Bi2Te3/Sb2Te3 export",
+      "rank_score_0_10_v52": 3,
+      "test_id": "T34"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact benchmark supplement/table",
+      "rank_score_0_10_v52": 3,
+      "test_id": "T45"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact benchmark supplement/table",
+      "rank_score_0_10_v52": 3,
+      "test_id": "T47"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact HEPData record/table/column manifest",
+      "rank_score_0_10_v52": 3,
+      "test_id": "T57"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact HEPData record/table/column manifest",
+      "rank_score_0_10_v52": 3,
+      "test_id": "T59"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact fusion measurement attachment with named physical columns",
+      "rank_score_0_10_v52": 2,
+      "test_id": "T26"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact fusion measurement attachment with named physical columns",
+      "rank_score_0_10_v52": 2,
+      "test_id": "T27"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact fusion measurement attachment with named physical columns",
+      "rank_score_0_10_v52": 2,
+      "test_id": "T28"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact fusion measurement attachment with named physical columns",
+      "rank_score_0_10_v52": 2,
+      "test_id": "T29"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "exact fusion measurement attachment with named physical columns",
+      "rank_score_0_10_v52": 2,
+      "test_id": "T30"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T33"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T35"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T36"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T37"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T38"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T39"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T40"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T41"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T42"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T43"
+    },
+    {
+      "blocker_type_v52": "not_prioritized_for_confirm",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T46"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T49"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T54"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T55"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T56"
+    },
+    {
+      "blocker_type_v52": "data_limited",
+      "confirmation_legally_possible_v52": true,
+      "confirmation_status_v52": "not_confirmed_data_limited",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 1,
+      "test_id": "T58"
+    },
+    {
+      "blocker_type_v52": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v52": false,
+      "confirmation_status_v52": "not_confirmable_by_design",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 0,
+      "test_id": "T50"
+    },
+    {
+      "blocker_type_v52": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v52": false,
+      "confirmation_status_v52": "not_confirmable_by_design",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 0,
+      "test_id": "T51"
+    },
+    {
+      "blocker_type_v52": "bound_table_or_literature_bound",
+      "confirmation_legally_possible_v52": false,
+      "confirmation_status_v52": "not_confirmable_by_design",
+      "expected_effort_v52": "high",
+      "next_data_source_v52": "not a current confirm target",
+      "rank_score_0_10_v52": 0,
+      "test_id": "T52"
+    }
+  ]
+}

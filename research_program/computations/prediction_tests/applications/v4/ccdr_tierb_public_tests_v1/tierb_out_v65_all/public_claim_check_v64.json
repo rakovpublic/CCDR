@@ -1,0 +1,57 @@
+{
+  "allowed_claim_source": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+  "confirmed_public_now": [
+    "T48"
+  ],
+  "legacy_confirm_fields_are_not_public_claims_v64": true,
+  "not_public_confirms_v64": {
+    "anchor_only": [
+      "T60"
+    ],
+    "bound_only": [
+      "T50",
+      "T51",
+      "T52"
+    ],
+    "data_limited": [
+      "T33",
+      "T35",
+      "T36",
+      "T37",
+      "T38",
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T49",
+      "T54",
+      "T55",
+      "T56",
+      "T58"
+    ],
+    "diagnostic_only": [
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30"
+    ],
+    "near_confirm_requires_exact_rows": [
+      "T31",
+      "T32",
+      "T34",
+      "T44",
+      "T45",
+      "T47",
+      "T53",
+      "T57",
+      "T59"
+    ],
+    "synthetic_or_engineering": [
+      "T46"
+    ]
+  },
+  "pass_v64": true,
+  "schema": "ccdr-tierb-public-claim-check-v64"
+}

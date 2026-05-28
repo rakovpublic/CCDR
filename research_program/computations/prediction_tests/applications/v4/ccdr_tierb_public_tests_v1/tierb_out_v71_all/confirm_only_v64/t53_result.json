@@ -1,0 +1,46 @@
+{
+  "positive_dashboard_fragment_v64": {
+    "claim_bucket_v64": "near_confirm_requires_exact_rows",
+    "confirmation_status_v64": "not_confirmed_structure_join_rows_required_v64",
+    "confirmed_now_v64": false,
+    "next_data_source_v64": "ProteinGym assay rows joined to UniProt/PDB/AlphaFold structure-feature rows.",
+    "rank_score_0_10_v64": 6,
+    "test_id": "T53",
+    "why_not_confirmed_v64": "ProteinGym assay rows must be joined to UniProt/PDB/AlphaFold structure features before a model confirm is allowed."
+  },
+  "prediction_ids": [
+    "BI?"
+  ],
+  "prediction_names": [
+    "high-symmetry biomolecular assemblies show anomalous stability/folding proxies"
+  ],
+  "programmatic_verdict": "v64_exact_data_pack_confirm_overlay",
+  "public_claim_gate_v64": {
+    "claimable_only_if_listed_in": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+    "confirmed_public_now_v64": false,
+    "legacy_confirm_fields_are_not_public_claims_v64": true
+  },
+  "status": "v64_exact_data_pack_confirm_overlay",
+  "test_id": "T53",
+  "test_name": "biological symmetry/protein-folding proxy",
+  "v64_behavioral_confirm_result": {
+    "behavioral_delta_v64": "two-stage ProteinGym assay\u2192UniProt\u2192structure feature join cache",
+    "confirmation_status_v64": "not_confirmed_structure_join_rows_required_v64",
+    "n_assay_rows_v64": 283,
+    "n_assays_v64": 0,
+    "n_families_v64": 0,
+    "n_sequence_clusters_v64": 0,
+    "n_structure_rows_v64": 0,
+    "n_usable_join_rows_v64": 0,
+    "rank_score_0_10_v64": 6,
+    "schema": "ccdr-proteingym-structure-join-v64",
+    "strict_confirm_ready_v64": false,
+    "structure_model_v64": null,
+    "test_id": "T53"
+  },
+  "v64_claim_bucket": "near_confirm_requires_exact_rows",
+  "v64_confirm_ready": false,
+  "v64_confirm_status": "not_confirmed_structure_join_rows_required_v64",
+  "v64_next_data_source": "ProteinGym assay rows joined to UniProt/PDB/AlphaFold structure-feature rows.",
+  "v64_why_not_confirmed": "ProteinGym assay rows must be joined to UniProt/PDB/AlphaFold structure features before a model confirm is allowed."
+}

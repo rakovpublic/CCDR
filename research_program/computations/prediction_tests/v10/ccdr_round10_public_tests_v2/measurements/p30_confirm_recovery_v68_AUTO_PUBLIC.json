@@ -1,0 +1,102 @@
+{
+  "accepted_empirical_mask_for_diagnostics": true,
+  "artifact_version": "v68",
+  "claim_policy_v68": "v68 accepts the empirical same-mask manifest only for diagnostics, recomputes patch-level control-subtracted deltas, and keeps global route confirmation closed without an official/accepted mask plus clean residualization.",
+  "curl_abs_over_science_abs_after_v68_control_subtraction": 1.7468824528458224,
+  "empirical_mask_manifest_v50": {
+    "bad_patch_protocol_clean": false,
+    "curl_weaker_than_sdss": true,
+    "eligible_for_confirm_like": false,
+    "empirical_mask_manifest_written": true,
+    "missing": [
+      "bad_patch_protocol_clean"
+    ],
+    "same_mask_for_science_curl_nulls": true,
+    "sdss_positive_stat": true,
+    "version": "v50_confirm_recovery_measurement_schema"
+  },
+  "manual_fill_required": false,
+  "mask_acceptance_v46": {
+    "accepted_equivalence_appendix": false,
+    "edge_exclusion_rule": false,
+    "eligible_for_confirm_like": false,
+    "finite_support_definition": false,
+    "mask_acceptance_v46": true,
+    "missing": [
+      "official_mask_found",
+      "accepted_equivalence_appendix",
+      "same_mask_all_variants",
+      "nulls_use_same_mask",
+      "edge_exclusion_rule",
+      "finite_support_definition",
+      "variant_consistency_table"
+    ],
+    "nulls_use_same_mask": false,
+    "official_mask_found": false,
+    "same_mask_all_variants": false,
+    "variant_consistency_table": false
+  },
+  "n_unrejected_control_subtracted_patches_v68": 0,
+  "official_mask_found": false,
+  "redshift_density_residualization": {
+    "available": true,
+    "euclid_delta": -0.18983175996764104,
+    "residualization_required": true,
+    "route_sign_disagreement": true,
+    "sdss_delta": 0.07886573620406669,
+    "sdss_jackknife_std": 0.02916987451348493
+  },
+  "status": "mask_control_resolution_recomputed",
+  "v68_control_subtracted_patch_rows": [
+    {
+      "curl_delta": 0.041692260997162486,
+      "patch_index": 0,
+      "pre_sign_reject": false,
+      "reason": [],
+      "sdss_science_delta": 0.023866666545018705,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true,
+      "v68_control_subtracted_delta": -0.01782559445214378,
+      "v68_reject_after_control_subtraction": true
+    },
+    {
+      "curl_delta": -0.06249949317498324,
+      "patch_index": 1,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.10495209032742592,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true,
+      "v68_control_subtracted_delta": 0.04245259715244268,
+      "v68_reject_after_control_subtraction": true
+    },
+    {
+      "curl_delta": -0.19461176284972337,
+      "patch_index": 2,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07005954294934827,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true,
+      "v68_control_subtracted_delta": -0.1245522199003751,
+      "v68_reject_after_control_subtraction": true
+    },
+    {
+      "curl_delta": -0.056320299866304414,
+      "patch_index": 3,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07753675377235959,
+      "v67_rule": "reject_if_existing_reject_or_curl_gt_one_third_science_patch",
+      "v67_strict_reject": true,
+      "v68_control_subtracted_delta": 0.02121645390605518,
+      "v68_reject_after_control_subtraction": true
+    }
+  ]
+}

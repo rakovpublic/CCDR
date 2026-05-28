@@ -1,0 +1,13 @@
+{
+  "curl_abs_delta": null,
+  "curl_control_pass_v30": false,
+  "curl_delta": null,
+  "curl_density_shuffle_p_high": null,
+  "curl_non_significant": true,
+  "curl_sign_relation": null,
+  "curl_to_science_abs_ratio": null,
+  "curl_weaker_by_ratio": false,
+  "median_abs_science_delta": null,
+  "pass_rule": "abs(curl_delta) < 0.60 * median_abs(science_delta) and curl density-shuffle p is not significant/extreme",
+  "threshold_ratio": 0.6
+}

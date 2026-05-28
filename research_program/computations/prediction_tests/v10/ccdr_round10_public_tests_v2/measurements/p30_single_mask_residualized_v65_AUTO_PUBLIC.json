@@ -1,0 +1,64 @@
+{
+  "artifact_version": "v65",
+  "curl_abs_over_science_abs_after_patch_reject": 1.7468824528458224,
+  "curl_delta_after_patch_reject": 0.041692260997162486,
+  "mask_inputs": [
+    "finite-map-pixel footprint used; explicit ACT mask not extracted"
+  ],
+  "n_kept_patches": 1,
+  "n_opposite_sign_variants_after_patch_reject": 0,
+  "n_positive_same_sign_variants_after_patch_reject": 4,
+  "pre_sign_patch_rejection": [
+    {
+      "curl_delta": 0.041692260997162486,
+      "patch_index": 0,
+      "pre_sign_reject": false,
+      "reason": [],
+      "sdss_science_delta": 0.023866666545018705
+    },
+    {
+      "curl_delta": -0.06249949317498324,
+      "patch_index": 1,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.10495209032742592
+    },
+    {
+      "curl_delta": -0.19461176284972337,
+      "patch_index": 2,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07005954294934827
+    },
+    {
+      "curl_delta": -0.056320299866304414,
+      "patch_index": 3,
+      "pre_sign_reject": true,
+      "reason": [
+        "curl_patch_gt_half_science_patch"
+      ],
+      "sdss_science_delta": 0.07753675377235959
+    }
+  ],
+  "redshift_density_residualization": {
+    "available": true,
+    "euclid_delta": -0.18983175996764104,
+    "residualization_required": true,
+    "route_sign_disagreement": true,
+    "sdss_delta": 0.07886573620406669,
+    "sdss_jackknife_std": 0.02916987451348493
+  },
+  "same_mask_object_propagated": true,
+  "sdss_delta_after_patch_reject": 0.023866666545018705,
+  "shared_empirical_mask_id": "2238e57f8f06e4b9",
+  "variant_deltas_after_patch_reject": {
+    "cibdeproj": 0.0584023962457214,
+    "f090": 0.07303222528545958,
+    "f150": 0.052169649206491114,
+    "tonly": 0.14661233253855194
+  }
+}

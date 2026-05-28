@@ -1,0 +1,569 @@
+{
+  "archive_audit": [
+    {
+      "exists": true,
+      "n_members": 2881,
+      "n_par_members": 318,
+      "n_tim_members": 836,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_ng_full_tar__content",
+      "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+      "size_bytes": 638719668
+    },
+    {
+      "exists": true,
+      "n_members": 2881,
+      "n_par_members": 318,
+      "n_tim_members": 836,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T16_tar__content",
+      "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+      "size_bytes": 638719668
+    },
+    {
+      "exists": true,
+      "n_members": 53,
+      "n_par_members": 0,
+      "n_tim_members": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v15__dr6_lensing_release.tar.gz",
+      "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+      "size_bytes": 1371472486
+    },
+    {
+      "exists": true,
+      "n_members": 53,
+      "n_par_members": 0,
+      "n_tim_members": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T04_act_release_v16__dr6_lensing_release.tar.gz",
+      "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+      "size_bytes": 1371472486
+    },
+    {
+      "exists": true,
+      "n_members": 53,
+      "n_par_members": 0,
+      "n_tim_members": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_act_release_v16__dr6_lensing_release.tar.gz",
+      "sha256": "5253f48ba046280f5fe9272a3c4dde85219143e75437e3632e7ee542593916b8",
+      "size_bytes": 1371472486
+    },
+    {
+      "exists": true,
+      "n_members": 422,
+      "n_par_members": 0,
+      "n_tim_members": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes.tar.gz__KMOS3D_cubes.tar.gz",
+      "sha256": "48b63aefcff8f01a15f3aa965eb1d70ffa6cf9dd91c1a293e72ca7b02c9f629b",
+      "size_bytes": 3152906479
+    },
+    {
+      "exists": true,
+      "n_members": 275,
+      "n_par_members": 0,
+      "n_tim_members": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_COSMOS.tar.gz__KMOS3D_cubes_COSMOS.tar.gz",
+      "sha256": "88f763f1929b99e67cc99d40b7b07178ba56e58ad0571735ae9b00ac4c45ba37",
+      "size_bytes": 1154934387
+    },
+    {
+      "exists": true,
+      "n_members": 224,
+      "n_par_members": 0,
+      "n_tim_members": 0,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KMOS3D_data_KMOS3D_cubes_GOODSS.tar.gz__KMOS3D_cubes_GOODSS.tar.gz",
+      "sha256": "1140d68dbea7533ae170e9a65b6a9b941c90a1171d0bfc4e6577539bed3acc84",
+      "size_bytes": 996771994
+    }
+  ],
+  "artifact_version": "v75",
+  "claim_policy_v75": "v75 parses public .tim files into TOA-weight proxies and public .par coordinates. These are not timing residuals; confirm still requires residual-kappa pairs and a signed sky shuffle.",
+  "kappa_samples_present_from_existing_map": 318,
+  "manual_fill_required": false,
+  "n_par_coordinates_parsed_v75": 76,
+  "n_public_par_coordinates": 98,
+  "n_public_residual_kappa_pairs": 0,
+  "n_toa_weighted_pulsars": 180,
+  "residual_column_present": false,
+  "reused_cached_v75_artifact": true,
+  "status": "pta_toa_weight_proxy_built_residuals_missing_v75",
+  "toa_weight_rows_preview": [
+    {
+      "median_toa_uncertainty": 10.555,
+      "mjd_span_days": 2612.6523926645095,
+      "n_toa": 2994,
+      "pulsar_id": "J1909-3744",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1909-3744.3GHz.YUPPI.15y.P.nb.tim",
+      "toa_weight_proxy": 26.874186127974177
+    },
+    {
+      "median_toa_uncertainty": 1.474,
+      "mjd_span_days": 1792.1512049324665,
+      "n_toa": 2971,
+      "pulsar_id": "J1713+0747",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1713+0747.3GHz.YUPPI.15y.P.nb.tim",
+      "toa_weight_proxy": 1367.4381269917833
+    },
+    {
+      "median_toa_uncertainty": 30.0,
+      "mjd_span_days": 2834.0,
+      "n_toa": 2910,
+      "pulsar_id": "J0030+0451",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0030+0451.430.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 3.2333333333333334
+    },
+    {
+      "median_toa_uncertainty": 1855.0,
+      "mjd_span_days": 3007.0,
+      "n_toa": 2864,
+      "pulsar_id": "B1855+09",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/B1855+09.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0008323101401471945
+    },
+    {
+      "median_toa_uncertainty": 1903.0,
+      "mjd_span_days": 3059.0,
+      "n_toa": 2825,
+      "pulsar_id": "J1903+0327",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1903+0327.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0007800831112972879
+    },
+    {
+      "median_toa_uncertainty": 1713.0,
+      "mjd_span_days": 3034.0,
+      "n_toa": 2825,
+      "pulsar_id": "J1713+0747",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1713+0747.S-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0009627282730972144
+    },
+    {
+      "median_toa_uncertainty": 1713.0,
+      "mjd_span_days": 3067.0,
+      "n_toa": 2823,
+      "pulsar_id": "J1713+0747",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1713+0747.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0009620466955587386
+    },
+    {
+      "median_toa_uncertainty": 751.0,
+      "mjd_span_days": 866.0,
+      "n_toa": 2823,
+      "pulsar_id": "J0751+1807",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0751+1807.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.005005310274272564
+    },
+    {
+      "median_toa_uncertainty": 2033.0,
+      "mjd_span_days": 2546.0,
+      "n_toa": 2823,
+      "pulsar_id": "J2033+1734",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2033+1734.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.000683024246513927
+    },
+    {
+      "median_toa_uncertainty": 30.0,
+      "mjd_span_days": 2831.0,
+      "n_toa": 2823,
+      "pulsar_id": "J0030+0451",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0030+0451.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 3.1366666666666667
+    },
+    {
+      "median_toa_uncertainty": 1903.0,
+      "mjd_span_days": 3059.0,
+      "n_toa": 2822,
+      "pulsar_id": "J1903+0327",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1903+0327.S-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0007792547044534324
+    },
+    {
+      "median_toa_uncertainty": 1453.0,
+      "mjd_span_days": 2558.0,
+      "n_toa": 2820,
+      "pulsar_id": "J1453+1902",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1453+1902.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.001335727538107312
+    },
+    {
+      "median_toa_uncertainty": 23.0,
+      "mjd_span_days": 2634.0,
+      "n_toa": 2819,
+      "pulsar_id": "J0023+0923",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0023+0923.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 5.328922495274102
+    },
+    {
+      "median_toa_uncertainty": 2214.0,
+      "mjd_span_days": 3008.0,
+      "n_toa": 2818,
+      "pulsar_id": "J2214+3000",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2214+3000.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0005748913255467996
+    },
+    {
+      "median_toa_uncertainty": 2017.0,
+      "mjd_span_days": 3028.0,
+      "n_toa": 2817,
+      "pulsar_id": "J2017+0603",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2017+0603.S-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0006924286843928738
+    },
+    {
+      "median_toa_uncertainty": 2017.0,
+      "mjd_span_days": 3062.0,
+      "n_toa": 2817,
+      "pulsar_id": "J2017+0603",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2017+0603.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0006924286843928738
+    },
+    {
+      "median_toa_uncertainty": 2214.0,
+      "mjd_span_days": 3042.0,
+      "n_toa": 2815,
+      "pulsar_id": "J2214+3000",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2214+3000.S-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.000574279304973116
+    },
+    {
+      "median_toa_uncertainty": 1910.0,
+      "mjd_span_days": 2958.0,
+      "n_toa": 2815,
+      "pulsar_id": "J1910+1256",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1910+1256.S-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0007716345494915161
+    },
+    {
+      "median_toa_uncertainty": 2043.0,
+      "mjd_span_days": 2955.0,
+      "n_toa": 2813,
+      "pulsar_id": "J2043+1711",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2043+1711.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0006739582577136835
+    },
+    {
+      "median_toa_uncertainty": 557.0,
+      "mjd_span_days": 1667.0,
+      "n_toa": 2807,
+      "pulsar_id": "J0557+1551",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0557+1551.L-wide.PUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.009047571466789578
+    },
+    {
+      "median_toa_uncertainty": 1747.0,
+      "mjd_span_days": 2903.0,
+      "n_toa": 2793,
+      "pulsar_id": "J1747-4036",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1747-4036.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0009151349160503786
+    },
+    {
+      "median_toa_uncertainty": 2124.0,
+      "mjd_span_days": 1263.0,
+      "n_toa": 2793,
+      "pulsar_id": "J2124-3358",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J2124-3358.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0006191015778777916
+    },
+    {
+      "median_toa_uncertainty": 1918.0,
+      "mjd_span_days": 3511.0,
+      "n_toa": 2789,
+      "pulsar_id": "J1918-0642",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1918-0642.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0007581433127356116
+    },
+    {
+      "median_toa_uncertainty": 1811.0,
+      "mjd_span_days": 1232.0,
+      "n_toa": 2789,
+      "pulsar_id": "J1811-2405",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1811-2405.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0008503772119640664
+    },
+    {
+      "median_toa_uncertainty": 1614.0,
+      "mjd_span_days": 3640.0,
+      "n_toa": 2789,
+      "pulsar_id": "J1614-2230",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1614-2230.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.001070635041282213
+    },
+    {
+      "median_toa_uncertainty": 740.0,
+      "mjd_span_days": 2220.0,
+      "n_toa": 2786,
+      "pulsar_id": "J0740+6620",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0740+6620.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.005087655222790358
+    },
+    {
+      "median_toa_uncertainty": 1909.0,
+      "mjd_span_days": 3428.0,
+      "n_toa": 2785,
+      "pulsar_id": "J1909-3744",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1909-3744.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0007642111022723001
+    },
+    {
+      "median_toa_uncertainty": 340.0,
+      "mjd_span_days": 2941.0,
+      "n_toa": 2783,
+      "pulsar_id": "J0340+4130",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0340+4130.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.02407439446366782
+    },
+    {
+      "median_toa_uncertainty": 610.0,
+      "mjd_span_days": 1048.0,
+      "n_toa": 2782,
+      "pulsar_id": "J0610-2100",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0610-2100.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.007476484815909702
+    },
+    {
+      "median_toa_uncertainty": 645.0,
+      "mjd_span_days": 3054.0,
+      "n_toa": 2780,
+      "pulsar_id": "J0645+5158",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0645+5158.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.00668229072772069
+    },
+    {
+      "median_toa_uncertainty": 1705.0,
+      "mjd_span_days": 1180.0,
+      "n_toa": 2778,
+      "pulsar_id": "J1705-1903",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1705-1903.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0009556161367721296
+    },
+    {
+      "median_toa_uncertainty": 636.0,
+      "mjd_span_days": 2028.0,
+      "n_toa": 2776,
+      "pulsar_id": "J0636+5128",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0636+5128.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0068628614374431395
+    },
+    {
+      "median_toa_uncertainty": 1719.0,
+      "mjd_span_days": 842.0,
+      "n_toa": 2775,
+      "pulsar_id": "J1719-1438",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1719-1438.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.000939098688612134
+    },
+    {
+      "median_toa_uncertainty": 1832.0,
+      "mjd_span_days": 2591.0,
+      "n_toa": 2767,
+      "pulsar_id": "J1832-0836",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1832-0836.Rcvr_800.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0008244384165061688
+    },
+    {
+      "median_toa_uncertainty": 1802.0,
+      "mjd_span_days": 1263.0,
+      "n_toa": 2764,
+      "pulsar_id": "J1802-2124",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1802-2124.Rcvr_800.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0008511938270586018
+    },
+    {
+      "median_toa_uncertainty": 931.0,
+      "mjd_span_days": 2532.0,
+      "n_toa": 2762,
+      "pulsar_id": "J0931-1902",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0931-1902.Rcvr_800.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0031865762303564652
+    },
+    {
+      "median_toa_uncertainty": 610.0,
+      "mjd_span_days": 1050.0,
+      "n_toa": 2761,
+      "pulsar_id": "J0610-2100",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0610-2100.Rcvr_800.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.007420048374092986
+    },
+    {
+      "median_toa_uncertainty": 340.0,
+      "mjd_span_days": 2749.0,
+      "n_toa": 2761,
+      "pulsar_id": "J0340+4130",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J0340+4130.Rcvr_800.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0238840830449827
+    },
+    {
+      "median_toa_uncertainty": 1730.0,
+      "mjd_span_days": 1227.0,
+      "n_toa": 2578,
+      "pulsar_id": "J1730-2304",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1730-2304.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "toa_weight_proxy": 0.0008613719135286845
+    },
+    {
+      "median_toa_uncertainty": 30.0,
+      "mjd_span_days": 5672.999958,
+      "n_toa": 2410,
+      "pulsar_id": "J0030+0451",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J0030+0451_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 2.6777777777777776
+    },
+    {
+      "median_toa_uncertainty": 2317.0,
+      "mjd_span_days": 5715.0,
+      "n_toa": 2406,
+      "pulsar_id": "J2317+1439",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2317+1439_PINT_20220306.nb.tim",
+      "toa_weight_proxy": 0.0004481707981519567
+    },
+    {
+      "median_toa_uncertainty": 2043.0,
+      "mjd_span_days": 3305.9999769999995,
+      "n_toa": 2406,
+      "pulsar_id": "J2043+1711",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2043+1711_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.0005764463448486038
+    },
+    {
+      "median_toa_uncertainty": 2229.0,
+      "mjd_span_days": 2567.0,
+      "n_toa": 2371,
+      "pulsar_id": "J2229+2643",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2229+2643_PINT_20220301.nb.tim",
+      "toa_weight_proxy": 0.0004772120671252814
+    },
+    {
+      "median_toa_uncertainty": 1923.0,
+      "mjd_span_days": 3273.999990999997,
+      "n_toa": 2371,
+      "pulsar_id": "J1923+2515",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1923+2515_PINT_20220301.nb.tim",
+      "toa_weight_proxy": 0.0006411696925495325
+    },
+    {
+      "median_toa_uncertainty": 2214.0,
+      "mjd_span_days": 3076.0,
+      "n_toa": 2350,
+      "pulsar_id": "J2214+3000",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2214+3000_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.00047941611605215723
+    },
+    {
+      "median_toa_uncertainty": 0.316,
+      "mjd_span_days": 4121.926626572371,
+      "n_toa": 2347,
+      "pulsar_id": "J0437-4715",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J0437-4715_PINT_20220301.nb.tim",
+      "toa_weight_proxy": 23503.845537574107
+    },
+    {
+      "median_toa_uncertainty": 1855.0,
+      "mjd_span_days": 5692.999944000003,
+      "n_toa": 2295,
+      "pulsar_id": "B1855+09",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/B1855+09_PINT_20220301.nb.tim",
+      "toa_weight_proxy": 0.0006669524342310794
+    },
+    {
+      "median_toa_uncertainty": 23.0,
+      "mjd_span_days": 3292.999960000001,
+      "n_toa": 2294,
+      "pulsar_id": "J0023+0923",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J0023+0923_PINT_20220301.nb.tim",
+      "toa_weight_proxy": 4.33648393194707
+    },
+    {
+      "median_toa_uncertainty": 1640.0,
+      "mjd_span_days": 5649.9999830000015,
+      "n_toa": 2292,
+      "pulsar_id": "J1640+2224",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1640+2224_PINT_20220305.nb.tim",
+      "toa_weight_proxy": 0.0008521713265913147
+    },
+    {
+      "median_toa_uncertainty": 1953.0,
+      "mjd_span_days": 4066.999975999999,
+      "n_toa": 2291,
+      "pulsar_id": "B1953+29",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/B1953+29_PINT_20220301.nb.tim",
+      "toa_weight_proxy": 0.0006006487845841694
+    },
+    {
+      "median_toa_uncertainty": 1853.0,
+      "mjd_span_days": 3319.999981000001,
+      "n_toa": 2273,
+      "pulsar_id": "J1853+1303",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1853+1303_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.0006619856832854295
+    },
+    {
+      "median_toa_uncertainty": 1944.0,
+      "mjd_span_days": 4550.999957,
+      "n_toa": 2271,
+      "pulsar_id": "J1944+0907",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1944+0907_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.0006009310064522685
+    },
+    {
+      "median_toa_uncertainty": 2033.0,
+      "mjd_span_days": 2388.0,
+      "n_toa": 2268,
+      "pulsar_id": "J2033+1734",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2033+1734_PINT_20220304.nb.tim",
+      "toa_weight_proxy": 0.0005487421151589042
+    },
+    {
+      "median_toa_uncertainty": 1937.0,
+      "mjd_span_days": 5494.999967000003,
+      "n_toa": 2266,
+      "pulsar_id": "B1937+21ao",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/B1937+21ao_PINT_20220304.nb.tim",
+      "toa_weight_proxy": 0.0006039495528880969
+    },
+    {
+      "median_toa_uncertainty": 1741.0,
+      "mjd_span_days": 4022.9999989999997,
+      "n_toa": 2266,
+      "pulsar_id": "J1741+1351",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1741+1351_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.0007475880717143487
+    },
+    {
+      "median_toa_uncertainty": 1911.0,
+      "mjd_span_days": 2553.0,
+      "n_toa": 2264,
+      "pulsar_id": "J1911+1347",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1911+1347_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.0006199476932825217
+    },
+    {
+      "median_toa_uncertainty": 1937.0,
+      "mjd_span_days": 5494.999967000003,
+      "n_toa": 2264,
+      "pulsar_id": "B1937+21",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/B1937+21_PINT_20220306.nb.tim",
+      "toa_weight_proxy": 0.0006034164994433589
+    },
+    {
+      "median_toa_uncertainty": 2322.0,
+      "mjd_span_days": 1990.0,
+      "n_toa": 2262,
+      "pulsar_id": "J2322+2057",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2322+2057_PINT_20220302.nb.tim",
+      "toa_weight_proxy": 0.00041953497274691915
+    },
+    {
+      "median_toa_uncertainty": 2234.0,
+      "mjd_span_days": 2388.0,
+      "n_toa": 2259,
+      "pulsar_id": "J2234+0611",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J2234+0611_PINT_20220304.nb.tim",
+      "toa_weight_proxy": 0.00045263683498051195
+    },
+    {
+      "median_toa_uncertainty": 1022.0,
+      "mjd_span_days": 2027.0,
+      "n_toa": 2259,
+      "pulsar_id": "J1022+1001",
+      "source_member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1022+1001_PINT_20220304.nb.tim",
+      "toa_weight_proxy": 0.0021627904304900793
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "current_runner_rows": false,
+  "disallowed_source_files": [],
+  "eligible_for_confirm_like": false,
+  "extreme_ratio_fraction_le_10pct": false,
+  "median_a_m_s2": null,
+  "missing": [
+    "current_runner_rows",
+    "two_source_groups",
+    "row_hashes",
+    "radius_velocity_units_visible",
+    "tiny_radius_fraction_le_20pct",
+    "extreme_ratio_fraction_le_10pct",
+    "source_leave_one_stable",
+    "source_bootstrap_ci16_above_local"
+  ],
+  "n_extreme_ratio_rows": 0,
+  "n_rows": 0,
+  "n_tiny_radius_rows": 0,
+  "promotion_rule": "v49 P36 high-z: rows must be generated from raw/non-output source files, carry source/row hashes, have visible units, pass source leave-one/bootstrap, and avoid domination by tiny-radius/extreme-ratio rows.",
+  "radius_velocity_units_visible": false,
+  "row_hashes": false,
+  "rows_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "source_bootstrap_ci16_above_local": false,
+  "source_file_hashes": true,
+  "source_files_not_outputs": true,
+  "source_groups": [],
+  "source_leave_one_stable": false,
+  "tiny_radius_fraction_le_20pct": false,
+  "two_source_groups": false,
+  "version": "v49_confirm_path_hardening"
+}

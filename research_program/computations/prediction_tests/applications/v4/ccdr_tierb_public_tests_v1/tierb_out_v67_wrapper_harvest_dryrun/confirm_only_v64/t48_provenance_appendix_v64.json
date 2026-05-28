@@ -1,0 +1,22 @@
+{
+  "baseline_model_v64": null,
+  "confirm_gate_source_v64": "confirm_only_dashboard_v64.json -> confirmed_public_now",
+  "family_buckets_v64": null,
+  "frozen_confirm_artifact_v64": "tierb_out_v67_wrapper_harvest_dryrun\\confirm_only_v64\\data\\generated\\t48_frozen_confirm_v64.json",
+  "full_run_candidate_rows_count_v64": null,
+  "full_run_result_candidates_v64": [
+    "tierb_out_v67_wrapper_harvest_dryrun\\t48_result.json",
+    "tierb_out_v67_wrapper_harvest_dryrun\\confirm_only_v64\\t48_result.json"
+  ],
+  "full_run_result_source_v64": "tierb_out_v67_wrapper_harvest_dryrun\\confirm_only_v64\\t48_result.json",
+  "full_run_tables_count_v64": null,
+  "n_candidate_rows_v61": 63075,
+  "robustness_context_v64": [],
+  "status_reconciliation_v64": {
+    "batch_process_status_v64": null,
+    "batch_result_status_v64": null,
+    "confirm_overlay_status_v64": "compatible_positive_confirm_allowed",
+    "full_run_result_status_v64": "v64_exact_data_pack_confirm_overlay",
+    "public_claim_decision_v64": "T48 is claimable only because it appears in confirmed_public_now; batch/result status is subprocess and diagnostic context."
+  }
+}

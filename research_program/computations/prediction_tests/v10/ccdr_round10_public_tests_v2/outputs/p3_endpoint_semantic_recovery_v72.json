@@ -1,0 +1,23 @@
+{
+  "artifact_version": "v72",
+  "audit": [
+    {
+      "endpoint_header_hits": [],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_euclid_random_catalogue_v27.csv",
+      "sha256": "db86aadb5faa702c3652b25ac0f265a954c34ead0af4b1a6edc3e77c37f9f53e",
+      "size_bytes": 8203259
+    },
+    {
+      "endpoint_header_hits": [],
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\p30_sdss_random_catalogue_v28.csv",
+      "sha256": "b6e793653d45560adcded884f771adc35617bd818c10a608e9feea88a4d7fd72",
+      "size_bytes": 514808
+    }
+  ],
+  "claim_policy_v72": "v72 requires explicit endpoint/node-pair semantics and keeps the giant-download guard. Confirm-like still requires endpoint-redshift and orientation-shuffle nulls.",
+  "endpoint_rows_preview": [],
+  "giant_download_guard": true,
+  "manual_fill_required": false,
+  "n_strict_endpoint_rows": 0,
+  "status": "p3_endpoint_semantics_still_absent"
+}

@@ -1,0 +1,36 @@
+{
+  "artifact_version": "v77",
+  "claim_policy_v77": "v77 searches for real residual/postfit products and requires residual+kappa pairing; .tim TOA rows are only readiness evidence.",
+  "manual_fill_required": false,
+  "n_residual_kappa_pairs_v76": 0,
+  "n_residual_named_members": 205,
+  "n_toa_weighted_pulsars_v75": 180,
+  "source_manifest": [
+    {
+      "exists": true,
+      "mentions_kappa": false,
+      "mentions_residual": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KGES_data__footprintImage__{{footprintImage()}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "size_bytes": 25463
+    },
+    {
+      "exists": true,
+      "mentions_kappa": false,
+      "mentions_residual": false,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\v61_highz_KROSS_data__footprintImage__{{footprintImage()}}",
+      "sha256": "1725ab5fbc9dfb33e5b9d860fce20806d2cfe58d8e67baac5d6611096f52a700",
+      "size_bytes": 25463
+    },
+    {
+      "exists": true,
+      "n_par_members": 318,
+      "n_residual_named_members": 205,
+      "n_tim_members": 836,
+      "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\.ccdr_round10_cache\\R10-T17_ng_full_tar__content",
+      "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+      "size_bytes": 638719668
+    }
+  ],
+  "status": "pta_residual_sources_named_but_unpaired_v77"
+}

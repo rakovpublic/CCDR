@@ -12,9 +12,9 @@ META = {
   },
   "group": "bao",
   "interpretation": "P33 now uses public BAO files as baseline; density-stratified BAO remains a proxy until exact DESI clustering file schema is added.",
-  "kind": "p33_density_bao_baseline_positive_v8",
+  "kind": "p33_density_bao_measured_scaffold_v22",
   "prediction_id": "P33",
-  "prediction_name": "P33 density-BAO baseline positive-ready",
+  "prediction_name": "P33 density-BAO covariance/null scaffold",
   "sources": [
     {
       "url": "https://github.com/CobayaSampler/bao_data/tree/master/desi_bao_dr2"

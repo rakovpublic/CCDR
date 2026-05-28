@@ -1,0 +1,54 @@
+{
+  "action_if_failed": "Abort claim-level P30 residual interpretation; audit split labels, map sign convention, coordinate order, pixelization, and variant file mapping.",
+  "available": true,
+  "canonical_same_split_artifact": {
+    "available": true,
+    "deltas": {
+      "baseline": 0.08815282358182167,
+      "cibdeproj": 0.04293005855960019,
+      "curl_control": 0.04445120171365154,
+      "f090": 0.04191234028127793,
+      "f150": 0.17316898098989575,
+      "tonly": 0.11502262596726337
+    },
+    "n_variants": 6,
+    "path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_sdss_same_split_variant_rerun_v29.json"
+  },
+  "diagnosis": "projection_pipeline_mismatch",
+  "purpose": "Do not interpret curl-projected residuals unless pre-projection raw deltas reproduce the canonical same-split route.",
+  "raw_projection_consistency_pass": false,
+  "rows": [
+    {
+      "delta_abs_diff_v35_minus_v29": 0.17641497247110013,
+      "same_sign_v35_v29": false,
+      "v29_delta": 0.08815282358182167,
+      "v34_raw_delta": 0.08815282358182167,
+      "v35_raw_delta": -0.08826214888927847,
+      "variant": "baseline",
+      "within_tolerance": false
+    },
+    {
+      "delta_abs_diff_v35_minus_v29": 0.33526095041424464,
+      "same_sign_v35_v29": false,
+      "v29_delta": 0.17316898098989575,
+      "v34_raw_delta": 0.17316898098989575,
+      "v35_raw_delta": -0.16209196942434892,
+      "variant": "f150",
+      "within_tolerance": false
+    },
+    {
+      "delta_abs_diff_v35_minus_v29": 0.16601691091100518,
+      "same_sign_v35_v29": false,
+      "v29_delta": 0.11502262596726337,
+      "v34_raw_delta": 0.11502262596726337,
+      "v35_raw_delta": -0.050994284943741794,
+      "variant": "tonly",
+      "within_tolerance": false
+    }
+  ],
+  "split_manifest_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_canonical_split_manifest_v36.json",
+  "tolerance_abs": 0.025,
+  "v34_projection_artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_sdss_core_curl_projected_residual_v34.json",
+  "v35_projection_artifact_path": "F:\\git\\upd\\go_on\\CCDR\\research_program\\computations\\prediction_tests\\v10\\ccdr_round10_public_tests_v2\\outputs\\p30_sdss_core_curl_projected_residual_v35.json",
+  "version": "v36"
+}
