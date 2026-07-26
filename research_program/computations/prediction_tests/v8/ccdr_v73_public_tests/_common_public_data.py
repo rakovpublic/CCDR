@@ -512,6 +512,7 @@ def sample_euclid_overlap_with_sampler(
     raise DataUnavailable("Too few Euclid galaxies overlap the requested lensing footprint")
 
 
+<<<<<<< HEAD
 def _random_sky_points_in_window(
     ra_window: tuple[float, float] | None,
     dec_window: tuple[float, float] | None,
@@ -537,11 +538,14 @@ def _random_sky_points_in_window(
     return pd.DataFrame({'ra': np.asarray(ra, dtype=float), 'dec': np.asarray(dec, dtype=float)})
 
 
+=======
+>>>>>>> 23fc8593e5c3b3f412eac41c5bc604cc76a63336
 def sample_targets_from_sampler(
     sampler: Any,
     max_rows: int = 5000,
     seed: int = 0,
 ) -> pd.DataFrame:
+<<<<<<< HEAD
     """Draw target sky positions robustly from the sampler footprint.
 
     Prefer random positions inside a loose footprint window and keep only those
@@ -605,6 +609,38 @@ def sample_targets_from_sampler(
             out = out.loc[take].reset_index(drop=True)
         return out
     raise DataUnavailable('No valid target positions found inside the requested lensing footprint')
+=======
+    """Draw target sky positions directly from the sampler footprint.
+
+    This avoids brittle dependence on catalog objects themselves landing inside
+    the lensing footprint. Targets are later assigned density estimates from a
+    public galaxy catalog around the same footprint.
+    """
+    ensure_astropy_stack()
+    from astropy_healpix import HEALPix
+    from astropy import units as u
+
+    src = sampler.mask_sampler if hasattr(sampler, 'mask_sampler') else sampler
+    if getattr(src, 'mode', None) != 'healpix':
+        raise DataUnavailable('Sampler does not expose a HEALPix footprint')
+    data = np.ravel(np.asarray(getattr(src, 'data', []), dtype=float))
+    if data.size == 0:
+        raise DataUnavailable('Sampler footprint mask is empty')
+    valid = np.isfinite(data) & (data >= max(0.05, float(getattr(sampler, 'mask_threshold', 0.5)) * 0.5))
+    idx = np.flatnonzero(valid)
+    if idx.size == 0:
+        idx = np.flatnonzero(np.isfinite(data) & (data > 0))
+    if idx.size == 0:
+        raise DataUnavailable('No valid pixels found in sampler footprint')
+    rng = np.random.default_rng(seed)
+    take_n = int(min(max_rows, idx.size))
+    choose = rng.choice(idx, size=take_n, replace=(idx.size < take_n))
+    hp = HEALPix(nside=int(src.nside), order=str(src.order), frame='icrs')
+    lon, lat = hp.healpix_to_lonlat(choose)
+    ra = np.asarray(lon.to_value(u.deg), dtype=float) % 360.0
+    dec = np.asarray(lat.to_value(u.deg), dtype=float)
+    return pd.DataFrame({'ra': ra, 'dec': dec})
+>>>>>>> 23fc8593e5c3b3f412eac41c5bc604cc76a63336
 
 
 def _assign_target_z_from_catalog(catalog: pd.DataFrame, target: pd.DataFrame) -> np.ndarray:
@@ -659,6 +695,7 @@ def query_public_density_catalog_for_sampler(
     raise DataUnavailable('Could not load a sufficient public galaxy density catalog for the sampler footprint')
 
 
+<<<<<<< HEAD
 def _mask_based_target_positions(sampler: Any, max_rows: int = 5000, seed: int = 0) -> pd.DataFrame:
     """Build target positions directly from the sampler mask footprint when available."""
     ensure_astropy_stack()
@@ -686,6 +723,8 @@ def _mask_based_target_positions(sampler: Any, max_rows: int = 5000, seed: int =
     })
 
 
+=======
+>>>>>>> 23fc8593e5c3b3f412eac41c5bc604cc76a63336
 def build_public_density_targets_with_sampler(
     sampler: Any,
     max_rows: int = 5000,
@@ -694,6 +733,7 @@ def build_public_density_targets_with_sampler(
     seed: int = 0,
     density_k: int = 64,
 ) -> tuple[pd.DataFrame, np.ndarray, str]:
+<<<<<<< HEAD
     """Build screening targets from the footprint itself and evaluate public density there.
 
     This function is intentionally permissive: for screening tests we prefer a
@@ -764,6 +804,18 @@ def build_public_density_targets_with_sampler(
         kappa = np.asarray(kappa, dtype=float)[take]
     gal, source = query_public_density_catalog_for_sampler(sampler, max_rows=max(4*max_rows, 4000), zmin=zmin, zmax=zmax, seed=seed)
     dens = density_proxy_at_targets(gal['ra'], gal['dec'], targets['ra'], targets['dec'], k=max(2, min(int(density_k), len(gal))))
+=======
+    """Build screening targets from the footprint itself and evaluate public density there."""
+    targets = sample_targets_from_sampler(sampler, max_rows=max_rows, seed=seed)
+    kappa = np.asarray(sampler.sample(targets['ra'], targets['dec']), dtype=float)
+    good = np.isfinite(kappa)
+    targets = targets.loc[good].reset_index(drop=True)
+    kappa = kappa[good]
+    if len(targets) < 12:
+        raise DataUnavailable('Too few valid target positions inside the requested lensing footprint')
+    gal, source = query_public_density_catalog_for_sampler(sampler, max_rows=max(4*max_rows, 4000), zmin=zmin, zmax=zmax, seed=seed)
+    dens = density_proxy_at_targets(gal['ra'], gal['dec'], targets['ra'], targets['dec'], k=min(int(density_k), len(gal)))
+>>>>>>> 23fc8593e5c3b3f412eac41c5bc604cc76a63336
     targets['density_proxy'] = dens
     targets['z'] = _assign_target_z_from_catalog(gal, targets)
     if np.all(~np.isfinite(targets['z'])):
@@ -771,8 +823,11 @@ def build_public_density_targets_with_sampler(
     else:
         medz = float(np.nanmedian(targets['z']))
         targets['z'] = np.where(np.isfinite(targets['z']), targets['z'], medz)
+<<<<<<< HEAD
     if target_note:
         source = f"{source} ({target_note})"
+=======
+>>>>>>> 23fc8593e5c3b3f412eac41c5bc604cc76a63336
     return targets.reset_index(drop=True), np.asarray(kappa, dtype=float), source
 
 
