@@ -1,0 +1,321 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array,tabularx,longtable}
+\usepackage{enumitem}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{xurl}
+\setlength{\emergencystretch}{4em}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{axiom}{Axiom}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\HQ}{H(\mathbb{Q})}
+\newcommand{\OQ}{O(\mathbb{Q})}
+\newcommand{\DZ}{\mathrm{Dix}\mathbb{Z}_2(\mathbb{Q})}
+\newcommand{\code}[1]{\texttt{#1}}
+% verification-status tags (see Table~\ref{tab:legend})
+\newcommand{\tR}{\textsuperscript{[R]}}
+\newcommand{\tS}{\textsuperscript{[S]}}
+\newcommand{\tI}{\textsuperscript{[I]}}
+
+\title{Algebra-Level Standard Model Structure in CCDR~v7.10 and Synthesis~v3.9:\\
+A Two-Tier Hybrid Algebra, the Oriented $5\to4$ Fold, and a Machine-Checked Residual Audit}
+\author{Dmytro Rakovskyi}
+\date{23 November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present the algebraic core of the Standard Model (SM) derivation chain of Crystallographic Cosmology from Dimensional Reduction (CCDR~v7.10) and the Extended Crystallographic Synthesis (v3.9), together with an executable audit in the Java framework \code{algebraphysicsflows}. The architecture is two-tiered. Tier~1 is an associative, finite-support twisted skew-group lattice algebra over $H(\mathbb{Q})$ of \emph{runtime} rank $N$, so that $N$ is an observable and is never hard-coded to $8$ (the Bott--Milnor--Kervaire constraint is avoided because the bulk is infinite-dimensional). Tier~2 is the non-associative crossed product $\DZ$ with $128$ rational coordinates. The two are linked by an \emph{additive, surjective, non-multiplicative} parity fold, and by a distinct $t=1$ specialization that is a ring homomorphism on a local subring. We prove, and machine-check on finite instances, the conditions under which the dark-sector endomorphism $\mathrm{BSM1}$ ($g_0\mapsto 2g_0$) is an algebra endomorphism; we record the oriented-fold sign lock (SM-D11, P-A30, CL9) and its exact degeneracy (OP20); we verify closure of an $8$-dimensional $\mathfrak{su}(3)$-type and a $3$-dimensional $\mathfrak{su}(2)$ derivation algebra and the exact anomaly cancellation of the $16$-state Weyl generation; and we audit the cyclotomic flavour closure $\mathbb{Q}(\zeta_{12})$ against PDG~2025 at 40-digit precision. The audit gives a pass for the Koide ratio and for the Jarlskog invariant evaluated with the measured phase, and records an explicit tension (SM-D8) for the $\zeta_{12}$ phase and the $(N-4)\nu$ scaling. We state precisely what is \emph{not} claimed: in particular, no identification of the $16$ Weyl states with minimal left ideals of $\DZ$ is made.
+\end{abstract}
+
+\section*{Conventions and verification status}
+The theory follows \cite{CCDR}; the code is \cite{Repo}. 
+Every statement carries a status tag, defined in Table~\ref{tab:legend}. Counts of tests refer to the branch \code{codex/ccdr-v710-synthesis-v39-pipeline}: the tested commit is \code{d577dca} (build: Java~17.0.4.1, Maven~3.9.11, Surefire~3.2.5), the branch tip \code{a2672fb} adds the verification report, and the clean run reports $95$ test classes and $937$ tests with $937$ passing, $0$ failures, $0$ errors, $0$ skipped. At the time of writing the default branch \code{master} (commit \code{43547a6}) contains $93$ test classes; the $95/937$ state exists only on the branch named above until it is merged.
+
+\begin{table}[!htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\toprule
+Tag & Meaning \\
+\midrule
+\tR & Verified in the recorded Maven run ($95$ classes, $937$ tests) and reported in \code{docs/CCDR\_SM\_DERIVATION\_VERIFICATION\_REPORT.md}. \\
+\tS & Verified by the supplementary class \code{CCDRStandardModelDerivationTest} (6 tests, not part of the $937$), compiled and run against the same branch classes with \code{javac}/JUnit~4.13.2. This class has not been run under Maven (Part~II of the package states this explicitly). \\
+\tI & Interpretive: a modelling reading proposed by CCDR/Synthesis, or a hand proof not itself a test. Not an executed claim. \\
+\bottomrule
+\end{tabularx}
+\caption{Status tags.}\label{tab:legend}
+\end{table}
+
+\section{Architectural Axioms}\label{sec:axioms}
+\begin{axiom}[Dimension as an observable]\label{ax:N}
+The bulk is parametrized by a lattice rank $N\in\mathbb{N}$ supplied at run time. No result below is allowed to depend on $N=8$; rank-dependent statements are stated for all $N$ in the stated range (the code is exercised at $N=5,8$ in the Maven run\tR\ and at $N\in\{1,2,3,4,5,6,7,9,11\}$ in the supplementary class\tS).
+\end{axiom}
+\begin{axiom}[Associative bulk]\label{ax:bulk}
+Tier~1 is the associative algebra $\mathcal{A}_N=\mathrm{HMN}(\HQ;\Z^N,\sigma,\tau)$ of finitely supported twisted skew-group series defined in \S\ref{sec:bulk}. Its Hahn--Mal'cev--Neumann completion (a division ring) is the intended ambient object; it is \emph{not} implemented.
+\end{axiom}
+\begin{axiom}[Non-associative boundary]\label{ax:boundary}
+Tier~2 is $\DZ=(\Q(i)\otimes_\Q \HQ\otimes_\Q \OQ)\rtimes C_2$: $64$ coordinates in $\Q(i)$, i.e.\ $128$ rational coordinates, with $128\times128$ left-multiplication matrices. The generator $u$ of $C_2$ (cf.\ Dixon \cite{Dixon}) acts by the Cayley--Dickson parity $\alpha$ on $\OQ$, fixing $1,i,j,k$ and negating $l,il,jl,kl$, via $(a+bu)(c+du)=(ac+b\,\alpha(d))+(ad+b\,\alpha(c))u$ (here $u^2=1$).
+\end{axiom}
+\begin{axiom}[Bulk-to-boundary maps are not ring homomorphisms]\label{ax:maps}
+Two distinct $5\to4$ maps are used: the additive parity fold $\pi_{\mathrm{par}}$ (\S\ref{sec:fold}) and the specialization $\chi_5\mapsto1$ on a local subring (\S\ref{sec:bulk}). Neither identifies $\mathcal{A}_N$ with $\DZ$.
+\end{axiom}
+
+\begin{proposition}[No multiplicative bridge]\label{prop:nohom}\tI
+Let $A$ be associative and $B$ a ring (not assumed associative). (i) If $\varphi:A\to B$ is a surjective ring homomorphism then $B$ is associative. (ii) If $\psi:B\to A$ is an injective ring homomorphism then $B$ is associative. Since $\DZ$ is not associative, there is no surjective ring homomorphism from an associative ring onto $\DZ$, and no embedding of $\DZ$ into an associative ring, in particular none into a twisted Hahn ring.
+\end{proposition}
+\begin{proof}
+(i) For $x=\varphi(a),y=\varphi(b),z=\varphi(c)$: $(xy)z=\varphi((ab)c)=\varphi(a(bc))=x(yz)$. (ii) $\psi((xy)z)=(\psi x\,\psi y)\psi z=\psi x(\psi y\,\psi z)=\psi(x(yz))$, and $\psi$ is injective.
+\end{proof}
+\noindent Non-associativity of $\OQ$ and $\DZ$ is witnessed exactly by the associator of $e_1,e_2,e_4$ in $\OQ$ and of their images in $\DZ$.\tR
+
+\paragraph{Bott--Milnor--Kervaire.} Finite-dimensional real division algebras exist only in dimensions $1,2,4,8$ \cite{BottMilnor,Kervaire}. Axiom~\ref{ax:bulk} escapes any appeal to this restriction because $\mathcal{A}_N$ is infinite-dimensional over $\Q$ and need not be a division algebra at finite support; Axiom~\ref{ax:N} ensures that $N=8$ plays no distinguished role in the construction.
+
+\section{The Arbitrary-$N$ Twisted Bulk and BSM1}\label{sec:bulk}
+\begin{definition}[Tier-1 carrier]\label{def:bulk}
+Exponent coordinates are indexed from $0$. Fix $N\ge1$ and an alternating matrix $S\in M_N(\F_2)$ (symmetric, zero diagonal). Put $\tau(g,h)=(-1)^{B(g,h)}$ with $B(g,h)=\sum_{i<j}S_{ij}g_ih_j$ and $\sigma_g=\mathrm{Ad}(i)^{g_1}$, i.e.\ $\sigma_g$ negates the $j,k$ components of a quaternion when the coordinate $g_1$ is odd. $\mathcal{A}_N$ is the $\Q$-span of $X^g q$ ($g\in\Z^N$, $q\in\HQ$, finitely many terms) with
+\begin{equation}
+(X^gq)(X^hr)=\tau(g,h)\,X^{g+h}\,q\,\sigma_g(r).\label{eq:prod}
+\end{equation}
+The default rank-three matrix has $S_{12}=S_{21}=1$ and all other entries zero.
+\end{definition}
+
+\begin{proposition}[Associativity at every rank]\label{prop:assoc}\tI\tS
+\eqref{eq:prod} defines an associative algebra for every $N$ and every $S$.
+\end{proposition}
+\begin{proof}
+Since $\mathrm{Ad}(i)^2=\mathrm{Ad}(-1)=\mathrm{id}$, $\sigma_g\sigma_h=\sigma_{g+h}$. $B$ is bilinear, so $B(g,h)+B(g+h,k)=B(g,h)+B(g,k)+B(h,k)=B(h,k)+B(g,h+k)$ in $\F_2$. Then $((X^gq)(X^hr))(X^ks)$ and $(X^gq)((X^hr)(X^ks))$ both equal $(-1)^{B(g,h)+B(g,k)+B(h,k)}X^{g+h+k}\,q\,\sigma_g(r)\,\sigma_{g+h}(s)$ because $\sigma_g$ is a ring automorphism of $\HQ$ and $\tau$ is central.
+\end{proof}
+\noindent Machine check: associativity on random elements at $N\in\{1,2,3,4,5,6,7,9,11\}$ (ranks outside $\{1,2,4,8\}$ deliberately included).\tS\ Non-commutativity is genuine: $X^{e_1}j=-jX^{e_1}$ and $X^{e_1}X^{e_2}=-X^{e_2}X^{e_1}$ for $S_{12}=1$.\tR\tS
+
+\paragraph{Rank-one subring.} At $N=1$ the carrier \code{RationalTwistedHahnSeries} is the rational-function subring $\HQ(t)$ with $t=i^{-1}X$ central and $X=i\,t$. It is a subring of, not the full, Hahn--Mal'cev--Neumann division ring \cite{Malcev,Neumann}.\tR
+
+\begin{proposition}[BSM1 admissibility]\label{prop:bsm1}\tI\tS
+Let $\psi:X^{(g_0,g')}q\mapsto X^{(2g_0,g')}q$. Then $\psi$ is an algebra endomorphism of $\mathcal{A}_N$ if and only if $S_{0j}=0$ for all $j$ (coordinate $0$ is absent from the cocycle) and $\sigma$ does not depend on $g_0$ (true here: $\sigma$ reads $g_1$ only, and is the identity at $N=1$). In that case $\psi$ is injective, its image is the subalgebra $\mathcal{A}_N^{\mathrm{even}}$ of elements supported on even $g_0$, $X_0:=X^{e_0}$ is central, and $\mathcal{A}_N=\mathcal{A}_N^{\mathrm{even}}\oplus X_0\mathcal{A}_N^{\mathrm{even}}$ is a $\Z/2$-grading. The odd-$g_0$ sector is the \emph{residue}: it is never in the image.
+\end{proposition}
+\begin{proof}
+Multiplicativity requires $\tau(\psi g,\psi h)=\tau(g,h)$. The terms of $B$ involving $g_0$ are $\sum_{j>0}S_{0j}g_0h_j$; after doubling they become $\sum_{j>0}S_{0j}\,2g_0h_j\equiv0$. The two agree for all $g,h$ iff every $S_{0j}=0$ (take $g=e_0$, $h=e_j$ for necessity). Injectivity and the image are read off from the exponent map. Centrality of $X_0$: $\tau(e_0,h)=\tau(h,e_0)=1$ and $\sigma_{e_0}=\mathrm{id}$, so $X_0\,(X^hq)=X^{e_0+h}q=(X^hq)\,X_0$.
+\end{proof}
+\noindent Machine checks.\tR\tS\ (i) $(1,0^7)\mapsto(2,0^7)$ at rank $8$ and the corresponding odd residue at rank $5$. (ii) $\psi$ is multiplicative, additive and injective at the ranks above; halving recovers the source; $X_0$ commutes with random elements. (iii) The admissibility check fires: for a cocycle with $S_{01}=1$ the method refuses with \code{OPERATION\_UNDEFINED}, and the obstruction is exhibited: $\tau(e_0,e_1)=-1$ but $\tau(2e_0,e_1)=+1$. (iv) The registered flow $\Z^N\to$ basis element $\to$ \code{dark-matter-endomorphism} $\to$ \code{has-dark-matter-residue} returns \emph{true} before and \emph{false} after.
+
+\begin{proposition}[The $t=1$ specialization]\label{prop:t1}\tS
+On the local subring of $\HQ(t)$ of series regular at $t=1$, evaluation at $t=1$ is a ring homomorphism into $\HQ$ (since $t$ is central), with kernel the two-sided ideal $(t-1)$; composed with $\HQ\hookrightarrow$ even slice of $\DZ$ it is the registered transfer \code{chi5-to-one-dixon}, with $X=it\mapsto i$. It is the $(t-1)$-adic residue, \emph{not} the $t$-adic \code{group-valuation}/\code{leading-coefficient}: $t-1$ has group valuation $0$ and leading coefficient $-1$ yet lies in the kernel. Poles at $t=1$ are outside its domain.
+\end{proposition}
+\noindent A rank-$N$ analogue (specializing the central coordinate $X_0\to1$) is a retraction onto the $X_0$-free subring, commutes with $\psi$ (since $1^2=1$), and its kernel $(X_0-1)\mathcal{A}_N$ is a two-sided ideal stable under $\psi$.\tS\ This analogue is a test-local construction, not a library method.
+
+\paragraph{Interpretation.}\tI\ CCDR reads the residue sector as the algebraic locus of the inelastic dark sector (\S\ref{sec:audit}). The algebraic content above (non-surjectivity of an injective endomorphism, with a central $\Z/2$ generator) is proved; the physical identification is a hypothesis.
+
+\section{The Chiral Fold and OP20}\label{sec:fold}
+\subsection{The parity fold}
+\begin{definition}[Parity fold]\label{def:fold}
+For $N\ge5$ and $a=\sum_g X^gq_g\in\mathcal{A}_N$ let $c(g)\in\{0,\dots,31\}$ be the integer whose binary digits are the parities of $g_0,\dots,g_4$ (the first five exponent coordinates, indexed from $0$), and set
+\[
+\pi_{\mathrm{par}}(a)=\sum_g\;\sum_{m=0}^{3}(q_g)_m\,\varepsilon_{4c(g)+m}\in\Q^{128},
+\]
+where $\varepsilon_n$ is the $n$-th basis vector of $\DZ$ in the order $[\mathrm{Re}\,c_0,\mathrm{Im}\,c_0,\dots,\mathrm{Re}\,c_{63},\mathrm{Im}\,c_{63}]$ and $(q)_m$ are the real, $i$, $j$, $k$ components.
+\end{definition}
+
+\begin{proposition}\label{prop:fold}\tR\tS
+(i) $\pi_{\mathrm{par}}$ is $\Q$-linear and surjective onto $\Q^{128}$ for $N\ge5$ (each coordinate is hit by one basis monomial; all $128$ checked). (ii) Coordinates beyond the fifth do not affect $\pi_{\mathrm{par}}$ (equal folds at $N=5$ and $N=8$ for the tested elements; the supplementary class shifts all beyond-fifth exponents of random elements at $N=6,8,11$). (iii) It is not multiplicative: for $x=X^{e_0}$ at $N=5$, $\pi_{\mathrm{par}}(x^2)=+1$ (class $0$, real coordinate), whereas $\pi_{\mathrm{par}}(x)=\varepsilon_4$ is the octonion unit $e_2$ and $\pi_{\mathrm{par}}(x)^2=-1$. (iv) At $N=5$ the kernel of $\pi_{\mathrm{par}}$ (elements whose coefficient sum in each parity class vanishes) is a two-sided ideal, because $\sigma_g$ and $\tau(g,\cdot)$ depend only on exponent parities, so right and left multiplication act on each class by a fixed automorphism and a fixed sign; at $N>5$ it is not an ideal whenever the cocycle couples a beyond-fifth coordinate: with $S_{56}=1$, $(1-X^{e_5})\in\ker\pi_{\mathrm{par}}$ but $(1-X^{e_5})X^{e_6}\notin\ker\pi_{\mathrm{par}}$.
+\end{proposition}
+\noindent Part (iv) is a supplementary finding (hand proof as stated, sampled on random kernel elements and on the explicit counterexample)\tS: the fold factors through an associative $128$-dimensional parity quotient at rank five only; it is the packing of that quotient into $\DZ$ that is not multiplicative, as (iii) shows. This is consistent with, and is a concrete instance of, Proposition~\ref{prop:nohom}.
+
+\subsection{Orientation sign bookkeeping}
+In a free-face collapse of the $4$-simplex $\Delta^4$ the incidence number of the removed face is $(-1)^{p}$, where $p$ is the position of the omitted vertex; the elementary-collapse tests recover $+1,-1,+1,-1,+1$ for $p=0,\dots,4$, each step removing exactly a face--coface pair.\tS\ In the report's $2$-simplex example the chain-homotopy entry at face $(0,2)$ is $-1$.\tR\ Because spatial faces of both a $(4,1)$ and a $(1,4)$ cell have incidence $+1$ in time-ordered labelling, the incidence alone is \emph{not} the SM-D11 observable (the repository's pipeline tests feed the incidence $-1$ into the \code{CCDRChiralFold} constructor as the sign inputs; this is a bookkeeping choice, not a derivation of SM-D11). The observable is the orientation of the whole cell against a fixed foliation frame, i.e.\ the sign of the determinant of the edge matrix: $+1$ for $(4,1)$, $-1$ for $(1,4)$.\tS\ The signed barycentric subdivision of $\partial\Delta^4\cong S^3$ is a chain map carrying the orientation cycle to a coherent $\pm1$ cycle with $5\cdot4!=120$ pieces and induces an isomorphism on $H_3$; collapsing $\Delta^4$ to a point takes $15$ elementary steps.\tS
+
+\subsection{The sign lock and its degeneracy}
+\begin{definition}\label{def:chiralfold}
+\code{CCDRChiralFold}$(\varepsilon_5,a,s,c)\in\{\pm1\}^4$ (terminal orientation, foliation arrow, SM-D11 simplex sign, P-A30 CMB parity-odd sign) has \emph{chirality sign} $\chi=\varepsilon_5 a$. It is left-chiral iff $\chi>0$; SM-D11 is consistent iff $s=\chi$; P-A30 is consistent iff $c=\chi$; CL9 holds iff both hold.
+\end{definition}
+\begin{proposition}[OP20 degeneracy]\label{prop:op20}\tR\tS
+The map $(\varepsilon_5,a)\mapsto\chi$ is $2$-to-$1$: $(+1,-1)$ and $(-1,+1)$ both give $\chi=-1$, and $(+1,+1)$, $(-1,-1)$ both give $+1$. For each chirality exactly one pair $(s,c)$ is CL9-consistent. Hence the sign lock fixes $(s,c)$ from the product but does not identify $\varepsilon_5$ and $a$ individually. The report's tested input $(\varepsilon_5,a,s,c)=(-1,+1,-1,-1)$ gives $\chi=-1$ with all three consistency predicates true; in the repository's convention this is \emph{right}-chiral, and the right-chiral and left-chiral assignments are each realized by two of the four $(\varepsilon_5,a)$ choices.
+\end{proposition}
+\noindent The helper \code{projectDixonParity} selects the identity-group block (left) or the $u$-block (right) of $\DZ$. It is a \emph{candidate} chirality projection, not a minimal-ideal identification; the orbifold/domain-wall origin of a single 4D chirality is that of \cite{Kaplan}.\tR\tS\ Three further helpers, \code{orientCyclotomicPhase}, \code{smD8SignedSine}, \code{smD8MatchesNu}, conjugate a cyclotomic phase for right chirality, so that $\sin\delta$ changes sign with $\chi$ (\S\ref{sec:flavour}).
+
+\section{Gauge Generators and Anomaly Cancellation}\label{sec:gauge}
+\subsection{Lie closure}
+Let $D_{ab}=[L_a,L_b]+[L_a,R_b]+[R_a,R_b]$ denote the inner derivations of $\OQ$ (exact $8\times8$ rational matrices), $a,b\in\{1,\dots,7\}$; these span $\mathfrak{g}_2$. The routine \code{su3StabilizerCandidates} returns eight linearly independent elements annihilating $l=e_4$ (the stabilizer of $l$ in $G_2$ is of $SU(3)$ type), and \code{quaternionAdjointGenerators} returns three adjoint brackets $\mathrm{ad}_{i,j,k}$ on $\HQ$. Both lists close under the exact rational bracket (membership in the rational span).\tR
+\begin{proposition}\label{prop:closure}\tS
+(i) Each of the eight stabilizer elements is a derivation of $\OQ$ annihilating $l$ (checked on all $64$ basis products). (ii) The exact Killing forms of the $8$-dimensional and $3$-dimensional algebras are negative definite (Sylvester test over $\Q$), so both are compact real forms: $\mathfrak{su}(3)$ and $\mathfrak{su}(2)$ after extension of scalars.
+\end{proposition}
+
+\subsection{What lifts to $\DZ$}
+The $\mathfrak{su}(3)$-type algebra acts on $\OQ$, whereas the boundary is $\DZ$ with the crossed-product action of $\alpha$. A derivation $D$ of $\OQ$ is lifted naturally as $1\otimes1\otimes D$ on the $64$ coordinates (fixing $u$).
+\begin{proposition}[Boundary of the $\mathfrak{su}(3)$ reading]\label{prop:lift}
+(i) \tI\ A derivation $D$ of $\OQ$ lifts to a derivation of $\DZ$ by $1\otimes1\otimes D$ (fixing $u$) if and only if $D\alpha=\alpha D$. (ii) \tS\ $\alpha$ normalizes the $8$-dimensional stabilizer algebra, acting with $\mathrm{tr}\,\mathrm{Ad}_\alpha=-2$, i.e.\ with a $3$-dimensional fixed space and a $5$-dimensional $(-1)$-eigenspace. Basis elements of the fixed space lift (exact check on random elements); basis elements of the $(-1)$-eigenspace do not. The fixed space is closed with negative-definite Killing form, hence a compact $3$-dimensional algebra ($\mathfrak{su}(2)$ after scalar extension). The quaternionic $\mathfrak{su}(2)$ acts on the $\HQ$ factor and lifts. Consequently the full $\mathfrak{su}(3)$ closes as an algebra of derivations of $\OQ$ but does \emph{not} lift, in this natural sense, to derivations of $\DZ$.
+\end{proposition}
+\begin{proof}[Proof of (i)]
+Sufficiency: if $D\alpha=\alpha D$, the product formula of Axiom~\ref{ax:boundary} involves only coefficientwise products in $\Q(i),\HQ,\OQ$ and $\alpha$; $D$ is a derivation of the $\OQ$ factor, acts trivially on the other factors, and commutes with $\alpha$, so the Leibniz rule holds. Necessity: take $x=u$ and $y=du$ with $d$ in the coefficient algebra (identity block); then $xy=\alpha(d)$, $D(x)=0$ and $x\,D(y)=\alpha(Dd)$, so Leibniz gives $D\alpha(d)=\alpha D(d)$ for all $d$. A nonzero element with $\alpha D\alpha=-D$ cannot satisfy this.
+\end{proof}
+\noindent Proposition~\ref{prop:lift} does not preclude other lifts, nor a gauge reading in which $\mathfrak{su}(3)$ acts on $\OQ$ alone; it records that the report's closure statement is a statement about $\OQ$, not about derivations of the boundary algebra. A physical gauge identification is not implemented and is not claimed.\tI
+
+\paragraph{Witt idempotents.} The element $w=i_{\mathbb{C}}\,l$ satisfies $w^2=1$; $w_\pm=\tfrac12(1\pm w)$ are idempotents with $w_++w_-=1$ and $w_+w_-=0$, witnessing zero divisors in $\DZ$.\tR\ (The group idempotents $\tfrac12(1\pm u)$ are separate.)
+
+\subsection{The $16$-state generation}
+\begin{table}[!htbp]
+\centering\small
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+State & $SU(3)_C$ & $SU(2)_L$ & $T_3$ & $Y$ & $Q$ & mult.\\
+\midrule
+$\nu_L$ & $1$ & $2$ & $+\tfrac12$ & $-\tfrac12$ & $0$ & 1\\
+$e_L$ & $1$ & $2$ & $-\tfrac12$ & $-\tfrac12$ & $-1$ & 1\\
+$u_L^{r,g,b}$ & $3$ & $2$ & $+\tfrac12$ & $+\tfrac16$ & $+\tfrac23$ & 3\\
+$d_L^{r,g,b}$ & $3$ & $2$ & $-\tfrac12$ & $+\tfrac16$ & $-\tfrac13$ & 3\\
+$e_R^{c}$ & $1$ & $1$ & $0$ & $+1$ & $+1$ & 1\\
+$\nu_R^{c}$ & $1$ & $1$ & $0$ & $0$ & $0$ & 1\\
+$u_R^{c,r,g,b}$ & $\bar 3$ & $1$ & $0$ & $-\tfrac23$ & $-\tfrac23$ & 3\\
+$d_R^{c,r,g,b}$ & $\bar 3$ & $1$ & $0$ & $+\tfrac13$ & $+\tfrac13$ & 3\\
+\bottomrule
+\end{tabular}
+\caption{The $16$ left-handed Weyl fields of \code{StandardModelWeylGeneration}, with $Q=T_3+Y$ (not $T_3+Y/2$). Superscript $c$ denotes charge conjugates of right-handed fields; $\nu_R^c$ is sterile.}\label{tab:weyl}
+\end{table}
+\begin{proposition}[Exact traces]\label{prop:anom}\tR\tS
+Over the $16$ states: $\mathrm{Tr}\,Y=0$, $\mathrm{Tr}\,Y^3=0$, $\mathrm{Tr}\,T_3^2=2$, $\mathrm{Tr}\,Q^2=16/3$; the mixed traces $SU(2)^2Y$ and $SU(3)^2Y$ vanish; the cubic $SU(3)$ index is $2-1-1=0$; the number of $SU(2)$ doublets is $3+1=4$, so the Witten parity is $0$. Every state satisfies $Q=T_3+Y$.
+\end{proposition}
+\begin{proof}
+Direct summation of Table~\ref{tab:weyl}. For instance $\mathrm{Tr}\,Q^2=1+3\cdot\tfrac49+3\cdot\tfrac19+1+3\cdot\tfrac49+3\cdot\tfrac19=\tfrac{16}{3}$ and $\mathrm{Tr}\,T_3^2=2\cdot\tfrac14+6\cdot\tfrac14=2$.
+\end{proof}
+\begin{remark}[UV Weinberg ratio]\label{rem:ratio}\tR
+$\mathrm{Tr}\,T_3^2/\mathrm{Tr}\,Q^2=3/8=0.375$ is the ultraviolet normalization of the compactification scheme, before RG running. It depends only on the representation content, exactly as in grand unified theories \cite{GeorgiGlashow}, and is not specific to the algebraic construction here. Comparison with $\sin^2\theta_W(M_Z)_{\overline{\mathrm{MS}}}=0.23122\pm0.00006$ requires RG running and scheme matching, which the pipeline does not implement: the status is \emph{scale-dependent}, not pass/fail.
+\end{remark}
+\paragraph{Non-claim.} The class records charges; it implements no map from the $16$ Weyl states to minimal left ideals or specific coordinates of $\DZ$. That identification is open (\S\ref{sec:open}).
+
+\section{Cyclotomic Flavour Closure and Empirical Residuals}\label{sec:flavour}
+\subsection{Exact arithmetic}\label{sec:exact}
+The Koide ratio \cite{Koide} and the Jarlskog invariant \cite{Jarlskog} are evaluated on this field. $\Q(\zeta_{12})=\Q[x]/(\Phi_{12})$ with $\Phi_{12}=x^4-x^2+1$ and $i=\zeta_{12}^3$. The tests verify $\zeta_{12}^3=i$, $\zeta_{12}^6=-1$, $\zeta_{12}\zeta_{12}^{-1}=1$, exact norm $\zeta_{12}\bar\zeta_{12}=1$, and the $40$-digit value $\sqrt3/2+i/2$.\tR\tS\ Note $\sqrt3=\zeta_{12}+\zeta_{12}^{-1}\in\Q(\zeta_{12})$.
+
+\begin{proposition}[Koide parametrization]\label{prop:koide}\tI\tS
+Let $Q=(m_1+m_2+m_3)/(\sqrt{m_1}+\sqrt{m_2}+\sqrt{m_3})^2$. If $\sqrt{m_k}=1+\rho\cos(\theta+2\pi k/3)$ then $Q=\tfrac13+\tfrac{\rho^2}{6}$; hence $Q=\tfrac23$ iff $\rho^2=2$.
+\end{proposition}
+\begin{proof}
+$\sum_k\cos(\theta+2\pi k/3)=0$ and $\sum_k\cos^2(\cdot)=\tfrac32$, so $\sum\sqrt{m_k}=3$ and $\sum m_k=3+\tfrac32\rho^2$.
+\end{proof}
+\noindent The identity was checked at $40$ digits for $\theta\in\{0,\pi/6\}$ using exact $\zeta_{12}$ cosines, with $\rho\in\{\tfrac12,1,\sqrt2\}$ where all square roots remain positive.\tS\ It is an algebraic reading of the Koide relation added here; it is not part of the Maven run.
+
+\begin{proposition}[Jarlskog linearity]\label{prop:J}\tI\tS
+$J=s_{12}s_{23}s_{13}c_{12}c_{23}c_{13}^2\sin\delta$ is linear in $\sin\delta$; replacing $\delta$ by $\bar\delta$ (right chirality) changes the sign of $J$. For an exact phase $e^{i\delta}\in\Q(\zeta_{12})$ of norm one the value $\sin\delta=\mathrm{Im}$ is computed exactly then evaluated.
+\end{proposition}
+\noindent Exact rational-point phases $(1-t^2+2it)/(1+t^2)\in\Q(i)\subset\Q(\zeta_{12})$ have norm exactly one and can represent a small tilt exactly; for $t=1/400$ one finds $\sin\delta\approx 4.99997\times10^{-3}$ and, with left chirality, $\code{smD8MatchesNu}$ holds for $\nu=5.08\times10^{-3}$, $\pm1.2\times10^{-3}$, whereas right chirality returns the negative sine.\tS\ This is a statement of exact representability; it does not derive $\nu$.
+
+\subsection{Residual audit against PDG~2025}\label{sec:audit}
+Inputs are those of the verification report; external measurements are not derived by the repository. PDG values are cited as in that report \cite{PDG2025}.
+\begin{table}[!htbp]
+\centering\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{2.6cm}@{}}
+\toprule
+Quantity & Calculated (40-digit) & Anchor & Status\\
+\midrule
+Koide $Q$ (PDG lepton masses)\tR\tS &
+$Q=0.66666446341450017507$; $Q-\tfrac23\approx-2.2033\times10^{-6}$. $\tau$ $1\sigma$ interval $[0.66665938232272, 0.66666954423835]$. Old $m_\tau=1776.86$: $Q=0.66666051147739$. &
+$2/3$; $m_e=0.51099895$, $m_\mu=105.6583755$, $m_\tau=1776.93\pm0.09$ MeV. &
+\textbf{Pass}: the $1\sigma$ interval brackets $2/3$.\\
+CKM $J$, measured $\delta$\tR\tS &
+$J=3.1169935287554704726\times10^{-5}$ ($s_{12}=0.22501$, $s_{23}=0.04183$, $s_{13}=0.003732$, $c_{ij}=\sqrt{1-s_{ij}^2}$, $\delta=1.147$); residual $-3.0065\times10^{-8}$. &
+$J=3.12^{+0.13}_{-0.12}\times10^{-5}$, $\delta=1.147\pm0.026$ rad. &
+\textbf{Pass} ($\approx0.025\sigma$ against the lower width). Uses measured inputs: validates the evaluator, not a derivation.\\
+CKM, $\zeta_{12}$ phase and $(N-4)\nu$\tR\tS &
+$J_{\zeta_{12}}=1.7097509558246346\times10^{-5}$; $\sin(1.147)=0.91153437234141067$; residuals from $\nu=0.00508\pm0.0012$ and $4\nu=0.02032$: $0.90645437$ and $0.89121437$. &
+Same PDG $J$; $\nu$ is a model input, not a PDG measurement. &
+\textbf{Tension (SM-D8)}: $J_{\zeta_{12}}$ lies $\approx12$ lower widths below the PDG central value.\\
+$\mathrm{Tr}\,T_3^2/\mathrm{Tr}\,Q^2$\tR\tS &
+$3/8=0.375$ exactly. &
+$\sin^2\theta_W(M_Z)_{\overline{\mathrm{MS}}}=0.23122\pm0.00006$. &
+\textbf{Scale-dependent}; difference of central values $0.14378$; RG needed.\\
+Rank-$8$ BSM1 kinematics\tR &
+$(1,0^7)\mapsto(2,0^7)$. Assumed $\nu=0.00508$, $m_{\mathrm{DM}}=100$ GeV: $\delta_{\mathrm{BSM1}}=\nu m_{\mathrm{DM}}=0.508$ GeV. Assumed $\sigma_{\mathrm{eff}}=5\times10^{-49}$ cm$^2$, $\kappa=\nu$: $\sigma_0=\sigma_{\mathrm{eff}}/\nu^2=1.9375\times10^{-44}$ cm$^2$. &
+Approximate reference floor $10^{-47}$ cm$^2$ (supplied); LZ $4.2$ t\,yr strongest SI bound $2.2\times10^{-48}$ cm$^2$ at $40$ GeV/$c^2$ \cite{LZ}. &
+\textbf{Conditional}: $\sigma_{\mathrm{eff}}$ is $20\times$ below the supplied floor and $4.4\times$ below the strongest LZ bound; $\nu$, $\sigma_{\mathrm{eff}}$ are assumptions, not measurements.\\
+Void kurtosis and sign lock\tR &
+$(8-4)^2=16$; sign pairs $(+1,-1)$ and $(-1,+1)$ both give $-1$. &
+$k_4\approx4.45\pm0.20$ (supplied anchor). &
+\textbf{Conditional/OP20}: no derived map from $16$ to $k_4$ (difference $11.55$); no primary source for the anchor was identified in project data or the VAST software publication.\\
+\bottomrule
+\end{tabularx}
+\caption{Empirical residual audit (values from the recorded run; $\tR$ for the numbers, $\tS$ where reproduced independently).}\label{tab:resid}
+\end{table}
+
+\paragraph{Reading.} Two of the six rows are passes (Koide with the PDG $1\sigma$ interval; the Jarlskog invariant with the measured phase). The $J$ pass should be read with care: the inputs are measured, so it checks the evaluator. The row that tests the model, the $\zeta_{12}$ phase with $\nu$-scaling, is in tension: SM-D8 identifies the small chiral amplitude $\delta_{\mathrm{CP}}\sim\nu\sim10^{-3}$ with the CKM phase, whereas the measured CKM phase is $O(1)$ radian ($\sin\delta\approx0.91$). Resolution would need higher cyclotomic harmonics, a different identification of the angle, or running; none is implemented. All numerical values are decimal evaluations of exact objects at the stated precision.
+
+\section{UV Branch Invariance}\label{sec:uv}
+The Synthesis carries swappable microscopic branches: CDT (primary), causal sets (CST), the causal fermion system (CFS), entropic gravity (EG), and an eternal-attractor endpoint \cite{BLMS,Finster,Jacobson,Verlinde}. Its swap table states that CCDR survives a CDT$\to$CST swap (gauge group from the division-algebra structure; Poisson-counting $\Lambda$; the lattice-phonon picture is lost) and a CDT$\to$CFS swap (the simplicial lattice is lost), and that if the spectral Standard Model (SSM) framework fails the gauge group is still obtained from the division-algebra structure alone.\tI\ We make the corresponding claim precise at the level of what the software can check.
+\begin{table}[!htbp]
+\centering\small
+\begin{tabular}{@{}p{5.6cm}p{2.2cm}p{6.4cm}@{}}
+\toprule
+Layer & Simplicial input? & Under CST/CFS swap\\
+\midrule
+Tier-1 bulk, BSM1, $t=1$ map (\S\ref{sec:bulk}) & no & invariant: depends on $(N,S,\sigma)$ only\\
+Parity fold $\pi_{\mathrm{par}}$ (\S\ref{sec:fold}) & no & invariant\\
+$\DZ$, Witt idempotents, derivations (\S\ref{sec:gauge}) & no & invariant\\
+16-state charges, anomaly traces, $3/8$ & no & invariant\\
+$\mathbb{Q}(\zeta_{12})$, Koide, $J$ (\S\ref{sec:flavour}) & no & invariant\\
+Signed collapse, subdivision, frame orientation $s$ (SM-D11) & yes & branch-dependent: needs a simplicial orientation, absent in CFS; CST would need a causal-set analogue\\
+Arrow $a$ and $\varepsilon_5$ & causal order & defined while causality is preserved (the stated condition for the CFS swap; intrinsic to CST)\\
+\bottomrule
+\end{tabular}
+\caption{Dependence of verified layers on the UV microscopic geometry.}\label{tab:branch}
+\end{table}
+\begin{sloppypar}
+\begin{proposition}[Code-level invariance]\tI
+In the branch audited, the classes carrying \S\S\ref{sec:bulk}--\ref{sec:flavour} (\code{RationalTwistedLatticeAlgebra}, \code{RationalTwistedHahnSeries}, \code{RationalDixonZ2}, \code{RationalOctonionDerivations}, \code{StandardModelWeylGeneration}, \code{RationalCyclotomic}, \code{HighPrecisionAlgebraMetrics}, \code{CCDRChiralFold}) import nothing from \code{mathematics.topology} (checked by inspecting their import lists; the protocol gives the one-line command); \code{CCDRChiralFold} receives simplicial information only as the integer $s\in\{\pm1\}$. Replacing the CDT branch therefore changes only how $s$ is produced, and under CFS the SM-D11 leg of CL9 is lost while P-A30 and weak handedness remain.
+\end{proposition}
+\end{sloppypar}
+\noindent This is invariance of the algebraic layer under the swap, not a proof that the swapped microscopic theories reproduce the same inputs. The eternal-attractor branch swaps the endpoint of the cascade and leaves every object above unchanged.\tI
+
+\section{Open Problems OP19--OP20 and Remaining Boundaries}\label{sec:open}
+\paragraph{OP19.} Prove the self-extent correlation $c_g>0$ (matter occupancy implies geometric extent) for $\chi_k\to1$ regions, so that $\arg\min_a U_a=\arg\min_a I_{k-1}(\mathrm{fold}\,a)$ is a theorem rather than a modelling assumption (isoperimetric machinery plus a self-gravitating-extent lemma).\tI\ The software does not address OP19.
+
+\paragraph{OP20.} Decide whether the cascade arrow fixes $\varepsilon_5$ uniquely or whether $\varepsilon_5$ is spontaneously selected, in which case the prediction content is the correlation CL9 rather than an absolute handedness. Executable content: Proposition~\ref{prop:op20} shows that the product lock cannot by itself distinguish the two alternatives, and that the repository's tested input is right-chiral in its own convention.\tR\tS\ Resolution is expected from overlap-Dirac constructions on CDT.
+
+\paragraph{Remaining boundaries (recorded, not numbered in the sources).}
+\begin{enumerate}[label=(\alph*),leftmargin=*]
+\item Identification of the $16$ Weyl states with minimal left ideals/coordinates of $\DZ$: not implemented, not claimed.
+\item Whether $\mathfrak{su}(3)$ acts through a mechanism other than the natural lift (Proposition~\ref{prop:lift}).
+\item The SM-D8 tension (\S\ref{sec:audit}).
+\item RG evolution and scheme matching from $3/8$ to $M_Z$.
+\item A full arbitrary-support Hahn--Mal'cev--Neumann division ring: only the finite-support carrier and the rank-one rational-function subring exist.
+\item Provenance of $k_4\approx4.45$ and the interpretation of $(N-4)^2$.
+\item The reading of the odd-$g_0$ residue sector as the dark sector (Proposition~\ref{prop:bsm1} proves only the algebraic non-surjectivity).
+\end{enumerate}
+
+\section*{Reproducibility statement}
+The recorded run is \code{mvn -f groupimp/pom.xml clean} followed by \code{mvn -f groupimp/pom.xml test} on commit \code{d577dca} of the branch named above ($95$ classes, $937$ tests, all passing). A step-by-step protocol, including the supplementary class \code{CCDRStandardModelDerivationTest}, accompanies this manuscript.
+
+\begin{thebibliography}{99}
+\bibitem{BottMilnor} R.~Bott and J.~Milnor, On the parallelizability of the spheres, Bull.\ Amer.\ Math.\ Soc.\ \textbf{64} (1958) 87--89.
+\bibitem{Kervaire} M.~Kervaire, Non-parallelizability of the $n$-sphere for $n>7$, Proc.\ Natl.\ Acad.\ Sci.\ USA \textbf{44} (1958) 280--283.
+\bibitem{Malcev} A.~I.~Mal'cev, On the embedding of group algebras in a division algebra, Dokl.\ Akad.\ Nauk SSSR \textbf{60} (1948) 1499--1501.
+\bibitem{Neumann} B.~H.~Neumann, On ordered division rings, Trans.\ Amer.\ Math.\ Soc.\ \textbf{66} (1949) 202--252.
+\bibitem{Dixon} G.~M.~Dixon, \emph{Division Algebras: Octonions, Quaternions, Complex Numbers and the Algebraic Design of Physics}, Kluwer, 1994.
+\bibitem{Kaplan} D.~B.~Kaplan, A method for simulating chiral fermions on the lattice, Phys.\ Lett.\ B \textbf{288} (1992) 342--347.
+\bibitem{GeorgiGlashow} H.~Georgi and S.~L.~Glashow, Unity of all elementary-particle forces, Phys.\ Rev.\ Lett.\ \textbf{32} (1974) 438--441.
+\bibitem{Koide} Y.~Koide, Lett.\ Nuovo Cim.\ \textbf{34} (1982) 201; Phys.\ Rev.\ D \textbf{28} (1983) 252.
+\bibitem{Jarlskog} C.~Jarlskog, Commutator of the quark mass matrices in the standard electroweak model and a measure of maximal CP nonconservation, Phys.\ Rev.\ Lett.\ \textbf{55} (1985) 1039.
+\bibitem{PDG2025} Particle Data Group, \emph{Review of Particle Physics}, 2025 update, \url{https://pdg.lbl.gov/2025/} (lepton summary, tau listing, CKM review, physical constants), values as cited in the verification report.
+\bibitem{LZ} LZ Collaboration, dark matter search results from 4.2 tonne-years of exposure, Phys.\ Rev.\ Lett.\ \textbf{135} (2025), arXiv:2410.17036.
+\bibitem{BLMS} L.~Bombelli, J.~Lee, D.~Meyer and R.~D.~Sorkin, Space-time as a causal set, Phys.\ Rev.\ Lett.\ \textbf{59} (1987) 521.
+\bibitem{Finster} F.~Finster, \emph{The Principle of the Fermionic Projector}, AMS/IP, 2006.
+\bibitem{Jacobson} T.~Jacobson, Thermodynamics of spacetime: the Einstein equation of state, Phys.\ Rev.\ Lett.\ \textbf{75} (1995) 1260.
+\bibitem{Verlinde} E.~Verlinde, On the origin of gravity and the laws of Newton, JHEP \textbf{04} (2011) 029.
+\bibitem{CCDR} D.~Rakovskyi, \emph{Crystallographic Cosmology from Dimensional Reduction}, v7.10; and \emph{The Extended Crystallographic Synthesis}, v3.9.
+\bibitem{Repo} \url{https://github.com/rakovpublic/algebraphysicsflows}, branch \texttt{codex/ccdr-v710-synthesis-v39-pipeline}, \texttt{docs/CCDR\_SM\_DERIVATION\_VERIFICATION\_REPORT.md}.
+\end{thebibliography}
+\end{document}
